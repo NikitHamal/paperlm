@@ -135,7 +135,8 @@ def main():
                unresolved_by_subject={"|".join(k): v for k, v in sorted(unresolved.items(), key=lambda kv: -kv[1])[:15]})
     os.makedirs(os.path.dirname(a.out), exist_ok=True)
     json.dump(rep, open(a.out, "w"), indent=1)
-    json.dump(examples, open(a.out.replace("accuracy", "accuracy_samples"), "w"), indent=1, ensure_ascii=False)
+    root, ext = os.path.splitext(a.out)
+    json.dump(examples, open(root + "_samples" + (ext or ".json"), "w"), indent=1, ensure_ascii=False)
     print(json.dumps({k: rep[k] for k in ("n", "emitted", "unresolved_requests", "tiers", "accuracy", "failures_by_tier", "failure_reasons")}, indent=1))
     print("unresolved:", rep["unresolved_by_subject"])
 
