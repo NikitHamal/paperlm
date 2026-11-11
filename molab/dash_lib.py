@@ -77,14 +77,18 @@ def loss_svg(hist, w=720, hgt=220):
     return f'<svg width="{w}" height="{hgt}" xmlns="http://www.w3.org/2000/svg">{grid}{line(1,"#2563eb")}{line(2,"#dc2626")}<text x="50" y="{hgt-6}" font-size="11" fill="#2563eb">● train loss</text><text x="140" y="{hgt-6}" font-size="11" fill="#dc2626">● val loss</text><text x="{w-110}" y="{hgt-6}" font-size="11" fill="#64748b">step {int(x1):,}</text></svg>'
 
 def training():
-    S = load(); t = S.get("train", {})
-    if not t: return mo.Html(CSS + '<div class="pl-card">🏋️ Training not started yet.</div>')
+    S = load()
+    runs = {k: v for k, v in S.items() if k.startswith("train")}
+    if not runs: return mo.Html(CSS + '<div class="pl-card">🏋️ Training not started yet.</div>')
+    t = min(runs.values(), key=lambda r: r.get("best_val", 1e9))
+    tbl = "".join(f"<tr><td>{H.escape(str(r.get('run','?')))}</td><td>{r.get('step',0):,}/{r.get('total_steps',0):,}</td><td>{_n(r.get('train_loss'),4)}</td><td>{_n(r.get('val_loss'),4)}</td><td>{_n(r.get('best_val'),4)}</td><td>{_n(r.get('ppl'),2)}</td></tr>" for r in runs.values())
     st, tot = t.get("step", 0), t.get("total_steps", 1) or 1
     h = CSS + f"""<div class="pl-card"><div style="font-weight:800;margin-bottom:6px">🏋️ Live training telemetry — {H.escape(str(t.get('model','PaperLM-Tiny')))} · {_n(t.get('params'))} params</div>
     <div class="pl-grid">{_stat('Step', f'{st:,} / {tot:,}')}{_stat('Epoch', _n(t.get('epoch'),2))}{_stat('Train loss', _n(t.get('train_loss'),4))}
     {_stat('Val loss', _n(t.get('val_loss'),4))}{_stat('Perplexity', _n(t.get('ppl'),2))}{_stat('LR', f"{t.get('lr',0):.2e}")}
     {_stat('Tokens/s', _n(t.get('tok_s')))}{_stat('ETA', _fmt_s(t.get('eta_s')))}{_stat('Best val', _n(t.get('best_val'),4))}</div>
-    <div style="margin:8px 0">{_bar(st/tot)}</div>{loss_svg(t.get('history', []))}</div>"""
+    <div style="margin:8px 0">{_bar(st/tot)}</div>{loss_svg(t.get('history', []))}
+    <table style="font-size:12px;margin-top:6px"><tr><th align=left>run</th><th>step</th><th>train</th><th>val</th><th>best val</th><th>ppl</th></tr>{tbl}</table></div>"""
     return mo.Html(h)
 
 def samples():

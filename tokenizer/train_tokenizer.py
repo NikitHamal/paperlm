@@ -11,7 +11,7 @@ from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders, Re
 
 PATTERN = r" ?\\[A-Za-z]+| ?[A-Za-z\u0900-\u097F]+| ?[0-9]| ?[^\sA-Za-z0-9\u0900-\u097F]|\s+"
 STRUCT = ["<|pad|>", "<|bos|>", "<|end|>", "<|unit|>", "<|q|>", "<|oa|>", "<|ob|>", "<|oc|>", "<|od|>", "<|ans|>", "<|why|>",
-          "<|part|>", "<|pm|>", "<|or|>", "<|sol|>"]
+          "<|part|>", "<|pm|>", "<|or|>", "<|sol|>", "<|book|>"]
 
 def main():
     data, out = sys.argv[1], sys.argv[2]; vocab = int(sys.argv[3]) if len(sys.argv) > 3 else 6144
@@ -27,7 +27,7 @@ def main():
         pre_tokenizers.ByteLevel(add_prefix_space=False, use_regex=False)])
     tok.decoder = decoders.ByteLevel()
     tr = trainers.BpeTrainer(vocab_size=vocab, special_tokens=specials, initial_alphabet=pre_tokenizers.ByteLevel.alphabet(), min_frequency=3, show_progress=False)
-    tok.train([f"{data}/train.txt"], tr)
+    tok.train([f"{data}/train.txt"] + ([f"{data}/book.txt"] if os.path.exists(f"{data}/book.txt") else []), tr)
     tok.save(f"{out}/paperlm_tokenizer.json")
     # --- verification: exact round trip on val + train sample, fertility stats
     def lines(p): return [l.rstrip("\n") for l in open(p, encoding="utf-8") if l.strip()]
