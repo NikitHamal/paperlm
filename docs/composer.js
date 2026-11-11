@@ -29,7 +29,7 @@ export class Composer {
     return [u, [], false];
   }
   fromSeed(s, unit, board, level, subject, typ) {
-    const base = { board, level, subject, unit, marks: s.m, type: typ === "MCQ" ? "MCQ" : s.t || typ, source: "bank", verified: true, provenance: s.v === "T32" ? { tier: "teacher", p_blind: s.p, computed_check: !!s.n } : { tier: "bank", judged: s.j === 1 } };
+    const base = { board, level, subject, unit, marks: s.m, type: typ === "MCQ" ? "MCQ" : s.t || typ, source: "bank", verified: true, provenance: (s.v === "T32" || s.v === "T32v") ? { tier: "teacher", p_blind: s.p, computed_check: !!s.n } : { tier: "bank", judged: s.j === 1 } };
     if (s.c === "mcq") {
       let o = s.o.slice(), k = s.k;
       if (!o.some((x) => NOSHUF.test(x))) { const perm = [0, 1, 2, 3]; for (let i = 3; i > 0; i--) { const j = Math.floor(this.rand() * (i + 1)); [perm[i], perm[j]] = [perm[j], perm[i]]; } o = perm.map((i) => s.o[i]); k = "abcd"[perm.indexOf("abcd".indexOf(s.k))]; }

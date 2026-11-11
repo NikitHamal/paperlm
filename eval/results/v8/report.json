@@ -1,0 +1,21 @@
+{
+ "candidates": 655,
+ "kept": 441,
+ "fail_counts": {
+  "P_fail": 42,
+  "E_fail": 107,
+  "D_fail": 10,
+  "N_fail": 102,
+  "X_fail": 66
+ },
+ "kept_by_board": {
+  "IOE": 48,
+  "NEB": 205,
+  "BLE": 53,
+  "SEE": 125,
+  "CTEVT": 9,
+  "CEE": 1
+ },
+ "numeric_applicable": 184,
+ "notes": "LLM-verified (Qwen2.5-32B): permutation-consistent blind solve, explanation entailment, discrimination probe, executed blind Python for numerics, explanation arithmetic. Not ground truth."
+}

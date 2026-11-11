@@ -1,0 +1,97 @@
+# Verbatim sample of stage-2 verified teacher MCQs (random, seed 8) — 441/655 kept
+
+[BLE|C8|computer-science | Number System]
+Convert the binary number $11010_2$ to its decimal equivalent.
+  A. $26_{10}$
+  B. $27_{10}$
+  C. $25_{10}$
+  D. $28_{10}$
+  key A — The binary number $11010_2$ converts to $26_{10}$ because $1*2^4 + 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0 = 26$.
+
+[SEE|C10|economics | Development Economics]
+Sustainable development focuses on which of the following principles?
+  A. Meeting present needs without compromising future generations' ability to meet their own needs
+  B. Increasing the use of non-renewable resources to boost current economic activities
+  C. Focusing solely on immediate economic benefits without regard to environmental consequences
+  D. Prioritizing industrial growth over ecological sustainability
+  key A — Sustainable development aims to balance economic growth with environmental protection to ensure long-term viability.
+
+[SEE|C10|accountancy | Use of Information Technology in Office and Accounting]
+In computerized accounting systems, which function allows for the automatic adjustment of ledger accounts at the end of an accounting period?
+  A. Depreciation Calculation
+  B. Reconciliation Process
+  C. Journal Entry Automation
+  D. Automated Year-End Adjustments
+  key D — Automated Year-End Adjustments help in adjusting ledger accounts without manual intervention.
+
+[NEB|C11|physics | Modern Physics]
+According to Planck's quantum theory, the energy of a photon is directly proportional to its frequency. What is the proportionality constant in this relation?
+  A. $c$
+  B. $h$
+  C. $m$
+  D. $k_B$
+  key B — Planck's constant ($h$) is the proportionality constant in the equation $E = hf$.
+
+[NEB|C12|chemistry | Nuclear Chemistry and Applications of Radioactivity]
+Which of the following is the correct definition of radioactivity?
+  A. The process by which unstable atomic nuclei emit particles or energy to reach a more stable state.
+  B. The process by which an atom gains electrons to become negatively charged.
+  C. The process by which a nucleus splits into two approximately equal parts.
+  D. The process by which atoms combine to form molecules.
+  key A — Radioactivity involves the emission of particles or energy from unstable nuclei.
+
+[SEE|C10|science | Information and Communication Technology]
+Which law states that the number of transistors on a microchip doubles about every two years, though the cost of computers is halved?
+  A. Newton's Law
+  B. Ohm's Law
+  C. Moore's Law
+  D. Hawking's Law
+  key C — Moore's Law predicts the trend in the number of transistors on integrated circuits.
+
+[IOE|BE|fundamental-of-electrical-an | General]
+In a series RLC circuit at resonance, what happens to the impedance?
+  A. It becomes zero
+  B. It equals the resistance
+  C. It reaches its maximum value
+  D. It equals the inductive reactance
+  key B — At resonance, the inductive and capacitive reactances cancel out, leaving only the resistance as the circuit's impedance.
+
+[NEB|C11|physics | Heat and Thermodynamics]
+Which statement best describes the Zeroth Law of Thermodynamics?
+  A. Energy cannot be created or destroyed, only converted from one form to another.
+  B. If two systems are each in thermal equilibrium with a third system, they are in thermal equilibrium with each other.
+  C. The entropy of an isolated system not in equilibrium will tend to increase over time.
+  D. The total energy of an isolated system is always conserved.
+  key B — The Zeroth Law defines thermal equilibrium and the concept of temperature.
+
+[SEE|C10|accountancy | System of Government Accounting in Nepal]
+What is the term used to describe the system where financial transactions of the government are recorded, classified, and summarized?
+  A. Financial Reporting
+  B. Government Accounting
+  C. Budgeting Process
+  D. Treasury Management
+  key B — Government Accounting refers to the systematic recording of all financial transactions conducted by the government.
+
+[BLE|C8|mathematics | Statistics]
+The standard deviation of a dataset is $4$. What is the variance of this dataset?
+  A. $4$
+  B. $16$
+  C. $2$
+  D. $8$
+  key B — Variance is the square of the standard deviation, thus $4^2 = 16$.
+
+[NEB|C11|chemistry | Organic Chemistry]
+According to Zaitsev's rule, when an alkene is formed from an alcohol via dehydration, the product will be:
+  A. The alkene with the most substituted double bond.
+  B. The alkene with the least substituted double bond.
+  C. The alkene with the highest boiling point.
+  D. The alkene with the lowest boiling point.
+  key A — Zaitsev's rule predicts the formation of the most substituted alkene during elimination reactions, leading to greater stability.
+
+[NEB|C12|chemistry | Chemistry in the service of mankind]
+In water treatment processes, what is the primary purpose of adding chlorine to water?
+  A. To remove hardness
+  B. To disinfect and kill pathogens
+  C. To increase oxygen content
+  D. To improve taste
+  key B — The main purpose of chlorination in water treatment is to disinfect the water by killing harmful microorganisms.

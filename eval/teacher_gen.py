@@ -16,7 +16,7 @@ MODEL, BANK, CATALOG, OUT = sys.argv[1:5]
 PER = int(sys.argv[5]) if len(sys.argv) > 5 else 8
 ROUNDS = int(sys.argv[6]) if len(sys.argv) > 6 else 1
 TARGET = int(os.environ.get("TARGET_MCQ", 12)); P_MIN = float(os.environ.get("P_MIN", 0.80))
-STATUS = "/tmp/paperlm/status_gen.json"; os.makedirs(OUT, exist_ok=True); t0 = time.time(); random.seed(11); torch.manual_seed(11)
+STATUS = "/tmp/paperlm/status_gen.json"; os.makedirs(OUT, exist_ok=True); t0 = time.time(); SEED = int(os.environ.get("SEED", 11)); random.seed(SEED); torch.manual_seed(SEED)
 counts = {"generated": 0, "parsed": 0, "structural_ok": 0, "blind_ok": 0, "cot_ok": 0, "kept": 0, "dup": 0}
 last = {"v": None}; prog = {"done": 0, "total": 1, "msg": "loading"}
 
@@ -58,7 +58,7 @@ print("units to fill:", len(units), flush=True)
 
 
 def gen_prompt(u, n, round_i):
-    angle = ["definitions and laws", "numerical / calculation based", "conceptual understanding and applications", "facts, examples and exceptions"][round_i % 4]
+    angle = ["definitions and laws", "numerical / calculation based", "conceptual understanding and applications", "facts, examples and exceptions"][(round_i + SEED) % 4]
     return (f"Board/level: {u['board']} {u['level']}. Subject: {u['subject']}. Unit: {u['unit']}.\n\n"
             f"Write {n} distinct, standard-syllabus multiple-choice questions on THIS unit only, in the style of the official board paper (focus: {angle}). "
             "Rules: exactly four options with exactly one correct answer; distractors must be plausible, of the same kind and in the same units; "
@@ -79,7 +79,7 @@ def parse(txt):
 
 def structural(a):
     try:
-        q = a["q"].strip(); o = [str(x).strip() for x in a["options"]]; k = a["answer"].strip().upper()[:1]; w = str(a.get("explanation", "")).strip()
+        q = a["q"].strip(); o = [re.sub(r"^\(?[A-Da-d][\).:]\s+", "", str(x).strip()) for x in a["options"]]; k = a["answer"].strip().upper()[:1]; w = str(a.get("explanation", "")).strip()
     except Exception: return None
     if len(o) != 4 or k not in LET or len(q) < 15 or not w: return None
     if len({norm(x) for x in o}) < 4 or any(not x or len(x) > 160 for x in o): return None
