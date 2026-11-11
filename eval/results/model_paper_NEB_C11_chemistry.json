@@ -1,0 +1,500 @@
+{
+ "board": "NEB",
+ "level": "C11",
+ "subject": "chemistry",
+ "total_marks": 75,
+ "sections": [
+  {
+   "group": "A",
+   "type": "MCQ",
+   "marks_each": 1,
+   "count": 11,
+   "items": [
+    {
+     "kind": "mcq",
+     "question": "Which of the following is a standard liquid?",
+     "options": [
+      "glass",
+      "steel",
+      "ammonia",
+      "salgam"
+     ],
+     "key": "c",
+     "explanation": "ammonia is a liquid crystal, so its density is the liquid's density.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "States of Matter",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>States of Matter<|marks=1|><|type=MCQ|><|q|>Which of the following is a standard liquid?<|oa|>glass<|ob|>steel<|oc|>ammonia<|od|>salgam<|ans|>c<|why|>ammonia is a liquid crystal, so its density is the liquid's density.<|end|>",
+     "attempts": 1,
+     "no": 1
+    },
+    {
+     "kind": "mcq",
+     "question": "The number of atoms in $\\text{C}_2\\text{H}_6$ is",
+     "options": [
+      "$1.8\\times10^{23}$",
+      "$2.8\\times20^{3}$",
+      "$1.4\\times10⁻⁴$",
+      "$1.3\\times10²^{22}$"
+     ],
+     "key": "c",
+     "explanation": "$2\\times100^{10}\\times1.6\\times10⁶=1.82\\times1.0\\times10¹⁰$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Model Set 1",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Model Set 1<|marks=1|><|type=MCQ|><|q|>The number of atoms in $\\text{C}_2\\text{H}_6$ is<|oa|>$1.8\\times10^{23}$<|ob|>$2.8\\times20^{3}$<|oc|>$1.4\\times10⁻⁴$<|od|>$1.3\\times10²^{22}$<|ans|>c<|why|>$2\\times100^{10}\\times1.6\\times10⁶=1.82\\times1.0\\times10¹⁰$.<|end|>",
+     "attempts": 1,
+     "no": 2
+    },
+    {
+     "kind": "mcq",
+     "question": "A kidney has 2800 mg/dL and 500 mg for haemoglobin. Its total osmolarity is",
+     "options": [
+      "300 mg",
+      "200 mg",
+      "3000 mg",
+      "280 mg"
+     ],
+     "key": "a",
+     "explanation": "0.010 mg/dt = 280 mg/mL.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Bio-inorganic Chemistry",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Bio-inorganic Chemistry<|marks=1|><|type=MCQ|><|q|>A kidney has 2800 mg/dL and 500 mg for haemoglobin. Its total osmolarity is<|oa|>300 mg<|ob|>200 mg<|oc|>3000 mg<|od|>280 mg<|ans|>a<|why|>0.010 mg/dt = 280 mg/mL.<|end|>",
+     "attempts": 1,
+     "no": 3
+    },
+    {
+     "kind": "mcq",
+     "question": "Which reaction will NOT change $K_c$?",
+     "options": [
+      "$\\text{K}_2\\text{O}_2$",
+      "$\\text{H}_2 + \\text{O}$",
+      "$\\text{CH}_2_4 + \\text{Cl}_2 \\to \\text{CH}\\cdot\\text{OH}^- + \\text{OH}$",
+      "$\\text{NH}_3 + \\text{HCl}$"
+     ],
+     "key": "a",
+     "explanation": "$\\text{OH⁻} + \\text{H}^- \\to \\text{HCO}_2+\\text{Cl}^-$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Chemical Equilibrium",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Chemical Equilibrium<|marks=1|><|type=MCQ|><|q|>Which reaction will NOT change $K_c$?<|oa|>$\\text{K}_2\\text{O}_2$<|ob|>$\\text{H}_2 + \\text{O}$<|oc|>$\\text{CH}_2_4 + \\text{Cl}_2 \\to \\text{CH}\\cdot\\text{OH}^- + \\text{OH}$<|od|>$\\text{NH}_3 + \\text{HCl}$<|ans|>a<|why|>$\\text{OH⁻} + \\text{H}^- \\to \\text{HCO}_2+\\text{Cl}^-$.<|end|>",
+     "attempts": 1,
+     "no": 4
+    },
+    {
+     "kind": "mcq",
+     "question": "The oxidation number of sulphur in $\\text{H}_2\\text{SO}_4$ is",
+     "options": [
+      "$+7$",
+      "$+5$",
+      "$+3$",
+      "$+75$"
+     ],
+     "key": "d",
+     "explanation": "$\\text{Cl}_2 + \\text{Cl}$ in $\\textbf{SO}$ is $+4$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Oxidation and Reduction",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Oxidation and Reduction<|marks=1|><|type=MCQ|><|q|>The oxidation number of sulphur in $\\text{H}_2\\text{SO}_4$ is<|oa|>$+7$<|ob|>$+5$<|oc|>$+3$<|od|>$+75$<|ans|>d<|why|>$\\text{Cl}_2 + \\text{Cl}$ in $\\textbf{SO}$ is $+4$.<|end|>",
+     "attempts": 1,
+     "no": 5
+    },
+    {
+     "kind": "mcq",
+     "question": "Which reagent distinguishes $\\text{C}_2\\text{H}_5\\text{O}_4$ from ethanol?",
+     "options": [
+      "propanone",
+      "propanone and propanal",
+      "propanone and methoxyethane",
+      "propanone and iodomethane"
+     ],
+     "key": "a",
+     "explanation": "the oxygen lone pair on carbon is delocalised into the ring: C₂H₅CHO + 2HCl → CH₃CH(OH)CH₃ + 2HCl.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Organic Chemistry",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Organic Chemistry<|marks=1|><|type=MCQ|><|q|>Which reagent distinguishes $\\text{C}_2\\text{H}_5\\text{O}_4$ from ethanol?<|oa|>propanone<|ob|>propanone and propanal<|oc|>propanone and methoxyethane<|od|>propanone and iodomethane<|ans|>a<|why|>the oxygen lone pair on carbon is delocalised into the ring: C₂H₅CHO + 2HCl → CH₃CH(OH)CH₃ + 2HCl.<|end|>",
+     "attempts": 1,
+     "no": 6
+    },
+    {
+     "kind": "mcq",
+     "question": "The metal ion in the extraction of copper is",
+     "options": [
+      "sodium",
+      "sodium (silica)",
+      "sodium (pink)",
+      "potassium"
+     ],
+     "key": "c",
+     "explanation": "$\\text{Fe}_2\\text{O}_5$ at $100^{\\circ}\\text{C}$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Inorganic Chemistry",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Inorganic Chemistry<|marks=1|><|type=MCQ|><|q|>The metal ion in the extraction of copper is<|oa|>sodium<|ob|>sodium (silica)<|oc|>sodium (pink)<|od|>potassium<|ans|>c<|why|>$\\text{Fe}_2\\text{O}_5$ at $100^{\\circ}\\text{C}$.<|end|>",
+     "attempts": 1,
+     "no": 7
+    },
+    {
+     "kind": "mcq",
+     "question": "The percentage of nitrogen in urea is 28.0 %. Its mass is",
+     "options": [
+      "28.0%",
+      "48.6%",
+      "8.3%",
+      "8.3 % (9.6%)"
+     ],
+     "key": "b",
+     "explanation": "$M = \\frac{18.6}{28.60} = 8.3\\%$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Stoichiometry",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Stoichiometry<|marks=1|><|type=MCQ|><|q|>The percentage of nitrogen in urea is 28.0 %. Its mass is<|oa|>28.0%<|ob|>48.6%<|oc|>8.3%<|od|>8.3 % (9.6%)<|ans|>b<|why|>$M = \\frac{18.6}{28.60} = 8.3\\%$.<|end|>",
+     "attempts": 1,
+     "no": 8
+    },
+    {
+     "kind": "mcq",
+     "question": "The shape of the carbon atom in $\\text{H}_2\\text{O}$ is",
+     "options": [
+      "trigonal planar",
+      "trigonal pyramidal",
+      "trigonal bipyramidal",
+      "tetrahedral"
+     ],
+     "key": "c",
+     "explanation": "tetrahedrahedral, $t_2$, $t$, $r_n$, $l_n$ and $l_{\\text{HF}}$ are the usual slip.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Chemistry: Unit-wise Objective Question Bank",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Chemistry: Unit-wise Objective Question Bank<|marks=1|><|type=MCQ|><|q|>The shape of the carbon atom in $\\text{H}_2\\text{O}$ is<|oa|>trigonal planar<|ob|>trigonal pyramidal<|oc|>trigonal bipyramidal<|od|>tetrahedral<|ans|>c<|why|>tetrahedrahedral, $t_2$, $t$, $r_n$, $l_n$ and $l_{\\text{HF}}$ are the usual slip.<|end|>",
+     "attempts": 1,
+     "no": 9
+    },
+    {
+     "kind": "mcq",
+     "question": "Which element is present in the periodic table?",
+     "options": [
+      "Mg",
+      "Mg²⁺",
+      "Na",
+      "H"
+     ],
+     "key": "a",
+     "explanation": "ss² 3d⁵ ns², with no subshell in the period 2.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Classification of elements and Periodic Table",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Classification of elements and Periodic Table<|marks=1|><|type=MCQ|><|q|>Which element is present in the periodic table?<|oa|>Mg<|ob|>Mg²⁺<|oc|>Na<|od|>H<|ans|>a<|why|>ss² 3d⁵ ns², with no subshell in the period 2.<|end|>",
+     "attempts": 1,
+     "no": 10
+    },
+    {
+     "kind": "mcq",
+     "question": "The concentration of a reaction of a reaction is $1 \\times 2^{2} = 1.8 \\times 10^{-3}$ mol L⁻¹ s⁻¹. Its rate constant is about",
+     "options": [
+      "$1 \\times 100$",
+      "$1 \\times 2$",
+      "$1 \\times 3$",
+      "$3 \\times 10$"
+     ],
+     "key": "b",
+     "explanation": "$k = 1.6 \\times 10⁻^{-2}$ mol m⁻³ s⁻¹; $k = 1 \\times 10\\log10^{20} = 1 \\times 6.8 \\times 93 = 3 \\times 10 = 1.0 \\times 10⁵$ mol L$^{-1}$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Chemical equilibrium",
+     "marks": 1,
+     "type": "MCQ",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Chemical equilibrium<|marks=1|><|type=MCQ|><|q|>The concentration of a reaction of a reaction is $1 \\times 2^{2} = 1.8 \\times 10^{-3}$ mol L⁻¹ s⁻¹. Its rate constant is about<|oa|>$1 \\times 100$<|ob|>$1 \\times 2$<|oc|>$1 \\times 3$<|od|>$3 \\times 10$<|ans|>b<|why|>$k = 1.6 \\times 10⁻^{-2}$ mol m⁻³ s⁻¹; $k = 1 \\times 10\\log10^{20} = 1 \\times 6.8 \\times 93 = 3 \\times 10 = 1.0 \\times 10⁵$ mol L$^{-1}$.<|end|>",
+     "attempts": 1,
+     "no": 11
+    }
+   ]
+  },
+  {
+   "group": "B",
+   "type": "SHORT",
+   "marks_each": 5,
+   "count": 8,
+   "items": [
+    {
+     "kind": "written",
+     "question": "Describe the manufacture of nitric acid from calcium carbide and by the flow of sulphuric acid with a labelled diagram.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "Alcoholic acid, with water; Zn + Na₂S → Na₂S + 2Na₂S + 3O₂; Fe + Na₂SO₄ → FeSO₄ + FeSO₄; CaO + SiO₂ → Ca(OH)₂ + CO₂; CaO → Ca(NO₃)₂; CaCO₃ + CaO → Al₂O₃ + Ca(OH.)₂; H₂SO₄ + Ca(SO₄)₂ + Ca(NO₂)₂ → CaSiO₃.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Chemistry of Non-metals",
+     "marks": 5,
+     "type": "CONCEPTUAL",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Chemistry of Non-metals<|marks=5|><|type=CONCEPTUAL|><|q|>Describe the manufacture of nitric acid from calcium carbide and by the flow of sulphuric acid with a labelled diagram.<|sol|>Alcoholic acid, with water; Zn + Na₂S → Na₂S + 2Na₂S + 3O₂; Fe + Na₂SO₄ → FeSO₄ + FeSO₄; CaO + SiO₂ → Ca(OH)₂ + CO₂; CaO → Ca(NO₃)₂; CaCO₃ + CaO → Al₂O₃ + Ca(OH.)₂; H₂SO₄ + Ca(SO₄)₂ + Ca(NO₂)₂ → CaSiO₃.<|end|>",
+     "attempts": 1,
+     "no": 1
+    },
+    {
+     "kind": "written",
+     "question": "A mass of $1\\ \\text{kg}$ is stretched uniformly to $1000\\ \\text{m}$. Find the percentage by mass of the mixture.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "$m = \\dfrac{2}{100}\\times100 = 1000$ kg. $M = \\dfrac{10}{1.0}\\times9600 = 4.0\\ \\textbf{kg}^{-3}$. $M(\\text{kg}) = \\dfrac{300}{3.0\\times10^{3}} = 4.5\\times10 = 15\\ \\textbf {6.0}$ kg.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Foundation and Fundamentals",
+     "marks": 5,
+     "type": "NUMERICAL",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Foundation and Fundamentals<|marks=5|><|type=NUMERICAL|><|q|>A mass of $1\\ \\text{kg}$ is stretched uniformly to $1000\\ \\text{m}$. Find the percentage by mass of the mixture.<|sol|>$m = \\dfrac{2}{100}\\times100 = 1000$ kg. $M = \\dfrac{10}{1.0}\\times9600 = 4.0\\ \\textbf{kg}^{-3}$. $M(\\text{kg}) = \\dfrac{300}{3.0\\times10^{3}} = 4.5\\times10 = 15\\ \\textbf {6.0}$ kg.<|end|>",
+     "attempts": 1,
+     "no": 2
+    },
+    {
+     "kind": "written",
+     "question": "Define Bohr's model and derive the radius of a complex orbit. Derive the radius of the first line of the Balmer series and state the radius of its postulates.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "Outline: $n = 3, 2, 1, \\ldots$; $n = 1, 1, 1$. $r = 2$: $n_{\\text{th}} = 1.5\\times10^{-12}\\ \\text{m}$. $n = 2, 1$: $r_n = 2$; $r_{\\text {}} = 3.5\\times93 = 1.097\\times100^{10}\\ \\textbf{th}^{-2}$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Atomic Structure",
+     "marks": 5,
+     "type": "DERIVATION",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Atomic Structure<|marks=5|><|type=DERIVATION|><|q|>Define Bohr's model and derive the radius of a complex orbit. Derive the radius of the first line of the Balmer series and state the radius of its postulates.<|sol|>Outline: $n = 3, 2, 1, \\ldots$; $n = 1, 1, 1$. $r = 2$: $n_{\\text{th}} = 1.5\\times10^{-12}\\ \\text{m}$. $n = 2, 1$: $r_n = 2$; $r_{\\text {}} = 3.5\\times93 = 1.097\\times100^{10}\\ \\textbf{th}^{-2}$.<|end|>",
+     "attempts": 1,
+     "no": 3
+    },
+    {
+     "kind": "written",
+     "question": "A reaction of 273 K and 300 K is passed over a 100 K barrier at 273–350 K. Calculate the rate constant, the number of reactants and the number of products in each case.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "Both $= 273-400=\\text{Rs } 273.5$. $T_{1/2} = 273/273.3/283.5 = 0.100$, so $t_{1} = \\dfrac{273}{5} = 0.45$. The equation is exothermic: $473.00\\ \\text{mol}^{-1}\\text{K}^{+}$, so the rate is $\\dfrac{0.850}{0.25} = 5.40$. $n = \\dfrac{0.025}{27.200} = \\dfrac {0.014}{0} = 1.20$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Chemistry: Unit-wise Subjective Question Bank",
+     "marks": 5,
+     "type": "SHORT",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Chemistry: Unit-wise Subjective Question Bank<|marks=5|><|type=SHORT|><|q|>A reaction of 273 K and 300 K is passed over a 100 K barrier at 273–350 K. Calculate the rate constant, the number of reactants and the number of products in each case.<|sol|>Both $= 273-400=\\text{Rs } 273.5$. $T_{1/2} = 273/273.3/283.5 = 0.100$, so $t_{1} = \\dfrac{273}{5} = 0.45$. The equation is exothermic: $473.00\\ \\text{mol}^{-1}\\text{K}^{+}$, so the rate is $\\dfrac{0.850}{0.25} = 5.40$. $n = \\dfrac{0.025}{27.200} = \\dfrac {0.014}{0} = 1.20$.<|end|>",
+     "attempts": 1,
+     "no": 4
+    },
+    {
+     "kind": "written",
+     "question": "Define isomerism and propene, and give the steps for which aldehydes and ketones are used.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "Outomers. 2CH₃CH₂CH₂CH₃ + H₂O → CH₃CH₂OH (diazotization); 3CH₃CHO → (CH₃)₂CHOH + H₂ → CH₃COCH₃ (dichloromethane). 3CH₃CH(OH)₂ (HCHO) → (CH₂)₂CHBrCH₃ + 2H₂O; 3CH₂CH(OH, propanone)CH₃ → (CH₄)₂CH=CHBr + H₂; (CH₃CO)₂CHCH₂Br → (CHCH₃)₃CBr + HCl.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Hydrocarbons",
+     "marks": 5,
+     "type": "CONCEPTUAL",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Hydrocarbons<|marks=5|><|type=CONCEPTUAL|><|q|>Define isomerism and propene, and give the steps for which aldehydes and ketones are used.<|sol|>Outomers. 2CH₃CH₂CH₂CH₃ + H₂O → CH₃CH₂OH (diazotization); 3CH₃CHO → (CH₃)₂CHOH + H₂ → CH₃COCH₃ (dichloromethane). 3CH₃CH(OH)₂ (HCHO) → (CH₂)₂CHBrCH₃ + 2H₂O; 3CH₂CH(OH, propanone)CH₃ → (CH₄)₂CH=CHBr + H₂; (CH₃CO)₂CHCH₂Br → (CHCH₃)₃CBr + HCl.<|end|>",
+     "attempts": 1,
+     "no": 5
+    },
+    {
+     "kind": "written",
+     "question": "Define element and element. Calculate its atomic number, equivalent weight, molar mass and atomic mass.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "$M = 12 + 1 + 1 = 12$, so $M = 16 + 1 = 24$. Zinc ($M = 8$). $n = 8 + 12 = 8$, so the number of subshells is $24 + 8 = 8$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Classification of Elements and the Periodic Table",
+     "marks": 5,
+     "type": "NUMERICAL",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Classification of Elements and the Periodic Table<|marks=5|><|type=NUMERICAL|><|q|>Define element and element. Calculate its atomic number, equivalent weight, molar mass and atomic mass.<|sol|>$M = 12 + 1 + 1 = 12$, so $M = 16 + 1 = 24$. Zinc ($M = 8$). $n = 8 + 12 = 8$, so the number of subshells is $24 + 8 = 8$.<|end|>",
+     "attempts": 1,
+     "no": 6
+    },
+    {
+     "kind": "written",
+     "question": "Describe the manufacture of sulphuric acid by the Haber process, and state the three conditions for the reaction.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "Withium, sulphur and sulphur the chlorine atoms, and in the contact process the oxygen is the fuel needed for the fuel. $\\text{CaO} + \\text{CaO + CO}_2 \\to \\text{CaCO}_2 + \\text{O}_2$, so $\\text{S} + \\textbf{O} \\to \\text{CO}_3$. The reaction is exothermic, so $6\\ \\text{kJ} + \\text {O}_3 \\to \\text{C}_2\\text{H}_2 \\Rightarrow \\text{C + CO} \\to \\textbf{CO}$. Hence $\\text{CO} + \\text{COO}_6 \\to \\text{H}^{+}$. (This is why a reversible gas is used at the same temperature.)",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Applied Chemistry",
+     "marks": 5,
+     "type": "DERIVATION",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Applied Chemistry<|marks=5|><|type=DERIVATION|><|q|>Describe the manufacture of sulphuric acid by the Haber process, and state the three conditions for the reaction.<|sol|>Withium, sulphur and sulphur the chlorine atoms, and in the contact process the oxygen is the fuel needed for the fuel. $\\text{CaO} + \\text{CaO + CO}_2 \\to \\text{CaCO}_2 + \\text{O}_2$, so $\\text{S} + \\textbf{O} \\to \\text{CO}_3$. The reaction is exothermic, so $6\\ \\text{kJ} + \\text {O}_3 \\to \\text{C}_2\\text{H}_2 \\Rightarrow \\text{C + CO} \\to \\textbf{CO}$. Hence $\\text{CO} + \\text{COO}_6 \\to \\text{H}^{+}$. (This is why a reversible gas is used at the same temperature.)<|end|>",
+     "attempts": 1,
+     "no": 7
+    },
+    {
+     "kind": "written",
+     "question": "Write the structural formula for the IUPAC name of (i) CH₃CH₂CH₂CH₃, (ii) CH₃COCH₂CH(OH)CH₃,(iii) CH₃–CH₂–CH(OH,)–CH(CH₃)–CH₃, and (iv) (i) ethanal, (ii] CH₃CH(OH.)₂CH₂COOH and CH₃CH=CHCH₂.",
+     "parts": [],
+     "or_parts": [],
+     "rubric": "(i) CH₂=CH₂ + H₂O → (CH₃)₂CH=CH₂. (ii) (iii) CH₂CH₂CHO → (CH₂)₂CH⁺ (CH₃–CH₃)₃CHCH₂OH. (iv) CH₃COOH + CH₃CHO → (ClCH₂–)CH₃ (CH₃CH₂)₃C⁺ + CH₃COCl (CH₃CO)₂CCl⁻ + HCOONa → (CH₄)₂CHCOOH. (v) CH₃COONa + CH₃COO⁻ → (CHCH₃)CHCOOH (CH₃CHO)₂COCH₃ + CH₃COOH (d) CH₃CHO + CH₃CH₃ → (CH(OHCOOH)CH₃ + HCOO⁻ (d) ClCH₂COOH + 2KOH → (d) C₆H₅OH + Cl₂ --dry ether--> CH₃CHCOOH + Cl₂ + 2NaOH",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Fundamental Principles of Organic Chemistry",
+     "marks": 5,
+     "type": "SHORT",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Fundamental Principles of Organic Chemistry<|marks=5|><|type=SHORT|><|q|>Write the structural formula for the IUPAC name of (i) CH₃CH₂CH₂CH₃, (ii) CH₃COCH₂CH(OH)CH₃,(iii) CH₃–CH₂–CH(OH,)–CH(CH₃)–CH₃, and (iv) (i) ethanal, (ii] CH₃CH(OH.)₂CH₂COOH and CH₃CH=CHCH₂.<|sol|>(i) CH₂=CH₂ + H₂O → (CH₃)₂CH=CH₂. (ii) (iii) CH₂CH₂CHO → (CH₂)₂CH⁺ (CH₃–CH₃)₃CHCH₂OH. (iv) CH₃COOH + CH₃CHO → (ClCH₂–)CH₃ (CH₃CH₂)₃C⁺ + CH₃COCl (CH₃CO)₂CCl⁻ + HCOONa → (CH₄)₂CHCOOH. (v) CH₃COONa + CH₃COO⁻ → (CHCH₃)CHCOOH (CH₃CHO)₂COCH₃ + CH₃COOH (d) CH₃CHO + CH₃CH₃ → (CH(OHCOOH)CH₃ + HCOO⁻ (d) ClCH₂COOH + 2KOH → (d) C₆H₅OH + Cl₂ --dry ether--> CH₃CHCOOH + Cl₂ + 2NaOH<|end|>",
+     "attempts": 1,
+     "no": 8
+    }
+   ]
+  },
+  {
+   "group": "C",
+   "type": "OR",
+   "marks_each": 8,
+   "count": 3,
+   "items": [
+    {
+     "kind": "written",
+     "question": "Double fertilization is an example of a chemical reaction. Calculate the volume of CO₂ in the ratio 3: 3: 1, 2, 3, 4, 5, 7, 8, 10, 10.",
+     "parts": [
+      {
+       "label": "a",
+       "text": "(a) Define the percentage yield, in equilibrium, the percentage yield and the percentage yield.",
+       "marks": 4
+      },
+      {
+       "label": "b",
+       "text": "(b) An industrial test is 100% at STP with 30% of its initial percentage yield. Calculate the percentage yield if the mass of one molecule of CO₂ is 148.5%.",
+       "marks": 4
+      }
+     ],
+     "or_parts": [
+      {
+       "label": "a",
+       "text": "The strength of the hydrogen nitrate in a single-forming test is about 3.3%, and what percentage of nitrogen is obtained is obtained?",
+       "marks": 4
+      },
+      {
+       "label": "b",
+       "text": "What is a refrigerant? Explain with reference to Predict the mass of N₂ and of N₂ in 2081.",
+       "marks": 4
+      }
+     ],
+     "rubric": "(a) A primary standard is the molar mass of nitrogen in one mole of nitrogen in an organic compound (the vapour density of carbon 44, at STP 14 atm, $32.6\\%$ of the mass of nitrogen). (b) With a diatomic mass of $20.0\\ \\text{g}$ of nitrogen gives $20\\ \\text {}^{23}\\text{C}$, $12\\ \\text{kg}$ of O₂ and $11\\ \\text{L}$ of sulphur: $136.0\\%$. (c) $68.0\\ \\%$ of nitrogen is $44.0\\ \\mathrm{kg}\\ \\text{mol}$ of CO₂. (d) $124.0/20.2 = 12.0\\ \\mu\\text{CCl}$, so $24.3\\ \\text{kJ mol}^{-1}\\text{mol}^{3}\\text {}^2\\text{CO}_3$.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "General and Physical Chemistry",
+     "marks": 8,
+     "type": "OR",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>General and Physical Chemistry<|marks=8|><|type=OR|><|q|>Double fertilization is an example of a chemical reaction. Calculate the volume of CO₂ in the ratio 3: 3: 1, 2, 3, 4, 5, 7, 8, 10, 10.<|part|>(a) (a) Define the percentage yield, in equilibrium, the percentage yield and the percentage yield.<|pm|>4<|part|>(b) (b) An industrial test is 100% at STP with 30% of its initial percentage yield. Calculate the percentage yield if the mass of one molecule of CO₂ is 148.5%.<|pm|>4<|or|><|part|>(a) The strength of the hydrogen nitrate in a single-forming test is about 3.3%, and what percentage of nitrogen is obtained is obtained?<|pm|>4<|part|>(b) What is a refrigerant? Explain with reference to Predict the mass of N₂ and of N₂ in 2081.<|pm|>4<|sol|>(a) A primary standard is the molar mass of nitrogen in one mole of nitrogen in an organic compound (the vapour density of carbon 44, at STP 14 atm, $32.6\\%$ of the mass of nitrogen). (b) With a diatomic mass of $20.0\\ \\text{g}$ of nitrogen gives $20\\ \\text {}^{23}\\text{C}$, $12\\ \\text{kg}$ of O₂ and $11\\ \\text{L}$ of sulphur: $136.0\\%$. (c) $68.0\\ \\%$ of nitrogen is $44.0\\ \\mathrm{kg}\\ \\text{mol}$ of CO₂. (d) $124.0/20.2 = 12.0\\ \\mu\\text{CCl}$, so $24.3\\ \\text{kJ mol}^{-1}\\text{mol}^{3}\\text {}^2\\text{CO}_3$.<|end|>",
+     "attempts": 1,
+     "no": 1
+    },
+    {
+     "kind": "written",
+     "question": "Draw an example of an IUPAC name and show how a tertiary key is built from the five alkenes. A tertiary key takes one carbon of the eight groups and each letter is present in the parent. Identify the three groups with their IUPAC names and the IUPAC rules for each pair.... (NEB 2079 model, 2081) Show the preparation of the acid's principal functional group, the structural formula, the first reactant and the highest react",
+     "parts": [],
+     "or_parts": [
+      {
+       "label": "a",
+       "text": "The number of structural isomers in C₄H₁₀O is in CH₃CH₂OH.",
+       "marks": 8
+      }
+     ],
+     "rubric": "(a) Same functional group and non-nucleophile. A molecular formula is a small number of structural groups attached to the carbon atom. Two of the same species can share one another, so the same molecule can be rearranged, and the other can be reduced. Alternate bonding. Crossing a hydrocarbon chain splits into two families:",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Basic Concept of Organic Chemistry",
+     "marks": 8,
+     "type": "OR",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Basic Concept of Organic Chemistry<|marks=8|><|type=OR|><|q|>Draw an example of an IUPAC name and show how a tertiary key is built from the five alkenes. A tertiary key takes one carbon of the eight groups and each letter is present in the parent. Identify the three groups with their IUPAC names and the IUPAC rules for each pair.... (NEB 2079 model, 2081) Show the preparation of the acid's principal functional group, the structural formula, the first reactant and the highest react<|or|><|part|>(a) The number of structural isomers in C₄H₁₀O is in CH₃CH₂OH.<|pm|>8<|sol|>(a) Same functional group and non-nucleophile. A molecular formula is a small number of structural groups attached to the carbon atom. Two of the same species can share one another, so the same molecule can be rearranged, and the other can be reduced. Alternate bonding. Crossing a hydrocarbon chain splits into two families:<|end|>",
+     "attempts": 7,
+     "no": 2
+    },
+    {
+     "kind": "written",
+     "question": "The process of comparing the diaphragm and the process of exothermic reaction, with a flow-sheet diagram, is used in the presence of ammonia. Estimate the effect of a chemical reaction. [1] (NEB 2082) (a) What is the contact process? Why is the process used to convert ammonia to nitric acid? [3](b) What is a catalyst? [1](c) Explain the choice of the effect of the catalyst in the contact process. [2] (NEB model 2081,",
+     "parts": [
+      {
+       "label": "a",
+       "text": "(d)) Why does the Haber process not react with a catalyst?",
+       "marks": 5
+      },
+      {
+       "label": "b",
+       "text": "(e) Name the N–P₂O₅ process and the products of ammonia.",
+       "marks": 3
+      }
+     ],
+     "or_parts": [
+      {
+       "label": "a",
+       "text": "(a) Define the nitric acid and the nitric alcohol.",
+       "marks": 2
+      },
+      {
+       "label": "b",
+       "text": "(b) Describe the nitric acids and their properties of nitric acid.",
+       "marks": 2
+      },
+      {
+       "label": "c",
+       "text": "The catalyst used in the laboratory preparation of ammonia, ammonia and water.",
+       "marks": 2
+      },
+      {
+       "label": "d",
+       "text": "Describe the preparation and functions of the nitric oxide, with the reactions.",
+       "marks": 2
+      }
+     ],
+     "rubric": "(a) With ammonia the gas is collected in a small amount of oxygen, the product is collected and the reaction is carried out by the contact process, so the reaction is exothermic. It is not absorbed by the substrate, and the products are kept in the reaction. The other way of giving the acid as the gas, and the ammonia is exothermic and the reaction stops. The reaction is: (i) 2NH₃ + 4NO₂ → (ii) 2NH₄Cl + 2NO₂ → 4NO₂ + 2NO + H₂O; (iii) 2NH₂ + HNO₃ → NO₂ + NO₂ + H₂SO₄. (iv) The NO is then NO₂⁻ + NO₂⁻ → NO₂⁻. (v) 2NO₂ + HNO₂ → NO₂NO₂ + HNO₃ + NO₂. (vi) C₂H₅NO₂ + HCl → C₂H₄O + HCl. (vii) 3NO₂ + 3H₂O → 2NO₂; 1° → 2° → 2NH₃.",
+     "board": "NEB",
+     "level": "C11",
+     "subject": "chemistry",
+     "unit": "Modern Chemical Manufactures",
+     "marks": 8,
+     "type": "OR",
+     "schema_text": "<|bos|><|board=NEB|><|level=C11|><|subj=chemistry|><|unit|>Modern Chemical Manufactures<|marks=8|><|type=OR|><|q|>The process of comparing the diaphragm and the process of exothermic reaction, with a flow-sheet diagram, is used in the presence of ammonia. Estimate the effect of a chemical reaction. [1] (NEB 2082) (a) What is the contact process? Why is the process used to convert ammonia to nitric acid? [3](b) What is a catalyst? [1](c) Explain the choice of the effect of the catalyst in the contact process. [2] (NEB model 2081,<|part|>(a) (d)) Why does the Haber process not react with a catalyst?<|pm|>5<|part|>(b) (e) Name the N–P₂O₅ process and the products of ammonia.<|pm|>3<|or|><|part|>(a) (a) Define the nitric acid and the nitric alcohol.<|pm|>2<|part|>(b) (b) Describe the nitric acids and their properties of nitric acid.<|pm|>2<|part|>(c) The catalyst used in the laboratory preparation of ammonia, ammonia and water.<|pm|>2<|part|>(d) Describe the preparation and functions of the nitric oxide, with the reactions.<|pm|>2<|sol|>(a) With ammonia the gas is collected in a small amount of oxygen, the product is collected and the reaction is carried out by the contact process, so the reaction is exothermic. It is not absorbed by the substrate, and the products are kept in the reaction. The other way of giving the acid as the gas, and the ammonia is exothermic and the reaction stops. The reaction is: (i) 2NH₃ + 4NO₂ → (ii) 2NH₄Cl + 2NO₂ → 4NO₂ + 2NO + H₂O; (iii) 2NH₂ + HNO₃ → NO₂ + NO₂ + H₂SO₄. (iv) The NO is then NO₂⁻ + NO₂⁻ → NO₂⁻. (v) 2NO₂ + HNO₂ → NO₂NO₂ + HNO₃ + NO₂. (vi) C₂H₅NO₂ + HCl → C₂H₄O + HCl. (vii) 3NO₂ + 3H₂O → 2NO₂; 1° → 2° → 2NH₃.<|end|>",
+     "attempts": 1,
+     "no": 3
+    }
+   ]
+  }
+ ],
+ "generator": "PaperLM-Tiny"
+}

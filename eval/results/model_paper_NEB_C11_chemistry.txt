@@ -1,0 +1,109 @@
+NEB · C11 · CHEMISTRY — Model Paper  (Full marks: 75)
+
+Group 'A'  [11 × 1 = 11]
+1. Which of the following is a standard liquid?
+   (a) glass
+   (b) steel
+   (c) ammonia
+   (d) salgam
+   Ans: (c)  ammonia is a liquid crystal, so its density is the liquid's density.
+2. The number of atoms in $\text{C}_2\text{H}_6$ is
+   (a) $1.8\times10^{23}$
+   (b) $2.8\times20^{3}$
+   (c) $1.4\times10⁻⁴$
+   (d) $1.3\times10²^{22}$
+   Ans: (c)  $2\times100^{10}\times1.6\times10⁶=1.82\times1.0\times10¹⁰$.
+3. A kidney has 2800 mg/dL and 500 mg for haemoglobin. Its total osmolarity is
+   (a) 300 mg
+   (b) 200 mg
+   (c) 3000 mg
+   (d) 280 mg
+   Ans: (a)  0.010 mg/dt = 280 mg/mL.
+4. Which reaction will NOT change $K_c$?
+   (a) $\text{K}_2\text{O}_2$
+   (b) $\text{H}_2 + \text{O}$
+   (c) $\text{CH}_2_4 + \text{Cl}_2 \to \text{CH}\cdot\text{OH}^- + \text{OH}$
+   (d) $\text{NH}_3 + \text{HCl}$
+   Ans: (a)  $\text{OH⁻} + \text{H}^- \to \text{HCO}_2+\text{Cl}^-$.
+5. The oxidation number of sulphur in $\text{H}_2\text{SO}_4$ is
+   (a) $+7$
+   (b) $+5$
+   (c) $+3$
+   (d) $+75$
+   Ans: (d)  $\text{Cl}_2 + \text{Cl}$ in $\textbf{SO}$ is $+4$.
+6. Which reagent distinguishes $\text{C}_2\text{H}_5\text{O}_4$ from ethanol?
+   (a) propanone
+   (b) propanone and propanal
+   (c) propanone and methoxyethane
+   (d) propanone and iodomethane
+   Ans: (a)  the oxygen lone pair on carbon is delocalised into the ring: C₂H₅CHO + 2HCl → CH₃CH(OH)CH₃ + 2HCl.
+7. The metal ion in the extraction of copper is
+   (a) sodium
+   (b) sodium (silica)
+   (c) sodium (pink)
+   (d) potassium
+   Ans: (c)  $\text{Fe}_2\text{O}_5$ at $100^{\circ}\text{C}$.
+8. The percentage of nitrogen in urea is 28.0 %. Its mass is
+   (a) 28.0%
+   (b) 48.6%
+   (c) 8.3%
+   (d) 8.3 % (9.6%)
+   Ans: (b)  $M = \frac{18.6}{28.60} = 8.3\%$.
+9. The shape of the carbon atom in $\text{H}_2\text{O}$ is
+   (a) trigonal planar
+   (b) trigonal pyramidal
+   (c) trigonal bipyramidal
+   (d) tetrahedral
+   Ans: (c)  tetrahedrahedral, $t_2$, $t$, $r_n$, $l_n$ and $l_{\text{HF}}$ are the usual slip.
+10. Which element is present in the periodic table?
+   (a) Mg
+   (b) Mg²⁺
+   (c) Na
+   (d) H
+   Ans: (a)  ss² 3d⁵ ns², with no subshell in the period 2.
+11. The concentration of a reaction of a reaction is $1 \times 2^{2} = 1.8 \times 10^{-3}$ mol L⁻¹ s⁻¹. Its rate constant is about
+   (a) $1 \times 100$
+   (b) $1 \times 2$
+   (c) $1 \times 3$
+   (d) $3 \times 10$
+   Ans: (b)  $k = 1.6 \times 10⁻^{-2}$ mol m⁻³ s⁻¹; $k = 1 \times 10\log10^{20} = 1 \times 6.8 \times 93 = 3 \times 10 = 1.0 \times 10⁵$ mol L$^{-1}$.
+
+Group 'B'  [8 × 5 = 40]
+1. Describe the manufacture of nitric acid from calcium carbide and by the flow of sulphuric acid with a labelled diagram.
+   Marking rubric: Alcoholic acid, with water; Zn + Na₂S → Na₂S + 2Na₂S + 3O₂; Fe + Na₂SO₄ → FeSO₄ + FeSO₄; CaO + SiO₂ → Ca(OH)₂ + CO₂; CaO → Ca(NO₃)₂; CaCO₃ + CaO → Al₂O₃ + Ca(OH.)₂; H₂SO₄ + Ca(SO₄)₂ + Ca(NO₂)₂ → CaSiO₃.
+2. A mass of $1\ \text{kg}$ is stretched uniformly to $1000\ \text{m}$. Find the percentage by mass of the mixture.
+   Marking rubric: $m = \dfrac{2}{100}\times100 = 1000$ kg. $M = \dfrac{10}{1.0}\times9600 = 4.0\ \textbf{kg}^{-3}$. $M(\text{kg}) = \dfrac{300}{3.0\times10^{3}} = 4.5\times10 = 15\ \textbf {6.0}$ kg.
+3. Define Bohr's model and derive the radius of a complex orbit. Derive the radius of the first line of the Balmer series and state the radius of its postulates.
+   Marking rubric: Outline: $n = 3, 2, 1, \ldots$; $n = 1, 1, 1$. $r = 2$: $n_{\text{th}} = 1.5\times10^{-12}\ \text{m}$. $n = 2, 1$: $r_n = 2$; $r_{\text {}} = 3.5\times93 = 1.097\times100^{10}\ \textbf{th}^{-2}$.
+4. A reaction of 273 K and 300 K is passed over a 100 K barrier at 273–350 K. Calculate the rate constant, the number of reactants and the number of products in each case.
+   Marking rubric: Both $= 273-400=\text{Rs } 273.5$. $T_{1/2} = 273/273.3/283.5 = 0.100$, so $t_{1} = \dfrac{273}{5} = 0.45$. The equation is exothermic: $473.00\ \text{mol}^{-1}\text{K}^{+}$, so the rate is $\dfrac{0.850}{0.25} = 5.40$. $n = \dfrac{0.025}{27.200} = \dfrac {0.014}{0} = 1.20$.
+5. Define isomerism and propene, and give the steps for which aldehydes and ketones are used.
+   Marking rubric: Outomers. 2CH₃CH₂CH₂CH₃ + H₂O → CH₃CH₂OH (diazotization); 3CH₃CHO → (CH₃)₂CHOH + H₂ → CH₃COCH₃ (dichloromethane). 3CH₃CH(OH)₂ (HCHO) → (CH₂)₂CHBrCH₃ + 2H₂O; 3CH₂CH(OH, propanone)CH₃ → (CH₄)₂CH=CHBr + H₂; (CH₃CO)₂CHCH₂Br → (CHCH₃)₃CBr + HCl.
+6. Define element and element. Calculate its atomic number, equivalent weight, molar mass and atomic mass.
+   Marking rubric: $M = 12 + 1 + 1 = 12$, so $M = 16 + 1 = 24$. Zinc ($M = 8$). $n = 8 + 12 = 8$, so the number of subshells is $24 + 8 = 8$.
+7. Describe the manufacture of sulphuric acid by the Haber process, and state the three conditions for the reaction.
+   Marking rubric: Withium, sulphur and sulphur the chlorine atoms, and in the contact process the oxygen is the fuel needed for the fuel. $\text{CaO} + \text{CaO + CO}_2 \to \text{CaCO}_2 + \text{O}_2$, so $\text{S} + \textbf{O} \to \text{CO}_3$. The reaction is exothermic, so $6\ \text{kJ} + \text {O}_3 \to \text{C}_2\text{H}_2 \Rightarrow \text{C + CO} \to \textbf{CO}$. Hence $\text{CO} + \text{COO}_6 \to \text{H}^{+}$. (This is why a reversible gas is used at the same temperature.)
+8. Write the structural formula for the IUPAC name of (i) CH₃CH₂CH₂CH₃, (ii) CH₃COCH₂CH(OH)CH₃,(iii) CH₃–CH₂–CH(OH,)–CH(CH₃)–CH₃, and (iv) (i) ethanal, (ii] CH₃CH(OH.)₂CH₂COOH and CH₃CH=CHCH₂.
+   Marking rubric: (i) CH₂=CH₂ + H₂O → (CH₃)₂CH=CH₂. (ii) (iii) CH₂CH₂CHO → (CH₂)₂CH⁺ (CH₃–CH₃)₃CHCH₂OH. (iv) CH₃COOH + CH₃CHO → (ClCH₂–)CH₃ (CH₃CH₂)₃C⁺ + CH₃COCl (CH₃CO)₂CCl⁻ + HCOONa → (CH₄)₂CHCOOH. (v) CH₃COONa + CH₃COO⁻ → (CHCH₃)CHCOOH (CH₃CHO)₂COCH₃ + CH₃COOH (d) CH₃CHO + CH₃CH₃ → (CH(OHCOOH)CH₃ + HCOO⁻ (d) ClCH₂COOH + 2KOH → (d) C₆H₅OH + Cl₂ --dry ether--> CH₃CHCOOH + Cl₂ + 2NaOH
+
+Group 'C'  [3 × 8 = 24]
+1. Double fertilization is an example of a chemical reaction. Calculate the volume of CO₂ in the ratio 3: 3: 1, 2, 3, 4, 5, 7, 8, 10, 10.
+   (a) (a) Define the percentage yield, in equilibrium, the percentage yield and the percentage yield. [4]
+   (b) (b) An industrial test is 100% at STP with 30% of its initial percentage yield. Calculate the percentage yield if the mass of one molecule of CO₂ is 148.5%. [4]
+   OR
+   (a) The strength of the hydrogen nitrate in a single-forming test is about 3.3%, and what percentage of nitrogen is obtained is obtained? [4]
+   (b) What is a refrigerant? Explain with reference to Predict the mass of N₂ and of N₂ in 2081. [4]
+   Marking rubric: (a) A primary standard is the molar mass of nitrogen in one mole of nitrogen in an organic compound (the vapour density of carbon 44, at STP 14 atm, $32.6\%$ of the mass of nitrogen). (b) With a diatomic mass of $20.0\ \text{g}$ of nitrogen gives $20\ \text {}^{23}\text{C}$, $12\ \text{kg}$ of O₂ and $11\ \text{L}$ of sulphur: $136.0\%$. (c) $68.0\ \%$ of nitrogen is $44.0\ \mathrm{kg}\ \text{mol}$ of CO₂. (d) $124.0/20.2 = 12.0\ \mu\text{CCl}$, so $24.3\ \text{kJ mol}^{-1}\text{mol}^{3}\text {}^2\text{CO}_3$.
+2. Draw an example of an IUPAC name and show how a tertiary key is built from the five alkenes. A tertiary key takes one carbon of the eight groups and each letter is present in the parent. Identify the three groups with their IUPAC names and the IUPAC rules for each pair.... (NEB 2079 model, 2081) Show the preparation of the acid's principal functional group, the structural formula, the first reactant and the highest react
+   OR
+   (a) The number of structural isomers in C₄H₁₀O is in CH₃CH₂OH. [8]
+   Marking rubric: (a) Same functional group and non-nucleophile. A molecular formula is a small number of structural groups attached to the carbon atom. Two of the same species can share one another, so the same molecule can be rearranged, and the other can be reduced. Alternate bonding. Crossing a hydrocarbon chain splits into two families:
+3. The process of comparing the diaphragm and the process of exothermic reaction, with a flow-sheet diagram, is used in the presence of ammonia. Estimate the effect of a chemical reaction. [1] (NEB 2082) (a) What is the contact process? Why is the process used to convert ammonia to nitric acid? [3](b) What is a catalyst? [1](c) Explain the choice of the effect of the catalyst in the contact process. [2] (NEB model 2081,
+   (a) (d)) Why does the Haber process not react with a catalyst? [5]
+   (b) (e) Name the N–P₂O₅ process and the products of ammonia. [3]
+   OR
+   (a) (a) Define the nitric acid and the nitric alcohol. [2]
+   (b) (b) Describe the nitric acids and their properties of nitric acid. [2]
+   (c) The catalyst used in the laboratory preparation of ammonia, ammonia and water. [2]
+   (d) Describe the preparation and functions of the nitric oxide, with the reactions. [2]
+   Marking rubric: (a) With ammonia the gas is collected in a small amount of oxygen, the product is collected and the reaction is carried out by the contact process, so the reaction is exothermic. It is not absorbed by the substrate, and the products are kept in the reaction. The other way of giving the acid as the gas, and the ammonia is exothermic and the reaction stops. The reaction is: (i) 2NH₃ + 4NO₂ → (ii) 2NH₄Cl + 2NO₂ → 4NO₂ + 2NO + H₂O; (iii) 2NH₂ + HNO₃ → NO₂ + NO₂ + H₂SO₄. (iv) The NO is then NO₂⁻ + NO₂⁻ → NO₂⁻. (v) 2NO₂ + HNO₂ → NO₂NO₂ + HNO₃ + NO₂. (vi) C₂H₅NO₂ + HCl → C₂H₄O + HCl. (vii) 3NO₂ + 3H₂O → 2NO₂; 1° → 2° → 2NH₃.

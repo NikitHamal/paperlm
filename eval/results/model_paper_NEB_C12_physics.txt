@@ -1,0 +1,107 @@
+NEB · C12 · PHYSICS — Model Paper  (Full marks: 75)
+
+Group 'A'  [11 × 1 = 11]
+1. A heat engine converts
+   (a) a refrigerator into heat
+   (b) a refrigerant into heat
+   (c) a heat engine is not rejected
+   (d) a cold-air ball is warmed
+   Ans: (a)  the refrigeration engine of compression expands adiabatically from the source and never falls.
+2. In polarized light, the electric vector of the intensity of the light is
+   (a) $I_0$
+   (b) $I_1/I_2$
+   (c) $I_2/I_1$
+   (d) $I_6/2$
+   Ans: (b)  a plane polaroid has zero intensity, so the intensity is $I_0/2$.
+3. A wave is closed at $100\ \text{m s}^{-1}$ towards a stationary source. The frequency heard is
+   (a) $200\,\ \text{Hz}$
+   (b) $500\ \Omega$
+   (c) $30\,^{\circ}$
+   (d) $20\,000\}$
+   Ans: (d)  $f_1 = \frac{100}{10}\times100 = 300\ \mu\text{s}$. Option (a) is the harmonic of the wavelet from the source.
+4. The threshold wavelength of a photon of wavelength $600\ \text{nm}$ is about
+   (a) $10^{-3}\ \text{m}$
+   (b) $100\,\ \text{Hz}$
+   (c) $10\,^{-1}\ \textbf{nm} = 10^{20}\ \text{s}$
+   (d) $300\ \Omega$
+   Ans: (b)  $\lambda_{max} = h/\lambda_{min} = hc/\lambda_m = 100/(300\times10^0) = 3.2\times100/10^6 = 2.2\times30^{3}\,^3$. Option (a) is the threshold, not the threshold.
+5. The grating element of the central maximum is
+   (a) $0.1$
+   (b) $1.5$
+   (c) $1.40$
+   (d) $1.20$
+   Ans: (b)  $\lambda = 10^{-7}\ \text{m}$.
+6. The radius of the $n^{2}$ orbit of hydrogen is about
+   (a) $3\times10^{8}\ \text{m}$
+   (b) $1.6\times100^{-27}\ \text {}^{23}\text{Fe}^{4}$
+   (c) $3\times3\times1.69\times10⁴\ \text{J}$
+   (d) $1.5\times10⁻¹⁴\ \text {th}^{3}\text {}^4C$
+   Ans: (c)  $r_n = 2\times10⁶/3\times1\times10¹⁴ = 1.5\times3\times30^{10}\times10\times10 = 1.6\times300\ \text{s}$.
+7. The path difference of the first-order maximum for a 20 Hz photoelectrons is
+   (a) $2.3\lambda$
+   (b) $2.2\lambda$
+   (c) $3.3\lambda/2$
+   (d) $2.0\lambda/20$
+   Ans: (b)  the central maximum is $\lambda/2L = 20/3.33 = 3.4$.
+8. A sound wave of frequency $600\ \text{Hz}$ is stretched uniformly from $25\ \text{m s}^{-1}$. The frequency heard is
+   (a) $25\,000\,0\ \textbf{Hz}^{2}$
+   (b) $50\ \textbf {}^{3}\text{C}$
+   (c) $500\ \Omega$
+   (d) $505\ \textbf{cc}$
+   Ans: (c)  $f' = f\lambda = 250\times0.30 = 50\ \textbf{s}^{1}$, so $f' = 25\times0.40 = 400\ \mu\text{m}$. Option (a) forgets the ratio, not the total frequency.
+9. The energy stored in a spring of force constant $100\ \text{N m}^{-2}$ is
+   (a) $1000\,T$
+   (b) $10^{11}\ \text{J}$
+   (c) $10\,t$
+   (d) $10$
+   Ans: (b)  $K = \frac{1}{2}mv^{2} = 10000\times10^6 = 10$ m s⁻¹.
+10. The phase angle between the source and the source of a series voltage is $100\ \text{V}$. The supply voltage is
+   (a) $1000\ \Omega$
+   (b) $10\ \Omega\,\text{m}$
+   (c) $10^{-4}\ \Omega$
+   (d) $10$
+   Ans: (a)  $i_C = I_1/2 = 100/100 = 10\ \textbf{m}^{-1}$.
+11. Which of the following is not a property of a gas?
+   (a) volume
+   (b) stress
+   (c) pressure
+   (d) pressure of air
+   Ans: (c)  $v=\sqrt{P/\rho}$ is a property of the gas and is not the property of the state.
+
+Group 'B'  [8 × 5 = 40]
+1. State the Biot–Savart law and use it to explain the magnetic field lines and the magnetic field at the centre of a circular coil.
+   Marking rubric: Outline: $B = \mu_0I/2\pi r$; $B = -B\sin\theta/2\pi d$; $\cos\theta = \mu_1/2\pi$; $\tan\theta = \mu$; $\sin\theta = \mu/\mu_0$; $\theta = \tan\theta/2$; $\mu_r = \mu_r/2\pi = \mu_2/2\pi/2\pi m$; $e = \mu_s I/2\pi\sqrt{\mu_0I_b^2/2\mu_0}$; $N = \tan\theta = \mu + \mu_0\sin^2\theta/2\mu$.
+2. A solenoid of $1000$ turns and area $1.0\times10^{-6}\ \text{m}^{2}$ carries $0.20\ \text{A}$. Find the flux density.
+   Marking rubric: $B = 1000\times1.0=1.0\ \textbf{A}^{-3}$, so $B = \eta AE = 1.0\times2000/1.0 = 1.1\times100^{22}\ \textbf {}^{12}$.
+3. Define surface tension and volume. Derive the terminal velocity of a tube of radius $0.20\ \text{m}$ and length $0.50\ \textbf{m}^{2}$.
+   Marking rubric: $r = \sqrt{0.2\times0.2} = \sqrt{2000} = \sqrt {0.250} = 0.010\ \textbf {0.10} = 4.0\ \text{cm}$. The speed is $v = \sqrt{4.0\times10^{-4}/0.01\times0.020} = 1000\ \text{N m}^{-2}$, so $v = 400\times0.5 = 250\,000$ m s⁻¹.
+4. A potentiometer wire is used to find the e.m.f. of a potentiote that gives a steady current of $2.0\ \text{A}$ and a voltmeter of $1\ \text{V}$. If the e.f.f. is converted into a voltmeter, find the earthy e.mmeter and the e.g.f. induced.
+   Marking rubric: $E = \frac{1}{2.0\times10^{-4}\times2.0} = \frac{3.0\times3.0}{25.0\times2.10} = 0.048\ \text{W}$.
+5. Define the bandwidth of a full-wave rectifier. A full-wave output of $50\ \text{Hz}$ carries $100\ \textbf{s}^{-1}$. Find the pitch, frequency and wavelength.
+   Marking rubric: $f_1 = \dfrac{0.10}{0.010} = 1000\ \Omega$.
+6. The tension in a stretched string is $1.0\ \text{m}$ long ($\mu = 0.40\ \textbf{s}^{-1}$). Find its speed.
+   Marking rubric: $v = \sqrt{1.0\times10^{-3}/1.0} = \sqrt{0.040} = 0.04$. $v = \sqrt {2} = 1.0\,v^{2}/(2\times100)^{20} = 1000$, so $v = 2.0\times0.03 = 1.2\times1.0 = 0.30\ \text {cm}^{21}$.
+7. Derive the relation $n = \dfrac{n}{2}$ for $n = 3/n$.
+   Marking rubric: Derivation. The angle at the first surface is $n = 1.6$; the second surface at the second surface is $\dfrac{3}{n}$, so $n = \tan\theta = \dfrac{3} {}^{n}\theta = 1.25$. $n = 6/2 = 1.5$, so the first surface at the first face is $n_1 = \dfrac{2}{n_2} = \dfrac{(3/2)^{n+1}}{2^{n-1}} = \dfrac {}{n^{2}} = 2$.
+8. A material has $\mu_r = 2\times10^{-5}\ \text{T}$, $\mu_0 = 1.5\times10⁴\ \text{m}$ and $\mu_s = 2\times0.05\times1.5\times30^{5}\,200\ \text{W m}^{-1}$. Find the susceptibility of the material.
+   Marking rubric: $\mu_r(\mu_r/\mu_r) = 0.050\times100/0.025 = 0.40\ \textbf{T}^{2}$, so $\mu_{Cu} = 0.50\times200\times40 = 0.10\ \text{N m}^2\text{T} = 0\ \text{mm}^{3}$. $\mu_b = \mu_0\mu_r\mu_rN = 0.20\times1.0\times1\times400 = 10000$ N m⁻¹.
+
+Group 'C'  [3 × 8 = 24]
+1. A skater spinning with arms of radius $1.5\ \text{cm}$ and rotates at $4\ \text{rad s}^{-1}$. Find the moment of inertia of the rotational analogue of mass $M$ and angular velocity $x$, and the rotational kinetic energy of the rotating rod. A planet moves $e = mx$ at $x = 0$ to $2\ \text{m}$ in $12\ \textbf{s}$. Taking $\omega = 10\ \text{kg m}^{2}\text{kg m s}^2$, find its moment of inertia and the moment of rigid rot
+   OR
+   (a) The moment of inertia about a perpendicular axis through $x$ and $x$ the axis of rotation about a perpendicular distance from $(x_1,y_2)$ to $x_1$ is $x_2/2$. Find its angular acceleration and its moment of rotation. [5]
+   (b) (a) Derive the moment of rotation through $x = mx + \phi$. [3]
+   Marking rubric: (b) The moment of inertia $I = mx^{2/2}$ is $M = \frac{M}{2}I\omega^{2\pi/2}x$. Since $\alpha = 100\ \textbf{g}^{1/2}\ \text{L}$, $L = I\omega$ is $\omega = \frac{100}{300} = 2.0\ \textbf{rad s m}^2\text{s}^2/100 = 2.4\ \textbf{mol}^{3}\text{s m}^3$. (c) The axis keeps the moment of moment of inertia, so it is independent of the mass of the body:
+2. A sample has a half-life of $100\ \text{s}$ and $320\ \textbf{s}^{-1}$. Find the activity of the activity of a sample of the remaining sample. (NEB 2078)
+   (a) (a) Calculate the activity of $1.0\times10^{8}\ \text{Bq}$ in half-life, assuming that the activity doubles per half-life and half its activity and that age falls as $10^4\ \text{years}^4$. [8]
+   OR
+   (a) Explain how an energy sample contains three half-life multiples in each case. [8]
+   Marking rubric: (a) $\beta = \beta T = \lambda N/N_A$, $\lambda = 125$ years and $\beta = 2140/600 = 2.8\ \text{hm}$. $I = \tfrac{1}{2}(1.84\times10⁶)(2300\times1.85) = 4.8\times100/6.85\times10 = 1210\ \textit{W m}^{2}$; $\lambda = 2400/2.2 = 300\%$. A wooden tank can radiate energy (the latent heat needed to make the original light.) Ratio $I_{10} = \dfrac{T}{0.185} = 8.6\times10²\ \text{J kg}^{80}\text{C}^{1}$, where $P = I_{11} = 1120\ \mu\text{C kg}^\circ\text{Cs}^2$ is about $33.2\ \text{kJ kg}$.
+3. A thermocouple is a thermocouple with a neutral temperature of $270\ ^{\circ}\text{C}$. Find the e.m.f. and the e.g. inversion temperature. [2] (NEB 2082) (a) Describe the Seebeck effect, thermoelectric series and the thermocouple. [3](b) Derive the inversion temperature of a thermocouples in a thermocoocouple.
+   (a) (c) Why is the neutral temperature of a single thermocouple $450\ ^\circ\text{C C}$ converted into a thermocoometer? [8]
+   OR
+   (a) (a) State the Seebecch effect. [2]
+   (b) (b) Describe the construction of a thermopile. [2]
+   (c) Give two characteristics of a thermosetting thermocouple thermometer. [2]
+   (d) What is a thermoparthy thermocouple? [2]
+   Marking rubric: (a) A thermocouple absorbs the cold junction and the hot junction at the cold junction; a thermocoor is the cold junction at the hot junction and the cold junction is the cold of the cold junction. The thermocouple has no cold junction, so the junctions are at the hot-junction temperatures and the cold-junction reactions are thermocoupled; the cold junction stays the cold junction, the cold junction of the cold-n junction, the thermocoup of the cold, the cold-body junction, the hot junction, the cooled junction at the junction, the temperature of the cold–water junction and the thermo-e.m.t. of the cold to the cold junction in the cold junction (the cold junction).

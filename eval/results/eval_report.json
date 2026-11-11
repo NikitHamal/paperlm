@@ -1,0 +1,62 @@
+{
+ "constrained": {
+  "requested": 48,
+  "produced": 46,
+  "generation_failures": 2,
+  "schema_valid_pct": 100.0,
+  "mean_attempts": 1.54,
+  "mean_latency_s_ort_cpu": 0.69,
+  "p95_latency_s": 3.13
+ },
+ "novelty": {
+  "verbatim_in_train_pct": 2.2,
+  "distinct_questions_pct": 100.0
+ },
+ "mcq": {
+  "n": 20,
+  "key_dist": {
+   "b": 5,
+   "c": 2,
+   "a": 3,
+   "d": 10
+  },
+  "four_distinct_options_pct": 100.0
+ },
+ "written": {
+  "n": 26,
+  "marks_sum_ok_pct": 100.0,
+  "with_rubric_pct": 100.0,
+  "or_twin_pct_of_OR": 100.0
+ },
+ "unconstrained_baseline": {
+  "n": 48,
+  "schema_valid_pct": 89.6
+ },
+ "model_papers": [
+  {
+   "paper": "NEB/C12/physics",
+   "total_marks": 75,
+   "questions": 22,
+   "seconds": 19.5,
+   "note": "regenerated after resample-on-dead-end fix"
+  },
+  {
+   "paper": "SEE/C10/science",
+   "total_marks": 70,
+   "questions": 26,
+   "seconds": 4.5
+  },
+  {
+   "paper": "IOE/IOE/mathematics",
+   "total_marks": 20,
+   "questions": 20,
+   "seconds": 5.6
+  },
+  {
+   "paper": "NEB/C11/chemistry",
+   "total_marks": 75,
+   "questions": 22,
+   "seconds": 15.2
+  }
+ ]
+}
