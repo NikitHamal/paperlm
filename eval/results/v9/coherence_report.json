@@ -1,0 +1,63 @@
+{
+ "summary": {
+  "total": 12201,
+  "kept": 12197,
+  "flagged": 4,
+  "by_rule": {
+   "S": 2,
+   "M": 1,
+   "D": 1
+  }
+ },
+ "flagged": [
+  {
+   "board": "NEB|C12|mathematics",
+   "unit": "Correlation and Regression",
+   "issues": [
+    "S"
+   ],
+   "q": "Find Spearman's rank correlation coefficient, with the correction for ties, for",
+   "o": null,
+   "k": null,
+   "w": ""
+  },
+  {
+   "board": "BLE|C8|computer-science",
+   "unit": "Computer Programming using QBASIC",
+   "issues": [
+    "S"
+   ],
+   "q": "Write a program to display this pattern:",
+   "o": null,
+   "k": null,
+   "w": ""
+  },
+  {
+   "board": "BLE|C8|mathematics",
+   "unit": "Sets",
+   "issues": [
+    "M"
+   ],
+   "q": "Let $A=\\{x: x$ is a factor of 24$\\}$ and $B=\\{x: x$ is a factor of 36$\\}$.",
+   "o": null,
+   "k": null,
+   "w": ""
+  },
+  {
+   "board": "IOE|BE|discrete-structure",
+   "unit": "General",
+   "issues": [
+    "D"
+   ],
+   "q": "In a graph with 10 vertices, if every vertex is connected to every other vertex, how many edges are there in the graph?",
+   "o": [
+    "45",
+    "50",
+    "90",
+    "100"
+   ],
+   "k": "a",
+   "w": "A complete graph with $n$ vertices has $\frac{n(n-1)}{2}$ edges, thus for 10 vertices, the number of edges is $\frac{10*9}{2} = 45$."
+  }
+ ]
+}

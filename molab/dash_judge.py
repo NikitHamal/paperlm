@@ -46,3 +46,17 @@ def verify():
     ex = s.get("last")
     if ex: body += f"<pre style='white-space:pre-wrap;font-size:12px;background:#f6f2fa;border-radius:10px;padding:8px;margin-top:8px'>{H.escape(str(ex))[:900]}</pre>"
     return _card("🔬 Stage-2 verification of teacher MCQs (5 independent checks)", body)
+
+
+def cross():
+    s = _j("/tmp/paperlm/status_cross.json")
+    if not s: return _card("🧪 Cross-family verification (Mistral-24B)", "<div style='font-size:13px'>not started</div>")
+    tot = max(1, s.get("total", 1)); dn = s.get("done", 0); c = s.get("counts", {}); n = max(1, c.get("total", 1))
+    rows = "".join(f"<tr><td>{H.escape(str(k))}</td><td align=right><b>{H.escape(str(v))}</b></td></tr>" for k, v in c.items())
+    body = (f"<div style='font-size:13px'>{H.escape(str(s.get('model','')))} · {H.escape(str(s.get('msg','')))} · elapsed {s.get('elapsed','-')} s · updated {time.time()-s.get('ts',0):.0f}s ago</div>"
+            f"<div style='margin:8px 0'>{_bar(dn/tot,'#00897b')}<div style='font-size:12px'>{dn} / {tot} · cross-confirmed so far {c.get('all',0)}/{n}</div></div>"
+            "<div style='font-size:12px;color:#555'>P 4-order blind solve · E explanation entailment · D discrimination probe — by a different model family than the Qwen teacher</div>"
+            f"<table style='font-size:13px'>{rows}</table>")
+    ex = s.get("last")
+    if ex: body += f"<pre style='white-space:pre-wrap;font-size:12px;background:#eef7f5;border-radius:10px;padding:8px;margin-top:8px'>{H.escape(str(ex))[:900]}</pre>"
+    return _card("🧪 Cross-family verification (independent model family)", body)

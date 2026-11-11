@@ -1,0 +1,15 @@
+{
+ "units": 860,
+ "units_with_anchor": 832,
+ "coverage": 0.9674,
+ "by_board": {
+  "TU": "4/4",
+  "CTEVT": "15/15",
+  "SEE": "116/119",
+  "NEB": "313/317",
+  "BLE": "94/96",
+  "CEE": "77/83",
+  "IOE": "213/226"
+ },
+ "concepts": 8547
+}
