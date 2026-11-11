@@ -1,0 +1,1697 @@
+[
+ {
+  "id": "TU|BCA|gk-and-it#General#0",
+  "q": "The present constitution of Nepal was promulgated on",
+  "o": [
+   "2 Ashwin 2072",
+   "3 Ashwin 2072",
+   "4 Ashwin 2072",
+   "15 Jestha 2065"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.003,
+  "cot": "A",
+  "tail": "ng these, the correct date for the promulgation of the constitution is 2072 Ashwin 2, which is September 20, 2015.\n\nTherefore, the correct answer is:\n\nAnswer: A"
+ },
+ {
+  "id": "TU|BCA|gk-and-it#General#7",
+  "q": "Democracy Day in Nepal is observed on",
+  "o": [
+   "7 Falgun",
+   "15 Jestha",
+   "3 Ashwin",
+   "1 Baisakh"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.081,
+  "cot": "B",
+  "tail": " democracy.\nD. 1 Baisakh - This does not correspond to the date of the restoration of democracy.\n\nAfter careful consideration, the correct answer is:\n\nAnswer: B"
+ },
+ {
+  "id": "TU|BCA|gk-and-it#General#13",
+  "q": "The author of the novel Basain is",
+  "o": [
+   "Gopal Prasad Rimal",
+   "Ramlal Joshi",
+   "Lokendra Bahadur Chand",
+   "Lil Bahadur Chhetri"
+  ],
+  "key": "d",
+  "blind": "C",
+  "p_key": 0.056,
+  "cot": "C",
+  "tail": "ed figure in Nepalese literature but not the author of \"Basain\".\n\nAfter careful consideration of each option, it is clear that the correct answer is:\n\nAnswer: C"
+ },
+ {
+  "id": "CTEVT|BSN|community-health-nursing#General#0",
+  "q": "Tobacco-control legislation is an example of:",
+  "o": [
+   "primordial prevention",
+   "primary prevention",
+   "secondary prevention",
+   "tertiary prevention."
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "-related illnesses) before it occurs.\n\nGiven this understanding, tobacco control legislation is best categorized as an example of primary prevention.\n\nAnswer: B"
+ },
+ {
+  "id": "CTEVT|BSN|community-health-nursing#General#13",
+  "q": "A MUAC of 112 mm in a child of 2 years means:",
+  "o": [
+   "normal",
+   "moderate malnutrition",
+   "severe acute malnutrition",
+   "obesity."
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.003,
+  "cot": "B",
+  "tail": " within the range of 110 mm ≤ MUAC < 125 mm, which indicates moderate malnutrition.\n\nTherefore, the correct answer based on the given information is:\n\nAnswer: B"
+ },
+ {
+  "id": "CTEVT|BSN|fundamentals-of-nursing#General#0",
+  "q": "The Nepal Nursing Council Act was passed in:",
+  "o": [
+   "2042",
+   "2052",
+   "2062",
+   "2072."
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.378,
+  "cot": "C",
+  "tail": "pal Nursing Council Act.\n\nGiven the options provided:\n\nA. 2042\nB. 2052\nC. 2062\nD. 2072\n\nThe correct answer based on the historical record is 2062 BS.\n\nAnswer: C"
+ },
+ {
+  "id": "CTEVT|BSN|adult-nursing-1#General#0",
+  "q": "The count of instruments, swabs and needles is confirmed at:",
+  "o": [
+   "sign in",
+   "time out",
+   "sign out",
+   "discharge."
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.011,
+  "cot": "B",
+  "tail": "commonly known in surgical procedures.\n\nGiven the options provided, the closest and most logical answer based on standard surgical protocol would be:\n\nAnswer: B"
+ },
+ {
+  "id": "CTEVT|BSN|nursing-concepts#General#1",
+  "q": "A person with a sudden earthquake loss of home and family is in which type of crisis?",
+  "o": [
+   "maturational",
+   "situational",
+   "adventitious",
+   "none, it is only stress."
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "**situational crisis** because it involves a specific event (earthquake) that has disrupted the individual's life.\n\nTherefore, the correct answer is:\n\nAnswer: B"
+ },
+ {
+  "id": "CTEVT|BSN|child-health-nursing#General#3",
+  "q": "Which vaccine is given intradermally in the right upper arm at 14 weeks and 9 months in Nepal?",
+  "o": [
+   "PCV",
+   "MR",
+   "fIPV",
+   "TCV."
+  ],
+  "key": "c",
+  "blind": "D",
+  "p_key": 0.076,
+  "cot": "D",
+  "tail": " However, based on the options provided and the method of administration, the closest match would be TCV (BCG), despite the unusual timing mentioned.\n\nAnswer: D"
+ },
+ {
+  "id": "CTEVT|BSN|child-health-nursing#General#9",
+  "q": "A child has a MUAC of 11.2 cm and no oedema. This is:",
+  "o": [
+   "Normal",
+   "MAM",
+   "SAM",
+   "stunting."
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.001,
+  "cot": "B",
+  "tail": " The absence of oedema does not change the classification based on MUAC alone.\n\nTherefore, the correct answer based on the given MUAC measurement is:\n\nAnswer: B"
+ },
+ {
+  "id": "CTEVT|BSN|family-and-reproductive-heal#General#0",
+  "q": "The modern CPR is 40% and the total demand is 80%. The demand satisfied by modern methods is:",
+  "o": [
+   "32%",
+   "40%",
+   "50%",
+   "80%."
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.002,
+  "cot": "A",
+  "tail": "tion:\n\n\\[ \\frac{40}{100} = 0.40 \\]\n\nThen multiply by the total demand:\n\n\\[ 0.40 \\times 80 = 32 \\]\n\nSo, the demand satisfied by modern methods is 32%.\n\nAnswer: A"
+ },
+ {
+  "id": "SEE|C10|english#Unit 2: Festivals and Celebrations#2",
+  "q": "The red hat worn by participants is a symbol of",
+  "o": [
+   "war",
+   "harvest",
+   "freedom",
+   "wealth"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.076,
+  "cot": "D",
+  "tail": " association for a red hat would be with wealth and prosperity, which aligns well with the use of red in many cultural celebrations around the world.\n\nAnswer: D"
+ },
+ {
+  "id": "SEE|C10|english#Unit 5: Science and Experiment#2",
+  "q": "The poet of \"The Voice of the Rain\" is",
+  "o": [
+   "Walt Whitman",
+   "Robert Frost",
+   "Amy Lowell",
+   "Thomas Hardy"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.029,
+  "cot": "C",
+  "tail": "or novels and poems such as \"The Darkling Thrush,\" not \"The Voice of the Rain.\"\n\nAfter careful consideration and verification, the correct answer is:\n\nAnswer: C"
+ },
+ {
+  "id": "SEE|C10|english#Unit 6: Food and Cuisine#3",
+  "q": "His restaurant mentioned in the interview is called",
+  "o": [
+   "Dhaulagiri",
+   "Ayla",
+   "Annapurna",
+   "Himal"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.321,
+  "cot": "C",
+  "tail": "forward and directly stated within the text.\n\nAssuming the interview mentions \"Annapurna\" as the name of the restaurant, the correct answer would be:\n\nAnswer: C"
+ },
+ {
+  "id": "SEE|C10|english#Unit 6: Food and Cuisine#10",
+  "q": "Santosh Shah wants a Michelin star for",
+  "o": [
+   "Cinnamon Kitchen",
+   "Ayla",
+   "MasterChef",
+   "BBC One"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.06,
+  "cot": "A",
+  "tail": "ion and the options provided, the most logical choice is A. Cinnamon Kitchen, as it is a restaurant that could realistically aim for a Michelin star.\n\nAnswer: A"
+ },
+ {
+  "id": "SEE|C10|english#Unit 9: History and Culture#1",
+  "q": "He took the title",
+  "o": [
+   "Kabindra",
+   "Mahendra",
+   "Narendra",
+   "Surendra"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.223,
+  "cot": "D",
+  "tail": "e historical context and the analysis of each option, the correct answer is the one that matches the historical figure who took the title \"Surendra\".\n\nAnswer: D"
+ },
+ {
+  "id": "SEE|C10|english#Unit 13: Population and Migration#3",
+  "q": "The peak of about 10.4 billion is expected in the",
+  "o": [
+   "2030s",
+   "2050s",
+   "2080s",
+   "2100s"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.001,
+  "cot": "B",
+  "tail": ". 2080s\nD. 2100s\n\nThe correct option is B, as it aligns with the projection that the global population will peak at around 10.4 billion in the 2050s.\n\nAnswer: B"
+ },
+ {
+  "id": "SEE|C10|english#Unit 14: Travel and Adventure#1",
+  "q": "\"Weathers\" was written by",
+  "o": [
+   "Thomas Hardy",
+   "Wordsworth",
+   "Kipling",
+   "Tennyson"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.076,
+  "cot": "D",
+  "tail": "ather as a metaphor for life's changes.\n\nAfter careful consideration of each option, it is clear that the correct answer is associated with Tennyson.\n\nAnswer: D"
+ },
+ {
+  "id": "SEE|C10|english#Unit 14: Travel and Adventure#2",
+  "q": "The refrain of each stanza is",
+  "o": [
+   "\"And so do I\"",
+   "\"Nevermore\"",
+   "\"Come away\"",
+   "\"So it goes\""
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": " goes\" - This is not the refrain.\n\nAfter careful consideration and matching the refrain of the poem with the provided options, the correct answer is:\n\nAnswer: C"
+ },
+ {
+  "id": "SEE|C10|english#Unit 15: People and Places#1",
+  "q": "She writes with her",
+  "o": [
+   "right hand",
+   "left foot",
+   "mouth",
+   "right foot"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": " specific circumstances or disabilities that necessitate such methods.\n\nGiven the lack of additional context and sticking to the most common scenario:\nAnswer: A"
+ },
+ {
+  "id": "SEE|C10|english#General#5",
+  "q": "The young climate leaders in the group were aged",
+  "o": [
+   "8 to 18",
+   "18 to 28",
+   "28 to 38",
+   "12 to 16"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.009,
+  "cot": "A",
+  "tail": "ming the correct information from the textbook states that the young climate leaders are aged between 8 to 18 years old, the correct answer would be:\n\nAnswer: A"
+ },
+ {
+  "id": "SEE|C10|mathematics#Prism and Pyramid#4",
+  "q": "The volume of the pyramid in item 4 is",
+  "o": [
+   "24 cm³",
+   "48 cm³",
+   "72 cm³",
+   "144 cm³"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.18,
+  "cot": "C",
+  "tail": " multiply by \\(\\frac{1}{3}\\):\n\n\\[ V = \\frac{1}{3} \\times 216 = 72 \\, \\text{cm}^3 \\]\n\nTherefore, the volume of the pyramid is \\( 72 \\, \\text{cm}^3 \\).\n\nAnswer: C"
+ },
+ {
+  "id": "SEE|C10|mathematics#Statistics#1",
+  "q": "The coefficient of range in item 1 is",
+  "o": [
+   "0.6",
+   "0.4",
+   "0.75",
+   "1.6"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.001,
+  "cot": "B",
+  "tail": "choose an answer. However, if we were to guess based on common coefficients of range values, option B (0.4) seems plausible as a reasonable estimate.\n\nAnswer: B"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 1: Our Society and We#7",
+  "q": "The national game of Nepal is",
+  "o": [
+   "football",
+   "cricket",
+   "volleyball",
+   "kabaddi"
+  ],
+  "key": "c",
+  "blind": "D",
+  "p_key": 0.0,
+  "cot": "D",
+  "tail": "he national game of Nepal, traditionally played and celebrated across the country.\n\nBased on the above steps and confirmation, the correct answer is:\n\nAnswer: D"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 2: Development and the Foundations of Development#9",
+  "q": "The number of rural municipalities is",
+  "o": [
+   "276",
+   "460",
+   "753",
+   "11"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "al municipalities in Nepal.\n\nGiven the options provided:\nA. 276\nB. 460\nC. 753\nD. 11\n\nThe correct number of rural municipalities aligns with option C.\n\nAnswer: C"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 3: Our Social Values and Beliefs#0",
+  "q": "How many World Heritage Sites does Nepal have, according to the book?",
+  "o": [
+   "2",
+   "4",
+   "6",
+   "10"
+  ],
+  "key": "b",
+  "blind": "D",
+  "p_key": 0.01,
+  "cot": "D",
+  "tail": "n in the book, and without direct access to the book's current edition, we must assume the book provides the most relevant data for the exam context.\n\nAnswer: D"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 3: Our Social Values and Beliefs#4",
+  "q": "Unity Day is observed on",
+  "o": [
+   "27 Poush",
+   "16 Magh",
+   "7 Falgun",
+   "3 Ashwin"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.01,
+  "cot": "B",
+  "tail": "calendar.\n\nGiven the options:\nA. 27 Poush\nB. 16 Magh\nC. 7 Falgun\nD. 3 Ashwin\n\nWe can see that option B corresponds to the correct date for Unity Day.\n\nAnswer: B"
+ },
+ {
+  "id": "SEE|C10|social-studies#General#2",
+  "q": "The Domestic Violence Act was passed in",
+  "o": [
+   "2059",
+   "2064",
+   "2066",
+   "2075"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "2066\nD. 2075\n\nThe closest option to 2063 BS is 2064 BS, which is likely due to rounding or slight discrepancies in the exact date of enactment.\n\nFinal Answer: B"
+ },
+ {
+  "id": "SEE|C10|social-studies#General#5",
+  "q": "The Prevention of Corruption Act was made in",
+  "o": [
+   "2059",
+   "2064",
+   "2066",
+   "2074"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.001,
+  "cot": "B",
+  "tail": "e year 2064 BS with the provided options:\nA. 2059\nB. 2064\nC. 2066\nD. 2074\n\nStep 4: Select the correct option.\nThe correct year matches with option B.\n\nAnswer: B"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 5: Civic Consciousness#1",
+  "q": "Of these, the number elected by first-past-the-post is",
+  "o": [
+   "110",
+   "165",
+   "275",
+   "59"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "s seen in such contexts, option C (275) might be plausible as it is a relatively high number often associated with national-level legislative bodies.\n\nAnswer: C"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 5: Civic Consciousness#4",
+  "q": "The Council of Ministers has not more than",
+  "o": [
+   "15",
+   "21",
+   "25",
+   "30 members"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.007,
+  "cot": "B",
+  "tail": "of ministers, which is explicitly stated as not exceeding 21 members.\n\nTherefore, the correct answer based on the direct constitutional provision is:\n\nAnswer: B"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 7: Our Past#2",
+  "q": "King Mahendra's coup took place on",
+  "o": [
+   "1 Poush 2017",
+   "7 Falgun 2007",
+   "26 Chaitra 2046",
+   "20 Ashwin 2072"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": " This matches our conversion.\n- Option D: 20 Ashwin 2072 - This does not match.\n\nAfter careful consideration and verification, the correct answer is:\n\nAnswer: C"
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 10: Population and Its Management#0",
+  "q": "Nepal's population growth rate in the 2021 census was",
+  "o": [
+   "0.92%",
+   "1.35%",
+   "2.62%",
+   "2.25%"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": " This option is also higher than the actual growth rate.\n\nAfter careful consideration and verification with the official data, the correct answer is:\n\nAnswer: B"
+ },
+ {
+  "id": "SEE|C10|social-studies#Social Studies: Unit-wise Objective Question Bank#2",
+  "q": "On which date is Constitution Day observed?",
+  "o": [
+   "15 Jestha",
+   "3 Ashwin",
+   "7 Falgun",
+   "27 Poush"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.106,
+  "cot": "C",
+  "tail": "stitution Day.\nD. 27 Poush - This date does not correspond to Constitution Day.\n\nAfter careful consideration and verification, the correct answer is:\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C11|biology#Vegetation#13",
+  "q": "Shorea robusta is the dominant tree of the",
+  "o": [
+   "tropical zone",
+   "subtropical zone",
+   "temperate zone",
+   "subalpine zone"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.002,
+  "cot": "B",
+  "tail": "udes, which is not suitable for Shorea robusta.\n\nBased on the above analysis, the correct ecological zone for Shorea robusta is the subtropical zone.\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemistry of Metals#1",
+  "q": "Calcination is heating an ore",
+  "o": [
+   "in limited or no air",
+   "in excess air",
+   "with carbon",
+   "in an electric current"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "ese explanations, the most accurate description of calcination is that it involves heating an ore in the presence of air, which aligns with option B.\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C11|chemistry#Basic Concept of Organic Chemistry#9",
+  "q": "The IUPAC name of (CH₃)₃C–OH is",
+  "o": [
+   "butan-1-ol",
+   "butan-2-ol",
+   "2-methylpropan-1-ol",
+   "2-methylpropan-2-ol"
+  ],
+  "key": "d",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "st carbon of the 2-methylpropyl group, the correct name will be 2-methylpropan-1-ol.\n\nTherefore, the IUPAC name of (CH₃)₃C–OH is 2-methylpropan-1-ol.\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C11|chemistry#Fundamental Principles of Organic Chemistry#9",
+  "q": "A racemic mixture is optically inactive because of",
+  "o": [
+   "internal compensation",
+   "external compensation",
+   "the absence of a chiral carbon",
+   "a plane of symmetry in each molecule"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "ptically inactive, this does not describe a racemic mixture, which involves two different enantiomers.\n\nBased on the analysis, the correct answer is:\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C11|chemistry#Hydrocarbons#6",
+  "q": "Heating sodium propanoate with soda lime gives",
+  "o": [
+   "propane",
+   "ethane",
+   "methane",
+   "butane"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "_3 \\)).\n\nStep 4: Identify the product.\nThe product formed from the decarboxylation of sodium propanoate is propane.\n\nTherefore, the correct answer is:\nAnswer: A"
+ },
+ {
+  "id": "NEB|C11|chemistry#Hydrocarbons#7",
+  "q": "Propene reacts with HBr in the presence of benzoyl peroxide to give mainly",
+  "o": [
+   "2-bromopropane",
+   "1-bromopropane",
+   "1,2-dibromopropane",
+   "propan-2-ol"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.5,
+  "cot": "A",
+  "tail": "he major product will be 2-bromopropane, where the bromine is attached to the central carbon of the propane chain.\n\nTherefore, the correct answer is:\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C11|computer-science#Information Security and Cyber Law#6",
+  "q": "The maximum imprisonment for publishing illegal material in electronic form under the Act is:",
+  "o": [
+   "2 years",
+   "3 years",
+   "5 years",
+   "6 months"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.095,
+  "cot": "B",
+  "tail": "ovided:\n\nA. 2 years\nB. 3 years\nC. 5 years\nD. 6 months\n\nThe correct answer based on Section 24 of the Electronic Transaction Act, 2063, is B. 3 years.\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C11|computer-science#Information Security and Cyber Law#8",
+  "q": "A first information report under the Electronic Transactions Act must be filed within:",
+  "o": [
+   "15 days",
+   "35 days",
+   "60 days",
+   "90 days"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.014,
+  "cot": "A",
+  "tail": " timeframe is not strictly defined in the Electronic Transactions Act, the closest and most practical option from the given choices would be 15 days.\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C11|mathematics#Trigonometric Equations and General Values#13",
+  "q": "The principal solution of $\\sin\\theta = -\\frac{1}{\\sqrt{2}}$ is",
+  "o": [
+   "$\\frac{5\\pi}{4}$",
+   "$\\frac{7\\pi}{4}$",
+   "$-\\frac{\\pi}{4}$",
+   "$\\frac{3\\pi}{4}$"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "pi}{4}\\) are correct principal solutions, but since we need to choose one from the options, we select the first one listed among the correct answers.\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C11|physics#Circular Motion#0",
+  "q": "The difference between the tensions at the lowest and the highest point of a vertical circle is",
+  "o": [
+   "$2mg$",
+   "$3mg$",
+   "$5mg$",
+   "$6mg$"
+  ],
+  "key": "d",
+  "blind": "A",
+  "p_key": 0.007,
+  "cot": "A",
+  "tail": "xt{low}} - T_{\\text{high}} = 2mg \\]\n\nThus, the difference between the tensions at the lowest and the highest point of a vertical circle is \\( 2mg \\).\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C11|physics#Lenses#2",
+  "q": "A convex lens of focal length $10\\ \\text{cm}$ is used as a magnifying glass with the image at the near point. Its magnifying power is",
+  "o": [
+   "$1.5$",
+   "$2.5$",
+   "$3.5$",
+   "$10$"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "tuting these values into the formula:\n\\[ M = \\frac{25\\ \\text{cm}}{10\\ \\text{cm}} = 2.5 \\]\n\nTherefore, the magnifying power of the convex lens is 2.5.\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|biology#Plant Anatomy#17",
+  "q": "Xylem and phloem lying on alternate radii is characteristic of",
+  "o": [
+   "a dicot stem",
+   "a monocot stem",
+   "a root",
+   "a dorsiventral leaf"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "r would be related to the arrangement seen in monocot stems, where xylem and phloem can lie on alternate radii within each scattered vascular bundle.\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|biology#Embryology#3",
+  "q": "Which type of artificial vegetative propagation induces roots on a branch while it is still attached to the parent plant, and suits plants with soft branches lying near the soil?",
+  "o": [
+   "air layering",
+   "grafting",
+   "soil layering",
+   "cutting"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "fically involves inducing roots on a branch while it remains attached to the parent plant, which suits plants with soft branches lying near the soil.\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|biology#Developmental Biology#0",
+  "q": "What are the sequential steps involved in gametogenesis?",
+  "o": [
+   "multiplication, growth, maturation",
+   "multiplication, maturation, growth",
+   "growth, multiplication, maturation",
+   "maturation, growth, multiplication"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.014,
+  "cot": "C",
+  "tail": "ls.\n\nGiven these steps, the correct sequence is:\n- Multiplication\n- Growth\n- Maturation\n\nTherefore, the correct answer among the options provided is:\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|biology#Human Biology#9",
+  "q": "What would happen if the oxyntic cells of the gastric glands became non-functional?",
+  "o": [
+   "lipase becomes more active",
+   "protein digestion does not take place",
+   "the pH of the stomach falls",
+   "pepsin is not secreted"
+  ],
+  "key": "b",
+  "blind": "D",
+  "p_key": 0.002,
+  "cot": "D",
+  "tail": "functional oxyntic cells.\n\nGiven these points, the most accurate answer is that pepsin is not secreted due to the non-functionality of oxyntic cells.\n\nAnswer: D"
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#7",
+  "q": "Which pair is correctly described?",
+  "o": [
+   "Hg₂Cl₂, poisonous",
+   "HgCl₂, non-poisonous",
+   "Hg₂Cl₂, non-poisonous",
+   "both are non-poisonous"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "states that both are non-poisonous, which is incorrect.\n\nTherefore, the only correct description among the given options is that Hg₂Cl₂ is poisonous.\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#3",
+  "q": "Iodoethane warmed with alcoholic KCN gives",
+  "o": [
+   "ethyl isocyanide",
+   "propanenitrile",
+   "ethylamine",
+   "ethanol"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "ons directly match \"ethyl nitrile\" (CH3CH2CN). However, considering the closest match and the common naming conventions, the closest option would be:\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#7",
+  "q": "Trichloromethane heated with silver powder gives",
+  "o": [
+   "ethene",
+   "ethyne",
+   "methane",
+   "ethanol"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": ".\n- A. Ethene (C₂H₄)\n- B. Ethyne (C₂H₂)\n- C. Methane (CH₄)\n- D. Ethanol (C₂H₅OH)\n\nFrom the reaction, we see that the product formed is methane (CH₄).\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|chemistry#Phenols#0",
+  "q": "Which reagent distinguishes phenol from a carboxylic acid?",
+  "o": [
+   "sodium metal",
+   "sodium hydroxide",
+   "sodium hydrogen carbonate",
+   "neutral FeCl₃"
+  ],
+  "key": "c",
+  "blind": "D",
+  "p_key": 0.003,
+  "cot": "D",
+  "tail": "nt that distinctly identifies phenol from carboxylic acids is neutral FeCl₃ due to the specific color change observed only in the presence of phenol.\n\nAnswer: D"
+ },
+ {
+  "id": "NEB|C12|chemistry#Phenols#3",
+  "q": "Kolbe's reaction on sodium phenoxide gives",
+  "o": [
+   "salicylaldehyde",
+   "salicylic acid",
+   "benzoic acid",
+   "picric acid"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "ne of the above options correctly represents the product of Kolbe's reaction on sodium phenoxide. However, following the instruction format strictly:\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|chemistry#Phenols#9",
+  "q": "Phenol dissolves in aqueous NaOH but not in aqueous NaHCO₃ because",
+  "o": [
+   "it is a stronger acid than carbonic acid",
+   "it is a weaker acid than carbonic acid",
+   "it is not acidic at all",
+   "it is insoluble in water"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": ".\n\nTherefore, the correct answer is that phenol dissolves in aqueous NaOH but not in aqueous NaHCO₃ because it is a stronger acid than carbonic acid.\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Phenols#10",
+  "q": "Sodium phenoxide heated with CO₂ at 125 °C and 4–7 atm gives, after acidification,",
+  "o": [
+   "benzoic acid",
+   "salicylic acid",
+   "salicylaldehyde",
+   "picric acid"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.018,
+  "cot": "A",
+  "tail": "s the stable product formed after acidification.\n\nTherefore, based on the reaction conditions and the nature of the reactants, the correct answer is:\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Ethers#3",
+  "q": "Anisole heated with HI gives",
+  "o": [
+   "iodobenzene and methanol",
+   "phenol and iodomethane",
+   "benzene and CH₃OH",
+   "phenol and methane"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.378,
+  "cot": "A",
+  "tail": "\\]\n\nBreaking down the products:\n- Phenyl iodide (iodobenzene): \\(\\text{Ph-I}\\)\n- Methanol: \\(\\text{CH}_3\\text{OH}\\)\n\nTherefore, the correct answer is:\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Aldehydes and Ketones#0",
+  "q": "Benzene → X → Y; Y warmed with ethanoic anhydride and sodium ethanoate gives an acid. That acid is",
+  "o": [
+   "benzoic acid",
+   "cinnamic acid",
+   "salicylic acid",
+   "phthalic acid"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "l alcohol), which upon oxidation would yield salicylic acid (o-hydroxybenzoic acid).\n\nTherefore, the acid formed in the final step is salicylic acid.\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|chemistry#Aldehydes and Ketones#11",
+  "q": "Benzaldehyde with alcoholic KCN gives",
+  "o": [
+   "benzoin",
+   "mandelonitrile",
+   "benzoic acid",
+   "cinnamic acid"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "n D: Cinnamic acid - This is not the product of the reaction between benzaldehyde and KCN.\n\nTherefore, after careful analysis, the correct answer is:\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|chemistry#Carboxylic Acid and its Derivatives#0",
+  "q": "A compound C₃H₄O₄ on heating gives Y and CO₂; Y with P₂O₅ gives X. X is",
+  "o": [
+   "ethanoic acid",
+   "ethanoic anhydride",
+   "ethanoyl chloride",
+   "ethanamide"
+  ],
+  "key": "b",
+  "blind": "B",
+  "p_key": 0.5,
+  "cot": "C",
+  "tail": "de.\n   - The dehydration of maleylaldehyde would result in the formation of ethanoyl chloride (\\(CH_3COCl\\)).\n\nTherefore, \\(X\\) is ethanoyl chloride.\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|chemistry#Carboxylic Acid and its Derivatives#5",
+  "q": "Ethanamide treated with bromine and NaOH gives",
+  "o": [
+   "ethylamine",
+   "methylamine",
+   "ethanoic acid",
+   "ethanenitrile"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "D",
+  "tail": ".\n- A. ethylamine (CH3CH2NH2)\n- B. methylamine (CH3NH2)\n- C. ethanoic acid (CH3COOH)\n- D. ethanenitrile (CH3CN)\n\nThe correct answer matches option D.\n\nAnswer: D"
+ },
+ {
+  "id": "NEB|C12|chemistry#Nitro Compounds#0",
+  "q": "In the nitrous acid test a secondary nitroalkane gives a",
+  "o": [
+   "red colour",
+   "blue colour",
+   "yellow colour",
+   "no colour"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.481,
+  "cot": "A",
+  "tail": "cifically known to be red.\n\nGiven this information, the correct answer to the question \"In the nitrous acid test a secondary nitroalkane gives a\" is:\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Amines#2",
+  "q": "A mixture of 1°, 2° and 3° amines is separated by Hoffmann's method using",
+  "o": [
+   "diethyl oxalate",
+   "benzoyl chloride",
+   "nitrous acid",
+   "chloroform"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "rous acid - Correctly matches the description of Hoffmann's method.\nD. Chloroform - Not used in Hoffmann's method.\n\nTherefore, the correct answer is:\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|chemistry#Amines#15",
+  "q": "The correct order of basic strength in aqueous solution is",
+  "o": [
+   "(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃",
+   "(CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃",
+   "NH₃ > CH₃NH₂ > (CH₃)₂NH > (CH₃)₃N",
+   "CH₃NH₂ > (CH₃)₂NH > NH₃ > (CH₃)₃N"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "ic)\n- (CH₃)₂NH\n- CH₃NH₂\n- NH₃ (least basic)\n\nTherefore, the correct order of basic strength in aqueous solution is:\n(CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Organometallic Compounds#3",
+  "q": "Ethylmagnesium bromide treated with water gives",
+  "o": [
+   "ethanol",
+   "ethane",
+   "ethene",
+   "ethanoic acid"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "5: Match the product with the given options.\n- Option A corresponds to ethanol (CH3CH2OH).\n\nTherefore, after careful analysis, the correct answer is:\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|chemistry#Cement#12",
+  "q": "Nepal's largest cement plant is located in",
+  "o": [
+   "Dhading",
+   "Chobhar",
+   "Jaljale, Udayapur",
+   "Biratnagar"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.01,
+  "cot": "B",
+  "tail": "t home to the largest cement plant in Nepal.\n\nGiven these considerations, the most accurate option based on the current industrial setup in Nepal is:\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|chemistry#General#6",
+  "q": "Propanamide on heating with Br₂ and NaOH gives",
+  "o": [
+   "propylamine",
+   "ethylamine",
+   "methylamine",
+   "propanoic acid"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "D",
+  "tail": "2\\text{O} \\rightarrow \\text{CH}_3\\text{CH}_2\\text{COOH} + \\text{HBr} \\]\n\nTherefore, the final product of the reaction is propanoic acid (CH₃CH₂COOH).\n\nAnswer: D"
+ },
+ {
+  "id": "NEB|C12|chemistry#General#13",
+  "q": "Benzenediazonium chloride on warming with water gives",
+  "o": [
+   "chlorobenzene",
+   "phenol",
+   "aniline",
+   "benzene"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": " 4: Match the product with the given options.\nFrom the reaction, we see that the primary product formed is aniline.\n\nTherefore, the correct answer is:\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|mathematics#General#1",
+  "q": "Two sides and the included angle are given. The law that leads directly to the other two angles is",
+  "o": [
+   "sine law",
+   "cosine law",
+   "tangent law",
+   "projection law"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": " other two angles.\n\nTherefore, the law that leads directly to the other two angles when two sides and the included angle are given is the Cosine Law.\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#0",
+  "q": "What is the derivative of $y = 2\\sinh\\frac{x}{2}$ with respect to $x$?",
+  "o": [
+   "$\\cosh\\frac{x}{2}$",
+   "$2\\cosh\\frac{x}{2}$",
+   "$\\cosh\\frac{x}{4}$",
+   "$2\\cosh\\frac{x}{4}$"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.378,
+  "cot": "B",
+  "tail": " function had a coefficient of 2, we multiply the result by 2:\n\\[ \\frac{dy}{dx} = 2\\cosh\\left(\\frac{x}{2}\\right) \\]\n\nTherefore, the correct answer is:\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|mathematics#Differential Equations#4",
+  "q": "The degree of $\\frac{d^{2}y}{dx^{2}}+3\\left(\\frac{dy}{dx}\\right)^{3}=0$ is",
+  "o": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$5$"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "h is 3.\n\nTherefore, the degree of the differential equation is determined by the highest power of any derivative present in the equation, which is 3.\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|physics#Fluid statics#3",
+  "q": "A stream of air is blown horizontally underneath one pan of a beam balance. That pan",
+  "o": [
+   "goes down",
+   "goes up",
+   "stays level",
+   "oscillates about the level"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "s upward force causes the pan to rise slightly.\n\nStep 4: Conclusion\n- The pan will go up due to the difference in pressure caused by the blowing air.\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#0",
+  "q": "A thermocouple has a neutral temperature of $500\\ ^{\\circ}\\text{C}$ with the cold junction at $0\\ ^{\\circ}\\text{C}$. When the cold junction is raised to $20\\ ^{\\circ}\\text{C}$, the inversion temperature changes by",
+  "o": [
+   "$2\\%$",
+   "$3\\%$",
+   "$4\\%$",
+   "$5\\%$"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.022,
+  "cot": "C",
+  "tail": "ed options.\n\nGiven the options, the closest reasonable approximation considering the problem's context is:\n\\[ \\text{Percentage change} \\approx 4\\% \\]\n\nAnswer: C"
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#3",
+  "q": "If the temperature of the cold junction of a thermocouple is lowered, its neutral temperature",
+  "o": [
+   "rises",
+   "falls",
+   "is unchanged",
+   "becomes zero"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.002,
+  "cot": "B",
+  "tail": "T_c\\) decreases the value of \\(T_n\\), the neutral temperature falls when the cold junction temperature is lowered.\n\nTherefore, the correct answer is:\n\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic field#16",
+  "q": "The Hall voltage of a slab of thickness $t$ is proportional to",
+  "o": [
+   "$t$",
+   "$1/t$",
+   "$t^{2}$",
+   "$\\sqrt{t}$"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.321,
+  "cot": "A",
+  "tail": "l voltage \\( V_H \\) is directly proportional to the thickness \\( t \\).\n\nThus, the correct answer is that the Hall voltage is proportional to \\( t \\).\n\nAnswer: A"
+ },
+ {
+  "id": "NEB|C12|physics#Electrons#0",
+  "q": "An ion of specific charge $4.40\\times10^{7}\\ \\text{C kg}^{-1}$ moves at $3.52\\times10^{5}\\ \\text{m s}^{-1}$ perpendicular to a field of $0.40\\ \\text{T}$. The radius of its path is",
+  "o": [
+   "$0.02\\ \\text{m}$",
+   "$0.2\\ \\text{m}$",
+   "$2\\ \\text{m}$",
+   "$0.002\\ \\text{m}$"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.269,
+  "cot": "B",
+  "tail": "\\frac{3.52}{17600} \\]\n\\[ r = 0.0002 \\ \\text{m} \\]\n\\[ r = 0.0002 \\times 1000 \\ \\text{mm} \\]\n\\[ r = 0.2 \\ \\text{m} \\]\n\nTherefore, the correct answer is:\nAnswer: B"
+ },
+ {
+  "id": "NEB|C12|physics#Quantization of energy#24",
+  "q": "In Bragg's law $2d\\sin\\theta = n\\lambda$, the angle $\\theta$ is measured between the incident ray and the",
+  "o": [
+   "normal to the crystal plane",
+   "crystal plane",
+   "reflected ray",
+   "surface of the crystal only"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "n:\nBased on the analysis, the correct answer is that the angle \\( \\theta \\) is measured between the incident ray and the normal to the crystal plane.\n\nAnswer: A"
+ },
+ {
+  "id": "BLE|C8|computer-science#Fundamentals of Computer#3",
+  "q": "A computer prints 5,000 admit cards with the same quality from the first to the last. This shows its",
+  "o": [
+   "diligence",
+   "storage",
+   "versatility",
+   "automation"
+  ],
+  "key": "a",
+  "blind": "D",
+  "p_key": 0.0,
+  "cot": "D",
+  "tail": "the most appropriate answer is D, as it best describes the computer's capability to perform repetitive tasks consistently without human intervention.\n\nAnswer: D"
+ },
+ {
+  "id": "BLE|C8|computer-science#Fundamentals of Computer#14",
+  "q": "The ability of a computer to work for hours without tiring or losing accuracy is",
+  "o": [
+   "versatility",
+   "diligence",
+   "automation",
+   "storage"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.119,
+  "cot": "C",
+  "tail": "explanations, the most appropriate answer that describes the computer's capability to work for hours without tiring or losing accuracy is automation.\n\nAnswer: C"
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Matrix#9",
+  "q": "In the matrix $R$, the element $r_{23}$ is",
+  "o": [
+   "2",
+   "4",
+   "$-1$",
+   "3"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.014,
+  "cot": "C",
+  "tail": "tional context is provided, and assuming the problem is designed to test recognition of matrix elements, we must conclude based on the options given.\n\nAnswer: C"
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#General#8",
+  "q": "If $\\binom{3}{k}$ is parallel to $\\binom{6}{8}$, then $k$ is",
+  "o": [
+   "4",
+   "3",
+   "6",
+   "2"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "m the provided options, considering the invalid setup, would be to select an option that does not directly contradict the binomial coefficient rules.\n\nAnswer: B"
+ },
+ {
+  "id": "BLE|C8|science#Force and Motion#9",
+  "q": "Which is a second-class lever?",
+  "o": [
+   "shovel",
+   "dhiki",
+   "nutcracker",
+   "hammer"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "swinging the hammer, and the load is the nail. This configuration typically fits a third-class lever.\n\nBased on this analysis, the correct answer is:\n\nAnswer: B"
+ },
+ {
+  "id": "BLE|C8|science#The Earth and Universe#8",
+  "q": "Which mineral is necessary for the proper growth of plants?",
+  "o": [
+   "nitrogen",
+   "dolomite",
+   "uranium",
+   "granite"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.037,
+  "cot": "B",
+  "tail": "t nutrition, the closest option related to plant health would be B. Dolomite, as it can indirectly support plant growth by improving soil conditions.\n\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|botany#Plant Growth, Germination and Dormancy#9",
+  "q": "Epigeal germination, in which cotyledons come above the soil, is shown by",
+  "o": [
+   "pea",
+   "maize",
+   "mango",
+   "bean"
+  ],
+  "key": "d",
+  "blind": "A",
+  "p_key": 0.041,
+  "cot": "A",
+  "tail": "on format typically expects a single answer, and considering common examples used in educational contexts, \"pea\" is often cited as a primary example.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|botany#Plant Growth, Germination and Dormancy#10",
+  "q": "Hypogeal germination, in which cotyledons remain underground, is shown by",
+  "o": [
+   "castor",
+   "sunflower",
+   "pea",
+   "mustard"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.002,
+  "cot": "A",
+  "tail": "me out of the soil.\n\n3. **Conclusion**:\n   - Based on the analysis, the correct answer is the plant that shows hypogeal germination, which is castor.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|botany#Developmental Botany#13",
+  "q": "Protandry, in which anthers mature before the stigma, is found in",
+  "o": [
+   "Plantago",
+   "Michelia",
+   "sunflower",
+   "pea"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.001,
+  "cot": "B",
+  "tail": "n protandry.\n\n3. **Conclusion**: Among the given options, Michelia is the one that can exhibit protandry, where the anthers mature before the stigma.\n\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|chemistry#Classification of Elements and Periodicity#4",
+  "q": "The element with the highest electron affinity (most negative electron gain enthalpy) is",
+  "o": [
+   "chlorine",
+   "fluorine",
+   "oxygen",
+   "bromine"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "ic trends and the specific positions of these elements in the periodic table, fluorine (F) has the highest electron affinity among the given options.\n\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|chemistry#Chemical and Ionic Equilibrium#7",
+  "q": "The catalyst used in the Ostwald process is",
+  "o": [
+   "V₂O₅",
+   "iron",
+   "platinum–rhodium gauze",
+   "copper"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "ions in other catalytic processes but not in this specific context.\n\nBased on the analysis, the correct catalyst used in the Ostwald process is V₂O₅.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|chemistry#Chemistry of Non-metals#5",
+  "q": "The \"tailing of mercury\" test is used for",
+  "o": [
+   "chlorine",
+   "ozone",
+   "sulphur dioxide",
+   "ammonia"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "e tailing.\n\n3. **Conclusion**: Based on the reactions and observations, the \"tailing of mercury\" test is specifically used to detect sulphur dioxide.\n\nAnswer: C"
+ },
+ {
+  "id": "CEE|CEE|chemistry#Haloalkanes, Haloarenes, Alcohols, Phenols and Ethers#11",
+  "q": "Lucas reagent is concentrated HCl with anhydrous",
+  "o": [
+   "FeCl₃",
+   "AlCl₃",
+   "ZnCl₂",
+   "CuSO₄"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "ormation of alkyl chlorides from alcohols under these conditions.\n\n4. **Conclusion**: Based on the above information, the correct answer is B. AlCl₃.\n\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|chemistry#Nitro Compounds, Amines and Organometallics#9",
+  "q": "Reduction of a nitrile R–C≡N gives the amine",
+  "o": [
+   "RCH₂NH₂",
+   "RNH₂",
+   "R₂NH",
+   "RCONH₂"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "mation.\n\n4. **Conclusion**:\n   - The correct answer is the one that matches the direct product of nitrile reduction, which is a primary amine (RNH₂).\n\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|chemistry#Analytical Chemistry#2",
+  "q": "The sulfate test gives a white precipitate with BaCl₂ that is insoluble in dilute",
+  "o": [
+   "ammonia",
+   "water only",
+   "HCl",
+   "ethanol"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.168,
+  "cot": "B",
+  "tail": "the context of analytical chemistry tests, the most appropriate answer would be the one that aligns with the typical behavior observed in such tests.\n\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|mental-agility-test#Verbal Reasoning#2",
+  "q": "Soon after sunrise, Hari stood facing his own shadow. Which direction was he facing?",
+  "o": [
+   "East",
+   "North",
+   "South",
+   "West"
+  ],
+  "key": "d",
+  "blind": "C",
+  "p_key": 0.023,
+  "cot": "A",
+  "tail": " would be falling towards the west.\n- Therefore, Hari must be facing the opposite direction of his shadow, which is east.\n\nThus, Hari is facing east.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|mental-agility-test#Verbal Reasoning#4",
+  "q": "Pointing to a boy, Gita said, \"His mother is the only daughter of my mother.\" How is Gita related to the boy?",
+  "o": [
+   "sister",
+   "aunt",
+   "grandmother",
+   "mother"
+  ],
+  "key": "d",
+  "blind": "B",
+  "p_key": 0.223,
+  "cot": "B",
+  "tail": "boy's mother is Gita's sister, Gita is the boy's aunt.\n\nTherefore, based on the given information and logical deduction, Gita is the aunt of the boy.\n\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|mental-agility-test#Verbal Reasoning#11",
+  "q": "If PAPER is written as REPAP in a code, how is NURSE written in that code?",
+  "o": [
+   "ERSUN",
+   "ESRNU",
+   "ESRUN",
+   "NESRU"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.004,
+  "cot": "A",
+  "tail": "o the 5th position.\n   - The 5th letter 'E' moves to the 2nd position.\n\nThus, the transformed word becomes \"ERSUN\".\n\nTherefore, the correct answer is:\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|mental-agility-test#Spatial Relation and Abstract Reasoning#2",
+  "q": "In the same net, which face is opposite face B?",
+  "o": [
+   "D",
+   "E",
+   "F",
+   "A"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.014,
+  "cot": "C",
+  "tail": "e face directly opposite B would be F.\n\nTherefore, after careful consideration and visualization of the folding process, the face opposite to B is F.\n\nAnswer: C"
+ },
+ {
+  "id": "CEE|CEE|mental-agility-test#Spatial Relation and Abstract Reasoning#8",
+  "q": "Which word looks the same in a mirror held upright beside it?",
+  "o": [
+   "DAD",
+   "MOM",
+   "NUN",
+   "POP"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "nce the question asks for one answer and typically such questions expect a single correct response, we should select the first correct option listed.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|mental-agility-test#Spatial Relation and Abstract Reasoning#10",
+  "q": "Which capital letter does NOT look the same in a mirror held upright beside it?",
+  "o": [
+   "A",
+   "H",
+   "T",
+   "N"
+  ],
+  "key": "d",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "er that does NOT look the same in a mirror, and both A and N fit this criterion, we must choose the one explicitly asked for in the options provided.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|model-papers#Botany#6",
+  "q": "The endosperm of Pinus is",
+  "o": [
+   "triploid",
+   "diploid",
+   "haploid",
+   "tetraploid"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "herefore, the endosperm in Pinus is triploid.\n\nBased on this detailed explanation, the correct answer to the question \"The endosperm of Pinus is\" is:\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|model-papers#Physics#7",
+  "q": "The escape velocity from the earth is 11.2 km s⁻¹. If the earth's mass became twice and its radius half the present values, the escape velocity would be",
+  "o": [
+   "5.6 km s⁻¹",
+   "11.2 km s⁻¹",
+   "22.4 km s⁻¹",
+   "44.8 km s⁻¹"
+  ],
+  "key": "c",
+  "blind": "D",
+  "p_key": 0.037,
+  "cot": "D",
+  "tail": "\\]\n\nIt seems there was an error in the interpretation of the options. Given the closest option to our calculated value, the correct answer should be:\n\nAnswer: D"
+ },
+ {
+  "id": "CEE|CEE|model-papers#Mental Agility Test#1",
+  "q": "Pointing to a man in a photograph, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?",
+  "o": [
+   "mother",
+   "sister",
+   "aunt",
+   "grandmother"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": ": The woman cannot be the man's grandmother because she is not his mother's parent.\n\nTherefore, the correct answer based on the given information is:\n\nAnswer: C"
+ },
+ {
+  "id": "CEE|CEE|physics#Fluid Statics and Dynamics#1",
+  "q": "The dimensional formula of surface tension is",
+  "o": [
+   "[MT⁻²]",
+   "[MLT⁻²]",
+   "[ML⁻¹T⁻²]",
+   "[ML²T⁻²]"
+  ],
+  "key": "a",
+  "blind": "C",
+  "p_key": 0.023,
+  "cot": "C",
+  "tail": "his, we get:\n   \\[\n   [\\text{Surface Tension}] = [ML^{-1}T^{-2}]\n   \\]\n\nTherefore, the dimensional formula of surface tension is \\([ML^{-1}T^{-2}]\\).\n\nAnswer: C"
+ },
+ {
+  "id": "CEE|CEE|physics#Fluid Statics and Dynamics#12",
+  "q": "Water rises 6 cm in a capillary tube, but only 4 cm of the tube is above the water surface. The water",
+  "o": [
+   "overflows from the top in a fountain",
+   "rises to 4 cm and its meniscus becomes flatter",
+   "does not rise at all",
+   "rises to 4 cm and its meniscus becomes more curved"
+  ],
+  "key": "b",
+  "blind": "D",
+  "p_key": 0.011,
+  "cot": "D",
+  "tail": "   - At this point, the meniscus will be more curved than it would be if the water could rise higher (up to 6 cm).\n\nTherefore, the correct answer is:\n\nAnswer: D"
+ },
+ {
+  "id": "CEE|CEE|physics#Fluid Statics and Dynamics#13",
+  "q": "A capillary tube stands in water inside a freely falling lift. The water in the tube",
+  "o": [
+   "does not rise at all",
+   "rises to the same height as on the ground",
+   "rises to half the usual height",
+   "rises to fill the whole length of the tube"
+  ],
+  "key": "d",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "a freely falling lift, the water will not rise in the capillary tube at all because the gravitational force necessary for capillary action is absent.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|physics#Waves and Sound#11",
+  "q": "The end correction of a pipe of diameter $d$, open at one end, is about",
+  "o": [
+   "$0.3d$",
+   "$0.6d$",
+   "$0.15d$",
+   "$d$"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "6d\\)\nC. \\(0.15d\\)\nD. \\(d\\)\n\nWe can see that the correct value for the end correction of a pipe open at one end is \\(0.6d\\).\n\nTherefore, the answer is:\nAnswer: B"
+ },
+ {
+  "id": "CEE|CEE|physics#Current Electricity and Thermoelectricity#12",
+  "q": "At the neutral temperature of a thermocouple",
+  "o": [
+   "the emf is zero",
+   "the emf is maximum",
+   "the emf reverses",
+   "the hot junction melts"
+  ],
+  "key": "b",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": "Conclusion**: Based on the understanding that at the neutral temperature, the emf generated by the thermocouple is zero, the correct answer is clear.\n\nAnswer: A"
+ },
+ {
+  "id": "CEE|CEE|zoology#Evolutionary Biology#7",
+  "q": "Which pair consists of analogous organs?",
+  "o": [
+   "flipper of whale and wing of bat",
+   "wing of butterfly and wing of sparrow",
+   "thorn of Bougainvillea and tendril of Cucurbita",
+   "forelimb of horse and arm of man"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "ect answer. Since all three (A, B, and C) are correct based on the definition, we should select one that clearly fits the criteria without ambiguity.\n\nAnswer: C"
+ },
+ {
+  "id": "CEE|CEE|zoology#Plasmodium, Earthworm and Frog#1",
+  "q": "The toxic pigment released when infected red blood cells burst is",
+  "o": [
+   "haemocyanin",
+   "haemozoin",
+   "bilirubin",
+   "melanin"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.438,
+  "cot": "C",
+  "tail": "lls burst.\n- Melanin is a pigment responsible for skin color and does not relate directly to Plasmodium infection.\n\nTherefore, the correct answer is:\n\nAnswer: C"
+ },
+ {
+  "id": "CEE|CEE|zoology#Plasmodium, Earthworm and Frog#11",
+  "q": "The spermathecal pores of Pheretima are",
+  "o": [
+   "2 pairs, on segments 10 and 11",
+   "1 pair, on segment 18",
+   "4 pairs, in grooves 5/6 to 8/9",
+   "2 pairs, on segments 17 and 19"
+  ],
+  "key": "c",
+  "blind": "B",
+  "p_key": 0.118,
+  "cot": "D",
+  "tail": "hecal pores located on segments 17 and 19.\n\nTherefore, after careful consideration and verification of the anatomical details, the correct answer is:\n\nAnswer: D"
+ },
+ {
+  "id": "IOE|IOE|chemistry#Inorganic Chemistry#12",
+  "q": "A brick-red flame colour is shown by",
+  "o": [
+   "calcium",
+   "strontium",
+   "barium",
+   "potassium"
+  ],
+  "key": "a",
+  "blind": "B",
+  "p_key": 0.0,
+  "cot": "B",
+  "tail": "he question specifically asks for the element that shows a brick-red flame color. Based on the information provided, strontium is the correct answer.\n\nAnswer: B"
+ },
+ {
+  "id": "IOE|IOE|chemistry#Organic Chemistry#5",
+  "q": "Phenol gives which colour with neutral FeCl₃?",
+  "o": [
+   "red",
+   "green",
+   "yellow",
+   "violet"
+  ],
+  "key": "d",
+  "blind": "C",
+  "p_key": 0.0,
+  "cot": "C",
+  "tail": "clusion**: Based on the above steps, the correct answer to the question regarding the color produced when phenol reacts with neutral FeCl₃ is yellow.\n\nAnswer: C"
+ },
+ {
+  "id": "IOE|IOE|english#Grammar I#2",
+  "q": "Which is the simple form of \"Because he was ill, he could not attend\"?",
+  "o": [
+   "He was ill, so he could not attend",
+   "He could not attend, being ill though",
+   "Because of his illness he could not attend",
+   "If he was ill he could not attend"
+  ],
+  "key": "c",
+  "blind": "A",
+  "p_key": 0.0,
+  "cot": "A",
+  "tail": " and simple form that retains the original meaning is Option A, which uses \"so\" to maintain the cause-and-effect relationship in a simplified manner.\n\nAnswer: A"
+ },
+ {
+  "id": "IOE|IOE|english#Phonetics#8",
+  "q": "In \"photographer\" the primary stress is on the",
+  "o": [
+   "1st syllable",
+   "2nd syllable",
+   "3rd syllable",
+   "4th syllable"
+  ],
+  "key": "b",
+  "blind": "C",
+  "p_key": 0.037,
+  "cot": "C",
+  "tail": "g the rule, the stress would fall on the third syllable:\n- pho-to-GRAph-er\n\nTherefore, the primary stress in \"photographer\" is on the third syllable.\n\nAnswer: C"
+ }
+]

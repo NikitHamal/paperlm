@@ -1,0 +1,13 @@
+{
+ "mcq_judged": 5011,
+ "mcq_confirmed_blind": 4677,
+ "mcq_flagged_for_review": 113,
+ "mcq_confirmed_cot": 214,
+ "written_judged": 4516,
+ "written_confirmed": 2543,
+ "written_flagged_for_review": 1298,
+ "written_unconfirmed_kept": 1973,
+ "not_judged": 2233,
+ "mcq_unconfirmed_kept": 7,
+ "total_after": 11760
+}

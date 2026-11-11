@@ -1,0 +1,6492 @@
+[
+ {
+  "id": "SEE|C10|accountancy#Office Management and Procedure#1",
+  "q": "Name any two office procedures related to decision making.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Office Management and Procedure#6",
+  "q": "Write the full form of the register in which a government office enters every paper handled during the day.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Office Management and Procedure#13",
+  "q": "Explain the different methods and classifications of filing, and discuss the advantages and disadvantages of centralised filing against decentralised filing.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "SEE|C10|accountancy#Office Management and Procedure#14",
+  "q": "What is records management? Explain the stages in the life of a record and the method of disposing of records that are no longer needed.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Bank, Insurance and Financial Institutions#3",
+  "q": "Write any two kinds of non-life insurance.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Bank, Insurance and Financial Institutions#10",
+  "q": "Distinguish between banking and non-banking financial institutions with suitable examples.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|accountancy#Bank, Insurance and Financial Institutions#14",
+  "q": "What is a bank? Explain the primary functions of a commercial bank and show, with a suitable example, how a commercial bank creates credit.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "SEE|C10|accountancy#Introduction to Tax#0",
+  "q": "Write any two examples of direct tax.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Introduction to Tax#14",
+  "q": "What is meant by Permanent Account Number? Explain its importance and the persons who must obtain it.",
+  "p_yes": 0.007
+ },
+ {
+  "id": "SEE|C10|accountancy#Business Accounting#14",
+  "q": "What is accounting? Explain the steps of the accounting cycle and state the rules of debit and credit with the accounting equation.",
+  "p_yes": 0.005
+ },
+ {
+  "id": "SEE|C10|accountancy#Business Accounting#15",
+  "q": "What is an accounting standard? Explain the accounting standards in force in Nepal and their importance to a business and to a bank that is considering a loan.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "SEE|C10|accountancy#Bank Reconciliation Statement#2",
+  "q": "What does a debit balance in the cash book (bank column) mean?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Bank Reconciliation Statement#6",
+  "q": "What is the adjusted cash book?",
+  "p_yes": 0.005
+ },
+ {
+  "id": "SEE|C10|accountancy#Accounting Errors#1",
+  "q": "Which errors are detected by the trial balance?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Accounting Errors#6",
+  "q": "Which errors are detected by the trial balance and which are not? Explain with examples.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "SEE|C10|accountancy#Accounting Errors#8",
+  "q": "A sale of Rs. 5,000 to Ram was debited to Shyam. Will the trial balance agree?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Accounting Errors#10",
+  "q": "The following errors were located after the preparation of the trial balance.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Final Account#2",
+  "q": "What is the treatment of prepaid rent?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Final Account#3",
+  "q": "Where does the closing stock appear?",
+  "p_yes": 0.023
+ },
+ {
+  "id": "SEE|C10|accountancy#Final Account#12",
+  "q": "What are final accounts? Explain the steps in their preparation and the treatment of any five adjustments.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "SEE|C10|accountancy#Final Account#13",
+  "q": "The following is the trial balance of Himal Traders on 31 Chaitra 2082.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#System of Government Accounting in Nepal#1",
+  "q": "Which basis of accounting does the Government of Nepal follow?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#System of Government Accounting in Nepal#15",
+  "q": "What is the consolidated fund? Explain the provisions for its operation and distinguish it from the single account fund.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|accountancy#Revenue Accounting#0",
+  "q": "Why must revenue be deposited into the bank on the same day?",
+  "p_yes": 0.003
+ },
+ {
+  "id": "SEE|C10|accountancy#Revenue Accounting#4",
+  "q": "Write the formula for checking a revenue statement.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "SEE|C10|accountancy#Revenue Accounting#15",
+  "q": "What is a revenue statement? A District Administration Office collected the following revenue up to the month of Poush: 14151 rent of government property Rs. 2,38,800; 14213 other sales Rs. 41,000; 14",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Accounting of Government Expenditure#0",
+  "q": "Write the code for office materials and for furniture.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Accounting of Government Expenditure#2",
+  "q": "Write any two items entered on the debit side of the bank cash book.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Accounting of Government Expenditure#7",
+  "q": "Explain the formats used in expenditure accounting and reporting.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "SEE|C10|accountancy#Store Accounting#11",
+  "q": "Explain the meaning of जिन्सी, the two kinds of store goods, and the procedure by which goods are received into and issued from a government store.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "SEE|C10|accountancy#Fund Accounting and Retention Account#0",
+  "q": "Which body recommends the shares of the divisible fund?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Fund Accounting and Retention Account#1",
+  "q": "Show the retention journal voucher at the time the retention money is received (deducted).",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Fund Accounting and Retention Account#6",
+  "q": "Write the name of the book in which retention held for others is kept.",
+  "p_yes": 0.009
+ },
+ {
+  "id": "SEE|C10|accountancy#Fund Accounting and Retention Account#10",
+  "q": "What is retention accounting? Explain the three kinds of retention and, with journal vouchers, show how retention is recorded when it is withheld on a contractor's bill, when it is released, and when ",
+  "p_yes": 0.037
+ },
+ {
+  "id": "SEE|C10|accountancy#Internal Control and Auditing#14",
+  "q": "What is auditing? Explain the meaning of internal control and audit, the types of audit, and the government audit system of Nepal including the Office of the Auditor General and the settlement of audi",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Agencies Involved in Government Accounting#16",
+  "q": "Explain the functions of the Treasury and Comptroller Offices.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|accountancy#Agencies Involved in Government Accounting#19",
+  "q": "Explain the government accounting system of Nepal from the preparation of the budget to the settlement of the audit report, naming the agency responsible at each stage.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Use of Information Technology in Office and Accounting#1",
+  "q": "What is an office package? Write any two names.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|accountancy#Use of Information Technology in Office and Accounting#15",
+  "q": "Explain the information systems used in Nepal's government accounting, and describe the software used in business accounting and the controls a computerised accounting system needs.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "SEE|C10|accountancy#General#2",
+  "q": "What are final accounts? Explain the steps in their preparation and the treatment of any five adjustments, stating in each case the two effects.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|accountancy#General#3",
+  "q": "What is a bank cash book? Explain its columns and the rules for its preparation, and state which items are entered on the debit side and which on the credit side.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|economics#Microeconomics#6",
+  "q": "State the marginal productivity theory of distribution.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|economics#Macroeconomics#4",
+  "q": "Explain the theory of comparative advantage with an example and state the gains from international trade.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "SEE|C10|economics#Development Economics#16",
+  "q": "Explain the meaning of economic growth and economic development, the indicators of development, and the main theories of economic development.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "SEE|C10|economics#Nepal's Economy#5",
+  "q": "What is meant by foreign employment?",
+  "p_yes": 0.023
+ },
+ {
+  "id": "SEE|C10|economics#Nepal's Economy#9",
+  "q": "Explain the importance of agriculture in the Nepali economy.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "SEE|C10|economics#Nepal's Economy#11",
+  "q": "Explain the role of tourism in the Nepali economy and its problems.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|economics#Nepal's Economy#14",
+  "q": "What is land reform? Explain its objectives and the progress of land reform in Nepal.",
+  "p_yes": 0.009
+ },
+ {
+  "id": "SEE|C10|economics#Nepal's Economy#19",
+  "q": "What is remittance? Explain the role and importance of foreign employment in the Nepali economy, its problems, and the measures needed to make it safe and productive.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|economics#Quantitative Methods in Economics#16",
+  "q": "What is statistics? Explain its importance and limitations, and distinguish between primary and secondary data with examples.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "SEE|C10|economics#General#3",
+  "q": "What is meant by national income? Explain the circular flow of income in a two-sector economy and show with an example how an adjustment of a given series is made for the mean, median and mode.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 2: Festivals and Celebrations#14",
+  "q": "Write an essay of about 200 words on \"A Festival of My Community\".",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|english#Unit 3: Health and Wellness#7",
+  "q": "What does he ask the member states to do?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 3: Health and Wellness#10",
+  "q": "Why did the writer feel that her daughter was not a priority?",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|english#Unit 5: Science and Experiment#6",
+  "q": "Which poetic devices does Whitman use?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 6: Food and Cuisine#7",
+  "q": "Which competition did Santosh Shah take part in?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 6: Food and Cuisine#11",
+  "q": "Why did the writer feel disappointed with the fermented horse milk?",
+  "p_yes": 0.009
+ },
+ {
+  "id": "SEE|C10|english#Unit 6: Food and Cuisine#12",
+  "q": "What is Shah's advice for success?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 6: Food and Cuisine#13",
+  "q": "Write a recipe for dal bhat or sel roti with ingredients and method.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 7: Cyber Security#11",
+  "q": "Why did Anuja's friend not meet them?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 9: History and Culture#6",
+  "q": "What does a red carnation mean?",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|english#Unit 9: History and Culture#7",
+  "q": "Why should a person not give yellow flowers to a friend?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 9: History and Culture#8",
+  "q": "Why did the white lily have a bad meaning in Russian weddings?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 10: Games and Sports#6",
+  "q": "Why are football and basketball so popular?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 10: Games and Sports#10",
+  "q": "Give any two reasons why volleyball is popular.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "SEE|C10|english#Unit 10: Games and Sports#11",
+  "q": "What change have schools made recently?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 10: Games and Sports#13",
+  "q": "Write a paragraph of about 120 words on \"The importance of sports in student life\". Underline the topic and concluding sentences.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "SEE|C10|english#Unit 11: Ethics and Morality#3",
+  "q": "What was Albert trying to do?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 11: Ethics and Morality#5",
+  "q": "Where did he take the purse?",
+  "p_yes": 0.014
+ },
+ {
+  "id": "SEE|C10|english#Unit 11: Ethics and Morality#8",
+  "q": "What did he accept in the end, and why?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 11: Ethics and Morality#10",
+  "q": "Write a story of about 150 words on the proverb \"Honesty is the best policy\".",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 11: Ethics and Morality#11",
+  "q": "Write a message of condolence on the death of a respected teacher of your school.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|english#Unit 12: Nature and Development#6",
+  "q": "Which simile does Wordsworth use?",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|english#Unit 12: Nature and Development#13",
+  "q": "Write a report (150 words) on the problem of waste in your locality.",
+  "p_yes": 0.009
+ },
+ {
+  "id": "SEE|C10|english#Unit 13: Population and Migration#8",
+  "q": "From where to where do swallows migrate in spring?",
+  "p_yes": 0.003
+ },
+ {
+  "id": "SEE|C10|english#Unit 13: Population and Migration#11",
+  "q": "What guides the swallows on their way?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 13: Population and Migration#13",
+  "q": "Describe in about 50 words the dangers of migration.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 14: Travel and Adventure#6",
+  "q": "Who erected the pillar?",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|english#Unit 14: Travel and Adventure#11",
+  "q": "Write a travelogue of about 200 words on a trip you made with your school.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 15: People and Places#8",
+  "q": "How can visitors reach the top?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 15: People and Places#9",
+  "q": "Where was Mahendra born?",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|english#Unit 15: People and Places#12",
+  "q": "How did he study as a porter?",
+  "p_yes": 0.047
+ },
+ {
+  "id": "SEE|C10|english#Unit 15: People and Places#14",
+  "q": "What qualities of Mahendra do you admire? Write in about 50 words.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|english#Unit 15: People and Places#15",
+  "q": "Using the notes below, write a short biography: Born 1951, Dharan — educated at Tri-Chandra College — poet and novelist — pioneer of a literary movement — Chairman of the Nepal Academy — several natio",
+  "p_yes": 0.009
+ },
+ {
+  "id": "SEE|C10|english#Unit 16: Success and Celebration#10",
+  "q": "How did she overcome her difficulty?",
+  "p_yes": 0.007
+ },
+ {
+  "id": "SEE|C10|english#Unit 17: Countries and Towns#12",
+  "q": "Write two paragraphs comparing life in a village and life in a city.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "SEE|C10|english#Unit 17: Countries and Towns#13",
+  "q": "Describe a village you have visited, using the headings: location, people, scenery, occupation, culture.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 18: Media and Entertainment#3",
+  "q": "How did We Rate Dogs help?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 18: Media and Entertainment#4",
+  "q": "What do the stories show about social media?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 18: Media and Entertainment#6",
+  "q": "What do some experts say about this habit?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 18: Media and Entertainment#8",
+  "q": "What did the school survey find?",
+  "p_yes": 0.011
+ },
+ {
+  "id": "SEE|C10|english#Unit 18: Media and Entertainment#9",
+  "q": "What is the experts' point of agreement? Write in about 50 words.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 8: Hobbies and Interests#5",
+  "q": "What does the speaker say about earlier attempts to reach the top?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 8: Hobbies and Interests#7",
+  "q": "Write an advertisement for a vacancy of a computer operator in your school.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Unit 8: Hobbies and Interests#8",
+  "q": "Write an essay of about 150 words on \"The Importance of Hobbies\".",
+  "p_yes": 0.029
+ },
+ {
+  "id": "SEE|C10|english#Compulsory English: Unit-wise Subjective Question Bank#1",
+  "q": "How did the wax help Pelops?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Compulsory English: Unit-wise Subjective Question Bank#2",
+  "q": "What does the refrain \"And so do I\" show about the speaker of \"Weathers\"?",
+  "p_yes": 0.009
+ },
+ {
+  "id": "SEE|C10|english#Compulsory English: Unit-wise Subjective Question Bank#4",
+  "q": "Write a notice for a science exhibition in your school.",
+  "p_yes": 0.005
+ },
+ {
+  "id": "SEE|C10|english#Compulsory English: Unit-wise Subjective Question Bank#5",
+  "q": "Write a letter to the editor about noise pollution near your school.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|english#Compulsory English: Model Question Sets and Predicted Questi#2",
+  "q": "Write a news story from these clues: Bus accident — Mugling — Monday morning — 12 injured — hospital.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|english#Compulsory English: Model Question Sets and Predicted Questi#3",
+  "q": "Write an essay of about 200 words on The Role of Teachers in Society.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Tax and Money Exchange#7",
+  "q": "The factory price of a motorbike is Rs 80,000. Excise duty of 15% is charged on it, and VAT of 13% is then charged on the total. Find the price a customer pays.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Tax and Money Exchange#22",
+  "q": "A married couple has a monthly salary of Rs 60,000 and pays Rs 20,000 yearly as insurance premium (allowed as deduction). Slabs: first Rs 4,50,000 at 1%, next Rs 1,00,000 at 10%, next Rs 2,00,000 at 2",
+  "p_yes": 0.004
+ },
+ {
+  "id": "SEE|C10|mathematics#Compound Interest#13",
+  "q": "Find the compound interest on Rs 5,000 for 2 years at 10% p.a.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|mathematics#Compound Interest#15",
+  "q": "Find the difference between CI and SI on Rs 10,000 for 2 years at 5% p.a.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Compound Interest#18",
+  "q": "A sum amounts to Rs 13,310 in 3 years at 10% p.a. compound interest. Find the sum.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Compound Interest#19",
+  "q": "Find the compound interest on Rs 40,000 for 1 year at 10% p.a. compounded half-yearly.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Plane Surfaces#21",
+  "q": "A floor consists of a rectangle 21 m by 14 m with a semicircle on one 14 m side. Find its area and perimeter, and the cost of painting at Rs 20 per m².",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|mathematics#Cylinder and Sphere#14",
+  "q": "Find the volume of a hemisphere of radius 10.5 cm.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|mathematics#Cylinder and Sphere#19",
+  "q": "A gas tank is a cylinder 4 m long with a hemisphere of radius 2.1 m on each end. Find its volume (in litres) and its surface area.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Prism and Pyramid#18",
+  "q": "A square pyramid has base side 10 cm and slant height 13 cm. Find its lateral and total surface areas.",
+  "p_yes": 0.007
+ },
+ {
+  "id": "SEE|C10|mathematics#Prism and Pyramid#20",
+  "q": "A trough has a trapezium cross-section with parallel sides 10 dm and 6 dm, height 4 dm and slant sides 5 dm. It is 20 dm long. Find its capacity in litres and its total surface area.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Highest Common Factor and Lowest Common Multiple#7",
+  "q": "Find the HCF and LCM of $ax+ay+bx+by$ and $ax-ay+bx-by$.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "SEE|C10|mathematics#Algebraic Fraction#10",
+  "q": "Simplify $\\frac{x^2-5x+6}{x^2-4}\\div\\frac{x-3}{x+2}$.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "SEE|C10|mathematics#Algebraic Fraction#13",
+  "q": "Simplify $\\frac{a}{a-b}-\\frac{b}{a+b}-\\frac{2ab}{a^2-b^2}$.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "SEE|C10|mathematics#Area of Triangles and Quadrilaterals#8",
+  "q": "Prove that a triangle and a parallelogram on the same base and between the same parallels satisfy: area of triangle $=\\frac12$ area of parallelogram.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|mathematics#Construction#12",
+  "q": "Describe how to draw a line through a point $P$ parallel to a line $l$ using only compass and ruler.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Construction#18",
+  "q": "Construct a rectangle of sides 5 cm and 3.2 cm; state the steps to construct a square of equal area.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|mathematics#Construction#19",
+  "q": "Show by calculation that a triangle with base 10 cm and height 7.2 cm equals a parallelogram of base 5 cm and height 7.2 cm.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "SEE|C10|mathematics#Construction#20",
+  "q": "Construct quadrilateral $ABCD$ with $AB=5$ cm, $BC=4$ cm, $CD=4$ cm, $DA=3.5$ cm and $\\angle B=70^\\circ$, and construct a triangle equal in area to it. Give steps and proof.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Construction#21",
+  "q": "Construct $\\Delta ABC$ with $BC=6$ cm, $\\angle B=57^\\circ$, $AB=3.8$ cm. Construct a parallelogram equal in area with one angle of $60^\\circ$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Construction#22",
+  "q": "Construct a square equal in area to a rectangle $6\\text{ cm}\\times 2\\text{ cm}$ and prove that your square has the right area.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Construction#23",
+  "q": "Construct $\\Delta PQR$ with sides 7, 5, 6 cm and a rectangle equal to it, giving the rectangle's dimensions.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Circle#14",
+  "q": "Prove that the angle in a semicircle is a right angle.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "SEE|C10|mathematics#Circle#15",
+  "q": "In a circle with centre $O$, $\\angle OAB=25^\\circ$, where $AB$ is a chord. Find $\\angle AOB$ and the angle at the major arc.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "SEE|C10|mathematics#Circle#18",
+  "q": "Prove that the opposite angles of a cyclic quadrilateral are supplementary.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Trigonometry#11",
+  "q": "Evaluate $\\sin30^\\circ\\cos60^\\circ+\\cos30^\\circ\\sin60^\\circ$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Trigonometry#17",
+  "q": "Prove that $\\frac{\\sin\\theta}{1+\\cos\\theta}+\\frac{1+\\cos\\theta}{\\sin\\theta}=2\\csc\\theta$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Statistics#16",
+  "q": "Find the standard deviation of the classes 0–10, 10–20, 20–30, 30–40, 40–50 with frequencies 1, 2, 8, 14, 15.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|mathematics#Probability#17",
+  "q": "A bag has 5 red, 3 blue and 2 green balls. Two balls are drawn without replacement. Find the probability that both are red and the probability that they are of different colours.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "SEE|C10|mathematics#Probability#18",
+  "q": "Two dice are thrown. Find the probability that the sum is at least 10, and the probability that the numbers on the two dice are equal.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "SEE|C10|mathematics#Probability#19",
+  "q": "A bag has 4 red and 6 white balls. Two are drawn without replacement. Find $P(\\text{same colour})$ and $P(\\text{different colours})$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Sequence and Series#19",
+  "q": "Find the sum of the first 7 terms of $1+3+9+\\cdots$",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Matrices and Determinants#9",
+  "q": "Solve $x+y=5$, $x-y=1$ by Cramer's rule.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Matrices and Determinants#11",
+  "q": "Solve $2x+y=5$ and $5x+3y=13$ by the matrix method.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Matrices and Determinants#14",
+  "q": "Solve $3x+2y=8$ and $4x+3y=11$ by the matrix method.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Matrices and Determinants#16",
+  "q": "Two kg of rice and three kg of lentils cost Rs 650, and three kg of rice and one kg of lentils cost Rs 450. Find the price per kg of each by Cramer's rule.",
+  "p_yes": 0.009
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Trigonometry: Multiple, Submultiple and Transformation Formu#20",
+  "q": "Prove that $\\sin3A=4\\sin A\\sin(60^\\circ-A)\\sin(60^\\circ+A)$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Trigonometry: Multiple, Submultiple and Transformation Formu#24",
+  "q": "If $\\tan A=\\frac{1}{2}$ and $\\tan B=\\frac{1}{3}$, show that $A+B=45^\\circ$ and find $\\tan2A$.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Conditional Identities, Trigonometric Equations and Height a#7",
+  "q": "Prove that $\\cos^2A+\\cos^2B+\\cos^2C+2\\cos A\\cos B\\cos C=1$ when $A+B+C=180°$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Conditional Identities, Trigonometric Equations and Height a#16",
+  "q": "If $A+B+C=180^\\circ$, prove that $\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C$.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Angle between Two Lines and Pair of Straight#5",
+  "q": "Find the separate equations of the lines represented by $x^2-4xy+3y^2=0$, and the angle between them.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Angle between Two Lines and Pair of Straight#14",
+  "q": "Find the value of $k$ if the lines $kx^2+5xy-3y^2=0$ are perpendicular.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Conic Sections and Circle#11",
+  "q": "Find the equation of the circle whose diameter has ends $(0,0)$ and $(6,8)$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Conic Sections and Circle#16",
+  "q": "Find the equation of the circle whose centre is the point of intersection of $2x+y=7$ and $x-y=-1$ and whose radius is $3$.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Conic Sections and Circle#17",
+  "q": "Find the equation of the circle whose diameter has ends $(-3,2)$ and $(5,-4)$. Does it pass through the origin?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Vector#11",
+  "q": "The position vectors of $A$ and $B$ are $2\\hat i+\\hat j$ and $6\\hat i+5\\hat j$. Find the position vector of the point that divides $AB$ internally in the ratio $1:3$.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Vector#20",
+  "q": "Prove that the line joining the midpoints of two sides of a triangle is parallel to the third side and half of it.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Vector#21",
+  "q": "Prove by vectors that the diagonals of a rhombus are perpendicular.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Linear Programming and Transformation#18",
+  "q": "Find the corner points of the region $x+y\\leq 6$, $x\\leq 4$, $x\\geq 0$, $y\\geq 0$, and the maximum of $z=3x+2y$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Linear Programming and Transformation#22",
+  "q": "A matrix maps $A(2,1)$ to $A'(-1,2)$ and $B(1,3)$ to $B'(-3,1)$. Find the matrix and name the transformation.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Linear Programming and Transformation#23",
+  "q": "Find the inverse points of $P(2,4)$ and $Q(-3,-6)$ with respect to the circle $x^2+y^2=40$. Show that $O$, $P'$ and $Q'$ are collinear.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Continuity#1",
+  "q": "Evaluate $\\lim_{x\\to2}\\frac{x^2-4}{x-2}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Continuity#4",
+  "q": "A function is defined by $f(x)=2x+1$ for $x<1$, $f(x)=5$ for $x=1$ and $f(x)=3x-1$ for $x>1$. Show that it has a jump discontinuity at $x=1$, and draw the two one-sided limits.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Statistics: Measures of Dispersion#10",
+  "q": "Find the quartile deviation of $5,10,15,20,25,30,35$ and its coefficient.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Statistics: Measures of Dispersion#13",
+  "q": "Find the quartile deviation and its coefficient for the grouped data: classes $10$–$20$, $20$–$30$, $30$–$40$, $40$–$50$ with frequencies $3,5,8,4$.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Statistics: Measures of Dispersion#15",
+  "q": "For 10 observations $\\sum x=50$ and $\\sum x^2=290$. Find the mean, variance and standard deviation.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Statistics: Measures of Dispersion#18",
+  "q": "Show that $\\sigma^2=\\dfrac{\\sum x^2}{n}-\\bar x^2$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Functions and Polynomials#14",
+  "q": "If $f(x)=x+1$ and $g(x)=x^2-2x$, find $x$ so that $(f\\circ g)(x)=(g\\circ f)(x)$.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "SEE|C10|optional-mathematics#Functions and Polynomials#15",
+  "q": "The polynomial $x^3+ax+b$ leaves remainder 4 on division by $x-1$ and is exactly divisible by $x+1$. Find $a$ and $b$.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "SEE|C10|science#Heredity#7",
+  "q": "Show with a Punnett square the cross between two heterozygous tall pea plants (Tt × Tt). State the genotypic and phenotypic ratios.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|science#Heredity#13",
+  "q": "Differentiate between genotype and phenotype.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|science#Nature and Environment#4",
+  "q": "Write two measures to reduce solid waste at home.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "SEE|C10|science#Motion and Force#8",
+  "q": "A bullet of mass 20 g is fired from a gun of mass 4 kg with a velocity of $300\\ \\text{m s}^{-1}$. Calculate the recoil velocity of the gun and state the principle used.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|science#Pressure#15",
+  "q": "A box weighing 400 N rests on a floor with a contact area of 0.5 m². Calculate the pressure it exerts. If it is turned to rest on a face of area 0.2 m², what is the new pressure?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|science#Pressure#16",
+  "q": "Derive the expression $P = h\\rho g$ for the pressure at a depth in a liquid.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "SEE|C10|science#Pressure#18",
+  "q": "A solid cube of side 10 cm and mass 0.5 kg is placed in water. Will it float or sink? Find the upthrust when it floats. ($\\rho_w = 1000$ kg m⁻³, $g = 10$ m s⁻².)",
+  "p_yes": 0.002
+ },
+ {
+  "id": "SEE|C10|science#Universe#22",
+  "q": "A planet is 9 AU from the Sun. Find the time it takes to go once round the Sun.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "SEE|C10|science#Information and Communication Technology#21",
+  "q": "List four advantages and two disadvantages of e-commerce.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|science#Classification of Elements#23",
+  "q": "Compare the elements Na, Mg, Al in terms of atomic size, ionisation energy and metallic character. Give reasons.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|science#Chemical Reaction#16",
+  "q": "Write the steps to balance Fe + O₂ → Fe₂O₃ and give the balanced equation.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|science#Gases#17",
+  "q": "Why is dilute sulphuric acid not used to prepare CO₂ from marble?",
+  "p_yes": 0.001
+ },
+ {
+  "id": "SEE|C10|science#Metal and Non-metals#17",
+  "q": "Differentiate between a mineral and an ore.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|social-studies#Unit 5: Civic Consciousness#12",
+  "q": "Describe the composition of the Federal Parliament and explain how a bill becomes law.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "SEE|C10|social-studies#Social Studies: Model Question Sets and Predicted Questions#1",
+  "q": "What is the population density of Nepal in the book?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "SEE|C10|social-studies#Social Studies: Model Question Sets and Predicted Questions#3",
+  "q": "State four effects of climate on human life.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|biology#Floral Diversity#30",
+  "q": "Describe the family Solanaceae under the headings habit, leaf, inflorescence, flower (calyx, corolla, androecium and gynoecium), fruit and floral formula, and give four points of economic importance w",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|biology#Introductory Microbiology#15",
+  "q": "A culture of Escherichia coli containing $2 \\times 10^{4}$ cells is grown for 2 hours at 37 °C, where its generation time is 20 minutes. Calculate the final number of cells, and state how many generat",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C11|biology#Evolutionary Biology#14",
+  "q": "Differentiate between homologous and analogous organs, giving one animal and one plant example of each.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|biology#Evolutionary Biology#20",
+  "q": "Give an account of human evolution from Dryopithecus to Homo sapiens sapiens with the approximate age and cranial capacity of each stage, and list four trends shown by the series.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|biology#Conservation Biology#19",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|biology#Conservation Biology#20",
+  "q": "Describe the major threats to the wildlife of Nepal and the conservation measures taken against each. Support your answer with the example of either the tiger or the vulture.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|biology#Biology: Unit-wise Objective Question Bank#14",
+  "q": "What is biodiversity? Describe its three levels, list the major causes of its loss, and explain the IUCN categories of threatened species with one example of each from Nepal.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Foundation and Fundamentals#11",
+  "q": "What is meant by atomic mass unit? Calculate the mass in grams of one molecule of carbon dioxide.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Foundation and Fundamentals#12",
+  "q": "Distinguish between empirical formula and molecular formula with two examples each. A compound has the empirical formula CH₂ and molecular mass 56; find its molecular formula.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|chemistry#Stoichiometry#14",
+  "q": "Define limiting reactant. 50 g of CaCO₃ is treated with 35 g of HCl. Which is the limiting reactant, and what mass of CO₂ is produced? (Ca = 40, C = 12, O = 16, H = 1, Cl = 35.5)",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Stoichiometry#16",
+  "q": "A hydrocarbon contains 85.7 % carbon and 14.3 % hydrogen by mass. Its vapour density is 21.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C11|chemistry#Atomic Structure#14",
+  "q": "Define the four quantum numbers and write the electronic configurations of Sc ($Z = 21$), Cu ($Z = 29$) and Zn²⁺.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemical Bonding and Shapes of Molecules#11",
+  "q": "Define dipole moment. The observed dipole moment of HBr is 0.79 D and the H–Br bond length is 1.41 Å. Calculate the percentage ionic character of the bond.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|chemistry#Oxidation and Reduction#11",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Oxidation and Reduction#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#States of Matter#9",
+  "q": "State the postulates of the kinetic molecular theory of gases and write the kinetic gas equation, explaining each term.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemistry of Non-metals#15",
+  "q": "Classify the following oxides and justify each answer with one equation: CO, ZnO, N₂O₅, Na₂O₂, Pb₃O₄.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemistry of Metals#13",
+  "q": "Define ore, gangue, flux and slag with one example of each. Why is silica added in the extraction of copper from copper pyrites?",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C11|chemistry#Basic Concept of Organic Chemistry#20",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Basic Concept of Organic Chemistry#21",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|chemistry#Fundamental Principles of Organic Chemistry#12",
+  "q": "State the rules of IUPAC nomenclature and use them to name (i) CH₃CH₂CH(CH₃)CH₂CH₃ (ii) (CH₃)₂C=CHCH₃ (iii) CH₃CH(OH)CH₂CH₂CHO (iv) CH₃CH₂COOCH₃",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Fundamental Principles of Organic Chemistry#20",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Fundamental Principles of Organic Chemistry#22",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Hydrocarbons#12",
+  "q": "How is ethane prepared from (i) bromoethane by the Wurtz reaction, (ii) sodium propanoate, (iii) ethene and (iv) ethyne? Give equations with conditions.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Hydrocarbons#17",
+  "q": "How would you distinguish between ethane, ethene and ethyne in the laboratory? Give the reagent, the observation and one equation in each case.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|chemistry#Hydrocarbons#21",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Aromatic Hydrocarbons#9",
+  "q": "State Hückel's rule and its conditions. Apply it to cyclobutadiene, benzene, the cyclopentadienyl anion and cyclooctatetraene.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|chemistry#Aromatic Hydrocarbons#15",
+  "q": "Why is —NO₂ meta-directing while —OH is ortho–para directing? Explain in terms of the resonance effect.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C11|chemistry#Aromatic Hydrocarbons#16",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|chemistry#Aromatic Hydrocarbons#17",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C11|chemistry#Modern Chemical Manufactures#11",
+  "q": "Explain the function of the diaphragm and of the difference in brine level in a diaphragm cell. Write the electrode reactions and name the by-products.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C11|chemistry#General and Physical Chemistry#6",
+  "q": "A gas occupies $500\\ \\text{cm}^{3}$ at $27^{\\circ}\\text{C}$ and $1\\ \\text{atm}$. Find its volume at STP, and state the law used.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C11|chemistry#General and Physical Chemistry#9",
+  "q": "Describe the shapes of $\\text{BeF}_2$, $\\text{BF}_3$, $\\text{CH}_4$, $\\text{PCl}_5$ and $\\text{SF}_6$ using VSEPR theory and the hybridization of the central atom.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Inorganic Chemistry#7",
+  "q": "Explain the trend in the thermal stability of the carbonates of Group 2 elements and the solubility of their sulphates.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|chemistry#Inorganic Chemistry#12",
+  "q": "Compare the halogens chlorine, bromine and iodine in physical state, preparation from their salts, and displacement reactions, and describe the tests for chloride, bromide and iodide ions.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|chemistry#Organic Chemistry#10",
+  "q": "Describe three methods for the preparation of ethene and the reactions of ethene with $\\text{HBr}$, water (acid-catalysed), ozone and cold alkaline $\\text{KMnO}_4$.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|chemistry#Organic Chemistry#11",
+  "q": "Describe the preparation of benzene (two methods) and its reactions: nitration, sulphonation, halogenation, hydrogenation and combustion.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Organic Chemistry#12",
+  "q": "How will you convert",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|chemistry#Applied Chemistry#6",
+  "q": "Describe the manufacture of ammonia by Haber's process, giving the principle, the conditions with reasons, and a labelled flow sheet.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemistry: Unit-wise Subjective Question Bank#1",
+  "q": "How many moles and how many molecules are in $5.6\\ \\text{L}$ of $\\text{CO}_2$ at STP?",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemistry: Unit-wise Subjective Question Bank#3",
+  "q": "Write the structure and IUPAC name of the product when propene reacts with HBr in the presence of peroxide.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemistry: Model Question Sets and Predicted Questions#3",
+  "q": "Write the equations for the action of heat on $\\text{CaCO}_3$ and on $\\text{CaSO}_4\\cdot2\\text{H}_2\\text{O}$ at $120^{\\circ}\\text{C}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Classification of elements and Periodic Table#7",
+  "q": "Why is the electron affinity of fluorine smaller than that of chlorine even though fluorine is the more electronegative element? Distinguish clearly between electron affinity and electronegativity.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C11|chemistry#Classification of elements and Periodic Table#8",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|chemistry#Classification of elements and Periodic Table#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|chemistry#Chemical equilibrium#5",
+  "q": "Derive the relationship $K_p = K_c(RT)^{\\Delta n}$ and state when $K_p = K_c$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Computer Science: Unit-wise Objective Question Bank#6",
+  "q": "Draw the truth table of the XOR gate with its Boolean expression, and prove $A + AB = A$ using a truth table.",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C11|computer-science#Number System and Boolean Logic#9",
+  "q": "Simplify $F(A,B,C,D) = \\sum m(0,1,2,3,8,9,10,11,13,15)$ using a Karnaugh map. Show the map, the groupings and the final simplified expression, and draw the resulting logic circuit.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Computer Software and Operating System#15",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Computer Software and Operating System#16",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Application Package#15",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Programming Concepts and Logics#6",
+  "q": "Define an array. Write a C program to read 10 numbers into an array and print their sum and average.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Programming Concepts and Logics#7",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C11|computer-science#Programming Concepts and Logics#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Multimedia#14",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|computer-science#Multimedia#15",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|computer-science#Information Security and Cyber Law#14",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Compulsory English: Unit-wise Objective Question Bank#1",
+  "q": "What does the idiom spill the beans mean?",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C11|english#Two Little Soldiers#6",
+  "q": "Discuss \"Two Little Soldiers\" as a study of homesickness and friendship.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#All the World's a Stage#6",
+  "q": "Describe the seven ages of man as Shakespeare presents them, and show how the pictures are chosen to build a single argument.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#What I Require from Life#7",
+  "q": "Why does Haldane call himself a socialist? What does he want socialism to achieve, and how does he argue for it?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#What I Require from Life#9",
+  "q": "Discuss the essay in terms of its language, purpose, subject, point of view and mode of writing.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#What I Require from Life#10",
+  "q": "What do you require from your life to be happy and satisfied?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#What I Require from Life#11",
+  "q": "Write an essay about your dream house.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#What is Poverty?#7",
+  "q": "Why are people's opinions and prejudices Parker's greatest obstacles?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#What is Poverty?#8",
+  "q": "How does Parker discount the usual solutions society offers for poverty — welfare, education and health clinics?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#What is Poverty?#9",
+  "q": "What writing strategy does Parker use at the beginning of most of her paragraphs? How does she develop each paragraph, and how does the final paragraph use questions to involve the reader?",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C11|english#What is Poverty?#10",
+  "q": "Using adjectives that highlight the futility of the situation, write a short definition essay on \"Growing up in Poverty\", imitating Parker's style.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Scientific Research is a Token of Humankind's Survival#7",
+  "q": "How does the essayist justify that scientific research is the token of humankind's survival?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Scientific Research is a Token of Humankind's Survival#8",
+  "q": "Discuss and illustrate the writer's stand that scientists are the most practical people in the world.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Scientific Research is a Token of Humankind's Survival#9",
+  "q": "What can be the purpose of the essayist in using quotations in the essay? Discuss with reference to at least three of them.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Trifles#8",
+  "q": "Discuss the symbolism used in the play.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#A Sunny Morning#2",
+  "q": "When does Dona Laura realise that Don Gonzalo was her former lover?",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C11|english#A Sunny Morning#7",
+  "q": "Discuss how the play is built around humour and irony.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#A Sunny Morning#8",
+  "q": "How is the title \"A Sunny Morning\" justifiable? Discuss.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Refund#8",
+  "q": "The play is a satire on the present-day education system. Do you think that our education system does not prepare students for life? Discuss.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Refund#9",
+  "q": "Explain the following line from the play: \"Because I didn't get my money's worth, that's why!\"",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Word Classes, Contracted Forms and Dictionary Use#5",
+  "q": "The light in the classroom was too dim.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Word Classes, Contracted Forms and Dictionary Use#6",
+  "q": "The shop is between the bank and the post office.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|english#Modal Verbs and Semi-modals#1",
+  "q": "Do you can help me with this sum?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Passive Voice and Causatives#3",
+  "q": "Who broke this window?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Passive Voice and Causatives#4",
+  "q": "The fields are ploughed by the oxen every Baisakh.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C11|english#Passive Voice and Causatives#5",
+  "q": "A new health post is being built by the ward office.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Passive Voice and Causatives#7",
+  "q": "The report will have been submitted by the committee by Chaitra.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Passive Voice and Causatives#8",
+  "q": "Let the gate be locked at nine.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C11|english#Passive Voice and Causatives#9",
+  "q": "By whom was this letter posted?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Reported Speech#3",
+  "q": "The guard ordered us not to park there.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|english#Reported Speech#4",
+  "q": "The old man asked the boy where he lived.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Logic and Set#7",
+  "q": "Write the converse, inverse and contrapositive of \"If $x$ is divisible by $10$, then $x$ is divisible by $5$\", and state the truth value of each with a reason.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Logic and Set#9",
+  "q": "In a class of $80$ students, $45$ play football, $30$ play volleyball and $12$ play both. How many play",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C11|mathematics#Logic and Set#10",
+  "q": "If $A = \\{x: x \\in \\mathbb{N}, x \\le 8\\}$, $B = \\{2,4,6,8,10\\}$ and $C = \\{1,3,5,7,9\\}$ with $U = \\{1,2,\\dots,10\\}$, find $(A \\cup B)^c$, $A - (B \\cup C)$ and $n(A \\triangle B)$.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C11|mathematics#Functions#7",
+  "q": "Define domain, co-domain and range of a function. Find the domain and range of $f(x) = \\dfrac{1}{x-3}$ and of $g(x) = \\sqrt{16 - x^{2}}$.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|mathematics#Functions#8",
+  "q": "If $f(x) = 3x - 2$ and $g(x) = x^{2}+1$, find $f \\circ g$, $g \\circ f$ and $(f \\circ g)(2)$, and show that $f \\circ g \\ne g \\circ f$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Functions#9",
+  "q": "Find the inverse of $f(x) = \\dfrac{3x+1}{x-2}$, stating its domain and range, and verify that $f\\!\\left(f^{-1}(x)\\right) = x$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Functions#11",
+  "q": "State the amplitude, period and range of $y = 4\\sin\\frac{x}{2}$, and sketch one complete cycle.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Functions#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Curve Sketching#4",
+  "q": "Define even and odd functions. Test whether each of $f(x) = x^{4} - 3x^{2} + 2$, $g(x) = x^{3} + x$ and $h(x) = x^{3} + x^{2}$ is even, odd or neither.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C11|mathematics#Curve Sketching#7",
+  "q": "Show from the definition that $f(x) = 5x - 3$ is strictly increasing on $\\mathbb{R}$ and that $g(x) = 4 - 3x$ is strictly decreasing on $\\mathbb{R}$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|mathematics#Curve Sketching#8",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|mathematics#Sequence and Series#15",
+  "q": "Express $0.3\\overline{7} = 0.3777\\ldots$ as a fraction in lowest terms.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|mathematics#Sequence and Series#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Matrices and Determinants#10",
+  "q": "Define the transpose of a matrix. For $A$ with rows $(1,2)$, $(3,4)$ and $B$ with rows $(2,0)$, $(1,3)$, verify that $(AB)^{T} = B^{T}A^{T}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Matrices and Determinants#12",
+  "q": "Solve by Cramer's rule: $\\;2x + 3y = 13$, $\\;3x - y = 3$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Matrices and Determinants#15",
+  "q": "If $A$ is a non-singular matrix of order $3$ with $|A| = 5$, find $|\\mathrm{adj}\\,A|$ and $|A^{-1}|$.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|mathematics#Quadratic Equation#7",
+  "q": "If $\\alpha$, $\\beta$ are the roots of $2x^{2}+3x-4 = 0$, find $\\alpha^{2}+\\beta^{2}$ and $\\dfrac{1}{\\alpha^{2}}+\\dfrac{1}{\\beta^{2}}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Quadratic Equation#8",
+  "q": "If $\\alpha$, $\\beta$ are the roots of $3x^{2}-5x+2 = 0$, form the equation whose roots are $\\dfrac{1}{\\alpha}$ and $\\dfrac{1}{\\beta}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Quadratic Equation#9",
+  "q": "Find the value of $k$ if $x^{2}-7x+12 = 0$ and $x^{2}-8x+k = 0$ have a common root.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|mathematics#Quadratic Equation#11",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C11|mathematics#Complex Numbers#8",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C11|mathematics#Trigonometric Equations and General Values#16",
+  "q": "Solve $\\cos\\theta+\\cos 3\\theta = 2\\cos 2\\theta$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Straight Line#15",
+  "q": "The vertices of a triangle are $A(2,1)$, $B(8,1)$ and $C(2,9)$.",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C11|mathematics#Pair of Straight Lines#13",
+  "q": "Find the equation of the bisectors of the angles between the lines $2x^{2}-5xy+2y^{2} = 0$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Pair of Straight Lines#15",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Pair of Straight Lines#16",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Vectors#18",
+  "q": "If $\\vec{a} = 2\\hat{i}+\\lambda\\hat{j}+\\hat{k}$ is perpendicular to $\\vec{b} = \\hat{i}-2\\hat{j}+3\\hat{k}$, find $\\lambda$. Hence find the projection of $\\vec{b}$ on $\\hat{i}-2\\hat{j}+2\\hat{k}$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|mathematics#Vectors#21",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Measures of Dispersion#10",
+  "q": "Define variance and standard deviation. Find the standard deviation of $2, 4, 6, 8, 10, 12, 14$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Measures of Dispersion#13",
+  "q": "A group of $30$ students has mean weight $20$ kg with $\\sigma_1 = 3$ kg; another group of $20$ students has mean weight $25$ kg with $\\sigma_2 = 4$ kg. Find the combined mean and the combined standard",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Derivatives#14",
+  "q": "Differentiate $y = \\left(x^{2}+1\\right)^{3}(2x-1)^{4}$ using logarithmic differentiation.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C11|mathematics#Derivatives#16",
+  "q": "If $x = a(t-\\sin t)$ and $y = a(1-\\cos t)$, find $\\dfrac{dy}{dx}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Derivatives#17",
+  "q": "If $y = \\sin^{-1}x$, prove that $\\left(1-x^{2}\\right)y_2-x\\,y_1 = 0$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Derivatives#20",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Derivatives#21",
+  "q": "For the function $f(x) = 2x^{3}-3x^{2}-12x+5$, find the intervals of increase and decrease, the local maximum and minimum values, the intervals of concavity and the point of inflection. Hence sketch t",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Anti-derivatives#20",
+  "q": "Show that $\\int_{0}^{\\pi/2}\\frac{\\sin x}{\\sin x + \\cos x}\\,dx = \\frac{\\pi}{4}$.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|mathematics#Anti-derivatives#21",
+  "q": "Find the area bounded by the curve $y = x^{2}$, the $x$-axis and the lines $x=1$ and $x=3$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Anti-derivatives#22",
+  "q": "Evaluate $\\int e^{2x}\\cos x\\,dx$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Anti-derivatives#25",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C11|mathematics#Anti-derivatives#26",
+  "q": "Evaluate $\\int\\frac{2x+1}{(x-1)(x^{2}+1)}\\,dx$ by partial fractions, stating the form of the decomposition and justifying it.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|mathematics#Anti-derivatives#27",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|mathematics#Computational Methods#13",
+  "q": "Show that the equation $x^{3}-x-1=0$ has a root between $1$ and $2$, and find it correct to one decimal place by the bisection method.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|mathematics#Computational Methods#15",
+  "q": "Derive the Newton-Raphson iteration formula from Taylor's theorem, and state two circumstances in which it fails.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|mathematics#Computational Methods#16",
+  "q": "Evaluate $\\int_{0}^{1}e^{x}dx$ by the trapezoidal rule with four sub-intervals and compare with the exact value.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C11|mathematics#Computational Methods#17",
+  "q": "Evaluate $\\int_{1}^{2}\\ln x\\,dx$ by Simpson's rule with four sub-intervals, giving your answer to five decimal places.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Computational Methods#18",
+  "q": "Show that Simpson's rule gives the exact value of $\\int_{0}^{2}x^{3}dx$ with $n=4$, and explain why.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Computational Methods#22",
+  "q": "A cottage industry in Bhaktapur makes two products. Maximise $Z = 4x+3y$ subject to $x+y \\le 8$, $2x+y \\le 10$, $x \\ge 0$, $y \\ge 0$, by the graphical method, listing all corner points and the value o",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Mechanics#14",
+  "q": "The resultant of two forces $P$ and $2P$ acting at a point is perpendicular to $P$. Find the angle between the forces and the magnitude of the resultant.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|mathematics#Mechanics#15",
+  "q": "A particle moves so that $s = 2t^3 - 9t^2 + 12t$ metres. Find when it is at rest, and the total distance it travels in the first 3 seconds.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|mathematics#Mechanics#17",
+  "q": "A particle slides from rest down a smooth plane of inclination $45^\\circ$ and length 10 m. Find the acceleration, the speed at the bottom and the time taken.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Mechanics#18",
+  "q": "State the parallelogram law of forces and derive expressions for the magnitude and the direction of the resultant of two forces $P$ and $Q$ inclined at an angle $\\theta$. Hence find two forces whose m",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Real Numbers#4",
+  "q": "Define rational and irrational numbers. Express $0.\\overline{4}$ and $1.2\\overline{3}$ as fractions in lowest terms.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|mathematics#Real Numbers#7",
+  "q": "Solve the pair $|x - 2| \\le 3$ and $|x + 1| > 1$ simultaneously.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Real Numbers#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|mathematics#Real Numbers#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Physical Quantities#17",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Physical Quantities#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Vectors#15",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C11|physics#Kinematics#9",
+  "q": "A car accelerates uniformly from rest and covers $100\\ \\text{m}$ in $5\\ \\text{s}$. Find its acceleration and the distance covered in the $5^{\\text{th}}$ second.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|physics#Dynamics#9",
+  "q": "State Newton's third law and hence prove the principle of conservation of linear momentum for two bodies colliding head-on.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Dynamics#11",
+  "q": "Two masses of $6\\ \\text{kg}$ and $4\\ \\text{kg}$ hang from the ends of a light string over a smooth pulley. Find the acceleration of the system and the tension in the string. Take $g = 10\\ \\text{m s}^{",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Work, energy and power#8",
+  "q": "Define work, energy and power, and state their SI units. Show that the work done by a variable force is the area under the force–displacement graph.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Circular Motion#6",
+  "q": "Define angular velocity and angular acceleration. Derive the relations $v = r\\omega$ and $a_t = r\\alpha$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Gravitation#7",
+  "q": "State Newton's law of gravitation. Define $G$ and give its SI unit and dimensional formula.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Gravitation#14",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Elasticity#12",
+  "q": "A copper wire and a steel wire, each $2.0\\ \\text{m}$ long and $1.0\\ \\text{mm}$ in diameter, are joined end to end and a force of $100\\ \\text{N}$ is applied to the free ends. Given $Y_{Cu} = 1.1\\times1",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C11|physics#Thermal Expansion#10",
+  "q": "A brass scale is correct at $15\\ ^{\\circ}\\text{C}$. It is used at $35\\ ^{\\circ}\\text{C}$ and reads a length of $50.00\\ \\text{cm}$. What is the true length? Take $\\alpha_{\\text{brass}} = 1.9\\times10^{-",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Thermal Expansion#12",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|physics#Rate of heat flow#15",
+  "q": "A black body of surface area $20\\ \\text{cm}^2$ is kept at $527\\ ^\\circ$C in surroundings at $27\\ ^\\circ$C. Find the net rate of loss of heat by radiation.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|physics#Ideal gas#8",
+  "q": "State the assumptions of the kinetic molecular model of an ideal gas, and explain on this model what pressure and temperature mean.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C11|physics#Reflection at curved mirror#9",
+  "q": "Show that the focal length of a spherical mirror is half its radius of curvature for paraxial rays.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Reflection at curved mirror#10",
+  "q": "State the new Cartesian sign convention and use it to explain why the focal length of a convex mirror is taken as positive.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Refraction at plane surfaces#12",
+  "q": "State the laws of refraction of light. Define absolute refractive index and relative refractive index, and write the relation between them.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Refraction at plane surfaces#14",
+  "q": "Derive the relation $n = \\dfrac{\\text{real depth}}{\\text{apparent depth}}$ for a liquid viewed normally from above.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Refraction at plane surfaces#15",
+  "q": "A ray of light falls at $45^{\\circ}$ on a glass slab $8\\ \\text{cm}$ thick of refractive index $1.5$. Calculate the angle of refraction and the lateral shift.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Refraction at plane surfaces#16",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Refraction at plane surfaces#17",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|physics#Refraction through prisms#8",
+  "q": "Derive the relation $n = \\dfrac{\\sin\\left(\\frac{A+\\delta_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)}$ between the angle of a prism, its angle of minimum deviation and the refractive index of its mater",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Refraction through prisms#9",
+  "q": "Show that for a prism of small refracting angle the deviation is $\\delta = (n-1)A$ and is independent of the angle of incidence.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Lenses#9",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C11|physics#Dispersion#13",
+  "q": "The refractive indices of flint glass for violet, yellow and red light are $1.663$, $1.649$ and $1.635$. Calculate the dispersive power of the glass, and the angular dispersion produced by a flint pri",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Dispersion#17",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C11|physics#Dispersion#18",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C11|physics#Electric Charges#16",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Electric Charges#17",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C11|physics#Potential, potential difference and potential energy#8",
+  "q": "Calculate the work done in moving a charge of $2\\ \\mu\\text{C}$ from a point $10\\ \\text{cm}$ away from a charge of $+3\\ \\mu\\text{C}$ to a point $5\\ \\text{cm}$ away from it.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#DC Circuits#6",
+  "q": "Define drift velocity and derive the relation $I = nAv_de$ for a metallic conductor.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C11|physics#DC Circuits#12",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C11|physics#Nuclear physics#9",
+  "q": "Describe Rutherford's alpha-particle scattering experiment. State three observations and the conclusion drawn from each.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Nuclear physics#11",
+  "q": "Define mass defect and binding energy. Calculate the binding energy per nucleon of ⁷Li, given atomic masses ⁷Li $= 7.016004\\ \\text{u}$, ¹H $= 1.007825\\ \\text{u}$, ¹n $= 1.008665\\ \\text{u}$.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|physics#Nuclear physics#12",
+  "q": "An alpha particle of energy $5.0\\ \\text{MeV}$ is fired head-on at a gold nucleus ($Z = 79$). Find its distance of closest approach. Take $1/4\\pi\\varepsilon_0 = 9\\times10^{9}\\ \\text{N m}^{2}\\ \\text{C}^",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Nuclear physics#14",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Nuclear physics#15",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C11|physics#Solids#10",
+  "q": "Explain qualitatively how the discrete energy levels of isolated atoms become energy bands in a solid.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C11|physics#Mechanics#1",
+  "q": "Two forces of $10\\ \\text{N}$ and $6\\ \\text{N}$ act at a point with an angle of $60^{\\circ}$ between them. Find the magnitude and direction of the resultant.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|physics#Mechanics#2",
+  "q": "A ball is projected with a speed of $20\\ \\text{m s}^{-1}$ at $30^{\\circ}$ above the horizontal ($g = 10\\ \\text{m s}^{-2}$). Find the time of flight, the maximum height and the horizontal range.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C11|physics#Mechanics#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C11|physics#Heat and Thermodynamics#1",
+  "q": "State Newton's law of cooling. A body cools from $80^{\\circ}\\text{C}$ to $60^{\\circ}\\text{C}$ in $10$ minutes in a room at $20^{\\circ}\\text{C}$. Estimate the time to cool from $60^{\\circ}\\text{C}$ to ",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C11|physics#Waves and Optics#3",
+  "q": "An object is $30\\ \\text{cm}$ from a convex lens of focal length $20\\ \\text{cm}$. Find the image distance and magnification. Also find the power of a concave lens of focal length $25\\ \\text{cm}$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C11|physics#Waves and Optics#4",
+  "q": "Define the dispersive power of a material. Find it for glass with $n_v = 1.532$, $n_r = 1.514$ and $n_y = 1.522$.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C11|physics#Waves and Optics#6",
+  "q": "Derive the mirror formula $\\dfrac{1}{u} + \\dfrac{1}{v} = \\dfrac{1}{f}$ for a concave mirror and show that $f = R/2$. [6] Find $R$ if an object $20\\ \\text{cm}$ away gives a real image $60\\ \\text{cm}$ a",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C11|physics#Recent Trends in physics#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Plant Physiology#15",
+  "q": "How does diffusion differ from osmosis on the basis of the types of molecules involved across a cell membrane? Explain how environmental factors influence the rate of diffusion.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|biology#Plant Physiology#21",
+  "q": "How do the different photosynthetic pigments help in capturing light energy? Explain how cyclic and non-cyclic photophosphorylation generate ATP and NADPH, and illustrate them with suitable charts.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Plant Physiology#22",
+  "q": "Describe the link reaction and the Krebs cycle. Calculate the ATP, NADH and FADH₂ formed from one molecule of glucose in these stages. (predicted: the Krebs cycle and electron transport have not yet b",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Genetics#15",
+  "q": "Explain the mechanism of incomplete dominance up to the F₂ generation with a suitable example. How does it differ from complete dominance?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Genetics#26",
+  "q": "Define linkage and crossing over. In a test cross of a double heterozygote, 1600 offspring were obtained of which 96 were recombinants. Calculate the recombination frequency and the map distance betwe",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Genetics#29",
+  "q": "In a dihybrid cross in pea, the F₂ generation of 160 plants consisted of 95 tall round, 27 tall wrinkled, 30 dwarf round and 8 dwarf wrinkled. Test whether these results agree with the expected 9: 3: ",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Embryology#19",
+  "q": "An anther contained 250 microspore mother cells. How many pollen grains, male gametes and ovules could it at most fertilise, and how many seeds could result?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Embryology#21",
+  "q": "What is pollination? Describe the different agents of cross-pollination with the flower characters and examples of each, and explain any four contrivances that plants use to ensure cross-pollination.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|biology#Embryology#22",
+  "q": "Describe the development of a dicot embryo in Capsella bursa-pastoris with labelled diagrams, and compare it with a monocot embryo. What is endosperm, and how do the three types of endosperm developme",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Biotechnology#14",
+  "q": "Describe the process of micropropagation to rapidly produce a large number of identical plantlets and how it can be used in the conservation of endangered plant species.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|biology#Biotechnology#25",
+  "q": "Define food safety and food security. Explain the four pillars of food security and describe four ways in which biotechnology can improve food safety and food security in Nepal.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|biology#Animal Tissues#20",
+  "q": "Distinguish between a tendon and a ligament under four heads.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|biology#Developmental Biology#14",
+  "q": "Define blastulation. Write the process of blastulation during the development of the frog.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|biology#Developmental Biology#17",
+  "q": "Define the term in-vitro fertilisation and describe its process.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|biology#Developmental Biology#21",
+  "q": "A frog has $2n = 26$. Trace the chromosome number through one primary spermatocyte, one secondary spermatocyte, one spermatid and the zygote, and state how many sperms 250 primary spermatocytes will p",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Developmental Biology#26",
+  "q": "Describe the process of gametogenesis in animals. Draw a labelled flow chart of spermatogenesis and oogenesis showing the chromosome number at each stage, and tabulate any four differences between the",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Developmental Biology#27",
+  "q": "Describe the development of the frog from the fertilised egg up to the formation of the gastrula. Draw labelled diagrams of the blastula and the late gastrula, and state the fate of each germ layer.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|biology#Human Biology#14",
+  "q": "Justify the statement \"the sino-auricular node is a natural pacemaker\". What would you suggest if the natural pacemaker does not function normally? How do you test the blood group in human beings?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Human Biology#17",
+  "q": "Two points on a nerve 12 cm apart are stimulated in turn; the muscle responds after 1.0 ms and 2.0 ms respectively. Calculate the conduction velocity in m s⁻¹ and state, with a reason, whether the fib",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Human Biology#19",
+  "q": "Describe the structure of a myelinated neuron. With the help of a graph of membrane potential against time, explain the origin and conduction of a nerve impulse, naming the value of the resting potent",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|biology#Human Biology#20",
+  "q": "Describe the menstrual cycle of a human female under the headings menstrual, proliferative, ovulatory and secretory phases, and explain the hormonal control of each. What happens to the corpus luteum ",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Human Population and Health Disorders#21",
+  "q": "The 2021 census counted 29,164,578 people in Nepal's area of 147,516 km². Calculate the population density, and the population expected in 2031 if growth continues at 0.92 % per year.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|biology#Applied Biology#15",
+  "q": "Name any two indigenous fish species of Nepal. Discuss how integrated fish farming is advantageous over traditional fish farming.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|biology#Applied Biology#19",
+  "q": "Why is typhoid called enteric fever? Illustrate its causative agent, mode of transmission, symptoms and preventive measures. (NEB model 2079; asked again in NEB 2081 as: name the causative agent, tran",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|biology#Applied Biology#21",
+  "q": "Mention the causative agent, mode of transmission and symptoms of pulmonary tuberculosis. Highlight the strategies for its prevention. Why is it called a \"disease of poverty\"?",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|biology#Applied Biology#33",
+  "q": "Write an account of vaccines and antibiotics: what each is, how each works, the main types of each, and why an antibiotic cannot be used to treat COVID-19.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2079 General Stream#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2079 General Stream#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2079 General Stream#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2079 General Stream#5",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2080 Technical 9101#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2080 General Stream#0",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2080 General Stream#3",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 Technical 9101#4",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 Technical 9101#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 Technical 9101#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 General Stream#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 General Stream#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 General Stream#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 General Stream#6",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2081 General Stream#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2082 General Stream#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|biology#Paper 2082 General Stream#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Volumetric Analysis#14",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Volumetric Analysis#23",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Volumetric Analysis#24",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#7",
+  "q": "The ionic product of water at 25 °C is 1 × 10⁻¹⁴.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#9",
+  "q": "What is a buffer solution? Derive the Henderson–Hasselbalch equation for an acidic buffer, and calculate the pH of a buffer containing 0.2 M ethanoic acid and 0.1 M sodium ethanoate (pKa = 4.74).",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#21",
+  "q": "Calculate the pH and the degree of ionisation of a 0.020 M solution of a weak monobasic acid whose $K_a$ is $2.0\\times10^{-5}$.",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#22",
+  "q": "What is a buffer solution? Derive the Henderson equation for an acidic buffer and calculate the pH of a solution that is 0.20 M in CH₃COOH and 0.10 M in CH₃COONa. ($pK_a = 4.74$)",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#25",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#26",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|chemistry#Ionic Equilibrium#27",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#9",
+  "q": "Define the instantaneous rate of reaction. Write the rate expressions for 2N₂O₅(g) → 4NO₂(g) + O₂(g). If 2.24 L of O₂ at NTP is produced in 30 minutes, find the rate of disappearance of N₂O₅.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#10",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#14",
+  "q": "For a reaction mP + nQ → Z, P is first order and Q is zero order. The experimental data are: I, [P] = 0.1 M, [Q] = 0.1 M, rate 2 × 10⁻² M s⁻¹; II, [P] = A, [Q] = 0.2 M, rate 4 × 10⁻² M s⁻¹; III, [P] =",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#15",
+  "q": "For a hypothetical reaction 3X + 2Y → Z the initial rates are: 1, [X] = 0.1, [Y] = 0.1 mol L⁻¹, rate 1 × 10⁻³ mol L⁻¹ min⁻¹; 2, [X] = 0.1, [Y] = 0.4, rate 4 × 10⁻³; 3, [X] = 0.2, [Y] = 0.4, rate 8 × 1",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#20",
+  "q": "Distinguish between the average rate and the instantaneous rate of a reaction. For 4NH₃ + 5O₂ → 4NO + 6H₂O, write the rate of reaction in terms of each species. If O₂ is consumed at $2.5\\times10^{-3}$",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#23",
+  "q": "The rate constant of a reaction at 300 K is $4.5\\times10^{-3}$ s⁻¹ and its activation energy is 60 kJ mol⁻¹. Calculate the rate constant at 320 K.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#24",
+  "q": "Define catalysis. Distinguish between homogeneous and heterogeneous catalysis with one example of each, and state three characteristics of enzyme catalysis.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#25",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#26",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemical Kinetics#27",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Thermodynamics#11",
+  "q": "Define the heat of formation. Calculate the heat of formation of ethyl alcohol, given the heats of combustion: carbon -94 kcal, hydrogen -68.5 kcal, ethyl alcohol -330 kcal (all per mole).",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Thermodynamics#17",
+  "q": "State Hess's law. Given C(s) + O₂(g) → CO₂(g), $\\Delta H = -393.5$ kJ mol⁻¹ and CO(g) + ½O₂(g) → CO₂(g), $\\Delta H = -283.0$ kJ mol⁻¹, calculate the enthalpy of formation of carbon monoxide.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|chemistry#Thermodynamics#18",
+  "q": "For a certain reaction $\\Delta H = 30.56$ kJ mol⁻¹ and $\\Delta S = 66.0$ J K⁻¹ mol⁻¹. Calculate $\\Delta G$ at 300 K and find the temperature at which the reaction becomes spontaneous.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Thermodynamics#21",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Thermodynamics#22",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Electrochemistry#6",
+  "q": "The standard reduction potentials are E°(Zn²⁺/Zn) = -0.76 V and E°(Mg²⁺/Mg) = -2.38 V.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|chemistry#Electrochemistry#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Electrochemistry#17",
+  "q": "Calculate the EMF at 298 K of the cell Zn(s) | Zn²⁺(0.01 M) || Cu²⁺(0.1 M) | Cu(s), given $E^{\\circ}_{cell} = 1.10$ V.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Electrochemistry#18",
+  "q": "A current of 1.5 A is passed through a silver nitrate solution for 20 minutes. Calculate the mass of silver deposited. (Ag = 108)",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Electrochemistry#20",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Electrochemistry#21",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Transition Metals#17",
+  "q": "Define ligand, coordination number and effective atomic number. Calculate the EAN of the metal in [Cu(NH₃)₄]²⁺ and [Fe(CN)₆]³⁻. ($Z$: Cu = 29, Fe = 26)",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Transition Metals#19",
+  "q": "State the postulates of crystal field theory. Draw the splitting of the d orbitals in an octahedral field and calculate the spin-only magnetic moment of [Mn(H₂O)₆]²⁺.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#14",
+  "q": "An ammonia solution is added to the sulphate of a coinage metal A. The blue precipitate B that forms dissolves in excess of the reagent to give a deep blue solution C.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#15",
+  "q": "A coinage metal M of group IB has the configuration [Ar] 3d¹⁰4s¹.",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#16",
+  "q": "Write the preparation, properties and uses of corrosive sublimate. [1+3+1]",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#19",
+  "q": "Describe the extraction of copper from copper pyrite, giving the reactions of each stage: concentration, roasting, smelting, Bessemerisation and refining.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#27",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#28",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Studies of Heavy Metals#29",
+  "q": "An ore contains 25.0% copper pyrite by mass. Calculate",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#14",
+  "q": "The vapour of an organic compound A causes loss of consciousness and forms a component of tear gas when heated with conc. HNO₃.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#15",
+  "q": "An unsaturated hydrocarbon C₃H₆ adds HBr according to Markovnikov's rule to give A. A on hydrolysis with aqueous alkali gives B. B with PBr₃ gives C. C reacts with AgCN (alcoholic) to give D, which on",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#19",
+  "q": "How is bromoethane prepared from",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#21",
+  "q": "How is chloroform prepared from propanone? Why is this route preferred to the one starting from ethanol?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#22",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloalkanes#23",
+  "q": "An organic compound A, C₃H₇Br, reacts with aqueous KOH to give B, and with alcoholic KOH to give C, C₃H₆. A with KCN gives D, and A with sodium in dry ether gives E, C₆H₁₄. Identify A to E, write all ",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloarenes#6",
+  "q": "How will you carry out the following conversions?",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|chemistry#Haloarenes#7",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|chemistry#Alcohols#9",
+  "q": "Give an example of a primary and a secondary alcohol. How is Victor Meyer's test applied to distinguish between them? [1+4]",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Alcohols#11",
+  "q": "Write the structural formula and IUPAC name of a tertiary alcohol of formula C₄H₁₀O, and all isomeric alcohols of C₃H₈O with their IUPAC names. [1+2] How are the C₃H₈O isomers distinguished?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Alcohols#12",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|chemistry#Alcohols#16",
+  "q": "Describe Victor Meyer's method for distinguishing primary, secondary and tertiary alcohols, giving the equations and the colour obtained in each case.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|chemistry#Alcohols#18",
+  "q": "What happens when",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|chemistry#Phenols#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Aldehydes and Ketones#14",
+  "q": "An organic compound X reacts with methyl magnesium bromide followed by acid hydrolysis to give Y. Y on oxidation with acidified KMnO₄ gives Z. All three give a positive iodoform test.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Aldehydes and Ketones#15",
+  "q": "Give one example, with reagents and conditions, of each of the following reactions.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Aldehydes and Ketones#16",
+  "q": "An organic compound X reacts with Grignard's reagent to give Y, which on oxidation gives Z. All three give a positive iodoform test.",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|chemistry#Aldehydes and Ketones#23",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Carboxylic Acid and its Derivatives#12",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|chemistry#Carboxylic Acid and its Derivatives#14",
+  "q": "The compound C₂H₄O₂ has two functional isomers A and B. A turns blue litmus red, and B has a fruity smell.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Carboxylic Acid and its Derivatives#23",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Nitro Compounds#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|chemistry#Amines#20",
+  "q": "Describe Hoffmann's method for separating a mixture of 1°, 2° and 3° amines, with equations.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|chemistry#Amines#21",
+  "q": "How will you distinguish between propan-1-amine, N-methylethanamine and trimethylamine? Give reagents, equations and observations.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|chemistry#Organometallic Compounds#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Organometallic Compounds#7",
+  "q": "How are a primary, a secondary and a tertiary alcohol prepared from Grignard reagents? Write one equation for each.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|chemistry#Organometallic Compounds#12",
+  "q": "Define an organometallic compound. Give the general formula and one example each of organolithium, organocopper and organocadmium compounds.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Organometallic Compounds#15",
+  "q": "How would you obtain (i) propan-1-ol, (ii) propan-2-ol and (iii) 2-methylpropan-2-ol from a Grignard reagent? Give equations.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|chemistry#Organometallic Compounds#16",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|chemistry#Organometallic Compounds#17",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Chemistry in the service of mankind#9",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|chemistry#Cement#8",
+  "q": "Describe the manufacture of Portland cement: the raw materials, the main steps with the flow sheet, the chemical composition of the clinker and the role of gypsum.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2079 General Stream#0",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2080 General Stream#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2080 General Stream#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2081 Technical 9111#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2081 General Stream#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2081 General Stream#3",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2081 General Stream#4",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2081 General Stream#5",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2082 Technical 9111#0",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2082 Technical 9111#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2082 Technical 9111#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2082 General Stream#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|chemistry#Paper 2082 General Stream#7",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|computer-science#Database Management System#9",
+  "q": "Using the tables students, courses and enrolment of §1.4.1, write SQL statements to",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|computer-science#Object-Oriented Programming#6",
+  "q": "Define class and object. Write a C++ class Circle with a constructor and a member function that returns the area, and create one object of it.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|computer-science#Object-Oriented Programming#9",
+  "q": "State any five advantages of OOP and any two of its disadvantages.",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C12|computer-science#Object-Oriented Programming#11",
+  "q": "Write a complete C++ program that defines a base class Person with name and age, derives Teacher (with subject and salary) and Student (with faculty and scholarship) from it, uses a virtual function t",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|computer-science#Software Process Model#5",
+  "q": "Define SDLC and explain any five of its phases with their deliverables.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|computer-science#Software Process Model#12",
+  "q": "What is a prototype? Draw the prototype model and explain each step. Compare it with the spiral model on cost, risk and customer involvement.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C12|computer-science#Recent Trends in Technology#6",
+  "q": "Define cloud computing. Explain its three service models with one example of each.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|computer-science#Paper 2079 General Stream#3",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C12|computer-science#Paper 2079 General Stream#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#A Devoted Son#4",
+  "q": "What did old Bhatia say when Varma told him about the scales?",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|english#The Treasure in the Forest#7",
+  "q": "How does Wells use foreshadowing and suspense in the story?",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|english#My Old Home#4",
+  "q": "What does Runtu ask to take from the house?",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|english#My Old Home#5",
+  "q": "What question does Hongr ask in the boat, and why is it important?",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|english#My Old Home#6",
+  "q": "Discuss the theme of hope in the story, with special reference to the last paragraph.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#The Half-closed Eyes of the Buddha and the#5",
+  "q": "Compare and contrast the tourist's view of Nepal with the guide's.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#On Libraries#3",
+  "q": "Why do you think the modern students ignore the bookshelves?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Humility#0",
+  "q": "What are the universal human abilities according to Harari?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Humility#1",
+  "q": "How do the Hindu nativists oppose the claim of Chinese nationalists about human history and civilisation?",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|english#Humility#7",
+  "q": "Why does Harari use the example of the Jews to illustrate his point?",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|english#Humility#8",
+  "q": "How do Hindu nationalists refute the Chinese claim that human history really began with the Yellow Emperor and the Xia and Shang dynasties?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Humility#9",
+  "q": "Why do you think history has been a major contested issue in the present world? Discuss with reference to the essay. (Model)",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|english#A Matter of Husbands#6",
+  "q": "What do the last words of the play reveal?",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|english#A Matter of Husbands#11",
+  "q": "Write a paragraph describing your favourite actor or actress.",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C12|english#Facing Death#0",
+  "q": "Where and when is the play set?",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|english#Facing Death#11",
+  "q": "Write a short essay on \"The Sacrifices of Parents\".",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C12|english#The Bull#5",
+  "q": "How much money does the king give to Jitman and Gore?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Question Tags and Questions#1",
+  "q": "Where he has gone since morning?",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|english#Question Tags and Questions#2",
+  "q": "Who did break this window?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Question Tags and Questions#5",
+  "q": "Why you did not attend the meeting?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Subject-Verb Agreement and Miscellaneous Agreements#2",
+  "q": "The teachers and the principal were present. — Rewrite beginning Not only the teachers but also …",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|english#Reported Speech#3",
+  "q": "The officer ordered the peon to bring the file at once.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Conditional Sentences#0",
+  "q": "If you (heat) iron, it expands.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|english#Passive Voice#5",
+  "q": "A new hospital is going to be built here.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Passive Voice#6",
+  "q": "Let the lights be switched off.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Passive Voice#10",
+  "q": "The hall was crowded by students.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|english#Guided Writing: Charts, Graphs and Outlines#0",
+  "q": "The table below shows the pass percentage in four subjects at one higher secondary school over three years. Describe it in about 150 words.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Functional Writing: Letters to the Editor, Emails, CVs#6",
+  "q": "Name the three items that should follow your signature in a formal email.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|english#Free Writing: Essays and Memoirs#4",
+  "q": "Name the fault: Firstly, secondly, thirdly, and last but not the least…",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|mathematics#Permutation and Combination#8",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|mathematics#Permutation and Combination#9",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|mathematics#Permutation and Combination#16",
+  "q": "In how many ways can the letters of the word EQUATION be arranged so that all the vowels are together? In how many arrangements do no two vowels come together?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Permutation and Combination#22",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#12",
+  "q": "State and prove the binomial theorem for a positive integral index by mathematical induction.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#15",
+  "q": "Expand $(1+3x)^{-2}$ in ascending powers of $x$ up to the term in $x^{3}$, stating the range of values of $x$ for which the expansion is valid.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#16",
+  "q": "Using the binomial theorem, find the value of $\\sqrt[5]{33}$ correct to four decimal places.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#19",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Binomial Theorem#20",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Complex Numbers#3",
+  "q": "For any positive integer $n$, $[r(\\cos\\theta+i\\sin\\theta)]^{n}=r^{n}[\\cos n\\theta+i\\sin n\\theta]$. (i) Name the theorem. [1] (ii) Write the statement when $n$ is replaced by $-n$. [1] (iii) What does ",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Complex Numbers#16",
+  "q": "Find the cube roots of unity from $z^{3}-1 = 0$ and prove that $1+\\omega+\\omega^{2} = 0$. Hence prove that $(1+\\omega)^{3} - \\left(1+\\omega^{2}\\right)^{3} = 0$ and that $a^{3}+b^{3}+c^{3}-3abc = (a+b+",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Sequence and Series#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Sequence and Series#15",
+  "q": "Prove by mathematical induction that $n(n+1)(n+2)$ is divisible by $6$ for every natural number $n$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Sequence and Series#16",
+  "q": "Prove by mathematical induction that $1 + 4 + 7 + \\cdots + (3n-2) = \\dfrac{n(3n-1)}{2}$.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C12|mathematics#Sequence and Series#17",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|mathematics#Sequence and Series#18",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|mathematics#Sequence and Series#19",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#6",
+  "q": "Solve $7x-2y=18$, $3x+7z=33$, $x+y+z=12$ by the matrix method.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#8",
+  "q": "A mixture is to be prepared from three foods A, B and C, which contain the nutrients P, Q and R as shown. The mixture must contain $30$ units of P, $36$ units of Q and $30$ units of R.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#13",
+  "q": "Solve by Cramer's rule: $\\;4x + 3y = 18$, $\\;3x - 2y = 5$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#14",
+  "q": "Solve by Cramer's rule: $\\;x + y + z = 6$, $\\;x + 2y + 3z = 14$, $\\;x + 4y + 9z = 36$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#15",
+  "q": "Solve by the row-equivalent (Gauss) method: $\\;x + y + z = 2$, $\\;2x - y + 3z = 0$, $\\;3x + 2y - z = 9$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#17",
+  "q": "Find the value of $k$ for which $\\;x + y + z = 1$, $\\;x + 2y + 3z = 4$, $\\;x + 4y + kz = 6$ fails to have a unique solution, and say what happens for that value.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Matrix Based System of Linear Equations#20",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#11",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#12",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#19",
+  "q": "In triangle $ABC$, $b = \\sqrt{3}$ cm, $c = 1$ cm and $A = 30^{\\circ}$. Find $a$, $B$ and $C$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#20",
+  "q": "Find the greatest angle of the triangle whose sides are $7$ cm, $8$ cm and $9$ cm.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#22",
+  "q": "In a triangle $a = 9$ cm, $b = 7$ cm and $C = 60^{\\circ}$. Using the tangent law find $A$ and $B$, and then find $c$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Properties of a Triangle#27",
+  "q": "Prove that $r = 4R\\sin\\frac{A}{2}\\sin\\frac{B}{2}\\sin\\frac{C}{2}$ and $r_1 = 4R\\sin\\frac{A}{2}\\cos\\frac{B}{2}\\cos\\frac{C}{2}$, and verify both for the triangle $13$, $14$, $15$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#15",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#20",
+  "q": "Find the equation of the circle passing through the points $(-1,1)$ and $(6,2)$ whose centre lies on the line $2x+y = 4$. State its centre and radius.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#21",
+  "q": "Find the equations of the tangents to the circle $x^{2}+y^{2} = 16$ which are parallel to the line $3x+4y = 5$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#22",
+  "q": "Find the vertex, focus, directrix, axis and length of latus rectum of the parabola $y^{2}+4y+4x-4 = 0$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#23",
+  "q": "Find the equation of the tangent to the parabola $y^{2} = 8x$ which makes an angle of $45^{\\circ}$ with the $x$-axis. Find the point of contact and the equation of the normal there.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#25",
+  "q": "Find the eccentricity, foci, directrices and length of latus rectum of the hyperbola $25x^{2} - 144y^{2} = 3600$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#26",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#27",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|mathematics#Conic Sections#28",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#8",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#10",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#14",
+  "q": "Prove by vector method that the diagonals of a rhombus bisect each other at right angles.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#16",
+  "q": "If $|\\vec{a}| = 5$, $|\\vec{b}| = 4$ and $\\vec{a}\\cdot\\vec{b} = 10$, find the angle between $\\vec{a}$ and $\\vec{b}$, and the values of $|\\vec{a}+\\vec{b}|$ and $|\\vec{a}-\\vec{b}|$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#17",
+  "q": "Find a unit vector perpendicular to both $2\\hat{i}-6\\hat{j}-3\\hat{k}$ and $4\\hat{i}+3\\hat{j}-\\hat{k}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#18",
+  "q": "Find the area of the triangle whose vertices are $A(1,1,2)$, $B(2,3,5)$ and $C(1,5,5)$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#19",
+  "q": "A force $\\vec{F} = 2\\hat{i}-\\hat{j}+2\\hat{k}$ newtons acts at the point $A(1,3,4)$. Find its moment about $B(1,2,2)$ and the perpendicular distance from $B$ to the line of action of $\\vec{F}$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#20",
+  "q": "Find the scalar and the vector projection of $\\vec{a} = \\hat{i}-2\\hat{j}+\\hat{k}$ on $\\vec{b} = 2\\hat{i}-\\hat{j}+2\\hat{k}$, and the angle between them.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#21",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#23",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Product of Vectors#24",
+  "q": "For the points $A(1,1,1)$, $B(0,1,3)$ and $C(3,5,5)$, find",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Correlation and Regression#10",
+  "q": "The regression equations of age $(x)$ and blood pressure $(y)$ are $0.22x-y+81.1175=0$ and $x-1.623y+105.695=0$.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|mathematics#Correlation and Regression#11",
+  "q": "The height $(x)$ in cm and weight $(y)$ in kg of $5$ persons are: $x$: $160,162,165,161,162$; $y$: $63,62,64,60,61$. Find the correlation coefficient between $x$ and $y$ and the regression coefficient",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|mathematics#Correlation and Regression#12",
+  "q": "The supply $(X)$ and the price $(Y)$ of a commodity over six years are: $X$: $45,50,56,62,65,70$; $Y$: $65,70,75,80,90,100$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Correlation and Regression#13",
+  "q": "The supply $(x)$ and the price $(y)$ of a commodity over seven years are: $x$: $80,84,86,88,92,96,97$; $y$: $12,14,15,16,18,20,22$. Find the likely price when the supply is $120$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Correlation and Regression#14",
+  "q": "Two judges ranked six contestants: Judge 1: $1,2,3,4,5,6$; Judge 2: $2,1,4,3,6,5$. Find the rank correlation coefficient and interpret it.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Correlation and Regression#21",
+  "q": "For a bivariate distribution, $\\bar{x} = 18$, $\\bar{y} = 100$, $\\sigma_x = 14$, $\\sigma_y = 20$ and $r = 0.8$. Find the line of regression of $y$ on $x$ and estimate $y$ when $x = 25$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Probability#8",
+  "q": "If $P(A\\cap B)=\\dfrac{1}{18}$, $P(B)=\\dfrac{1}{18}$ and $2P(A)=5P(B)$, find $P(B/A)$ and $P(A/B)$, and decide whether $A$ and $B$ are independent.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Probability#11",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Probability#18",
+  "q": "A bag contains $6$ white and $4$ black balls. Two balls are drawn at random one after the other without replacement. Find the probability that",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|mathematics#Probability#20",
+  "q": "Two dice are thrown together. Find the probability that the sum is $6$, given that both dice show odd numbers. Also find the probability that both show odd numbers, given that the sum is $6$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Probability#21",
+  "q": "The probabilities that Ramesh, Sita and Gita solve a problem are $\\frac12$, $\\frac13$ and $\\frac14$ respectively, and they work independently. Find the probability that the problem is solved and the p",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Probability#24",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#11",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#14",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#21",
+  "q": "Evaluate $\\displaystyle\\lim_{x\\to0}\\frac{x - \\sin x}{x^{3}}$ using L'Hospital's rule.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#24",
+  "q": "The radius of a circular plate is increasing at $0.02$ cm s⁻¹. Find the rate at which its area is increasing when the radius is $10$ cm.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#28",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Derivatives#29",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|mathematics#Anti-derivatives#14",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|mathematics#Anti-derivatives#15",
+  "q": "Evaluate $\\displaystyle\\int\\frac{2x^{2}-x+4}{x^{3}+4x}\\,dx$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Anti-derivatives#16",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Anti-derivatives#22",
+  "q": "Evaluate $\\int \\dfrac{2x+1}{(x+1)(x-2)}\\,dx$.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|mathematics#Anti-derivatives#27",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Differential Equations#11",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Differential Equations#12",
+  "q": "A water tank is filled in such a way that the rate at which the depth $h$ of water increases is proportional to the square root of the depth. Initially the depth is $n$ metres.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Differential Equations#22",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|mathematics#Differential Equations#23",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Computational Methods#9",
+  "q": "Using the simplex method, maximise $Z=7x+y$ subject to $3x+4y\\leq12$, $y-x\\leq2$, $x,y\\geq0$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Computational Methods#17",
+  "q": "Solve by Gauss elimination: $\\;x + 2y + 3z = 14$, $\\;2x + 5y + 2z = 18$, $\\;3x + y + 5z = 20$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Computational Methods#18",
+  "q": "State the three elementary row operations and explain, with the system $2x + 4y = 6$, $\\;3x + y = -1$, why a row interchange can be necessary during Gauss elimination. Solve the system.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Computational Methods#19",
+  "q": "Using the Newton–Raphson method with $x_0 = 1$, find the root of $x^3 + x - 3 = 0$ correct to four decimal places.",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|mathematics#Computational Methods#21",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#9",
+  "q": "Two forces $A$ and $B$, acting parallel to the length and to the base of an inclined plane respectively, would each singly support a weight $R$ on the plane. Prove that $\\dfrac{1}{A^{2}}=\\dfrac{1}{B^{",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#11",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#19",
+  "q": "State Lami's theorem. A body of weight $100$ N hangs at a point $O$ from two strings making angles of $30^\\circ$ and $60^\\circ$ with the vertical, on opposite sides. Find the tension in each string.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#21",
+  "q": "A body of mass $5$ kg is pulled along a rough horizontal floor by a horizontal force of $30$ N against a frictional force of $10$ N. Find the acceleration and the distance travelled in $4$ s starting ",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#23",
+  "q": "A ball is projected with a speed of $40\\ \\text{m s}^{-1}$ at $30^\\circ$ to the horizontal. Find the time of flight, the greatest height and the horizontal range. ($g = 10\\ \\text{m s}^{-2}$.)",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#24",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#25",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Mechanics#26",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|mathematics#Appendix: Retained Examinable Topics#7",
+  "q": "Show that $\\{1,-1,i,-i\\}$ is an abelian group under multiplication, by completing its composition table.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Appendix: Retained Examinable Topics#9",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|mathematics#Appendix: Retained Examinable Topics#16",
+  "q": "Verify Rolle's theorem for $f(x) = x^2 - 5x + 6$ on $[2, 3]$ and find $c$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Appendix: Retained Examinable Topics#17",
+  "q": "Verify the Mean Value Theorem for $f(x) = x^2 + 2x + 3$ on $[1, 2]$ and find $c$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Appendix: Retained Examinable Topics#19",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Appendix: Retained Examinable Topics#20",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2079 General Stream#3",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2079 General Stream#4",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2080 Set 'H'#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2081 General 4021#0",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2081 General 4021#6",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2081 Old Course 216#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2081 Old Course 216#5",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2082 Optional 4021 'A'#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2082 Technical 9121#7",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|mathematics#Paper 2082 Set 'R'#4",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|physics#Rotational dynamics#12",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Rotational dynamics#14",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|physics#Periodic motion#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Periodic motion#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Periodic motion#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Periodic motion#13",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|physics#Periodic motion#20",
+  "q": "A load of $0.5\\ \\text{kg}$ stretches a light spiral spring by $5\\ \\text{cm}$. Find the force constant of the spring and the period of vertical oscillation of the load. ($g = 9.8\\ \\text{m s}^{-2}$)",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Fluid statics#9",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Fluid statics#15",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Fluid statics#16",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Fluid statics#23",
+  "q": "A capillary tube of internal radius $0.5\\ \\text{mm}$ is dipped vertically in water of surface tension $0.072\\ \\text{N m}^{-1}$. Calculate the rise. ($\\theta = 0^{\\circ}$, $\\rho = 1000\\ \\text{kg m}^{-3",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|physics#Fluid statics#24",
+  "q": "State Stokes' law and derive the terminal velocity of a sphere in a viscous liquid. Hence find the terminal velocity of an air bubble of radius $1\\ \\text{mm}$ rising through a liquid of density $1200\\",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|physics#First Law of Thermodynamics#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#First Law of Thermodynamics#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#First Law of Thermodynamics#15",
+  "q": "Define internal energy. State the first law of thermodynamics, write it in differential form, and explain the sign convention used for $Q$ and $W$.",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|physics#First Law of Thermodynamics#16",
+  "q": "Derive the relation $C_p - C_v = R$ for one mole of an ideal gas, and explain physically why $C_p$ must be greater than $C_v$.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|physics#Second Law of Thermodynamics#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Second Law of Thermodynamics#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Second Law of Thermodynamics#12",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|physics#Second Law of Thermodynamics#14",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Second Law of Thermodynamics#20",
+  "q": "State the Kelvin–Planck and Clausius statements of the second law, and show that a violation of one implies a violation of the other.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Wave motion#11",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|physics#Wave motion#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Mechanical waves#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Mechanical waves#9",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|physics#Mechanical waves#12",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|physics#Mechanical waves#19",
+  "q": "Derive Newton's formula for the velocity of sound in a gas and state the assumption on which it rests. Why does it fail?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Wave in pipes and strings#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Acoustic phenomena#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Acoustic phenomena#7",
+  "q": "A train moving at $10\\ \\text{m s}^{-1}$ towards a cliff sounds a horn of $600\\ \\text{Hz}$. Find the frequency of the echo heard by the driver [3] and explain why it is higher than $600\\ \\text{Hz}$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Acoustic phenomena#10",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "NEB|C12|physics#Acoustic phenomena#11",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Acoustic phenomena#18",
+  "q": "The intensity level of a sound is 70 dB. Find its intensity, and the new intensity level if the intensity is increased 100 times.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Nature and propagation of light#5",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|physics#Nature and propagation of light#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Nature and propagation of light#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Nature and propagation of light#10",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|physics#Interference#6",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|physics#Interference#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Interference#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Diffraction#5",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|physics#Diffraction#6",
+  "q": "A grating of $500$ lines per mm gives the second-order maximum at $30^{\\circ}$. Find the wavelength of the light. [3] (b) Why do the maxima of a grating appear sharper than the fringes of a double sli",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|physics#Diffraction#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Diffraction#10",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "NEB|C12|physics#Polarization#5",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|physics#Polarization#8",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|physics#Polarization#9",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|physics#Polarization#15",
+  "q": "State Malus's law and derive it. Unpolarized light of intensity $I_0$ passes through two Polaroids whose axes are at $30^\\circ$. Find the emergent intensity.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Polarization#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Electrical circuits#11",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|physics#Electrical circuits#16",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Electrical circuits#28",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#10",
+  "q": "A thermocouple has an inversion temperature of $600\\ ^{\\circ}\\text{C}$ and a neutral temperature of $310\\ ^{\\circ}\\text{C}$.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#11",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#14",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#22",
+  "q": "Distinguish between Peltier heating and Joule heating on four counts. A junction of Peltier coefficient $10\\ \\text{mV}$ carries $3.0\\ \\text{A}$ for $200\\ \\text{s}$; find the Peltier heat.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#24",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Thermoelectric effects#25",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic field#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic field#5",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic field#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic field#11",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic field#20",
+  "q": "Explain the Hall effect and show that $V_H = IB/nqt$. A metal strip of thickness $1.0\\ \\text{mm}$ with $n = 5.0\\times10^{28}\\ \\text{m}^{-3}$ carries $20\\ \\text{A}$ in a field of $1.5\\ \\text{T}$; find ",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic field#22",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic properties of materials#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic properties of materials#7",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic properties of materials#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic properties of materials#13",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|physics#Magnetic properties of materials#21",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#9",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#10",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#11",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#19",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|physics#Electromagnetic Induction#30",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Alternating Currents#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Alternating Currents#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Alternating Currents#16",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Alternating Currents#20",
+  "q": "A $100\\ \\Omega$ resistor, a $0.50\\ \\text{H}$ inductor and a $10\\ \\mu\\text{F}$ capacitor are joined in series across a $200\\ \\text{V}$, $50\\ \\text{Hz}$ supply. Calculate the impedance and the current.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Alternating Currents#24",
+  "q": "An inductor of $0.20\\ \\text{H}$ with negligible resistance, a $100\\ \\Omega$ resistor and a $50\\ \\mu\\text{F}$ capacitor are connected in series across a $220\\ \\text{V}$, $50\\ \\text{Hz}$ supply. Calcula",
+  "p_yes": 0.047
+ },
+ {
+  "id": "NEB|C12|physics#Electrons#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Electrons#5",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|physics#Electrons#10",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|physics#Electrons#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Photons#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Photons#9",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "NEB|C12|physics#Photons#13",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Photons#14",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Semiconductor devices#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Semiconductor devices#15",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Semiconductor devices#16",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Quantization of energy#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Quantization of energy#9",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "NEB|C12|physics#Quantization of energy#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Quantization of energy#18",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Quantization of energy#19",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|physics#Quantization of energy#25",
+  "q": "State Bohr's postulates and hence derive an expression for the radius of the $n^{\\text{th}}$ orbit of a hydrogen atom.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Radioactivity and nuclear reaction#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Radioactivity and nuclear reaction#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Radioactivity and nuclear reaction#13",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "NEB|C12|physics#Radioactivity and nuclear reaction#14",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Recent trends in physics#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Recent trends in physics#7",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Recent trends in physics#14",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "NEB|C12|physics#Paper 2079 General Stream#2",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "NEB|C12|physics#Paper 2080 Technical 9131#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|physics#Paper 2081 Technical 9131#1",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "NEB|C12|physics#Paper 2081 Technical 9131#5",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "NEB|C12|physics#Paper 2081 General Stream#1",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "BLE|C8|computer-science#Fundamentals of Computer#9",
+  "q": "Write any two uses of computers in banking and one in health in Nepal.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|computer-science#Fundamentals of Computer#22",
+  "q": "A memory card holds 32 GB. How many 8 MB videos can it store?",
+  "p_yes": 0.047
+ },
+ {
+  "id": "BLE|C8|computer-science#Types of Computer#29",
+  "q": "Describe any four types of microcomputer.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "BLE|C8|computer-science#Computer Software#10",
+  "q": "Differentiate between freeware and shareware.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "BLE|C8|computer-science#Word Processing#32",
+  "q": "A 20-page document is printed with Pages: 1-5, 11, 15-16 and Copies: 4 on both sides of the paper. How many pages print per copy, how many printed pages in all, and how many sheets are used? Show your",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|computer-science#Spreadsheet Software#30",
+  "q": "The marks of a student out of 100 are 64, 38, 75, 81 and 57 in B2:F2. Write formulas for the total, the percentage (out of 500), the highest and lowest marks, and a result that is \"Pass\" only if every",
+  "p_yes": 0.047
+ },
+ {
+  "id": "BLE|C8|computer-science#Presentation Software#23",
+  "q": "Write the steps to apply the same transition to all slides.",
+  "p_yes": 0.007
+ },
+ {
+  "id": "BLE|C8|computer-science#Information and Communication Technology#10",
+  "q": "What is e-governance? Explain G2C, G2B and G2G with Nepali examples.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|computer-science#Computer Ethics and Cyber Law#30",
+  "q": "What is computer ethics? Explain any six of the Ten Commandments of computer ethics with an example of each.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "BLE|C8|computer-science#Computer Ethics and Cyber Law#32",
+  "q": "Describe the Electronic Transactions Act, 2063: when it was made, its aims, and any three offences with their punishments.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|computer-science#Computer Virus#31",
+  "q": "What is antivirus software? Explain how it detects and deals with malware.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|computer-science#Computer Virus#33",
+  "q": "A cyber café's computers have become slow, show adverts on every page, and the folders on customers' pen drives turn into shortcuts. Name the likely malware and write a plan to clean the computers and",
+  "p_yes": 0.007
+ },
+ {
+  "id": "BLE|C8|computer-science#Computer Network#10",
+  "q": "What is a computer network? Explain any four network components.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "BLE|C8|computer-science#Computer Network#28",
+  "q": "What is network topology? Explain bus, ring and star topologies with neat diagrams.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|computer-science#Number System#12",
+  "q": "Convert $(1011101)_2$ into octal and hexadecimal.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "BLE|C8|computer-science#Multimedia#24",
+  "q": "What is the use of",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|computer-science#Multimedia#28",
+  "q": "A 2-minute voice recording uses 22,050 samples per second, 16 bits per sample and 1 channel (mono). Find its uncompressed size in KB (1 KB = 1024 bytes).",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|computer-science#Fundamentals of Computer Programming#8",
+  "q": "Differentiate between a syntax error and a logical error, with an example of each.",
+  "p_yes": 0.005
+ },
+ {
+  "id": "BLE|C8|computer-science#Fundamentals of Computer Programming#31",
+  "q": "What are testing and debugging? Explain the three types of programming error with one example each.",
+  "p_yes": 0.004
+ },
+ {
+  "id": "BLE|C8|computer-science#Fundamentals of Computer Programming#32",
+  "q": "Explain compiler, interpreter and assembler. Which translator is used for Python programs and which for C programs?",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|english#A Father's Letter to his Son / Poem:#0",
+  "q": "Give short answers.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "BLE|C8|english#A Father's Letter to his Son / Poem:#2",
+  "q": "Write True or False. aThe parents agreed at once.bThe mother allowed him to swim alone.cThe boy read the letter before the train started.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "BLE|C8|english#Traditional Wedding Customs around the World / Life#0",
+  "q": "Describe how Dashain or Tihar is celebrated in your home.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|english#The Leap between High School and College /#0",
+  "q": "Write a paragraph comparing village life and city life.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "BLE|C8|english#Sir Isaac Newton / Khaptad National Park#0",
+  "q": "Write a short biography of Laxmi Prasad Devkota from these notes: born 1966 BS (1909 AD), Kathmandu; poet, essayist, playwright; Muna Madan, Shakuntala, Sulochana; \"Mahakavi\" (great poet); died 2016 B",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|english#Nepal's Bird Man / Poem: My Teacher Ate#0",
+  "q": "Write an essay on \"My Favourite Hobby\" in about 150 words.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|english#Conservation of Earth / An Official Notice#1",
+  "q": "Write an opinion essay: \"Should mobile phones be allowed in school?\"",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|english#An Anecdote: Why I Became a Vegan /#0",
+  "q": "Write two paragraphs on \"The Unification of Nepal\" or any historical event you have studied.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Statistics#8",
+  "q": "A survey of 180 families found 45 with no bicycle, 90 with one, 36 with two and 9 with three. Draw a pie chart, and find the mean number of bicycles per family.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Sets#3",
+  "q": "Find the number of proper subsets of a set with 5 members.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Whole Numbers#3",
+  "q": "Convert $(100)_{10}$ into binary and into base 5.",
+  "p_yes": 0.009
+ },
+ {
+  "id": "BLE|C8|mathematics#Unitary Method#6",
+  "q": "A train travels 240 km in 3 hours. Find its speed in km/h and in m/s.",
+  "p_yes": 0.011
+ },
+ {
+  "id": "BLE|C8|mathematics#Algebraic Fraction#4",
+  "q": "Simplify $\\frac{3}{x-2}-\\frac{2}{x+1}$, giving the answer as a single fraction, and check with $x=3$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Equation and Graph#3",
+  "q": "Solve $3x+2y=16$ and $2x-y=6$ by the elimination method, and check both equations.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Congruency and Similarity#7",
+  "q": "Two similar triangles have corresponding sides 8 cm and 12 cm. Find the scale factor and the ratio of their areas.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Congruency and Similarity#9",
+  "q": "In a quadrilateral $ABCD$, the diagonal $AC$ bisects both $\\angle A$ and $\\angle C$. Prove that $\\triangle ABC\\cong\\triangle ADC$ and hence that $AB=AD$ and $CB=CD$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Solid Objects#9",
+  "q": "How much sheet metal is needed for a closed cube of side 25 cm, and what is its volume?",
+  "p_yes": 0.018
+ },
+ {
+  "id": "BLE|C8|mathematics#Bearing and Scale Drawing#5",
+  "q": "Write the bearings of south-east and of 25° west of north.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|mathematics#Bearing and Scale Drawing#6",
+  "q": "A walker goes 6 km north and then 8 km east. Find his distance and bearing from the start.",
+  "p_yes": 0.037
+ },
+ {
+  "id": "BLE|C8|mathematics#Bearing and Scale Drawing#8",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Relation and Function#5",
+  "q": "If $P=\\{a,b,c\\}$ and $Q=\\{0,1\\}$, find $Q\\times P$ and $n(P\\times Q)$.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Polynomials#15",
+  "q": "Let $P(x)=3x^2+2x-5$ and $Q(x)=x^2-4x+7$. Find $P+Q$, $P-Q$ and $2P-3Q$, and state the degree and the number of terms of each result.",
+  "p_yes": 0.014
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Sequence and Series#28",
+  "q": "The first row of a hall has 20 seats and each row has 3 more seats than the row in front. (i) Write the sequence and its general term. (ii) How many seats are in the 12th row? (iii) Which row has 62 s",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Matrix#6",
+  "q": "If $A=[(3,-2),(1,4)]$, find $3A-2I$, where $I$ is the unit matrix of order 2.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Coordinate Geometry#9",
+  "q": "Find the points that divide the join of $A(-3,-1)$ and $B(9,7)$ into four equal parts.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Coordinate Geometry#22",
+  "q": "Find the points of trisection of the segment joining $A(1,2)$ and $B(7,11)$, and the mid-point of $AB$.",
+  "p_yes": 0.047
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Trigonometry#8",
+  "q": "Find the value of $\\sin^245^\\circ+\\cos^230^\\circ-\\tan^260^\\circ$.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Vector#26",
+  "q": "If $\\vec{a}=\\binom{3}{1}$, $\\vec{b}=\\binom{1}{2}$ and $\\vec{c}=\\binom{-2}{4}$: (i) verify that $\\vec{a}+\\vec{b}=\\vec{b}+\\vec{a}$; (ii) verify that $(\\vec{a}+\\vec{b})+\\vec{c}=\\vec{a}+(\\vec{b}+\\vec{c})$",
+  "p_yes": 0.014
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Transformation#0",
+  "q": "Find the images of $P(-2,5)$ after reflection in the $x$-axis and after reflection in the $y$-axis.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Transformation#1",
+  "q": "Find the images of $(5,-3)$ under rotation about the origin through $+90^\\circ$ and through $180^\\circ$.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Transformation#3",
+  "q": "For the point $(4,7)$, show that rotation through $180^\\circ$ about $O$ gives the same image as reflection in the $x$-axis followed by reflection in the $y$-axis.",
+  "p_yes": 0.023
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Transformation#14",
+  "q": "Find the image of $(-2,-5)$ under rotation through $180^\\circ$ about the origin, and show that the same image comes from reflection in the $x$-axis followed by reflection in the $y$-axis.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Statistics#7",
+  "q": "Find the first quartile, the median and the third quartile of 12, 15, 9, 20, 18, 25, 30, 14, 22, 27.",
+  "p_yes": 0.003
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Statistics#20",
+  "q": "For the distribution $x$: 5, 10, 15, 20, 25, 30 with frequencies $f$: 2, 5, 8, 10, 4, 1, find the median, the quartiles $Q_1$ and $Q_3$, the mode and the mean.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|optional-mathematics#Statistics#22",
+  "q": "The maximum temperatures (°C) on seven days were: Kathmandu 24, 26, 25, 27, 23, 25, 26; Jumla 15, 22, 18, 12, 20, 16, 19. (i) Find the range and the coefficient of range for each place. (ii) Find the ",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#Information and Communication Technology#16",
+  "q": "Write the main features of an ISP.",
+  "p_yes": 0.029
+ },
+ {
+  "id": "BLE|C8|science#Living Beings and Their Structure#20",
+  "q": "Differentiate between bacteria and virus.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#Biodiversity and Environment#18",
+  "q": "Differentiate:",
+  "p_yes": 0.029
+ },
+ {
+  "id": "BLE|C8|science#Force and Motion#14",
+  "q": "Differentiate:",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#Energy in Daily Life#14",
+  "q": "Differentiate:",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#Energy in Daily Life#17",
+  "q": "What is radiation? Write two applications. What is an electromagnetic wave? Give three examples.",
+  "p_yes": 0.002
+ },
+ {
+  "id": "BLE|C8|science#Energy in Daily Life#19",
+  "q": "Differentiate:",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|science#Energy in Daily Life#21",
+  "q": "Differentiate:",
+  "p_yes": 0.002
+ },
+ {
+  "id": "BLE|C8|science#Electricity and Magnetism#18",
+  "q": "A municipality runs 14 street lights of 1500 W each for 6.5 h daily. Find the monthly (30-day) bill at Rs 12.50 per unit.",
+  "p_yes": 0.018
+ },
+ {
+  "id": "BLE|C8|science#Electricity and Magnetism#20",
+  "q": "Write the steps of wiring a three-pin plug.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#Matter#26",
+  "q": "Write the electronic configuration and valency of the elements from hydrogen to calcium.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#Materials Used in Daily Life#16",
+  "q": "Show in a table the action of acids, bases and salts on litmus, methyl orange and phenolphthalein.",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#Materials Used in Daily Life#21",
+  "q": "What is a salt? Explain neutral, acidic and basic salts with examples, and write the displacement reaction of iron with copper sulphate.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|science#The Earth and Universe#13",
+  "q": "Differentiate:",
+  "p_yes": 0.018
+ },
+ {
+  "id": "BLE|C8|science#The Earth and Universe#15",
+  "q": "What is a mineral? Give examples. Draw a flowchart of the types of minerals.",
+  "p_yes": 0.001
+ },
+ {
+  "id": "BLE|C8|science#The Earth and Universe#19",
+  "q": "Differentiate:",
+  "p_yes": 0.0
+ },
+ {
+  "id": "BLE|C8|science#The Earth and Universe#21",
+  "q": "Explain \"meteor shower\" and \"observable universe\".",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|engineering-geology-i#Paper 2081 Baishakh CE 102#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-i#Paper 2081 Baishakh CE 102#2",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|engineering-geology-i#Paper 2081 Kartik CE 102#1",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|engineering-geology-i#Paper 2081 Kartik CE 102#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-i#Paper 2081 Kartik CE 102#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-i#Paper 2081 Chaitra ENCE 102#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-i#Paper 2081 Chaitra ENCE 102#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Baishakh CE 103#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Baishakh CE 103#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Baishakh CE 103#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Kartik CE 103#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Kartik CE 103#2",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Kartik CE 103#4",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Kartik CE 103#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Kartik CE 103#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Chaitra ENCE 103#0",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "IOE|BE|civil-engineering-materials#Paper 2081 Chaitra ENCE 103#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Ashwin CE 151#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCE 151#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Chaitra ENCE 201#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Chaitra ENCE 201#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 201#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENCE 201#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENCE 201#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 202#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 202#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENCE 251#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENCE 251#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENCE 251#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCE 253#0",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCE 253#2",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCE 253#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCE 253#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENCE 253#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENCE 253#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 301#1",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 301#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 301#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 301#5",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 303#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 305#4",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 305#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 305#8",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 305#9",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 306#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 306#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 306#2",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 306#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENCE 306#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Chaitra ENCT202#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCT 252#0",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCT 253#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENCT 253#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENCT254#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENCT254#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Chaitra ENEE 203#0",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Chaitra ENEE 203#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Chaitra ENEE 203#3",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENEE 203#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENEE 203#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENEE 203#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENEE 203#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2081 Chaitra ENEE 205#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENEE 205#1",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Kartik ENEE 205#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENEE 251#0",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENEE 251#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 301#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 301#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 301#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 301#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 301#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 306#1",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 306#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEE 306#3",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Bhadra ENEX 251#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2083 Baishakh ENEX 251#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 301#0",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 301#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 301#3",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 301#4",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 303#0",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 303#1",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 303#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 303#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 303#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 303#6",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 303#7",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 304#0",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 304#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 304#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 304#5",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 304#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENEX 304#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENME 310#1",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENME 310#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENME 310#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|general#Paper 2082 Chaitra ENME 310#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2081 Ashwin CE 152#0",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2081 Ashwin CE 152#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2081 Ashwin CE 152#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2082 Bhadra ENCE 152#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2082 Bhadra ENCE 152#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2082 Bhadra ENCE 152#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2082 Bhadra ENCE 152#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2083 Baishakh ENCE 152#1",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2083 Baishakh ENCE 152#2",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2083 Baishakh ENCE 152#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2083 Baishakh ENCE 152#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-geology-ii#Paper 2083 Baishakh ENCE 152#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2081 Ashwin CE 153#0",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2082 Baishakh CE 153#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2082 Baishakh CE 153#1",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2082 Baishakh CE 153#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2082 Bhadra ENCE 153#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2082 Bhadra ENCE 153#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2083 Baishakh ENCE 153#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2083 Baishakh ENCE 153#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2083 Baishakh ENCE 153#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2083 Baishakh ENCE 153#5",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2083 Baishakh ENCE 153#6",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-survey-i#Paper 2083 Baishakh ENCE 153#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|object-oriented-programming#Paper 2082 Baishakh CT 151#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|object-oriented-programming#Paper 2082 Bhadra ENCT 151#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|object-oriented-programming#Paper 2082 Bhadra ENCT 151#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|object-oriented-programming#Paper 2083 Baishakh ENCT 151#0",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|object-oriented-programming#Paper 2083 Baishakh ENCT 151#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|advanced-computer-programmin#Paper 2082 Baishakh CT 153#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|advanced-computer-programmin#Paper 2082 Baishakh CT 153#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|advanced-computer-programmin#Paper 2082 Bhadra ENCT 153#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-programming#Paper 2081 Bhadra CT 401#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|basic-electrical-and-electro#Paper 2081 Baishakh EE 103#2",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|basic-electrical-and-electro#Paper 2081 Baishakh EE 103#3",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|basic-electrical-and-electro#Paper 2081 Kartik EE 103#1",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|basic-electrical-and-electro#Paper 2081 Kartik EE 103#3",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|basic-electrical-and-electro#Paper 2081 Kartik EE 103#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|basic-electrical-and-electro#Paper 2081 Kartik EE 103#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2077 Chaitra EE 460#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2077 Chaitra EE 460#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2077 Chaitra EE 460#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2077 Chaitra EE 460#3",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2077 Chaitra EE 460#4",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2078 Chaitra EE 460#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2078 Chaitra EE 460#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2079 Chaitra EE 460#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2080 Chaitra EE 460#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electric-circuits-and-machin#Paper 2081 Chaitra EE 460#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2081 Chaitra ENCE 203#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2081 Chaitra ENCE 203#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2081 Chaitra ENCE 203#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2081 Chaitra ENCE 203#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2081 Chaitra ENCE 203#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Chaitra ENCE 203#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Chaitra ENCE 203#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Chaitra ENCE 203#2",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Chaitra ENCE 203#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Chaitra ENCE 203#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Chaitra ENCE 203#6",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Kartik ENCE 203#0",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Kartik ENCE 203#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Kartik ENCE 203#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Kartik ENCE 203#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Kartik ENCE 203#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Kartik ENCE 203#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-survey-ii#Paper 2082 Kartik ENCE 203#8",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|computer-aided-civil-drawing#Paper 2081 Chaitra ENCE 204#5",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|computer-aided-civil-drawing#Paper 2081 Chaitra ENCE 204#6",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|computer-aided-civil-drawing#Paper 2082 Chaitra ENCE 204#6",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|computer-aided-civil-drawing#Paper 2082 Chaitra ENCE 204#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-aided-civil-drawing#Paper 2082 Kartik ENCE 204#4",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2081 Chaitra ENCE 205#0",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2081 Chaitra ENCE 205#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2081 Chaitra ENCE 205#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2081 Chaitra ENCE 205#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2082 Chaitra ENCE 205#2",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2082 Chaitra ENCE 205#4",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2082 Kartik ENCE 205#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2082 Kartik ENCE 205#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2082 Kartik ENCE 205#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|concrete-technology#Paper 2082 Kartik ENCE 205#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|water-supply-engineering#Paper 2083 Baishakh ENCE 254#6",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|water-supply-engineering#Paper 2083 Baishakh ENCE 254#11",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|water-supply-engineering#Paper 2083 Baishakh ENCE 254#12",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2082 Bhadra ENCE 255#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2082 Bhadra ENCE 255#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2082 Bhadra ENCE 255#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2083 Baishakh ENCE 255#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2083 Baishakh ENCE 255#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2083 Baishakh ENCE 255#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2083 Baishakh ENCE 255#3",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2083 Baishakh ENCE 255#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|building-technology#Paper 2083 Baishakh ENCE 255#5",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2081 Chaitra ENCT201#0",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2081 Chaitra ENCT201#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2081 Chaitra ENCT201#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2081 Chaitra ENCT201#5",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2082 Kartik ENCT201#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2082 Kartik ENCT201#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2082 Kartik ENCT201#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-graphics-and-visual#Paper 2082 Kartik ENCT201#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|theory-of-computation#Paper 2081 Chaitra ENCT203#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|theory-of-computation#Paper 2081 Chaitra ENCT203#3",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|theory-of-computation#Paper 2082 Chaitra ENCT203#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|theory-of-computation#Paper 2082 Chaitra ENCT203#8",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|theory-of-computation#Paper 2082 Kartik ENCT203#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|theory-of-computation#Paper 2082 Kartik ENCT203#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|discrete-structure#Paper 2082 Bhadra ENCT 251#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|discrete-structure#Paper 2083 Baishakh ENCT 251#7",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|instrumentation-and-measurem#Paper 2081 Chaitra ENEE 201#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation-and-measurem#Paper 2081 Chaitra ENEE 201#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation-and-measurem#Paper 2082 Kartik ENEE 201#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation-and-measurem#Paper 2082 Kartik ENEE 201#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation-and-measurem#Paper 2082 Kartik ENEE 201#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation-and-measurem#Paper 2082 Kartik ENEE 201#7",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|electrical-machine-i#Paper 2081 Chaitra ENEE 202#1",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|electrical-machine-i#Paper 2081 Chaitra ENEE 202#3",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|electrical-machine-i#Paper 2081 Chaitra ENEE 202#5",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|electrical-machine-i#Paper 2081 Chaitra ENEE 202#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electrical-machine-i#Paper 2081 Chaitra ENEE 202#7",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|electrical-machine-i#Paper 2082 Kartik ENEE 202#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2083 Baishakh ENEE 252#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2083 Baishakh ENEE 252#4",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2083 Baishakh ENEE 252#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2083 Baishakh ENEE 252#6",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2083 Baishakh ENEE 252#7",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2082 Bhadra ENEX 252#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2082 Bhadra ENEX 252#2",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2082 Bhadra ENEX 252#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2082 Bhadra ENEX 252#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2082 Bhadra ENEX 252#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|instrumentation#Paper 2082 Bhadra ENEX 252#8",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2082 Bhadra ENEE 253#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2082 Bhadra ENEE 253#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2083 Baishakh ENEE 253#0",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2083 Baishakh ENEE 253#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2083 Baishakh ENEE 253#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2083 Baishakh ENEE 253#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2083 Baishakh ENEE 253#6",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2083 Baishakh ENEE 253#7",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|electrical-machine-ii#Paper 2083 Baishakh ENEE 253#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|fundamental-of-electrical-an#Paper 2081 Chaitra ENEX 101#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|fundamental-of-electrical-an#Paper 2081 Chaitra ENEX 101#6",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|fundamental-of-electrical-an#Paper 2081 Baishakh EX 101#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|fundamental-of-electrical-an#Paper 2081 Baishakh EX 101#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|fundamental-of-electrical-an#Paper 2081 Baishakh EX 101#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2082 Bhadra ENEX 151#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2082 Bhadra ENEX 151#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2083 Baishakh ENEX 151#0",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2083 Baishakh ENEX 151#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2083 Baishakh ENEX 151#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2083 Baishakh ENEX 151#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2081 Ashwin EX 151#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2082 Baishakh EX 151#1",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2082 Baishakh EX 151#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronic-device-and-circui#Paper 2082 Baishakh EX 151#6",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2082 Bhadra ENEX 152#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2083 Baishakh ENEX 152#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2083 Baishakh ENEX 152#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2083 Baishakh ENEX 152#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2083 Baishakh ENEX 152#5",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2081 Ashwin EX 152#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2081 Ashwin EX 152#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2082 Baishakh EX 152#0",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2082 Baishakh EX 152#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|digital-logic#Paper 2082 Baishakh EX 152#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|microprocessor#Paper 2081 Chaitra ENEX201#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|microprocessor#Paper 2082 Chaitra ENEX201#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|microprocessor#Paper 2082 Chaitra ENEX201#1",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|microprocessor#Paper 2082 Chaitra ENEX201#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|microprocessor#Paper 2082 Chaitra ENEX201#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|microprocessor#Paper 2082 Chaitra ENEX201#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|microprocessor#Paper 2082 Kartik ENEX201#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2081 Chaitra ENEX 203#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2081 Chaitra ENEX 203#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2081 Chaitra ENEX 203#5",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2081 Chaitra ENEX 203#6",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2082 Kartik ENEX 203#0",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2082 Kartik ENEX 203#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2082 Kartik ENEX 203#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2082 Kartik ENEX 203#6",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|logic-circuit#Paper 2082 Kartik ENEX 203#7",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|computer-organization-and-ar#Paper 2082 Bhadra ENEX 253#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-organization-and-ar#Paper 2082 Bhadra ENEX 253#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-organization-and-ar#Paper 2082 Bhadra ENEX 253#2",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "IOE|BE|computer-organization-and-ar#Paper 2082 Bhadra ENEX 253#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-organization-and-ar#Paper 2083 Baishakh ENEX 253#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-organization-and-ar#Paper 2083 Baishakh ENEX 253#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|computer-organization-and-ar#Paper 2083 Baishakh ENEX 253#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2082 Bhadra ENEX 254#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2082 Bhadra ENEX 254#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2082 Bhadra ENEX 254#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2082 Bhadra ENEX 254#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2082 Bhadra ENEX 254#9",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2082 Bhadra ENEX 254#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2083 Baishakh ENEX 254#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2083 Baishakh ENEX 254#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electromagnetics#Paper 2083 Baishakh ENEX 254#9",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|signals-and-systems#Paper 2082 Bhadra ENEX 255#0",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|signals-and-systems#Paper 2082 Bhadra ENEX 255#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|signals-and-systems#Paper 2083 Baishakh ENEX 255#1",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|signals-and-systems#Paper 2083 Baishakh ENEX 255#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|signals-and-systems#Paper 2083 Baishakh ENEX 255#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Chaitra ENSH 101#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Baishakh SH 101#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Baishakh SH 101#7",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Baishakh SH 101#8",
+  "q": "",
+  "p_yes": 0.018
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Kartik SH 101#3",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Kartik SH 101#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2078 Bhadra SH 401#0",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2078 Bhadra SH 401#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2078 Bhadra SH 401#3",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2078 Bhadra SH 401#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2078 Kartik SH 401#8",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2079 Baishakh SH 401#1",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2079 Baishakh SH 401#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2079 Baishakh SH 401#6",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2079 Bhadra SH 401#8",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#0",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#7",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2080 Bhadra SH 401#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Baishakh SH 401#13",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Bhadra SH 401#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Bhadra SH 401#3",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Bhadra SH 401#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Bhadra SH 401#7",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2081 Bhadra SH 401#13",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2082 Baishakh SH 401#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2082 Baishakh SH 401#2",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2082 Baishakh SH 401#3",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2082 Baishakh SH 401#7",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2082 Baishakh SH 401#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-i#Paper 2082 Shrawan SH 401#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Chaitra ENSH 102#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Chaitra ENSH 102#4",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Chaitra ENSH 102#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Bhadra ENSH 152#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Bhadra ENSH 152#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Bhadra ENSH 152#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2083 Baishakh ENSH 152#0",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2083 Baishakh ENSH 152#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2083 Baishakh ENSH 152#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Baishakh SH 102#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Ashwin SH 152#1",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Ashwin SH 152#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Ashwin SH 152#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Baishakh SH 152#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Baishakh SH 152#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Baishakh SH 152#4",
+  "q": "",
+  "p_yes": 0.014
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Baishakh SH 152#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2081 Bhadra SH 402#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Baishakh SH 402#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Baishakh SH 402#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Shrawan SH 402#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-physics#Paper 2082 Shrawan SH 402#2",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Chaitra ENSH 103#0",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Chaitra ENSH 103#1",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Chaitra ENSH 103#2",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Chaitra ENSH 103#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Chaitra ENSH 103#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Bhadra ENSH 153#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Bhadra ENSH 153#2",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Bhadra ENSH 153#3",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Bhadra ENSH 153#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Bhadra ENSH 153#5",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Bhadra ENSH 153#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2083 Baishakh ENSH 153#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2083 Baishakh ENSH 153#1",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2083 Baishakh ENSH 153#2",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2083 Baishakh ENSH 153#3",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2083 Baishakh ENSH 153#4",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 103#0",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 103#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 103#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Kartik SH 103#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Kartik SH 103#1",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Kartik SH 103#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Kartik SH 103#4",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Ashwin SH 153#1",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Ashwin SH 153#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Ashwin SH 153#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Baishakh SH 153#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Baishakh SH 153#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 403#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 403#6",
+  "q": "",
+  "p_yes": 0.029
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 403#7",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 403#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Baishakh SH 403#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#5",
+  "q": "",
+  "p_yes": 0.007
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#6",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#9",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2081 Bhadra SH 403#12",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Baishakh SH 403#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Baishakh SH 403#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Baishakh SH 403#3",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Baishakh SH 403#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Baishakh SH 403#11",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Shrawan SH 403#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Shrawan SH 403#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-chemistry#Paper 2082 Shrawan SH 403#8",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2082 Bhadra ENSH 151#2",
+  "q": "",
+  "p_yes": 0.037
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2082 Bhadra ENSH 151#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2082 Bhadra ENSH 151#8",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2082 Bhadra ENSH 151#10",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2083 Baishakh ENSH 151#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2083 Baishakh ENSH 151#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2081 Ashwin SH 151#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2081 Ashwin SH 151#9",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2078 Chaitra SH 451#0",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2079 Chaitra SH 451#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2079 Chaitra SH 451#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2079 Chaitra SH 451#6",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2080 Ashwin SH 451#0",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2080 Ashwin SH 451#8",
+  "q": "",
+  "p_yes": 0.004
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2080 Ashwin SH 451#10",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2081 Chaitra SH 451#7",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-ii#Paper 2081 Chaitra SH 451#12",
+  "q": "",
+  "p_yes": 0.023
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-iii#Paper 2082 Chaitra ENSH 201#11",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-iii#Paper 2082 Kartik ENSH 201#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-iii#Paper 2082 Kartik ENSH 201#10",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-iii#Paper 2081 Bhadra SH 501#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|engineering-mathematics-iii#Paper 2081 Bhadra SH 501#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2081 Chaitra ENSH 202#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2081 Chaitra ENSH 202#4",
+  "q": "",
+  "p_yes": 0.005
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2081 Chaitra ENSH 202#7",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2082 Chaitra ENSH 202#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2082 Chaitra ENSH 202#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2082 Kartik ENSH 202#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2082 Kartik ENSH 202#3",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2082 Kartik ENSH 202#9",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2082 Bhadra ENSH 252#5",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2082 Bhadra ENSH 252#7",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2083 Baishakh ENSH 252#0",
+  "q": "",
+  "p_yes": 0.003
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2083 Baishakh ENSH 252#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2083 Baishakh ENSH 252#6",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "IOE|BE|numerical-methods#Paper 2083 Baishakh ENSH 252#8",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|probability-and-statistics#Paper 2082 Bhadra ENSH 253#1",
+  "q": "",
+  "p_yes": 0.047
+ },
+ {
+  "id": "IOE|BE|probability-and-statistics#Paper 2082 Bhadra ENSH 253#2",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|probability-and-statistics#Paper 2082 Bhadra ENSH 253#4",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "IOE|BE|probability-and-statistics#Paper 2083 Baishakh ENSH 253#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|probability-and-statistics#Paper 2083 Baishakh ENSH 253#4",
+  "q": "",
+  "p_yes": 0.001
+ },
+ {
+  "id": "IOE|BE|probability-and-statistics#Paper 2082 Chaitra ENSH 304#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|probability-and-statistics#Paper 2082 Chaitra ENSH 304#6",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronics-circuit#Paper 2081 Ashwin EX 154#3",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronics-circuit#Paper 2082 Baishakh EX 154#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "IOE|BE|electronics-circuit#Paper 2082 Baishakh EX 154#2",
+  "q": "",
+  "p_yes": 0.009
+ },
+ {
+  "id": "IOE|BE|electronics-circuit#Paper 2082 Baishakh EX 154#4",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|compulsory-english#Paper 2079 Regular 0041 'E'#1",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|compulsory-english#Paper 2079 Regular 0041 'E'#3",
+  "q": "",
+  "p_yes": 0.002
+ },
+ {
+  "id": "NEB|C12|compulsory-english#Paper 2080 Old Course 004#2",
+  "q": "",
+  "p_yes": 0.011
+ },
+ {
+  "id": "NEB|C12|compulsory-english#Paper 2080 Regular 0041 'D'#0",
+  "q": "",
+  "p_yes": 0.0
+ },
+ {
+  "id": "NEB|C12|compulsory-english#Paper 2082 Code 0041 'C'#0",
+  "q": "",
+  "p_yes": 0.0
+ }
+]

@@ -13,6 +13,7 @@ for l in open(f"{J}/judge_stage1.jsonl"):
 s2 = {}
 for l in open(f"{J}/judge_stage2.jsonl"):
     d = json.loads(l); s2[d["id"]] = d
+DROP = os.environ.get("DROP") == "1"  # default OFF: the 32B judge is wrong on ~all sampled disagreements (see PAPERLM_STATUS.md)
 rep = collections.Counter(); flag_m = []; flag_w = []
 for sk, units in bank["seeds"].items():
     for un, lst in units.items():
@@ -26,11 +27,14 @@ for sk, units in bank["seeds"].items():
                 if d["agree"] and d["p_key"] >= 0.5: it["j"] = 1; rep["mcq_confirmed_blind"] += 1
                 elif c and c["agree"]: it["j"] = 1; rep["mcq_confirmed_cot"] += 1
                 elif c and c["cot_pred"] and not c["agree"]:
-                    flag_m.append(dict(id=id_, q=it["q"], o=it["o"], key=it["k"], blind=d["pred"], p_key=round(d["p_key"], 3), cot=c["cot_pred"], tail=c["tail"][-160:])); rep["mcq_dropped"] += 1; continue
+                    flag_m.append(dict(id=id_, q=it["q"], o=it["o"], key=it["k"], blind=d["pred"], p_key=round(d["p_key"], 3), cot=c["cot_pred"], tail=c["tail"][-160:])); rep["mcq_flagged_for_review"] += 1
+                    if DROP: continue
                 else: rep["mcq_unconfirmed_kept"] += 1
             else:
                 rep["written_judged"] += 1
-                if d["p_yes"] < float(os.environ.get("W_DROP", 0.05)): flag_w.append(dict(id=id_, q=it["q"][:200], p_yes=round(d["p_yes"], 3))); rep["written_dropped"] += 1; continue
+                if d["p_yes"] < float(os.environ.get("W_DROP", 0.05)):
+                    flag_w.append(dict(id=id_, q=it["q"][:200], p_yes=round(d["p_yes"], 3))); rep["written_flagged_for_review"] += 1
+                    if DROP: continue
                 if d["p_yes"] >= 0.8: it["j"] = 1; rep["written_confirmed"] += 1
                 else: rep["written_unconfirmed_kept"] += 1
             keep.append(it)
