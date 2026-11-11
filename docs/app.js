@@ -122,7 +122,7 @@ async function composedPaper(c, bp, o, onItem) {
       if (S.abort.signal.aborted) throw new Error("aborted"); const unit = units[k++ % units.length]; const t = typ === "SHORT" ? ["CONCEPTUAL", "NUMERICAL", "DERIVATION", "SHORT"][n % 4] : typ; let it;
       try { it = await S.comp.item({ board: b, level: l, subject: c.subject, unit, marks, type: t, rubric: o.rubric, temperature: o.temperature, lmBudget: o.lm, signal: S.abort.signal }); }
       catch (e) { if (e.message === "aborted") throw e; if (++fails > 8 * count + 12) throw e; continue; }
-      const key = (it.question + (it.options || []).join("")).replace(/\s+/g, "").slice(0, 90); if (seen.has(key)) continue; seen.add(key); it.no = ++n; onItem(g, it);
+      const key = (it.question + (it.options || []).join("")).replace(/\s+/g, "").slice(0, 90); if (seen.has(key)) { if (++fails > 8 * count + 12) throw new Error("not enough distinct verified items for this subject"); continue; } seen.add(key); it.no = ++n; onItem(g, it);
     }
   }
 }

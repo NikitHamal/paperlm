@@ -9,14 +9,15 @@ export class Composer {
   get rand() { return this.e.rand; }
   facts(key, unit) { const f = this.bank.facts[key] || {}; let l = f[unit] || []; if (!l.length) { const lu = Object.keys(f).find((u) => u.toLowerCase().includes(unit.toLowerCase()) || unit.toLowerCase().includes(u.toLowerCase())); if (lu) l = f[lu]; } return l; }
   seeds(key, unit, marks, mcq) {
-    // tiers: same unit -> fuzzy unit -> any unit of the subject -> nearest written class -> same subject on other boards. Never invents content.
-    const want = mcq ? "mcq" : `w${marks}`, pick = (arr) => arr.filter((x) => x.c === want); const s = this.bank.seeds[key] || {}; let l = pick(s[unit] || []), u = unit;
-    const fz = (o) => Object.keys(o).find((k) => k.toLowerCase().includes(unit.toLowerCase()) || unit.toLowerCase().includes(k.toLowerCase()));
-    if (!l.length) { const lu = fz(s); if (lu) { u = lu; l = pick(s[lu]); } }
-    if (!l.length) { const all = Object.entries(s).flatMap(([k, v]) => pick(v).map((x) => [k, x])); if (all.length) { const [k, x] = all[Math.floor(this.rand() * all.length)]; return [k, [x]]; } }
-    if (!l.length && !mcq) { const w = Object.entries(s).flatMap(([k, v]) => v.filter((x) => x.c !== "mcq").map((x) => [k, x])); if (w.length) { const near = Math.min(...w.map(([, x]) => Math.abs(x.m - marks))); const c = w.filter(([, x]) => Math.abs(x.m - marks) === near); const [k, x] = c[Math.floor(this.rand() * c.length)]; return [k, [x]]; } }
-    if (!l.length) { const subj = key.split("|")[2]; const c = Object.entries(this.bank.seeds).filter(([k]) => (k.split("|")[2] === subj || k.split("|")[2].includes(subj) || subj.includes(k.split("|")[2])) && k !== key).flatMap(([, v]) => Object.entries(v).flatMap(([k2, arr]) => (mcq ? pick(arr) : arr.filter((x) => x.c !== "mcq" && Math.abs(x.m - marks) <= 2)).map((x) => [k2, x]))); if (c.length) { const [k, x] = c[Math.floor(this.rand() * c.length)]; return [k, [x]]; } }
-    return [u, l];
+    // tiers: same unit -> fuzzy unit (exact=true) -> any unit of the subject -> nearest written class -> same subject on other boards (exact=false). Never invents content.
+    const want = mcq ? "mcq" : `w${marks}`, ok = (x) => mcq || (x.r && x.r.length > 15 && x.q && x.q.length > 8), pick = (arr) => arr.filter((x) => x.c === want && ok(x)); const s = this.bank.seeds[key] || {}; let l = pick(s[unit] || []), u = unit;
+    if (l.length) return [u, l, true];
+    const lu = Object.keys(s).find((k) => pick(s[k]).length && (k.toLowerCase().includes(unit.toLowerCase()) || unit.toLowerCase().includes(k.toLowerCase()))); if (lu) return [lu, pick(s[lu]), true];
+    const all = Object.entries(s).flatMap(([k, v]) => pick(v).map((x) => [k, x])); if (all.length) { const [k, x] = all[Math.floor(this.rand() * all.length)]; return [k, [x], false]; }
+    if (!mcq) { const w = Object.entries(s).flatMap(([k, v]) => v.filter((x) => x.c !== "mcq" && ok(x)).map((x) => [k, x])); if (w.length) { const near = Math.min(...w.map(([, x]) => Math.abs(x.m - marks))); const c = w.filter(([, x]) => Math.abs(x.m - marks) === near); const [k, x] = c[Math.floor(this.rand() * c.length)]; return [k, [x], false]; } }
+    const subj = key.split("|")[2]; const c = Object.entries(this.bank.seeds).filter(([k]) => (k.split("|")[2] === subj || k.split("|")[2].includes(subj) || subj.includes(k.split("|")[2])) && k !== key).flatMap(([, v]) => Object.entries(v).flatMap(([k2, arr]) => (mcq ? pick(arr) : arr.filter((x) => x.c !== "mcq" && ok(x) && Math.abs(x.m - marks) <= 2)).map((x) => [k2, x])));
+    if (c.length) { const [k, x] = c[Math.floor(this.rand() * c.length)]; return [k, [x], false]; }
+    return [u, [], false];
   }
   fromSeed(s, unit, board, level, subject, typ) {
     const base = { board, level, subject, unit, marks: s.m, type: typ === "MCQ" ? "MCQ" : s.t || typ, source: "bank", verified: true, provenance: { tier: "bank" } };
@@ -53,7 +54,9 @@ export class Composer {
           }
         }
       } else if (tier === "bank") {
-        const [u, l] = this.seeds(key, unit, marks, mcq); if (l.length) { this.stats.bank++; return this.fromSeed(l[Math.floor(this.rand() * l.length)], u, board, level, subject, type); }
+        const [u, l, exact] = this.seeds(key, unit, marks, mcq);
+        if (l.length && !exact && canp) { const it = this.pm.makeItem(subject, level, unit, marks, mcq ? "MCQ" : type, this.rand); if (it && it.unit_matched) { this.stats.param++; return Object.assign(it, { board, level, subject, unit, marks, type, provenance: { tier: "param", law: it.concept } }); } }
+        if (l.length) { this.stats.bank++; return this.fromSeed(l[Math.floor(this.rand() * l.length)], u, board, level, subject, type); }
       }
     }
     throw new Error(`no verified item for ${key}/${unit}/${marks}/${type}`);

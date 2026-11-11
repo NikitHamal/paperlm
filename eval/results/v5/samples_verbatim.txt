@@ -1,0 +1,61 @@
+
+[param] NEB/C12/physics | Current electricity | MCQ 1m
+Q: A straight wire of length $20\ \text{cm}$ carrying a current of $6\ \text{A}$ is placed perpendicular to a magnetic field of $80\ \text{mT}$. Find the force on the wire.
+  a) $0.0096\ \text{N}$
+  b) $0.096\ \text{N}$
+  c) $0.96\ \text{N}$
+  d) $9.6\ \text{N}$
+  KEY: b | The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 80\times10^{-3}\times6\times20\times10^{-2}$ $F = 0.096\ \text{N}$
+
+[param] NEB/C12/chemistry | Chemical equilibrium | NUMERICAL 4m
+Q: Answer the following:
+  (a) State the Gibbs energy equation. [1]
+  (b) For a reaction $\Delta H = 100\ \text{kJ}$ and $\Delta S = -100\ \text{J K}^{-1}$ at $298\ \text{K}$. Calculate $\Delta G$. [3]
+  RUBRIC: (a) The Gibbs energy change is $\Delta G = \Delta H - T\Delta S$ (convert $\Delta S$ to kJ). (b) $\Delta G = \Delta H - T\Delta S = 100 - 298\times\dfrac{-100}{1000}$ $\Delta G = 130\ \text{kJ}$ Answer: $130\ \text{kJ}$.
+
+[param] NEB/C12/mathematics | Quadratic equations | MCQ 1m
+Q: Find the sum of the roots of $3x^2 + 5x + 3 = 0$.
+  a) $-1.25$
+  b) $-3.33$
+  c) $-1.67$
+  d) $-0.833$
+  KEY: c | For $ax^2+bx+c=0$ the sum of the roots is $\alpha+\beta = -\dfrac{b}{a}$. $\alpha+\beta = -\dfrac{b}{a} = -\dfrac{5}{3}$ $\alpha+\beta = -1.67$
+
+[param] IOE/BE/electrical-machine-i | Induction motors | MCQ 1m
+Q: A coil of $50$ turns experiences a change of flux of $0.02\ \text{Wb}$ in $0.5\ \text{s}$. Find the magnitude of the induced emf.
+  a) $4\ \text{V}$
+  b) $0.5\ \text{V}$
+  c) $0.04\ \text{V}$
+  d) $2\ \text{V}$
+  KEY: d | Faraday's law gives $|\varepsilon| = N\dfrac{\Delta\Phi}{\Delta t}$. $\varepsilon = N\dfrac{\Delta\Phi}{\Delta t} = 50\times\dfrac{0.02}{0.5}$ $\varepsilon = 2\ \text{V}$
+
+[param] CTEVT/BSN/fundamentals-of-nursing | Drug dosage calculation | MCQ 1m
+Q: A child weighing $28\ \text{kg}$ is prescribed $35\ \text{mg kg}^{-1}$ per day in $4$ equally divided doses. Find the dose per administration.
+  a) $3920\ \text{mg}$
+  b) $245\ \text{mg}$
+  c) $980\ \text{mg}$
+  d) $7\ \text{mg}$
+  KEY: b | Paediatric dose $= \text{weight (kg)}\times\text{dose per kg per day}$, divided by the number of doses per day. Daily dose $= 28\times35\ \text{mg}$ Per dose $= \dfrac{28\times35}{4} = 245\ \text{mg}$
+
+[param] NEB/C12/physics | Optics | OR 8m
+Q: Answer the following:
+  (a) State the mirror formula. [2]
+  (b) An object is placed $60\ \text{cm}$ from a concave mirror of focal length $10\ \text{cm}$. Find the distance of the real image from the mirror. [6]
+  OR
+  (a) State the lens formula. [2]
+  (b) An object is placed $35\ \text{cm}$ in front of a convex lens of focal length $5\ \text{cm}$. Find the distance of the real image from the lens. [6]
+  RUBRIC: (a) The mirror formula (real-is-positive convention) is $\dfrac{1}{f} = \dfrac{1}{u} + \dfrac{1}{v}$. (b) $\dfrac{1}{v} = \dfrac{1}{f} - \dfrac{1}{u} = \dfrac{1}{10} - \dfrac{1}{60}$ $v = 12\ \text{cm}$ Answer: $12\ \text{cm}$. OR (a) The lens formula (Cartesi
+
+[param] SEE/C10/science | Pressure | SHORT 5m
+Q: Answer the following:
+  (a) State the pressure due to a liquid column. [2]
+  (b) Find the gauge pressure at a depth of $20\ \text{m}$ in a liquid of density $1200\ \text{kg m}^{-3}$. (Take $g = 9.8\ \text{m s}^{-2}$.) [3]
+  RUBRIC: (a) The pressure at depth $h$ in a liquid of density $\rho$ is $P = \rho g h$. (b) $P = \rho g h = 1200\times9.8\times20\ \text{Pa}$ $P = 235\ \text{kPa}$ Answer: $235\ \text{kPa}$.
+
+[param] IOE/BE/concrete-technology | Concrete | MCQ 1m
+Q: A concrete mix uses $225\ \text{kg}$ of water and $500\ \text{kg}$ of cement. Find the water-cement ratio.
+  a) $0.9$
+  b) $0.31$
+  c) $2.22$
+  d) $0.45$
+  KEY: d | Water-cement ratio $= \dfrac{\text{mass of water}}{\text{mass of cement}}$. $\dfrac{w}{c} = \dfrac{225}{500}$ $w/c = 0.45$

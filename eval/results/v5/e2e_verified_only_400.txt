@@ -1,55 +1,66 @@
-FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
-FAIL CTEVT BSN social-and-behavioral-scienc General CONCEPTUAL no verified item for CTEVT|BSN|social-and-behavioral-scienc/General/5/CONCEPTUAL
+FAIL CEE CEE zoology Medical Technology and Applied Biology OR no verified item for CEE|CEE|zoology/Medical Technology and Applied Biology/8/OR
+FAIL SEE C10 economics Macroeconomics MCQ no verified item for SEE|C10|economics/Macroeconomics/1/MCQ
 FAIL TU BCA gk-and-it General SHORT no verified item for TU|BCA|gk-and-it/General/5/SHORT
-FAIL CEE CEE model-papers Botany NUMERICAL no verified item for CEE|CEE|model-papers/Botany/4/NUMERICAL
-FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
-FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
-FAIL IOE IOE model-papers Section A — Mathematics CONCEPTUAL no verified item for IOE|IOE|model-papers/Section A — Mathematics/5/CONCEPTUAL
-FAIL CTEVT BSN adult-nursing-2 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-2/General/5/CONCEPTUAL
-FAIL TU BCA model-papers General OR no verified item for TU|BCA|model-papers/General/8/OR
-FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
-FAIL CTEVT BSN nutrition-and-diet-therapy General SHORT no verified item for CTEVT|BSN|nutrition-and-diet-therapy/General/5/SHORT
-FAIL CTEVT BSN nursing-concepts General CONCEPTUAL no verified item for CTEVT|BSN|nursing-concepts/General/5/CONCEPTUAL
-FAIL CTEVT BSN fundamentals-of-nursing General CONCEPTUAL no verified item for CTEVT|BSN|fundamentals-of-nursing/General/5/CONCEPTUAL
-FAIL CEE CEE model-papers Botany SHORT no verified item for CEE|CEE|model-papers/Botany/5/SHORT
+FAIL CEE CEE botany Plant Anatomy CONCEPTUAL no verified item for CEE|CEE|botany/Plant Anatomy/5/CONCEPTUAL
+FAIL CEE CEE mental-agility-test Logical Sequencing SHORT no verified item for CEE|CEE|mental-agility-test/Logical Sequencing/5/SHORT
+FAIL IOE IOE model-papers Section A — Mathematics OR no verified item for IOE|IOE|model-papers/Section A — Mathematics/8/OR
+FAIL TU BCA gk-and-it General SHORT no verified item for TU|BCA|gk-and-it/General/5/SHORT
+FAIL CTEVT BSN community-health-nursing General SHORT no verified item for CTEVT|BSN|community-health-nursing/General/5/SHORT
+FAIL CEE CEE model-papers Chemistry NUMERICAL no verified item for CEE|CEE|model-papers/Chemistry/4/NUMERICAL
+FAIL CTEVT BSN midwifery-1 General CONCEPTUAL no verified item for CTEVT|BSN|midwifery-1/General/5/CONCEPTUAL
+FAIL TU BCA model-papers General NUMERICAL no verified item for TU|BCA|model-papers/General/4/NUMERICAL
 FAIL CTEVT BSN adult-nursing-2 General SHORT no verified item for CTEVT|BSN|adult-nursing-2/General/5/SHORT
-FAIL CTEVT BSN nutrition-and-diet-therapy General SHORT no verified item for CTEVT|BSN|nutrition-and-diet-therapy/General/5/SHORT
-FAIL CTEVT BSN adult-nursing-1 General SHORT no verified item for CTEVT|BSN|adult-nursing-1/General/5/SHORT
-FAIL CTEVT BSN adult-nursing-2 General OR no verified item for CTEVT|BSN|adult-nursing-2/General/8/OR
-FAIL TU BCA gk-and-it General CONCEPTUAL no verified item for TU|BCA|gk-and-it/General/5/CONCEPTUAL
-FAIL CEE CEE model-papers Physics OR no verified item for CEE|CEE|model-papers/Physics/8/OR
-FAIL CTEVT BSN midwifery-1 General SHORT no verified item for CTEVT|BSN|midwifery-1/General/5/SHORT
+FAIL TU BCA model-papers General NUMERICAL no verified item for TU|BCA|model-papers/General/4/NUMERICAL
+FAIL TU BCA gk-and-it General OR no verified item for TU|BCA|gk-and-it/General/8/OR
+FAIL CTEVT BSN midwifery-2 General CONCEPTUAL no verified item for CTEVT|BSN|midwifery-2/General/5/CONCEPTUAL
+FAIL CEE CEE botany Ecology and Vegetation NUMERICAL no verified item for CEE|CEE|botany/Ecology and Vegetation/4/NUMERICAL
+FAIL CTEVT BSN child-health-nursing General CONCEPTUAL no verified item for CTEVT|BSN|child-health-nursing/General/5/CONCEPTUAL
+FAIL CEE CEE zoology Evolutionary Biology OR no verified item for CEE|CEE|zoology/Evolutionary Biology/8/OR
+FAIL CEE CEE mental-agility-test Numerical Reasoning CONCEPTUAL no verified item for CEE|CEE|mental-agility-test/Numerical Reasoning/5/CONCEPTUAL
 FAIL CTEVT BSN nutrition-and-diet-therapy General OR no verified item for CTEVT|BSN|nutrition-and-diet-therapy/General/8/OR
-FAIL CTEVT BSN social-and-behavioral-scienc General SHORT no verified item for CTEVT|BSN|social-and-behavioral-scienc/General/5/SHORT
-FAIL TU BCA model-papers General OR no verified item for TU|BCA|model-papers/General/8/OR
-FAIL CTEVT BSN family-and-reproductive-heal General OR no verified item for CTEVT|BSN|family-and-reproductive-heal/General/8/OR
-FAIL CEE CEE model-papers Botany NUMERICAL no verified item for CEE|CEE|model-papers/Botany/4/NUMERICAL
-FAIL CEE CEE model-papers Botany NUMERICAL no verified item for CEE|CEE|model-papers/Botany/4/NUMERICAL
-FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
-FAIL CTEVT BSN adult-nursing-2 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-2/General/5/CONCEPTUAL
-FAIL CTEVT BSN fundamentals-of-nursing General CONCEPTUAL no verified item for CTEVT|BSN|fundamentals-of-nursing/General/5/CONCEPTUAL
-FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
-FAIL SEE C10 economics Microeconomics MCQ no verified item for SEE|C10|economics/Microeconomics/1/MCQ
-FAIL CTEVT BSN adult-nursing-1 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-1/General/5/CONCEPTUAL
-FAIL TU BCA model-papers General SHORT no verified item for TU|BCA|model-papers/General/5/SHORT
-FAIL CTEVT BSN adult-nursing-2 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-2/General/5/CONCEPTUAL
+FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
+FAIL CEE CEE botany Water Relations of Plants OR no verified item for CEE|CEE|botany/Water Relations of Plants/8/OR
+FAIL CEE CEE zoology Circulatory System CONCEPTUAL no verified item for CEE|CEE|zoology/Circulatory System/5/CONCEPTUAL
+FAIL SEE C10 accountancy Bank, Insurance and Financial Institutions MCQ no verified item for SEE|C10|accountancy/Bank, Insurance and Financial Institutions/1/MCQ
+FAIL CEE CEE model-papers Mental Agility Test NUMERICAL no verified item for CEE|CEE|model-papers/Mental Agility Test/4/NUMERICAL
+FAIL CEE CEE mental-agility-test Logical Sequencing CONCEPTUAL no verified item for CEE|CEE|mental-agility-test/Logical Sequencing/5/CONCEPTUAL
+FAIL CEE CEE model-papers Physics OR no verified item for CEE|CEE|model-papers/Physics/8/OR
+FAIL CEE CEE model-papers Physics CONCEPTUAL no verified item for CEE|CEE|model-papers/Physics/5/CONCEPTUAL
+FAIL CEE CEE mental-agility-test Verbal Reasoning SHORT no verified item for CEE|CEE|mental-agility-test/Verbal Reasoning/5/SHORT
+FAIL CEE CEE botany Angiosperms and Economic Botany NUMERICAL no verified item for CEE|CEE|botany/Angiosperms and Economic Botany/4/NUMERICAL
+FAIL CEE CEE mental-agility-test Logical Sequencing CONCEPTUAL no verified item for CEE|CEE|mental-agility-test/Logical Sequencing/5/CONCEPTUAL
+FAIL TU BCA gk-and-it General SHORT no verified item for TU|BCA|gk-and-it/General/5/SHORT
+FAIL CEE CEE model-papers Chemistry CONCEPTUAL no verified item for CEE|CEE|model-papers/Chemistry/5/CONCEPTUAL
+FAIL CEE CEE botany Plant Anatomy NUMERICAL no verified item for CEE|CEE|botany/Plant Anatomy/4/NUMERICAL
+FAIL CTEVT BSN integrated-health-sciences-1 General OR no verified item for CTEVT|BSN|integrated-health-sciences-1/General/8/OR
+FAIL CEE CEE botany Inheritance, Linkage, Mutation and Genetic Disorders SHORT no verified item for CEE|CEE|botany/Inheritance, Linkage, Mutation and Genetic Disorders/5/SHORT
+FAIL CTEVT BSN integrated-health-sciences-1 General OR no verified item for CTEVT|BSN|integrated-health-sciences-1/General/8/OR
+FAIL CTEVT BSN geriatric-nursing General CONCEPTUAL no verified item for CTEVT|BSN|geriatric-nursing/General/5/CONCEPTUAL
+FAIL CTEVT BSN psychiatric-nursing General OR no verified item for CTEVT|BSN|psychiatric-nursing/General/8/OR
+FAIL TU BCA gk-and-it General SHORT no verified item for TU|BCA|gk-and-it/General/5/SHORT
+FAIL TU BCA gk-and-it General OR no verified item for TU|BCA|gk-and-it/General/8/OR
+FAIL CEE CEE botany Cell Biology and Cell Division SHORT no verified item for CEE|CEE|botany/Cell Biology and Cell Division/5/SHORT
+FAIL TU BCA gk-and-it General OR no verified item for TU|BCA|gk-and-it/General/8/OR
+FAIL TU BCA model-papers General NUMERICAL no verified item for TU|BCA|model-papers/General/4/NUMERICAL
+FAIL IOE IOE model-papers Section A — English CONCEPTUAL no verified item for IOE|IOE|model-papers/Section A — English/5/CONCEPTUAL
+FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
 {
  "n": 400,
- "ok": 365,
- "fail": 35,
+ "ok": 354,
+ "fail": 46,
  "tiers": {
-  "bank": 231,
-  "param": 134
+  "bank": 187,
+  "param": 167
  },
  "stats": {
-  "param": 134,
+  "param": 167,
   "lm": 0,
-  "bank": 231,
+  "bank": 187,
   "lm_tries": 0,
   "lm_gate_pass": 0,
   "gate_rejects": {}
  },
- "seconds": 0.125
+ "seconds": 0.113
 }
 
 ### bank biology | Human Population and Health Disorders | MCQ 
@@ -77,131 +88,145 @@ FAIL CTEVT BSN adult-nursing-2 General CONCEPTUAL no verified item for CTEVT|BSN
  "explanation": "HIV binds CD4 on helper T cells; as they fall, infections take over."
 }
 
-### bank biology | Faunal Diversity | NUMERICAL 
-{
- "board": "NEB",
- "level": "C11",
- "subject": "biology",
- "unit": "Faunal Diversity",
- "marks": 4,
- "type": "CONCEPTUAL",
- "source": "bank",
- "verified": true,
- "provenance": {
-  "tier": "bank"
- },
- "kind": "written",
- "question": "List the external apertures of Pheretima posthuma with their positions.",
- "parts": [],
- "or_parts": [],
- "rubric": "Mouth on the peristomium (segment 1); anus on the last segment; female genital pore mid-ventral on segment 14; one pair of male genital pores on segment 18; four pairs of spermathecal pores in grooves 5/6, 6/7, 7/8 and 8/9; many nephridiopores; mid-dorsal pores from groove 12/13 backwards."
-}
-
-### param mathematics | Statistics | MCQ 
+### param physics | Gravitation | NUMERICAL 
 {
  "source": "parametric",
  "verified": true,
- "tpl": "mean5",
- "concept": "The arithmetic mean is $\\bar{x} = \\dfrac{\\sum x}{n}$.",
- "unit_matched": true,
- "unit_label": "Statistics: mean",
- "kind": "mcq",
- "question": "Find the arithmetic mean of $8, 9, 12, 25$ and $18$.",
- "options": [
-  "$72$",
-  "$12$",
-  "$14.4$",
-  "$13.5$"
- ],
- "key": "c",
- "explanation": "The arithmetic mean is $\\bar{x} = \\dfrac{\\sum x}{n}$. $\\bar{x} = \\dfrac{8+9+12+25+18}{5}$ $\\bar{x} = 14.4$",
- "board": "BLE",
- "level": "C8",
- "subject": "mathematics",
- "unit": "Statistics",
- "marks": 1,
- "type": "MCQ",
- "provenance": {
-  "tier": "param",
-  "law": "The arithmetic mean is $\\bar{x} = \\dfrac{\\sum x}{n}$."
- }
-}
-
-### bank zoology | Respiratory System | NUMERICAL 
-{
- "board": "CEE",
- "level": "CEE",
- "subject": "zoology",
- "unit": "Microbial Diseases and Immunology",
- "marks": 10,
- "type": "LONG",
- "source": "bank",
- "verified": true,
- "provenance": {
-  "tier": "bank"
- },
- "kind": "written",
- "question": "Describe the causes, symptoms, diagnosis and prevention of typhoid, tuberculosis, HIV/AIDS, cholera, influenza, hepatitis and candidiasis.",
- "parts": [],
- "or_parts": [],
- "rubric": ""
-}
-
-### param computer-science | Programming in Python | MCQ 
-{
- "source": "parametric",
- "verified": true,
- "tpl": "hex2dec",
- "concept": "A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$.",
+ "tpl": "xl",
+ "concept": "Inductive reactance is $X_L = 2\\pi f L$.",
  "unit_matched": false,
- "unit_label": "Number systems and data representation",
- "kind": "mcq",
- "question": "Convert the hexadecimal number $(86)_{16}$ to decimal.",
- "options": [
-  "$48$",
-  "$134$",
-  "$70$",
-  "$104$"
- ],
- "key": "b",
- "explanation": "A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$. $(86)_{16} = 8\\times16^{1}+6\\times16^{0}$ $= 134$",
- "board": "SEE",
- "level": "C10",
- "subject": "computer-science",
- "unit": "Number systems and data representation",
- "marks": 1,
- "type": "MCQ",
- "provenance": {
-  "tier": "param",
-  "law": "A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$."
- }
-}
-
-### param electronic-device-and-circui | General | NUMERICAL 
-{
- "source": "parametric",
- "verified": true,
- "tpl": "z_rl",
- "concept": "The impedance of a series RL circuit is $Z = \\sqrt{R^{2} + X_L^{2}}$.",
- "unit_matched": false,
- "unit_label": "Alternating current",
+ "unit_label": "AC circuits",
  "kind": "written",
  "question": "Answer the following:",
  "parts": [
   {
    "label": "a",
-   "text": "State the impedance of a series RL circuit.",
+   "text": "State inductive reactance.",
    "marks": 1
   },
   {
    "label": "b",
-   "text": "A resistor of $30\\ \\Omega$ is connected in series with an inductor of reactance $80\\ \\Omega$ across an AC source. Find the impedance of the circuit.",
+   "text": "Find the inductive reactance of a $0.1\\ \\text{H}$ inductor at $400\\ \\text{Hz}$.",
    "marks": 3
   }
  ],
  "or_parts": [],
- "rubric": "(a) The impedance of a series RL circuit is $Z = \\sqrt{R^{2} + X_L^{2}}$. (b) $Z = \\sqrt{R^{2}+X_L^{2}} = \\sqrt{30^{2}+80^{2}}$ $Z = 85.4\\ \\Omega$ Answer: $85.4\\ \\Omega$.",
+ "rubric": "(a) Inductive reactance is $X_L = 2\\pi f L$. (b) $X_L = 2\\pi f L = 2\\pi\\times 400\\times 0.1$ $X_L = 251\\ \\Omega$ Answer: $251\\ \\Omega$.",
+ "board": "CEE",
+ "level": "CEE",
+ "subject": "physics",
+ "unit": "AC circuits",
+ "marks": 4,
+ "type": "NUMERICAL",
+ "provenance": {
+  "tier": "param",
+  "law": "Inductive reactance is $X_L = 2\\pi f L$."
+ }
+}
+
+### bank english | Passage 2 — Technical English | MCQ 
+{
  "board": "IOE",
- "level": "BE",
- "subject": "electronic-device-and-circui",
- "unit": "Alternating curr
+ "level": "IOE",
+ "subject": "english",
+ "unit": "Passage 2 — Technical English",
+ "marks": 1,
+ "type": "MCQ",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank"
+ },
+ "kind": "mcq",
+ "question": "The core is laminated in order to",
+ "options": [
+  "increase the voltage",
+  "raise the frequency",
+  "reduce eddy currents",
+  "insulate the coils"
+ ],
+ "key": "c",
+ "explanation": "stated in the last sentence."
+}
+
+### param integrated-health-sciences-1 | General | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "pct_sol",
+ "concept": "A $p\\%$ w/v solution contains $p\\ \\text{g}$ in $100\\ \\text{mL}$, i.e. $10p\\ \\text{mg mL}^{-1}$.",
+ "unit_matched": false,
+ "unit_label": "Drug dosage calculation",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State percentage strength of a solution.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "How many milligrams of drug are present in $20\\ \\text{mL}$ of a $2\\%$ (w/v) solution?",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) A $p\\%$ w/v solution contains $p\\ \\text{g}$ in $100\\ \\text{mL}$, i.e. $10p\\ \\text{mg mL}^{-1}$. (b) $2\\%\\ \\text{w/v} = 2\\ \\text{g}/100\\ \\text{mL} = 20\\ \\text{mg mL}^{-1}$ Drug $= 20\\times20 = 400\\ \\text{mg}$ Answer: $400\\ \\text{mg}$.",
+ "board": "CTEVT",
+ "level": "BSN",
+ "subject": "i
+
+### param mathematics | Profit and Loss | MCQ 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "profit_pct",
+ "concept": "Selling price $= \\text{cost price}\\times\\left(1+\\dfrac{\\text{profit}\\%}{100}\\right)$.",
+ "unit_matched": true,
+ "unit_label": "Profit and loss",
+ "kind": "mcq",
+ "question": "An article bought for Rs. $200$ is sold at a profit of $10\\%$. Find the selling price.",
+ "options": [
+  "$180\\ \\text{ rupees}$",
+  "$20\\ \\text{ rupees}$",
+  "$210\\ \\text{ rupees}$",
+  "$220\\ \\text{ rupees}$"
+ ],
+ "key": "d",
+ "explanation": "Selling price $= \\text{cost price}\\times\\left(1+\\dfrac{\\text{profit}\\%}{100}\\right)$. $SP = CP\\left(1+\\dfrac{P\\%}{100}\\right) = 200\\left(1+\\dfrac{10}{100}\\right)$ $SP = \\text{Rs. }220$",
+ "board": "BLE",
+ "level": "C8",
+ "subject": "mathematics",
+ "unit": "Profit and Loss",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "param",
+  "law": "Selling price $= \\t
+
+### param chemistry | Organometallic Compounds | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "percent_comp",
+ "concept": "Percentage composition is $\\dfrac{\\text{mass of element in one mole}}{\\text{molar mass}}\\times100$.",
+ "unit_matched": true,
+ "unit_label": "Mole concept",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State percentage composition.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "A compound has molar mass $180\\ \\text{g mol}^{-1}$ and each molecule contains $2$ atom(s) of an element of atomic mass $16$. Calculate the percentage by mass of that element.",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) Percentage composition is $\\dfrac{\\text{mass of element in one mole}}{\\text{molar mass}}\\times100$. (b) $\\% = \\dfrac{nA}{M}\\times100 = \\dfrac{2\\times16}{180}\\times100$ $\\% = 17.8\\ \\%$ Answer: $17.8\\ \\%$.",
+ "board": "NEB"

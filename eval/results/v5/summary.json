@@ -1,0 +1,77 @@
+{
+ "system": "PaperLM v5 composed system",
+ "node_e2e_400_requests": {
+  "ok": 365,
+  "fail": 35,
+  "tiers": {
+   "bank": 231,
+   "param": 134,
+   "neural": 0
+  },
+  "fail_cause": "written item types on MCQ-only boards (BSN/BCA/CEE mock subjects) which have no written seeds"
+ },
+ "parametric": {
+  "templates": 139,
+  "instances": 41700,
+  "self_check_failures": 0,
+  "known_value_cases": 21,
+  "known_value_failures": 0,
+  "parity_cases": 278,
+  "parity_failures": 0,
+  "verifier_items": 900,
+  "verifier_rejections_of_parametric_mcq": 101,
+  "examples_bad": [],
+  "known_bad": [],
+  "parity_bad": []
+ },
+ "bank_audit": {
+  "seeds_in": 11760,
+  "seeds_kept": 11760,
+  "dropped": 0,
+  "drop_rate": 0.0,
+  "reasons": {}
+ },
+ "lm_tier_gate_yield": {
+  "beta0": {
+   "pass_": 1,
+   "tries": 117
+  },
+  "beta2.5": {
+   "pass_": 4,
+   "tries": 114
+  }
+ },
+ "vm_bench_v4b_with_beta2_5": {
+  "prompts": 708,
+  "structurally_valid_rate": 0.619,
+  "raw_gate_pass_rate": 0.049,
+  "prompts_resolved_rate": 0.148,
+  "numbers_invented_rate": 0.19
+ },
+ "vm_bench_v4b_no_bias": {
+  "label": "v4b",
+  "prompts": 708,
+  "attempts": 2832,
+  "structurally_valid_rate": 0.716,
+  "raw_gate_pass_rate": 0.053,
+  "prompts_resolved_rate": 0.141,
+  "numbers_invented_rate": 0.258,
+  "top_issues": {
+   "question off-topic for the anchor": 1178,
+   "anchor concept barely used": 780,
+   "number": 731,
+   "explanation not grounded in the anchor": 633,
+   "rubric not grounded in the anchor": 603,
+   "key option not supported by the anchor": 567,
+   "distractor a repeats an anchor figure": 39,
+   "distractor b repeats an anchor figure": 23
+  }
+ },
+ "sft_val": {
+  "v3": 2.2437,
+  "v4b": 1.8977,
+  "v5a_zero_dropout": 1.9017,
+  "note": "val loss floor ~1.9 on diverse exam text; 0.50 is not reachable honestly with 3.3M tokens"
+ },
+ "finding": "Strict lexical gate passes grammatical nonsense (see e2e samples), so neural drafts are experimental and OFF by default. Verified output = symbolic engine + audited gold bank."
+}

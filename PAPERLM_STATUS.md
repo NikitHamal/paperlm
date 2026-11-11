@@ -1,44 +1,29 @@
-# PAPERLM_STATUS.md — PaperLM-Tiny (10M) build log (single source of truth, resume from here)
+# PAPERLM_STATUS.md — PaperLM build log (single source of truth, resume from here)
 
 ## Infra (MoLab)
-- Notebook: https://sb-bc79ba58e2c2c51f.sb.molab.run/  (session id via `marimo pair notebook list`; token in local file, never committed)
-- GPU: NVIDIA RTX PRO 6000 Blackwell (96 GB), 160 GB RAM, 20 CPU. torch 2.11, tokenizers, onnxruntime, safetensors preinstalled.
-- Keep-alive daemon: `/tmp/paperlm/keepalive.py` (pid in `/tmp/paperlm/keepalive.pid`, heartbeat `/tmp/paperlm/heartbeat.txt`).
-  Pings local + public marimo URL and runs a tiny CUDA op every 60 s; merges `/tmp/paperlm/status_*.json` into
-  `/tmp/paperlm_live_status.json` every 2 s. RESTART: `setsid nohup python3 /tmp/paperlm/keepalive.py &` (do NOT `pkill -f` from the same shell).
-- Live dashboard: 5 marimo cells (`molab/install_dashboard.py`, renderers in `molab/dash_lib.py`), auto-refresh 3 s.
-- NEB clones on VM: `/tmp/paperlm/neb/<branch_with_underscores>` (private repo; PAT askpass removed after clone).
-- Helpers (local): `scripts/molab_run.sh`, `molab_put.sh`, `molab_bg.sh`, `molab_tail.sh`.
+- Notebook https://sb-bc79ba58e2c2c51f.sb.molab.run/ (session `sess-qa914tcyg7j8cndd`; token kept in `/tmp/molab_token`, never committed). `pip install marimo` locally, then `scripts/molab_run.sh|molab_put.sh|molab_bg.sh|molab_tail.sh`, big files: `scripts/molab_getbig.py`.
+- GPU RTX PRO 6000 Blackwell 96 GB. Keep-alive daemon `/tmp/paperlm/keepalive.py` (60 s ping + CUDA op, heartbeat `/tmp/paperlm/heartbeat.txt`) was verified RUNNING this session (count 157+, local=200 public=200). Restart: `setsid nohup python3 /tmp/paperlm/keepalive.py &`.
+- Live dashboard: 9 auto-refreshing (3 s) marimo cards incl. new `system()` card (`molab/dash_system.py`, reads `status_system.json`, `param_test.json`).
+- **Still running on the VM at hand-off:** `pipeline_v5.sh` (log `/tmp/paperlm/logs/pipeline_v5.log`): copy-bias grounded RFT rounds 1-3 -> bench -> export to `/tmp/paperlm/release5/` (`READY` file when done) -> factual bench. Harvest with `molab_getbig.py /tmp/paperlm/release5/paperlm_tiny_int8.onnx docs/model/model.onnx`, then `node eval/node_e2e.mjs docs/model/model.onnx 60 4`.
 
-## Pipeline & milestones
-| # | Milestone | State |
-|---|-----------|-------|
-| 1 | MoLab paired, keep-alive, live dashboard, NEB extractor (`data/extract_neb.py`) | DONE (push 1) |
-| 2 | Gold dataset builder + validator + exam-math BPE tokenizer + stats | DONE (push 2) |
-| 3 | PaperLM-Tiny 10M arch, GPU training, constrained PaperSetterEngine, INT8/FP16/ONNX export, web+Android SDK, eval | DONE (push 3) |
+## What is live (https://nikithamal.github.io/paperlm/)
+Composed system (`docs/composer.js`, twin `engine/composer.py`):
+1. **Symbolic parametric engine** (`docs/parametric.js` / `engine/parametric.py`, 139 law templates in `engine/param_templates.json`): numbers, units, key, distractors (typical-mistake expressions, same unit) and worked solution are computed. `eval/param_test.py`: 41,700 instances, 0 self-check failures, 21 hand-computed known values 0 failures, 278 Python<->JS parity cases 0 failures.
+2. **Audited gold bank** (`docs/model/bank.json`, `eval/bank_audit.py`): 11,760 seeds (5.0k MCQ, 6.7k written) pass option-homogeneity / key-vs-explanation / LaTeX / arithmetic checks (0 dropped). Written seeds without a model answer are never used.
+3. **Neural draft tier (EXPERIMENTAL, OFF by default)**: 10M LM (v4b, concept-conditioned `<|book|>anchor`, copy-bias decoding beta=2.5) behind `ground.js` strict gate.
 
-## Corpus findings
-- NEB branches that exist: main, resources/past-papers-class12, claude/engineering, claude/bsc-nursing
-  (`claude/bca-entrance-complete`, `polish/school-books-claude` do not exist on the remote).
-- Sources: `notes/papers/**/content/*.md` (past papers DSL `@mcq/@opts/@q/@or/@s`) and
-  `backend_python/web/data/study/*/*.json` (HTML banks: MCQ + key + reason, Group B/C + model answers).
-- First extraction (resources branch only): 22,199 unique raw items (C8/C10/C11/C12/CEE/IOE).
+## Honest findings (read before claiming anything)
+- 10M LM val loss: v3 2.24 -> v4b **1.8977** (ppl 6.67); zero-dropout continuation v5a 1.9017 (no gain). `val_loss < 0.50` is NOT reachable on 3.3M tokens of diverse exam text; do not promise it.
+- The strict gate is lexical (grounding in the anchor, no invented numbers/symbols). It **passes grammatical nonsense** (e.g. "The programme is a subject. Write a letter to the editor."). So gated neural drafts are NOT verified and are labelled "Neural draft (experimental)". Gate yield: beta=0 1/117 tries, beta=2.5 4/114. VM bench v4b: raw gate pass 4.9%, prompts resolved 14.8% (no bias: 5.3% / 14.1%); copy-bias fixes off-topic (1178->403) and invented numbers (25.8%->19%) but raises repetition.
+- Node e2e on 400 random requests (verified-only): 354 ok, 46 explicit "no verified item" errors (written types on MCQ-only boards / thin subjects). 0 neural items. Tiers: bank 187, computed 167.
+- Dataset/bank derive from the PRIVATE NEB repo and the bank ships in this PUBLIC repo at the user's request (`docs/model/bank.json`, 5.5 MB). Decide whether to make the repo private or strip seeds.
+- NOT done: Android Kotlin twins of composer/parametric/gate (assets `bank.json`, `templates.json` are ready; need a small expression evaluator); an LM that understands meaning (needs a verifier model or far more data); stronger semantic gate (entailment).
 
-## Dataset (push 2) — built on VM `/tmp/paperlm/gold`, tokenizer `/tmp/paperlm/tok`
-- Raw 42,396 unique items from 4 NEB branches -> **18,593 gold** items (11.3k MCQ with keys+reasons, ~7k written w/ marks, OR twins, solutions);
-  23.8k rejected by validator (answer-blobs, unmarked, visual-dependent, bad LaTeX, duplicate options, ...). See `dataset/dataset_stats.json`.
-- Train 37,067 lines (incl. MCQ option-shuffle aug x2, train only) / val 865 lines, split by SOURCE FILE hash (no leakage). 3.29M train tokens.
-- Tokenizer: byte-level BPE vocab 6144 (119 specials), exact LaTeX-aware pre-split regex, 0 round-trip failures, 3.98 chars/token.
-- Full dataset (`gold.jsonl`, `train.txt`) is derived from the PRIVATE NEB repo, so it is NOT committed to this public repo; it lives on the VM
-  (`/tmp/paperlm/gold`). Only stats + a 40-line validation sample are committed. Rebuild: `data/extract_neb.py` -> `data/build_dataset.py` -> `tokenizer/train_tokenizer.py`.
+## Next
+1. Harvest `release5` when `READY`; check `bench_*.json` + `factual_*.json`; ship only if prompts_resolved improves.
+2. Add templates for biology/English/social-studies factual items via an audited fact table (cloze MCQs from `bank.facts` with human review).
+3. Replace lexical gate with a learned verifier (train a small cross-encoder on gate-accepted vs gold items).
+4. Port composer/parametric/ground to Kotlin.
 
-## Model, training, export (push 3)
-- Architecture `model/architecture.py`: Llama/SmolLM-style, RoPE + RMSNorm + SwiGLU, tied embeddings, 6 layers, d=320, 5 heads, ffn 832, vocab 8192, ctx 1024, KV-cache. **9,875,520 parameters**.
-- Corpus for LM training: 37k gold exam lines (3.3M tokens) + 18.4k validated textbook chunks (`data/extract_books.py`, ~6M tokens). Val = held-out source files (exam items only).
-- Sweep runs e/f/g (lr 1.5-3e-3, dropout 0.1-0.15, 8-10 epochs), best = run f: **val loss 2.0198, perplexity 7.54** (fp32); INT8 weight-only: val 2.0200 / ppl 7.54. Logs in `model/logs/`.
-- Weights (`weights/`): fp32 safetensors 39.51 MB, fp16 19.76 MB, int8 safetensors 10.01 MB, **int8 ONNX (KV-cache graph) 10.43 MB**; ONNX-vs-torch max logit diff 1.2e-05.
-- Engine: `engine/paper_setter.py` (Python, Torch/ONNX backends), `engine/web/paperlm.js` (onnxruntime-web/node, verified under node on the VM),
-  `engine/android/{PaperLm,ConstrainedDecoder}.kt` (ORT Android; NOT compiled in the sandbox - verify in the NEBians module).
-- Eval (`eval/evaluate.py`, results in `eval/results/`): constrained engine schema-valid 100.0% of 46 items (unconstrained baseline 89.6%), mean 1.54 attempts, 0.69 s/item on server CPU.
-- KNOWN LIMITS (honest): validity (syntax/LaTeX/schema/marks) is guaranteed by constrained decoding + validator; *semantic correctness* (are MCQ keys true, do facts hold) is NOT guaranteed by a 10M model - generated items must be reviewed/verified (e.g. against a verified bank) before being shown as official. Some (board,level,subject,type) cells can dead-end; the engine resamples and raises ItemGenerationError rather than emitting an invalid item. Characters like <=, >= are emitted as LaTeX (\leq) because they are multi-token UTF-8.
-- Next: verified-answer layer (numeric solver checks), more training data (more NEB solutions), distillation of rubric style, Android compile + benchmark, JS decoder resample-on-dead-end parity.
+## Files added this session
+`data/build_templates2.py` (+52 templates), `data/clean_bank.py`, `eval/bank_audit.py`, `eval/node_e2e.mjs`, `eval/lm_tier_test.mjs`, `eval/param_parity.mjs`, `eval/samples_v5.mjs`, `eval/results/v5/*` (summary, samples_verbatim, e2e, bank_audit), `docs/{composer,ground,parametric}.js`, `scripts/pipeline_v5.sh`, `molab/dash_system.py`.
