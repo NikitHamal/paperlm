@@ -117,14 +117,18 @@ def parse_paper_md(path, branch):
         s = s[m.end():]
     base = os.path.basename(path)
     grade = meta.get("grade", "")
-    subj = (meta.get("subject") or base.split("-")[1]).lower().replace(" ", "-")
+    subj = re.sub(r"[^a-z0-9]+", "-", (meta.get("subject") or base.split("-")[1]).lower()).strip("-")
     prog = meta.get("program") or meta.get("level") or ""
     stem = base.split("-")[0]
-    if grade.isdigit():
+    is_be = meta.get("level", "").upper().startswith("BE") or base.startswith("ioe-")
+    if is_be:
+        board, level = "IOE", "BE"
+    elif grade.isdigit():
         board, level = ("BLE" if grade == "8" else "SEE" if grade == "10" else "NEB"), f"C{grade}"
     else:
         board, level, _ = classify_dir(stem, branch)
         if stem == "12": board, level = "NEB", "C12"
+        if "bca" in meta.get("grade", "").lower(): board, level = "TU", "BCA"
     year = meta.get("year_bs", "")
     items, sols = [], {}
     sec_marks, sec_name = 1, "A"
@@ -149,7 +153,7 @@ def parse_paper_md(path, branch):
         txt = "\n".join(body).strip()
         if kind == "s":
             sols[num] = clean_md(txt); continue
-        if "@img" in txt or "@opts-img" in txt:
+        if "@img" in txt or "@opts-img" in txt or "```" in txt:
             continue  # figure-dependent: not safe for text-only generation
         if kind == "mcq":
             qm = re.split(r"\n@opts(?:-col)?\s+", txt, maxsplit=1)
@@ -164,8 +168,8 @@ def parse_paper_md(path, branch):
                 for pl in t.strip().split("\n"):
                     pl = pl.strip()
                     if not pl: continue
-                    mm = re.match(r"^\(([a-z])\)\s*(.*?)\s*(?:\[\[(\d+)\]\])?$", pl)
-                    if mm: ps.append(dict(label=mm.group(1), text=clean_md(mm.group(2)), marks=int(mm.group(3) or 0)))
+                    mm = re.match(r"^\(?([a-z])\)\s*(.*?)\s*(?:\[\[([\d+]+)\]\])?$", pl)
+                    if mm: ps.append(dict(label=mm.group(1), text=clean_md(mm.group(2)), marks=sum(int(x) for x in (mm.group(3) or "0").split("+") if x)))
                     elif ps: ps[-1]["text"] += " " + clean_md(pl)
                     else: ps.append(dict(label="", text=clean_md(pl), marks=0))
                 return ps
@@ -175,7 +179,7 @@ def parse_paper_md(path, branch):
     out = []
     for it in items:
         rec = dict(src=f"paper:{branch}:{base}", board=board, level=level, subject=subj, year_bs=year,
-                   unit=f"Paper {year} {meta.get('stream','').strip()}".strip(), group=it["sec"])
+                   unit=f"Paper {year} {meta.get('code','') if is_be else meta.get('stream','')}".strip(), group=it["sec"])
         if it["kind"] == "mcq":
             rec.update(qtype="MCQ", marks=1, q=it["q"], opts=it["opts"], key="", why="")
         else:
@@ -295,6 +299,70 @@ def attach_answers(det, last):
         else:
             b["sol"] = a
 
+# ----------------------------------------------------------------------------- numbered MCQ markdown (BCA entrance, nursing practice)
+OPT_SPLIT = re.compile(r"\(([a-d])\)\s")
+ANS_A = re.compile(r"^\*\*(\d+)\.\*\*\s*\(([a-d])\)\s*[—\-–:.]*\s*(.*)$")
+ANS_B = re.compile(r"^\*\*(\d+)\.\s*\(([a-d])\)\.?\*\*\s*(.*)$")
+
+def parse_numbered_md(path, branch):
+    s = open(path, encoding="utf-8", errors="ignore").read()
+    meta = {}
+    m = FM.match(s)
+    if m:
+        for ln in m.group(1).splitlines():
+            if ":" in ln:
+                k, v = ln.split(":", 1); meta[k.strip()] = v.strip()
+        s = s[m.end():]
+    low = path.lower()
+    if "/bca/" in low: board, level = "TU", "BCA"
+    elif "nursing" in low: board, level = "CTEVT", "BSN"
+    else: return []
+    parts = path.split("/")
+    subj = re.sub(r"[^a-z0-9]+", "-", (parts[-2] if "nursing" in low else "bca-" + parts[-3] if len(parts) > 3 else "bca").lower()).strip("-")
+    if "nursing" in low and parts[-2] in ("README.md",): subj = "nursing"
+    title = meta.get("title") or ""
+    pending, out, unit, in_ans, qs_block = [], [], title, False, None
+    lines = s.split("\n")
+    def flush():
+        nonlocal qs_block
+        if qs_block is None: return
+        num, txt = qs_block; qs_block = None
+        txt = re.sub(r"\s+", " ", txt).strip()
+        sp = OPT_SPLIT.split(txt)
+        if len(sp) != 9 or [sp[1], sp[3], sp[5], sp[7]] != ["a", "b", "c", "d"]: return
+        q = clean_md(sp[0]); opts = [clean_md(sp[2]), clean_md(sp[4]), clean_md(sp[6]), clean_md(sp[8])]
+        if "```" in txt or not q: return
+        pending.append(dict(num=num, rec=dict(qtype="MCQ", marks=1, q=q, opts=opts, key="", why="", unit=unit, group="")))
+    for ln in lines:
+        h = re.match(r"^#{2,3}\s+(.*)$", ln)
+        if h and not in_ans:
+            flush(); unit = re.sub(r"^\d+(\.\d+)*\s*", "", h.group(1)).strip()[:80] or unit; continue
+        if re.match(r"^:{3,4}\s+note\s+Answers", ln): flush(); in_ans = True; continue
+        if in_ans:
+            if ln.strip() == ":::" or ln.strip() == "::::":
+                in_ans = False; continue
+            ma = ANS_A.match(ln.strip()) or ANS_B.match(ln.strip())
+            if ma:
+                n = int(ma.group(1))
+                for pq in reversed(pending):
+                    if pq["num"] == n and not pq["rec"]["key"]:
+                        pq["rec"]["key"] = ma.group(2); pq["rec"]["why"] = clean_md(ma.group(3)); break
+            continue
+        mq = re.match(r"^\s{0,3}(\d+)\.\s+(.*)$", ln)
+        if mq:
+            flush()
+            if pending and pending[-1]["num"] >= int(mq.group(1)) and any(p["rec"]["key"] for p in pending):
+                out.extend(p["rec"] for p in pending if p["rec"]["key"]); pending.clear()
+            qs_block = (int(mq.group(1)), mq.group(2)); continue
+        if qs_block is not None:
+            if ln.strip() == "" or ln.startswith(("#", ":::", "```")): flush()
+            else: qs_block = (qs_block[0], qs_block[1] + " " + ln.strip())
+    flush()
+    out.extend(p["rec"] for p in pending if p["rec"]["key"])
+    for r in out:
+        r.update(src=f"book:{branch}:{'/'.join(parts[-3:])}", board=board, level=level, subject=subj)
+    return out
+
 # ----------------------------------------------------------------------------- main
 def main():
     out_path, root = sys.argv[1], sys.argv[2]
@@ -315,6 +383,11 @@ def main():
             for p in glob.glob(cl + "/**/notes/papers*/**/content/*.md", recursive=True) + glob.glob(cl + "/notes/papers*/**/*.md", recursive=True):
                 if "/content/" in p and p not in files: files.append(p)
             studies = sorted(glob.glob(cl + "/backend_python/web/data/study/*/*.json"))
+            books = sorted(glob.glob(cl + "/bca/entrance/**/*.md", recursive=True) + glob.glob(cl + "/nursing/course/**/*.md", recursive=True))
+            for p in books:
+                try: recs = parse_numbered_md(p, branch)
+                except Exception as e: print("ERR", p, e); continue
+                for r in recs: n += emit(fo, r, seen, stats)
             for p in sorted(files):
                 try: recs = parse_paper_md(p, branch)
                 except Exception as e: print("ERR", p, e); continue

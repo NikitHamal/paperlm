@@ -14,7 +14,7 @@
 | # | Milestone | State |
 |---|-----------|-------|
 | 1 | MoLab paired, keep-alive, live dashboard, NEB extractor (`data/extract_neb.py`) | DONE (push 1) |
-| 2 | Gold dataset builder + validator + exam-math BPE tokenizer + stats | pending |
+| 2 | Gold dataset builder + validator + exam-math BPE tokenizer + stats | DONE (push 2) |
 | 3 | PaperLM-Tiny 10M arch, GPU training, constrained PaperSetterEngine, INT8/FP16/ONNX export, web+Android SDK, eval | pending |
 
 ## Corpus findings
@@ -23,3 +23,11 @@
 - Sources: `notes/papers/**/content/*.md` (past papers DSL `@mcq/@opts/@q/@or/@s`) and
   `backend_python/web/data/study/*/*.json` (HTML banks: MCQ + key + reason, Group B/C + model answers).
 - First extraction (resources branch only): 22,199 unique raw items (C8/C10/C11/C12/CEE/IOE).
+
+## Dataset (push 2) — built on VM `/tmp/paperlm/gold`, tokenizer `/tmp/paperlm/tok`
+- Raw 42,396 unique items from 4 NEB branches -> **18,593 gold** items (11.3k MCQ with keys+reasons, ~7k written w/ marks, OR twins, solutions);
+  23.8k rejected by validator (answer-blobs, unmarked, visual-dependent, bad LaTeX, duplicate options, ...). See `dataset/dataset_stats.json`.
+- Train 37,067 lines (incl. MCQ option-shuffle aug x2, train only) / val 865 lines, split by SOURCE FILE hash (no leakage). 3.29M train tokens.
+- Tokenizer: byte-level BPE vocab 6144 (119 specials), exact LaTeX-aware pre-split regex, 0 round-trip failures, 3.98 chars/token.
+- Full dataset (`gold.jsonl`, `train.txt`) is derived from the PRIVATE NEB repo, so it is NOT committed to this public repo; it lives on the VM
+  (`/tmp/paperlm/gold`). Only stats + a 40-line validation sample are committed. Rebuild: `data/extract_neb.py` -> `data/build_dataset.py` -> `tokenizer/train_tokenizer.py`.
