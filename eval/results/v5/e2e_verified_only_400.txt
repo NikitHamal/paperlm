@@ -1,0 +1,207 @@
+FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
+FAIL CTEVT BSN social-and-behavioral-scienc General CONCEPTUAL no verified item for CTEVT|BSN|social-and-behavioral-scienc/General/5/CONCEPTUAL
+FAIL TU BCA gk-and-it General SHORT no verified item for TU|BCA|gk-and-it/General/5/SHORT
+FAIL CEE CEE model-papers Botany NUMERICAL no verified item for CEE|CEE|model-papers/Botany/4/NUMERICAL
+FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
+FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
+FAIL IOE IOE model-papers Section A — Mathematics CONCEPTUAL no verified item for IOE|IOE|model-papers/Section A — Mathematics/5/CONCEPTUAL
+FAIL CTEVT BSN adult-nursing-2 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-2/General/5/CONCEPTUAL
+FAIL TU BCA model-papers General OR no verified item for TU|BCA|model-papers/General/8/OR
+FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
+FAIL CTEVT BSN nutrition-and-diet-therapy General SHORT no verified item for CTEVT|BSN|nutrition-and-diet-therapy/General/5/SHORT
+FAIL CTEVT BSN nursing-concepts General CONCEPTUAL no verified item for CTEVT|BSN|nursing-concepts/General/5/CONCEPTUAL
+FAIL CTEVT BSN fundamentals-of-nursing General CONCEPTUAL no verified item for CTEVT|BSN|fundamentals-of-nursing/General/5/CONCEPTUAL
+FAIL CEE CEE model-papers Botany SHORT no verified item for CEE|CEE|model-papers/Botany/5/SHORT
+FAIL CTEVT BSN adult-nursing-2 General SHORT no verified item for CTEVT|BSN|adult-nursing-2/General/5/SHORT
+FAIL CTEVT BSN nutrition-and-diet-therapy General SHORT no verified item for CTEVT|BSN|nutrition-and-diet-therapy/General/5/SHORT
+FAIL CTEVT BSN adult-nursing-1 General SHORT no verified item for CTEVT|BSN|adult-nursing-1/General/5/SHORT
+FAIL CTEVT BSN adult-nursing-2 General OR no verified item for CTEVT|BSN|adult-nursing-2/General/8/OR
+FAIL TU BCA gk-and-it General CONCEPTUAL no verified item for TU|BCA|gk-and-it/General/5/CONCEPTUAL
+FAIL CEE CEE model-papers Physics OR no verified item for CEE|CEE|model-papers/Physics/8/OR
+FAIL CTEVT BSN midwifery-1 General SHORT no verified item for CTEVT|BSN|midwifery-1/General/5/SHORT
+FAIL CTEVT BSN nutrition-and-diet-therapy General OR no verified item for CTEVT|BSN|nutrition-and-diet-therapy/General/8/OR
+FAIL CTEVT BSN social-and-behavioral-scienc General SHORT no verified item for CTEVT|BSN|social-and-behavioral-scienc/General/5/SHORT
+FAIL TU BCA model-papers General OR no verified item for TU|BCA|model-papers/General/8/OR
+FAIL CTEVT BSN family-and-reproductive-heal General OR no verified item for CTEVT|BSN|family-and-reproductive-heal/General/8/OR
+FAIL CEE CEE model-papers Botany NUMERICAL no verified item for CEE|CEE|model-papers/Botany/4/NUMERICAL
+FAIL CEE CEE model-papers Botany NUMERICAL no verified item for CEE|CEE|model-papers/Botany/4/NUMERICAL
+FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
+FAIL CTEVT BSN adult-nursing-2 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-2/General/5/CONCEPTUAL
+FAIL CTEVT BSN fundamentals-of-nursing General CONCEPTUAL no verified item for CTEVT|BSN|fundamentals-of-nursing/General/5/CONCEPTUAL
+FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
+FAIL SEE C10 economics Microeconomics MCQ no verified item for SEE|C10|economics/Microeconomics/1/MCQ
+FAIL CTEVT BSN adult-nursing-1 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-1/General/5/CONCEPTUAL
+FAIL TU BCA model-papers General SHORT no verified item for TU|BCA|model-papers/General/5/SHORT
+FAIL CTEVT BSN adult-nursing-2 General CONCEPTUAL no verified item for CTEVT|BSN|adult-nursing-2/General/5/CONCEPTUAL
+{
+ "n": 400,
+ "ok": 365,
+ "fail": 35,
+ "tiers": {
+  "bank": 231,
+  "param": 134
+ },
+ "stats": {
+  "param": 134,
+  "lm": 0,
+  "bank": 231,
+  "lm_tries": 0,
+  "lm_gate_pass": 0,
+  "gate_rejects": {}
+ },
+ "seconds": 0.125
+}
+
+### bank biology | Human Population and Health Disorders | MCQ 
+{
+ "board": "NEB",
+ "level": "C12",
+ "subject": "biology",
+ "unit": "Human Population and Health Disorders",
+ "marks": 1,
+ "type": "MCQ",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank"
+ },
+ "kind": "mcq",
+ "question": "HIV mainly destroys",
+ "options": [
+  "red blood cells",
+  "B lymphocytes",
+  "platelets",
+  "CD4 helper T cells"
+ ],
+ "key": "d",
+ "explanation": "HIV binds CD4 on helper T cells; as they fall, infections take over."
+}
+
+### bank biology | Faunal Diversity | NUMERICAL 
+{
+ "board": "NEB",
+ "level": "C11",
+ "subject": "biology",
+ "unit": "Faunal Diversity",
+ "marks": 4,
+ "type": "CONCEPTUAL",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank"
+ },
+ "kind": "written",
+ "question": "List the external apertures of Pheretima posthuma with their positions.",
+ "parts": [],
+ "or_parts": [],
+ "rubric": "Mouth on the peristomium (segment 1); anus on the last segment; female genital pore mid-ventral on segment 14; one pair of male genital pores on segment 18; four pairs of spermathecal pores in grooves 5/6, 6/7, 7/8 and 8/9; many nephridiopores; mid-dorsal pores from groove 12/13 backwards."
+}
+
+### param mathematics | Statistics | MCQ 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "mean5",
+ "concept": "The arithmetic mean is $\\bar{x} = \\dfrac{\\sum x}{n}$.",
+ "unit_matched": true,
+ "unit_label": "Statistics: mean",
+ "kind": "mcq",
+ "question": "Find the arithmetic mean of $8, 9, 12, 25$ and $18$.",
+ "options": [
+  "$72$",
+  "$12$",
+  "$14.4$",
+  "$13.5$"
+ ],
+ "key": "c",
+ "explanation": "The arithmetic mean is $\\bar{x} = \\dfrac{\\sum x}{n}$. $\\bar{x} = \\dfrac{8+9+12+25+18}{5}$ $\\bar{x} = 14.4$",
+ "board": "BLE",
+ "level": "C8",
+ "subject": "mathematics",
+ "unit": "Statistics",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "param",
+  "law": "The arithmetic mean is $\\bar{x} = \\dfrac{\\sum x}{n}$."
+ }
+}
+
+### bank zoology | Respiratory System | NUMERICAL 
+{
+ "board": "CEE",
+ "level": "CEE",
+ "subject": "zoology",
+ "unit": "Microbial Diseases and Immunology",
+ "marks": 10,
+ "type": "LONG",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank"
+ },
+ "kind": "written",
+ "question": "Describe the causes, symptoms, diagnosis and prevention of typhoid, tuberculosis, HIV/AIDS, cholera, influenza, hepatitis and candidiasis.",
+ "parts": [],
+ "or_parts": [],
+ "rubric": ""
+}
+
+### param computer-science | Programming in Python | MCQ 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "hex2dec",
+ "concept": "A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$.",
+ "unit_matched": false,
+ "unit_label": "Number systems and data representation",
+ "kind": "mcq",
+ "question": "Convert the hexadecimal number $(86)_{16}$ to decimal.",
+ "options": [
+  "$48$",
+  "$134$",
+  "$70$",
+  "$104$"
+ ],
+ "key": "b",
+ "explanation": "A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$. $(86)_{16} = 8\\times16^{1}+6\\times16^{0}$ $= 134$",
+ "board": "SEE",
+ "level": "C10",
+ "subject": "computer-science",
+ "unit": "Number systems and data representation",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "param",
+  "law": "A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$."
+ }
+}
+
+### param electronic-device-and-circui | General | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "z_rl",
+ "concept": "The impedance of a series RL circuit is $Z = \\sqrt{R^{2} + X_L^{2}}$.",
+ "unit_matched": false,
+ "unit_label": "Alternating current",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State the impedance of a series RL circuit.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "A resistor of $30\\ \\Omega$ is connected in series with an inductor of reactance $80\\ \\Omega$ across an AC source. Find the impedance of the circuit.",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) The impedance of a series RL circuit is $Z = \\sqrt{R^{2} + X_L^{2}}$. (b) $Z = \\sqrt{R^{2}+X_L^{2}} = \\sqrt{30^{2}+80^{2}}$ $Z = 85.4\\ \\Omega$ Answer: $85.4\\ \\Omega$.",
+ "board": "IOE",
+ "level": "BE",
+ "subject": "electronic-device-and-circui",
+ "unit": "Alternating curr

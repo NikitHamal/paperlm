@@ -7,7 +7,7 @@
  "parity_cases": 278,
  "parity_failures": 0,
  "verifier_items": 900,
- "verifier_rejections_of_parametric_mcq": 102,
+ "verifier_rejections_of_parametric_mcq": 101,
  "examples_bad": [],
  "known_bad": [],
  "parity_bad": []

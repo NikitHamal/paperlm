@@ -5,7 +5,7 @@ import { gate } from "./ground.js";
 import { Parametric } from "./parametric.js";
 const NOSHUF = /\b(both|all of|none of|above|neither|either|only|a and b|a, b|a & b)\b|^\(?[a-d]\)?$/i;
 export class Composer {
-  constructor(engine, bank, templates) { this.e = engine; this.bank = bank; this.pm = new Parametric(templates); this.stats = { param: 0, lm: 0, bank: 0, lm_tries: 0, lm_gate_pass: 0, gate_rejects: {} }; }
+  constructor(engine, bank, templates) { this.e = engine; this.bank = bank; this.pm = new Parametric(templates); this.biasBeta = 2.5; this.stats = { param: 0, lm: 0, bank: 0, lm_tries: 0, lm_gate_pass: 0, gate_rejects: {} }; }
   get rand() { return this.e.rand; }
   facts(key, unit) { const f = this.bank.facts[key] || {}; let l = f[unit] || []; if (!l.length) { const lu = Object.keys(f).find((u) => u.toLowerCase().includes(unit.toLowerCase()) || unit.toLowerCase().includes(u.toLowerCase())); if (lu) l = f[lu]; } return l; }
   seeds(key, unit, marks, mcq) {
@@ -15,7 +15,7 @@ export class Composer {
     if (!l.length) { const lu = fz(s); if (lu) { u = lu; l = pick(s[lu]); } }
     if (!l.length) { const all = Object.entries(s).flatMap(([k, v]) => pick(v).map((x) => [k, x])); if (all.length) { const [k, x] = all[Math.floor(this.rand() * all.length)]; return [k, [x]]; } }
     if (!l.length && !mcq) { const w = Object.entries(s).flatMap(([k, v]) => v.filter((x) => x.c !== "mcq").map((x) => [k, x])); if (w.length) { const near = Math.min(...w.map(([, x]) => Math.abs(x.m - marks))); const c = w.filter(([, x]) => Math.abs(x.m - marks) === near); const [k, x] = c[Math.floor(this.rand() * c.length)]; return [k, [x]]; } }
-    if (!l.length) { const subj = key.split("|")[2]; const c = Object.entries(this.bank.seeds).filter(([k]) => k.split("|")[2] === subj && k !== key).flatMap(([, v]) => Object.entries(v).flatMap(([k2, arr]) => (mcq ? pick(arr) : arr.filter((x) => x.c !== "mcq" && Math.abs(x.m - marks) <= 2)).map((x) => [k2, x]))); if (c.length) { const [k, x] = c[Math.floor(this.rand() * c.length)]; return [k, [x]]; } }
+    if (!l.length) { const subj = key.split("|")[2]; const c = Object.entries(this.bank.seeds).filter(([k]) => (k.split("|")[2] === subj || k.split("|")[2].includes(subj) || subj.includes(k.split("|")[2])) && k !== key).flatMap(([, v]) => Object.entries(v).flatMap(([k2, arr]) => (mcq ? pick(arr) : arr.filter((x) => x.c !== "mcq" && Math.abs(x.m - marks) <= 2)).map((x) => [k2, x]))); if (c.length) { const [k, x] = c[Math.floor(this.rand() * c.length)]; return [k, [x]]; } }
     return [u, l];
   }
   fromSeed(s, unit, board, level, subject, typ) {
@@ -29,7 +29,7 @@ export class Composer {
     return { ...base, kind: "written", question: s.q, parts: mk(s.p), or_parts: mk(s.a), rubric: s.r || "" };
   }
   // opts: lmBudget (max LM attempts, 0 disables the LM tier), signal, temperature, rubric
-  async item({ board, level, subject, unit, marks, type, lmBudget = 8, signal, temperature = 0.75, rubric = true }) {
+  async item({ board, level, subject, unit, marks, type, lmBudget = 0, signal, temperature = 0.75, rubric = true, biasBeta = this.biasBeta }) {
     const key = `${board}|${level}|${subject}`, mcq = type === "MCQ" || marks <= 1, r = this.rand(); const canp = this.pm.canMake(subject, level); let order;
     if (type === "NUMERICAL") order = canp ? ["param", "lm", "bank"] : ["lm", "bank"];
     else if (mcq) order = canp && r < 0.45 ? ["param", "lm", "bank"] : ["lm", "bank", "param"];
@@ -46,9 +46,9 @@ export class Composer {
           const anc = fs[Math.floor(this.rand() * fs.length)];
           for (let k = 0; k < 4 && used < lmBudget; k++, used++) {
             if (signal && signal.aborted) throw new Error("aborted"); this.stats.lm_tries++; let it;
-            try { it = await this.e.generateItem({ board, level, subject, unit, marks, type, attempts: 1, temperature: Math.min(1, temperature - 0.05 + 0.05 * k), anchor: anc, rubric, signal }); } catch (e) { if (e.message === "aborted") throw e; continue; }
+            try { it = await this.e.generateItem({ board, level, subject, unit, marks, type, attempts: 1, temperature: Math.min(1, temperature - 0.05 + 0.05 * k), anchor: anc, rubric, signal, biasBeta }); } catch (e) { if (e.message === "aborted") throw e; continue; }
             const g = gate(it, anc);
-            if (g.ok) { this.stats.lm_gate_pass++; this.stats.lm++; return Object.assign(it, { provenance: { tier: "lm", anchor: anc, gate: { p: g.p, r: g.r } }, verified: true, source: "lm" }); }
+            if (g.ok) { this.stats.lm_gate_pass++; this.stats.lm++; return Object.assign(it, { provenance: { tier: "lm", anchor: anc, gate: { p: g.p, r: g.r } }, verified: false, experimental: true, source: "lm" }); }
             for (const x of g.issues) { const kx = x.replace(/:.*/, ""); this.stats.gate_rejects[kx] = (this.stats.gate_rejects[kx] || 0) + 1; }
           }
         }

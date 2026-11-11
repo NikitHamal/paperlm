@@ -1,0 +1,259 @@
+FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
+FAIL TU BCA model-papers General OR no verified item for TU|BCA|model-papers/General/8/OR
+FAIL CTEVT BSN child-health-nursing General CONCEPTUAL no verified item for CTEVT|BSN|child-health-nursing/General/5/CONCEPTUAL
+FAIL TU BCA model-papers General SHORT no verified item for TU|BCA|model-papers/General/5/SHORT
+FAIL NEB C12 compulsory-english General MCQ no verified item for NEB|C12|compulsory-english/General/1/MCQ
+{
+ "n": 60,
+ "ok": 55,
+ "fail": 5,
+ "tiers": {
+  "bank": 35,
+  "lm": 2,
+  "param": 18
+ },
+ "stats": {
+  "param": 18,
+  "lm": 2,
+  "bank": 35,
+  "lm_tries": 149,
+  "lm_gate_pass": 2,
+  "gate_rejects": {
+   "question off-topic for the anchor": 13,
+   "number not in anchor": 27,
+   "distractor b repeats an anchor figure": 2,
+   "explanation not grounded in the anchor": 9,
+   "anchor concept barely used": 15,
+   "rubric not grounded in the anchor": 60,
+   "repetitive wording": 46,
+   "symbol not in anchor": 4,
+   "key option not supported by the anchor": 6,
+   "distractor b is also supported by the anchor": 1,
+   "distractor c is also supported by the anchor": 1
+  }
+ },
+ "seconds": 193.629
+}
+
+### bank biology | The NEB Grade 12 Examination: Pattern, Grid and | MCQ 
+{
+ "board": "NEB",
+ "level": "C12",
+ "subject": "biology",
+ "unit": "Animal Tissues",
+ "marks": 1,
+ "type": "MCQ",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank"
+ },
+ "kind": "mcq",
+ "question": "A ligament connects",
+ "options": [
+  "muscle to muscle",
+  "skin to muscle",
+  "muscle to bone",
+  "bone to bone"
+ ],
+ "key": "d",
+ "explanation": "ligament is bone to bone; tendon is muscle to bone (option a)."
+}
+
+### lm english | Question Tags and Questions | NUMERICAL 
+{
+ "kind": "written",
+ "question": "The programme is a subject. Write a letter to the editor.",
+ "parts": [],
+ "or_parts": [],
+ "rubric": "The programme starts at ten, so it, not the subject is a subject, not a subject. It is a subject; the programme is the subject. — the subject is the subject, not the object, not the thing. — the thing is the subject — the subject, the subject, is the subject of the subject.",
+ "board": "NEB",
+ "level": "C12",
+ "subject": "english",
+ "unit": "Question Tags and Questions",
+ "marks": 4,
+ "type": "NUMERICAL",
+ "verify": {
+  "score": 0.8,
+  "anchor_hits": 0,
+  "concept_hits": 4
+ },
+ "attempts": 1,
+ "provenance": {
+  "tier": "lm",
+  "anchor": "The programme starts at ten, doesn't it? — the subject is a thing, so it, not isn't it.",
+  "gate": {
+   "p": 0.8,
+   "r": 0.8
+  }
+ },
+ "verified": true,
+ "source": "lm"
+}
+
+### lm english | General | CONCEPTUAL 
+{
+ "kind": "written",
+ "question": "Why is the difference between about 30 days?",
+ "parts": [],
+ "or_parts": [],
+ "rubric": "20 pages × 365 pages, over twenty books of about 300 pages, over six days.",
+ "board": "TU",
+ "level": "BCA",
+ "subject": "english",
+ "unit": "General",
+ "marks": 5,
+ "type": "CONCEPTUAL",
+ "verify": {
+  "score": 0.8,
+  "anchor_hits": 0,
+  "concept_hits": 7
+ },
+ "attempts": 1,
+ "provenance": {
+  "tier": "lm",
+  "anchor": "20 pages × 365 days is 7,300 pages, over twenty books of about 300 pages.",
+  "gate": {
+   "p": 1,
+   "r": 1
+  }
+ },
+ "verified": true,
+ "source": "lm"
+}
+
+### param computer-science | Database Management System | MCQ 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "bin2dec",
+ "concept": "A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two).",
+ "unit_matched": true,
+ "unit_label": "Number systems",
+ "kind": "mcq",
+ "question": "Convert the binary number $11111_{2}$ to decimal.",
+ "options": [
+  "$32$",
+  "$62$",
+  "$31$",
+  "$5$"
+ ],
+ "key": "c",
+ "explanation": "A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $1\\times16+1\\times8+1\\times4+1\\times2+1\\times1$ $= 31$",
+ "board": "NEB",
+ "level": "C12",
+ "subject": "computer-science",
+ "unit": "Database Management System",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "param",
+  "law": "A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two)."
+ }
+
+### param chemistry | Classification of Elements and Periodicity | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "ph_acid",
+ "concept": "$\\text{pH} = -\\log_{10}[\\text{H}^{+}]$.",
+ "unit_matched": true,
+ "unit_label": "Ionic equilibrium",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State pH.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "The hydrogen-ion concentration of a solution is $1\\times10^{-4}\\ \\text{mol L}^{-1}$. Calculate its pH.",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) $\\text{pH} = -\\log_{10}[\\text{H}^{+}]$. (b) $\\text{pH} = -\\log_{10}[\\text{H}^{+}] = -\\log_{10}(1\\times10^{-4})$ $\\text{pH} = 4$ Answer: $4$.",
+ "board": "CEE",
+ "level": "CEE",
+ "subject": "chemistry",
+ "unit": "Classification of Elements and Periodicity",
+ "marks": 4,
+ "type": "NUMERICAL",
+ "provenance": {
+  "tier": "param",
+  "law": "$\\text{pH} = -\\log_{10}[\\text{H}^{+}]$
+
+### param accountancy | Agencies Involved in Government Accounting | MCQ 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "depr",
+ "concept": "Straight-line depreciation $= \\dfrac{\\text{cost} - \\text{scrap value}}{\\text{useful life}}$.",
+ "unit_matched": true,
+ "unit_label": "Depreciation",
+ "kind": "mcq",
+ "question": "A machine costing Rs. $75000$ has an estimated scrap value of Rs. $25000$ and a useful life of $4$ years. Find the annual depreciation by the straight-line method.",
+ "options": [
+  "$12500\\ \\text{ rupees}$",
+  "$200000\\ \\text{ rupees}$",
+  "$25000\\ \\text{ rupees}$",
+  "$10000\\ \\text{ rupees}$"
+ ],
+ "key": "a",
+ "explanation": "Straight-line depreciation $= \\dfrac{\\text{cost} - \\text{scrap value}}{\\text{useful life}}$. $\\dfrac{\\text{Cost}-\\text{Scrap}}{\\text{Life}} = \\dfrac{75000-25000}{4}$ Annual depreciation $= \\text{Rs. }12500$",
+ "board": "SEE",
+ "level": "C10",
+ "subject": "accountancy",
+ "unit": "Agencies Invol
+
+### bank english | Passage 1 — General English | NUMERICAL 
+{
+ "board": "IOE",
+ "level": "IOE",
+ "subject": "english",
+ "unit": "Phonetics",
+ "marks": 10,
+ "type": "LONG",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank"
+ },
+ "kind": "written",
+ "question": "Explain syllables, word stress and sentence stress, with rules and examples.",
+ "parts": [],
+ "or_parts": [],
+ "rubric": ""
+}
+
+### param science | Chemical Reaction | MCQ 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "power_wt",
+ "concept": "Power is the rate of doing work, $P = \\dfrac{W}{t}$.",
+ "unit_matched": false,
+ "unit_label": "Work, energy and power",
+ "kind": "mcq",
+ "question": "A machine does $3600\\ \\text{J}$ of work in $60\\ \\text{s}$. What is its power output?",
+ "options": [
+  "$30\\ \\text{W}$",
+  "$60\\ \\text{W}$",
+  "$600\\ \\text{W}$",
+  "$120\\ \\text{W}$"
+ ],
+ "key": "b",
+ "explanation": "Power is the rate of doing work, $P = \\dfrac{W}{t}$. $P = \\dfrac{W}{t} = \\dfrac{3600}{60}$ $P = 60\\ \\text{W}$",
+ "board": "SEE",
+ "level": "C10",
+ "subject": "science",
+ "unit": "Work, energy and power",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "param",
+  "law": "Power is the rate of doing work, $P = \\dfrac{W}{t}$."
+ }
+}

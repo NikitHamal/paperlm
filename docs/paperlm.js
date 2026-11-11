@@ -156,10 +156,11 @@ export class PaperLM {
     const p = new PaperLM(ort, session, new Tok(tokenizer), syllabus, seed);
     if (lexicon) for (const [k, v] of Object.entries(lexicon)) p.lexicons.set(k, new Set(v)); return p;
   }
+  biased(l) { if (this.bias && this.biasBeta) for (const i of this.bias) l[i] += this.biasBeta; return l; } // copy-bias: nudge decoding toward tokens of the verified anchor
   async step(ids, st) {
     const o = this.ort, P = st ? st.P : 0, z = new Float32Array(0);
     const feeds = { ids: new o.Tensor("int64", BigInt64Array.from(ids.map(BigInt)), [1, ids.length]), past_k: new o.Tensor("float32", st ? st.k : z, [this.L, 1, this.H, P, this.D]), past_v: new o.Tensor("float32", st ? st.v : z, [this.L, 1, this.H, P, this.D]) };
-    const t0 = performance.now(); const r = await this.s.run(feeds); this.stats.ms += performance.now() - t0; this.stats.tokens += ids.length === 1 ? 1 : 0; return { logits: r.logits.data.subarray(r.logits.data.length - this.tok.n), st: { k: r.present_k.data, v: r.present_v.data, P: P + ids.length } };
+    const t0 = performance.now(); const r = await this.s.run(feeds); this.stats.ms += performance.now() - t0; this.stats.tokens += ids.length === 1 ? 1 : 0; return { logits: this.biased(r.logits.data.subarray(r.logits.data.length - this.tok.n)), st: { k: r.present_k.data, v: r.present_v.data, P: P + ids.length } };
   }
   header(b, l, s, u, m, t) { const sid = this.tok.special.has(`<|subj=${s}|>`) ? `<|subj=${s}|>` : "<|subj=general|>"; return `<|bos|><|board=${b}|><|level=${l}|>${sid}<|unit|>${u}<|marks=${m}|><|type=${t}|>`; }
   newState(typ, marks, wantSol) { return { typ, marks, wantSol, mcq: typ === "MCQ", sec: "q", t: new TextSt(), opts: [], key: "", why: "", q: "", parts: [], alt: [], inAlt: false, pm: "", sol: "", done: false, seen4: new Set(), recent: [] }; }
@@ -252,7 +253,11 @@ export class PaperLM {
     if (!v.ok) { for (const r of v.issues) this.stats.rejects[r] = (this.stats.rejects[r] || 0) + 1; return null; }
     item.verify = { score: v.score, anchor_hits: v.anchor.hits, concept_hits: v.anchor.lex }; return item;
   }
-  async generateItem({ board, level, subject, unit, marks, type, rubric = true, attempts = 12, temperature = 0.75, topP = 0.92, candidates = 1, signal, anchor = null }) {
+  async generateItem({ board, level, subject, unit, marks, type, rubric = true, attempts = 12, temperature = 0.75, topP = 0.92, candidates = 1, signal, anchor = null, biasBeta = 0 }) {
+    this.bias = anchor && biasBeta ? new Set(this.tok.encode(anchor).filter((i) => !this.tok.isSpecial[i])) : null; this.biasBeta = biasBeta;
+    try { return await this._generateItem({ board, level, subject, unit, marks, type, rubric, attempts, temperature, topP, candidates, signal, anchor }); } finally { this.bias = null; }
+  }
+  async _generateItem({ board, level, subject, unit, marks, type, rubric, attempts, temperature, topP, candidates, signal, anchor }) {
     const hid = this.tok.encode(this.header(board, level, subject, unit, marks, type) + (anchor ? `<|book|>${anchor}` : "")); let best = null, found = 0;
     for (let a = 0; a < attempts; a++) {
       if (signal && signal.aborted) throw new ItemGenerationError("aborted"); this.stats.attempts++;

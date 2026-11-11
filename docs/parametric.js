@@ -4,6 +4,7 @@
 const ENVF = { sqrt: Math.sqrt, sin: Math.sin, cos: Math.cos, tan: Math.tan, atan: Math.atan, ln: Math.log, log10: Math.log10, exp: Math.exp, abs: Math.abs, pi: Math.PI, rad: (d) => (d * Math.PI) / 180,
   comb: (n, k) => { if (k < 0 || k > n) return 0; let r = 1; for (let i = 1; i <= k; i++) r = (r * (n - k + i)) / i; return Math.round(r); },
   perm: (n, k) => { let r = 1; for (let i = 0; i < k; i++) r *= n - i; return r; }, fact: (n) => { let r = 1; for (let i = 2; i <= n; i++) r *= i; return r; }, max: Math.max, min: Math.min, ceil: Math.ceil, floor: Math.floor };
+const GENERIC = new Set(["system", "equation", "calculation", "concept", "general", "basic", "introduction", "theory", "number", "formula", "law", "analysis", "principle", "application", "problem", "fundamental", "motion", "wave", "light", "heat", "power"]);
 const FILL = [2, 0.5, 10, 0.1, 1.5, 3, 0.25, 4, 0.2, 5];
 const cache = new Map();
 export class Parametric {
@@ -27,10 +28,11 @@ export class Parametric {
     if (a >= 1e6 || a < 1e-4) { let [m, e] = r.toExponential(sig - 1).split("e"); if (m.includes(".")) m = m.replace(/0+$/, "").replace(/\.$/, ""); return `${m}\\times10^{${parseInt(e, 10)}}`; }
     return String(r);
   }
+  static words(s) { return new Set((String(s).toLowerCase().match(/[a-z]{4,}/g) || []).map((w) => w.replace(/s$/, "")).filter((w) => !GENERIC.has(w))); }
+  unitMatch(t, unit) { const uw = Parametric.words(unit); if (!uw.size) return false; return [...Parametric.words(t.unit)].some((w) => uw.has(w)) || t.kw.some((k) => { const kw = [...Parametric.words(k)]; return kw.length > 0 && kw.every((w) => uw.has(w)); }); }
   pick(subject, level, unit, rand, exclude = []) {
     const doms = this.domainsFor(subject); const pool = this.lib.templates.filter((t) => t.dom.split(" ").some((d) => doms.includes(d)) && this.levelOk(t, level) && !exclude.includes(t.id));
-    if (!pool.length) return [null, false]; const u = (unit || "").toLowerCase();
-    const m = pool.filter((t) => u && (t.kw.some((k) => u.includes(k)) || u.includes(t.unit.toLowerCase()) || t.unit.toLowerCase().includes(u))); const c = m.length ? m : pool;
+    if (!pool.length) return [null, false]; const m = pool.filter((t) => this.unitMatch(t, unit)); const c = m.length ? m : pool;
     return [c[Math.floor(rand() * c.length)], m.length > 0];
   }
   shuffle(a, rand) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } }

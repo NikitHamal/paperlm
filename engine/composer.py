@@ -8,7 +8,7 @@ NOSHUF = re.compile(r"\b(both|all of|none of|above|neither|either|only|a and b|a
 class Composer:
     def __init__(self, engine, bank_path, seed=0):
         self.e = engine; self.bank = json.load(open(bank_path, encoding="utf-8")); self.rng = random.Random(seed)
-        self.stats = dict(param=0, lm=0, bank=0, lm_tries=0, lm_gate_pass=0, gate_rejects={})
+        self.beta = 2.5; self.stats = dict(param=0, lm=0, bank=0, lm_tries=0, lm_gate_pass=0, gate_rejects={})
 
     def facts(self, key, unit):
         f = self.bank["facts"].get(key, {}); l = f.get(unit, [])
@@ -37,7 +37,7 @@ class Composer:
         mk = lambda ps: [dict(label=l or chr(97 + i), text=t, marks=m) for i, (l, t, m) in enumerate(ps)]
         return dict(base, kind="written", question=s["q"], parts=mk(s.get("p", [])), or_parts=mk(s.get("a", [])), rubric=s.get("r", ""))
 
-    def item(self, board, level, subject, unit, marks, typ, use_lm=True):
+    def item(self, board, level, subject, unit, marks, typ, use_lm=False):
         key = f"{board}|{level}|{subject}"; mcq = typ == "MCQ" or marks <= 1; r = self.rng.random()
         canp = bool(PM.domains_for(subject)) and any(PM.level_ok(t, level) and set(t["dom"].split()) & set(PM.domains_for(subject)) for t in PM.LIB["templates"])
         if typ == "NUMERICAL": order = ["param", "lm", "bank"] if canp else ["lm", "bank"]
@@ -55,11 +55,11 @@ class Composer:
                     anc = self.rng.choice(fs)
                     for k in range(4):
                         self.stats["lm_tries"] += 1
-                        try: it = self.e.generate_item(board, level, subject, unit, marks, typ, attempts=1, temperature=min(1.0, 0.7 + 0.05 * k), anchor=anc)
+                        try: it = self.e.generate_item(board, level, subject, unit, marks, typ, attempts=1, temperature=min(1.0, 0.7 + 0.05 * k), anchor=anc, bias_beta=self.beta)
                         except Exception: continue
                         g = GR.gate(it, anc)
                         if g["ok"]:
-                            self.stats["lm_gate_pass"] += 1; self.stats["lm"] += 1; it.update(provenance=dict(tier="lm", anchor=anc, gate=dict(p=g["p"], r=g["r"])), verified=True, source="lm"); return it
+                            self.stats["lm_gate_pass"] += 1; self.stats["lm"] += 1; it.update(provenance=dict(tier="lm", anchor=anc, gate=dict(p=g["p"], r=g["r"])), verified=False, experimental=True, source="lm"); return it
                         for x in g["issues"]: kx = re.sub(r":.*", "", x); self.stats["gate_rejects"][kx] = self.stats["gate_rejects"].get(kx, 0) + 1
             elif tier == "bank":
                 u, l = self.seeds(key, unit, marks, mcq)

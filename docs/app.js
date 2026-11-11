@@ -24,7 +24,7 @@ function loadScript(src) { return new Promise((res, rej) => { const s = document
 const setLoad = (p, msg) => { $("load-bar").style.width = Math.round(p * 100) + "%"; $("load-msg").textContent = msg; };
 
 // ---------------------------------------------------------------- rendering
-const TIER = { param: ["Computed and verified", "Every number, unit, key and solution is computed by the symbolic engine from a verified law."], bank: ["Gold exam bank", "A verified past-paper style item from the syllabus bank."], lm: ["Neural, grounded and gated", "Written by PaperLM from a verified concept anchor and accepted by the strict factual gate."] };
+const TIER = { param: ["Computed and verified", "Every number, unit, key and solution is computed by the symbolic engine from a verified law."], bank: ["Gold exam bank", "A verified past-paper style item from the syllabus bank."], lm: ["Neural draft (experimental)", "Written by the 10M model from a verified concept anchor. It passes the lexical grounding gate but its meaning is NOT verified: review before use."] };
 const tierChip = (it) => { const t = (it.provenance && it.provenance.tier) || "lm"; const c = h("span", "chip t", esc(TIER[t][0])); c.title = TIER[t][1]; return c; };
 const provNote = (it) => { const p = it.provenance || {}; if (p.tier === "lm") return h("div", "prov", `<b>Concept anchor:</b> ${math(esc(p.anchor))}`); if (p.tier === "param") return h("div", "prov", `<b>Law used:</b> ${math(p.law || "")}`); return null; };
 function mcqCard(it, { interactive = true, onAnswer } = {}) {
@@ -150,7 +150,7 @@ async function mcqLoop(c) {
 async function paper(c, o) {
   const out = $("out"); out.innerHTML = ""; out.classList.add("hidden-ans"); $("keytoggle").textContent = "Show answers";
   const bp = bpFor(c.level); const total = bp.reduce((a, [, , m, n]) => a + m * n, 0);
-  const head = h("div", "paper-h", `<h2>${esc(c.entry.label)}: ${esc(prettySubject(c.subject))} model paper</h2><p>Full marks ${total}. Composed in your browser by PaperLM-Tiny ${esc(S.meta.version)}: every item is computed, taken from the verified bank, or neural and gated.</p>`); out.append(head);
+  const head = h("div", "paper-h", `<h2>${esc(c.entry.label)}: ${esc(prettySubject(c.subject))} model paper</h2><p>Full marks ${total}. Composed in your browser by PaperLM-Tiny ${esc(S.meta.version)}: every item is computed by the symbolic engine or taken from the verified gold bank (neural drafts only if you enable them).</p>`); out.append(head);
   const secEls = {}; let n = 0; const totalQ = bp.reduce((a, [, , , k]) => a + k, 0); const prog = h("div", "empty", "Generating 0 / " + totalQ); out.append(prog);
   for (const [g, typ, marks, count] of bp) {
     const sh = h("div", "sec-h", `<h2>Group ${g}</h2><span>${count} x ${marks} = ${count * marks} marks, ${esc(TYPE_LABEL[typ] || typ)}</span>`); const body = h("div", "out"); secEls[g] = body; out.insertBefore(sh, prog); out.insertBefore(body, prog);

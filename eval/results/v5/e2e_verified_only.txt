@@ -1,0 +1,32 @@
+  "law": "A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$."
+ }
+}
+
+### param electronic-device-and-circui | General | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "z_rl",
+ "concept": "The impedance of a series RL circuit is $Z = \\sqrt{R^{2} + X_L^{2}}$.",
+ "unit_matched": false,
+ "unit_label": "Alternating current",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State the impedance of a series RL circuit.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "A resistor of $30\\ \\Omega$ is connected in series with an inductor of reactance $80\\ \\Omega$ across an AC source. Find the impedance of the circuit.",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) The impedance of a series RL circuit is $Z = \\sqrt{R^{2} + X_L^{2}}$. (b) $Z = \\sqrt{R^{2}+X_L^{2}} = \\sqrt{30^{2}+80^{2}}$ $Z = 85.4\\ \\Omega$ Answer: $85.4\\ \\Omega$.",
+ "board": "IOE",
+ "level": "BE",
+ "subject": "electronic-device-and-circui",
+ "unit": "Alternating curr

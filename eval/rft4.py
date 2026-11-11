@@ -10,7 +10,7 @@ ap = argparse.ArgumentParser(); ap.add_argument("mode"); ap.add_argument("--ckpt
 ap.add_argument("--per", type=int, default=400); ap.add_argument("--out", required=True); ap.add_argument("--split", default="train"); ap.add_argument("--dest", default="/tmp/paperlm/gold4/stageR.txt")
 ap.add_argument("--replay", default="/tmp/paperlm/gold4/stage4_clean.txt"); ap.add_argument("--bank", default="/tmp/paperlm/gold4/concept_bank.json"); ap.add_argument("--val", default="/tmp/paperlm/gold4/val.txt")
 ap.add_argument("--tok", default="/tmp/paperlm/tok/paperlm_tokenizer.json"); ap.add_argument("--lex", default="/tmp/paperlm/gold2/lexicon.json"); ap.add_argument("--temp", type=float, default=0.75)
-ap.add_argument("--label", default="v4"); ap.add_argument("--tries", type=int, default=6)
+ap.add_argument("--label", default="v4"); ap.add_argument("--tries", type=int, default=6); ap.add_argument("--beta", type=float, default=2.5)
 a = ap.parse_args(); os.makedirs(a.out, exist_ok=True)
 H = re.compile(r"<\|board=(\w+)\|><\|level=(\w+)\|><\|subj=([^|]+)\|><\|unit\|>(.*?)<\|marks=(\d+)\|><\|type=(\w+)\|><\|book\|>(.*?)<\|q\|>")
 if a.mode == "gen":
@@ -31,7 +31,7 @@ if a.mode == "gen":
         won = False
         for k in range(a.tries):
             raw["attempts"] += 1
-            try: it = eng.generate_item(b, lv, sj, u, int(m), t, attempts=1, temperature=min(1.0, a.temp + 0.05 * k), anchor=anc)
+            try: it = eng.generate_item(b, lv, sj, u, int(m), t, attempts=1, temperature=min(1.0, a.temp + 0.05 * k), anchor=anc, bias_beta=a.beta)
             except PS.ItemGenerationError: raw["dead_end_or_verify_reject"] += 1; continue
             raw["structurally_valid"] += 1; g = GR.gate(it, anc)
             for x in g["issues"]: iss[re.sub(r"[: ].*", "", x) if x.startswith("number") else x[:48]] += 1

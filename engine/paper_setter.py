@@ -263,7 +263,9 @@ class Engine:
 
     # ---- sampling ----
     def sample(self, logits, valid, temperature, top_p, st):
-        lg = logits.astype(np.float64) / max(temperature, 1e-4)
+        lg = logits.astype(np.float64)
+        if getattr(self, 'bias_ids', None) is not None and self.bias_beta: lg[self.bias_ids] += self.bias_beta  # copy-bias toward the verified anchor
+        lg = lg / max(temperature, 1e-4)
         idx = np.argsort(-lg)
         cand = []
         for rank, i in enumerate(idx[:96]):
@@ -328,9 +330,12 @@ class Engine:
         sid = f"<|subj={subj}|>" if f"<|subj={subj}|>" in self.T.id else "<|subj=general|>"
         return f"<|bos|><|board={board}|><|level={level}|>{sid}<|unit|>{unit}<|marks={marks}|><|type={typ}|>"
 
-    def generate_item(self, board, level, subj, unit, marks, typ, want_rubric=True, attempts=8, temperature=0.75, top_p=0.92, anchor=None):
+    def generate_item(self, board, level, subj, unit, marks, typ, want_rubric=True, attempts=8, temperature=0.75, top_p=0.92, anchor=None, bias_beta=0.0):
         h = self.header(board, level, subj, unit, marks, typ) + (f"<|book|>{anchor}" if anchor else "")
         hid = self.tok.encode(h).ids
+        self.bias_beta = bias_beta; self.bias_ids = None
+        if anchor and bias_beta:
+            ids = sorted({i for i in self.tok.encode(anchor).ids if not (self.tok.id_to_token(i) or '').startswith('<|')}); self.bias_ids = np.array(ids, dtype=np.int64) if ids else None
         last = "no valid sample"
         for a in range(attempts):
             temp = min(1.1, temperature + 0.04 * a)

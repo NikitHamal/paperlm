@@ -62,12 +62,23 @@ def rnd(x, sig):
     return math.copysign(float(d.quantize(q, rounding=ROUND_HALF_UP)), x)
 
 
+GENERIC = {"system", "equation", "calculation", "concept", "general", "basic", "introduction", "theory", "number", "formula", "law", "analysis", "principle", "application", "problem", "fundamental", "motion", "wave", "light", "heat", "power"}
+
+
+def uwords(s): return {re.sub(r"s$", "", w) for w in re.findall(r"[a-z]{4,}", str(s).lower())} - GENERIC
+
+
+def unit_match(t, unit):
+    uw = uwords(unit)
+    if not uw: return False
+    return bool(uwords(t["unit"]) & uw) or any((lambda kw: kw and kw <= uw)(uwords(k)) for k in t["kw"])
+
+
 def pick_template(subject, level, unit="", rng=None, exclude=()):
     doms = domains_for(subject)
     pool = [t for t in LIB["templates"] if set(t["dom"].split()) & set(doms) and level_ok(t, level) and t["id"] not in exclude]
     if not pool: return None, False
-    u = (unit or "").lower(); m = [t for t in pool if u and (any(k in u for k in t["kw"]) or t["unit"].lower() in u or u in t["unit"].lower())]
-    c = m or pool
+    m = [t for t in pool if unit_match(t, unit)]; c = m or pool
     return c[int(rng.random() * len(c))], bool(m)
 
 
