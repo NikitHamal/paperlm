@@ -1,0 +1,49 @@
+{
+ "label": "v2",
+ "ckpt": "/tmp/paperlm/ckpt2/best_v2.pt",
+ "raw": {
+  "n_prompts": 240,
+  "constraint dead-end rate": 0.046,
+  "raw verifier pass rate": 0.664,
+  "arithmetic error rate": 0.111,
+  "MCQ key-mismatch rate": 0.279,
+  "MCQ option-inhomogeneity rate": 0.217,
+  "concept-anchor rate": 0.903,
+  "verbatim copy of training stem": 0.018,
+  "distinct stems": 0.996,
+  "raw seconds/item": 0.85
+ },
+ "full": {
+  "full-engine success rate": 1.0,
+  "mean attempts to verified item": 1.77,
+  "full seconds/item": 0.75
+ },
+ "raw_issue_counts": {
+  "explanation names a different option": 32,
+  "arithmetic error": 25,
+  "numeric duplicates": 16,
+  "option units differ": 8,
+  "some options lack the unit": 8,
+  "option kinds differ ": 6,
+  "question too short": 5,
+  "written item too short": 4,
+  "computed value matches option d, key": 4,
+  "option length mismatch": 3,
+  "computed value matches option c, key": 2,
+  "computed value matches option b, key": 2
+ },
+ "engine_rejects": {
+  "arithmetic error": 21,
+  "explanation names a different option tha": 13,
+  "some options lack the unit": 6,
+  "computed value matches option d, key is ": 5,
+  "option kinds differ ": 5,
+  "numeric duplicates": 4,
+  "question too short": 4,
+  "option length mismatch": 4,
+  "computed value matches option b, key is ": 2,
+  "computed value matches option c, key is ": 2
+ },
+ "val_loss": 2.195573924802461,
+ "val_clean": 2.206328670523405
+}

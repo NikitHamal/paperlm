@@ -1,0 +1,16 @@
+{
+ "params": 9875520,
+ "val_fp32": 2.2541292283298096,
+ "val_fp16": 2.254121435138314,
+ "val_int8": 2.254202071407036,
+ "onnx_vs_torch_maxdiff": 1.1444091796875e-05,
+ "onnx_empty_cache_maxdiff": 1.52587890625e-05,
+ "size_MB_bench": 0.0,
+ "size_MB_final_choice.json": 0.0,
+ "size_MB_paperlm_tiny_fp32.safetensors": 39.51,
+ "size_MB_paperlm_tiny_fp16.safetensors": 19.76,
+ "size_MB_paperlm_tiny_int8.safetensors": 10.01,
+ "size_MB_paperlm_tiny_int8.onnx": 10.43,
+ "ppl_fp32": 9.526993860852405,
+ "ppl_int8": 9.52768786167822
+}
