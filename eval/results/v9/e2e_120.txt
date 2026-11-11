@@ -1,0 +1,278 @@
+FAIL CTEVT BSN family-and-reproductive-heal General SHORT no verified item for CTEVT|BSN|family-and-reproductive-heal/General/5/SHORT
+FAIL TU BCA model-papers General OR no verified item for TU|BCA|model-papers/General/8/OR
+FAIL TU BCA model-papers General NUMERICAL no verified item for TU|BCA|model-papers/General/4/NUMERICAL
+FAIL TU BCA model-papers General CONCEPTUAL no verified item for TU|BCA|model-papers/General/5/CONCEPTUAL
+FAIL TU BCA model-papers General OR no verified item for TU|BCA|model-papers/General/8/OR
+{
+ "n": 120,
+ "ok": 115,
+ "fail": 5,
+ "tiers": {
+  "fact": 51,
+  "param": 42,
+  "bank": 21,
+  "reason": 1
+ },
+ "stats": {
+  "param": 42,
+  "fact": 51,
+  "reason": 1,
+  "lm": 0,
+  "bank": 21,
+  "lm_tries": 0,
+  "lm_gate_pass": 0,
+  "gate_rejects": {}
+ },
+ "seconds": 0.06
+}
+
+### fact biology | Human Population and Health Disorders | MCQ 
+{
+ "source": "fact",
+ "verified": true,
+ "kind": "mcq",
+ "question": "Which pathogen causes typhoid?",
+ "options": [
+  "the bacterium Salmonella typhi",
+  "the bacterium Vibrio cholerae",
+  "a dermatophytic fungus",
+  "the rabies virus"
+ ],
+ "key": "a",
+ "explanation": "Typhoid is caused by Salmonella typhi. Therefore the correct answer is the bacterium Salmonella typhi.",
+ "topic": "Diseases and pathogens",
+ "fact_id": "bio.disease",
+ "fact_src": "NEB/CEE biology: human diseases",
+ "fact_row": 4,
+ "fact_dir": "forward",
+ "unit_matched": true,
+ "unit_label": null,
+ "board": "NEB",
+ "level": "C12",
+ "subject": "biology",
+ "unit": "Human Population and Health Disorders",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "fact",
+  "fact_id": "bio.disease",
+  "topic": "Diseases and pathogens",
+  "src": "NEB/CEE biology: human diseases"
+ }
+}
+
+### param computer-science | Information and Communication Technology | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "subnet",
+ "concept": "An IPv4 subnet with prefix length $/p$ has $2^{32-p}-2$ usable hosts (network and broadcast addresses excluded).",
+ "unit_matched": false,
+ "unit_label": "Computer networks",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State the number of usable hosts in a subnet.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "How many usable host addresses are available in an IPv4 subnet with prefix length $/25$?",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) An IPv4 subnet with prefix length $/p$ has $2^{32-p}-2$ usable hosts (network and broadcast addresses excluded). (b) $2^{32-25} - 2 = 2^{7} - 2$ Usable hosts $= 126$ Answer: $126$.",
+ "board": "BLE",
+ "level": "C8",
+ "subject": "computer-science",
+ "unit": "Computer networks",
+ "marks": 4,
+ "type":
+
+### bank model-papers | General | MCQ 
+{
+ "board": "TU",
+ "level": "BCA",
+ "subject": "model-papers",
+ "unit": "General",
+ "marks": 1,
+ "type": "MCQ",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank",
+  "judged": true,
+  "x": false
+ },
+ "kind": "mcq",
+ "question": "The passive of \"Someone is repairing the road\" is",
+ "options": [
+  "The road is repaired.",
+  "The road is being repaired.",
+  "The road was being repaired.",
+  "The road has been repaired."
+ ],
+ "key": "b",
+ "explanation": "present continuous passive."
+}
+
+### param mathematics | Algebra | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "quad_root",
+ "concept": "A quadratic $x^{2} - (\\alpha+\\beta)x + \\alpha\\beta = 0$ has roots $\\alpha$ and $\\beta$.",
+ "unit_matched": true,
+ "unit_label": "Quadratic equations",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State the relation between the roots and coefficients of a quadratic equation.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "Find the larger root of the equation $x^{2} - 7x + 10 = 0$.",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) A quadratic $x^{2} - (\\alpha+\\beta)x + \\alpha\\beta = 0$ has roots $\\alpha$ and $\\beta$. (b) The equation factorises as $(x-5)(x-2) = 0$. The larger root is $x = 5$. Answer: $5$.",
+ "board": "IOE",
+ "level": "IOE",
+ "subject": "mathematics",
+ "unit": "Algebra",
+ "marks": 4,
+ "type": "NUMERICAL",
+ "proven
+
+### fact child-health-nursing | General | MCQ 
+{
+ "source": "fact",
+ "verified": true,
+ "kind": "mcq",
+ "question": "Which of the following is the meaning of a respiratory rate below 12 breaths per minute in an adult?",
+ "options": [
+  "oliguria",
+  "dyspnoea",
+  "bradypnoea",
+  "tachycardia"
+ ],
+ "key": "c",
+ "explanation": "Bradypnoea is a respiratory rate below 12 breaths per minute in an adult. Therefore the correct answer is bradypnoea.",
+ "topic": "Medical terminology",
+ "fact_id": "nur.term",
+ "fact_src": "CTEVT nursing and health science: medical terminology",
+ "fact_row": 3,
+ "fact_dir": "forward",
+ "unit_matched": true,
+ "unit_label": null,
+ "board": "CTEVT",
+ "level": "BSN",
+ "subject": "child-health-nursing",
+ "unit": "General",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "fact",
+  "fact_id": "nur.term",
+  "topic": "Medical terminology",
+  "src": "CTEVT nursing and health science: medical terminology"
+ }
+}
+
+### param geriatric-nursing | General | NUMERICAL 
+{
+ "source": "parametric",
+ "verified": true,
+ "tpl": "co",
+ "concept": "Cardiac output is $CO = HR\\times SV$.",
+ "unit_matched": false,
+ "unit_label": "Cardiovascular assessment",
+ "kind": "written",
+ "question": "Answer the following:",
+ "parts": [
+  {
+   "label": "a",
+   "text": "State cardiac output.",
+   "marks": 1
+  },
+  {
+   "label": "b",
+   "text": "A patient has a heart rate of $100$ beats per minute and a stroke volume of $80\\ \\text{mL}$ per beat. Calculate the cardiac output.",
+   "marks": 3
+  }
+ ],
+ "or_parts": [],
+ "rubric": "(a) Cardiac output is $CO = HR\\times SV$. (b) $CO = HR\\times SV = 100\\times80\\ \\text{mL min}^{-1}$ $CO = 8\\ \\text{L min}^{-1}$ Answer: $8\\ \\text{L min}^{-1}$.",
+ "board": "CTEVT",
+ "level": "BSN",
+ "subject": "geriatric-nursing",
+ "unit": "Cardiovascular assessment",
+ "marks": 4,
+ "type": "NUMERICAL",
+ "provenance": {
+  "tier": "param",
+  "l
+
+### fact chemistry | Inorganic Chemistry | MCQ 
+{
+ "source": "fact",
+ "verified": true,
+ "kind": "mcq",
+ "question": "Which of the following is the common name of calcium hydroxide, $\\text{Ca(OH)}_{2}$?",
+ "options": [
+  "slaked lime",
+  "caustic soda",
+  "chloroform",
+  "hypo"
+ ],
+ "key": "a",
+ "explanation": "Calcium hydroxide is known as slaked lime. Therefore the correct answer is slaked lime.",
+ "topic": "Common and chemical names",
+ "fact_id": "chem.trivial_name",
+ "fact_src": "NEB/CEE chemistry: common and chemical names",
+ "fact_row": 2,
+ "fact_dir": "forward",
+ "unit_matched": true,
+ "unit_label": null,
+ "board": "IOE",
+ "level": "IOE",
+ "subject": "chemistry",
+ "unit": "Inorganic Chemistry",
+ "marks": 1,
+ "type": "MCQ",
+ "provenance": {
+  "tier": "fact",
+  "fact_id": "chem.trivial_name",
+  "topic": "Common and chemical names",
+  "src": "NEB/CEE chemistry: common and chemical names"
+ }
+}
+
+### bank english | What is Poverty? | NUMERICAL 
+{
+ "board": "NEB",
+ "level": "C11",
+ "subject": "english",
+ "unit": "Scientific Research is a Token of Humankind's Survival",
+ "marks": 5,
+ "type": "SHORT",
+ "source": "bank",
+ "verified": true,
+ "provenance": {
+  "tier": "bank",
+  "judged": false,
+  "x": false
+ },
+ "kind": "written",
+ "question": "How does the essayist justify that scientific research is the token of humankind's survival?",
+ "parts": [],
+ "or_parts": [],
+ "rubric": "The word token in the title means a sign and a guarantee — something that both shows survival is possible and helps bring it about. Keilis-Borok justifies the claim in three stages."
+}
