@@ -140,6 +140,14 @@ async function paper(c, o) {
   prog.textContent = `Done: ${totalQ} questions, ${total} marks, ${((performance.now() - t0) / 1000).toFixed(0)} s on this device.`;
 }
 
+function renderQuality(meta) {
+  const q = meta.benchmark; if (!q || !q.current) return; const el = $("quality"); el.hidden = false; const prev = q.previous || {}, cur = q.current;
+  const better = { "raw verifier pass rate": 1, "concept-anchor rate": 1, "distinct stems": 1, "full-engine success rate": 1 };
+  const pct = (k, v) => (typeof v === "number" && v <= 1 && !/seconds|attempts/.test(k) ? (v * 100).toFixed(1) + "%" : v);
+  const rows = Object.keys(cur).map((k) => `<tr><td>${esc(k)}</td><td>${prev[k] === undefined ? "-" : pct(k, prev[k])}</td><td><b>${pct(k, cur[k])}</b></td></tr>`).join("");
+  el.innerHTML = `<h2>Model quality by iteration</h2><p class="note">${esc(meta.notes || "")}</p><div class="tw"><table><thead><tr><th>Metric (raw first sample, verifier off)</th><th>${esc(q.previous_label || "previous")}</th><th>${esc(meta.version)}</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+
 // ---------------------------------------------------------------- boot
 async function fetchModel(url) {
   const r = await fetch(url); const len = +r.headers.get("content-length") || 10434064; const rd = r.body.getReader(); const chunks = []; let got = 0;
@@ -151,7 +159,7 @@ async function boot() {
   $("f-temp").addEventListener("input", () => ($("v-temp").textContent = $("f-temp").value)); $("f-cand").addEventListener("input", () => ($("v-cand").textContent = $("f-cand").value));
   const [cat, meta, syl, tok] = await Promise.all([fetch("model/catalog.json").then((r) => r.json()), fetch("model/meta.json?" + Date.now()).then((r) => r.json()), fetch("model/syllabus.json").then((r) => r.json()), fetch("model/tokenizer.json").then((r) => r.json())]);
   S.cat = cat; S.meta = meta; $("b-ver").textContent = meta.version; $("b-loss").textContent = `val loss ${meta.val_loss.toFixed(2)}, ppl ${meta.perplexity.toFixed(1)}`;
-  document.title = `PaperLM ${meta.version} playground`;
+  document.title = `PaperLM ${meta.version} playground`; renderQuality(meta);
   fillSelect($("f-preset"), Object.entries(cat).map(([k, e]) => [k, e.label])); $("f-preset").value = "NEB|C12";
   $("f-preset").addEventListener("change", () => { refreshSubjects(); setMode(S.mode); }); $("f-subject").addEventListener("change", () => { refreshUnits(); if (S.mode === "paper") paperInfo(); }); $("f-type").addEventListener("change", refreshMarks);
   $("f-count").addEventListener("change", () => S.mode === "paper" && paperInfo());

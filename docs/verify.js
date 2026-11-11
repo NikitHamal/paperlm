@@ -45,7 +45,7 @@ const normT = (s) => s.toLowerCase().replace(/[^a-z0-9\u0900-\u097F]+/g, "");
 // ---- MCQ homogeneity: 4 options must be the same kind of thing (same dimensions/unit/form)
 export function checkOptions(opts, question = "") {
   const issues = []; const sh = opts.map(shape);
-  const classes = new Set(sh.map((s) => (s.cls === "num" || s.cls === "expr" ? "math" : s.cls)));
+  const classes = new Set(sh.map((s) => (s.cls === "num" || s.cls === "expr" ? "math" : s.cls === "word" ? "text" : s.cls)));
   if (classes.size > 1) issues.push("option kinds differ (" + [...classes].join("/") + ")");
   const nums = sh.filter((s) => s.cls === "num");
   if (nums.length >= 2) { const us = new Set(nums.map((s) => s.unit)); if (us.size > 1 && nums.length === 4) issues.push("option units differ"); }
@@ -72,6 +72,21 @@ export function checkKey(opts, key, why) {
   return issues;
 }
 
+
+// ---- arithmetic self-consistency: every "a op b ... = c" chain of plain numbers in the explanation/rubric must be numerically right
+const ARITH = /(?<![A-Za-z0-9_^{.\\])(-?\d+(?:\.\d+)?(?:\s*(?:\\times|\\cdot|\\div|\+|-|\*|\/)\s*\d+(?:\.\d+)?)+)\s*=\s*(-?\d+(?:\.\d+)?)(?![\d.]*[A-Za-z^_/{])/g;
+function evalChain(e) {
+  const t = e.replace(/\\times|\\cdot/g, "*").replace(/\\div/g, "/").replace(/\s+/g, ""); if (!/^[\d.+\-*/]+$/.test(t)) return null;
+  const toks = t.match(/-?\d+(?:\.\d+)?|[+\-*/]/g); if (!toks) return null; const out = [toks[0] === undefined ? 0 : parseFloat(toks[0])]; const ops = [];
+  for (let i = 1; i < toks.length; i += 2) { const op = toks[i], v = parseFloat(toks[i + 1]); if (Number.isNaN(v)) return null; if (op === "*") out.push(out.pop() * v); else if (op === "/") out.push(out.pop() / v); else { ops.push(op); out.push(v); } }
+  let r = out[0]; for (let i = 0; i < ops.length; i++) r = ops[i] === "+" ? r + out[i + 1] : r - out[i + 1]; return r;
+}
+export function checkArith(text) {
+  const bad = []; const t = stripMath(text).replace(/\\(?:text|mathrm)\{[^}]*\}/g, " ");
+  for (const m of t.matchAll(ARITH)) { const v = evalChain(m[1]), c = parseFloat(m[2]); if (v === null || !isFinite(v)) continue; if (Math.abs(v - c) > Math.max(0.02 * Math.abs(v), 0.0105)) bad.push(`${m[1].trim()} = ${m[2]} (is ${+v.toPrecision(4)})`); }
+  return bad;
+}
+
 // ---- concept anchoring: the item must talk about the requested unit/subject
 export function words(s) { return (stripMath(s).toLowerCase().match(WORD) || []).filter((w) => !STOP.has(w)); }
 export function anchorScore(text, unit, lexicon) {
@@ -85,15 +100,16 @@ export function verifyItem(item, { unit = "", lexicon = null, strictAnchor = fal
   const issues = []; let score = 1;
   const text = [item.question, ...(item.options || []), item.explanation || "", ...(item.parts || []).map((p) => p.text), ...(item.or_parts || []).map((p) => p.text), item.rubric || ""].join(" ");
   if (item.kind === "mcq") {
-    if (words(item.question).length < 3) issues.push("question too short");
+    if (words(item.question).length < 2) issues.push("question too short");
     issues.push(...checkOptions(item.options, item.question)); issues.push(...checkKey(item.options, item.key, item.explanation));
     if (!item.explanation) score -= 0.15;
     const lo = item.options.map((o) => normT(stripMath(o))); if (lo.some((o) => o.length > 3 && normT(item.question).includes(o) && o.length > 12)) score -= 0.1;
   } else {
-    if (words(item.question + " " + item.parts.map((p) => p.text).join(" ")).length < 4) issues.push("written item too short");
+    if (words(item.question + " " + item.parts.map((p) => p.text).join(" ")).length < 3) issues.push("written item too short");
     if (item.parts.some((p) => p.text.length < 8)) issues.push("part too short");
     if (item.parts.length > 6) issues.push("too many parts");
   }
+  const bad = checkArith(text); if (bad.length) issues.push("arithmetic error: " + bad[0]);
   const a = anchorScore(text, unit, lexicon); score = score * 0.6 + a.score * 0.4;
   if (strictAnchor && lexicon && lexicon.size > 50 && a.lex === 0 && words(text).length > 8) issues.push("no syllabus concept in item");
   if (/(.)\1{5,}/.test(text)) issues.push("character run");

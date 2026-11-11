@@ -11,8 +11,9 @@ Backends: TorchBackend (checkpoint) and OrtBackend (ONNX, same KV-cache interfac
 import json, math, os, random, re, sys, time
 import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(HERE, "..", "data")); sys.path.insert(0, "/tmp/paperlm/data")
+sys.path.insert(0, os.path.join(HERE, "..", "data")); sys.path.insert(0, "/tmp/paperlm/data"); sys.path.insert(0, HERE); sys.path.insert(0, "/tmp/paperlm/engine")
 import validator as V
+import verify as VF
 from tokenizers import Tokenizer
 
 class ItemGenerationError(Exception): pass
@@ -158,6 +159,9 @@ class Engine:
         self.struct_ids = set(self.S.values())
         self.syl = json.load(open(syllabus_path or os.path.join(HERE, "syllabus_index.json"))) if (syllabus_path or os.path.exists(os.path.join(HERE, "syllabus_index.json"))) else {"units": {}}
         self.free_ids = [i for i in range(self.T.n) if self.T.strs[i] is not None]
+        self.lexicon = {}; self.stats = dict(attempts=0, items=0, rejects={}, dead_ends=0)
+    def load_lexicon(self, path):
+        self.lexicon = {k: set(v) for k, v in json.load(open(path)).items()}
 
     # ---- grammar ----
     def allowed_struct(self, st):
@@ -330,11 +334,11 @@ class Engine:
         last = "no valid sample"
         for a in range(attempts):
             temp = min(1.1, temperature + 0.04 * a)
-            st = self._try_once(hid, typ, marks, want_rubric, temp, top_p, 520)
-            if st is None: last = "constraint dead-end / length"; continue
+            self.stats["attempts"] += 1; st = self._try_once(hid, typ, marks, want_rubric, temp, top_p, 520)
+            if st is None: last = "constraint dead-end / length"; self.stats["dead_ends"] += 1; continue
             item = self.finalize(st, board, level, subj, unit, marks, typ)
             if item is None: last = "final validation"; continue
-            item["attempts"] = a + 1
+            item["attempts"] = a + 1; self.stats["items"] += 1
             return item
         raise ItemGenerationError(f"{board}/{level}/{subj}/{unit}/{marks}/{typ}: {last}")
 
@@ -357,7 +361,19 @@ class Engine:
             item = dict(kind="written", question=stem, parts=[dict(label=l, text=t, marks=m) for l, t, m in parts],
                         or_parts=[dict(label=l, text=t, marks=m) for l, t, m in alt], rubric=st.sol)
         if V.validate_item_text(txt): return None
-        item.update(board=board, level=level, subject=subj, unit=unit, marks=marks, type=typ, schema_text=txt)
+        cl = VF.clean_symbols
+        if item["kind"] == "mcq": item.update(question=cl(item["question"]), options=[cl(o) for o in item["options"]], explanation=cl(item["explanation"]))
+        else:
+            item["question"] = cl(item["question"]); item["rubric"] = cl(item["rubric"])
+            for k in ("parts", "or_parts"):
+                for p_ in item[k]: p_["text"] = cl(p_["text"])
+        item.update(board=board, level=level, subject=subj, unit=unit, marks=marks, type=typ)
+        if not getattr(self, "verify_on", True): item["schema_text"] = txt; return item
+        v = VF.verify_item(item, unit=unit, lexicon=self.lexicon.get(subj) or self.lexicon.get("*"), strict_anchor=bool(self.lexicon))
+        if not v["ok"]:
+            for r in v["issues"]: k = re.sub(r"\(.*|: .*", "", r)[:40]; self.stats["rejects"][k] = self.stats["rejects"].get(k, 0) + 1
+            return None
+        item["verify"] = dict(score=v["score"], anchor_hits=v["anchor"]["hits"], concept_hits=v["anchor"]["lex"]); item["schema_text"] = txt
         return item
 
     # ---- papers ----
@@ -368,20 +384,21 @@ class Engine:
             if k.endswith(f"|{level}|{subj}") or k.split("|")[1] == level and v: return v
         return ["General"]
 
+    # official full marks: NEB 11/12 = 75, SEE = 75, IOE = 100, BLE 8 = 48
     BLUEPRINTS = {
         "C8": [("A", "MCQ", 1, 10), ("B", "SHORT", 2, 6), ("C", "CONCEPTUAL", 4, 4), ("D", "LONG", 5, 2)],
-        "C10": [("A", "MCQ", 1, 10), ("B", "SHORT", 2, 8), ("C", "CONCEPTUAL", 4, 5), ("D", "LONG", 8, 3)],
+        "C10": [("A", "MCQ", 1, 10), ("B", "SHORT", 2, 8), ("C", "CONCEPTUAL", 4, 6), ("D", "LONG", 5, 5)],
         "C11": [("A", "MCQ", 1, 11), ("B", "SHORT", 5, 8), ("C", "OR", 8, 3)],
         "C12": [("A", "MCQ", 1, 11), ("B", "SHORT", 5, 8), ("C", "OR", 8, 3)],
-        "IOE": [("A", "MCQ", 1, 20)], "CEE": [("A", "MCQ", 1, 20)], "BCA": [("A", "MCQ", 1, 20)], "BSN": [("A", "MCQ", 1, 20)],
-        "BE": [("A", "OR", 10, 6)],
+        "IOE": [("A", "MCQ", 1, 100)], "CEE": [("A", "MCQ", 1, 100)], "BCA": [("A", "MCQ", 1, 100)], "BSN": [("A", "MCQ", 1, 100)],
+        "BE": [("A", "OR", 10, 8)],
     }
     def model_paper(self, board, level, subj, blueprint=None, rubric=True, seed=None, on_item=None):
         if seed is not None: self.rng = random.Random(seed); self.np_rng = np.random.default_rng(seed)
         bp = blueprint or self.BLUEPRINTS[level]; units = self.units_for(board, level, subj)
         self.rng.shuffle(units); k = 0; seen = set(); sections = []
         for g, typ, marks, count in bp:
-            items = []
+            items = []; fails = 0
             while len(items) < count:
                 unit = units[k % len(units)]; k += 1
                 t = typ
@@ -389,8 +406,8 @@ class Engine:
                     t = ["CONCEPTUAL", "NUMERICAL", "DERIVATION", "SHORT"][len(items) % 4]
                 try: it = self.generate_item(board, level, subj, unit, marks, t, want_rubric=rubric, attempts=12)
                 except ItemGenerationError:
-                    fails = locals().get("fails", 0) + 1
-                    if fails > 6 * count: raise
+                    fails += 1
+                    if fails > 8 * count + 12: raise
                     continue  # resample another unit; an invalid item is never emitted
                 key = re.sub(r"[^a-z0-9]", "", (it["question"] + "".join(it.get("options", []))).lower())[:90]
                 if key in seen: continue

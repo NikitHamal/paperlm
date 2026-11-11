@@ -103,7 +103,8 @@ class TextSt(var mode: String = "", var depth: Int = 0, var cmd: String? = null,
     }
 }
 
-class PaperSetterEngine(private val env: OrtEnvironment, private val session: OrtSession, private val tok: PaperTokenizer, private val units: Map<String, List<String>>, seed: Long = 1) {
+class PaperSetterEngine(private val env: OrtEnvironment, private val session: OrtSession, private val tok: PaperTokenizer, private val units: Map<String, List<String>>, seed: Long = 1,
+                        private val lexicons: Map<String, Set<String>> = emptyMap()) {
     private val rnd = Random(seed); private val L = 6; private val H = 5; private val D = 64
     private val S = listOf("pad", "bos", "end", "unit", "q", "oa", "ob", "oc", "od", "ans", "why", "part", "pm", "or", "sol").associateWith { tok.special["<|$it|>"]!! }
     private val letters = "abcd".associate { it to tok.vocab[it.toString()]!! }; private val digits = "0123456789".associate { it to tok.vocab[it.toString()]!! }
@@ -121,6 +122,24 @@ class PaperSetterEngine(private val env: OrtEnvironment, private val session: Or
     }
     // The constrained-decoding state machine (sections q/oa/ob/oc/od/ans/why | part/pm/or/sol) is a line-for-line port of
     // PaperLM.tryOnce/validFn/apply in engine/web/paperlm.js; see that file for the reference implementation and tests.
-    fun generateItem(board: String, level: String, subject: String, unit: String, marks: Int, type: String, rubric: Boolean = true, attempts: Int = 8): Item =
-        ConstrainedDecoder({ ids, kv -> step(ids, kv as KV?) }, tok, S, letters, digits, rnd).generate(board, level, subject, unit, marks, type, rubric, attempts)
+    fun generateItem(board: String, level: String, subject: String, unit: String, marks: Int, type: String, rubric: Boolean = true, attempts: Int = 12): Item =
+        ConstrainedDecoder({ ids, kv -> step(ids, kv as KV?) }, tok, S, letters, digits, rnd, lexicons[subject] ?: lexicons["*"]).generate(board, level, subject, unit, marks, type, rubric, attempts)
+
+    /** Full model paper from the official blueprint of [level]. A dead-end or verifier-rejected cell is resampled with another unit; an invalid item is never emitted. */
+    fun modelPaper(board: String, level: String, subject: String, rubric: Boolean = true, blueprint: List<Triple<String, String, Pair<Int, Int>>>? = null,
+                   onItem: ((String, Item) -> Unit)? = null): List<Pair<String, List<Item>>> {
+        val bp = blueprint ?: Blueprints.ALL[level] ?: throw ItemGenerationError("no blueprint for $level")
+        val us = (units["$board|$level|$subject"] ?: listOf("General")).shuffled(rnd); var k = 0; val seen = HashSet<String>(); val out = ArrayList<Pair<String, List<Item>>>()
+        for ((g, typ, mc) in bp) {
+            val (marks, count) = mc; val items = ArrayList<Item>(); var fails = 0
+            while (items.size < count) {
+                val unit = us[k++ % us.size]; val t = if (typ == "SHORT") listOf("CONCEPTUAL", "NUMERICAL", "DERIVATION", "SHORT")[items.size % 4] else typ
+                val it = try { generateItem(board, level, subject, unit, marks, t, rubric) } catch (e: ItemGenerationError) { if (++fails > 8 * count + 12) throw e; continue }
+                val key = (it.question + it.options.joinToString("")).lowercase().replace(Regex("[^a-z0-9]"), "").take(90); if (!seen.add(key)) continue
+                items.add(it); onItem?.invoke(g, it)
+            }
+            out.add(g to items)
+        }
+        return out
+    }
 }

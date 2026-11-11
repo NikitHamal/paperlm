@@ -6,7 +6,7 @@ import kotlin.random.Random
 
 internal class ConstrainedDecoder(
     private val stepFn: (List<Int>, Any?) -> Pair<FloatArray, Any>, private val tok: PaperTokenizer, private val S: Map<String, Int>,
-    private val letters: Map<Char, Int>, private val digits: Map<Char, Int>, private val rnd: Random) {
+    private val letters: Map<Char, Int>, private val digits: Map<Char, Int>, private val rnd: Random, private val lexicon: Set<String>? = null) {
     private val caps = mapOf("q" to 420, "oa" to 120, "ob" to 120, "oc" to 120, "od" to 120, "part" to 320, "why" to 320, "sol" to 700)
     private val minLen = mapOf("q" to 12, "part" to 6, "why" to 8, "sol" to 12)
     private val nextMcq = mapOf("q" to "<|oa|>", "oa" to "<|ob|>", "ob" to "<|oc|>", "oc" to "<|od|>", "od" to "<|ans|>")
@@ -80,15 +80,17 @@ internal class ConstrainedDecoder(
         val sid = if (tok.special.containsKey("<|subj=$subject|>")) "<|subj=$subject|>" else "<|subj=general|>"
         val hid = tok.encode("<|bos|><|board=$board|><|level=$level|>$sid<|unit|>$unit<|marks=$marks|><|type=$type|>")
         for (a in 0 until attempts) {
-            val st = tryOnce(hid, type, marks, rubric, minOf(1.1f, 0.75f + 0.04f * a)) ?: continue
+            val st = tryOnce(hid, type, marks, rubric, minOf(1.1f, 0.75f + 0.03f * a)) ?: continue
             fun mk(ps: List<Array<Any>>) = ps.mapIndexed { i, p -> Part(('a' + i).toString(), p[1] as String, p[2] as Int) }
             if (st.mcq) { if (st.opts.size != 4 || st.key !in listOf("a", "b", "c", "d")) continue
                 if (listOf(st.q) .plus(st.opts).plus(st.why).any { Validator.checkText(it, true) != null } || st.opts.map(::norm).toSet().size != 4) continue
-                return Item("mcq", st.q, st.opts, st.key, st.why, emptyList(), emptyList(), "", board, level, subject, unit, marks, type) }
+                val it = Verifier.clean(Item("mcq", st.q, st.opts, st.key, st.why, emptyList(), emptyList(), "", board, level, subject, unit, marks, type))
+                if (Verifier.verify(it, unit, lexicon).isNotEmpty()) continue; return it }
             if (!marksOk(st) || (type == "OR" && st.alt.isEmpty())) continue
             val p = mk(st.parts); val al = mk(st.alt); if ((p + al).any { it.text.isEmpty() }) continue
             if ((listOf(st.q) + p.map { it.text } + al.map { it.text }).any { Validator.checkText(it, true) != null } || (st.sol.isNotEmpty() && Validator.checkText(st.sol) != null)) continue
-            return Item("written", st.q, emptyList(), "", "", p, al, st.sol, board, level, subject, unit, marks, type)
+            val it = Verifier.clean(Item("written", st.q, emptyList(), "", "", p, al, st.sol, board, level, subject, unit, marks, type))
+            if (Verifier.verify(it, unit, lexicon).isNotEmpty()) continue; return it
         }
         throw ItemGenerationError("no valid item for $board/$level/$subject/$unit/$marks/$type")
     }

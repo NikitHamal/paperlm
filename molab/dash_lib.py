@@ -41,7 +41,7 @@ def header():
     vu, vt = g.get("vram_used_mb", 0), g.get("vram_total_mb", 1) or 1
     hb = ka.get("last"); hb_age = (time.time() - hb) if hb else None
     h = CSS + f"""<div class="pl-card"><div style="font-size:20px;font-weight:800">📜 PaperLM-Tiny — Board Setter Brain · live training console</div>
-    <div style="margin:8px 0"><span class="pl-badge">{H.escape(str(st.get('name','IDLE')))}</span>
+    <div style="margin:8px 0"><span class="pl-badge" style="background:#7c3aed">{H.escape(str(S.get('iteration',{}).get('label','v?')))}</span><span class="pl-badge">{H.escape(str(st.get('name','IDLE')))}</span>
     <span style="font-weight:600">{H.escape(str(st.get('phase','waiting for pipeline…')))}</span> <span style="color:#64748b">{H.escape(str(st.get('detail','')))}</span> · {live}</div>
     <div class="pl-grid">{_stat('GPU', str(g.get('name','n/a')).replace('NVIDIA ','').replace(' Server Edition',''))}
     {_stat('VRAM', f"{vu/1024:.1f} / {vt/1024:.0f} GB")}{_stat('GPU util', f"{g.get('util',0):.0f}%")}
@@ -92,14 +92,20 @@ def training():
     return mo.Html(h)
 
 def samples():
-    S = load(); sm = S.get("samples", {})
-    items = sm.get("items", [])
+    S = load(); sm = S.get("samples", {}); items = sm.get("items", []); prev = sm.get("prev_items", [])
     if not items: return mo.Html(CSS + '<div class="pl-card">✍️ No generated samples yet — they appear at each checkpoint.</div>')
-    body = "".join(f'<div class="pl-q">{H.escape(x)}</div>' for x in items[-6:])
-    return mo.Html(CSS + f'<div class="pl-card"><div style="font-weight:800">✍️ Latest board-setter output @ step {sm.get("step","?")} — validator pass-rate {_n(sm.get("valid_rate",0)*100,1)}%</div>{body}</div>')
+    n = min(4, len(items))
+    def col(xs, title): return f'<div><div class="pl-k" style="margin-bottom:4px">{H.escape(title)}</div>' + "".join(f'<div class="pl-q">{H.escape(x)}</div>' for x in xs[:n]) + "</div>"
+    cur_t = f"CURRENT · {S.get('iteration',{}).get('label','')} · step {sm.get('step','?')}"; prev_t = f"PREVIOUS · {sm.get('prev_label','v1')}"
+    body = f'<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">{col(prev, prev_t) if prev else ""}{col(items, cur_t)}</div>'
+    return mo.Html(CSS + f'<div class="pl-card"><div style="font-weight:800">✍️ Previous vs current iteration — verifier pass-rate {_n(sm.get("valid_rate",0)*100,1)}%</div>{body}</div>')
 
 def eval_card():
     S = load(); e = S.get("eval", {})
     if not e: return mo.Html("")
-    rows = "".join(f"<tr><td>{H.escape(str(k))}</td><td>{H.escape(str(v))}</td></tr>" for k, v in e.items() if k != "_t")
-    return mo.Html(CSS + f'<div class="pl-card"><div style="font-weight:800">📏 Evaluation</div><table style="font-size:13px">{rows}</table></div>')
+    cur, prev = e.get("current", {}), e.get("previous", {})
+    if not cur and not prev:
+        rows = "".join(f"<tr><td>{H.escape(str(k))}</td><td>{H.escape(str(v))}</td></tr>" for k, v in e.items() if k != "_t")
+        return mo.Html(CSS + f'<div class="pl-card"><div style="font-weight:800">📏 Evaluation</div><table style="font-size:13px">{rows}</table></div>')
+    rows = "".join(f"<tr><td>{H.escape(k)}</td><td align=right>{H.escape(str(prev.get(k,'–')))}</td><td align=right><b>{H.escape(str(v))}</b></td></tr>" for k, v in cur.items())
+    return mo.Html(CSS + f'<div class="pl-card"><div style="font-weight:800">📏 Factual-coherence benchmark · {H.escape(str(e.get("label","")))}</div><table style="font-size:13px;min-width:420px"><tr><th align=left>metric</th><th>previous</th><th>current</th></tr>{rows}</table></div>')
