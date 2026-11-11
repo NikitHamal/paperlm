@@ -24,9 +24,9 @@ function loadScript(src) { return new Promise((res, rej) => { const s = document
 const setLoad = (p, msg) => { $("load-bar").style.width = Math.round(p * 100) + "%"; $("load-msg").textContent = msg; };
 
 // ---------------------------------------------------------------- rendering
-const TIER = { param: ["Computed and verified", "Every number, unit, key and solution is computed by the symbolic engine from a verified law."], bank: ["Gold exam bank", "A verified past-paper style item from the syllabus bank."], lm: ["Neural draft (experimental)", "Written by the 10M model from a verified concept anchor. It passes the lexical grounding gate but its meaning is NOT verified: review before use."] };
+const TIER = { param: ["Computed and verified", "Every number, unit, key and solution is computed by the symbolic engine from a verified law."], fact: ["Verified fact", "Built from a closed-world fact table: the key is the stored value of an audited row and the three distractors are other rows of the same class, so no distractor can also be correct."], bank: ["Gold exam bank", "A verified past-paper style item from the syllabus bank."], lm: ["Neural draft (experimental)", "Written by the 10M model from a verified concept anchor. It passes the lexical grounding gate but its meaning is NOT verified: review before use."] };
 const tierChip = (it) => { const t = (it.provenance && it.provenance.tier) || "lm"; const c = h("span", "chip t", esc(TIER[t][0])); c.title = TIER[t][1]; return c; };
-const provNote = (it) => { const p = it.provenance || {}; if (p.tier === "lm") return h("div", "prov", `<b>Concept anchor:</b> ${math(esc(p.anchor))}`); if (p.tier === "param") return h("div", "prov", `<b>Law used:</b> ${math(p.law || "")}`); return null; };
+const provNote = (it) => { const p = it.provenance || {}; if (p.tier === "lm") return h("div", "prov", `<b>Concept anchor:</b> ${math(esc(p.anchor))}`); if (p.tier === "param") return h("div", "prov", `<b>Law used:</b> ${math(p.law || "")}`); if (p.tier === "fact") return h("div", "prov", `<b>Topic:</b> ${esc(p.topic || "")} &middot; <b>Source:</b> ${esc(p.src || "")}`); return null; };
 function mcqCard(it, { interactive = true, onAnswer } = {}) {
   const card = h("article", "item");
   const head = h("div", "item-h");
@@ -69,7 +69,7 @@ function updateStats() {
   const s = S.engine.stats; $("s-ms").textContent = s.tokens ? (s.ms / s.tokens).toFixed(1) : "-"; $("s-tok").textContent = s.tokens; $("s-att").textContent = s.attempts; $("s-items").textContent = s.items;
   const rej = Object.entries(s.rejects).sort((a, b) => b[1] - a[1]); $("s-rej").textContent = rej.reduce((a, [, n]) => a + n, 0);
   $("s-why").textContent = rej.length ? "Rejected: " + rej.slice(0, 5).map(([k, n]) => `${k} (${n})`).join(", ") : "No rejections yet.";
-  if (S.comp) { const t = S.comp.stats; $("s-why").textContent += ` | Tiers: computed ${t.param}, bank ${t.bank}, neural ${t.lm} (gate ${t.lm_gate_pass}/${t.lm_tries})`; }
+  if (S.comp) { const t = S.comp.stats; $("s-why").textContent += ` | Tiers: computed ${t.param}, fact ${t.fact || 0}, bank ${t.bank}, neural ${t.lm} (gate ${t.lm_gate_pass}/${t.lm_tries})`; }
 }
 
 // ---------------------------------------------------------------- controls
@@ -192,8 +192,8 @@ async function boot() {
   const bytes = await fetchModel("model/model.onnx?" + meta.version);
   setLoad(0.93, "Starting ONNX Runtime (WASM)"); ort.env.wasm.numThreads = 1; ort.env.wasm.wasmPaths = new URL("vendor/ort/", location.href).href;
   S.engine = await PaperLM.create({ ort, model: bytes, tokenizer: tok, syllabus: syl, seed: 7, lexicon: lex });
-  setLoad(0.97, "Loading verified concept bank and formula library"); const [bank, tpl] = await Promise.all([fetch("model/bank.json?" + meta.version).then((r) => r.json()), fetch("model/templates.json?" + meta.version).then((r) => r.json())]);
-  S.comp = new Composer(S.engine, bank, tpl);
+  setLoad(0.97, "Loading verified concept bank and formula library"); const [bank, tpl, facts] = await Promise.all([fetch("model/bank.json?" + meta.version).then((r) => r.json()), fetch("model/templates.json?" + meta.version).then((r) => r.json()), fetch("model/facts.json?" + meta.version).then((r) => r.json())]);
+  S.comp = new Composer(S.engine, bank, tpl, facts);
   setLoad(1, `Model ready: ${meta.version}, ${(meta.params / 1e6).toFixed(1)}M parameters, ${meta.quant}`); $("load").classList.add("done"); busy(false);
 }
 boot().catch((e) => { setLoad(0, "Failed to load: " + e.message); console.error(e); });

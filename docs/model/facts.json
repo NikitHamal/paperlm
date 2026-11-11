@@ -1,0 +1,4122 @@
+{
+"version":1,
+"classes":[
+{
+"id":"phys.si_unit",
+"subjects":[
+"physic",
+"^science$",
+"engineer"
+],
+"units":[
+"si unit",
+"physical quantit",
+"measurement",
+"practical",
+"quantit"
+],
+"label":"SI units",
+"qa":"Which of the following is the SI unit of {k}?",
+"qb":"{v} is the SI unit of which physical quantity?",
+"qo":"State the SI unit of {k}.",
+"src":"NEB/CEE/IOE physics: SI base and derived units (BIPM SI brochure)",
+"pairs":[
+[
+"force",
+"newton (N)",
+"The SI unit of force is the newton, the force that gives a 1 kg mass an acceleration of $1\\ \\text{m s}^{-2}$."
+],
+[
+"work and energy",
+"joule (J)",
+"The SI unit of work and energy is the joule; one joule is one newton-metre."
+],
+[
+"power",
+"watt (W)",
+"The SI unit of power is the watt; one watt is one joule per second."
+],
+[
+"electric charge",
+"coulomb (C)",
+"The SI unit of electric charge is the coulomb; one coulomb is one ampere-second."
+],
+[
+"electric current",
+"ampere (A)",
+"The SI unit of electric current is the ampere, a base SI unit."
+],
+[
+"potential difference",
+"volt (V)",
+"The SI unit of potential difference is the volt; one volt is one joule per coulomb."
+],
+[
+"electrical resistance",
+"ohm ($\\Omega$)",
+"The SI unit of electrical resistance is the ohm; one ohm is one volt per ampere."
+],
+[
+"capacitance",
+"farad (F)",
+"The SI unit of capacitance is the farad; one farad is one coulomb per volt."
+],
+[
+"magnetic flux",
+"weber (Wb)",
+"The SI unit of magnetic flux is the weber; one weber is one volt-second."
+],
+[
+"magnetic flux density",
+"tesla (T)",
+"The SI unit of magnetic flux density is the tesla; one tesla is one weber per square metre."
+],
+[
+"inductance",
+"henry (H)",
+"The SI unit of inductance is the henry; one henry is one weber per ampere."
+],
+[
+"frequency",
+"hertz (Hz)",
+"The SI unit of frequency is the hertz; one hertz is one cycle per second."
+],
+[
+"pressure",
+"pascal (Pa)",
+"The SI unit of pressure is the pascal; one pascal is one newton per square metre."
+],
+[
+"thermodynamic temperature",
+"kelvin (K)",
+"The SI unit of thermodynamic temperature is the kelvin, a base SI unit."
+],
+[
+"amount of substance",
+"mole (mol)",
+"The SI unit of amount of substance is the mole, a base SI unit."
+],
+[
+"luminous intensity",
+"candela (cd)",
+"The SI unit of luminous intensity is the candela, a base SI unit."
+],
+[
+"activity of a radionuclide",
+"becquerel (Bq)",
+"The SI unit of radioactivity is the becquerel; one becquerel is one disintegration per second."
+],
+[
+"absorbed radiation dose",
+"gray (Gy)",
+"The SI unit of absorbed radiation dose is the gray; one gray is one joule per kilogram."
+],
+[
+"solid angle",
+"steradian (sr)",
+"The SI unit of solid angle is the steradian, a dimensionless derived unit."
+],
+[
+"conductance",
+"siemens (S)",
+"The SI unit of electrical conductance is the siemens; one siemens is one ampere per volt."
+]
+]
+},
+{
+"id":"phys.dimension",
+"subjects":[
+"physic",
+"engineer"
+],
+"units":[
+"dimension",
+"physical quantit",
+"measurement",
+"mechanics",
+"gravitation",
+"unit"
+],
+"label":"Dimensions",
+"qa":"Which of the following is the dimensional formula of {k}?",
+"qb":"{v} is the dimensional formula of which physical quantity?",
+"qo":"Write the dimensional formula of {k}.",
+"src":"NEB/CEE physics: dimensional analysis (MLTA system)",
+"pairs":[
+[
+"force",
+"$[MLT^{-2}]$",
+"Force is mass times acceleration, so its dimensional formula is $[MLT^{-2}]$."
+],
+[
+"work and energy",
+"$[ML^{2}T^{-2}]$",
+"Work is force times displacement, so its dimensional formula is $[ML^{2}T^{-2}]$."
+],
+[
+"power",
+"$[ML^{2}T^{-3}]$",
+"Power is work per unit time, so its dimensional formula is $[ML^{2}T^{-3}]$."
+],
+[
+"pressure",
+"$[ML^{-1}T^{-2}]$",
+"Pressure is force per unit area, so its dimensional formula is $[ML^{-1}T^{-2}]$."
+],
+[
+"momentum",
+"$[MLT^{-1}]$",
+"Momentum is mass times velocity, so its dimensional formula is $[MLT^{-1}]$."
+],
+[
+"acceleration",
+"$[LT^{-2}]$",
+"Acceleration is velocity per unit time, so its dimensional formula is $[LT^{-2}]$."
+],
+[
+"velocity",
+"$[LT^{-1}]$",
+"Velocity is displacement per unit time, so its dimensional formula is $[LT^{-1}]$."
+],
+[
+"density",
+"$[ML^{-3}]$",
+"Density is mass per unit volume, so its dimensional formula is $[ML^{-3}]$."
+],
+[
+"surface tension",
+"$[MT^{-2}]$",
+"Surface tension is force per unit length, so its dimensional formula is $[MT^{-2}]$."
+],
+[
+"coefficient of viscosity",
+"$[ML^{-1}T^{-1}]$",
+"Viscosity is tangential force per unit area per unit velocity gradient, so its dimensional formula is $[ML^{-1}T^{-1}]$."
+],
+[
+"Planck's constant",
+"$[ML^{2}T^{-1}]$",
+"Planck's constant is energy divided by frequency, so its dimensional formula is $[ML^{2}T^{-1}]$."
+],
+[
+"gravitational constant",
+"$[M^{-1}L^{3}T^{-2}]$",
+"From $F=Gm_{1}m_{2}/r^{2}$ the gravitational constant has dimensions $[M^{-1}L^{3}T^{-2}]$."
+],
+[
+"specific heat capacity",
+"$[L^{2}T^{-2}K^{-1}]$",
+"Specific heat capacity is heat per unit mass per kelvin, so its dimensional formula is $[L^{2}T^{-2}K^{-1}]$."
+],
+[
+"electric field intensity",
+"$[MLT^{-3}A^{-1}]$",
+"Electric field is force per unit charge, so its dimensional formula is $[MLT^{-3}A^{-1}]$."
+],
+[
+"electric potential",
+"$[ML^{2}T^{-3}A^{-1}]$",
+"Potential is work per unit charge, so its dimensional formula is $[ML^{2}T^{-3}A^{-1}]$."
+],
+[
+"electrical resistance",
+"$[ML^{2}T^{-3}A^{-2}]$",
+"Resistance is potential difference per unit current, so its dimensional formula is $[ML^{2}T^{-3}A^{-2}]$."
+],
+[
+"electrical capacitance",
+"$[M^{-1}L^{-2}T^{4}A^{2}]$",
+"Capacitance is charge per unit potential, so its dimensional formula is $[M^{-1}L^{-2}T^{4}A^{2}]$."
+],
+[
+"magnetic flux",
+"$[ML^{2}T^{-2}A^{-1}]$",
+"Magnetic flux is field times area, so its dimensional formula is $[ML^{2}T^{-2}A^{-1}]$."
+]
+]
+},
+{
+"id":"phys.instrument",
+"subjects":[
+"physic",
+"^science$",
+"nurs"
+],
+"units":[
+"instrument",
+"practical",
+"pressure",
+"experiment",
+"laboratory",
+"measurement"
+],
+"label":"Measuring instruments",
+"qa":"Which instrument is used to measure {k}?",
+"qb":"A {v} is used to measure which of the following?",
+"qo":"Name the instrument used to measure {k}.",
+"src":"NEB/CEE/IOE physics practicals: measuring instruments",
+"pairs":[
+[
+"atmospheric pressure",
+"barometer",
+"A barometer measures atmospheric pressure."
+],
+[
+"relative humidity of the air",
+"hygrometer",
+"A hygrometer measures the relative humidity of the air."
+],
+[
+"a very small electric current",
+"galvanometer",
+"A galvanometer detects and measures very small electric currents."
+],
+[
+"the electric current in a circuit",
+"ammeter",
+"An ammeter measures electric current and is connected in series."
+],
+[
+"the potential difference across a component",
+"voltmeter",
+"A voltmeter measures potential difference and is connected in parallel."
+],
+[
+"the pressure of a gas supply",
+"manometer",
+"A manometer measures the pressure of a gas."
+],
+[
+"the wavelength of light in a spectrum",
+"spectrometer",
+"A spectrometer measures wavelengths in a spectrum."
+],
+[
+"the intensity of earthquake waves",
+"seismograph",
+"A seismograph records the intensity and duration of earthquake waves."
+],
+[
+"wind speed",
+"anemometer",
+"An anemometer measures wind speed."
+],
+[
+"blood pressure",
+"sphygmomanometer",
+"A sphygmomanometer measures arterial blood pressure."
+],
+[
+"the heat exchanged in a process",
+"calorimeter",
+"A calorimeter measures heat exchanged in a thermal process."
+],
+[
+"the purity of milk",
+"lactometer",
+"A lactometer measures the relative density of milk and hence its purity."
+],
+[
+"the speed of a vehicle",
+"speedometer",
+"A speedometer indicates the speed of a vehicle."
+],
+[
+"the distance travelled by a vehicle",
+"odometer",
+"An odometer records the distance travelled by a vehicle."
+],
+[
+"the rotational speed of a shaft",
+"tachometer",
+"A tachometer measures the rotational speed of a shaft."
+]
+]
+},
+{
+"id":"phys.discoverer",
+"subjects":[
+"physic",
+"^science$",
+"engineer",
+"gk"
+],
+"units":[
+"law",
+"motion",
+"gravitation",
+"nuclear",
+"quantum",
+"photoelectric",
+"electromagnetic induction",
+"history",
+"modern"
+],
+"label":"Discoverers and laws",
+"qa":"Which scientist is associated with {k}?",
+"qb":"Which of the following laws is associated with {v}?",
+"qo":"Name the scientist associated with {k}.",
+"src":"NEB/CEE/IOE physics: history of physics",
+"pairs":[
+[
+"the law of universal gravitation",
+"Isaac Newton",
+"The law of universal gravitation was formulated by Isaac Newton."
+],
+[
+"the law of electrostatic force between point charges",
+"Charles-Augustin de Coulomb",
+"Coulomb's law of electrostatic force is named after Charles-Augustin de Coulomb."
+],
+[
+"the relation $V=IR$ for a conductor",
+"Georg Simon Ohm",
+"Ohm's law, $V=IR$, is named after Georg Simon Ohm."
+],
+[
+"the law of electromagnetic induction",
+"Michael Faraday",
+"Faraday's law of electromagnetic induction is named after Michael Faraday."
+],
+[
+"the circuital law relating current and magnetic field",
+"Andre-Marie Ampere",
+"Ampere's circuital law is named after Andre-Marie Ampere."
+],
+[
+"the law giving the magnetic field of a current element",
+"Biot and Savart",
+"The Biot-Savart law is named after Jean-Baptiste Biot and Felix Savart."
+],
+[
+"the two circuit laws for current and voltage",
+"Gustav Kirchhoff",
+"Kirchhoff's current and voltage laws are named after Gustav Kirchhoff."
+],
+[
+"the law fixing the direction of an induced current",
+"Heinrich Lenz",
+"Lenz's law is named after Heinrich Lenz."
+],
+[
+"the law of heating by an electric current",
+"James Prescott Joule",
+"Joule's law of heating is named after James Prescott Joule."
+],
+[
+"the law relating recession speed and distance of galaxies",
+"Edwin Hubble",
+"Hubble's law is named after Edwin Hubble."
+],
+[
+"the change of observed frequency due to relative motion",
+"Christian Doppler",
+"The Doppler effect is named after Christian Doppler."
+],
+[
+"the explanation of the photoelectric effect",
+"Albert Einstein",
+"Einstein explained the photoelectric effect using light quanta and received the 1921 Nobel Prize for it."
+],
+[
+"the uncertainty principle",
+"Werner Heisenberg",
+"The uncertainty principle was proposed by Werner Heisenberg."
+],
+[
+"the exclusion principle for electrons in an atom",
+"Wolfgang Pauli",
+"The Pauli exclusion principle was proposed by Wolfgang Pauli."
+]
+]
+},
+{
+"id":"phys.scalar_vector",
+"subjects":[
+"physic",
+"^science$",
+"engineer"
+],
+"units":[
+"vector",
+"scalar",
+"kinematics",
+"motion",
+"mechanics",
+"force",
+"dynamics",
+"circular",
+"work, energy"
+],
+"label":"Scalars and vectors",
+"qa":"The physical quantity {k} is classified as which of the following?",
+"qb":"Which of the following is a {v} quantity?",
+"qo":"Classify {k} as a scalar or a vector quantity.",
+"src":"NEB/CEE physics: scalars and vectors",
+"pairs":[
+[
+"force",
+"vector",
+"Force has both magnitude and direction, so it is a vector quantity."
+],
+[
+"displacement",
+"vector",
+"Displacement has both magnitude and direction, so it is a vector quantity."
+],
+[
+"velocity",
+"vector",
+"Velocity has both magnitude and direction, so it is a vector quantity."
+],
+[
+"acceleration",
+"vector",
+"Acceleration has both magnitude and direction, so it is a vector quantity."
+],
+[
+"momentum",
+"vector",
+"Momentum has both magnitude and direction, so it is a vector quantity."
+],
+[
+"torque",
+"vector",
+"Torque has both magnitude and direction, so it is a vector quantity."
+],
+[
+"electric field intensity",
+"vector",
+"Electric field intensity has both magnitude and direction, so it is a vector quantity."
+],
+[
+"impulse",
+"vector",
+"Impulse has both magnitude and direction, so it is a vector quantity."
+],
+[
+"mass",
+"scalar",
+"Mass has magnitude only, so it is a scalar quantity."
+],
+[
+"distance",
+"scalar",
+"Distance has magnitude only, so it is a scalar quantity."
+],
+[
+"speed",
+"scalar",
+"Speed has magnitude only, so it is a scalar quantity."
+],
+[
+"work",
+"scalar",
+"Work is the scalar product of force and displacement, so it is a scalar quantity."
+],
+[
+"energy",
+"scalar",
+"Energy has magnitude only, so it is a scalar quantity."
+],
+[
+"power",
+"scalar",
+"Power has magnitude only, so it is a scalar quantity."
+],
+[
+"pressure",
+"scalar",
+"Pressure has magnitude only, so it is a scalar quantity."
+],
+[
+"temperature",
+"scalar",
+"Temperature has magnitude only, so it is a scalar quantity."
+],
+[
+"electric current",
+"scalar",
+"Electric current has magnitude and a sense of flow but does not obey vector addition, so it is treated as a scalar quantity."
+],
+[
+"magnetic flux",
+"scalar",
+"Magnetic flux is a scalar product of two vectors, so it is a scalar quantity."
+]
+]
+},
+{
+"id":"phys.prefix",
+"subjects":[
+"physic",
+"^science$",
+"engineer",
+"computer"
+],
+"units":[
+"unit",
+"measurement",
+"physical quantit",
+"dimension"
+],
+"label":"SI prefixes",
+"qa":"The SI prefix {k} stands for which factor?",
+"qb":"The factor {v} is denoted by which SI prefix?",
+"qo":"Write the factor denoted by the SI prefix {k}.",
+"src":"BIPM SI brochure: SI prefixes",
+"pairs":[
+[
+"nano",
+"$10^{-9}$",
+"The prefix nano (n) denotes $10^{-9}$."
+],
+[
+"micro",
+"$10^{-6}$",
+"The prefix micro ($\\mu$) denotes $10^{-6}$."
+],
+[
+"milli",
+"$10^{-3}$",
+"The prefix milli (m) denotes $10^{-3}$."
+],
+[
+"centi",
+"$10^{-2}$",
+"The prefix centi (c) denotes $10^{-2}$."
+],
+[
+"deci",
+"$10^{-1}$",
+"The prefix deci (d) denotes $10^{-1}$."
+],
+[
+"kilo",
+"$10^{3}$",
+"The prefix kilo (k) denotes $10^{3}$."
+],
+[
+"mega",
+"$10^{6}$",
+"The prefix mega (M) denotes $10^{6}$."
+],
+[
+"giga",
+"$10^{9}$",
+"The prefix giga (G) denotes $10^{9}$."
+],
+[
+"tera",
+"$10^{12}$",
+"The prefix tera (T) denotes $10^{12}$."
+],
+[
+"pico",
+"$10^{-12}$",
+"The prefix pico (p) denotes $10^{-12}$."
+],
+[
+"femto",
+"$10^{-15}$",
+"The prefix femto (f) denotes $10^{-15}$."
+],
+[
+"hecto",
+"$10^{2}$",
+"The prefix hecto (h) denotes $10^{2}$."
+]
+]
+},
+{
+"id":"phys.device",
+"subjects":[
+"physic",
+"engineer",
+"electronic",
+"computer",
+"^science$"
+],
+"units":[
+"semiconductor",
+"electronic",
+"device",
+"circuit",
+"digital",
+"logic",
+"rectifier",
+"diode",
+"transistor",
+"recent trend"
+],
+"label":"Electronic devices",
+"qa":"Which of the following is the main function of a {k}?",
+"qb":"A component whose main function is {v} is which of the following?",
+"qo":"State the main function of a {k}.",
+"src":"NEB/CEE physics: semiconductor devices and circuit components",
+"pairs":[
+[
+"diode",
+"allowing current mainly in one direction",
+"A diode conducts mainly in one direction and is used for rectification."
+],
+[
+"transistor",
+"amplifying a signal and switching",
+"A transistor amplifies signals and works as an electronic switch."
+],
+[
+"capacitor",
+"storing electric charge",
+"A capacitor stores electric charge in its electric field."
+],
+[
+"inductor",
+"storing energy in a magnetic field",
+"An inductor stores energy in its magnetic field."
+],
+[
+"resistor",
+"limiting current in a circuit",
+"A resistor limits current and drops voltage in a circuit."
+],
+[
+"transformer",
+"changing the voltage of an alternating supply",
+"A transformer changes the voltage of an alternating supply by mutual induction."
+],
+[
+"Zener diode",
+"regulating voltage in reverse breakdown",
+"A Zener diode regulates voltage by working in reverse breakdown."
+],
+[
+"light emitting diode",
+"emitting light when forward biased",
+"A light emitting diode emits light when it is forward biased."
+],
+[
+"photodiode",
+"detecting light by reverse current",
+"A photodiode detects light through the reverse current produced by incident photons."
+],
+[
+"thermistor",
+"sensing temperature through resistance change",
+"A thermistor changes its resistance markedly with temperature."
+],
+[
+"light dependent resistor",
+"sensing light through resistance change",
+"A light dependent resistor decreases its resistance as illumination increases."
+],
+[
+"rectifier",
+"converting alternating current into direct current",
+"A rectifier converts alternating current into direct current."
+]
+]
+},
+{
+"id":"chem.gas_test",
+"subjects":[
+"chem",
+"^science$",
+"medical",
+"botany",
+"zoology"
+],
+"units":[
+"practical",
+"analysis",
+"gas",
+"non-metal",
+"inorganic",
+"volumetric"
+],
+"label":"Tests for gases",
+"qa":"Which observation shows the presence of {k}?",
+"qb":"Which gas shows the following observation: {v}?",
+"qo":"Write the test used to identify {k}.",
+"src":"NEB/CEE chemistry practicals: qualitative gas tests",
+"pairs":[
+[
+"carbon dioxide",
+"turns limewater milky",
+"Carbon dioxide turns limewater milky because it forms insoluble calcium carbonate."
+],
+[
+"oxygen",
+"relights a glowing splint",
+"Oxygen relights a glowing splint because it supports combustion."
+],
+[
+"hydrogen",
+"burns with a pop when a burning splint is brought near",
+"Hydrogen burns with a characteristic pop when ignited."
+],
+[
+"chlorine",
+"bleaches moist litmus paper",
+"Chlorine bleaches moist litmus paper because of its oxidising action."
+],
+[
+"ammonia",
+"turns moist red litmus paper blue",
+"Ammonia is basic and turns moist red litmus paper blue."
+],
+[
+"sulphur dioxide",
+"turns acidified potassium dichromate paper green",
+"Sulphur dioxide reduces acidified dichromate, changing its colour from orange to green."
+],
+[
+"hydrogen chloride",
+"gives dense white fumes with ammonia",
+"Hydrogen chloride and ammonia combine to form dense white fumes of ammonium chloride."
+],
+[
+"nitrogen dioxide",
+"is a reddish brown gas that turns moist blue litmus paper red",
+"Nitrogen dioxide is a reddish brown acidic gas."
+]
+]
+},
+{
+"id":"chem.flame",
+"subjects":[
+"chem"
+],
+"units":[
+"practical",
+"flame",
+"metal",
+"salt",
+"cation",
+"analysis",
+"volumetric"
+],
+"label":"Flame colours",
+"qa":"Which flame colour is given by the metal ion {k}?",
+"qb":"Which metal ion gives the flame colour {v}?",
+"qo":"Write the flame colour of the metal ion {k}.",
+"src":"NEB/CEE chemistry practicals: flame test",
+"pairs":[
+[
+"sodium",
+"golden yellow",
+"Sodium gives a golden yellow flame."
+],
+[
+"potassium",
+"lilac",
+"Potassium gives a lilac flame."
+],
+[
+"calcium",
+"brick red",
+"Calcium gives a brick red flame."
+],
+[
+"copper",
+"blue green",
+"Copper gives a blue green flame."
+],
+[
+"lithium",
+"crimson",
+"Lithium gives a crimson flame."
+],
+[
+"barium",
+"apple green",
+"Barium gives an apple green flame."
+],
+[
+"strontium",
+"scarlet",
+"Strontium gives a scarlet flame."
+]
+]
+},
+{
+"id":"chem.ore",
+"subjects":[
+"chem",
+"metallurg"
+],
+"units":[
+"metal",
+"metallurg",
+"ore",
+"transition",
+"extraction",
+"cement"
+],
+"label":"Ores",
+"qa":"Which of the following is the main ore of {k}?",
+"qb":"{v} is the main ore of which metal?",
+"qo":"Name the main ore of {k}.",
+"src":"NEB/CEE chemistry: metallurgy and ores",
+"pairs":[
+[
+"iron",
+"haematite, $\\text{Fe}_{2}\\text{O}_{3}$",
+"Haematite, $\\text{Fe}_{2}\\text{O}_{3}$, is the main ore of iron."
+],
+[
+"aluminium",
+"bauxite, $\\text{Al}_{2}\\text{O}_{3}\\cdot 2\\text{H}_{2}\\text{O}$",
+"Bauxite is the main ore of aluminium."
+],
+[
+"tin",
+"cassiterite, $\\text{SnO}_{2}$",
+"Cassiterite, $\\text{SnO}_{2}$, is the ore of tin."
+],
+[
+"zinc",
+"zinc blende, $\\text{ZnS}$",
+"Zinc blende, $\\text{ZnS}$, is the main ore of zinc."
+],
+[
+"lead",
+"galena, $\\text{PbS}$",
+"Galena, $\\text{PbS}$, is the main ore of lead."
+],
+[
+"mercury",
+"cinnabar, $\\text{HgS}$",
+"Cinnabar, $\\text{HgS}$, is the ore of mercury."
+],
+[
+"manganese",
+"pyrolusite, $\\text{MnO}_{2}$",
+"Pyrolusite, $\\text{MnO}_{2}$, is the ore of manganese."
+],
+[
+"magnesium",
+"dolomite, $\\text{CaMg}(\\text{CO}_{3})_{2}$",
+"Dolomite is a magnesium ore."
+],
+[
+"silver",
+"argentite, $\\text{Ag}_{2}\\text{S}$",
+"Argentite, $\\text{Ag}_{2}\\text{S}$, is an ore of silver."
+],
+[
+"chromium",
+"chromite, $\\text{FeCr}_{2}\\text{O}_{4}$",
+"Chromite, $\\text{FeCr}_{2}\\text{O}_{4}$, is the ore of chromium."
+]
+]
+},
+{
+"id":"chem.alloy",
+"subjects":[
+"chem",
+"metallurg",
+"engineer",
+"^science$"
+],
+"units":[
+"metal",
+"alloy",
+"transition",
+"metallurg",
+"cement",
+"material"
+],
+"label":"Alloys",
+"qa":"Which combination of metals forms {k}?",
+"qb":"Which alloy has the composition {v}?",
+"qo":"Write the composition of {k}.",
+"src":"NEB/CEE chemistry: alloys",
+"pairs":[
+[
+"brass",
+"copper and zinc",
+"Brass is an alloy of copper and zinc."
+],
+[
+"bronze",
+"copper and tin",
+"Bronze is an alloy of copper and tin."
+],
+[
+"steel",
+"iron and a small amount of carbon",
+"Steel is an alloy of iron and carbon."
+],
+[
+"solder",
+"lead and tin",
+"Solder is an alloy of lead and tin."
+],
+[
+"duralumin",
+"aluminium, copper, magnesium and manganese",
+"Duralumin is an alloy of aluminium with copper, magnesium and manganese."
+],
+[
+"stainless steel",
+"iron, chromium and nickel",
+"Stainless steel contains iron with chromium and nickel."
+],
+[
+"german silver",
+"copper, zinc and nickel",
+"German silver contains copper, zinc and nickel but no silver."
+],
+[
+"magnalium",
+"aluminium and magnesium",
+"Magnalium is an alloy of aluminium and magnesium."
+],
+[
+"amalgam",
+"mercury with another metal",
+"An amalgam is an alloy in which one component is mercury."
+]
+]
+},
+{
+"id":"chem.functional_group",
+"subjects":[
+"chem"
+],
+"units":[
+"organic",
+"alcohol",
+"aldehyde",
+"ketone",
+"carboxylic",
+"amine",
+"ether",
+"phenol",
+"halo",
+"nitro",
+"organometallic"
+],
+"label":"Functional groups",
+"qa":"Which functional group characterises {k}?",
+"qb":"The functional group {v} characterises which class of compounds?",
+"qo":"Name the functional group present in {k}.",
+"src":"NEB/CEE chemistry: organic functional groups",
+"pairs":[
+[
+"alcohols",
+"$-\\text{OH}$ (hydroxyl)",
+"Alcohols contain the hydroxyl group $-\\text{OH}$."
+],
+[
+"aldehydes",
+"$-\\text{CHO}$ (aldehyde group)",
+"Aldehydes contain the $-\\text{CHO}$ group."
+],
+[
+"ketones",
+"$>\\text{C=O}$ (carbonyl)",
+"Ketones contain a carbonyl group joined to two carbon atoms."
+],
+[
+"carboxylic acids",
+"$-\\text{COOH}$ (carboxyl)",
+"Carboxylic acids contain the carboxyl group $-\\text{COOH}$."
+],
+[
+"primary amines",
+"$-\\text{NH}_{2}$ (amino)",
+"Primary amines contain the amino group $-\\text{NH}_{2}$."
+],
+[
+"esters",
+"$-\\text{COO}-$ (ester linkage)",
+"Esters contain the $-\\text{COO}-$ linkage."
+],
+[
+"ethers",
+"$-\\text{O}-$ (ether linkage)",
+"Ethers contain an oxygen atom joined to two alkyl or aryl groups."
+],
+[
+"amides",
+"$-\\text{CONH}_{2}$ (amide group)",
+"Amides contain the $-\\text{CONH}_{2}$ group."
+],
+[
+"nitro compounds",
+"$-\\text{NO}_{2}$ (nitro group)",
+"Nitro compounds contain the $-\\text{NO}_{2}$ group."
+],
+[
+"phenols",
+"a hydroxyl group attached to a benzene ring",
+"Phenols have an $-\\text{OH}$ group attached directly to an aromatic ring."
+]
+]
+},
+{
+"id":"chem.trivial_name",
+"subjects":[
+"chem",
+"^science$"
+],
+"units":[
+"salt",
+"inorganic",
+"compound",
+"cement",
+"daily",
+"manufactur",
+"non-metal",
+"metal"
+],
+"label":"Common and chemical names",
+"qa":"Which of the following is the common name of {k}?",
+"qb":"{v} is the common name of which compound?",
+"qo":"Write the common name of {k}.",
+"src":"NEB/CEE chemistry: common and chemical names",
+"pairs":[
+[
+"sodium hydrogen carbonate, $\\text{NaHCO}_{3}$",
+"baking soda",
+"Sodium hydrogen carbonate is known as baking soda."
+],
+[
+"calcium oxide, $\\text{CaO}$",
+"quicklime",
+"Calcium oxide is known as quicklime."
+],
+[
+"calcium hydroxide, $\\text{Ca(OH)}_{2}$",
+"slaked lime",
+"Calcium hydroxide is known as slaked lime."
+],
+[
+"sodium hydroxide, $\\text{NaOH}$",
+"caustic soda",
+"Sodium hydroxide is known as caustic soda."
+],
+[
+"hydrated sodium carbonate, $\\text{Na}_{2}\\text{CO}_{3}\\cdot 10\\text{H}_{2}\\text{O}$",
+"washing soda",
+"Hydrated sodium carbonate is known as washing soda."
+],
+[
+"calcium sulphate hemihydrate, $\\text{CaSO}_{4}\\cdot\\tfrac{1}{2}\\text{H}_{2}\\text{O}$",
+"plaster of Paris",
+"Calcium sulphate hemihydrate is known as plaster of Paris."
+],
+[
+"copper sulphate pentahydrate, $\\text{CuSO}_{4}\\cdot 5\\text{H}_{2}\\text{O}$",
+"blue vitriol",
+"Copper sulphate pentahydrate is known as blue vitriol."
+],
+[
+"iron sulphate heptahydrate, $\\text{FeSO}_{4}\\cdot 7\\text{H}_{2}\\text{O}$",
+"green vitriol",
+"Iron sulphate heptahydrate is known as green vitriol."
+],
+[
+"zinc sulphate heptahydrate, $\\text{ZnSO}_{4}\\cdot 7\\text{H}_{2}\\text{O}$",
+"white vitriol",
+"Zinc sulphate heptahydrate is known as white vitriol."
+],
+[
+"trichloromethane, $\\text{CHCl}_{3}$",
+"chloroform",
+"Trichloromethane is known as chloroform."
+],
+[
+"phenol, $\\text{C}_{6}\\text{H}_{5}\\text{OH}$",
+"carbolic acid",
+"Phenol is commonly called carbolic acid."
+],
+[
+"sodium thiosulphate, $\\text{Na}_{2}\\text{S}_{2}\\text{O}_{3}$",
+"hypo",
+"Sodium thiosulphate is commonly called hypo."
+]
+]
+},
+{
+"id":"chem.substance_class",
+"subjects":[
+"chem",
+"^science$",
+"medical"
+],
+"units":[
+"acid",
+"base",
+"salt",
+"oxide",
+"ionic equilibrium",
+"daily",
+"non-metal",
+"chemical reaction"
+],
+"label":"Acids, bases, salts and oxides",
+"qa":"Which of the following is {k}?",
+"qb":null,
+"qo":"Classify {v} as an acid, a base, a salt or an oxide.",
+"src":"NEB/SEE chemistry: acids, bases, salts and oxides",
+"pairs":[
+[
+"an acid",
+"hydrochloric acid, $\\text{HCl}$",
+"Hydrochloric acid donates protons in water, so it is an acid."
+],
+[
+"an acid",
+"sulphuric acid, $\\text{H}_{2}\\text{SO}_{4}$",
+"Sulphuric acid is a strong acid."
+],
+[
+"an acid",
+"nitric acid, $\\text{HNO}_{3}$",
+"Nitric acid is a strong acid."
+],
+[
+"a base",
+"sodium hydroxide, $\\text{NaOH}$",
+"Sodium hydroxide is a soluble base, an alkali."
+],
+[
+"a base",
+"potassium hydroxide, $\\text{KOH}$",
+"Potassium hydroxide is a strong base."
+],
+[
+"a base",
+"calcium hydroxide, $\\text{Ca(OH)}_{2}$",
+"Calcium hydroxide is a base used to neutralise acids."
+],
+[
+"a salt",
+"sodium chloride, $\\text{NaCl}$",
+"Sodium chloride is the salt formed from hydrochloric acid and sodium hydroxide."
+],
+[
+"a salt",
+"copper sulphate, $\\text{CuSO}_{4}$",
+"Copper sulphate is a salt formed from a metal oxide and sulphuric acid."
+],
+[
+"a salt",
+"ammonium chloride, $\\text{NH}_{4}\\text{Cl}$",
+"Ammonium chloride is a salt of ammonia and hydrochloric acid."
+],
+[
+"an oxide",
+"carbon dioxide, $\\text{CO}_{2}$",
+"Carbon dioxide is an acidic oxide."
+],
+[
+"an oxide",
+"calcium oxide, $\\text{CaO}$",
+"Calcium oxide is a basic oxide."
+],
+[
+"an oxide",
+"zinc oxide, $\\text{ZnO}$",
+"Zinc oxide is an amphoteric oxide."
+]
+]
+},
+{
+"id":"chem.bond_type",
+"subjects":[
+"chem"
+],
+"units":[
+"bond",
+"molecule",
+"structure",
+"state",
+"ionic",
+"covalent",
+"solid",
+"atomic"
+],
+"label":"Chemical bonding",
+"qa":"Which type of bond is present in {k}?",
+"qb":"Which of the following has {v}?",
+"qo":"Name the type of bond present in {k}.",
+"src":"NEB/CEE chemistry: chemical bonding",
+"pairs":[
+[
+"sodium chloride, $\\text{NaCl}$",
+"ionic bonding",
+"Sodium chloride is ionic: electrons are transferred from sodium to chlorine."
+],
+[
+"magnesium oxide, $\\text{MgO}$",
+"ionic bonding",
+"Magnesium oxide is ionic because magnesium transfers electrons to oxygen."
+],
+[
+"hydrogen chloride, $\\text{HCl}$",
+"polar covalent bonding",
+"Hydrochloric acid is held by a polar covalent bond because chlorine is more electronegative than hydrogen."
+],
+[
+"chlorine, $\\text{Cl}_{2}$",
+"non-polar covalent bonding",
+"Chlorine molecules contain a non-polar covalent bond between identical atoms."
+],
+[
+"water, $\\text{H}_{2}\\text{O}$",
+"polar covalent bonding",
+"Water has polar covalent bonds because oxygen is more electronegative than hydrogen."
+],
+[
+"methane, $\\text{CH}_{4}$",
+"covalent bonding",
+"Methane contains covalent bonds between carbon and hydrogen."
+],
+[
+"ammonia, $\\text{NH}_{3}$",
+"covalent bonding",
+"Ammonia contains covalent bonds between nitrogen and hydrogen."
+],
+[
+"calcium chloride, $\\text{CaCl}_{2}$",
+"ionic bonding",
+"Calcium chloride is ionic because calcium transfers electrons to chlorine."
+]
+]
+},
+{
+"id":"chem.acid_definition",
+"subjects":[
+"chem"
+],
+"units":[
+"acid",
+"base",
+"ionic equilibrium",
+"equilibrium",
+"buffer"
+],
+"label":"Acid and base concepts",
+"qa":"Which acid-base concept states that {k}?",
+"qb":"Which of the following statements belongs to {v}?",
+"qo":"State the acid-base concept that defines {k}.",
+"src":"NEB/CEE chemistry: acid-base theories",
+"pairs":[
+[
+"an acid gives hydrogen ions in aqueous solution",
+"the Arrhenius concept",
+"In the Arrhenius concept an acid gives $\\text{H}^{+}$ ions in water."
+],
+[
+"an acid is a proton donor and a base is a proton acceptor",
+"the Bronsted-Lowry concept",
+"In the Bronsted-Lowry concept an acid donates a proton and a base accepts one."
+],
+[
+"an acid is an electron pair acceptor and a base is an electron pair donor",
+"the Lewis concept",
+"In the Lewis concept an acid accepts an electron pair and a base donates one."
+],
+[
+"an acid turns blue litmus paper red and has a pH below seven",
+"the operational litmus test",
+"Operationally an acid turns blue litmus paper red and has a pH below seven."
+]
+]
+},
+{
+"id":"chem.periodic_group",
+"subjects":[
+"chem"
+],
+"units":[
+"periodic",
+"element",
+"classification",
+"atomic structure",
+"transition",
+"modern chemical"
+],
+"label":"Periodic table groups",
+"qa":"Which group of the periodic table is called {k}?",
+"qb":"The elements of {v} are called which of the following?",
+"qo":"Name the periodic table group whose elements are called {k}.",
+"src":"NEB/CEE chemistry: classification of elements and periodic table",
+"pairs":[
+[
+"the alkali metals",
+"group 1",
+"Group 1 elements, except hydrogen, are the alkali metals."
+],
+[
+"the alkaline earth metals",
+"group 2",
+"Group 2 elements are the alkaline earth metals."
+],
+[
+"the halogens",
+"group 17",
+"Group 17 elements are the halogens."
+],
+[
+"the noble gases",
+"group 18",
+"Group 18 elements are the noble gases with a stable octet."
+],
+[
+"the chalcogens",
+"group 16",
+"Group 16 elements are the chalcogens, which include oxygen and sulphur."
+],
+[
+"the transition metals",
+"the d-block groups 3 to 12",
+"The d-block groups 3 to 12 contain the transition metals."
+]
+]
+},
+{
+"id":"chem.polymer",
+"subjects":[
+"chem",
+"^science$"
+],
+"units":[
+"polymer",
+"service of mankind",
+"manufactur",
+"organic",
+"daily",
+"applied"
+],
+"label":"Polymers",
+"qa":"Which monomer gives {k} on polymerisation?",
+"qb":"Which of the following polymers is made from {v}?",
+"qo":"Name the monomer used to make {k}.",
+"src":"NEB/CEE chemistry: polymers and chemistry in the service of mankind",
+"pairs":[
+[
+"polythene",
+"ethylene",
+"Polythene is made by the addition polymerisation of ethylene."
+],
+[
+"PVC (polyvinyl chloride)",
+"vinyl chloride",
+"PVC is made by the addition polymerisation of vinyl chloride."
+],
+[
+"polystyrene",
+"styrene",
+"Polystyrene is made from styrene monomers."
+],
+[
+"Teflon",
+"tetrafluoroethene",
+"Teflon is the polymer of tetrafluoroethene."
+],
+[
+"nylon 6,6",
+"adipic acid and hexamethylene diamine",
+"Nylon 6,6 is a condensation polymer of adipic acid and hexamethylene diamine."
+],
+[
+"bakelite",
+"phenol and formaldehyde",
+"Bakelite is a condensation polymer of phenol and formaldehyde."
+],
+[
+"natural rubber",
+"isoprene",
+"Natural rubber is a polymer of isoprene."
+],
+[
+"terylene",
+"ethylene glycol and terephthalic acid",
+"Terylene is a polyester of ethylene glycol and terephthalic acid."
+]
+]
+},
+{
+"id":"bio.organelle",
+"subjects":[
+"biolog",
+"botany",
+"zoology",
+"^science$",
+"medical",
+"nurs"
+],
+"units":[
+"cell",
+"biomolecule",
+"tissue",
+"physiolog",
+"microbiolog",
+"cytolog",
+"cell division"
+],
+"label":"Cell organelles",
+"qa":"Which organelle is the site of {k}?",
+"qb":"Which of the following is the main function of {v}?",
+"qo":"Write the main function of {v}.",
+"src":"NEB/CEE biology: cell biology",
+"pairs":[
+[
+"aerobic respiration and ATP production",
+"mitochondrion",
+"The mitochondrion is the site of aerobic respiration and produces most of the ATP of the cell, so it is called the powerhouse of the cell."
+],
+[
+"protein synthesis",
+"ribosome",
+"The ribosome is the site of protein synthesis."
+],
+[
+"intracellular digestion and hydrolysis of worn-out organelles",
+"lysosome",
+"Lysosomes contain hydrolytic enzymes and digest worn-out organelles, so they are called suicidal bags."
+],
+[
+"modification, sorting and packaging of proteins",
+"Golgi apparatus",
+"The Golgi apparatus modifies, sorts and packages proteins for secretion."
+],
+[
+"synthesis of lipids and detoxification in liver cells",
+"smooth endoplasmic reticulum",
+"The smooth endoplasmic reticulum synthesises lipids and detoxifies drugs in liver cells."
+],
+[
+"photosynthesis in plant cells",
+"chloroplast",
+"The chloroplast contains chlorophyll and is the site of photosynthesis."
+],
+[
+"maintenance of turgor pressure and storage of cell sap",
+"central vacuole",
+"The central vacuole stores cell sap and maintains turgor pressure in plant cells."
+],
+[
+"organisation of the spindle during animal cell division",
+"centriole",
+"The centriole organises spindle fibres during animal cell division."
+],
+[
+"oxidation of fatty acids and breakdown of hydrogen peroxide",
+"peroxisome",
+"Peroxisomes oxidise fatty acids and break down hydrogen peroxide using catalase."
+]
+]
+},
+{
+"id":"bio.hormone",
+"subjects":[
+"biolog",
+"zoology",
+"nurs",
+"medical"
+],
+"units":[
+"endocrine",
+"human biolog",
+"physiolog",
+"animal",
+"hormone",
+"reproduct",
+"nervous",
+"sense organ"
+],
+"label":"Hormones and glands",
+"qa":"Which gland secretes {k}?",
+"qb":"Which hormone is secreted by {v}?",
+"qo":"Name the gland that secretes {k}.",
+"src":"NEB/CEE biology: endocrine system",
+"pairs":[
+[
+"insulin",
+"the beta cells of the islets of Langerhans of the pancreas",
+"Insulin is secreted by the beta cells of the islets of Langerhans of the pancreas."
+],
+[
+"glucagon",
+"the alpha cells of the islets of Langerhans of the pancreas",
+"Glucagon is secreted by the alpha cells of the islets of Langerhans of the pancreas."
+],
+[
+"thyroxine",
+"the thyroid gland",
+"Thyroxine is secreted by the thyroid gland and controls the basal metabolic rate."
+],
+[
+"adrenaline",
+"the adrenal medulla",
+"Adrenaline is secreted by the adrenal medulla and prepares the body for fight or flight."
+],
+[
+"cortisol",
+"the adrenal cortex",
+"Cortisol is secreted by the adrenal cortex and raises blood glucose."
+],
+[
+"growth hormone",
+"the anterior pituitary gland",
+"Growth hormone is secreted by the anterior pituitary gland."
+],
+[
+"antidiuretic hormone",
+"the posterior pituitary gland",
+"Antidiuretic hormone is released from the posterior pituitary gland."
+],
+[
+"testosterone",
+"the interstitial cells of the testis",
+"Testosterone is secreted by the interstitial cells of the testis."
+],
+[
+"oestrogen",
+"the ovarian follicles",
+"Oestrogen is secreted by the ovarian follicles."
+],
+[
+"progesterone",
+"the corpus luteum of the ovary",
+"Progesterone is secreted by the corpus luteum."
+],
+[
+"parathormone",
+"the parathyroid gland",
+"Parathormone is secreted by the parathyroid gland and raises blood calcium."
+],
+[
+"melatonin",
+"the pineal gland",
+"Melatonin is secreted by the pineal gland and regulates the sleep cycle."
+]
+]
+},
+{
+"id":"bio.vitamin",
+"subjects":[
+"biolog",
+"nurs",
+"medical",
+"^science$",
+"nutrition"
+],
+"units":[
+"nutrition",
+"vitamin",
+"health",
+"diet",
+"biomolecule",
+"physiolog",
+"applied biology"
+],
+"label":"Vitamins and deficiency diseases",
+"qa":"Deficiency of {k} causes which disease?",
+"qb":"The deficiency disease {v} is caused by a lack of which vitamin?",
+"qo":"Name the deficiency disease caused by a lack of {k}.",
+"src":"NEB/CEE biology and nursing nutrition: vitamins",
+"pairs":[
+[
+"vitamin A",
+"night blindness",
+"Lack of vitamin A causes night blindness and xerophthalmia."
+],
+[
+"vitamin B1 (thiamine)",
+"beriberi",
+"Lack of thiamine causes beriberi."
+],
+[
+"vitamin B2 (riboflavin)",
+"cheilosis with angular stomatitis",
+"Lack of riboflavin causes cheilosis and angular stomatitis."
+],
+[
+"vitamin B3 (niacin)",
+"pellagra",
+"Lack of niacin causes pellagra with dermatitis, diarrhoea and dementia."
+],
+[
+"vitamin B9 (folic acid)",
+"macrocytic anaemia",
+"Lack of folic acid causes macrocytic anaemia."
+],
+[
+"vitamin B12 (cobalamin)",
+"pernicious anaemia",
+"Lack of vitamin B12 causes pernicious anaemia."
+],
+[
+"vitamin C (ascorbic acid)",
+"scurvy",
+"Lack of vitamin C causes scurvy with bleeding gums."
+],
+[
+"vitamin D",
+"rickets in children",
+"Lack of vitamin D causes rickets in children and osteomalacia in adults."
+],
+[
+"vitamin E (tocopherol)",
+"haemolysis of red blood cells",
+"Lack of vitamin E causes haemolysis of red blood cells."
+],
+[
+"vitamin K",
+"delayed blood clotting",
+"Lack of vitamin K delays blood clotting because it is needed for prothrombin synthesis."
+]
+]
+},
+{
+"id":"bio.disease",
+"subjects":[
+"biolog",
+"zoology",
+"medical",
+"nurs",
+"^science$",
+"health"
+],
+"units":[
+"disease",
+"health",
+"immunolog",
+"microbiolog",
+"population",
+"patholog",
+"community",
+"medical"
+],
+"label":"Diseases and pathogens",
+"qa":"Which pathogen causes {k}?",
+"qb":"Which disease is caused by {v}?",
+"qo":"Name the causative agent of {k}.",
+"src":"NEB/CEE biology: human diseases",
+"pairs":[
+[
+"malaria",
+"the protozoan Plasmodium",
+"Malaria is caused by the protozoan Plasmodium and spread by the female Anopheles mosquito."
+],
+[
+"amoebic dysentery",
+"the protozoan Entamoeba histolytica",
+"Amoebic dysentery is caused by Entamoeba histolytica."
+],
+[
+"tuberculosis",
+"the bacterium Mycobacterium tuberculosis",
+"Tuberculosis is caused by Mycobacterium tuberculosis."
+],
+[
+"cholera",
+"the bacterium Vibrio cholerae",
+"Cholera is caused by Vibrio cholerae."
+],
+[
+"typhoid",
+"the bacterium Salmonella typhi",
+"Typhoid is caused by Salmonella typhi."
+],
+[
+"tetanus",
+"the bacterium Clostridium tetani",
+"Tetanus is caused by Clostridium tetani."
+],
+[
+"leprosy",
+"the bacterium Mycobacterium leprae",
+"Leprosy is caused by Mycobacterium leprae."
+],
+[
+"influenza",
+"the influenza virus",
+"Influenza is caused by the influenza virus."
+],
+[
+"AIDS",
+"the human immunodeficiency virus",
+"AIDS is caused by the human immunodeficiency virus."
+],
+[
+"rabies",
+"the rabies virus",
+"Rabies is caused by the rabies virus and transmitted by animal bites."
+],
+[
+"ringworm",
+"a dermatophytic fungus",
+"Ringworm is a fungal skin infection."
+],
+[
+"ascariasis",
+"the roundworm Ascaris lumbricoides",
+"Ascariasis is caused by the roundworm Ascaris lumbricoides."
+]
+]
+},
+{
+"id":"bio.blood_cell",
+"subjects":[
+"biolog",
+"nurs",
+"medical"
+],
+"units":[
+"blood",
+"circulat",
+"human biolog",
+"physiolog",
+"animal",
+"respirator"
+],
+"label":"Blood components",
+"qa":"Which blood component is responsible for {k}?",
+"qb":"Which of the following is the function of {v}?",
+"qo":"State the function of {v}.",
+"src":"NEB/CEE biology: blood and circulation",
+"pairs":[
+[
+"transport of oxygen",
+"red blood cells",
+"Red blood cells transport oxygen using haemoglobin."
+],
+[
+"defence against infection",
+"white blood cells",
+"White blood cells defend the body against infection."
+],
+[
+"clotting of blood",
+"platelets",
+"Platelets release clotting factors that stop bleeding."
+],
+[
+"transport of nutrients, hormones and carbon dioxide",
+"plasma",
+"Plasma transports nutrients, hormones and carbon dioxide."
+]
+]
+},
+{
+"id":"bio.plant_hormone",
+"subjects":[
+"biolog",
+"botany",
+"^science$"
+],
+"units":[
+"plant",
+"physiolog",
+"growth",
+"botany",
+"horticulture",
+"vegetation"
+],
+"label":"Plant hormones",
+"qa":"Which plant hormone is responsible for {k}?",
+"qb":"The plant hormone {v} is responsible for which of the following?",
+"qo":"Name the plant hormone responsible for {k}.",
+"src":"NEB/CEE botany: plant growth substances",
+"pairs":[
+[
+"cell elongation and apical dominance",
+"auxin",
+"Auxin promotes cell elongation and apical dominance."
+],
+[
+"cell division and delay of leaf senescence",
+"cytokinin",
+"Cytokinin promotes cell division and delays senescence."
+],
+[
+"internode elongation and bolting",
+"gibberellin",
+"Gibberellin promotes internode elongation and bolting."
+],
+[
+"fruit ripening",
+"ethylene",
+"Ethylene promotes fruit ripening."
+],
+[
+"stomatal closure under water stress",
+"abscisic acid",
+"Abscisic acid closes stomata under water stress."
+]
+]
+},
+{
+"id":"bio.enzyme",
+"subjects":[
+"biolog",
+"^science$",
+"medical",
+"nurs",
+"nutrition"
+],
+"units":[
+"enzyme",
+"biomolecule",
+"digest",
+"nutrition",
+"biochemist",
+"physiolog"
+],
+"label":"Digestive enzymes",
+"qa":"Which enzyme acts on {k}?",
+"qb":"The enzyme {v} acts on which substrate?",
+"qo":"Name the enzyme that acts on {k}.",
+"src":"NEB/CEE biology: digestion and enzymes",
+"pairs":[
+[
+"starch, converting it into maltose",
+"salivary amylase",
+"Salivary amylase digests starch into maltose."
+],
+[
+"proteins into peptides in the stomach",
+"pepsin",
+"Pepsin digests proteins into peptides in the acidic stomach."
+],
+[
+"peptides into amino acids in the small intestine",
+"trypsin",
+"Trypsin digests peptides into amino acids in the small intestine."
+],
+[
+"fats into fatty acids and glycerol",
+"lipase",
+"Lipase digests fats into fatty acids and glycerol."
+],
+[
+"maltose into glucose",
+"maltase",
+"Maltase hydrolyses maltose into glucose."
+],
+[
+"sucrose into glucose and fructose",
+"sucrase",
+"Sucrase hydrolyses sucrose into glucose and fructose."
+],
+[
+"lactose into glucose and galactose",
+"lactase",
+"Lactase hydrolyses lactose into glucose and galactose."
+]
+]
+},
+{
+"id":"bio.taxonomy",
+"subjects":[
+"biolog",
+"botany",
+"zoology",
+"^science$"
+],
+"units":[
+"diversity",
+"classification",
+"faunal",
+"floral",
+"animal",
+"botany",
+"zoology",
+"organism",
+"angiosperm",
+"bryophyte",
+"fungi"
+],
+"label":"Classification of organisms",
+"qa":"{k} belongs to which group of organisms?",
+"qb":"The group {v} includes which of the following organisms?",
+"qo":"Name the group to which {k} belongs.",
+"src":"NEB/CEE biology: classification of living beings",
+"pairs":[
+[
+"Amoeba",
+"Protozoa",
+"Amoeba is a unicellular protozoan."
+],
+[
+"Spongilla",
+"Porifera",
+"Spongilla is a freshwater sponge of the phylum Porifera."
+],
+[
+"Hydra",
+"Cnidaria",
+"Hydra belongs to the phylum Cnidaria."
+],
+[
+"Taenia solium",
+"Platyhelminthes",
+"Taenia solium is a tapeworm of the phylum Platyhelminthes."
+],
+[
+"Ascaris lumbricoides",
+"Aschelminthes",
+"Ascaris lumbricoides is a roundworm of the phylum Aschelminthes."
+],
+[
+"Pheretima posthuma",
+"Annelida",
+"Pheretima posthuma, the earthworm, belongs to the phylum Annelida."
+],
+[
+"Pila globosa",
+"Mollusca",
+"Pila globosa, the apple snail, belongs to the phylum Mollusca."
+],
+[
+"Palaemon",
+"Arthropoda",
+"Palaemon, the prawn, belongs to the phylum Arthropoda."
+],
+[
+"Asterias",
+"Echinodermata",
+"Asterias, the starfish, belongs to the phylum Echinodermata."
+],
+[
+"Rana tigrina",
+"Amphibia",
+"Rana tigrina, the frog, is an amphibian."
+],
+[
+"Hippocampus",
+"Pisces",
+"Hippocampus, the seahorse, is a fish."
+],
+[
+"Agaricus",
+"Fungi",
+"Agaricus, the mushroom, is a fungus."
+],
+[
+"Nostoc",
+"Cyanobacteria",
+"Nostoc is a cyanobacterium."
+]
+]
+},
+{
+"id":"bio.terminology",
+"subjects":[
+"biolog",
+"botany",
+"zoology",
+"^science$"
+],
+"units":[
+"genetic",
+"heredity",
+"inheritance",
+"evolution",
+"molecular",
+"cell division",
+"embryolog",
+"developmental"
+],
+"label":"Genetics terminology",
+"qa":"Which term means {k}?",
+"qb":"The term {v} means which of the following?",
+"qo":"Define the term {v}.",
+"src":"NEB/CEE biology: genetics",
+"pairs":[
+[
+"the set of genes present in an organism",
+"genotype",
+"The genotype is the genetic constitution of an organism."
+],
+[
+"the observable characteristics of an organism",
+"phenotype",
+"The phenotype is the observable expression of the genotype."
+],
+[
+"the alternative forms of a gene at one locus",
+"alleles",
+"Alleles are alternative forms of the same gene at a locus."
+],
+[
+"an organism with two identical alleles for a trait",
+"homozygous",
+"A homozygous organism carries two identical alleles for a trait."
+],
+[
+"an organism with two different alleles for a trait",
+"heterozygous",
+"A heterozygous organism carries two different alleles for a trait."
+],
+[
+"a cross with a homozygous recessive parent to reveal a genotype",
+"test cross",
+"A test cross is made with a homozygous recessive parent to reveal the genotype."
+],
+[
+"the allele that expresses itself in the heterozygous state",
+"dominant allele",
+"A dominant allele expresses its phenotype in the heterozygous state."
+],
+[
+"the allele masked in the heterozygous state",
+"recessive allele",
+"A recessive allele is masked in the heterozygous state and expresses only when homozygous."
+],
+[
+"the transmission of traits from parents to offspring",
+"heredity",
+"Heredity is the transmission of traits from parents to offspring."
+],
+[
+"a change in the nucleotide sequence of DNA",
+"mutation",
+"A mutation is a change in the nucleotide sequence of DNA."
+],
+[
+"the exchange of segments between homologous chromosomes",
+"crossing over",
+"Crossing over exchanges segments between homologous chromosomes during meiosis."
+],
+[
+"a three-base code in mRNA that specifies an amino acid",
+"codon",
+"A codon is a three-base sequence of mRNA that specifies an amino acid."
+]
+]
+},
+{
+"id":"bio.ecosystem",
+"subjects":[
+"biolog",
+"^science$",
+"environment",
+"botany"
+],
+"units":[
+"ecolog",
+"environment",
+"biodiversity",
+"conservation",
+"ecosystem",
+"biota",
+"population",
+"vegetation"
+],
+"label":"Ecology",
+"qa":"Which of the following is the meaning of {k}?",
+"qb":"The term {v} means which of the following?",
+"qo":"Define the term {v} in ecology.",
+"src":"NEB/CEE biology: ecology",
+"pairs":[
+[
+"all the organisms of one species living in an area",
+"population",
+"A population is all the organisms of one species living in an area at a given time."
+],
+[
+"all the populations living together in an area",
+"community",
+"A community is all the populations that live together in an area."
+],
+[
+"the community together with its physical environment",
+"ecosystem",
+"An ecosystem is a community together with its non-living environment."
+],
+[
+"the place where an organism lives",
+"habitat",
+"A habitat is the place where an organism lives."
+],
+[
+"the role an organism plays in its ecosystem",
+"ecological niche",
+"The ecological niche is the functional role of an organism in its ecosystem."
+],
+[
+"organisms that make their own food by photosynthesis",
+"producers",
+"Producers synthesise organic food from inorganic substances by photosynthesis."
+],
+[
+"organisms that feed on other organisms",
+"consumers",
+"Consumers obtain energy by feeding on other organisms."
+],
+[
+"organisms that break down dead organic matter",
+"decomposers",
+"Decomposers break down dead organic matter and release nutrients."
+],
+[
+"the transition zone between two ecosystems",
+"ecotone",
+"An ecotone is the transition zone between two adjacent ecosystems."
+],
+[
+"the variety of life in an ecosystem",
+"biodiversity",
+"Biodiversity is the variety of species, genes and ecosystems in an area."
+]
+]
+},
+{
+"id":"math.derivative",
+"subjects":[
+"mathemat",
+"numerical-methods",
+"engineering-mathemat"
+],
+"units":[
+"derivative",
+"calculus",
+"differenti",
+"limit",
+"function",
+"continuity"
+],
+"label":"Standard derivatives",
+"qa":"Which of the following is the derivative of {k} with respect to $x$?",
+"qb":"{v} is the derivative of which of the following functions?",
+"qo":"Write the derivative of {k} with respect to $x$.",
+"src":"NEB/CEE mathematics: differentiation",
+"pairs":[
+[
+"$x^{n}$",
+"$nx^{n-1}$",
+"The derivative of $x^{n}$ is $nx^{n-1}$ by the power rule."
+],
+[
+"$\\sin x$",
+"$\\cos x$",
+"The derivative of $\\sin x$ is $\\cos x$."
+],
+[
+"$\\cos x$",
+"$-\\sin x$",
+"The derivative of $\\cos x$ is $-\\sin x$."
+],
+[
+"$\\tan x$",
+"$\\sec^{2}x$",
+"The derivative of $\\tan x$ is $\\sec^{2}x$."
+],
+[
+"$\\ln x$",
+"$\\dfrac{1}{x}$",
+"The derivative of $\\ln x$ is $1/x$."
+],
+[
+"$e^{x}$",
+"$e^{x}$",
+"The derivative of $e^{x}$ is $e^{x}$."
+],
+[
+"$e^{ax}$",
+"$ae^{ax}$",
+"The derivative of $e^{ax}$ is $ae^{ax}$."
+],
+[
+"$\\sqrt{x}$",
+"$\\dfrac{1}{2\\sqrt{x}}$",
+"The derivative of $\\sqrt{x}$ is $1/(2\\sqrt{x})$."
+],
+[
+"$\\dfrac{1}{x}$",
+"$-\\dfrac{1}{x^{2}}$",
+"The derivative of $1/x$ is $-1/x^{2}$."
+],
+[
+"$\\log_{a}x$",
+"$\\dfrac{1}{x\\ln a}$",
+"The derivative of $\\log_{a}x$ is $1/(x\\ln a)$."
+],
+[
+"$\\sin^{-1}x$",
+"$\\dfrac{1}{\\sqrt{1-x^{2}}}$",
+"The derivative of $\\sin^{-1}x$ is $1/\\sqrt{1-x^{2}}$."
+],
+[
+"$\\tan^{-1}x$",
+"$\\dfrac{1}{1+x^{2}}$",
+"The derivative of $\\tan^{-1}x$ is $1/(1+x^{2})$."
+],
+[
+"$\\sec x$",
+"$\\sec x\\tan x$",
+"The derivative of $\\sec x$ is $\\sec x\\tan x$."
+],
+[
+"$a^{x}$",
+"$a^{x}\\ln a$",
+"The derivative of $a^{x}$ is $a^{x}\\ln a$."
+]
+]
+},
+{
+"id":"math.integral",
+"subjects":[
+"mathemat",
+"engineering-mathemat"
+],
+"units":[
+"integral",
+"anti-derivative",
+"antiderivative",
+"calculus"
+],
+"label":"Standard integrals",
+"qa":"Which of the following is the value of {k}?",
+"qb":"{v} is the value of which of the following integrals?",
+"qo":"Evaluate {k}.",
+"src":"NEB/CEE mathematics: integration",
+"pairs":[
+[
+"$\\displaystyle\\int x^{n}\\,dx$ (for $n\\neq -1$)",
+"$\\dfrac{x^{n+1}}{n+1}+C$",
+"$\\int x^{n}dx = \\frac{x^{n+1}}{n+1}+C$ for $n\\neq -1$."
+],
+[
+"$\\displaystyle\\int \\dfrac{1}{x}\\,dx$",
+"$\\ln|x|+C$",
+"$\\int \\frac{1}{x}dx = \\ln|x|+C$."
+],
+[
+"$\\displaystyle\\int e^{x}\\,dx$",
+"$e^{x}+C$",
+"$\\int e^{x}dx = e^{x}+C$."
+],
+[
+"$\\displaystyle\\int \\cos x\\,dx$",
+"$\\sin x+C$",
+"$\\int \\cos x\\,dx = \\sin x+C$."
+],
+[
+"$\\displaystyle\\int \\sin x\\,dx$",
+"$-\\cos x+C$",
+"$\\int \\sin x\\,dx = -\\cos x+C$."
+],
+[
+"$\\displaystyle\\int \\sec^{2}x\\,dx$",
+"$\\tan x+C$",
+"$\\int \\sec^{2}x\\,dx = \\tan x+C$."
+],
+[
+"$\\displaystyle\\int \\dfrac{1}{1+x^{2}}\\,dx$",
+"$\\tan^{-1}x+C$",
+"$\\int \\frac{dx}{1+x^{2}} = \\tan^{-1}x+C$."
+],
+[
+"$\\displaystyle\\int \\dfrac{1}{\\sqrt{1-x^{2}}}\\,dx$",
+"$\\sin^{-1}x+C$",
+"$\\int \\frac{dx}{\\sqrt{1-x^{2}}} = \\sin^{-1}x+C$."
+],
+[
+"$\\displaystyle\\int a^{x}\\,dx$",
+"$\\dfrac{a^{x}}{\\ln a}+C$",
+"$\\int a^{x}dx = \\frac{a^{x}}{\\ln a}+C$."
+]
+]
+},
+{
+"id":"math.formula",
+"subjects":[
+"mathemat",
+"numerical-methods"
+],
+"units":[
+"algebra",
+"trigono",
+"geometry",
+"mensuration",
+"sequence",
+"series",
+"vector",
+"conic",
+"probability",
+"binomial",
+"complex",
+"matrix",
+"statistic",
+"quadratic",
+"equation",
+"circle",
+"sphere",
+"prism",
+"cylinder",
+"tax",
+"interest",
+"area",
+"volume",
+"solid",
+"coordinate"
+],
+"label":"Standard formulae",
+"qa":"Which of the following is the formula for {k}?",
+"qb":"{v} is the formula for which of the following?",
+"qo":"Write the formula for {k}.",
+"src":"NEB/SEE/CEE mathematics: standard results and mensuration",
+"pairs":[
+[
+"the area of a circle of radius $r$",
+"$\\pi r^{2}$",
+"The area of a circle is $\\pi r^{2}$."
+],
+[
+"the circumference of a circle of radius $r$",
+"$2\\pi r$",
+"The circumference of a circle is $2\\pi r$."
+],
+[
+"the volume of a sphere of radius $r$",
+"$\\dfrac{4}{3}\\pi r^{3}$",
+"The volume of a sphere is $\\frac{4}{3}\\pi r^{3}$."
+],
+[
+"the surface area of a sphere of radius $r$",
+"$4\\pi r^{2}$",
+"The surface area of a sphere is $4\\pi r^{2}$."
+],
+[
+"the area of a triangle with base $b$ and height $h$",
+"$\\dfrac{1}{2}bh$",
+"The area of a triangle is $\\frac{1}{2}bh$."
+],
+[
+"the volume of a cylinder of radius $r$ and height $h$",
+"$\\pi r^{2}h$",
+"The volume of a cylinder is $\\pi r^{2}h$."
+],
+[
+"the curved surface area of a cylinder of radius $r$ and height $h$",
+"$2\\pi rh$",
+"The curved surface area of a cylinder is $2\\pi rh$."
+],
+[
+"the volume of a cone of radius $r$ and height $h$",
+"$\\dfrac{1}{3}\\pi r^{2}h$",
+"The volume of a cone is $\\frac{1}{3}\\pi r^{2}h$."
+],
+[
+"the distance between two points $(x_{1},y_{1})$ and $(x_{2},y_{2})$",
+"$\\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}$",
+"The distance between two points is $\\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}$."
+],
+[
+"the slope of the line through $(x_{1},y_{1})$ and $(x_{2},y_{2})$",
+"$\\dfrac{y_{2}-y_{1}}{x_{2}-x_{1}}$",
+"The slope of a line through two points is $(y_{2}-y_{1})/(x_{2}-x_{1})$."
+],
+[
+"the roots of $ax^{2}+bx+c=0$",
+"$\\dfrac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}$",
+"The roots of $ax^{2}+bx+c=0$ are $\\frac{-b\\pm\\sqrt{b^{2}-4ac}}{2a}$."
+],
+[
+"the sum of the roots of $ax^{2}+bx+c=0$",
+"$-\\dfrac{b}{a}$",
+"The sum of the roots of $ax^{2}+bx+c=0$ is $-b/a$."
+],
+[
+"the product of the roots of $ax^{2}+bx+c=0$",
+"$\\dfrac{c}{a}$",
+"The product of the roots of $ax^{2}+bx+c=0$ is $c/a$."
+],
+[
+"the sum of the first $n$ natural numbers",
+"$\\dfrac{n(n+1)}{2}$",
+"The sum of the first $n$ natural numbers is $\\frac{n(n+1)}{2}$."
+],
+[
+"the sum of the first $n$ terms of an arithmetic progression",
+"$\\dfrac{n}{2}[2a+(n-1)d]$",
+"The sum of $n$ terms of an AP is $\\frac{n}{2}[2a+(n-1)d]$."
+],
+[
+"the sum of the first $n$ terms of a geometric progression",
+"$\\dfrac{a(r^{n}-1)}{r-1}$",
+"The sum of $n$ terms of a GP is $\\frac{a(r^{n}-1)}{r-1}$ for $r\\neq 1$."
+],
+[
+"the number of combinations ${}^{n}C_{r}$",
+"$\\dfrac{n!}{r!(n-r)!}$",
+"${}^{n}C_{r} = \\frac{n!}{r!(n-r)!}$."
+],
+[
+"the number of permutations ${}^{n}P_{r}$",
+"$\\dfrac{n!}{(n-r)!}$",
+"${}^{n}P_{r} = \\frac{n!}{(n-r)!}$."
+],
+[
+"the arithmetic mean of $a$ and $b$",
+"$\\dfrac{a+b}{2}$",
+"The arithmetic mean of $a$ and $b$ is $\\frac{a+b}{2}$."
+],
+[
+"the geometric mean of $a$ and $b$",
+"$\\sqrt{ab}$",
+"The geometric mean of $a$ and $b$ is $\\sqrt{ab}$."
+],
+[
+"the sine rule in a triangle",
+"$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$",
+"The sine rule is $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$."
+],
+[
+"the cosine rule in a triangle",
+"$a^{2}=b^{2}+c^{2}-2bc\\cos A$",
+"The cosine rule is $a^{2}=b^{2}+c^{2}-2bc\\cos A$."
+],
+[
+"the binomial expansion of $(a+b)^{n}$",
+"$\\displaystyle\\sum_{r=0}^{n}{}^{n}C_{r}\\,a^{n-r}b^{r}$",
+"$(a+b)^{n} = \\sum_{r=0}^{n}{}^{n}C_{r}a^{n-r}b^{r}$."
+],
+[
+"the straight line with gradient $m$ and intercept $c$",
+"$y=mx+c$",
+"The equation of a straight line is $y=mx+c$."
+],
+[
+"the distance of $(x_{1},y_{1})$ from the line $ax+by+c=0$",
+"$\\dfrac{|ax_{1}+by_{1}+c|}{\\sqrt{a^{2}+b^{2}}}$",
+"The perpendicular distance is $\\frac{|ax_{1}+by_{1}+c|}{\\sqrt{a^{2}+b^{2}}}$."
+],
+[
+"the area of a trapezium with parallel sides $a$ and $b$ and height $h$",
+"$\\dfrac{1}{2}(a+b)h$",
+"The area of a trapezium is $\\frac{1}{2}(a+b)h$."
+]
+]
+},
+{
+"id":"math.trig_value",
+"subjects":[
+"mathemat"
+],
+"units":[
+"trigonometr",
+"inverse circular",
+"angle",
+"height and distance"
+],
+"label":"Trigonometric values",
+"qa":"Which of the following is the value of {k}?",
+"qb":null,
+"qo":"Write the exact value of {k}.",
+"src":"NEB/SEE mathematics: trigonometric ratios of standard angles",
+"pairs":[
+[
+"$\\sin 0^{\\circ}$",
+"$0$",
+"$\\sin 0^{\\circ}=0$."
+],
+[
+"$\\sin 30^{\\circ}$",
+"$\\dfrac{1}{2}$",
+"$\\sin 30^{\\circ}=\\frac{1}{2}$."
+],
+[
+"$\\sin 45^{\\circ}$",
+"$\\dfrac{\\sqrt{2}}{2}$",
+"$\\sin 45^{\\circ}=\\frac{\\sqrt{2}}{2}$."
+],
+[
+"$\\sin 60^{\\circ}$",
+"$\\dfrac{\\sqrt{3}}{2}$",
+"$\\sin 60^{\\circ}=\\frac{\\sqrt{3}}{2}$."
+],
+[
+"$\\sin 90^{\\circ}$",
+"$1$",
+"$\\sin 90^{\\circ}=1$."
+],
+[
+"$\\cos 0^{\\circ}$",
+"$1$",
+"$\\cos 0^{\\circ}=1$."
+],
+[
+"$\\cos 30^{\\circ}$",
+"$\\dfrac{\\sqrt{3}}{2}$",
+"$\\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}$."
+],
+[
+"$\\cos 60^{\\circ}$",
+"$\\dfrac{1}{2}$",
+"$\\cos 60^{\\circ}=\\frac{1}{2}$."
+],
+[
+"$\\cos 90^{\\circ}$",
+"$0$",
+"$\\cos 90^{\\circ}=0$."
+],
+[
+"$\\tan 45^{\\circ}$",
+"$1$",
+"$\\tan 45^{\\circ}=1$."
+],
+[
+"$\\tan 30^{\\circ}$",
+"$\\dfrac{1}{\\sqrt{3}}$",
+"$\\tan 30^{\\circ}=\\frac{1}{\\sqrt{3}}$."
+],
+[
+"$\\tan 60^{\\circ}$",
+"$\\sqrt{3}$",
+"$\\tan 60^{\\circ}=\\sqrt{3}$."
+]
+]
+},
+{
+"id":"eng.figure",
+"subjects":[
+"english",
+"compulsory-english"
+],
+"units":[
+"literature",
+"poem",
+"poetry",
+"story",
+"essay",
+"drama",
+"one act",
+"device",
+"reading"
+],
+"label":"Figures of speech",
+"qa":"Which of the following is the definition of {k}?",
+"qb":"Which figure of speech is defined as {v}?",
+"qo":"Define the figure of speech called {k}.",
+"src":"NEB English: literary devices",
+"pairs":[
+[
+"simile",
+"an explicit comparison using the words like or as",
+"A simile is an explicit comparison using like or as."
+],
+[
+"metaphor",
+"an implied comparison made without the words like or as",
+"A metaphor is an implied comparison without like or as."
+],
+[
+"personification",
+"giving human qualities to non-human things",
+"Personification gives human qualities to non-human things."
+],
+[
+"alliteration",
+"the repetition of the same initial consonant sound",
+"Alliteration repeats the same initial consonant sound in nearby words."
+],
+[
+"hyperbole",
+"a deliberate exaggeration for emphasis",
+"Hyperbole is deliberate exaggeration for emphasis."
+],
+[
+"onomatopoeia",
+"the use of words that imitate sounds",
+"Onomatopoeia uses words that imitate sounds."
+],
+[
+"oxymoron",
+"two contradictory words placed together",
+"An oxymoron joins two contradictory words."
+],
+[
+"irony",
+"saying the opposite of what is actually meant",
+"Irony says the opposite of what is meant, or an outcome contrary to expectation."
+],
+[
+"synecdoche",
+"using a part to stand for the whole",
+"Synecdoche uses a part to stand for the whole."
+],
+[
+"metonymy",
+"using the name of a related thing instead of the thing itself",
+"Metonymy substitutes the name of a related thing for the thing itself."
+],
+[
+"anaphora",
+"repetition of a word or phrase at the start of successive clauses",
+"Anaphora repeats a word or phrase at the beginning of successive clauses."
+],
+[
+"euphemism",
+"a mild expression used in place of a harsh one",
+"A euphemism is a mild expression used in place of a harsh one."
+]
+]
+},
+{
+"id":"eng.pos",
+"subjects":[
+"english",
+"compulsory-english"
+],
+"units":[
+"grammar",
+"word class",
+"tense",
+"voice",
+"speech",
+"preposition",
+"sentence",
+"conditional",
+"question tag",
+"word formation"
+],
+"label":"Parts of speech",
+"qa":"Which part of speech is the word {k}?",
+"qb":"Which of the following words is {v} in a sentence?",
+"qo":"Identify the part of speech of the word {k}.",
+"src":"NEB English: word classes",
+"pairs":[
+[
+"quickly",
+"an adverb",
+"Quickly is an adverb of manner."
+],
+[
+"beautiful",
+"an adjective",
+"Beautiful is an adjective that describes a noun."
+],
+[
+"happiness",
+"a noun",
+"Happiness is an abstract noun."
+],
+[
+"under",
+"a preposition",
+"Under is a preposition of place."
+],
+[
+"and",
+"a conjunction",
+"And is a coordinating conjunction."
+],
+[
+"she",
+"a pronoun",
+"She is a personal pronoun."
+],
+[
+"carefully",
+"an adverb",
+"Carefully is an adverb of manner."
+],
+[
+"courage",
+"a noun",
+"Courage is an abstract noun."
+],
+[
+"slowly",
+"an adverb",
+"Slowly is an adverb of manner."
+],
+[
+"honest",
+"an adjective",
+"Honest is an adjective describing a quality."
+],
+[
+"because",
+"a conjunction",
+"Because is a subordinating conjunction."
+],
+[
+"happily",
+"an adverb",
+"Happily is an adverb of manner."
+]
+]
+},
+{
+"id":"eng.synonym",
+"subjects":[
+"english",
+"compulsory-english"
+],
+"units":[
+"vocabulary",
+"word",
+"language",
+"reading",
+"writing",
+"spelling"
+],
+"label":"Synonyms",
+"qa":"Which of the following is the closest synonym of {k}?",
+"qb":null,
+"qo":"Write a synonym of {k}.",
+"src":"NEB English: vocabulary",
+"pairs":[
+[
+"abundant",
+"plentiful",
+"Abundant means plentiful."
+],
+[
+"diligent",
+"hardworking",
+"Diligent means hardworking."
+],
+[
+"enormous",
+"huge",
+"Enormous means huge."
+],
+[
+"reluctant",
+"unwilling",
+"Reluctant means unwilling."
+],
+[
+"courageous",
+"brave",
+"Courageous means brave."
+],
+[
+"tranquil",
+"calm",
+"Tranquil means calm and peaceful."
+],
+[
+"fragile",
+"delicate",
+"Fragile means delicate and easily broken."
+],
+[
+"obsolete",
+"outdated",
+"Obsolete means outdated and no longer used."
+],
+[
+"vivid",
+"lively",
+"Vivid means lively and clear."
+],
+[
+"candid",
+"frank",
+"Candid means frank and honest."
+],
+[
+"meticulous",
+"thorough",
+"Meticulous means very careful and thorough."
+],
+[
+"ambiguous",
+"unclear",
+"Ambiguous means open to more than one interpretation."
+],
+[
+"benevolent",
+"kind",
+"Benevolent means kind and generous."
+],
+[
+"hostile",
+"unfriendly",
+"Hostile means unfriendly and opposed."
+],
+[
+"prudent",
+"wise",
+"Prudent means wise and careful about the future."
+],
+[
+"weary",
+"tired",
+"Weary means very tired."
+],
+[
+"ample",
+"sufficient",
+"Ample means sufficient and more than enough."
+],
+[
+"vigorous",
+"energetic",
+"Vigorous means strong and energetic."
+],
+[
+"lucid",
+"clear",
+"Lucid means clear and easy to understand."
+],
+[
+"scarce",
+"rare",
+"Scarce means rare and in short supply."
+]
+]
+},
+{
+"id":"eng.antonym",
+"subjects":[
+"english",
+"compulsory-english"
+],
+"units":[
+"vocabulary",
+"word",
+"language",
+"reading",
+"writing",
+"spelling"
+],
+"label":"Antonyms",
+"qa":"Which of the following is the opposite of {k}?",
+"qb":null,
+"qo":"Write an antonym of {k}.",
+"src":"NEB English: vocabulary",
+"pairs":[
+[
+"ancient",
+"modern",
+"The opposite of ancient is modern."
+],
+[
+"artificial",
+"natural",
+"The opposite of artificial is natural."
+],
+[
+"complex",
+"simple",
+"The opposite of complex is simple."
+],
+[
+"generous",
+"stingy",
+"The opposite of generous is stingy."
+],
+[
+"humble",
+"arrogant",
+"The opposite of humble is arrogant."
+],
+[
+"permanent",
+"temporary",
+"The opposite of permanent is temporary."
+],
+[
+"optimistic",
+"pessimistic",
+"The opposite of optimistic is pessimistic."
+],
+[
+"voluntary",
+"compulsory",
+"The opposite of voluntary is compulsory."
+],
+[
+"victory",
+"defeat",
+"The opposite of victory is defeat."
+],
+[
+"expand",
+"contract",
+"The opposite of expand is contract."
+],
+[
+"include",
+"exclude",
+"The opposite of include is exclude."
+],
+[
+"praise",
+"criticise",
+"The opposite of praise is criticise."
+],
+[
+"abundant",
+"scarce",
+"The opposite of abundant is scarce."
+],
+[
+"transparent",
+"opaque",
+"The opposite of transparent is opaque."
+]
+]
+},
+{
+"id":"eng.idiom",
+"subjects":[
+"english",
+"compulsory-english"
+],
+"units":[
+"idiom",
+"phrase",
+"vocabulary",
+"language"
+],
+"label":"Idioms",
+"qa":"Which of the following is the meaning of the idiom {k}?",
+"qb":null,
+"qo":"Write the meaning of the idiom {k}.",
+"src":"NEB English: idioms and phrases",
+"pairs":[
+[
+"to let the cat out of the bag",
+"to reveal a secret",
+"To let the cat out of the bag means to reveal a secret."
+],
+[
+"to beat around the bush",
+"to avoid coming to the main point",
+"To beat around the bush means to avoid the main point."
+],
+[
+"once in a blue moon",
+"very rarely",
+"Once in a blue moon means very rarely."
+],
+[
+"to break the ice",
+"to start a conversation in an awkward situation",
+"To break the ice means to start a conversation in an awkward situation."
+],
+[
+"to hit the nail on the head",
+"to describe a situation exactly",
+"To hit the nail on the head means to describe a situation exactly."
+],
+[
+"a blessing in disguise",
+"something good that seemed bad at first",
+"A blessing in disguise is something good that seemed bad at first."
+],
+[
+"to turn a deaf ear",
+"to refuse to listen",
+"To turn a deaf ear means to refuse to listen."
+],
+[
+"to burn the midnight oil",
+"to study or work late into the night",
+"To burn the midnight oil means to work late into the night."
+],
+[
+"to spill the beans",
+"to disclose information",
+"To spill the beans means to disclose information."
+],
+[
+"to be under the weather",
+"to feel unwell",
+"To be under the weather means to feel unwell."
+]
+]
+},
+{
+"id":"soc.hq",
+"subjects":[
+"social",
+"econom",
+"gk",
+"general"
+],
+"units":[
+"international",
+"relation",
+"organisation",
+"world",
+"cooperation",
+"united nation",
+"civic"
+],
+"label":"Headquarters of organisations",
+"qa":"Where is the headquarters of {k}?",
+"qb":null,
+"qo":"Name the headquarters of {k}.",
+"src":"SEE social studies and general knowledge: international organisations",
+"pairs":[
+[
+"the United Nations",
+"New York",
+"The headquarters of the United Nations is in New York."
+],
+[
+"the World Health Organization",
+"Geneva",
+"The World Health Organization is headquartered in Geneva."
+],
+[
+"UNESCO",
+"Paris",
+"UNESCO is headquartered in Paris."
+],
+[
+"the International Monetary Fund",
+"Washington, D.C.",
+"The International Monetary Fund is headquartered in Washington, D.C."
+],
+[
+"the Food and Agriculture Organization",
+"Rome",
+"The Food and Agriculture Organization is headquartered in Rome."
+],
+[
+"the International Labour Organization",
+"Geneva",
+"The International Labour Organization is headquartered in Geneva."
+],
+[
+"the World Trade Organization",
+"Geneva",
+"The World Trade Organization is headquartered in Geneva."
+],
+[
+"SAARC",
+"Kathmandu",
+"The SAARC secretariat is in Kathmandu."
+],
+[
+"the International Court of Justice",
+"The Hague",
+"The International Court of Justice sits at The Hague."
+],
+[
+"the Asian Development Bank",
+"Manila",
+"The Asian Development Bank is headquartered in Manila."
+]
+]
+},
+{
+"id":"soc.currency",
+"subjects":[
+"social",
+"econom",
+"gk",
+"general"
+],
+"units":[
+"economic",
+"international",
+"country",
+"world",
+"trade",
+"development"
+],
+"label":"Currencies",
+"qa":"Which of the following is the currency of {k}?",
+"qb":"Which country uses {v} as its currency?",
+"qo":"Name the currency of {k}.",
+"src":"SEE social studies and general knowledge: currencies",
+"pairs":[
+[
+"Nepal",
+"the Nepalese rupee",
+"The currency of Nepal is the Nepalese rupee."
+],
+[
+"India",
+"the Indian rupee",
+"The currency of India is the Indian rupee."
+],
+[
+"China",
+"the renminbi (yuan)",
+"The currency of China is the renminbi, the yuan."
+],
+[
+"Japan",
+"the yen",
+"The currency of Japan is the yen."
+],
+[
+"the United States of America",
+"the US dollar",
+"The currency of the United States is the US dollar."
+],
+[
+"the United Kingdom",
+"the pound sterling",
+"The currency of the United Kingdom is the pound sterling."
+],
+[
+"the European Union",
+"the euro",
+"The currency of the eurozone is the euro."
+],
+[
+"Bangladesh",
+"the taka",
+"The currency of Bangladesh is the taka."
+],
+[
+"Sri Lanka",
+"the Sri Lankan rupee",
+"The currency of Sri Lanka is the Sri Lankan rupee."
+],
+[
+"Bhutan",
+"the ngultrum",
+"The currency of Bhutan is the ngultrum."
+],
+[
+"Pakistan",
+"the Pakistani rupee",
+"The currency of Pakistan is the Pakistani rupee."
+],
+[
+"South Korea",
+"the won",
+"The currency of South Korea is the won."
+]
+]
+},
+{
+"id":"soc.capital",
+"subjects":[
+"social",
+"gk",
+"general"
+],
+"units":[
+"geograph",
+"country",
+"world",
+"international",
+"earth",
+"tourism",
+"place",
+"climate"
+],
+"label":"Capitals",
+"qa":"Which of the following is the capital city of {k}?",
+"qb":"The city {v} is the capital of which country?",
+"qo":"Name the capital city of {k}.",
+"src":"SEE social studies and general knowledge: world geography",
+"pairs":[
+[
+"Nepal",
+"Kathmandu",
+"Kathmandu is the capital of Nepal."
+],
+[
+"India",
+"New Delhi",
+"New Delhi is the capital of India."
+],
+[
+"China",
+"Beijing",
+"Beijing is the capital of China."
+],
+[
+"Japan",
+"Tokyo",
+"Tokyo is the capital of Japan."
+],
+[
+"Bangladesh",
+"Dhaka",
+"Dhaka is the capital of Bangladesh."
+],
+[
+"Sri Lanka",
+"Sri Jayawardenepura Kotte",
+"Sri Jayawardenepura Kotte is the official capital of Sri Lanka."
+],
+[
+"Bhutan",
+"Thimphu",
+"Thimphu is the capital of Bhutan."
+],
+[
+"Pakistan",
+"Islamabad",
+"Islamabad is the capital of Pakistan."
+],
+[
+"Australia",
+"Canberra",
+"Canberra is the capital of Australia."
+],
+[
+"Canada",
+"Ottawa",
+"Ottawa is the capital of Canada."
+],
+[
+"the United States of America",
+"Washington, D.C.",
+"Washington, D.C. is the capital of the United States."
+],
+[
+"the United Kingdom",
+"London",
+"London is the capital of the United Kingdom."
+]
+]
+},
+{
+"id":"soc.constitution",
+"subjects":[
+"social",
+"civic",
+"gk"
+],
+"units":[
+"civic",
+"constitution",
+"right",
+"law",
+"government",
+"citizen",
+"democracy",
+"society",
+"values"
+],
+"label":"Fundamental rights of the Constitution of Nepal",
+"qa":"Which fundamental right is guaranteed by {k} of the Constitution of Nepal?",
+"qb":"The {v} is guaranteed by which article of the Constitution of Nepal?",
+"qo":"Explain the fundamental right guaranteed by {k} of the Constitution of Nepal.",
+"src":"Constitution of Nepal 2072, Part 3 (Fundamental Rights)",
+"pairs":[
+[
+"Article 16",
+"right to live with dignity",
+"Article 16 guarantees the right to live with dignity."
+],
+[
+"Article 17",
+"right to freedom",
+"Article 17 guarantees the right to freedom."
+],
+[
+"Article 18",
+"right to equality",
+"Article 18 guarantees the right to equality and prohibits discrimination."
+],
+[
+"Article 19",
+"right to communication",
+"Article 19 guarantees the right to communication."
+],
+[
+"Article 20",
+"right to justice",
+"Article 20 guarantees the right to justice."
+],
+[
+"Article 21",
+"right against torture",
+"Article 21 guarantees the right against torture."
+],
+[
+"Article 23",
+"right against untouchability and discrimination",
+"Article 23 guarantees the right against untouchability and discrimination."
+]
+]
+},
+{
+"id":"soc.org_year",
+"subjects":[
+"social",
+"gk",
+"general"
+],
+"units":[
+"international",
+"relation",
+"organisation",
+"world",
+"history",
+"past"
+],
+"label":"Years of establishment",
+"qa":"In which year was {k} established?",
+"qb":null,
+"qo":"Write the year in which {k} was established.",
+"src":"General knowledge: international organisations",
+"pairs":[
+[
+"the United Nations",
+"1945",
+"The United Nations was established in 1945."
+],
+[
+"the World Health Organization",
+"1948",
+"The World Health Organization was established in 1948."
+],
+[
+"SAARC",
+"1985",
+"SAARC was established in 1985 in Dhaka."
+],
+[
+"ASEAN",
+"1967",
+"ASEAN was established in 1967."
+],
+[
+"the World Trade Organization",
+"1995",
+"The World Trade Organization was established in 1995."
+],
+[
+"NATO",
+"1949",
+"NATO was established in 1949."
+],
+[
+"the European Union",
+"1993",
+"The European Union was established by the Maastricht Treaty in 1993."
+],
+[
+"UNICEF",
+"1946",
+"UNICEF was established in 1946."
+]
+]
+},
+{
+"id":"cs.ext",
+"subjects":[
+"computer",
+"gk",
+"\\bit\\b",
+"digital",
+"programming",
+"multimedia"
+],
+"units":[
+"application package",
+"multimedia",
+"software",
+"operating",
+"word",
+"spreadsheet",
+"presentation",
+"file",
+"office"
+],
+"label":"File types",
+"qa":"Which type of file has the extension {k}?",
+"qb":"Which of the following file extensions belongs to {v}?",
+"qo":"Name the type of file that has the extension {k}.",
+"src":"NEB/SEE computer science: application package and multimedia",
+"pairs":[
+[
+".docx",
+"a word processing document",
+"A .docx file is a word processing document."
+],
+[
+".xlsx",
+"a spreadsheet workbook",
+"A .xlsx file is a spreadsheet workbook."
+],
+[
+".pptx",
+"a presentation",
+"A .pptx file is a presentation."
+],
+[
+".pdf",
+"a portable document format file",
+"A .pdf file is a portable document format file."
+],
+[
+".mp3",
+"an audio file",
+"An .mp3 file is an audio file."
+],
+[
+".mp4",
+"a video file",
+"An .mp4 file is a video file."
+],
+[
+".html",
+"a web page",
+"An .html file is a web page."
+],
+[
+".css",
+"a stylesheet",
+"A .css file is a stylesheet."
+],
+[
+".py",
+"a Python source program",
+"A .py file is a Python source program."
+],
+[
+".db",
+"a database file",
+"A .db file is a database file."
+],
+[
+".zip",
+"a compressed archive",
+"A .zip file is a compressed archive."
+],
+[
+".jpg",
+"a raster image file",
+"A .jpg file is a raster image file."
+]
+]
+},
+{
+"id":"cs.osi",
+"subjects":[
+"computer",
+"\\bit\\b",
+"network"
+],
+"units":[
+"network",
+"communication",
+"data communication",
+"internet",
+"web"
+],
+"label":"OSI reference model",
+"qa":"Which of the following is the function of {k} of the OSI model?",
+"qb":"The function {v} belongs to which layer of the OSI model?",
+"qo":"State the function of {k} of the OSI model.",
+"src":"NEB/CEE computer science: data communication and networking",
+"pairs":[
+[
+"the physical layer",
+"transmitting raw bits over a physical medium",
+"The physical layer transmits raw bits over a physical medium."
+],
+[
+"the data link layer",
+"framing and error control on a single link",
+"The data link layer frames data and controls errors on a single link."
+],
+[
+"the network layer",
+"logical addressing and routing of packets",
+"The network layer handles logical addressing and routing of packets."
+],
+[
+"the transport layer",
+"end-to-end delivery, segmentation and flow control",
+"The transport layer provides end-to-end delivery, segmentation and flow control."
+],
+[
+"the session layer",
+"establishing, managing and terminating sessions",
+"The session layer establishes, manages and terminates sessions."
+],
+[
+"the presentation layer",
+"translation, encryption and compression of data",
+"The presentation layer translates, encrypts and compresses data."
+],
+[
+"the application layer",
+"providing network services to user applications",
+"The application layer provides network services to user applications."
+]
+]
+},
+{
+"id":"cs.protocol",
+"subjects":[
+"computer",
+"\\bit\\b",
+"network"
+],
+"units":[
+"network",
+"communication",
+"internet",
+"web",
+"data communication"
+],
+"label":"Protocols",
+"qa":"Which of the following is the main use of {k}?",
+"qb":"The protocol used for {v} is which of the following?",
+"qo":"State the main use of {k}.",
+"src":"NEB/CEE computer science: data communication and networking",
+"pairs":[
+[
+"HTTP",
+"transferring web pages",
+"HTTP transfers web pages between a browser and a server."
+],
+[
+"FTP",
+"transferring files between computers",
+"FTP transfers files between computers."
+],
+[
+"SMTP",
+"sending electronic mail",
+"SMTP sends electronic mail."
+],
+[
+"POP3",
+"downloading electronic mail from a server",
+"POP3 downloads electronic mail from a server."
+],
+[
+"DNS",
+"translating domain names into IP addresses",
+"DNS translates domain names into IP addresses."
+],
+[
+"DHCP",
+"assigning IP addresses automatically",
+"DHCP assigns IP addresses automatically."
+],
+[
+"TCP",
+"reliable connection-oriented data transfer",
+"TCP provides reliable connection-oriented data transfer."
+],
+[
+"UDP",
+"fast connectionless data transfer",
+"UDP provides fast connectionless data transfer."
+],
+[
+"SSH",
+"secure remote login",
+"SSH provides secure remote login."
+],
+[
+"ICMP",
+"reporting network errors and diagnostics",
+"ICMP reports network errors and supports diagnostics such as ping."
+],
+[
+"ARP",
+"mapping IP addresses to MAC addresses",
+"ARP maps IP addresses to MAC addresses on a local network."
+],
+[
+"HTTPS",
+"secure encrypted web transfer",
+"HTTPS transfers web pages securely with encryption."
+]
+]
+},
+{
+"id":"cs.memory_unit",
+"subjects":[
+"computer",
+"\\bit\\b"
+],
+"units":[
+"number system",
+"computer system",
+"memory",
+"fundamental",
+"hardware"
+],
+"label":"Memory units",
+"qa":"Which of the following is equal to {k}?",
+"qb":null,
+"qo":"State the value of {k}.",
+"src":"NEB/SEE computer science: number system and memory",
+"pairs":[
+[
+"1 nibble",
+"4 bits",
+"One nibble is 4 bits."
+],
+[
+"1 byte",
+"8 bits",
+"One byte is 8 bits."
+],
+[
+"1 kilobyte",
+"1024 bytes",
+"One kilobyte is 1024 bytes."
+],
+[
+"1 megabyte",
+"1024 kilobytes",
+"One megabyte is 1024 kilobytes."
+],
+[
+"1 gigabyte",
+"1024 megabytes",
+"One gigabyte is 1024 megabytes."
+],
+[
+"1 terabyte",
+"1024 gigabytes",
+"One terabyte is 1024 gigabytes."
+]
+]
+},
+{
+"id":"cs.generation",
+"subjects":[
+"computer",
+"\\bit\\b"
+],
+"units":[
+"history",
+"generation",
+"fundamental",
+"introduction",
+"computer system"
+],
+"label":"Generations of computers",
+"qa":"Which technology was used in {k} of computers?",
+"qb":"Which generation of computers used {v}?",
+"qo":"State the main technology of {k} of computers.",
+"src":"SEE/BLE computer science: history and generations of computers",
+"pairs":[
+[
+"the first generation",
+"vacuum tubes",
+"First generation computers used vacuum tubes."
+],
+[
+"the second generation",
+"transistors",
+"Second generation computers used transistors."
+],
+[
+"the third generation",
+"integrated circuits",
+"Third generation computers used integrated circuits."
+],
+[
+"the fourth generation",
+"microprocessors",
+"Fourth generation computers used microprocessors."
+],
+[
+"the fifth generation",
+"artificial intelligence",
+"Fifth generation computers are based on artificial intelligence."
+]
+]
+},
+{
+"id":"eco.term",
+"subjects":[
+"econom"
+],
+"units":[
+"microeconomic",
+"macroeconomic",
+"econom",
+"development",
+"quantitative"
+],
+"label":"Economic terms",
+"qa":"Which of the following is the meaning of {k}?",
+"qb":"The term {v} means which of the following?",
+"qo":"Define the term {v}.",
+"src":"SEE/NEB economics: basic concepts",
+"pairs":[
+[
+"a sustained rise in the general price level",
+"inflation",
+"Inflation is a sustained rise in the general price level."
+],
+[
+"a sustained fall in the general price level",
+"deflation",
+"Deflation is a sustained fall in the general price level."
+],
+[
+"the market value of all final goods and services produced within a country in a year",
+"gross domestic product",
+"GDP is the market value of all final goods and services produced within a country in a year."
+],
+[
+"the cost of the next best alternative forgone",
+"opportunity cost",
+"Opportunity cost is the cost of the next best alternative forgone."
+],
+[
+"a tax whose burden cannot be shifted to others",
+"direct tax",
+"A direct tax cannot be shifted to another person."
+],
+[
+"a tax whose burden can be shifted to the consumer",
+"indirect tax",
+"An indirect tax can be shifted to the consumer."
+],
+[
+"the use of government spending and taxation to influence the economy",
+"fiscal policy",
+"Fiscal policy uses government spending and taxation to influence the economy."
+],
+[
+"the use of money supply and interest rates by the central bank",
+"monetary policy",
+"Monetary policy uses money supply and interest rates to influence the economy."
+],
+[
+"the difference between the value of exports and imports of goods",
+"balance of trade",
+"The balance of trade is the difference between the value of exports and imports of goods."
+],
+[
+"the responsiveness of quantity demanded to a change in price",
+"price elasticity of demand",
+"Price elasticity of demand measures the responsiveness of quantity demanded to a price change."
+]
+]
+},
+{
+"id":"acc.class",
+"subjects":[
+"account",
+"econom"
+],
+"units":[
+"account",
+"final account",
+"business",
+"journal",
+"ledger",
+"tax",
+"office"
+],
+"label":"Accounting classification",
+"qa":"Which of the following is {k}?",
+"qb":null,
+"qo":"Classify {v} as an asset, a liability, an income or an expense.",
+"src":"SEE accountancy: basic accounting terms",
+"pairs":[
+[
+"an asset",
+"cash in hand",
+"Cash in hand is an asset."
+],
+[
+"an asset",
+"office machinery",
+"Office machinery is a fixed asset."
+],
+[
+"an asset",
+"closing stock",
+"Closing stock is a current asset."
+],
+[
+"a liability",
+"a bank loan payable after five years",
+"A long-term bank loan is a liability."
+],
+[
+"a liability",
+"creditors for goods purchased",
+"Creditors are a current liability."
+],
+[
+"a liability",
+"outstanding wages",
+"Outstanding wages are a current liability."
+],
+[
+"an income",
+"rent received",
+"Rent received is an income."
+],
+[
+"an income",
+"interest earned on investments",
+"Interest earned is an income."
+],
+[
+"an expense",
+"salary paid to staff",
+"Salary paid is an expense."
+],
+[
+"an expense",
+"carriage on goods purchased",
+"Carriage on purchases is an expense."
+]
+]
+},
+{
+"id":"nur.vital",
+"subjects":[
+"nurs",
+"midwifery",
+"health",
+"medical"
+],
+"units":[
+"fundamental",
+"nursing concept",
+"health",
+"integrated",
+"adult",
+"community",
+"child",
+"geriatric",
+"general"
+],
+"label":"Normal vital signs of an adult",
+"qa":"Which of the following is the normal adult value of {k}?",
+"qb":null,
+"qo":"State the normal adult range of {k}.",
+"src":"CTEVT nursing fundamentals: vital signs (standard adult reference values)",
+"pairs":[
+[
+"pulse rate",
+"60 to 100 beats per minute",
+"The normal adult pulse rate is 60 to 100 beats per minute."
+],
+[
+"respiratory rate",
+"12 to 20 breaths per minute",
+"The normal adult respiratory rate is 12 to 20 breaths per minute."
+],
+[
+"body temperature",
+"36.5 to 37.5 degrees Celsius",
+"The normal adult body temperature is 36.5 to 37.5 degrees Celsius."
+],
+[
+"systolic blood pressure",
+"90 to 120 mmHg",
+"The normal adult systolic blood pressure is 90 to 120 mmHg."
+],
+[
+"diastolic blood pressure",
+"60 to 80 mmHg",
+"The normal adult diastolic blood pressure is 60 to 80 mmHg."
+],
+[
+"oxygen saturation",
+"95 to 100 percent",
+"Normal adult oxygen saturation is 95 to 100 percent."
+]
+]
+},
+{
+"id":"nur.term",
+"subjects":[
+"nurs",
+"midwifery",
+"health",
+"medical",
+"psychiatric"
+],
+"units":[
+"fundamental",
+"nursing",
+"health",
+"medical",
+"integrated",
+"adult",
+"community",
+"child",
+"geriatric",
+"psychiatric",
+"midwifery",
+"nutrition",
+"general"
+],
+"label":"Medical terminology",
+"qa":"Which of the following is the meaning of {k}?",
+"qb":"The term {v} means which of the following?",
+"qo":"Define the term {v}.",
+"src":"CTEVT nursing and health science: medical terminology",
+"pairs":[
+[
+"a pulse rate above 100 beats per minute in an adult",
+"tachycardia",
+"Tachycardia is a pulse rate above 100 beats per minute in an adult."
+],
+[
+"a pulse rate below 60 beats per minute in an adult",
+"bradycardia",
+"Bradycardia is a pulse rate below 60 beats per minute in an adult."
+],
+[
+"a respiratory rate above 20 breaths per minute in an adult",
+"tachypnoea",
+"Tachypnoea is a respiratory rate above 20 breaths per minute in an adult."
+],
+[
+"a respiratory rate below 12 breaths per minute in an adult",
+"bradypnoea",
+"Bradypnoea is a respiratory rate below 12 breaths per minute in an adult."
+],
+[
+"the absence of breathing",
+"apnoea",
+"Apnoea is the absence of breathing."
+],
+[
+"difficult or laboured breathing",
+"dyspnoea",
+"Dyspnoea is difficult or laboured breathing."
+],
+[
+"a body temperature above the normal range",
+"pyrexia",
+"Pyrexia is a body temperature above the normal range, that is fever."
+],
+[
+"urine output of less than 400 mL in 24 hours",
+"oliguria",
+"Oliguria is urine output of less than 400 mL in 24 hours."
+],
+[
+"excessive production of urine",
+"polyuria",
+"Polyuria is the excessive production of urine."
+],
+[
+"the absence of urine formation",
+"anuria",
+"Anuria is the absence of urine formation."
+],
+[
+"high blood pressure above 140/90 mmHg",
+"hypertension",
+"Hypertension is blood pressure persistently above 140/90 mmHg."
+],
+[
+"low blood pressure below 90/60 mmHg",
+"hypotension",
+"Hypotension is blood pressure below 90/60 mmHg."
+]
+]
+},
+{
+"id":"gk.abbrev",
+"subjects":[
+"gk",
+"computer",
+"\\bit\\b"
+],
+"units":[
+"it",
+"general",
+"computer",
+"information",
+"technology",
+"model-paper"
+],
+"label":"Computer abbreviations",
+"qa":"Which of the following is the full form of {k}?",
+"qb":"{v} is the full form of which abbreviation?",
+"qo":"Write the full form of {k}.",
+"src":"TU BCA general knowledge and IT: abbreviations",
+"pairs":[
+[
+"CPU",
+"central processing unit",
+"CPU stands for central processing unit."
+],
+[
+"RAM",
+"random access memory",
+"RAM stands for random access memory."
+],
+[
+"ROM",
+"read only memory",
+"ROM stands for read only memory."
+],
+[
+"URL",
+"uniform resource locator",
+"URL stands for uniform resource locator."
+],
+[
+"LAN",
+"local area network",
+"LAN stands for local area network."
+],
+[
+"WAN",
+"wide area network",
+"WAN stands for wide area network."
+],
+[
+"GUI",
+"graphical user interface",
+"GUI stands for graphical user interface."
+],
+[
+"SQL",
+"structured query language",
+"SQL stands for structured query language."
+],
+[
+"HTML",
+"hypertext markup language",
+"HTML stands for hypertext markup language."
+],
+[
+"BIOS",
+"basic input output system",
+"BIOS stands for basic input output system."
+],
+[
+"USB",
+"universal serial bus",
+"USB stands for universal serial bus."
+],
+[
+"PDF",
+"portable document format",
+"PDF stands for portable document format."
+],
+[
+"ISP",
+"internet service provider",
+"ISP stands for internet service provider."
+],
+[
+"VPN",
+"virtual private network",
+"VPN stands for virtual private network."
+]
+]
+}
+],
+"stats":{
+"classes":52,
+"rows":569,
+"mcq_forward":569,
+"mcq_reverse":461,
+"written":569
+}
+}

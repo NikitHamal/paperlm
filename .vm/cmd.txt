@@ -1,0 +1,1 @@
+nvidia-smi --query-gpu=name,memory.total,memory.used,utilization.gpu --format=csv; echo "--- keepalive:"; ps aux | grep -c "[k]eepalive.py"; tail -3 /tmp/paperlm/heartbeat.txt; echo "--- release5:"; ls -la /tmp/paperlm/release5 2>/dev/null; echo "--- logs:"; ls -lt /tmp/paperlm/logs | head -10

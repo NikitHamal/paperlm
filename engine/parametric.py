@@ -150,7 +150,8 @@ def make_item(subject, level, unit, marks, typ, rng, exclude=()):
     if not t: return None
     inst = instantiate(t, rng)
     if not inst: return None
-    r = render(inst, marks, rng); item = dict(source="parametric", verified=True, tpl=t["id"], concept=r["law"], unit_matched=matched, unit_label=t["unit"])
+    r = render(inst, marks, rng); item = dict(source="parametric", verified=True, tpl=t["id"], concept=r["law"], unit_matched=matched, unit_label=t["unit"],
+                                             audit=dict(expr=t["ans"], env={k: v for k, v in inst["env"].items()}, sig=t["sig"], unit=t["u"], answer=rnd(inst["ans"], t["sig"])))
     expl = r["law"] + " " + " ".join(r["steps"])
     if typ == "MCQ" or marks <= 1:
         item.update(kind="mcq", question=r["stem"], options=r["options"], key=r["key"], explanation=expl)

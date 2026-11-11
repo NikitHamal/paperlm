@@ -3,9 +3,18 @@
 // accepted by the strict gate, or (c) a gold exam item from the verified bank. Each item carries its provenance tier.
 import { gate } from "./ground.js";
 import { Parametric } from "./parametric.js";
+import { FactBank } from "./factbank.js";
+import { canMake as reasonCanMake, makeItem as reasonMakeItem } from "./reasoning.js";
 const NOSHUF = /\b(both|all of|none of|above|neither|either|only|a and b|a, b|a & b)\b|^\(?[a-d]\)?$/i;
 export class Composer {
-  constructor(engine, bank, templates) { this.e = engine; this.bank = bank; this.pm = new Parametric(templates); this.biasBeta = 2.5; this.stats = { param: 0, lm: 0, bank: 0, lm_tries: 0, lm_gate_pass: 0, gate_rejects: {} }; }
+  constructor(engine, bank, templates, facts) { this.e = engine; this.bank = bank; this.pm = new Parametric(templates); this.fb = facts ? new FactBank(facts) : null; this.biasBeta = 2.5; this.stats = { param: 0, fact: 0, reason: 0, lm: 0, bank: 0, lm_tries: 0, lm_gate_pass: 0, gate_rejects: {} }; }
+  // Boards such as IOE/CEE/TU expose a "model-papers" subject whose units name the real subject; resolve it.
+  effSubject(subject, unit) {
+    if (this.pm.domainsFor(subject).length || reasonCanMake(subject) || (this.fb && this.fb.canMake(subject))) return subject;
+    const u = (unit || "").toLowerCase();
+    for (const [pat, sub] of [["mathemat", "mathematics"], ["physic", "physics"], ["chemist", "chemistry"], ["botan", "botany"], ["zoolog", "zoology"], ["english", "english"], ["mental", "mental-agility-test"], ["agility", "mental-agility-test"]]) if (u.includes(pat)) return sub;
+    return subject;
+  }
   get rand() { return this.e.rand; }
   facts(key, unit) { const f = this.bank.facts[key] || {}; let l = f[unit] || []; if (!l.length) { const lu = Object.keys(f).find((u) => u.toLowerCase().includes(unit.toLowerCase()) || unit.toLowerCase().includes(u.toLowerCase())); if (lu) l = f[lu]; } return l; }
   seeds(key, unit, marks, mcq) {
@@ -30,16 +39,31 @@ export class Composer {
     return { ...base, kind: "written", question: s.q, parts: mk(s.p), or_parts: mk(s.a), rubric: s.r || "" };
   }
   // opts: lmBudget (max LM attempts, 0 disables the LM tier), signal, temperature, rubric
+  // Tier order by item type. The fact tier answers non-numeric items from closed-world tables, so it can never hallucinate;
+  // the parametric tier computes every number; the gold bank is past-paper material. The LM tier is last and off by default.
+  order(type, mcq, canp, canf, r, canr) {
+    if (canr) return ["reason", "fact", "bank"];
+    if (type === "NUMERICAL" || type === "DERIVATION") return canp ? ["param", "bank"] : ["bank"];
+    if (mcq) return canp && r < 0.35 ? ["param", "fact", "bank", "lm"] : canf ? ["fact", "param", "bank", "lm"] : ["param", "bank", "lm"];
+    return canf ? ["fact", "param", "bank", "lm"] : ["param", "bank", "lm"];
+  }
   async item({ board, level, subject, unit, marks, type, lmBudget = 0, signal, temperature = 0.75, rubric = true, biasBeta = this.biasBeta }) {
-    const key = `${board}|${level}|${subject}`, mcq = type === "MCQ" || marks <= 1, r = this.rand(); const canp = this.pm.canMake(subject, level); let order;
-    if (type === "NUMERICAL") order = canp ? ["param", "lm", "bank"] : ["lm", "bank"];
-    else if (mcq) order = canp && r < 0.45 ? ["param", "lm", "bank"] : ["lm", "bank", "param"];
-    else if (type === "OR") order = canp && r < 0.5 ? ["param", "lm", "bank"] : ["lm", "bank", "param"];
-    else order = canp && r < 0.15 ? ["param", "lm", "bank"] : ["lm", "bank", "param"];
-    for (const tier of order) {
+    const key = `${board}|${level}|${subject}`, mcq = type === "MCQ" || marks <= 1, r = this.rand();
+    const eff = this.effSubject(subject, unit);
+    const canp = this.pm.canMake(eff, level), canf = !!(this.fb && this.fb.canMake(eff)) && type !== "DERIVATION";
+    const canr = reasonCanMake(eff);
+    const order = this.order(type, mcq, canp, canf, r, canr);
+    for (const strict of [true, false]) for (const tier of order) {
       if (signal && signal.aborted) throw new Error("aborted");
-      if (tier === "param" && canp) {
-        const it = this.pm.makeItem(subject, level, unit, marks, mcq ? "MCQ" : type, this.rand);
+      if (tier === "reason" && canr) {
+        const it = reasonMakeItem(eff, unit, marks, type, this.rand);
+        if (it) { this.stats.reason++; return Object.assign(it, { board, level, subject, unit, marks, type, provenance: { tier: "reason", topic: it.topic } }); }
+      } else if (tier === "fact" && canf) {
+        let it = this.fb.makeItem(eff, unit, marks, type, this.rand);
+        if (it && strict && !it.unit_matched) it = null;
+        if (it) { this.stats.fact++; return Object.assign(it, { board, level, subject, unit: it.unit_matched ? unit : it.topic, marks, type, provenance: { tier: "fact", fact_id: it.fact_id, topic: it.topic, src: it.fact_src } }); }
+      } else if (tier === "param" && canp) {
+        const it = this.pm.makeItem(eff, level, unit, marks, mcq ? "MCQ" : type, this.rand);
         if (it && (it.unit_matched || tier === order[0] || !this.facts(key, unit).length)) { this.stats.param++; return Object.assign(it, { board, level, subject, unit: it.unit_matched ? unit : it.unit_label, marks, type, provenance: { tier: "param", law: it.concept } }); }
       } else if (tier === "lm" && lmBudget > 0 && this.e) {
         const fs = this.facts(key, unit); let used = 0;

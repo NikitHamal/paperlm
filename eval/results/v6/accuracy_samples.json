@@ -1,0 +1,1816 @@
+[
+ {
+  "tier": "fact",
+  "subject": "fundamentals-of-nursing",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "mcq",
+   "question": "Which of the following is the normal adult value of pulse rate?",
+   "options": [
+    "90 to 120 mmHg",
+    "60 to 100 beats per minute",
+    "36.5 to 37.5 degrees Celsius",
+    "12 to 20 breaths per minute"
+   ],
+   "key": "b",
+   "explanation": "The normal adult pulse rate is 60 to 100 beats per minute. Therefore the correct answer is 60 to 100 beats per minute.",
+   "topic": "Normal vital signs of an adult",
+   "fact_id": "nur.vital",
+   "fact_src": "CTEVT nursing fundamentals: vital signs (standard adult reference values)",
+   "fact_row": 0,
+   "fact_dir": "forward",
+   "unit_matched": true,
+   "unit_label": null,
+   "board": "CTEVT",
+   "level": "BSN",
+   "subject": "fundamentals-of-nursing",
+   "unit": "General",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "nur.vital",
+    "topic": "Normal vital signs of an adult",
+    "src": "CTEVT nursing fundamentals: vital signs (standard adult reference values)"
+   }
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "biology",
+  "unit": "Biology: Unit-wise Objective Question Bank",
+  "type": "SHORT",
+  "marks": 1,
+  "item": {
+   "board": "NEB",
+   "level": "C11",
+   "subject": "biology",
+   "unit": "Floral Diversity",
+   "marks": 1,
+   "type": "MCQ",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "mcq",
+   "question": "Binomial nomenclature was introduced by",
+   "options": [
+    "Theophrastus",
+    "Bentham and Hooker",
+    "Carolus Linnaeus",
+    "A. P. de Candolle"
+   ],
+   "key": "c",
+   "explanation": "Linnaeus, in Species Plantarum (1753)."
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "biology",
+  "unit": "Plant Physiology",
+  "type": "SHORT",
+  "marks": 5,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "Digestive enzymes",
+   "fact_id": "bio.enzyme",
+   "fact_src": "NEB/CEE biology: digestion and enzymes",
+   "fact_row": 3,
+   "fact_parts": [
+    {
+     "fact_id": "bio.enzyme",
+     "fact_row": 3,
+     "src": "NEB/CEE biology: digestion and enzymes",
+     "topic": "Digestive enzymes"
+    },
+    {
+     "fact_id": "bio.organelle",
+     "fact_row": 4,
+     "src": "NEB/CEE biology: cell biology",
+     "topic": "Cell organelles"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "Name the enzyme that acts on fats into fatty acids and glycerol.",
+     "marks": 3
+    },
+    {
+     "label": "b",
+     "text": "Write the main function of smooth endoplasmic reticulum.",
+     "marks": 2
+    }
+   ],
+   "rubric": "(a) Lipase digests fats into fatty acids and glycerol. [3] (b) The smooth endoplasmic reticulum synthesises lipids and detoxifies drugs in liver cells. [2]",
+   "board": "NEB",
+   "level": "C12",
+   "subject": "biology",
+   "unit": "Plant Physiology",
+   "marks": 5,
+   "type": "SHORT",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "bio.enzyme",
+    "topic": "Digestive enzymes",
+    "src": "NEB/CEE biology: digestion and enzymes"
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "psychiatric-nursing",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "bmi",
+   "concept": "Body mass index is $\\text{BMI} = \\dfrac{\\text{weight (kg)}}{\\text{height (m)}^{2}}$.",
+   "unit_matched": false,
+   "unit_label": "Nutrition and assessment",
+   "audit": {
+    "expr": "w/(h/100)**2",
+    "env": {
+     "w": 70,
+     "h": 160
+    },
+    "sig": 3,
+    "unit": "\\text{kg m}^{-2}",
+    "answer": 27.3
+   },
+   "kind": "mcq",
+   "question": "Calculate the body mass index of a patient who weighs $70\\ \\text{kg}$ and is $160\\ \\text{cm}$ tall.",
+   "options": [
+    "$179\\ \\text{kg m}^{-2}$",
+    "$43.8\\ \\text{kg m}^{-2}$",
+    "$13.7\\ \\text{kg m}^{-2}$",
+    "$27.3\\ \\text{kg m}^{-2}$"
+   ],
+   "key": "d",
+   "explanation": "Body mass index is $\\text{BMI} = \\dfrac{\\text{weight (kg)}}{\\text{height (m)}^{2}}$. Height $= 160/100$ m $\\text{BMI} = \\dfrac{70}{(160/100)^{2}} = 27.3\\ \\text{kg m}^{-2}$",
+   "board": "CTEVT",
+   "level": "BSN",
+   "subject": "psychiatric-nursing",
+   "unit": "Nutrition and assessment",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "param",
+    "law": "Body mass index is $\\text{BMI} = \\dfrac{\\text{weight (kg)}}{\\text{height (m)}^{2}}$."
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "computer-science",
+  "unit": "Programming in Python",
+  "type": "LONG",
+  "marks": 10,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "File types",
+   "fact_id": "cs.ext",
+   "fact_src": "NEB/SEE computer science: application package and multimedia",
+   "fact_row": 5,
+   "fact_parts": [
+    {
+     "fact_id": "cs.ext",
+     "fact_row": 5,
+     "src": "NEB/SEE computer science: application package and multimedia",
+     "topic": "File types"
+    },
+    {
+     "fact_id": "cs.ext",
+     "fact_row": 5,
+     "src": "NEB/SEE computer science: application package and multimedia",
+     "topic": "File types"
+    },
+    {
+     "fact_id": "cs.ext",
+     "fact_row": 10,
+     "src": "NEB/SEE computer science: application package and multimedia",
+     "topic": "File types"
+    }
+   ],
+   "unit_matched": false,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "Name the type of file that has the extension .mp4.",
+     "marks": 4
+    },
+    {
+     "label": "b",
+     "text": "Name the type of file that has the extension .mp4.",
+     "marks": 3
+    },
+    {
+     "label": "c",
+     "text": "Name the type of file that has the extension .zip.",
+     "marks": 3
+    }
+   ],
+   "rubric": "(a) An .mp4 file is a video file. [4] (b) An .mp4 file is a video file. [3] (c) A .zip file is a compressed archive. [3]",
+   "board": "SEE",
+   "level": "C10",
+   "subject": "computer-science",
+   "unit": "File types",
+   "marks": 10,
+   "type": "LONG",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "cs.ext",
+    "topic": "File types",
+    "src": "NEB/SEE computer science: application package and multimedia"
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "physics",
+  "unit": "Waves and Optics",
+  "type": "CONCEPTUAL",
+  "marks": 5,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "lens",
+   "concept": "The lens formula (Cartesian sign convention) is $\\dfrac{1}{f} = \\dfrac{1}{v} - \\dfrac{1}{u}$.",
+   "unit_matched": true,
+   "unit_label": "Lenses",
+   "audit": {
+    "expr": "1/(1/f-1/d)",
+    "env": {
+     "f": 5,
+     "d": 40
+    },
+    "sig": 3,
+    "unit": "\\text{cm}",
+    "answer": 5.71
+   },
+   "kind": "written",
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "State the lens formula.",
+     "marks": 2
+    },
+    {
+     "label": "b",
+     "text": "An object is placed $40\\ \\text{cm}$ in front of a convex lens of focal length $5\\ \\text{cm}$. Find the distance of the real image from the lens.",
+     "marks": 3
+    }
+   ],
+   "or_parts": [],
+   "rubric": "(a) The lens formula (Cartesian sign convention) is $\\dfrac{1}{f} = \\dfrac{1}{v} - \\dfrac{1}{u}$. (b) $\\dfrac{1}{v} = \\dfrac{1}{f} + \\dfrac{1}{u} = \\dfrac{1}{5} - \\dfrac{1}{40}$ $v = 5.71\\ \\text{cm}$ Answer: $5.71\\ \\text{cm}$.",
+   "board": "NEB",
+   "level": "C11",
+   "subject": "physics",
+   "unit": "Waves and Optics",
+   "marks": 5,
+   "type": "CONCEPTUAL",
+   "provenance": {
+    "tier": "param",
+    "law": "The lens formula (Cartesian sign convention) is $\\dfrac{1}{f} = \\dfrac{1}{v} - \\dfrac{1}{u}$."
+   }
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "mathematics",
+  "unit": "Real Numbers",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "board": "NEB",
+   "level": "C11",
+   "subject": "mathematics",
+   "unit": "Real Numbers",
+   "marks": 1,
+   "type": "MCQ",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "mcq",
+   "question": "The decimal $0.\\overline{5}$ as a fraction is",
+   "options": [
+    "$\\frac{5}{99}$",
+    "$\\frac{1}{2}$",
+    "$\\frac{1}{5}$",
+    "$\\frac{5}{9}$"
+   ],
+   "key": "d",
+   "explanation": "$x = 0.555\\dots$, $10x = 5.555\\dots$, $9x = 5$, $x = \\frac{5}{9}$."
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "engineering-survey-i",
+  "unit": "General",
+  "type": "CONCEPTUAL",
+  "marks": 4,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "wc_ratio",
+   "concept": "Water-cement ratio $= \\dfrac{\\text{mass of water}}{\\text{mass of cement}}$.",
+   "unit_matched": false,
+   "unit_label": "Concrete technology",
+   "audit": {
+    "expr": "w/c",
+    "env": {
+     "w": 150,
+     "c": 500
+    },
+    "sig": 3,
+    "unit": "",
+    "answer": 0.3
+   },
+   "kind": "written",
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "State the water-cement ratio.",
+     "marks": 1
+    },
+    {
+     "label": "b",
+     "text": "A concrete mix uses $150\\ \\text{kg}$ of water and $500\\ \\text{kg}$ of cement. Find the water-cement ratio.",
+     "marks": 3
+    }
+   ],
+   "or_parts": [],
+   "rubric": "(a) Water-cement ratio $= \\dfrac{\\text{mass of water}}{\\text{mass of cement}}$. (b) $\\dfrac{w}{c} = \\dfrac{150}{500}$ $w/c = 0.3$ Answer: $0.3$.",
+   "board": "IOE",
+   "level": "BE",
+   "subject": "engineering-survey-i",
+   "unit": "Concrete technology",
+   "marks": 4,
+   "type": "CONCEPTUAL",
+   "provenance": {
+    "tier": "param",
+    "law": "Water-cement ratio $= \\dfrac{\\text{mass of water}}{\\text{mass of cement}}$."
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "english",
+  "unit": "Grammar II",
+  "type": "LONG",
+  "marks": 10,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "Parts of speech",
+   "fact_id": "eng.pos",
+   "fact_src": "NEB English: word classes",
+   "fact_row": 3,
+   "fact_parts": [
+    {
+     "fact_id": "eng.pos",
+     "fact_row": 3,
+     "src": "NEB English: word classes",
+     "topic": "Parts of speech"
+    },
+    {
+     "fact_id": "eng.pos",
+     "fact_row": 8,
+     "src": "NEB English: word classes",
+     "topic": "Parts of speech"
+    },
+    {
+     "fact_id": "eng.pos",
+     "fact_row": 9,
+     "src": "NEB English: word classes",
+     "topic": "Parts of speech"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "Identify the part of speech of the word under.",
+     "marks": 4
+    },
+    {
+     "label": "b",
+     "text": "Identify the part of speech of the word slowly.",
+     "marks": 3
+    },
+    {
+     "label": "c",
+     "text": "Identify the part of speech of the word honest.",
+     "marks": 3
+    }
+   ],
+   "rubric": "(a) Under is a preposition of place. [4] (b) Slowly is an adverb of manner. [3] (c) Honest is an adjective describing a quality. [3]",
+   "board": "IOE",
+   "level": "IOE",
+   "subject": "english",
+   "unit": "Grammar II",
+   "marks": 10,
+   "type": "LONG",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "eng.pos",
+    "topic": "Parts of speech",
+    "src": "NEB English: word classes"
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "engineering-survey-i",
+  "unit": "General",
+  "type": "CONCEPTUAL",
+  "marks": 4,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "youngs_mod",
+   "concept": "Young's modulus is $E = \\dfrac{\\text{stress}}{\\text{strain}}$.",
+   "unit_matched": false,
+   "unit_label": "Strength of materials",
+   "audit": {
+    "expr": "s/e/1000",
+    "env": {
+     "s": 400,
+     "e": 0.002
+    },
+    "sig": 3,
+    "unit": "\\text{GPa}",
+    "answer": 200.0
+   },
+   "kind": "written",
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "State Young's modulus.",
+     "marks": 1
+    },
+    {
+     "label": "b",
+     "text": "A steel bar under a stress of $400\\ \\text{MPa}$ shows a strain of $0.002$. Find Young's modulus.",
+     "marks": 3
+    }
+   ],
+   "or_parts": [],
+   "rubric": "(a) Young's modulus is $E = \\dfrac{\\text{stress}}{\\text{strain}}$. (b) $E = \\dfrac{\\sigma}{\\varepsilon} = \\dfrac{400\\ \\text{MPa}}{0.002}$ $E = 200\\ \\text{GPa}$ Answer: $200\\ \\text{GPa}$.",
+   "board": "IOE",
+   "level": "BE",
+   "subject": "engineering-survey-i",
+   "unit": "Strength of materials",
+   "marks": 4,
+   "type": "CONCEPTUAL",
+   "provenance": {
+    "tier": "param",
+    "law": "Young's modulus is $E = \\dfrac{\\text{stress}}{\\text{strain}}$."
+   }
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "social-and-behavioral-scienc",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "board": "CTEVT",
+   "level": "BSN",
+   "subject": "social-and-behavioral-scienc",
+   "unit": "General",
+   "marks": 1,
+   "type": "MCQ",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "mcq",
+   "question": "The legal minimum age of marriage in Nepal is:",
+   "options": [
+    "18 for girls, 21 for boys",
+    "18 for both",
+    "20 for both",
+    "22 for both."
+   ],
+   "key": "c",
+   "explanation": "The Civil Code sets 20 years for both sexes, with consent. Earlier rules of 18 and 16 are obsolete, so options (a), (b) and (d) are wrong."
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "mathematics",
+  "unit": "Logic and Set",
+  "type": "SHORT",
+  "marks": 5,
+  "item": {
+   "board": "NEB",
+   "level": "C11",
+   "subject": "mathematics",
+   "unit": "Logic and Set",
+   "marks": 5,
+   "type": "NUMERICAL",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "written",
+   "question": "If $A = \\{x: x \\in \\mathbb{N}, x \\le 8\\}$, $B = \\{2,4,6,8,10\\}$ and $C = \\{1,3,5,7,9\\}$ with $U = \\{1,2,\\dots,10\\}$, find $(A \\cup B)^c$, $A - (B \\cup C)$ and $n(A \\triangle B)$.",
+   "parts": [],
+   "or_parts": [],
+   "rubric": "$A = \\{1,2,3,4,5,6,7,8\\}$."
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "water-supply-engineering",
+  "unit": "General",
+  "type": "CONCEPTUAL",
+  "marks": 4,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "rl_level",
+   "concept": "By the height of instrument method $\\text{RL}_P = \\text{RL}_{BM} + BS - FS$.",
+   "unit_matched": false,
+   "unit_label": "Levelling",
+   "audit": {
+    "expr": "BM+BS-FS",
+    "env": {
+     "BM": 150,
+     "BS": 2,
+     "FS": 0.8
+    },
+    "sig": 5,
+    "unit": "\\text{m}",
+    "answer": 151.2
+   },
+   "kind": "written",
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "State the reduced level of a point.",
+     "marks": 1
+    },
+    {
+     "label": "b",
+     "text": "A level is set up with a back sight of $2\\ \\text{m}$ on a bench mark of RL $150\\ \\text{m}$ and a fore sight of $0.8\\ \\text{m}$ on point $P$. Find the reduced level of $P$.",
+     "marks": 3
+    }
+   ],
+   "or_parts": [],
+   "rubric": "(a) By the height of instrument method $\\text{RL}_P = \\text{RL}_{BM} + BS - FS$. (b) $\\text{HI} = 150 + 2$ $\\text{RL}_P = \\text{HI} - 0.8 = 151.2\\ \\text{m}$ Answer: $151.2\\ \\text{m}$.",
+   "board": "IOE",
+   "level": "BE",
+   "subject": "water-supply-engineering",
+   "unit": "Levelling",
+   "marks": 4,
+   "type": "CONCEPTUAL",
+   "provenance": {
+    "tier": "param",
+    "law": "By the height of instrument method $\\text{RL}_P = \\text{RL}_{BM} + BS - FS$."
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "mathematics",
+  "unit": "Vectors",
+  "type": "LONG",
+  "marks": 10,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "Standard formulae",
+   "fact_id": "math.formula",
+   "fact_src": "NEB/SEE/CEE mathematics: standard results and mensuration",
+   "fact_row": 8,
+   "fact_parts": [
+    {
+     "fact_id": "math.formula",
+     "fact_row": 8,
+     "src": "NEB/SEE/CEE mathematics: standard results and mensuration",
+     "topic": "Standard formulae"
+    },
+    {
+     "fact_id": "math.formula",
+     "fact_row": 6,
+     "src": "NEB/SEE/CEE mathematics: standard results and mensuration",
+     "topic": "Standard formulae"
+    },
+    {
+     "fact_id": "math.formula",
+     "fact_row": 15,
+     "src": "NEB/SEE/CEE mathematics: standard results and mensuration",
+     "topic": "Standard formulae"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "Write the formula for the distance between two points $(x_{1},y_{1})$ and $(x_{2},y_{2})$.",
+     "marks": 4
+    },
+    {
+     "label": "b",
+     "text": "Write the formula for the curved surface area of a cylinder of radius $r$ and height $h$.",
+     "marks": 3
+    },
+    {
+     "label": "c",
+     "text": "Write the formula for the sum of the first $n$ terms of a geometric progression.",
+     "marks": 3
+    }
+   ],
+   "rubric": "(a) The distance between two points is $\\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}$. [4] (b) The curved surface area of a cylinder is $2\\pi rh$. [3] (c) The sum of $n$ terms of a GP is $\\frac{a(r^{n}-1)}{r-1}$ for $r\\neq 1$. [3]",
+   "board": "NEB",
+   "level": "C11",
+   "subject": "mathematics",
+   "unit": "Vectors",
+   "marks": 10,
+   "type": "LONG",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "math.formula",
+    "topic": "Standard formulae",
+    "src": "NEB/SEE/CEE mathematics: standard results and mensuration"
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "community-health-nursing",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "mcq",
+   "question": "The term bradypnoea means which of the following?",
+   "options": [
+    "the absence of breathing",
+    "high blood pressure above 140/90 mmHg",
+    "urine output of less than 400 mL in 24 hours",
+    "a respiratory rate below 12 breaths per minute in an adult"
+   ],
+   "key": "d",
+   "explanation": "Bradypnoea is a respiratory rate below 12 breaths per minute in an adult. Therefore the correct answer is a respiratory rate below 12 breaths per minute in an adult.",
+   "topic": "Medical terminology",
+   "fact_id": "nur.term",
+   "fact_src": "CTEVT nursing and health science: medical terminology",
+   "fact_row": 3,
+   "fact_dir": "reverse",
+   "unit_matched": true,
+   "unit_label": null,
+   "board": "CTEVT",
+   "level": "BSN",
+   "subject": "community-health-nursing",
+   "unit": "General",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "nur.term",
+    "topic": "Medical terminology",
+    "src": "CTEVT nursing and health science: medical terminology"
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "mathematics",
+  "unit": "Trigonometry",
+  "type": "NUMERICAL",
+  "marks": 2,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "tan_height",
+   "concept": "In the right triangle $\\tan\\theta = \\dfrac{\\text{height}}{\\text{distance}}$.",
+   "unit_matched": true,
+   "unit_label": "Trigonometry: heights and distances",
+   "audit": {
+    "expr": "d*tan(rad(th))",
+    "env": {
+     "d": 30,
+     "th": 45
+    },
+    "sig": 3,
+    "unit": "\\text{m}",
+    "answer": 30.0
+   },
+   "kind": "written",
+   "question": "The angle of elevation of the top of a tower from a point $30\\ \\text{m}$ from its foot is $45^{\\circ}$. Find the height of the tower.",
+   "parts": [],
+   "or_parts": [],
+   "rubric": "In the right triangle $\\tan\\theta = \\dfrac{\\text{height}}{\\text{distance}}$. $h = d\\tan\\theta = 30\\tan 45^{\\circ}$ $h = 30\\ \\text{m}$ Answer: $30\\ \\text{m}$.",
+   "board": "SEE",
+   "level": "C10",
+   "subject": "mathematics",
+   "unit": "Trigonometry",
+   "marks": 2,
+   "type": "NUMERICAL",
+   "provenance": {
+    "tier": "param",
+    "law": "In the right triangle $\\tan\\theta = \\dfrac{\\text{height}}{\\text{distance}}$."
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "community-health-nursing",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "co",
+   "concept": "Cardiac output is $CO = HR\\times SV$.",
+   "unit_matched": false,
+   "unit_label": "Cardiovascular assessment",
+   "audit": {
+    "expr": "HR*SV/1000",
+    "env": {
+     "HR": 100,
+     "SV": 90
+    },
+    "sig": 3,
+    "unit": "\\text{L min}^{-1}",
+    "answer": 9.0
+   },
+   "kind": "mcq",
+   "question": "A patient has a heart rate of $100$ beats per minute and a stroke volume of $90\\ \\text{mL}$ per beat. Calculate the cardiac output.",
+   "options": [
+    "$1.11\\ \\text{L min}^{-1}$",
+    "$190\\ \\text{L min}^{-1}$",
+    "$9\\ \\text{L min}^{-1}$",
+    "$90\\ \\text{L min}^{-1}$"
+   ],
+   "key": "c",
+   "explanation": "Cardiac output is $CO = HR\\times SV$. $CO = HR\\times SV = 100\\times90\\ \\text{mL min}^{-1}$ $CO = 9\\ \\text{L min}^{-1}$",
+   "board": "CTEVT",
+   "level": "BSN",
+   "subject": "community-health-nursing",
+   "unit": "Cardiovascular assessment",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "param",
+    "law": "Cardiac output is $CO = HR\\times SV$."
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "physics",
+  "unit": "Heat, Temperature and Heat Transfer",
+  "type": "DERIVATION",
+  "marks": 10,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "heat_q",
+   "concept": "The heat absorbed is $Q = mc\\Delta T$.",
+   "unit_matched": true,
+   "unit_label": "Heat",
+   "audit": {
+    "expr": "m*4.2*dT",
+    "env": {
+     "m": 300,
+     "dT": 30
+    },
+    "sig": 3,
+    "unit": "\\text{J}",
+    "answer": 37800.0
+   },
+   "kind": "written",
+   "question": "How much heat is required to raise the temperature of $300\\ \\text{g}$ of water by $30\\ ^{\\circ}\\text{C}$? (Specific heat capacity of water $= 4.2\\ \\text{J g}^{-1}\\,^{\\circ}\\text{C}^{-1}$.)",
+   "parts": [],
+   "or_parts": [],
+   "rubric": "The heat absorbed is $Q = mc\\Delta T$. $Q = mc\\Delta T = 300\\times4.2\\times30$ $Q = 37800\\ \\text{J}$ Answer: $37800\\ \\text{J}$.",
+   "board": "CEE",
+   "level": "CEE",
+   "subject": "physics",
+   "unit": "Heat, Temperature and Heat Transfer",
+   "marks": 10,
+   "type": "DERIVATION",
+   "provenance": {
+    "tier": "param",
+    "law": "The heat absorbed is $Q = mc\\Delta T$."
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "midwifery-1",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "mcq",
+   "question": "Which of the following is the meaning of a body temperature above the normal range?",
+   "options": [
+    "tachypnoea",
+    "pyrexia",
+    "polyuria",
+    "bradycardia"
+   ],
+   "key": "b",
+   "explanation": "Pyrexia is a body temperature above the normal range, that is fever. Therefore the correct answer is pyrexia.",
+   "topic": "Medical terminology",
+   "fact_id": "nur.term",
+   "fact_src": "CTEVT nursing and health science: medical terminology",
+   "fact_row": 6,
+   "fact_dir": "forward",
+   "unit_matched": true,
+   "unit_label": null,
+   "board": "CTEVT",
+   "level": "BSN",
+   "subject": "midwifery-1",
+   "unit": "General",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "nur.term",
+    "topic": "Medical terminology",
+    "src": "CTEVT nursing and health science: medical terminology"
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "mathematics",
+  "unit": "Calculus",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "mcq",
+   "question": "Which of the following is the derivative of $x^{n}$ with respect to $x$?",
+   "options": [
+    "$\\cos x$",
+    "$nx^{n-1}$",
+    "$\\sec^{2}x$",
+    "$\\sec x\\tan x$"
+   ],
+   "key": "b",
+   "explanation": "The derivative of $x^{n}$ is $nx^{n-1}$ by the power rule. Therefore the correct answer is $nx^{n-1}$.",
+   "topic": "Standard derivatives",
+   "fact_id": "math.derivative",
+   "fact_src": "NEB/CEE mathematics: differentiation",
+   "fact_row": 0,
+   "fact_dir": "forward",
+   "unit_matched": true,
+   "unit_label": null,
+   "board": "IOE",
+   "level": "IOE",
+   "subject": "mathematics",
+   "unit": "Calculus",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "math.derivative",
+    "topic": "Standard derivatives",
+    "src": "NEB/CEE mathematics: differentiation"
+   }
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "english",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "board": "TU",
+   "level": "BCA",
+   "subject": "english",
+   "unit": "General",
+   "marks": 1,
+   "type": "MCQ",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "mcq",
+   "question": "The antonym of \"generous\" is",
+   "options": [
+    "rich",
+    "stingy",
+    "noble",
+    "kind"
+   ],
+   "key": "b",
+   "explanation": "stingy is the opposite of generous."
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "english",
+  "unit": "Grammar I",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "mcq",
+   "question": "Which part of speech is the word and?",
+   "options": [
+    "a conjunction",
+    "an adverb",
+    "a noun",
+    "an adjective"
+   ],
+   "key": "a",
+   "explanation": "And is a coordinating conjunction. Therefore the correct answer is a conjunction.",
+   "topic": "Parts of speech",
+   "fact_id": "eng.pos",
+   "fact_src": "NEB English: word classes",
+   "fact_row": 4,
+   "fact_dir": "forward",
+   "unit_matched": true,
+   "unit_label": null,
+   "board": "IOE",
+   "level": "IOE",
+   "subject": "english",
+   "unit": "Grammar I",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "eng.pos",
+    "topic": "Parts of speech",
+    "src": "NEB English: word classes"
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "english",
+  "unit": "Grammar I",
+  "type": "LONG",
+  "marks": 10,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "Parts of speech",
+   "fact_id": "eng.pos",
+   "fact_src": "NEB English: word classes",
+   "fact_row": 6,
+   "fact_parts": [
+    {
+     "fact_id": "eng.pos",
+     "fact_row": 6,
+     "src": "NEB English: word classes",
+     "topic": "Parts of speech"
+    },
+    {
+     "fact_id": "eng.pos",
+     "fact_row": 7,
+     "src": "NEB English: word classes",
+     "topic": "Parts of speech"
+    },
+    {
+     "fact_id": "eng.pos",
+     "fact_row": 6,
+     "src": "NEB English: word classes",
+     "topic": "Parts of speech"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "Identify the part of speech of the word carefully.",
+     "marks": 4
+    },
+    {
+     "label": "b",
+     "text": "Identify the part of speech of the word courage.",
+     "marks": 3
+    },
+    {
+     "label": "c",
+     "text": "Identify the part of speech of the word carefully.",
+     "marks": 3
+    }
+   ],
+   "rubric": "(a) Carefully is an adverb of manner. [4] (b) Courage is an abstract noun. [3] (c) Carefully is an adverb of manner. [3]",
+   "board": "IOE",
+   "level": "IOE",
+   "subject": "english",
+   "unit": "Grammar I",
+   "marks": 10,
+   "type": "LONG",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "eng.pos",
+    "topic": "Parts of speech",
+    "src": "NEB English: word classes"
+   }
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "english",
+  "unit": "How to Live Before You Die",
+  "type": "SHORT",
+  "marks": 2,
+  "item": {
+   "board": "NEB",
+   "level": "C11",
+   "subject": "english",
+   "unit": "How to Live Before You Die",
+   "marks": 2,
+   "type": "CONCEPTUAL",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "written",
+   "question": "Explain: \"Your time is limited, so don't waste it living someone else's life.\"",
+   "parts": [],
+   "or_parts": [],
+   "rubric": "He means that the shortness of life makes borrowed living wasteful. Most people spend their days meeting other people's expectations, following inherited opinions, and fearing disapproval — but the time so spent is subtracted from the only life they will ever have. Since the span is fixed and unknown, Jobs argues, the only rational course is to follow your own heart and intuition rather than somebody else's plan for you."
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "chemistry",
+  "unit": "Organometallic Compounds",
+  "type": "OR",
+  "marks": 5,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "Alloys",
+   "fact_id": "chem.alloy",
+   "fact_src": "NEB/CEE chemistry: alloys",
+   "fact_row": 0,
+   "fact_parts": [
+    {
+     "fact_id": "chem.alloy",
+     "fact_row": 0,
+     "src": "NEB/CEE chemistry: alloys",
+     "topic": "Alloys"
+    },
+    {
+     "fact_id": "chem.ore",
+     "fact_row": 0,
+     "src": "NEB/CEE chemistry: metallurgy and ores",
+     "topic": "Ores"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "Write the composition of brass.",
+     "marks": 3
+    },
+    {
+     "label": "b",
+     "text": "Name the main ore of iron.",
+     "marks": 2
+    }
+   ],
+   "rubric": "(a) Brass is an alloy of copper and zinc. [3] (b) Haematite, $\\text{Fe}_{2}\\text{O}_{3}$, is the main ore of iron. [2]",
+   "board": "NEB",
+   "level": "C12",
+   "subject": "chemistry",
+   "unit": "Organometallic Compounds",
+   "marks": 5,
+   "type": "OR",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "chem.alloy",
+    "topic": "Alloys",
+    "src": "NEB/CEE chemistry: alloys"
+   }
+  }
+ },
+ {
+  "tier": "reason",
+  "subject": "mental-agility-test",
+  "unit": "Spatial Relation and Abstract Reasoning",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "reasoning",
+   "verified": true,
+   "kind": "mcq",
+   "question": "Find the next term of the series: 2, 6, 11, 17, 24, ?",
+   "options": [
+    "24",
+    "32",
+    "31",
+    "33"
+   ],
+   "key": "b",
+   "explanation": "The difference between consecutive terms increases by 1 each time, so the next term is 24+8=32. So the answer is 32.",
+   "topic": "Reasoning series",
+   "unit_matched": true,
+   "unit_label": null,
+   "board": "CEE",
+   "level": "CEE",
+   "subject": "mental-agility-test",
+   "unit": "Spatial Relation and Abstract Reasoning",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "reason",
+    "topic": "Reasoning series"
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "physics",
+  "unit": "Recent Trends in physics",
+  "type": "DERIVATION",
+  "marks": 5,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "bohr_e",
+   "concept": "In the Bohr model the energy of the $n$th orbit of hydrogen is $E_n = -\\dfrac{13.6}{n^2}\\ \\text{eV}$.",
+   "unit_matched": true,
+   "unit_label": "Atomic physics: Bohr model",
+   "audit": {
+    "expr": "-13.6/n**2",
+    "env": {
+     "n": 4
+    },
+    "sig": 3,
+    "unit": "\\text{eV}",
+    "answer": -0.85
+   },
+   "kind": "written",
+   "question": "Find the energy of the electron of a hydrogen atom in the $n = 4$ orbit.",
+   "parts": [],
+   "or_parts": [],
+   "rubric": "In the Bohr model the energy of the $n$th orbit of hydrogen is $E_n = -\\dfrac{13.6}{n^2}\\ \\text{eV}$. $E_n = -\\dfrac{13.6}{n^2} = -\\dfrac{13.6}{4^2}$ $E_n = -0.85\\ \\text{eV}$ Answer: $-0.85\\ \\text{eV}$.",
+   "board": "NEB",
+   "level": "C11",
+   "subject": "physics",
+   "unit": "Recent Trends in physics",
+   "marks": 5,
+   "type": "DERIVATION",
+   "provenance": {
+    "tier": "param",
+    "law": "In the Bohr model the energy of the $n$th orbit of hydrogen is $E_n = -\\dfrac{13.6}{n^2}\\ \\text{eV}$."
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "gk-and-it",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "cpu_time",
+   "concept": "CPU time $= \\dfrac{\\text{instruction count}\\times\\text{CPI}}{\\text{clock rate}}$.",
+   "unit_matched": false,
+   "unit_label": "Computer architecture",
+   "audit": {
+    "expr": "IC*CPI/f",
+    "env": {
+     "IC": 200,
+     "CPI": 1.5,
+     "f": 100
+    },
+    "sig": 3,
+    "unit": "\\text{s}",
+    "answer": 3.0
+   },
+   "kind": "mcq",
+   "question": "A program has $200$ million instructions with an average $\\text{CPI}$ of $1.5$ on a processor of clock rate $100\\ \\text{MHz}$. Find the CPU time.",
+   "options": [
+    "$0.75\\ \\text{s}$",
+    "$1.33\\ \\text{s}$",
+    "$6\\ \\text{s}$",
+    "$3\\ \\text{s}$"
+   ],
+   "key": "d",
+   "explanation": "CPU time $= \\dfrac{\\text{instruction count}\\times\\text{CPI}}{\\text{clock rate}}$. $T = \\dfrac{IC\\times CPI}{f} = \\dfrac{200\\times10^{6}\\times 1.5}{100\\times10^{6}}$ $T = 3\\ \\text{s}$",
+   "board": "TU",
+   "level": "BCA",
+   "subject": "gk-and-it",
+   "unit": "Computer architecture",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "param",
+    "law": "CPU time $= \\dfrac{\\text{instruction count}\\times\\text{CPI}}{\\text{clock rate}}$."
+   }
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "science",
+  "unit": "Information and Communication Technology",
+  "type": "CONCEPTUAL",
+  "marks": 3,
+  "item": {
+   "board": "BLE",
+   "level": "C8",
+   "subject": "science",
+   "unit": "Information and Communication Technology",
+   "marks": 3,
+   "type": "CONCEPTUAL",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "written",
+   "question": "Differentiate between",
+   "parts": [
+    {
+     "label": "a",
+     "text": "virtual reality and artificial intelligence",
+     "marks": 0
+    },
+    {
+     "label": "b",
+     "text": "computer code of conduct and cyber law",
+     "marks": 0
+    },
+    {
+     "label": "c",
+     "text": "robot and human.",
+     "marks": 3
+    }
+   ],
+   "or_parts": [],
+   "rubric": "(a) VR creates an artificial 3-D world that a person experiences through a headset; AI makes a machine think, learn and decide like a human. (b) The code of conduct is a set of moral guidelines for using computers, without legal punishment; cyber law is the law of the state, and breaking it is punished by jail or fine. (c) A robot is a machine run by a program, without feelings, that does repetitive or dangerous work without tiring; a human is a living being who thinks and feels, and gets tired."
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "chemistry",
+  "unit": "Inorganic Chemistry",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "mcq",
+   "question": "Which observation shows the presence of ammonia?",
+   "options": [
+    "turns limewater milky",
+    "turns moist red litmus paper blue",
+    "relights a glowing splint",
+    "bleaches moist litmus paper"
+   ],
+   "key": "b",
+   "explanation": "Ammonia is basic and turns moist red litmus paper blue. Therefore the correct answer is turns moist red litmus paper blue.",
+   "topic": "Tests for gases",
+   "fact_id": "chem.gas_test",
+   "fact_src": "NEB/CEE chemistry practicals: qualitative gas tests",
+   "fact_row": 4,
+   "fact_dir": "forward",
+   "unit_matched": true,
+   "unit_label": null,
+   "board": "IOE",
+   "level": "IOE",
+   "subject": "chemistry",
+   "unit": "Inorganic Chemistry",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "chem.gas_test",
+    "topic": "Tests for gases",
+    "src": "NEB/CEE chemistry practicals: qualitative gas tests"
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "engineering-mathematics-i",
+  "unit": "General",
+  "type": "DERIVATION",
+  "marks": 1,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "comb",
+   "concept": "The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \\dfrac{n!}{r!(n-r)!}$.",
+   "unit_matched": false,
+   "unit_label": "Permutation and combination",
+   "audit": {
+    "expr": "comb(n,r)",
+    "env": {
+     "n": 7,
+     "r": 4
+    },
+    "sig": 3,
+    "unit": "",
+    "answer": 35.0
+   },
+   "kind": "mcq",
+   "question": "In how many ways can $4$ students be selected from a group of $7$ students?",
+   "options": [
+    "$840$",
+    "$140$",
+    "$70$",
+    "$35$"
+   ],
+   "key": "d",
+   "explanation": "The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \\dfrac{n!}{r!(n-r)!}$. $^{7}C_{4} = \\dfrac{7!}{4!\\,(7-4)!}$ $= 35$",
+   "board": "IOE",
+   "level": "BE",
+   "subject": "engineering-mathematics-i",
+   "unit": "Permutation and combination",
+   "marks": 1,
+   "type": "DERIVATION",
+   "provenance": {
+    "tier": "param",
+    "law": "The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \\dfrac{n!}{r!(n-r)!}$."
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "mathematics",
+  "unit": "Permutation and Combination",
+  "type": "NUMERICAL",
+  "marks": 8,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "comb",
+   "concept": "The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \\dfrac{n!}{r!(n-r)!}$.",
+   "unit_matched": true,
+   "unit_label": "Permutation and combination",
+   "audit": {
+    "expr": "comb(n,r)",
+    "env": {
+     "n": 7,
+     "r": 4
+    },
+    "sig": 3,
+    "unit": "",
+    "answer": 35.0
+   },
+   "kind": "written",
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "State the combination formula.",
+     "marks": 2
+    },
+    {
+     "label": "b",
+     "text": "In how many ways can $4$ students be selected from a group of $7$ students?",
+     "marks": 6
+    }
+   ],
+   "or_parts": [],
+   "rubric": "(a) The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \\dfrac{n!}{r!(n-r)!}$. (b) $^{7}C_{4} = \\dfrac{7!}{4!\\,(7-4)!}$ $= 35$ Answer: $35$.",
+   "board": "NEB",
+   "level": "C12",
+   "subject": "mathematics",
+   "unit": "Permutation and Combination",
+   "marks": 8,
+   "type": "NUMERICAL",
+   "provenance": {
+    "tier": "param",
+    "law": "The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \\dfrac{n!}{r!(n-r)!}$."
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "physics",
+  "unit": "Quantity of Heat",
+  "type": "DERIVATION",
+  "marks": 5,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "max_height",
+   "concept": "Maximum height is $H = \\dfrac{u^2\\sin^2\\theta}{2g}$.",
+   "unit_matched": false,
+   "unit_label": "Projectile motion",
+   "audit": {
+    "expr": "u**2*sin(rad(th))**2/20",
+    "env": {
+     "u": 40,
+     "th": 30
+    },
+    "sig": 3,
+    "unit": "\\text{m}",
+    "answer": 20.0
+   },
+   "kind": "written",
+   "question": "A projectile is thrown with speed $40\\ \\text{m s}^{-1}$ at $30^{\\circ}$ to the horizontal. Taking $g = 10\\ \\text{m s}^{-2}$, find the maximum height reached.",
+   "parts": [],
+   "or_parts": [],
+   "rubric": "Maximum height is $H = \\dfrac{u^2\\sin^2\\theta}{2g}$. $H = \\dfrac{u^2\\sin^2\\theta}{2g} = \\dfrac{(40)^2\\sin^2 30^{\\circ}}{2\\times10}$ $H = 20\\ \\text{m}$ Answer: $20\\ \\text{m}$.",
+   "board": "NEB",
+   "level": "C11",
+   "subject": "physics",
+   "unit": "Projectile motion",
+   "marks": 5,
+   "type": "DERIVATION",
+   "provenance": {
+    "tier": "param",
+    "law": "Maximum height is $H = \\dfrac{u^2\\sin^2\\theta}{2g}$."
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "physics",
+  "unit": "Electromagnetic Induction",
+  "type": "OR",
+  "marks": 5,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "Discoverers and laws",
+   "fact_id": "phys.discoverer",
+   "fact_src": "NEB/CEE/IOE physics: history of physics",
+   "fact_row": 4,
+   "fact_parts": [
+    {
+     "fact_id": "phys.discoverer",
+     "fact_row": 4,
+     "src": "NEB/CEE/IOE physics: history of physics",
+     "topic": "Discoverers and laws"
+    },
+    {
+     "fact_id": "phys.discoverer",
+     "fact_row": 7,
+     "src": "NEB/CEE/IOE physics: history of physics",
+     "topic": "Discoverers and laws"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "Name the scientist associated with the circuital law relating current and magnetic field.",
+     "marks": 3
+    },
+    {
+     "label": "b",
+     "text": "Name the scientist associated with the law fixing the direction of an induced current.",
+     "marks": 2
+    }
+   ],
+   "rubric": "(a) Ampere's circuital law is named after Andre-Marie Ampere. [3] (b) Lenz's law is named after Heinrich Lenz. [2]",
+   "board": "NEB",
+   "level": "C12",
+   "subject": "physics",
+   "unit": "Electromagnetic Induction",
+   "marks": 5,
+   "type": "OR",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "phys.discoverer",
+    "topic": "Discoverers and laws",
+    "src": "NEB/CEE/IOE physics: history of physics"
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "computer-science",
+  "unit": "Program Design Tools",
+  "type": "NUMERICAL",
+  "marks": 2,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "bits_needed",
+   "concept": "$k$ bits can represent $2^k$ values, so $k = \\lceil\\log_2 n\\rceil$.",
+   "unit_matched": false,
+   "unit_label": "Number systems and data representation",
+   "audit": {
+    "expr": "ceil(ln(n)/ln(2))",
+    "env": {
+     "n": 50
+    },
+    "sig": 3,
+    "unit": "\\text{bits}",
+    "answer": 6.0
+   },
+   "kind": "written",
+   "question": "What is the minimum number of bits needed to represent $50$ different values?",
+   "parts": [],
+   "or_parts": [],
+   "rubric": "$k$ bits can represent $2^k$ values, so $k = \\lceil\\log_2 n\\rceil$. $k = \\lceil\\log_2 50\\rceil$ $k = 6\\ \\text{bits}$ Answer: $6\\ \\text{bits}$.",
+   "board": "BLE",
+   "level": "C8",
+   "subject": "computer-science",
+   "unit": "Number systems and data representation",
+   "marks": 2,
+   "type": "NUMERICAL",
+   "provenance": {
+    "tier": "param",
+    "law": "$k$ bits can represent $2^k$ values, so $k = \\lceil\\log_2 n\\rceil$."
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "optional-mathematics",
+  "unit": "Relation and Function",
+  "type": "CONCEPTUAL",
+  "marks": 2,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "Standard derivatives",
+   "fact_id": "math.derivative",
+   "fact_src": "NEB/CEE mathematics: differentiation",
+   "fact_row": 11,
+   "fact_parts": [
+    {
+     "fact_id": "math.derivative",
+     "fact_row": 11,
+     "src": "NEB/CEE mathematics: differentiation",
+     "topic": "Standard derivatives"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Write the derivative of $\\tan^{-1}x$ with respect to $x$.",
+   "parts": [],
+   "rubric": "The derivative of $\\tan^{-1}x$ is $1/(1+x^{2})$.",
+   "board": "BLE",
+   "level": "C8",
+   "subject": "optional-mathematics",
+   "unit": "Relation and Function",
+   "marks": 2,
+   "type": "CONCEPTUAL",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "math.derivative",
+    "topic": "Standard derivatives",
+    "src": "NEB/CEE mathematics: differentiation"
+   }
+  }
+ },
+ {
+  "tier": "bank",
+  "subject": "mathematics",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "board": "TU",
+   "level": "BCA",
+   "subject": "mathematics",
+   "unit": "General",
+   "marks": 1,
+   "type": "MCQ",
+   "source": "bank",
+   "verified": true,
+   "provenance": {
+    "tier": "bank"
+   },
+   "kind": "mcq",
+   "question": "$\\frac{1}{8}$ expressed as a percentage is",
+   "options": [
+    "18 %",
+    "12.5 %",
+    "15 %",
+    "8 %"
+   ],
+   "key": "b",
+   "explanation": "100 ÷ 8 = 12.5."
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "model-papers",
+  "unit": "Section B — Mathematics",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "comp_int",
+   "concept": "The amount under compound interest is $A = P\\left(1+\\dfrac{r}{100}\\right)^{n}$.",
+   "unit_matched": true,
+   "unit_label": "Mathematics of finance",
+   "audit": {
+    "expr": "P*(1+r/100)**n",
+    "env": {
+     "P": 1000,
+     "r": 11,
+     "n": 3
+    },
+    "sig": 3,
+    "unit": "\\text{ rupees}",
+    "answer": 1370.0
+   },
+   "kind": "mcq",
+   "question": "Find the amount when Rs. $1000$ is invested for $3$ years at $11\\%$ compound interest per annum.",
+   "options": [
+    "$330\\ \\text{ rupees}$",
+    "$1370\\ \\text{ rupees}$",
+    "$1230\\ \\text{ rupees}$",
+    "$1330\\ \\text{ rupees}$"
+   ],
+   "key": "b",
+   "explanation": "The amount under compound interest is $A = P\\left(1+\\dfrac{r}{100}\\right)^{n}$. $A = P\\left(1+\\dfrac{r}{100}\\right)^{n} = 1000\\left(1+\\dfrac{11}{100}\\right)^{3}$ $A = \\text{Rs. }1370$",
+   "board": "IOE",
+   "level": "IOE",
+   "subject": "model-papers",
+   "unit": "Section B — Mathematics",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "param",
+    "law": "The amount under compound interest is $A = P\\left(1+\\dfrac{r}{100}\\right)^{n}$."
+   }
+  }
+ },
+ {
+  "tier": "param",
+  "subject": "mathematics",
+  "unit": "General",
+  "type": "MCQ",
+  "marks": 1,
+  "item": {
+   "source": "parametric",
+   "verified": true,
+   "tpl": "dot",
+   "concept": "The scalar product is $\\vec{a}\\cdot\\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$.",
+   "unit_matched": false,
+   "unit_label": "Vectors",
+   "audit": {
+    "expr": "a1*b1+a2*b2+a3*b3",
+    "env": {
+     "a1": 3,
+     "a2": 1,
+     "a3": 2,
+     "b1": 4,
+     "b2": 6,
+     "b3": 3
+    },
+    "sig": 3,
+    "unit": "",
+    "answer": 24.0
+   },
+   "kind": "mcq",
+   "question": "Find the scalar product of $\\vec{a} = 3\\hat{i} + 1\\hat{j} + 2\\hat{k}$ and $\\vec{b} = 4\\hat{i} + 6\\hat{j} + 3\\hat{k}$.",
+   "options": [
+    "$12$",
+    "$432$",
+    "$29$",
+    "$24$"
+   ],
+   "key": "d",
+   "explanation": "The scalar product is $\\vec{a}\\cdot\\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\\vec{a}\\cdot\\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 3\\times4+1\\times6+2\\times3$ $\\vec{a}\\cdot\\vec{b} = 24$",
+   "board": "TU",
+   "level": "BCA",
+   "subject": "mathematics",
+   "unit": "Vectors",
+   "marks": 1,
+   "type": "MCQ",
+   "provenance": {
+    "tier": "param",
+    "law": "The scalar product is $\\vec{a}\\cdot\\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$."
+   }
+  }
+ },
+ {
+  "tier": "fact",
+  "subject": "computer-science",
+  "unit": "Web Technology II",
+  "type": "LONG",
+  "marks": 8,
+  "item": {
+   "source": "fact",
+   "verified": true,
+   "kind": "written",
+   "or_parts": [],
+   "topic": "OSI reference model",
+   "fact_id": "cs.osi",
+   "fact_src": "NEB/CEE computer science: data communication and networking",
+   "fact_row": 1,
+   "fact_parts": [
+    {
+     "fact_id": "cs.osi",
+     "fact_row": 1,
+     "src": "NEB/CEE computer science: data communication and networking",
+     "topic": "OSI reference model"
+    },
+    {
+     "fact_id": "cs.protocol",
+     "fact_row": 7,
+     "src": "NEB/CEE computer science: data communication and networking",
+     "topic": "Protocols"
+    },
+    {
+     "fact_id": "gk.abbrev",
+     "fact_row": 12,
+     "src": "TU BCA general knowledge and IT: abbreviations",
+     "topic": "Computer abbreviations"
+    }
+   ],
+   "unit_matched": true,
+   "unit_label": null,
+   "question": "Answer the following:",
+   "parts": [
+    {
+     "label": "a",
+     "text": "State the function of the data link layer of the OSI model.",
+     "marks": 3
+    },
+    {
+     "label": "b",
+     "text": "State the main use of UDP.",
+     "marks": 3
+    },
+    {
+     "label": "c",
+     "text": "Write the full form of ISP.",
+     "marks": 2
+    }
+   ],
+   "rubric": "(a) The data link layer frames data and controls errors on a single link. [3] (b) UDP provides fast connectionless data transfer. [3] (c) ISP stands for internet service provider. [2]",
+   "board": "NEB",
+   "level": "C12",
+   "subject": "computer-science",
+   "unit": "Web Technology II",
+   "marks": 8,
+   "type": "LONG",
+   "provenance": {
+    "tier": "fact",
+    "fact_id": "cs.osi",
+    "topic": "OSI reference model",
+    "src": "NEB/CEE computer science: data communication and networking"
+   }
+  }
+ }
+]

@@ -1,7 +1,7 @@
 // LM-tier yield test: for N random (subject,unit) with facts, sample 4 grounded attempts each and report strict-gate pass rate. usage: node lm_tier_test.mjs model beta N
-import { createRequire } from "module"; import fs from "fs"; import path from "path"; import { fileURLToPath } from "url";
+import { createRequire } from "module"; import fs from "fs"; import path from "path"; import { fileURLToPath, pathToFileURL } from "url";
 const req = createRequire("/tmp/jsenv/x.js"); const ort = req("onnxruntime-node"); const D = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "docs"); const J = (f) => JSON.parse(fs.readFileSync(path.join(D, "model", f), "utf8"));
-const { PaperLM } = await import(path.join(D, "paperlm.js")); const { gate } = await import(path.join(D, "ground.js"));
+const { PaperLM } = await import(pathToFileURL(path.join(D, "paperlm.js")).href); const { gate } = await import(path.join(D, "ground.js"));
 const model = fs.readFileSync(process.argv[2]); const beta = +process.argv[3], N = +process.argv[4] || 25;
 const eng = await PaperLM.create({ ort, model, tokenizer: J("tokenizer.json"), syllabus: J("syllabus.json"), seed: 11, lexicon: J("lexicon.json"), providers: ["cpu"] }); const bank = J("bank.json");
 const cells = []; for (const [k, f] of Object.entries(bank.facts)) for (const u of Object.keys(f)) if (f[u].length) cells.push([k, u, f[u]]);
