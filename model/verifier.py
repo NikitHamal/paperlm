@@ -23,7 +23,7 @@ import torch.nn as nn
 
 
 class Verifier(nn.Module):
-    def __init__(self, vocab=256, d=256, layers=4, heads=8, ffn=1024, max_len=768, dropout=0.1):
+    def __init__(self, vocab=256, d=384, layers=6, heads=8, ffn=1536, max_len=1024, dropout=0.1):
         super().__init__()
         self.emb = nn.Embedding(vocab, d)
         self.pos = nn.Embedding(max_len, d)
@@ -42,13 +42,13 @@ class Verifier(nn.Module):
         return self.head(pooled).squeeze(-1)
 
 
-def encode(anchor, text, max_len=768):
+def encode(anchor, text, max_len=1024):
     s = (str(anchor) + "  [[SEP]]  " + str(text))[:max_len]
     ids = [max(1, min(255, ord(c))) for c in s]  # byte-ish char ids, 0 reserved for padding
     return ids
 
 
-def collate(batch, max_len=768):
+def collate(batch, max_len=1024):
     L = min(max_len, max(len(x[0]) for x in batch))
     out = torch.zeros(len(batch), L, dtype=torch.long)
     for i, (ids, _y) in enumerate(batch):
@@ -77,9 +77,9 @@ def train(a):
     m = Verifier().to(dev)
     n_par = sum(p.numel() for p in m.parameters())
     print(f"verifier {n_par/1e6:.2f}M params, {len(tr)} train / {len(va)} val pairs", flush=True)
-    opt = torch.optim.AdamW(m.parameters(), lr=3e-4, weight_decay=0.01)
+    opt = torch.optim.AdamW(m.parameters(), lr=5e-4, weight_decay=0.01)
     steps = math.ceil(len(tr) / a.batch) * a.epochs
-    sched = torch.optim.lr_scheduler.OneCycleLR(opt, 3e-4, total_steps=steps, pct_start=0.1)
+    sched = torch.optim.lr_scheduler.OneCycleLR(opt, 5e-4, total_steps=steps, pct_start=0.1)
     lossf = nn.BCEWithLogitsLoss()
     best = 0.0
     os.makedirs(a.out, exist_ok=True)
@@ -105,7 +105,8 @@ def train(a):
         print(json.dumps(rec), flush=True); log.write(json.dumps(rec) + "\n"); log.flush()
         if auc >= best:
             best = auc
-            torch.save(dict(model=m.state_dict(), cfg=dict(vocab=256, d=256, layers=4, heads=8, ffn=1024), auc=auc), os.path.join(a.out, "verifier.pt"))
+            torch.save(dict(model=m.state_dict(), cfg=dict(vocab=256, d=384, layers=6, heads=8, ffn=1536), auc=auc), os.path.join(a.out, "verifier.pt"))
+    json.dump(dict(event="done", best_val_auc=round(best, 4)), open(os.path.join(a.out, "done.json"), "w"))
     print(json.dumps(dict(event="done", best_val_auc=round(best, 4))), flush=True)
 
 
@@ -153,7 +154,7 @@ def load(ckpt, dev=None):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("mode"); ap.add_argument("--data", default="/tmp/paperlm/vf")
     ap.add_argument("--ckpt", default="/tmp/paperlm/vf/verifier.pt"); ap.add_argument("--out", default="/tmp/paperlm/vf")
-    ap.add_argument("--epochs", type=int, default=3); ap.add_argument("--batch", type=int, default=96)
+    ap.add_argument("--epochs", type=int, default=6); ap.add_argument("--batch", type=int, default=128)
     ap.add_argument("--anchor", default=""); ap.add_argument("--text", default="")
     a = ap.parse_args()
     if a.mode == "train":

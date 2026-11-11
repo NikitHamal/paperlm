@@ -47,6 +47,7 @@ def main():
     # ---- positives: gold bank seeds + a concept of their own unit
     allpos = []
     for key, units in bank.get("seeds", {}).items():
+        subj_key = key.split("|")[2] if key.count("|") >= 2 else key
         facts = bank.get("facts", {}).get(key, {})
         for unit, seeds in units.items():
             fs = facts.get(unit) or [x for v in facts.values() for x in v]
@@ -62,7 +63,7 @@ def main():
                     if not s.get("q") or not s.get("r"):
                         continue
                     txt = s["q"] + " " + " ".join(t[1] for t in s.get("p") or []) + " " + s["r"]
-                allpos.append(dict(anchor=rng.choice(fs), text=txt[:900], label=1, kind="bank", ref=f"{key}|{unit}"))
+                allpos.append(dict(anchor=rng.choice(fs), text=txt[:1400], label=1, kind="bank", ref=f"{key}|{unit}", subj=subj_key))
     rng.shuffle(allpos)
     pos += allpos
 
@@ -77,13 +78,13 @@ def main():
             it = PM.make_item(subj, lvl, unit, rng.choice([1, 4]), rng.choice(["MCQ", "SHORT", "NUMERICAL"]), rng)
             if not it:
                 continue
-            pos.append(dict(anchor=it["concept"], text=item_text(it)[:900], label=1, kind="param", ref=it.get("tpl")))
+            pos.append(dict(anchor=it["concept"], text=item_text(it)[:1400], label=1, kind="param", ref=it.get("tpl"), subj=subj))
         else:
             it = fb.make_item(subj, unit, rng.choice([1, 5]), rng.choice(["MCQ", "SHORT"]), rng.random)
             if not it:
                 continue
             cls = next(c for c in fb.classes if c["id"] == it["fact_id"])
-            pos.append(dict(anchor=cls["pairs"][it["fact_row"]][2], text=item_text(it)[:900], label=1, kind="fact", ref=cls["id"]))
+            pos.append(dict(anchor=cls["pairs"][it["fact_row"]][2], text=item_text(it)[:1400], label=1, kind="fact", ref=cls["id"], subj=subj))
     rng.shuffle(pos)
     pos = pos[:a.n]
 
@@ -102,13 +103,18 @@ def main():
     rng.shuffle(cands)
     print("rft hard negatives:", len(cands), "positives:", len(pos), flush=True)
     for anc, txt in cands[:a.n // 2]:
-        neg.append(dict(anchor=anc, text=txt[:900], label=0, kind="lm_gate_pass"))
-    pool = [p["anchor"] for p in pos]
+        neg.append(dict(anchor=anc, text=txt[:1400], label=0, kind="lm_gate_pass", subj="?"))
+    # mismatched anchors are drawn from a *different* subject, so the negative is unambiguous
+    by_subj = {}
+    for p in pos:
+        by_subj.setdefault(p.get("subj", "?"), []).append(p["anchor"])
+    subs = list(by_subj)
     for p in pos[:a.n // 2]:
-        neg.append(dict(anchor=rng.choice(pool), text=p["text"][:900], label=0, kind="anchor_mismatch"))
+        others = [x for s2 in subs if s2 != p.get("subj") for x in by_subj[s2]]
+        neg.append(dict(anchor=rng.choice(others or [p["anchor"]]), text=p["text"][:1400], label=0, kind="anchor_mismatch", subj=p.get("subj")))
     for p in allpos:
         if p["text"] and rng.random() < 0.15:
-            neg.append(dict(anchor=p["anchor"], text=p["text"][:900], label=0, kind="corrupted"))
+            neg.append(dict(anchor=p["anchor"], text=p["text"][:1400], label=0, kind="corrupted", subj=p.get("subj")))
     rng.shuffle(neg)
 
     # ---- split
