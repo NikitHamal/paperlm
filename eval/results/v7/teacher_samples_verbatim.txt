@@ -1,0 +1,40 @@
+[SEE|C10|accountancy | Internal Control and Auditing]
+If the petty cash balance is Rs. 500 and the total receipts and payments recorded in the petty cash book are Rs. 300 and Rs. 250 respectively, what should be the balance to be replenished?
+A. Rs. 50
+B. Rs. 75
+C. Rs. 100
+D. Rs. 125
+Key A (blind p=0.998) — The balance to be replenished is calculated as the initial balance plus receipts minus payments.
+
+[CTEVT|BSN|nutrition-and-diet-therapy | General]
+Calculate the energy intake required for an adult female patient weighing 60 kg who needs to maintain her current weight, assuming a maintenance calorie requirement of 25 kcal/kg/day.
+A. 1350 kcal
+B. 1500 kcal
+C. 1800 kcal
+D. 2000 kcal
+Key B (blind p=1.0) — The energy intake is calculated as $25 \text{ kcal/kg/day} \times 60 \text{ kg}$.
+
+[SEE|C10|social-studies | Unit 2: Development and the Foundations of Development]
+The literacy rate of a region increased from 60% to 70%. What is the absolute increase in the literacy rate?
+A. $10\%$
+B. $15\%$
+C. $5\%$
+D. $20\%$
+Key A (blind p=1.0) — The absolute increase in the literacy rate is $70\% - 60\% = 10\%$.
+
+[NEB|C11|computer-science | Web Technology I]
+A JavaScript file includes 15 functions, and each function occupies about 40 bytes. What is the total byte count for all functions?
+A. 700
+B. 600
+C. 550
+D. 650
+Key B (blind p=1.0) — Multiplying the number of functions by the size per function gives the total size as $15 \times 40 = 600$ bytes.
+
+[BLE|C8|mathematics | Indices]
+If $a^m \times a^n = a^{12}$, and $m=5$, what is the value of $n$?
+A. 7
+B. 6
+C. 8
+D. 9
+Key A (blind p=1.0) — Using the law of indices that states $a^m \times a^n = a^{m+n}$, we solve $5 + n = 12$ to find $n$.
+

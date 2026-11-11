@@ -1,1 +1,25 @@
-{}
+{
+ "water-supply-engineering": 3,
+ "chemistry": 37,
+ "theory-of-computation": 3,
+ "physics": 21,
+ "mathematics": 48,
+ "computer-science": 38,
+ "fundamental-of-electrical-an": 4,
+ "social-studies": 14,
+ "optional-mathematics": 8,
+ "biology": 4,
+ "accountancy": 20,
+ "psychiatric-nursing": 4,
+ "computer-graphics-and-visual": 4,
+ "economics": 8,
+ "science": 8,
+ "concrete-technology": 4,
+ "discrete-structure": 3,
+ "civil-engineering-materials": 3,
+ "engineering-chemistry": 2,
+ "engineering-mathematics-ii": 2,
+ "nutrition-and-diet-therapy": 4,
+ "midwifery-2": 3,
+ "probability-and-statistics": 3
+}
