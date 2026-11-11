@@ -109,3 +109,45 @@ def eval_card():
         return mo.Html(CSS + f'<div class="pl-card"><div style="font-weight:800">📏 Evaluation</div><table style="font-size:13px">{rows}</table></div>')
     rows = "".join(f"<tr><td>{H.escape(k)}</td><td align=right>{H.escape(str(prev.get(k,'–')))}</td><td align=right><b>{H.escape(str(v))}</b></td></tr>" for k, v in cur.items())
     return mo.Html(CSS + f'<div class="pl-card"><div style="font-weight:800">📏 Factual-coherence benchmark · {H.escape(str(e.get("label","")))}</div><table style="font-size:13px;min-width:420px"><tr><th align=left>metric</th><th>previous</th><th>current</th></tr>{rows}</table></div>')
+
+
+# ---------------------------------------------------------------- v4: concept-grounded + neuro-symbolic cards
+import glob as _glob, os as _os
+
+def _jl(p):
+    try: return json.load(open(p))
+    except Exception: return {}
+
+def grounded():
+    """Live card: grounded RFT rounds (gate pass-rates per val benchmark + live shard progress)."""
+    rows = ""; R4 = "/tmp/paperlm/release4"
+    for p in sorted(_glob.glob(f"{R4}/bench_*.json")):
+        b = _jl(p)
+        rows += (f"<tr><td><b>{H.escape(str(b.get('label')))}</b></td><td align=right>{_n(b.get('structurally_valid_rate',0)*100,1)}%</td><td align=right>{_n(b.get('raw_gate_pass_rate',0)*100,1)}%</td>"
+                 f"<td align=right><b>{_n(b.get('prompts_resolved_rate',0)*100,1)}%</b></td><td align=right>{_n(b.get('numbers_invented_rate',0)*100,1)}%</td></tr>")
+    live = ""
+    for d in sorted(_glob.glob("/tmp/paperlm/rft/*/")):
+        tot = {}; n = 0
+        for p in _glob.glob(d + "stats_*.json"):
+            for k, v in _jl(p).get("raw", {}).items(): tot[k] = tot.get(k, 0) + v
+            n += 1
+        c = sum(1 for _ in _glob.glob(d + "cand_*.jsonl") for _l in open(_))
+        if tot or c: live += f"<div style='font-size:12.5px;margin:2px 0'><code>{H.escape(_os.path.basename(d.rstrip('/')))}</code> · shards done {n} · attempts {tot.get('attempts',0)} · gate-pass {tot.get('gate_pass',0)} · resolved prompts {tot.get('prompts_resolved',0)}/{tot.get('prompts',0)} · candidates on disk {c}</div>"
+    tbl = (f"<table style='font-size:13px;min-width:520px'><tr><th align=left>checkpoint</th><th align=right>structure ok</th><th align=right>raw gate pass</th><th align=right>prompt resolved ≤4 tries</th><th align=right>invented numbers</th></tr>{rows}</table>") if rows else "<i>benchmarks appear after each round…</i>"
+    return mo.Html(CSS + f"<div class='pl-card'><div style='font-weight:800;margin-bottom:6px'>🧭 Concept-grounded rejection fine-tuning (verify + strict grounding gate)</div>{tbl}<div style='margin-top:8px'>{live}</div></div>")
+
+def factual():
+    """Live card: neuro-symbolic system — parametric engine test + composed-system factual benchmark."""
+    pt = _jl("/tmp/paperlm/param_test.json"); f = _jl("/tmp/paperlm/status_factual.json"); fb = {}
+    for p in sorted(_glob.glob("/tmp/paperlm/release4/factual_*.json")): fb = _jl(p)
+    cs = fb.get("composed_system", {}); gg = fb.get("gate_on_gold", {})
+    top = "".join([_stat("templates", pt.get("templates", "–")), _stat("instances checked", _n(pt.get("instances", 0))), _stat("key/option failures", pt.get("self_check_failures", "–")),
+                   _stat("known-value failures", pt.get("known_value_failures", "–")), _stat("py↔js parity fails", pt.get("parity_failures", "–"))])
+    if f and not cs:
+        done, tot = f.get("done", 0), max(1, f.get("total", 1)); body = f"<div style='margin-top:8px'>Composed-system run {done}/{tot}</div>{_bar(done/tot)}<div style='font-size:12.5px'>tiers {H.escape(str(f.get('tiers')))} · failures {f.get('fails')} · problems {H.escape(str(f.get('problems')))}</div>"
+    elif cs:
+        body = ("<div class='pl-grid' style='margin-top:8px'>" + _stat("emitted", f"{cs.get('emitted')}/{cs.get('requests')}") + _stat("success", f"{_n(cs.get('success_rate',0)*100,1)}%") + _stat("residual problems", f"{_n(cs.get('problem_rate',0)*100,2)}%")
+                + _stat("LM gate pass", f"{_n(cs.get('lm_gate',{}).get('pass_rate',0)*100,1)}%") + _stat("gate accepts gold", f"{_n(gg.get('accepts_gold_with_true_anchor',0)*100,1)}%") + _stat("gate false-accept", f"{_n(gg.get('false_accept_with_mismatched_anchor',0)*100,1)}%")
+                + "</div>" + f"<div style='font-size:12.5px;margin-top:6px'>tier mix {H.escape(str(cs.get('tier_mix')))}</div>")
+    else: body = "<i>factual benchmark runs at the end of the v4 pipeline…</i>"
+    return mo.Html(CSS + f"<div class='pl-card'><div style='font-weight:800;margin-bottom:6px'>🧮 Neuro-symbolic accuracy · parametric solver + composed system</div><div class='pl-grid'>{top}</div>{body}</div>")

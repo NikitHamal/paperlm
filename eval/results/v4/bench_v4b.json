@@ -1,0 +1,19 @@
+{
+ "label": "v4b",
+ "prompts": 708,
+ "attempts": 2832,
+ "structurally_valid_rate": 0.716,
+ "raw_gate_pass_rate": 0.053,
+ "prompts_resolved_rate": 0.141,
+ "numbers_invented_rate": 0.258,
+ "top_issues": {
+  "question off-topic for the anchor": 1178,
+  "anchor concept barely used": 780,
+  "number": 731,
+  "explanation not grounded in the anchor": 633,
+  "rubric not grounded in the anchor": 603,
+  "key option not supported by the anchor": 567,
+  "distractor a repeats an anchor figure": 39,
+  "distractor b repeats an anchor figure": 23
+ }
+}

@@ -252,8 +252,8 @@ export class PaperLM {
     if (!v.ok) { for (const r of v.issues) this.stats.rejects[r] = (this.stats.rejects[r] || 0) + 1; return null; }
     item.verify = { score: v.score, anchor_hits: v.anchor.hits, concept_hits: v.anchor.lex }; return item;
   }
-  async generateItem({ board, level, subject, unit, marks, type, rubric = true, attempts = 12, temperature = 0.75, topP = 0.92, candidates = 1, signal }) {
-    const hid = this.tok.encode(this.header(board, level, subject, unit, marks, type)); let best = null, found = 0;
+  async generateItem({ board, level, subject, unit, marks, type, rubric = true, attempts = 12, temperature = 0.75, topP = 0.92, candidates = 1, signal, anchor = null }) {
+    const hid = this.tok.encode(this.header(board, level, subject, unit, marks, type) + (anchor ? `<|book|>${anchor}` : "")); let best = null, found = 0;
     for (let a = 0; a < attempts; a++) {
       if (signal && signal.aborted) throw new ItemGenerationError("aborted"); this.stats.attempts++;
       const st = await this.tryOnce(hid, type, marks, rubric, Math.min(1.1, temperature + 0.03 * a), topP, 520); if (!st) { this.stats.rejects["dead-end"] = (this.stats.rejects["dead-end"] || 0) + 1; continue; }

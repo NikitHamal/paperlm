@@ -1,0 +1,22 @@
+{
+ "gold_verified": 15899,
+ "textbook_concepts": 6140,
+ "train_lines": 35868,
+ "grounded_exam_lines": 28868,
+ "parametric_lines": 7000,
+ "val_lines": 708,
+ "anchors_train": {
+  "own": 9754,
+  "no_anchor": 2580,
+  "book": 9188
+ },
+ "anchors_val": {
+  "own": 374,
+  "book": 334,
+  "no_anchor": 244
+ },
+ "bank_facts": 16119,
+ "bank_seeds": 11900,
+ "bank_keys": 135,
+ "bank_bytes": 5975375
+}

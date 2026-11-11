@@ -328,8 +328,8 @@ class Engine:
         sid = f"<|subj={subj}|>" if f"<|subj={subj}|>" in self.T.id else "<|subj=general|>"
         return f"<|bos|><|board={board}|><|level={level}|>{sid}<|unit|>{unit}<|marks={marks}|><|type={typ}|>"
 
-    def generate_item(self, board, level, subj, unit, marks, typ, want_rubric=True, attempts=8, temperature=0.75, top_p=0.92):
-        h = self.header(board, level, subj, unit, marks, typ)
+    def generate_item(self, board, level, subj, unit, marks, typ, want_rubric=True, attempts=8, temperature=0.75, top_p=0.92, anchor=None):
+        h = self.header(board, level, subj, unit, marks, typ) + (f"<|book|>{anchor}" if anchor else "")
         hid = self.tok.encode(h).ids
         last = "no valid sample"
         for a in range(attempts):

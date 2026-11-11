@@ -1,5 +1,6 @@
 import * as ort from "./vendor/ort/ort.wasm.min.mjs";
 import { PaperLM, BLUEPRINTS, ItemGenerationError } from "./paperlm.js";
+import { Composer } from "./composer.js";
 
 const $ = (id) => document.getElementById(id);
 const TYPE_LABEL = { MCQ: "Multiple choice", CONCEPTUAL: "Conceptual", SHORT: "Short answer", NUMERICAL: "Numerical", DERIVATION: "Derivation", LONG: "Long answer", OR: "Long answer with Or" };
@@ -23,10 +24,13 @@ function loadScript(src) { return new Promise((res, rej) => { const s = document
 const setLoad = (p, msg) => { $("load-bar").style.width = Math.round(p * 100) + "%"; $("load-msg").textContent = msg; };
 
 // ---------------------------------------------------------------- rendering
+const TIER = { param: ["Computed and verified", "Every number, unit, key and solution is computed by the symbolic engine from a verified law."], bank: ["Gold exam bank", "A verified past-paper style item from the syllabus bank."], lm: ["Neural, grounded and gated", "Written by PaperLM from a verified concept anchor and accepted by the strict factual gate."] };
+const tierChip = (it) => { const t = (it.provenance && it.provenance.tier) || "lm"; const c = h("span", "chip t", esc(TIER[t][0])); c.title = TIER[t][1]; return c; };
+const provNote = (it) => { const p = it.provenance || {}; if (p.tier === "lm") return h("div", "prov", `<b>Concept anchor:</b> ${math(esc(p.anchor))}`); if (p.tier === "param") return h("div", "prov", `<b>Law used:</b> ${math(p.law || "")}`); return null; };
 function mcqCard(it, { interactive = true, onAnswer } = {}) {
   const card = h("article", "item");
   const head = h("div", "item-h");
-  head.append(h("span", "chip", `${it.marks} mark${it.marks > 1 ? "s" : ""}`), h("span", "chip", esc(it.unit)), h("span", "chip t", `verifier ${it.verify ? it.verify.score.toFixed(2) : "-"}`));
+  head.append(h("span", "chip", `${it.marks} mark${it.marks > 1 ? "s" : ""}`), h("span", "chip", esc(it.unit)), tierChip(it));
   card.append(head, h("p", "q", `${it.no ? it.no + ". " : ""}${math(it.question)}`));
   const box = h("div", "opts");
   it.options.forEach((o, i) => {
@@ -41,6 +45,7 @@ function mcqCard(it, { interactive = true, onAnswer } = {}) {
   card.append(box);
   const ex = h("div", "expl", `<h4>Answer ${it.key.toUpperCase()}</h4>${it.explanation ? math(it.explanation) : "No explanation generated."}`);
   if (interactive) ex.hidden = true; card.append(ex);
+  { const pn = provNote(it); if (pn) card.append(pn); }
   return card;
 }
 function partsList(ps) {
@@ -50,11 +55,12 @@ function partsList(ps) {
 }
 function writtenCard(it) {
   const card = h("article", "item"); const head = h("div", "item-h");
-  head.append(h("span", "chip", `${it.marks} marks`), h("span", "chip", TYPE_LABEL[it.type] || it.type), h("span", "chip", esc(it.unit)), h("span", "chip t", `verifier ${it.verify ? it.verify.score.toFixed(2) : "-"}`));
+  head.append(h("span", "chip", `${it.marks} marks`), h("span", "chip", TYPE_LABEL[it.type] || it.type), h("span", "chip", esc(it.unit)), tierChip(it));
   card.append(head, h("p", "q", `${it.no ? it.no + ". " : ""}${math(it.question)}`));
   if (it.parts.length) card.append(partsList(it.parts));
   if (it.or_parts && it.or_parts.length) { card.append(h("div", "or", "OR"), partsList(it.or_parts)); }
   if (it.rubric) card.append(h("div", "expl rub", `<h4>Marking rubric</h4>${math(it.rubric)}`));
+  { const pn = provNote(it); if (pn) card.append(pn); }
   return card;
 }
 const itemCard = (it, o) => (it.kind === "mcq" ? mcqCard(it, o) : writtenCard(it));
@@ -63,6 +69,7 @@ function updateStats() {
   const s = S.engine.stats; $("s-ms").textContent = s.tokens ? (s.ms / s.tokens).toFixed(1) : "-"; $("s-tok").textContent = s.tokens; $("s-att").textContent = s.attempts; $("s-items").textContent = s.items;
   const rej = Object.entries(s.rejects).sort((a, b) => b[1] - a[1]); $("s-rej").textContent = rej.reduce((a, [, n]) => a + n, 0);
   $("s-why").textContent = rej.length ? "Rejected: " + rej.slice(0, 5).map(([k, n]) => `${k} (${n})`).join(", ") : "No rejections yet.";
+  if (S.comp) { const t = S.comp.stats; $("s-why").textContent += ` | Tiers: computed ${t.param}, bank ${t.bank}, neural ${t.lm} (gate ${t.lm_gate_pass}/${t.lm_tries})`; }
 }
 
 // ---------------------------------------------------------------- controls
@@ -96,14 +103,28 @@ function bpFor(level) {
   const bp = BLUEPRINTS[level].map((x) => x.slice()); if (["IOE", "CEE", "BCA", "BSN"].includes(level)) bp[0][3] = Math.max(1, Math.min(200, +$("f-count").value || 10)); return bp;
 }
 function busy(b) { S.busy = b; $("go").disabled = b || !S.engine; $("stop").hidden = !b; $("go").hidden = b; }
-function opts() { return { temperature: +$("f-temp").value, candidates: +$("f-cand").value, rubric: $("f-rubric").checked }; }
+function opts() { return { temperature: +$("f-temp").value, lm: +$("f-cand").value, rubric: $("f-rubric").checked }; }
 function newEngine() { S.engine.rand = (function (a) { return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; })(+$("f-seed").value || 1); }
 function pickUnit(c) { const u = $("f-unit").value; if (u) return u; const us = c.entry.subjects[c.subject].units; return us[Math.floor(S.engine.rand() * us.length)]; }
 const showErr = (msg) => { const e = h("div", "err", esc(msg)); $("out").prepend(e); };
 
 async function genOne(c, extra = {}) {
   const o = opts(); const type = $("f-type").value, marks = +$("f-marks").value;
-  return S.engine.generateItem({ board: c.entry.board, level: c.entry.level, subject: c.subject, unit: pickUnit(c), marks, type, rubric: o.rubric, temperature: o.temperature, candidates: o.candidates, signal: S.abort.signal, ...extra });
+  return S.comp.item({ board: c.entry.board, level: c.entry.level, subject: c.subject, unit: pickUnit(c), marks, type, rubric: o.rubric, temperature: o.temperature, lmBudget: o.lm, signal: S.abort.signal, ...extra });
+}
+async function composedPaper(c, bp, o, onItem) {
+  const b = c.entry.board, l = c.entry.level, units = S.engine.unitsFor(b, l, c.subject).slice(); const R = S.engine.rand;
+  for (let i = units.length - 1; i > 0; i--) { const j = Math.floor(R() * (i + 1)); [units[i], units[j]] = [units[j], units[i]]; }
+  let k = 0; const seen = new Set();
+  for (const [g, typ, marks, count] of bp) {
+    let n = 0, fails = 0;
+    while (n < count) {
+      if (S.abort.signal.aborted) throw new Error("aborted"); const unit = units[k++ % units.length]; const t = typ === "SHORT" ? ["CONCEPTUAL", "NUMERICAL", "DERIVATION", "SHORT"][n % 4] : typ; let it;
+      try { it = await S.comp.item({ board: b, level: l, subject: c.subject, unit, marks, type: t, rubric: o.rubric, temperature: o.temperature, lmBudget: o.lm, signal: S.abort.signal }); }
+      catch (e) { if (e.message === "aborted") throw e; if (++fails > 8 * count + 12) throw e; continue; }
+      const key = (it.question + (it.options || []).join("")).replace(/\s+/g, "").slice(0, 90); if (seen.has(key)) continue; seen.add(key); it.no = ++n; onItem(g, it);
+    }
+  }
 }
 
 async function run() {
@@ -129,14 +150,13 @@ async function mcqLoop(c) {
 async function paper(c, o) {
   const out = $("out"); out.innerHTML = ""; out.classList.add("hidden-ans"); $("keytoggle").textContent = "Show answers";
   const bp = bpFor(c.level); const total = bp.reduce((a, [, , m, n]) => a + m * n, 0);
-  const head = h("div", "paper-h", `<h2>${esc(c.entry.label)}: ${esc(prettySubject(c.subject))} model paper</h2><p>Full marks ${total}. Generated by PaperLM-Tiny ${esc(S.meta.version)} in your browser.</p>`); out.append(head);
+  const head = h("div", "paper-h", `<h2>${esc(c.entry.label)}: ${esc(prettySubject(c.subject))} model paper</h2><p>Full marks ${total}. Composed in your browser by PaperLM-Tiny ${esc(S.meta.version)}: every item is computed, taken from the verified bank, or neural and gated.</p>`); out.append(head);
   const secEls = {}; let n = 0; const totalQ = bp.reduce((a, [, , , k]) => a + k, 0); const prog = h("div", "empty", "Generating 0 / " + totalQ); out.append(prog);
   for (const [g, typ, marks, count] of bp) {
     const sh = h("div", "sec-h", `<h2>Group ${g}</h2><span>${count} x ${marks} = ${count * marks} marks, ${esc(TYPE_LABEL[typ] || typ)}</span>`); const body = h("div", "out"); secEls[g] = body; out.insertBefore(sh, prog); out.insertBefore(body, prog);
   }
   const t0 = performance.now(); let lastG = null;
-  await S.engine.modelPaper({ board: c.entry.board, level: c.entry.level, subject: c.subject, blueprint: bp, rubric: o.rubric, signal: S.abort.signal, candidates: o.candidates,
-    onItem: (g, it) => { n++; secEls[g].append(itemCard(it, { interactive: false })); prog.textContent = `Generating ${n} / ${totalQ}, ${((performance.now() - t0) / 1000).toFixed(0)} s`; updateStats(); } });
+  await composedPaper(c, bp, o, (g, it) => { n++; secEls[g].append(itemCard(it, { interactive: false })); prog.textContent = `Generating ${n} / ${totalQ}, ${((performance.now() - t0) / 1000).toFixed(0)} s`; updateStats(); });
   prog.textContent = `Done: ${totalQ} questions, ${total} marks, ${((performance.now() - t0) / 1000).toFixed(0)} s on this device.`;
 }
 
@@ -172,6 +192,8 @@ async function boot() {
   const bytes = await fetchModel("model/model.onnx?" + meta.version);
   setLoad(0.93, "Starting ONNX Runtime (WASM)"); ort.env.wasm.numThreads = 1; ort.env.wasm.wasmPaths = new URL("vendor/ort/", location.href).href;
   S.engine = await PaperLM.create({ ort, model: bytes, tokenizer: tok, syllabus: syl, seed: 7, lexicon: lex });
+  setLoad(0.97, "Loading verified concept bank and formula library"); const [bank, tpl] = await Promise.all([fetch("model/bank.json?" + meta.version).then((r) => r.json()), fetch("model/templates.json?" + meta.version).then((r) => r.json())]);
+  S.comp = new Composer(S.engine, bank, tpl);
   setLoad(1, `Model ready: ${meta.version}, ${(meta.params / 1e6).toFixed(1)}M parameters, ${meta.quant}`); $("load").classList.add("done"); busy(false);
 }
 boot().catch((e) => { setLoad(0, "Failed to load: " + e.message); console.error(e); });
