@@ -16,6 +16,7 @@
   "<|pm|>",
   "<|or|>",
   "<|sol|>",
+  "<|book|>",
   "<|board=BLE|>",
   "<|board=SEE|>",
   "<|board=NEB|>",
@@ -125,16 +126,16 @@
  "bos": 1,
  "end": 2,
  "stats": {
-  "vocab_size": 6144,
-  "n_special": 119,
+  "vocab_size": 8192,
+  "n_special": 120,
   "roundtrip_failures": 0,
-  "train_tokens": 3285029,
-  "chars_per_token": 3.984,
-  "avg_item_tokens": 88.6,
-  "p50": 74,
-  "p95": 203,
-  "p99": 340,
-  "max": 762,
-  "val_tokens": 76649
+  "train_tokens": 3286269,
+  "chars_per_token": 3.982,
+  "avg_item_tokens": 88.7,
+  "p50": 75,
+  "p95": 198,
+  "p99": 338,
+  "max": 716,
+  "val_tokens": 75602
  }
 }

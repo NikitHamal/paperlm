@@ -1,0 +1,1 @@
+{"version":"v1","params":9875520,"val_loss":2.0198,"perplexity":7.54,"quant":"INT8 weight-only ONNX","notes":"v1 baseline: noisy corpus (gold exam lines + raw textbook chunks)"}

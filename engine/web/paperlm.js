@@ -1,6 +1,8 @@
 // PaperLM-Tiny Web SDK — PaperSetterEngine (grammar/schema-constrained generator) for browsers & Node.
 // Mirrors engine/paper_setter.py + data/validator.py rule-for-rule. Needs onnxruntime-web (browser) or onnxruntime-node.
 import { KNOWN_CMDS, ALLOWED_EXTRA } from "./known_cmds.js";
+import { cleanSymbols, verifyItem } from "./verify.js";
+export { verifyItem, cleanSymbols };
 const KNOWN = [...KNOWN_CMDS].filter((c) => !["begin", "end", "hline"].includes(c)).sort(), KSET = new Set(KNOWN), EXTRA = new Set([...ALLOWED_EXTRA]);
 const TWO = new Set(["frac", "dfrac", "tfrac", "binom"]);
 const ONE = new Set(["sqrt", "text", "textbf", "textit", "mathrm", "mathbf", "mathbb", "mathcal", "mathit", "vec", "hat", "bar", "overline", "underline", "dot", "ddot", "tilde", "operatorname", "boxed", "cancel", "ce", "underbrace", "overbrace"]);
@@ -34,7 +36,7 @@ export class Tok {
     const ids = parts.map((p) => this.vocab[p]); this.cache.set(word, ids); return ids;
   }
   encode(text) {
-    const out = []; const segs = text.normalize("NFC").split(/(<\|[a-z0-9_=.\-]+\|>)/);
+    const out = []; const segs = text.normalize("NFC").split(/(<\|[A-Za-z0-9_=.\-]+\|>)/);
     for (const s of segs) {
       if (!s) continue; if (this.special.has(s)) { out.push(this.special.get(s)); continue; }
       for (const m of s.matchAll(PRE)) { const w = [...new TextEncoder().encode(m[0])].map((b) => this.enc[b]).join(""); out.push(...this.bpe(w)); }
@@ -135,26 +137,29 @@ const CAPS = { q: 420, oa: 120, ob: 120, oc: 120, od: 120, part: 320, why: 320, 
 const NEXT_MCQ = { q: "<|oa|>", oa: "<|ob|>", ob: "<|oc|>", oc: "<|od|>", od: "<|ans|>" };
 const MINLEN = { q: 12, oa: 1, ob: 1, oc: 1, od: 1, part: 6, why: 8, sol: 12 };
 function rng32(a) { return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+// Official blueprints (full marks): NEB 11/12 = 75 (11x1 + 8x5 + 3x8), SEE = 75 (10x1 + 8x2 + 6x4 + 5x5), IOE = 100 (100x1 MCQ), BLE 8 = 48.
 export const BLUEPRINTS = {
   C8: [["A", "MCQ", 1, 10], ["B", "SHORT", 2, 6], ["C", "CONCEPTUAL", 4, 4], ["D", "LONG", 5, 2]],
-  C10: [["A", "MCQ", 1, 10], ["B", "SHORT", 2, 8], ["C", "CONCEPTUAL", 4, 5], ["D", "LONG", 8, 3]],
+  C10: [["A", "MCQ", 1, 10], ["B", "SHORT", 2, 8], ["C", "CONCEPTUAL", 4, 6], ["D", "LONG", 5, 5]],
   C11: [["A", "MCQ", 1, 11], ["B", "SHORT", 5, 8], ["C", "OR", 8, 3]], C12: [["A", "MCQ", 1, 11], ["B", "SHORT", 5, 8], ["C", "OR", 8, 3]],
-  IOE: [["A", "MCQ", 1, 20]], CEE: [["A", "MCQ", 1, 20]], BCA: [["A", "MCQ", 1, 20]], BSN: [["A", "MCQ", 1, 20]], BE: [["A", "OR", 10, 6]],
+  IOE: [["A", "MCQ", 1, 100]], CEE: [["A", "MCQ", 1, 100]], BCA: [["A", "MCQ", 1, 100]], BSN: [["A", "MCQ", 1, 100]], BE: [["A", "OR", 10, 8]],
 };
+export const MOCK_LENGTH = { IOE: 100, CEE: 100, BCA: 100, BSN: 100 };
 export class PaperLM {
   constructor(ort, session, tok, syl, seed = 1) {
-    this.ort = ort; this.s = session; this.tok = tok; this.syl = syl || { units: {} }; this.rand = rng32(seed); this.L = 6; this.H = 5; this.D = 64;
+    this.ort = ort; this.s = session; this.tok = tok; this.syl = syl || { units: {} }; this.rand = rng32(seed); this.L = 6; this.H = 5; this.D = 64; this.lexicons = new Map(); this.stats = { tokens: 0, ms: 0, rejects: {}, attempts: 0, items: 0 };
     const id = tok.vocab; this.id = id; this.S = Object.fromEntries(["pad", "bos", "end", "unit", "q", "oa", "ob", "oc", "od", "ans", "why", "part", "pm", "or", "sol"].map((k) => [k, tok.special.get(`<|${k}|>`)]));
     this.structIds = new Set(Object.values(this.S)); this.letters = Object.fromEntries([..."abcd"].map((c) => [c, id[c]])); this.digits = Object.fromEntries([..."0123456789"].map((c) => [c, id[c]]));
   }
-  static async create({ ort, model, tokenizer, syllabus, seed }) {
-    const session = await ort.InferenceSession.create(model, { executionProviders: ["wasm", "cpu"] });
-    const p = new PaperLM(ort, session, new Tok(tokenizer), syllabus, seed); const k = session.inputNames; return p;
+  static async create({ ort, model, tokenizer, syllabus, seed, lexicon, providers = ["wasm"] }) {
+    const session = await ort.InferenceSession.create(model, { executionProviders: providers });
+    const p = new PaperLM(ort, session, new Tok(tokenizer), syllabus, seed);
+    if (lexicon) for (const [k, v] of Object.entries(lexicon)) p.lexicons.set(k, new Set(v)); return p;
   }
   async step(ids, st) {
     const o = this.ort, P = st ? st.P : 0, z = new Float32Array(0);
     const feeds = { ids: new o.Tensor("int64", BigInt64Array.from(ids.map(BigInt)), [1, ids.length]), past_k: new o.Tensor("float32", st ? st.k : z, [this.L, 1, this.H, P, this.D]), past_v: new o.Tensor("float32", st ? st.v : z, [this.L, 1, this.H, P, this.D]) };
-    const r = await this.s.run(feeds); return { logits: r.logits.data.subarray(r.logits.data.length - this.tok.n), st: { k: r.present_k.data, v: r.present_v.data, P: P + ids.length } };
+    const t0 = performance.now(); const r = await this.s.run(feeds); this.stats.ms += performance.now() - t0; this.stats.tokens += ids.length === 1 ? 1 : 0; return { logits: r.logits.data.subarray(r.logits.data.length - this.tok.n), st: { k: r.present_k.data, v: r.present_v.data, P: P + ids.length } };
   }
   header(b, l, s, u, m, t) { const sid = this.tok.special.has(`<|subj=${s}|>`) ? `<|subj=${s}|>` : "<|subj=general|>"; return `<|bos|><|board=${b}|><|level=${l}|>${sid}<|unit|>${u}<|marks=${m}|><|type=${t}|>`; }
   newState(typ, marks, wantSol) { return { typ, marks, wantSol, mcq: typ === "MCQ", sec: "q", t: new TextSt(), opts: [], key: "", why: "", q: "", parts: [], alt: [], inAlt: false, pm: "", sol: "", done: false, seen4: new Set(), recent: [] }; }
@@ -239,25 +244,38 @@ export class PaperLM {
       if ([st.q, ...parts.map((p) => p.text), ...alt.map((p) => p.text)].some((x) => checkText(x, true)) || (st.sol && checkText(st.sol))) return null;
       item = { kind: "written", question: st.q, parts, or_parts: alt, rubric: st.sol };
     }
-    return Object.assign(item, { board: b, level: l, subject: s, unit: u, marks: m, type: t });
+    const cl = cleanSymbols;
+    if (item.kind === "mcq") { item.question = cl(item.question); item.options = item.options.map(cl); item.explanation = cl(item.explanation); }
+    else { item.question = cl(item.question); item.parts.forEach((p) => (p.text = cl(p.text))); item.or_parts.forEach((p) => (p.text = cl(p.text))); item.rubric = cl(item.rubric); }
+    Object.assign(item, { board: b, level: l, subject: s, unit: u, marks: m, type: t });
+    const lex = this.lexicons.get(s) || this.lexicons.get(`${b}|${l}|${s}`) || null; const v = verifyItem(item, { unit: u, lexicon: lex, strictAnchor: true });
+    if (!v.ok) { for (const r of v.issues) this.stats.rejects[r] = (this.stats.rejects[r] || 0) + 1; return null; }
+    item.verify = { score: v.score, anchor_hits: v.anchor.hits, concept_hits: v.anchor.lex }; return item;
   }
-  async generateItem({ board, level, subject, unit, marks, type, rubric = true, attempts = 8, temperature = 0.75, topP = 0.92 }) {
-    const hid = this.tok.encode(this.header(board, level, subject, unit, marks, type));
+  async generateItem({ board, level, subject, unit, marks, type, rubric = true, attempts = 12, temperature = 0.75, topP = 0.92, candidates = 1, signal }) {
+    const hid = this.tok.encode(this.header(board, level, subject, unit, marks, type)); let best = null, found = 0;
     for (let a = 0; a < attempts; a++) {
-      const st = await this.tryOnce(hid, type, marks, rubric, Math.min(1.1, temperature + 0.04 * a), topP, 520); if (!st) continue;
-      const it = this.finalize(st, board, level, subject, unit, marks, type); if (it) { it.attempts = a + 1; return it; }
+      if (signal && signal.aborted) throw new ItemGenerationError("aborted"); this.stats.attempts++;
+      const st = await this.tryOnce(hid, type, marks, rubric, Math.min(1.1, temperature + 0.03 * a), topP, 520); if (!st) { this.stats.rejects["dead-end"] = (this.stats.rejects["dead-end"] || 0) + 1; continue; }
+      const it = this.finalize(st, board, level, subject, unit, marks, type); if (!it) continue;
+      it.attempts = a + 1; found++; if (!best || it.verify.score > best.verify.score) best = it; if (found >= candidates) break;
     }
+    if (best) { this.stats.items++; return best; }
     throw new ItemGenerationError(`no valid item for ${board}/${level}/${subject}/${unit}/${marks}/${type}`);
   }
   unitsFor(b, l, s) { const u = this.syl.units?.[`${b}|${l}|${s}`]; return u && u.length ? u.slice() : ["General"]; }
-  async modelPaper({ board, level, subject, blueprint, rubric = true, onItem }) {
-    const bp = blueprint || BLUEPRINTS[level], units = this.unitsFor(board, level, subject); let k = 0; const seen = new Set(), sections = [];
+  async modelPaper({ board, level, subject, blueprint, rubric = true, onItem, signal, units: unitOverride, candidates = 1 }) {
+    const bp = blueprint || BLUEPRINTS[level], units = unitOverride && unitOverride.length ? unitOverride.slice() : this.unitsFor(board, level, subject);
+    for (let i = units.length - 1; i > 0; i--) { const j = Math.floor(this.rand() * (i + 1)); [units[i], units[j]] = [units[j], units[i]]; }
+    let k = 0; const seen = new Set(), sections = [];
     for (const [g, typ, marks, count] of bp) {
-      const items = [];
+      const items = []; let fails = 0;
       while (items.length < count) {
-        const unit = units[k++ % units.length]; const t = typ === "SHORT" ? ["CONCEPTUAL", "NUMERICAL", "DERIVATION", "SHORT"][items.length % 4] : typ;
-        const it = await this.generateItem({ board, level, subject, unit, marks, type: t, rubric }); const key = norm(it.question + (it.options || []).join("")).slice(0, 90);
-        if (seen.has(key)) continue; seen.add(key); it.no = items.length + 1; items.push(it); onItem && onItem(g, it);
+        if (signal && signal.aborted) throw new ItemGenerationError("aborted");
+        const unit = units[k++ % units.length]; const t = typ === "SHORT" ? ["CONCEPTUAL", "NUMERICAL", "DERIVATION", "SHORT"][items.length % 4] : typ; let it;
+        try { it = await this.generateItem({ board, level, subject, unit, marks, type: t, rubric, candidates, signal }); }
+        catch (e) { if (e.message === "aborted") throw e; if (++fails > 8 * count + 12) throw e; continue; } // resample another unit on dead-end; an invalid item is never emitted
+        const key = norm(it.question + (it.options || []).join("")).slice(0, 90); if (seen.has(key)) continue; seen.add(key); it.no = items.length + 1; items.push(it); onItem && onItem(g, it, items.length, count);
       }
       sections.push({ group: g, type: typ, marks_each: marks, count, items });
     }
