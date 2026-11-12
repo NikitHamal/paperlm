@@ -155,7 +155,12 @@
    "gas_p",
    "kc_equil",
    "bohr_e",
-   "molarity"
+   "molarity",
+   "c11_neutrons",
+   "c11_bohr_r",
+   "c11_mole_ratio",
+   "c11_dalton",
+   "c11_graham"
   ]
  },
  "chem12": {
@@ -171,7 +176,15 @@
    "half_first",
    "faraday",
    "gibbs",
-   "moles_m"
+   "moles_m",
+   "c12_buffer",
+   "c12_ph_poh",
+   "c12_electrolysis",
+   "c12_ecell",
+   "c12_dg_nfe",
+   "c12_remaining",
+   "c12_titration",
+   "c12_eqwt"
   ]
  },
  "math11": {
@@ -260,7 +273,12 @@
    "bits_needed",
    "mem_kb",
    "cpu_time",
-   "hex2dec"
+   "hex2dec",
+   "cs11_octal",
+   "cs11_truth",
+   "cs11_signed",
+   "cs11_colors",
+   "cs11_audio"
   ]
  },
  "cs12": {
@@ -274,7 +292,12 @@
    "bits_needed",
    "mem_kb",
    "cpu_time",
-   "hex2dec"
+   "hex2dec",
+   "cs12_cartesian",
+   "cs12_degree",
+   "cs12_subnets",
+   "cs12_array",
+   "cs12_loop"
   ]
  }
 }
