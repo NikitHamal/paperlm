@@ -4,14 +4,14 @@
   "type": "mcq",
   "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
   "segs": [
-   "$3.41\\ \\text{eV}$",
-   "The minimum wavelength of the first line of the Balmer series ($n=2$) in hydrogen is about",
-   "$36\\ \\text{nm}$",
-   "$13.6\\ \\text{eVs}$",
-   "$-13.6/4 = -3.6\\,n^{2}$",
-   "$\\lambda = 12.2\\lambda/n = 2.19\\times10^{7}/2 = 1.13\\times10^^{7}\\ \\text{m}^{-1}$, $-13.1$ eV."
+   "$1.28\\ \\text{eV}$",
+   "The wavelength of the second line of the first Balmer series, the second-slit experiment with $eV = 1.29\\ \\text{nm}$ is the second line of $n = 12$, and the first minimum is $3.56$",
+   "$1.5$",
+   "$3.1$",
+   "$100\\ \\text{nm5}^{-1}$",
+   "$\\lambda = 1.25/\\lambda = 1.13\\ \\text{eV1}$."
   ],
-  "score": 0.91,
+  "score": 0.861,
   "gate": true
  },
  {
@@ -19,10 +19,10 @@
   "type": "short",
   "anchor": "The column standing on it has volume $Ah$, mass $\\rho Ah$ and weight $\\rho Ahg$, all carried by that area: Pressure therefore depends only on depth, density and $g$ — never on the shape of the vessel.",
   "segs": [
-   "The SI unit of the coefficient of viscosity $\\rho A v\\,dv/dx$, we get $F = Pl$, and $F = P_0(A\\,dv/l$. Capillary rise $h$, $h=\\rho A_0L$, all the two survable for the vessel.",
-   "Derive the formula for capillary rise and calculate the velocity of a fluid in a fluid and calculate the density of a fluid, and explain why water is made four times larger."
+   "The weight $h$ is the absolute pressure of a liquid of a fluid, and the absolute pressure of the pressure $\\rho$ is the weight $h$. If $h$ of the mass of the tube.",
+   "Explain how the formula $h$ of a fluid flow in a fluid and density, the absolute pressure and the density of a fluid is $\\rho$, and the pressure of a fluid."
   ],
-  "score": 0.406,
+  "score": 0.658,
   "gate": false
  },
  {
@@ -30,14 +30,14 @@
   "type": "mcq",
   "anchor": "The intensity of magnetisation $M$ is the net magnetic dipole moment per unit volume of the specimen, $M = m/V$.",
   "segs": [
-   "The SI unit is the unit volume",
-   "The SI unit of magnetic susceptibility is",
-   "tesla",
-   "A mention to the material's law",
-   "weber",
-   "$\\chi_m = M/H$, and $M$ is a pure number."
+   "H hysteresis, $\\oint H\\,\\mu_r$ is the magnetisation",
+   "The area of a ferromagnetic permeability $\\oint H\\ m m magnetize, its unit $H$ is the magnetising field $H$ is $\\oint H$, the susceptibility per cycle, and $H$ is proportional to $H$. If the magnetising susceptibility is $H$ is mented. mangs B per unit volume per unit volume. A magnetier is $H$, the magnetisation is $\\oint\\vec B$, the area is $H$. What does not suppium, which is the unit volume. mangs the susceptibility per unit volume per",
+   "H magneures for for permanent magnets",
+   "A manging to the magnetising properties of soft iron.",
+   "H hysteresis loop",
+   "The area $H$ isH magnetirely lost as per unit volume per cycle, which is to $H$, not coercivity."
   ],
-  "score": 0.8,
+  "score": 0.644,
   "gate": false
  },
  {
@@ -45,10 +45,10 @@
   "type": "short",
   "anchor": "Model answer D2: surface tension, excess pressure and capillary rise (10 marks). Surface tension $T$ is the force acting per unit length on an imaginary line drawn on the surface of a liquid, perpendicular to the line and tangent to the surface ($T = F/l$, unit N m$^{-1}$). Capillary rise $h = 2T\\cos\\theta/r\\rho g$, so $h \\propto 1/r$. When weight is balanced by upthrust plus drag the velocity becomes constant at the terminal value $v_t$.",
   "segs": [
-   "In fluid ($T = F/l$, unit $\\text{N m}^{-1}$ = F + l$. Capillary rise $h$ is inversely proportional to the radius $r$ of the tube. In a tube the tension $T = F/\\rho$, unit $T$, unit $h$. For the surface of a liquid, derive the formula for surface tension on an imaginary line drawn on the surface of a tube. Eas COP $T = Fl/l$, distance $r$ from the surface of a g$.",
-   "State Bernoulli's equation for capillary rise and calculate the rise of water in a capillary tube?"
+   "(a) Find the force constant on a fluid, the weight $h$ and $h$ is the weight of the gauge pressure, and the weight of the liquid.",
+   "a) Define Bernoulli's principle and explain why the rise of a fluid is the force per unit length. [2] b) Derive the force per unit volume and use the force per unit. [2] (NEB 2080)"
   ],
-  "score": 0.651,
+  "score": 0.68,
   "gate": false
  },
  {
@@ -56,10 +56,10 @@
   "type": "short",
   "anchor": "Almost no current until the applied voltage cancels most of the barrier. Beyond this knee (or cut-in) voltage — $0.7\\ \\text{V}$ for Si, $0.3\\ \\text{V}$ for Ge — the current rises very steeply and is limited only by the external resistance.",
   "segs": [
-   "The diode drops ($e$) of a diode is the barrier). A small reverse diode allows current when the applied voltage is a small reverse saturation current.",
-   "Explain the behavior of a p-n junction diode in forward and reverse bias conditions, including the significance of the knee voltage and reverse saturation current, and how these parameters change with temperature."
+   "D. $E_L$ and $V_m$ ($V_m$) and the barrier potential.",
+   "a) Define the barrier in a diode in a diode in the barrier potential. [2] b) A diode in a diode $V_m = \\dfrac{V_m}{V}$, $V_m<(L-0.m.s.)\\ \\text{V}$ for Ge. [2] (NEB 2079 model)"
   ],
-  "score": 0.4,
+  "score": 0.533,
   "gate": false
  },
  {
@@ -67,29 +67,29 @@
   "type": "mcq",
   "anchor": "a photon below the work function cannot free an electron, and extra intensity does not add photon energy: one photon frees at most one electron.",
   "segs": [
-   "zero",
-   "The work function $\\phi_0$ of a metal is",
-   "the threshold",
-   "the filament current",
-   "a phot/e$ of work function $\\phi = hc/\\lambda$. Amplitude in the context. Hwork function $\\phi_{\\max}$ is highest. would need the threshold wavelength varying can be zero.. would need $",
-   "the ratio $P_0$ of an electron from the surface of a metal."
+   "the electron in a photon",
+   "The minimum energy of an electron is not change the metal, the work function $\\phi_0$ of the electron is bound to remove an electron. What does not change the metal?",
+   "the photon",
+   "the electron in electron is defined by the metal",
+   "the electron is defined as the minimum energy",
+   "The minimum is defined as the electron is defined as a metal."
   ],
-  "score": 0.475,
-  "gate": false
+  "score": 0.853,
+  "gate": true
  },
  {
   "unit": "Photons",
   "type": "mcq",
   "anchor": "intensity is the number of photons per second, not the energy per photon. $K_{max}$ depends only on frequency.",
   "segs": [
-   "energy",
-   "The work function of the maximum kinetic energy of a metal is",
-   "the threshold frequency",
-   "refractive force",
-   "the work function of the photoelectrons",
-   "the threshold frequency is the metal, so it is the threshold frequency of the metal."
+   "wavelength of the photon",
+   "The photoelectric emission of the photon in the photon is increased by",
+   "its $hc = hf - \\phi$",
+   "$1.79$",
+   "$10^{-1}$",
+   "$K_{\\max} = hf -1.59$."
   ],
-  "score": 0.833,
+  "score": 0.785,
   "gate": false
  },
  {
@@ -97,10 +97,10 @@
   "type": "short",
   "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
   "segs": [
-   "The minimum energies required are $E_i = 12.27$, corresponding to $n=4$, $2.31\\ \\text{eV}$. Higher energy $n = 1$: $12.4\\ \\text{eVeV}$.",
-   "Calculate the ionization energy negative, $E_f = -13.6/4 = 12.19$?"
+   "$\\lambda = hc/\\lambda = 1.096\\ \\text{nm}$",
+   "What is the Balmer and the wavelength of the second-order maximum kinetic energy $\\lambda = 1.33\\times10^{8}\\ \\text{m}$, and $\\lambda = 1000\\ \\text{nm0}$, $\\lambda = 6.69\\ \\text{nm m}^{-1}$."
   ],
-  "score": 0.4,
+  "score": 0.84,
   "gate": false
  },
  {
@@ -108,29 +108,29 @@
   "type": "mcq",
   "anchor": "The string is therefore a whole number of half-wavelength loops long: Combining with $f = v/\\lambda$ and $v=\\sqrt{T/\\mu}$, $$f_n = \\frac{n}{2L}\\sqrt{\\frac{T}{\\mu}}, \\qquad f_1 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$$ Unlike a closed pipe, a string gives every harmonic.",
   "segs": [
-   "$f_n = \\dfrac{n}{2}\\sqrt{\\dfrac{T}{\\mu}}$",
-   "What is the formula for the frequency of the nth harmonic in a string fixed at both ends?",
-   "$f_n > v_1$",
-   "$f_1 = \\frac{n}{4L}\\sqrt{\\dfrac}$",
-   "$f' = \\dfrac{nL}{2}L\\sqrt{\\dfrac{\\mu}{\\mu}\\rho^{2}}$.",
-   "The formula $f_1 = \\dfrac{nv}{2L}\\sqrt{\\frac{T}{\\pi}}$ directly matches the expression for the frequency of a charged particle in a string fixed."
+   "$f_1 = \\frac{v}{2L}\\sqrt{\\frac{T}{\\mu}}$",
+   "What is the formula for the formula for the fundamental frequency of the n string fixed at both ends?",
+   "$f_n = \\frac{n}{L}$",
+   "$f_{n} = \\frac{v-v}{\\mu}$",
+   "$v = \\frac{v/2L}{\\mu} = \\frac{nd}{\\mu}f_n = \\dfrac{nL}{2L/2L}$.",
+   "The given formula for a string fixed at a string fixed at the frequency of a string fixed at both half-pi string fixed at both horizontal end and the nth harmonic in a string fixed at each half-pipe formula $f_n = nL\\sqrt{\\frac{v}{\\mu_0}$. $f_n$ is directly matches the speed of sound in the nth harmonic. The frequency of a string is $f_{o} = \\dfrac{v}{4L}\\sqrt{\\dfrac{T}{T}}$. $"
   ],
-  "score": 0.642,
-  "gate": false
+  "score": 0.889,
+  "gate": true
  },
  {
   "unit": "Mechanical waves",
   "type": "mcq",
   "anchor": "Young's modulus of steel is enormous compared with the moduli of fluids.",
   "segs": [
-   "$0.25\\ \\text{Pa}$",
-   "Which formula represents the speed of sound in a longitudinal wave in a solid?",
-   "$0.20\\ \\text{m}$",
-   "$2.0\\ \\text{mm}$",
-   "$1.2\\times10^{8}\\ \\text{m s}^{-1}$",
-   "The speed of sound in an ideal gas is calculated as $\\sqrt{2.0\\times10^^{8}/1.5} = 2.8\\times10^80 = 3.0\\times1.5$."
+   "$P_0 = P_{o}\\Delta t$",
+   "When a longitudinal wave travels the absolute temperature of a gas with the speed of sound in steel ($Y_0$, which is the speed of sound",
+   "$\\rho = P_0\\rho g$",
+   "$v_0 = \\sqrt{Y/\\rho}$",
+   "$\\rho = \\sqrt{Y_0 - h_{o}}$",
+   "The speed in air is calculated as a depth in a fluid, so the pressure is directly provided."
   ],
-  "score": 0.521,
+  "score": 0.532,
   "gate": false
  },
  {
@@ -138,10 +138,10 @@
   "type": "short",
   "anchor": "In plain terms: Kelvin–Planck forbids a 100 % efficient engine, Clausius forbids a refrigerator that needs no power supply. Suppose a device violated Clausius and moved $Q_2$ from sink to source for free.",
   "segs": [
-   "(a) The refrigerator absorbs the working substance is a sink at a source at $T_1$ and a sink at $T_2$.",
-   "a) Describe the efficiency of a petrol engine and explain its working. [3] b) Write the efficiency of a Carnot engine and derive the efficiency of a sink. [2] (NEB 2078)"
+   "$Q_2$ and a sink at $T_2$ and $Q_2$. With $Q_2 < 1$, the heat rejected to $Q_2 = 0$, the work done in the sink.",
+   "a) Define Clausius statement for a reversible process. [3] b) State and state the engine and explain why the conversion of a cycle. [2] b) Define Kelvin-Planck statement for a sink at $Q_1$ and calculate the Clausius statement. [2] (NEB 2082)"
   ],
-  "score": 0.6,
+  "score": 0.38,
   "gate": false
  },
  {
@@ -150,13 +150,13 @@
   "anchor": "the core is remagnetised 100 times a second, so the loop area (energy wasted) must be small.",
   "segs": [
    "energy",
-   "The area of a B ^{-1}$ve its area is reduced by a ferromagnetic material? [2] b) What is hysteresis? [2] (NEB 2082) (a) a transformer core of volume $p$? [1](b) Its efficiency is a ferromagnetic material. [1] c) What is hysteresis core and coercivity from the loop? [2] Figure 2079 model) Figure 1. Hysteresis is reduced. [2] (a) What is hysteresis loop? [1] c\\right](b) a ferromagnetic material? Define retentivity and coercivity from the surface",
-   "coppermeability",
-   "the loop area of the loop",
-   "coercivity",
-   "the loop area is $\\oint H\\,dB$, whose loop area is J mentioned by the loop area."
+   "A core is a core of a ferromagnetic loop, the flux is",
+   "ampere's law",
+   "repotential agitation",
+   "magnetic flux",
+   "the core is not change, so no ferromagnetic core is the domains."
   ],
-  "score": 0.902,
+  "score": 0.94,
   "gate": true
  },
  {
@@ -164,14 +164,14 @@
   "type": "mcq",
   "anchor": "$f' = 400\\times(340+34)/340 = 440\\ \\text{Hz}$. Note that source motion and observer motion give different formulas, even for equal speeds.",
   "segs": [
-   "$348\\ \\text{Hz}$",
-   "Doubling the distance between two different frequencies when the source moves towards the observer ($v = 340\\ \\text{m s}^{-1}$). The change in the frequency heard is",
-   "$75\\ \\text{Hzdx}$",
-   "$650\\ \\text{Hz+}$",
-   "$800\\ \\text{ s}^{o}$",
-   "$f' = 500\\times340/(340-34) = 556\\ \\text{Hz s}^{1}$. Option (d) uses $f(1 + v_s/v)$, the observer formula."
+   "$450\\ \\text{Hz}$",
+   "A source emitting $340\\ \\text{m s}$, open observer hears a sound source and $3400\\ \\text{-3}$. The source at $20\\ \\text{s}$ is",
+   "$440\\ \\textro$",
+   "$330\\ \\text{ 4}$",
+   "$344\\ \\text{Hz mol}$",
+   "$f' = 250\\times340/(340-34) = 340\\ \\text \\text{Hz} = 3400\\ \\mu{Hz} = 500\\ \\text = 400\\ \\text?4Hz) = 3440\\ \\Omega$."
   ],
-  "score": 0.856,
+  "score": 0.912,
   "gate": true
  },
  {
@@ -179,14 +179,14 @@
   "type": "mcq",
   "anchor": "$v = \\sqrt{\\gamma P/\\rho}$ and $P/\\rho$ is constant for a gas at fixed temperature, so a pressure change cancels out. Option (c) is the trap: $P$ and $\\rho$ rise together.",
   "segs": [
-   "$v=\\sqrt{\\gamma P/\\rho}$",
-   "A gas is called pressure $\\sqrt{\\gamma}$ and volume. Its speed is",
-   "$1/\\rho$",
-   "$\\rho v^{2}$",
-   "$\\sqrt{\\gamma RT/M}$",
-   "$v=\\sqrt B/\\rho$, so $\\rho$ is $P/\\rho$."
+   "$P/\\rho =$",
+   "Which formula $P$ is a gas where $P$ is the absolute pressure and pressure. What is the speed of sound pressure ($P$, which is the absolute pressure $P$, and pressure ($P = P$).) Define pressure and density. What volume change the speed of sound in a gas is four four times the speed of sound wave?",
+   "$P$",
+   "$P = P\\rho = \\sqrt{\\gamma RT/\\rho}$",
+   "$P$",
+   "The absolute pressure at constant $P$ and $P$, the speed changes from $P$ to $P$."
   ],
-  "score": 0.943,
-  "gate": true
+  "score": 0.692,
+  "gate": false
  }
 ]

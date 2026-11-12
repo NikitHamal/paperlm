@@ -1,0 +1,97 @@
+{
+ "pack": "chem12",
+ "params": 10203840,
+ "onnx_int8_mb": 10.73,
+ "vocab": 4096,
+ "val_loss": 3.4853,
+ "ppl": 32.63,
+ "onnx_maxdiff": 3.814697265625e-06,
+ "used_dpo": false,
+ "bench_sft": {
+  "tag": "sft",
+  "n": 23,
+  "complete": 0.9565217391304348,
+  "mean_grounding": 0.5201073587658953,
+  "strict_gate_rate": 0.043478260869565216
+ },
+ "bench_final": {
+  "tag": "sft",
+  "n": 23,
+  "complete": 0.9565217391304348,
+  "mean_grounding": 0.5201073587658953,
+  "strict_gate_rate": 0.043478260869565216
+ },
+ "bench_dpo": {
+  "tag": "sft+dpo",
+  "n": 23,
+  "complete": 1.0,
+  "mean_grounding": 0.4952319666853327,
+  "strict_gate_rate": 0.043478260869565216
+ },
+ "n_train_items": 460,
+ "n_val_items": 23,
+ "n_gold": 460,
+ "n_teacher": 0,
+ "curve": [
+  {
+   "stage": "A-lm+items",
+   "step": 0,
+   "train": 8.3431,
+   "val": 8.253
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 100,
+   "train": 3.7166,
+   "val": 4.0679
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 200,
+   "train": 2.8243,
+   "val": 3.4857
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 300,
+   "train": 1.9805,
+   "val": 3.5504
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 400,
+   "train": 1.1039,
+   "val": 3.7007
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 500,
+   "train": 0.959,
+   "val": 3.8582
+  },
+  {
+   "stage": "B-items",
+   "step": 0,
+   "train": 1.7148,
+   "val": 3.4853
+  },
+  {
+   "stage": "B-items",
+   "step": 100,
+   "train": 1.0557,
+   "val": 3.5508
+  },
+  {
+   "stage": "B-items",
+   "step": 200,
+   "train": 0.579,
+   "val": 3.7505
+  },
+  {
+   "stage": "B-items",
+   "step": 299,
+   "train": 0.4208,
+   "val": 3.8197
+  }
+ ]
+}

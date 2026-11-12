@@ -4,14 +4,14 @@
   "type": "mcq",
   "anchor": "$AB$ cuts both normals, and alternate angles between parallel lines are equal.",
   "segs": [
-   "the $\\sin C = 1/n$",
-   "The critical angle for a medium of refractive index $n$ is given by",
-   "$\\cos C = 1/\\sin C$",
-   "$\\tan C = n$",
-   "$\\cos C > n$",
-   "$n = 1/n = 0$, so $C = 41.8^{\\circ}$."
+   "$AB\\cos\\theta$",
+   "The angle of incidence on a ray travels between two normal, the angle of incidence",
+   "$\\sin i/\\sin i$",
+   "$\\sin i$",
+   "infinite",
+   "$\\sin i/n$ means $i = \\sin r$."
   ],
-  "score": 0.517,
+  "score": 0.525,
   "gate": false
  },
  {
@@ -19,14 +19,14 @@
   "type": "mcq",
   "anchor": "Momentum change per impact $= 2mu$, justified by Newton's third law.",
   "segs": [
-   "$\\tfrac12kT$",
-   "A molecule of mass $m$ has momentum $u$, momentum change per impact when",
-   "$\\tfrac12mv^{2}$",
-   "$\\tfrac232RT$",
-   "$\\tfrac13\\rho\\overline{c^{2}}$",
-   "$\\tfrac12\\rho\\overline{c} = \\tfrac13\\overline{c^2}$, the three equivalent directions."
+   "$p = \\frac{1}{2}mu^2$",
+   "What is the total momentum of an ideal gas molecules in its molecules?",
+   "$p^2$",
+   "$m^2$",
+   "infinite",
+   "The result of a gas constant is equal to kinetic energy of the absolute temperature a translational kinetic energy $2RT$ is given by the root."
   ],
-  "score": 0.55,
+  "score": 0.517,
   "gate": false
  },
  {
@@ -34,10 +34,10 @@
   "type": "short",
   "anchor": "(a) From Wien's displacement law, $$T = \\frac{b}{\\lambda_m} = \\frac{2.898\\times10^{-3}}{500\\times10^{-9}} = 5.80\\times10^{3}\\ \\text{K}$$",
   "segs": [
-   "From $T = 300$ K, $T^4 = 3.80\\times10^{12}$, $T = \\frac{27\\times10^4}{2.27\\times1^{-27}} = 3.07\\times100\\ \\text{K}$.",
-   "Calculate the energy distribution curves of black-body radiation for three temperatures and state the conclusions drawn from them."
+   "(a) $2.0\\times10^{-4}\\times100 = 3.0\\times1.2\\times10^4\\ \\text{K}^{-1}$, $H_{0} = 3.08\\times10^6$, $$k = 3.00\\times100^{-3}\\times1.0\\times17^{-5} = 1.2\\times1.3\\times10^2\\ \\text{K m}^{-4\\pi}$$ $T = 4200\\ \\text{K K}^{-2}$.",
+   "a) What is the rate of heat of water when $8.20\\times10 = 1.25\\times10^5\\ \\text{K kg}^{-34}$. Calculate the temperature change in $10^{5}$ of water in $2.0\\ \\text{W}$ of water. [3](T^{4}] = 5.2\\times180^{5\\times100}{5\\times1.5\\times10 = 500\\ \\text3\\times100\\ \\text15}$. $$Q = \\frac{3.8\\times100\\times1.30\\times10}{5.0} = 1.8\\times1.20\\times20^{-51} = 2.38\\times10 = 420\\ \\text{J}$"
   ],
-  "score": 0.523,
+  "score": 0.545,
   "gate": false
  },
  {
@@ -45,10 +45,10 @@
   "type": "short",
   "anchor": "$$n = \\frac{\\sin\\left(\\dfrac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\dfrac{A}{2}\\right)}$$ Dispersion.",
   "segs": [
-   "$\\dfrac{A+D}{2} = \\dfrac{\\sin\\frac{A}{2}}$; $\\sin C = 1/n$, = \\sin\\frac{A+D_m}{2}$; $\\omega = (n_v - n_r)/(n_y - 1)$. Then $\\dfrac{1}{u} + \\dfrac{1}{v} = \\dfrac{1}2-1)(\\dfrac{1} = 1.5\\times10^{-2})(\\dfrac{0.18}{} = 12-\\dfrac{\\omega_1}{3}$. Using $n_v = \\sin\\frac{\\omega_2}{\\sin\\frac{\\theta}{2}\\right)$, so $\\sin C = n_i$, where $n_m$ isquent to 1} = 1$.",
-   "Derive the expression for the focal length of a thin lens and explain why one lens and explain why why why why a thin lens must be converging and the other diverging."
+   "$\\omega = (n_Y-1)\\left(\\frac{n_V - 1}{n_Y}\\right)$",
+   "a) defines the lens of focal length $(n_V - n_R)$. This is the relative index of focal length in metres. What is the unit of the lens of white light are the focal length of a flint glass. c) What is the colours when the colours are multiplied by a thin lens. b) A spherical prism of focal length $0.03$"
   ],
-  "score": 0.638,
+  "score": 0.696,
   "gate": false
  },
  {
@@ -56,10 +56,10 @@
   "type": "short",
   "anchor": "It also gives a way to measure $E$ and $r$: a graph of $V$ against $I$ is a straight line whose intercept is $E$ and whose slope is $-r$.",
   "segs": [
-   "The graph forms a straight line with a slope of $-$, the graph is a straight line, even though the graph experiments against the graph exsistent results.",
-   "When plotting the natural logarithm of a cell, how much weaklyEovertical, the graph experimifies against time."
+   "Set the graph of $E$-$ graph. Writtle when $E$ is straight on a slope of $0$ graph. $E$ of $E$, $E$ is a straight line with $V$ graph $E$ against $r$ against $E$, where $E$ is the area under the $E$-Ir$ graph.",
+   "Explain the graph for a $E$-unters of a graph for a straight line, with slope of $E$."
   ],
-  "score": 0.495,
+  "score": 0.726,
   "gate": false
  },
  {
@@ -67,14 +67,14 @@
   "type": "mcq",
   "anchor": "charge is invariant; it is the mass that changes with speed.",
   "segs": [
-   "both charges.",
-   "The principle of superposition of electrostatic force is",
-   "the force",
-   "dioptre",
-   "of the same signal force",
-   "Gauss's law, and it carries momentum backwards, so the test charge shifts inversely with no reaction."
+   "an insulator",
+   "A body is always uncharged",
+   "fatter is always zero",
+   "stays the",
+   "inversely proportional to the speed",
+   "charge is a larger force, so the force is zero."
   ],
-  "score": 0.41,
+  "score": 0.37,
   "gate": false
  },
  {
@@ -82,14 +82,14 @@
   "type": "mcq",
   "anchor": "So we first need the result for refraction at one spherical surface. We start from Snell's law at one curved boundary and reach the equation that a single spherical refracting surface obeys.",
   "segs": [
-   "$i_1 = r_2$",
-   "In a lens, the focal length $f$ of focal length $f_2$, the second surface is",
-   "$i_1 u + \\frac{v}{u} = \\frac{1}{f}$",
-   "$A - \\frac{1}v_1$",
-   "$\\omega_1 u = \\omega_2$",
-   "The given formula correctly reflects the lens in the instruction."
+   "The magnification of a spherical surface",
+   "When a spherical mirror is immersed in a spherical mirror.",
+   "The focal length of a spherical mirror",
+   "the reflected rays",
+   "at the pole",
+   "the axis is a spherical mirror of the object distance, and the object is totally reflected."
   ],
-  "score": 0.55,
+  "score": 0.676,
   "gate": false
  },
  {
@@ -97,14 +97,14 @@
   "type": "mcq",
   "anchor": "At $0\\ \\text{K}$ they are insulators, but at room temperature a few electrons gain enough energy to cross the gap, leaving holes in the valence band (silicon $1.1\\ \\text{eV}$, germanium $0.67\\ \\text{eV}$).",
   "segs": [
-   "$0.7\\ \\text{eV}$",
-   "Why do electrons from a forbidden gap at room temperature of7\\ \\text{K}$ from a room temperature?7\\ \\text{mm}$",
-   "$5.5\\ \\text{eV kg}^{-1}$",
-   "$3\\times10^{28}\\ \\text{eV s}^{-4}$",
-   "$1.1\\ \\text{eV K}^{-7}$",
-   "The energy gap is calculated as $1.1\\ \\mu\\text{eV}$."
+   "$5.1\\ \\text{eV}$",
+   "Why is the valence band, what happens to cross the conduction band. The valence band band has a forbidden gap of conduction band, what is the conduction band allows",
+   "$1.6\\ \\text{eVeV}$",
+   "$1\\ \\text{K}$",
+   "$0.1\\ \\text EeV$",
+   "The conduction band, thermal energy to join at room temperature."
   ],
-  "score": 0.955,
+  "score": 0.932,
   "gate": true
  },
  {
@@ -112,14 +112,14 @@
   "type": "mcq",
   "anchor": "number density times area times drift speed times charge per carrier.",
   "segs": [
-   "$10^{-4}\\ \\text{m s}^{-1}$",
-   "What is the resistivity of a copper wire with surface charge $Q$ is the energy stored is",
-   "$10^5\\ \\text{m}$",
-   "$5\\times10^{2}\\ \\text{V m}^{-.}$",
-   "$100\\ \\text{m6}$",
-   "The energy stored is derived as $10^{5}\\ \\text{N m}^{2}\\text{K}^{-4 h]$. coulomb per second becomes $10^5$. v_0 = e a v_0 d = 2.0\\times10^2 = 1.6\\times10^6}\\ \\text{J}$. If $R$ is the energy supplied to $R_0 = \\frac{1}{2}R$, what is the energy per second per unit volume per unit volume. Surface area $"
+   "$\\sigma/e$",
+   "The charge density of a plate with charge on",
+   "$\\sigma/\\varepsilon_0$",
+   "$\\sigma/A$",
+   "$\\sigma\\varepsilon_0$",
+   "no charge per metre."
   ],
-  "score": 0.455,
+  "score": 0.567,
   "gate": false
  },
  {
@@ -127,10 +127,10 @@
   "type": "short",
   "anchor": "A concave mirror can give a real image or a virtual image, magnified or diminished. Here $C$ is at $2f$ and $F$ is at $f$ from the pole. A real image has $v$ negative; a virtual image has $v$ positive. The position of the object relative to $F$ and $C$ decides the image formed, and the same mirror formula describes every case.",
   "segs": [
-   "Re. further along the direction of the incident light, so $PF$ is the mirror and $F$ is independent of the mirror.",
-   "a) Derive the relationship between the object and $F$ of a concave mirror and calculate the image formed by a concave mirror. b) A concave mirror of focal length $2\\ \\text{cm}$ is made of a concave mirror of focal radius $2F$. Find the radius of curvature of the mirror."
+   "Total image $v$ of the pole $f$, inverted and $f$. $f$, $v$ and $f$ is formed where $f$ is placed $f$.",
+   "a real object $D$ of a real object $f$, image $f$ and focal length $f$."
   ],
-  "score": 0.422,
+  "score": 0.7,
   "gate": false
  },
  {
@@ -138,10 +138,10 @@
   "type": "short",
   "anchor": "$$n = \\frac{\\sin\\left(\\dfrac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\dfrac{A}{2}\\right)}$$ Dispersion.",
   "segs": [
-   "$\\dfrac{\\omega_1}{f_1} + \\dfrac{\\omega_2}{f_2} = 0$: $\\dfrac{\\omega_3}{f_3} + \\dfrac{1}{f} = \\dfrac{0.718}{0.5} = 0.0345$, so $\\dfrac{0.25+D}{2} = -\\dfrac{0.036}{0.2} = -2$.",
-   "Derive the condition $\\dfrac{\\omega}{f} + \\dfrac{0.018}{f}=0.034$ of flint glass of dispersive power $0.038$, so $f_v = -2.0\\times10^{6}\\ \\text{m}$ and $f = -25\\ \\text{cm}$. Find the focal length of each lens."
+   "$\\sin\\left(\\dfrac{n_m}{n_V}\\right)\\right)$, so $n_Y = \\frac{n_r}{n_Y} = \\frac{1}{R_2}$. $\\dfrac{n_1}{n_2} + \\dfrac{\\omega_1}{f_2} = 0$. $n_1 + \\dfrac{n_2-1}{f} = \\dfrac{n_1 - 1}{f_1}$, giving $\\dfrac{n}{n_1 + n_2} = (n_2-n_1)A$.",
+   "a) What is the result of focal length in terms of the combination angle in contact and describe how image has the other defect. b) A thin prism of refractive index $n_1$, $n_2$ and $n_2 = n_2$. Find the focal length in the second."
   ],
-  "score": 0.645,
+  "score": 0.648,
   "gate": false
  },
  {
@@ -149,44 +149,44 @@
   "type": "mcq",
   "anchor": "Outline: $g_h = g\\left(\\dfrac{R}{R+h}\\right)^{2}$; $g_d = g\\left(1 - \\dfrac{d}{R}\\right)$; $v_e = \\sqrt{2gR} = 11.2\\ \\text{km s}^{-1}$.",
   "segs": [
-   "$24\\ \\text{km s}^{-1}$",
-   "The dimensional formula of the orbital velocity of a satellite is approximately",
-   "$R/\\sqrt{2gR}$",
-   "$R = \\sqrt{\\frac{2gR}{R}}$",
-   "$v_e = \\sqrt{2gR} = \\sqrt{2\\times9.8\\times6.4\\times10^{6}} \\approx 11.2\\ \\text{km h}$.^{2} = 1.64\\times10 v_h$.F = \\sqrt{2 \\times 4.6\\times10^6} = \\sqrt{-27}\\ \\text{km}$",
-   "$v_e^2 = \\sqrt{2gh}$."
+   "$20\\ \\text{km s}^{-1}$",
+   "A satellite orbit of mass $10\\ \\text{m}$ at a height of $2\\ \\text{km}$ is",
+   "$2\\ \\text{m s}^{2}$",
+   "$200\\ \\text{rad s}^{6}$",
+   "$10\\ \\text \\text{km s m}^{-2}$",
+   "$v_e = \\sqrt{2gR} = \\sqrt{2\\times9.6\\times10^{6}} = \\sqrt{1.6\\times1.5\\times10^2 = 1.2\\ \\text{s}$. Option (a) forgets the orbital velocity and with initial velocity. What is the escape velocity of $2.2\\ \\textv_e = 1.5\\ \\text{km m}^{22}$. Option(b) is $v_e = 2v_e = 8.82\\ \\text{rad}$. Sh) is $200\\;\\ \\text{km\\ s}^{\\text{s}$ is $1\\ \\text{km h}$. Option sold-years}) is the Earth's surface"
   ],
-  "score": 0.8,
-  "gate": false
+  "score": 0.931,
+  "gate": true
  },
  {
   "unit": "Dispersion",
   "type": "mcq",
   "anchor": "From the lens maker's formula, $\\dfrac{1}{f} = (n-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)$.",
   "segs": [
-   "$\\dfrac{1}{v} = \\dfrac{1}{f}$",
-   "What formula represents the relationship between the focal length $f$, the image distance $(f)$, and focal length ($f$)?",
-   "$\\omega = f$",
-   "$\\dfrac{1Ze^{2}}{f} = (n-1)$",
-   "$\\omega = (n-n_r)/(n_y - 1)$",
-   "The formula $\\dfrac{1}v_1n_2)\\left(\\dfrac{1}2)$ directly relates object distance, which equation correctly relates object distance of the focal length of a lens."
+   "$\\dfrac{1}{f} = (n-1)$",
+   "What is the condition for the image distance of the first lens in a lens in a lens which of focal length $f$?",
+   "$\\dfrac{1-\\dfrac{1}\\circ}$",
+   "$\\dfrac{f_1}{f_1R_1}$",
+   "$\\omega_1 = \\omega_2$",
+   "The formula $\\dfrac{1}f_2 f_1$ directly matches the image distance, and the lens in the second lens in the second."
   ],
-  "score": 0.811,
-  "gate": false
+  "score": 0.851,
+  "gate": true
  },
  {
   "unit": "Ideal gas",
   "type": "mcq",
   "anchor": "Momentum change per impact $= 2mu$, justified by Newton's third law.",
   "segs": [
-   "the applied force",
-   "A body of mass $m$ rebounding in momentum change per impact when",
-   "the volume is",
-   "the volume",
-   "its mass",
-   "Newton's second law is force per unit mass m s$. Option (a) is the same as the third law. casts the wall as the law of motion. cascal. Option (absolute) is the commonest confusion.) is the commonest slip with momentum change... c) is the same for all directions. swapped by a rotating frame. c) $= 2mu"
+   "$\\tfrac12kT$",
+   "The mean translational kinetic energy of a molecule of an ideal gas at absolute temperature $\\overline{u^{2}}$ is",
+   "$\\tfrac12RT$",
+   "$\\tfrac13\\rho\\overline{c^2}$",
+   "$\\tfrac2RT$",
+   "$\\overline{E} = \\tfrac32RT$, so $\\tfrac12kT = \\tfrac3RT$, $\\overline{c^{2}$. Option (c) is $\\overline{u} = \\tfrac3\\rho\\overline{u^2}$. Why: $\\tfrac12RT = \\tfrac13\\rho\\overline A\\overline{c^3}$, $\\overline E\\overline{u^3}$ is the average translational kinetic theory. What is the rms speeds at the same temperature, which expression for the commonest confir equivalently provided in"
   ],
-  "score": 0.52,
+  "score": 0.53,
   "gate": false
  }
 ]

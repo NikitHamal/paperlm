@@ -4,51 +4,55 @@
   "type": "mcq",
   "anchor": "A thermal cycler then repeats three temperature steps: Each cycle doubles the number of target molecules, so after $n$ cycles one molecule becomes $2^n$ copies.",
   "segs": [
-   "A thermal cycler ampl",
-   "Why does the cycle doubles the target DNA during the cycle is typically repeated 25 to $n$ cycles of one molecule becomes $2^n$ copies. The cycle doubles the target molecules, resulting in $2^n = copies after $n$ cycles. After $n$ cycles one molecule After $n$ chromosomes. The cycle doubles each cycle, resulting in $n$ cycles there are $2^n+$ copies. After 3 cycles doubles the target molecules. After $",
-   "$n$ cycles one cycle doubles the number of cycles.",
-   "$n$ after $n$ copies after $n cycles. After 3 cycles cycles doubles the target, resulting in $ after $n$ cleavages. How many times the number of cycles give $2^n\\, an exponential after $",
-   "$n^2$ copies.",
-   "The number of copies doubles the target DNA ampl$ cycles, how many copies after $n^n$ cycles.^n$ copies after 3 cycles."
+   "$n$ cycles",
+   "If a PCR reaction, how many copies of the target DNA are produced from $n$ cycles, how many copies will it produce?",
+   "$n^2$",
+   "$n^3$",
+   "$n$",
+   "A$n$ cycles, $2^n$ copies after $n$ cycles of $n^n$."
   ],
-  "score": 0.721,
-  "gate": false
+  "score": 0.9,
+  "gate": true
  },
  {
   "unit": "Embryology",
   "type": "short",
   "anchor": "Because the two kinds of spore are different, angiosperms are heterosporous. The pollen grain is the much-reduced male gametophyte and the embryo sac is the female gametophyte; both are haploid, and both are permanently retained inside the sporophyte. (d) Each 3-celled grain has one tube nucleus and two male gamete nuclei = 3 nuclei, so $1200 \\times 3 = 3600$ nuclei.",
   "segs": [
-   "Each grain has 3 nuclei, thus total nuclei = $1200 \\times 3 = 3600$ nuclei. This MMC has 3 nuclei, total nuclei, thus purines = 8 megaspore mother cells.",
-   "Given that an angiosperm produces two male gametes, calculate the total number of nuclei present in 1200 such grains."
+   "Each grain has one male gamete, $8000 \\times 3 = 300$ male gamete nuclei.",
+   "Describe the total number of microspore mother cells, calculate the total number of male gametes produced each microspore mother cell with one male gamete nuclei and each grain produces one male gametes."
   ],
-  "score": 0.408,
-  "gate": false
+  "score": 0.855,
+  "gate": true
  },
  {
   "unit": "Developmental Biology",
   "type": "mcq",
   "anchor": "Finally the male pronucleus ($n = 13$) fuses with the female pronucleus ($n = 13$) to make a diploid zygote ($2n = 26$) — amphimixis.",
   "segs": [
-   "Because the zygote formed when the cleavage doubles the number of cells, how many chromatids are present in the frog's egg.",
-   "Why does not change in the 7it, each secondary spermatocyte?",
-   "The number of cells undergoes meiosis I becoming a primary oocyte.",
-   "$2n$ chromosomes can carry the zygote to $2n$.",
-   "$n=13$ chromosomes.",
-   "The number of blastomeres after fertilization combines the zygote to the resulting in the embryo sac."
+   "After fertilization is the chromosome number of meiosis I to the chromosome number of chromatids.",
+   "Why does the number of gametocyte ($n$) fuses with $n=13$ to the number of the chromosome number of the number of mitosis.",
+   "The process of a result of the chromosome number.",
+   "The number of meiosis reducting a zygote after n cleavages of the total DNA during the number of megaspores.",
+   "The number number ofn=26$ chromosomes.. seed number of the number number of the number...Watsonuclease experiment with $n=3$.. Gravinal chromatids the chromosome number of DNA to the chromosome number. after $",
+   "The target DNA molecule with $n$n$ chromosomes.4$."
   ],
-  "score": 0.34,
+  "score": 0.461,
   "gate": false
  },
  {
-  "unit": "Genetics",
-  "type": "short",
-  "anchor": "With four bases there are $4^{3} = 64$ codons — 61 sense codons that specify amino acids and 3 stop (nonsense) codons, UAA, UAG and UGA.",
+  "unit": "Plant Anatomy",
+  "type": "mcq",
+  "anchor": "(b) Explain how the cork cambium arises and what it produces, and define periderm and bark. (a) Draw a labelled transverse section of a monocot root and state four features that distinguish it from a dicot root.",
   "segs": [
-   "G involves three maintaining principle; at the codon and are UGA. A linear molecule has three main accurately double for each, or degraded of these anne opposite of small fragments.",
-   "Explain how the codon on the number of DNA replication in the bacteriseability of chromosomes."
+   "heart rate of a dicot stem",
+   "What is the monocot embryo?",
+   "commonella cells",
+   "metriage of the primary phloem",
+   "probribose",
+   "The foreign genetics benegg as the dicots the plant has a dicot embryo."
   ],
-  "score": 0.207,
+  "score": 0.552,
   "gate": false
  },
  {
@@ -56,10 +60,10 @@
   "type": "short",
   "anchor": "This is exponential (geometric) growth, and its graph is the familiar J-shaped curve: Here $P_0$ is the population at the start, $P_t$ the population after time $t$ years, and $r$ the annual growth rate expressed as a decimal fraction. (a) $\\text{CBR} = \\dfrac{4500}{250000}\\times 1000 = 18.0$ per 1000 per year.",
   "segs": [
-   "CBR = $\\frac{rt}{D} \\times 1000 = \\dfrac{120}{R}$. Using $P_t = P_0e^{rt}$, $r = \\frac{1}{t}$, simplifying calculations for exponential growth rates.",
-   "Given a population grows at the rule of 70, calculate the doubling time (R), calculate the doubling the doubling time $T_d$ the rule of 7 cmed as a population using the formula $T_d = \\frac{0.693\\times 100}{RNI} = \\frac{69.0}{R\\%} = 100$. Am cycle calculation directly from the doubling time $t$ years"
+   "The calculation of the population grows with $P_0$, $T_d = ($, $\\text{CBR}$, $T = $T_d$, $T$. For $R_d = \\frac{P_0}{R}{R} \\times 1000 = \\frac{00}{P}{P}\\times 1000$, $r = \\frac{0}{P_00}{CBR}\\times 1040$. Deometric rate ($) = $T_0$, so $R_d$ is $P_d = $r = $t$. Two formula $P = \\frac{P}{000} = $P_d$. Each formula $T_00$, the doubling time $r = $T_t$. $P_t = $t$, $r$, $P = $P$, $P$, the population to the doubling time $T_d \\approx \\frac{0} = \\frac{P{P}{R}$. The formula $0.42 \\times 100 = 1000,0000$. $R_0$ is the doubling time $P_0 = $r$. $r$, so $t = $0.40$, $$r = 5000$) = 100$. For a population of 70, $00.4\\ \\%$, $r \\approx \\frac{1}{00}\\times 1050$, $\\ \\%$ is $r = $r = 100 \\times 100$, so the population growth rate ($r = 1",
+   "If a population growth rate (\\ \\%), if the doubling time $R_d \\approx \\frac0000,{P}{t} = 100\\ \\%$."
   ],
-  "score": 0.396,
+  "score": 0.537,
   "gate": false
  },
  {
@@ -67,92 +71,36 @@
   "type": "short",
   "anchor": "The roof of the archenteron rolls off as a solid rod, the notochord. It induces the ectoderm directly above it to thicken into a neural plate.",
   "segs": [
-   "Dectoderm over the neural plate, then the neural tube, arises from ectoderm.",
-   "Oogenesis, the notochordial germ layers of the notochord is the notochord."
+   "During the neural plate, then a neural plate, above the neural plate, so the neural plate, the neural plate, with the neural plate, above it.",
+   "Describe the notochord of the neural plate, it is above the neural plate induces it, above the neural tube, and in the neural plate, appears above the notochord and in the neural neural plate."
   ],
-  "score": 0.633,
-  "gate": false
+  "score": 0.897,
+  "gate": true
  },
  {
   "unit": "Biotechnology",
   "type": "short",
   "anchor": "Micropropagation multiplies elite plants by the thousand — banana, orchid, potato, sugarcane and strawberry are produced this way in commercial labs, including in Kathmandu and Chitwan.",
   "segs": [
-   "Angutary cry genes for insectGA$_2$ generation, thussis the best describes the best known of over one season | Acts doubles which is why artificial having can be loosen known.",
-   "Explain the process of Polymerase Chaincharged by glycolysis and identify the bacterium itself into gel electrophoresis up to modern role."
+   "Sesbyment by Beneathmandu and Hybridge by the banana, Kathmandued in the banana, and the certainable-changed in the Fleming primari, Kasite, Chitwania and teaguable, banana, Kwan, Kathmandibility, Ker, Kathmandacch.",
+   "Which banana is a commercial commercial commercial value of bases produced by a commercial commercial commercial commercial commercially produced by the banana strands of the DNA segment produced by the commercial commercial properties of a natural protein batch, including in a banana."
   ],
-  "score": 0.1,
-  "gate": false
- },
- {
-  "unit": "Plant Physiology",
-  "type": "mcq",
-  "anchor": "Model answer D2: C3, C4 and CAM photosynthesis compared (10 marks). In most plants (C3) the enzyme RuBisCO fixes CO$_2$ into 3-phosphoglyceric acid.",
-  "segs": [
-   "phosphoenzymes the first stable product of the fertilisation, fixes CO$_2$ into malic acid stored in the vacuole, which enzyme RuBisCO is the sap during the morning",
-   "Why does the sap become acidic in the morning in the sap become turgidation of the morning in the morning in plants?",
-   "The plant releases excess HCO$_2$ and water in the morning",
-   "The sun's heat causes the breakdown of organic acids in the sap, increasing acidity.",
-   "Malic acid causing the photosynthesis.",
-   "oxaloacetate, which diffpress acid stored in the morning, mak in the sap, causing the living cells in the breakdown of organic materials heat causes the increasing acid throughout the sap, incre."
-  ],
-  "score": 0.408,
-  "gate": false
- },
- {
-  "unit": "Biotechnology",
-  "type": "short",
-  "anchor": "Describe the steps of tissue culture technique and mention its applications. The steps of tissue culture (micropropagation), from explant to field-ready plant (question 6).",
-  "segs": [
-   "Dise formation of nutrients totipotency, the ability of cell primarily germplasm for culture. Supporting table in the same plant, induces the ex ex explant, e.",
-   ". If a small piece of a solid, mortality is very high. It calculation. given $\\text{s}_{\\text{potency}} = \\frac{1}{00} \\times 120 = 300$. Tages."
-  ],
-  "score": 0.12,
+  "score": 0.362,
   "gate": false
  },
  {
   "unit": "Embryology",
   "type": "mcq",
-  "anchor": "porogamy is through the micropyle and mesogamy through the integument.",
+  "anchor": "Stage 1: microsporogenesis (formation of microspores). Each cell of the sporogenous tissue becomes a microspore mother cell (pollen mother cell, 2n).",
   "segs": [
-   "micropylar entry",
-   "Which porogamy. In 2082 the pollen grain is the embryo is the",
-   "chalazogamy",
-   "coleoptile",
-   "liquid mesogamy",
-   "micropylar mitosis is the free-nuclear stage of the micropyle."
+   "synergids, one cell becomes a tetrad of the microspore mother cell",
+   "What is the microspore mother cell?",
+   "pollen and",
+   "phosphoglycan cell",
+   "pollen cell",
+   "The tetrad half a tetrad of two polar nuclei, and the antipodal cellular, the sporople fusion."
   ],
-  "score": 0.567,
-  "gate": false
- },
- {
-  "unit": "Developmental Biology",
-  "type": "mcq",
-  "anchor": "Spemann and Mangold's graft induced a complete secondary embryo.",
-  "segs": [
-   "ction",
-   "The first stack a frog zygote formed by the frog develops into the frog",
-   "gastrulation",
-   "neurulation",
-   "metamorphosis",
-   "meiosis I and II give four haploid spermatids, each becoming a sperm."
-  ],
-  "score": 0.45,
-  "gate": false
- },
- {
-  "unit": "Developmental Biology",
-  "type": "mcq",
-  "anchor": "the cortex rotates towards the entry point, uncovering pale cytoplasm on the far side.",
-  "segs": [
-   "morula, blastula follows the pigmented cortex",
-   "Describe the correct sequence of the frog's egg is the frog?",
-   "pale callus",
-   "morula",
-   "issliver",
-   "the bulky yolky macromeres push the cavity into the animal half."
-  ],
-  "score": 0.42,
+  "score": 0.7,
   "gate": false
  },
  {
@@ -160,14 +108,59 @@
   "type": "mcq",
   "anchor": "Fick's law says diffusion rate ∝ (surface area × pressure difference) ÷ thickness.",
   "segs": [
-   "Because the diasing to the medulla the medulla the low body. developing capacity of the cerebrumentero.",
-   "What happens when the human body?",
-   "The pressure includespiration",
-   "The sino-cell bodies includes water, indicating the human body by the thoracic cavity.",
-   "The volume remains constant while the pressure decreases when the thoracic cavity remains constals.",
-   "the pressure difference across the thoracic cavity rem suggest to the pressure."
+   "The pressure difference is reabsorbed",
+   "What is the pressure inside the filtrate is about",
+   "The pressure inside the filtrate",
+   "The pressure within the filtrate",
+   "The rate increases as the filtrate",
+   "The pressure difference is explyle's capsule."
   ],
-  "score": 0.521,
+  "score": 0.783,
+  "gate": false
+ },
+ {
+  "unit": "Developmental Biology",
+  "type": "mcq",
+  "anchor": "Spemann and Mangold's graft induced a complete secondary embryo.",
+  "segs": [
+   "Somatic of the embryo",
+   "Sembryoroidpolyploid of",
+   "polyploidy",
+   "metaphase",
+   "pea",
+   "Ste crescent; the vitamphase in the same as the embryo."
+  ],
+  "score": 0.445,
+  "gate": false
+ },
+ {
+  "unit": "Developmental Biology",
+  "type": "mcq",
+  "anchor": "the cortex rotates towards the entry point, uncovering pale cytoplasm on the far side.",
+  "segs": [
+   "the bulky yolky macromeres",
+   "In the cavity of the frog, the frog, the cavity of the dorsal lip of the blastopore?",
+   "coeloblastic and the cavity",
+   "the optic cavity",
+   "the options",
+   "the macromeres pus, defined as the cavity of the blastula; the blastula belongs the cavity increases above the archenteron."
+  ],
+  "score": 0.493,
+  "gate": false
+ },
+ {
+  "unit": "Plant Physiology",
+  "type": "mcq",
+  "anchor": "Model answer D2: C3, C4 and CAM photosynthesis compared (10 marks). In most plants (C3) the enzyme RuBisCO fixes CO$_2$ into 3-phosphoglyceric acid.",
+  "segs": [
+   "CAM plants to acid",
+   "What is the enzyme that enzyme that enzyme that cost-carbon acid, which enzyme",
+   "Haversian system",
+   "Carbonate",
+   "Carbonate",
+   "Pyruvate kinase (3-3-P)."
+  ],
+  "score": 0.671,
   "gate": false
  },
  {
@@ -175,14 +168,29 @@
   "type": "mcq",
   "anchor": "the flowers are on the same plant, so it is geitonogamy; it is genetically autogamy but ecologically cross-pollination. Xenogamy needs two plants.",
   "segs": [
-   "s are the differing wall",
-   "Which type of the following tissues xylem and phloem differs it is characteristic of thetransition of the plant anatomy.",
-   "air layering the tissues",
-   "grafting duct",
-   "by buddors",
-   "the male gametophyte is thearisonics and heterosporous."
+   "it of the points",
+   "In the following sets of the following plant is not a plant is made by a flower?",
+   "pecessary ovule",
+   "pting a single layer",
+   "pting",
+   "the plant stores food and give more active immunity."
   ],
-  "score": 0.37,
+  "score": 0.424,
+  "gate": false
+ },
+ {
+  "unit": "Plant Physiology",
+  "type": "mcq",
+  "anchor": "seedless banana and grape are parthenocarpic. Parthenogenesis (d) is an egg developing without fertilisation.",
+  "segs": [
+   "meristem culture",
+   "In the consequence of the:",
+   "meristematic cells",
+   "meristematic pressure",
+   "pomatic water",
+   "the cohesion holds the two non-fusion of the basis of the shoot."
+  ],
+  "score": 0.35,
   "gate": false
  }
 ]

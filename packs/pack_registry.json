@@ -8,7 +8,7 @@
    "subject": "biology",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 6.5739,
+   "val_loss": 3.816,
    "numeric": 0
   },
   {
@@ -18,7 +18,7 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.9015,
+   "val_loss": 2.6584,
    "numeric": 36
   },
   {
@@ -28,7 +28,7 @@
    "subject": "biology",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 6.4131,
+   "val_loss": 4.1341,
    "numeric": 0
   },
   {
@@ -38,8 +38,28 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 4.0678,
+   "val_loss": 2.6774,
    "numeric": 24
+  },
+  {
+   "pack_id": "chem11",
+   "title": "Chemistry - Class 11 (NEB)",
+   "level": "C11",
+   "subject": "chemistry",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 2.941,
+   "numeric": 12
+  },
+  {
+   "pack_id": "chem12",
+   "title": "Chemistry - Class 12 (NEB)",
+   "level": "C12",
+   "subject": "chemistry",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 3.4853,
+   "numeric": 9
   }
  ]
 }
