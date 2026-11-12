@@ -1,5 +1,11 @@
 # PAPERLM_STATUS.md - PaperLM build log (single source of truth, resume from here)
 
+## v17 session (newest; read first) - re-attached, wave8r still running, wave9 chained
+- **VM**: same `https://sb-84ba1da1dc9d55f9.sb.molab.run/`, new token saved to `~/.molab_token` (never committed). Keep-alive daemon alive (heartbeat every 60 s), GPU 99 % (wave8r teacher, math12 stage at attach time).
+- **Chained**: `chain9` (detached, `/tmp/paperlm/logs/chain9.sh`) waits for `/tmp/paperlm/WAVE8_DONE` then runs `packs/tools/wave9.sh` by itself (sanitising teacher on fresh anchors, retrain 10 packs, publish with regression guard, commit + push from the VM). Nothing to launch by hand: next session run `scripts/harvest.sh`, look for `WAVE9_DONE`, then `eval/validate_all.sh` (needs `pip install tokenizers numpy onnxruntime`).
+- **Re-validated here (before wave8r/9 land)**: Python ORT `eval/ort_pack_check.py 3 2` 10/10 packs load and decode under the FSM (neural accepted 1/30, rest verified bank, 0 empty); planner 0 violations. Shipped packs unchanged: 10 x 10,203,840 params, INT8 ONNX 10.73 MB each, INT8 TFLite ~12.4 MB.
+- **Honest position (unchanged)**: students are served verified-bank / computed items only; neural writer is still gated out in most slots.
+
 ## v16 session (newest; read first) - same VM re-attached, wave8 mid-run, teacher sanitiser
 - **VM**: `https://sb-84ba1da1dc9d55f9.sb.molab.run/` re-attached with the fresh token (`~/.molab_token`, never committed; `scripts/molab_*.sh` already point at this URL). Keep-alive daemon (`/tmp/paperlm/keepalive.py`) alive, GPU 99 % busy with `wave8.sh` teacher distillation (do not start another GPU job until `/tmp/paperlm/WAVE8_DONE`).
 - **teacher.py v16 (`packs/tools/teacher.py`)**: `bad_phrase` rejected 34 % of drafts in wave8. Passage-leak wording ('according to the passage', 'the text states that', 'in the text') is now SANITISED out of question/answer/distractors/short items (`san()`), and only option-set cheats (`all of the above`, `none of the`, `both X`) or a literal `passage` left inside question/answer/options are fatal. Entailment/solve/distractor verification is unchanged, so the bank stays verified. Takes effect on the next teacher run (wave9); wave8 on the VM still runs the old file.
