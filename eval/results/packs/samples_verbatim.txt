@@ -1,2 +1,116 @@
 
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":6.5739,"slots":10,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":0,"empty":10,"units_covered":"0/10","duplicates":0,"bank_size":0,"bank_mcq":0,"bank_short":0,"seconds":52.8}
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":8,"neural_accepted":1,"neural_attempts":24,"neural_gate_rate":0.042,"bank_fallback":7,"empty":0,"units_covered":"8/10","duplicates":0,"bank_size":489,"bank_mcq":407,"bank_short":82,"seconds":45.2}
+
+[Applied Biology] MCQ <gold>
+Q. The vector of the malaria parasite is
+  a) male Anopheles
+  b) Aedes aegypti
+  c) female Anopheles
+  d) Culex
+Key: c  Why: the female Anopheles bites at night; the male feeds on plant juices. Aedes carries dengue.
+
+[Plant Anatomy] MCQ <neural>
+Q. Why does bark includes secondary growth in the vascular cambium?
+  a) Because it is repelled by the vascular cambium, and oogenesis in the vascular cambium.
+  b) Because it is involved in the tissues tissues tissues lying outside the plant stem.
+  c) A vascular cambium, which structure all tissues lying outside the vascular cambium, the vascular cambium.
+  d) Because it does bark includes all tissues lying outside it.
+Key: c  Why: A vascular cambium, the periderm of bark includes secondary phloem, and periderm.
+
+[Plant Physiology] MCQ <gold>
+Q. In the xylem of a rapidly transpiring tree, the pressure potential $\Psi_p$ is:
+  a) negative
+  b) always zero
+  c) positive and large
+  d) equal to $\Psi_s$
+Key: a  Why: the column is under tension, being pulled from above.
+
+[Developmental Biology] MCQ <gold>
+Q. Fertilisation in the frog is
+  a) internal
+  b) internal, in the oviduct
+  c) by budding
+  d) external, in water
+Key: d  Why: the male clasps the female (amplexus) and sperm are shed over the eggs in water.
+
+[Genetics] MCQ <gold>
+Q. Raphanobrassica is an example of
+  a) autopolyploidy
+  b) monosomy
+  c) trisomy
+  d) allopolyploidy
+Key: d  Why: it combines the sets of two species, Raphanus sativus and Brassica oleracea.
+
+[Human Biology] MCQ <gold>
+Q. Which lung volume cannot be measured with a spirometer?
+  a) vital capacity
+  b) tidal volume
+  c) residual volume
+  d) inspiratory reserve volume
+Key: c  Why: residual volume never leaves the lungs, so no spirometer can collect it.
+
+[Embryology] 3-mark <teacher>
+Q. Given that each microspore mother cell (MMC) produces four microspores, calculate the number of MMCs needed to produce 1200 microspores and determine the total number of meiotic divisions required. Also, if one pollen grain fertilizes one ovule, how many MMCs are necessary to fertilize 8 ovules?
+Model answer: To produce 1200 microspores, $\text{number of MMCs} = \frac{1200}{4} = 300$. Each MMC undergoes one meiotic division, thus 300 meiotic divisions occur. To fertilize 8 ovules, $8 \div 4 = 2$ MMCs are needed.
+
+[Animal Tissues] 2-mark <teacher>
+Q. Calculate the total number of red blood cells per cubic millimeter using the haemocytometer data provided.
+Model answer: Total cells = $\frac{420 \times 200}{80 \times \frac{1}{400} \times 0.1} = 4200000$ cells/mm³. The calculation uses dilution factor and counts per area and depth.
+
+##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6584,"slots":8,"neural_accepted":3,"neural_attempts":20,"neural_gate_rate":0.15,"bank_fallback":5,"empty":0,"units_covered":"8/26","duplicates":0,"bank_size":588,"bank_mcq":487,"bank_short":101,"seconds":65.4}
+
+[Nuclear physics] MCQ <teacher>
+Q. What term refers to the total number of protons and neutrons in an atom?
+  a) atomic number $Z$
+  b) electronic configuration
+  c) mass number $A$
+  d) nuclear charge
+Key: c  Why: The mass number $A$ is defined as the total number of nucleons, which includes both protons and neutrons.
+
+[Physical Quantities] MCQ <gold>
+Q. The number of significant figures in $0.002340$ is
+  a) 4
+  b) 6
+  c) 3
+  d) 7
+Key: a  Why: leading zeros are never significant, the trailing zero after the decimal point is; so 2, 3, 4, 0 = four.
+
+[Dynamics] MCQ <neural>
+Q. A $4\ \text{N m}^{-2}$ at $60\ \text1\ \text{Nfter}$ at $40\ \text{m s}^{-1}$. The weight of the weight is
+  a) $200\ \text{s}$
+  b) $50\ \text{rad s}^{3}$
+  c) $20\ \text{kg}$
+  d) $60\ \text{N}$
+Key: d  Why: $N = 900\ \textc$, and $\mu = 200\ \text\lambda$.
+
+[Electric field] MCQ <neural>
+Q. The electric field between the charge $\sigma/\varepsilon_r$ and the field is
+  a) $\sigma/2\varepsilon_0$
+  b) $\varepsilon_0$
+  c) $\sigma/\varepsilon_0$
+  d) $\sigma/\varepsilon/\varepsilon_0)$
+Key: c  Why: the factor $\sigma/\varepsilon/2\varepsilon_r$.
+
+[Circular Motion] MCQ <neural>
+Q. A conical pendulum of a bob is vertical circle of radius $r$ when the bob is
+  a) $mg$
+  b) $mg\sin\theta$
+  c) $T\cos\theta$
+  d) $T\sin\theta$
+Key: d  Why: $T\sin\theta\sin\theta$ means $m\sin\theta$ is vertical, and $N\cos\theta = mg$.
+
+[DC Circuits] MCQ <teacher>
+Q. In a DC circuit, if you plot a graph of terminal voltage $V$ against current $I$, what does the y-intercept of the line represent?
+  a) The current $I$
+  b) The internal resistance $r$
+  c) The electromotive force $E$
+  d) The power dissipated
+Key: c  Why: The y-intercept of the line represents the electromotive force $E$ as per the given statement.
+
+[Rate of heat flow] 2-mark <teacher>
+Q. Calculate the temperature of a blackbody if the wavelength of maximum emission is $500\times10^{-9}$ m using Wien's displacement law.
+Model answer: Using Wien's displacement law, $T = \frac{b}{\lambda_m}$. Given $b = 2.898\times10^{-3}$ m·K and $\lambda_m = 500\times10^{-9}$ m, the temperature is $T = \frac{2.898\times10^{-3}}{500\times10^{-9}} = 5.80\times10^{3}\ \text{K}$.
+
+[Reflection at curved mirror] 2-mark <teacher>
+Q. Describe the path of a ray drawn from point B parallel to the principal axis after it reflects off a concave mirror.
+Model answer: The ray from point $B$ parallel to the principal axis reflects and passes through the focal point $F$.
