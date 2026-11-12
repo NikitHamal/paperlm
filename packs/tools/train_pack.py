@@ -98,7 +98,7 @@ use_dpo = b1["strict_gate_rate"] + 0.5 * b1["mean_grounding"] >= b0["strict_gate
 if not use_dpo: model.load_state_dict(sft_sd)
 final, samples = (b1, s1) if use_dpo else (b0, s0); vfin = vloss(model)
 # ---------------- INT8 ONNX export (KV-cache graph; Web ORT + Android ORT-mobile; opset 17)
-sd = copy.deepcopy(model.state_dict()); m2 = PaperLM(cfg).to(dev); m2.load_state_dict(sd); q = EX.quantize(m2.eval()); w = EX.Wrap(q).cpu().eval(); L_, H, Dh = cfg.n_layers, cfg.n_heads, cfg.d_model // cfg.n_heads
+sd = copy.deepcopy(model.state_dict()); torch.save(dict(model=sd, cfg=vars(cfg)), f"{O}/ckpt.pt"); m2 = PaperLM(cfg).to(dev); m2.load_state_dict(sd); q = EX.quantize(m2.eval()); w = EX.Wrap(q).cpu().eval(); L_, H, Dh = cfg.n_layers, cfg.n_heads, cfg.d_model // cfg.n_heads
 ids = torch.randint(5, 100, (1, 7)); pk = torch.randn(L_, 1, H, 5, Dh) * .1; pv = torch.randn(L_, 1, H, 5, Dh) * .1
 torch.onnx.export(w, (ids, pk, pv), f"{O}/model.onnx", input_names=["ids", "past_k", "past_v"], output_names=["logits", "present_k", "present_v"], dynamic_axes={"ids": {1: "S"}, "past_k": {3: "P"}, "past_v": {3: "P"}, "present_k": {3: "T"}, "present_v": {3: "T"}}, opset_version=17, do_constant_folding=False, dynamo=False)
 import onnxruntime as ort
