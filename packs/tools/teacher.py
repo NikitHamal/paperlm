@@ -33,6 +33,9 @@ def pj(t):
     m = re.search(r"\{.*\}", t, re.S)
     try: return json.loads(m.group(0)) if m else None
     except Exception: return None
+PH = re.compile(r"\b(?:according to|as stated in|as per|as mentioned in|based on|from) the (?:given )?(?:passage|text)(?:,|\s)\s*|\b(?:the )?(?:given )?(?:passage|text) (?:states|says|mentions|explains|describes|notes|indicates|defines|specifies) that\s*", re.I)
+def clean_why(w):
+    w = PH.sub("", (w or "").strip()); return w[:1].upper() + w[1:]
 BAD = re.compile(r"(all of the above|none of the|both [a-d]\b|\bpassage\b|\btext\b states|according to the)", re.I)
 def okt(s, lo=2, hi=420): return isinstance(s, str) and lo <= len(s.strip()) <= hi and V.check_text(s.strip()) is None
 def mcq_prompt(a, title, style):
@@ -90,7 +93,7 @@ for pid in sys.argv[1:]:
             elif not okt(j.get("answer"), 1, 160): why_rej = "a_text"
             elif not isinstance(j.get("distractors"), list) or len(j["distractors"]) != 3: why_rej = "n_dist"
             if why_rej: REJ[why_rej] = REJ.get(why_rej, 0) + 1; continue
-            ds = [d.strip() for d in j["distractors"] if okt(d, 1, 160)]; why = j.get("explanation", "")
+            ds = [d.strip() for d in j["distractors"] if okt(d, 1, 160)]; why = clean_why(j.get("explanation", ""))
             if len(ds) != 3: why_rej = "d_text"
             elif not okt(why, 15, 300): why_rej = "why_text"
             elif BAD.search(j["question"] + j["answer"] + " ".join(ds) + why): why_rej = "bad_phrase"
