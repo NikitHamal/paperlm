@@ -1,0 +1,15 @@
+{
+ "pack": "bio12",
+ "bank_in": 489,
+ "bank_kept": 482,
+ "dropped": 7,
+ "reasons": {
+  "stem_fragment": 4,
+  "dup_option": 1,
+  "empty_or_tiny_stem": 1,
+  "answer_misses_part": 1
+ },
+ "mcq": 402,
+ "written": 80,
+ "units": 10
+}

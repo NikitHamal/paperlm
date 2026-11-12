@@ -1,0 +1,14 @@
+{
+ "pack": "phy11",
+ "bank_in": 588,
+ "bank_kept": 581,
+ "dropped": 7,
+ "reasons": {
+  "stem_fragment": 5,
+  "empty_or_tiny_stem": 3,
+  "answer_misses_part": 1
+ },
+ "mcq": 482,
+ "written": 99,
+ "units": 26
+}

@@ -18,6 +18,7 @@ for pid in sys.argv[1:]:
             if "scores" in it: b["scores"] = it["scores"]
             bank.append(b)
     json.dump(bank, open(f"{d}/bank.json", "w"), ensure_ascii=False, separators=(",", ":"))
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import bank_qa; print("bank_qa", json.dumps(bank_qa.run(pid)))  # structural QA + part-aligned repair
     for f in ["model.tflite", "tflite_report.json"]:
         if os.path.exists(f"{o}/{f}"): shutil.copy(f"{o}/{f}", f"{d}/{f}")
     for f in ["train_report.json", "samples.json"]: shutil.copy(f"{o}/{f}", f"{r}/{f}")

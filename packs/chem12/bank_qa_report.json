@@ -1,0 +1,15 @@
+{
+ "pack": "chem12",
+ "bank_in": 386,
+ "bank_kept": 372,
+ "dropped": 14,
+ "reasons": {
+  "truncated_answer": 9,
+  "no_answer": 7,
+  "stem_fragment": 4,
+  "empty_or_tiny_stem": 2
+ },
+ "mcq": 304,
+ "written": 68,
+ "units": 21
+}
