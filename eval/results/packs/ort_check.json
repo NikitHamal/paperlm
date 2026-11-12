@@ -3,13 +3,13 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 3.5528,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 4,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 3,
   "bank_items": 801,
-  "seconds": 3.1,
+  "seconds": 3.2,
   "samples": [
    {
     "unit": "Developmental Biology",
@@ -45,15 +45,6 @@
      "Moderate temperature conditions",
      "Temperature — very high and very low temperatures increase mutation rate."
     ]
-   },
-   {
-    "unit": "Embryology",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "Double fertilization involves two fusions. One male gamete fuses with the egg to form a diploid zygote ($2n$). The other male gamete fuses with the two polar nuclei in the central cell, forming a triploid primary endosperm nucleus ($3n$). The embryo sac, part of the female gametophyte, houses these processes.",
-     "Explain the process of double fertilization in plants, including the types of nuclei involved and their outcomes."
-    ]
    }
   ]
  },
@@ -61,56 +52,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.4801,
-  "slots": 4,
-  "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 4,
+  "slots": 3,
+  "neural_accepted": 1,
+  "bank_fallback": 2,
+  "attempts": 6,
+  "units_hit": 3,
   "bank_items": 965,
-  "seconds": 3.0,
+  "seconds": 6.6,
   "samples": [
    {
-    "unit": "Electric field",
+    "unit": "Quantity of Heat",
     "kind": "short",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "(a) Put $q$ at the centre of a sphere of radius $r$. $E = kq/r^{2}$ is constant and parallel to $d\\vec{A}$, so $\\oint \\vec{E}\\cdot d\\vec{A} = E(4\\pi r^{2}) = q/\\varepsilon_0$.(b) Outside, $E = kQ/r^{2}$; at the surface, $E = kQ/R^{2} = \\sigma/\\varepsilon_0$; inside, the enclosed charge is zero so $E = 0$. The graph is flat at zero up to $R$, jumps to $\\sigma/\\varepsilon_0$, then decays as $1/r^{2}$.",
-     "a) State Gauss's law and prove it for a point charge enclosed by a spherical surface. b) Using it, obtain the electric field due to a uniformly charged conducting sphere at a point outside, on and inside the sphere, and sketch $E$ against $r$."
+     "Drying ice removes water at $0\\ ^\\circ$C which ensures accurate latent heat of fusion ($L_f$) measurement. Wet ice contains water reducing measured $L_f$ value.",
+     "Why is it necessary to dry small pieces of ice at $0\\ ^\\circ$C on blotting paper before adding them to warm water in a calorimeter?"
+    ]
+   },
+   {
+    "unit": "Thermal Expansion",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$\\alpha:\\beta:\\gamma = 1:2:3$",
+     "If the initial area $A_1$ of a metal plate changes to $A_2$ due to a temperature change $\\Delta\\theta$, which of the following correctly represents the coefficient relation between linear expansion $\\alpha$, area expansion $\\beta$, and volume expansion $\\gamma$?",
+     "$\\alpha:\\beta:\\gamma = 1:3:2$",
+     "$\\alpha:\\beta:\\gamma = 2:1:3$",
+     "$\\alpha:\\beta:\\gamma = 3:2:1$",
+     "The correct ratio is given by the fundamental relationships in thermal expansion."
     ]
    },
    {
     "unit": "Capacitor",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "neural",
     "segs": [
-     "$E = \\frac{\\sigma}{\\varepsilon_0}$",
-     "What formula represents the electric field $E$ between two parallel plates with surface charge density $\\sigma$?",
-     "$E = \\sigma \\varepsilon_0$",
-     "$E = \\sigma + \\varepsilon_0$",
-     "$E = \\frac{\\sigma^2}{\\varepsilon_0}$",
-     "The formula $E = \\frac{\\sigma}{\\varepsilon_0}$ directly states the relationship between the electric field, surface charge density, and permittivity of free space as given."
-    ]
-   },
-   {
-    "unit": "Refraction at plane surfaces",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "There is no angle of incidence ($i$) for which the angle of refraction ($r$) can reach $90^\\circ$.",
-     "When light travels from a medium with lower refractive index to a medium with higher refractive index, which of the following is true regarding the angle of refraction ($r$)?",
-     "The angle of refraction ($r$) can become $90^\\circ$ for a specific angle of incidence ($i$).",
-     "The angle of refraction ($r$) will always be greater than the angle of incidence ($i$).",
-     "Total internal reflection occurs when the angle of incidence ($i$) exceeds the critical angle.",
-     "It is impossible for light going from a rarer to a denser medium to have an angle of refraction reaching $90^\\circ$."
-    ]
-   },
-   {
-    "unit": "Heat and Temperature",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "The relationship is given by: $\\frac{C}{100} = \\frac{F-32}{180} = \\frac{K-273.15}{100}$. This shows how each scale's fraction represents the same temperature point.",
-     "Write the relationship between Celsius (C), Fahrenheit (F), and Kelvin (K) scales using a single formula."
+     "$V_1 = \\frac{Q_2}{C_1} + \\frac{Q}{2}$",
+     "What is the formula for the equivalent capacitance $C_1$, and $C_2$, and $C_1$ of $V_2$, and $V_2$ in a capacitor with_1$ of $V_2$, and $V_1$ of $V_2$, and $V_2$ are connected to a voltage $V_2$, and $V_1$ are connected to a common voltage $V_1$, and $V_2$ are connected to a charge $Q$. If the battery of $V_1$, and $V_2$ are connected to a voltage $V_1$, and $",
+     "$V_1 = C_2,C_2$",
+     "$C_1 = C_2 + C_2 + C_2$",
+     "$V_1 = C_2 + C_2 + C_2$",
+     "The correct_1 = \\frac{V}{C_1} + \\frac{V_2}{C_1} + \\frac{1}{C_2}$ directly relates to the formula $\\frac{Q}{C_1} + \\frac{Q}{C_2}$. Sum of charge $Q_1$ and $C_2$. always falls by the same voltage.C_1$."
     ]
    }
   ]
@@ -119,56 +101,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 3.5011,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
+  "bank_fallback": 3,
+  "attempts": 6,
   "units_hit": 3,
   "bank_items": 746,
-  "seconds": 2.4,
+  "seconds": 2.3,
   "samples": [
    {
     "unit": "Floral Diversity",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The fungus-algae relationship in lichens is termed helotism, a form of controlled parasitism, as the fungus penetrates algal cells via haustoria, while algae can survive independently. Gymnosperms are seed plants with exposed ovules on open megasporophylls, lacking an ovary wall, hence 'naked seeds' ($gymnos$ = naked, $sperma$ = seed).",
-     "Explain the nature of the relationship between fungus and algae in lichens and describe what characterizes gymnosperms."
+     "In gymnosperms, the female gametophyte forms haploid (n) endosperm before fertilisation. In contrast, angiosperms form triploid (3n) endosperm post-double fertilisation.",
+     "Compare the endosperm formation in gymnosperms and angiosperms. Mention the ploidy level of the endosperm in both groups."
     ]
    },
    {
-    "unit": "Floral Diversity",
+    "unit": "Evolutionary Biology",
     "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "for phototaxis",
-     "Why does Chlamydomonas possess a red eyespot (stigma)?",
-     "for photosynthesis",
-     "to store energy",
-     "to aid in reproduction",
-     "The red eyespot in Chlamydomonas is specifically mentioned to aid in phototaxis."
-    ]
-   },
-   {
-    "unit": "Biomolecules and Cell Biology",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "satellite",
-     "Which of the following structures is responsible for organizing the nucleolus in SAT chromosomes?",
-     "telomere",
-     "centromere",
-     "kinetochore",
-     "The satellite, which is cut off by a secondary constriction in some chromosomes, organizes the nucleolus in SAT chromosomes."
-    ]
-   },
-   {
-    "unit": "Conservation Biology",
-    "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "(a) $N = 60 + 25 + 10 + 5 = 100$, so $N(N-1) = 9900$. $\\sum n_i(n_i-1) = 60 \\times 59 + 25 \\times 24 + 10 \\times 9 + 5 \\times 4 = 3540 + 600 + 90 + 20 = 4250$. $D = 4250/9900 = 0.429$; Simpson's index of diversity $= 1 - D = 0.571$. Dominance is high because swamp deer make up 60 % of the individuals. (b) $t = 2021 - 2015 = 6$ years. $r = \\frac{1}{6}\\ln\\frac{752}{645} = \\frac{1}{6}\\ln 1.1659 = \\frac{0.1535}{6} = 0.0256$ year$^{-1}$, i.e. 2.56 % per year. $t_d = \\dfrac{\\ln 2}{r} = \\dfrac{0.693}{0.0256} = 27.1$ years.",
-     "a) A grassland census in Shuklaphanta records 60 swamp deer, 25 hog deer, 10 wild boar and 5 nilgai. Calculate Simpson's index of dominance and Simpson's index of diversity. b) Nepal's rhino population grew from 645 in 2015 to 752 in 2021. Assuming exponential growth, find $r$ and the doubling time."
+     "Homo habilis",
+     "The first hominin to make stone tools was",
+     "Australopithecus",
+     "Homo erectus",
+     "Ramapithecus",
+     "Homo habilis, the \"handy man\", made the Oldowan pebble tools."
+    ]
+   },
+   {
+    "unit": "Biota and Environment",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Each predator consumes numerous prey, concentrating the poison in higher trophic levels.",
+     "Which of the following best describes why biomagnification occurs in a food chain?",
+     "Poison breaks down more quickly at higher trophic levels.",
+     "Prey organisms produce less poison as they move up the food chain.",
+     "Predators at higher trophic levels excrete most of the poison they consume.",
+     "Each predator eats many prey and keeps nearly all the poison, leading to increased concentration at higher trophic levels."
     ]
    }
   ]
@@ -177,56 +150,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.6191,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 4,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 3,
   "bank_items": 1003,
-  "seconds": 4.2,
+  "seconds": 2.6,
   "samples": [
    {
-    "unit": "Nature and propagation of light",
+    "unit": "Polarization",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "Huygens' principle: every point on a wavefront acts as a source of secondary wavelets, which spread out in all directions with the speed of the wave; the new wavefront after a time $t$ is the forward envelope (common tangent surface) of these wavelets.",
-     "State Huygens' principle. [1]"
+     "Malus' law: the intensity of plane-polarized light transmitted by an analyser is $I = I_0\\cos^{2}\\theta$, where $\\theta$ is the angle between the polarization direction of the light and the axis of the analyser.",
+     "State Malus' law. [1]"
     ]
    },
    {
-    "unit": "Electrical circuits",
+    "unit": "Photons",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Impurities and defects leave a residual resistivity.",
-     "Why does the resistivity of a metal not reach zero even when cooled to $0\\ \\text{K}$?",
-     "Electrons scatter off vibrating lattice ions.",
-     "The metal becomes a superconductor at $0\\ \\text{K}$.",
-     "Cooling increases electron scattering.",
-     "Impurities and defects leave a residual resistivity even at $0\\ \\text{K}$, which prevents the resistivity from reaching zero."
+     "Because $K_{max} = hf - \\phi_0$ defines a linear relationship with $f$ where $h$ is the constant slope.",
+     "Why does the graph of $K_{max}$ versus $f$ result in a straight line with a slope of $h$, irrespective of light intensity?",
+     "Due to the direct proportionality between light intensity and $K_{max}$.",
+     "As a consequence of the quadratic relationship between frequency and maximum kinetic energy.",
+     "Since the photoelectric effect only depends on the wavelength of the incident light.",
+     "$K_{max} = hf - \\phi_0$ is a straight line in $f$ with slope $h$ — independent of intensity."
     ]
    },
    {
-    "unit": "Thermoelectric effects",
+    "unit": "Rotational dynamics",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "reverses when the current is reversed",
-     "The Peltier effect differs from Joule heating because it",
-     "depends on $I^{2}$",
-     "occurs only in insulators",
-     "never happens in metals",
-     "Joule heating is $I^{2}R$ and always heats; the Peltier heat is proportional to $I$ and switches from heating to cooling at a junction when $I$ reverses."
-    ]
-   },
-   {
-    "unit": "Fluid statics",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "The work done to blow a soap bubble of radius $3\\ \\text{cm}$ is $W = 8\\pi R^2 T = 8\\pi (0.03)^2 (0.03) = 2.26\\times10^{-4}\\ \\text{J}$. The excess pressure inside the bubble is $4T/R = 4(0.03)/(0.03) = 4\\ \\text{Pa}$. Surface tension decreases with increasing temperature and is reduced by detergents.",
-     "Calculate the work done in blowing a soap bubble of radius $3\\ \\text{cm}$ and determine the excess pressure inside it, given that the surface tension $T = 0.03\\ \\text{N m}^{-1}$. Additionally, explain how surface tension changes with temperature and the effect of detergents on it."
+     "angular momentum",
+     "Planck's constant has the dimensions of",
+     "energy",
+     "power",
+     "linear momentum",
+     "$[ML^{2}T^{-1}]$, the same as angular momentum; energy is $hf$, not $h$."
     ]
    }
   ]
@@ -235,56 +199,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.8785,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 4,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 2,
   "bank_items": 416,
-  "seconds": 3.5,
+  "seconds": 7.2,
   "samples": [
    {
-    "unit": "Chemistry of Metals",
+    "unit": "Hydrocarbons",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "1. Mass of Fe₂O₃ = 1000 kg × 0.80 = 800 kg. 2. Moles of Fe₂O₃ = $\\frac{800,000 \\text{ g}}{159.7 \\text{ g/mol}}$. 3. Mass of Fe = moles of Fe₂O₃ × 2 × atomic mass of Fe = $800,000 \\div 159.7 \\times 2 \\times 55.85 \\approx 560 \\text{ kg}$.",
-     "Given the process of extracting iron from ore involves crushing, washing, calcination, and roasting, calculate the mass of iron obtainable from 1.00 tonne of ore containing 80% Fe₂O₃."
+     "Polymerisation involves joining many ethene molecules to form polythene: $n\\,\\text{CH}_2{=}\\text{CH}_2 \\rightarrow (-\\text{CH}_2\\text{CH}_2-)_n$. In lab, acetylene is produced by reacting calcium carbide with water: $\\text{CaC}_2 + 2\\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 + \\text{C}_2\\text{H}_2$.",
+     "Explain the process of polymerisation leading to the formation of polythene and write the chemical equation for the production of acetylene in the laboratory using calcium carbide."
     ]
    },
    {
     "unit": "Aromatic Hydrocarbons",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "$\\text{an empty p orbital (0 electrons)}$",
-     "What does a positive carbon contribute in terms of electron configuration in aromatic hydrocarbons?",
-     "$\\text{a lone pair (2 electrons)}$",
-     "$\\text{two d orbitals (4 electrons)}$",
-     "$\\text{a single s orbital (2 electrons)}$",
-     "A positive carbon contributes an empty p orbital as per the description in the chemistry unit on aromatic hydrocarbons."
+     "—COOH",
+     "Which group is meta-directing?",
+     "—OH",
+     "—CH₃",
+     "—Cl",
+     "the carbon of —COOH is doubly bonded to oxygen, so the group is −R and deactivating."
     ]
    },
    {
-    "unit": "Atomic Structure",
+    "unit": "Hydrocarbons",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "1.89 eV",
-     "What is the energy difference in electron volts between the $n=3$ and $n=2$ energy levels in an atom?",
-     "0.89 eV",
-     "2.89 eV",
-     "1.50 eV",
-     "The energy difference between the $n=3$ and $n=2$ levels is explicitly given as 1.89 eV."
-    ]
-   },
-   {
-    "unit": "Basic Concept of Organic Chemistry",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "Functional groups order: –COOH > –SO₃H > –COOR > –COCl > –CONH₂ > –CN > –CHO > >C=O > –OH > –NH₂. Groups –OR, –X, and –NO₂ are always prefixes.",
-     "Explain the priority order for functional groups in organic nomenclature and state which groups are always prefixes."
+     "a white precipitate",
+     "Ethyne gives with ammoniacal $\\text{AgNO}_3$",
+     "no reaction",
+     "a red precipitate",
+     "a yellow precipitate",
+     "silver acetylide, white."
     ]
    }
   ]
@@ -293,56 +248,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 3.3057,
-  "slots": 4,
-  "neural_accepted": 1,
+  "slots": 3,
+  "neural_accepted": 0,
   "bank_fallback": 3,
-  "attempts": 8,
-  "units_hit": 4,
+  "attempts": 6,
+  "units_hit": 3,
   "bank_items": 577,
-  "seconds": 4.2,
+  "seconds": 4.3,
   "samples": [
    {
-    "unit": "Nuclear Chemistry and Applications of Radioactivity",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "Radiocarbon dating uses the decay of $^{14}C$ to estimate the age of organic materials up to 50,000 years old. Its limitations include the assumption of constant $^{14}C$ production rate, contamination, and applicability only to once-living organisms. Artificial radioactivity was discovered by Irène Curie and Frédéric Joliot in 1934, showing elements could be made radioactive by bombarding them with alpha particles.",
-     "Explain the principle of radiocarbon dating and discuss its limitations. Additionally, describe the discovery of artificial radioactivity and the scientists involved."
-    ]
-   },
-   {
     "unit": "Volumetric Analysis",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "$N_{NaOH} = 0.100 \\times \\frac{25.0}{24.5} = 0.102\\ \\text{N}$",
-     "Why does the normality of NaOH calculated using 25.0 mL of 0.100 N oxalic acid and 24.5 mL of NaOH result in $N_{NaOH} = 0.102\\ \\text{N}$?",
-     "$N_{NaOH} = 0.100 \\times \\frac{24.5}{25.0} = 0.098\\ \\text{N}$",
-     "$N_{NaOH} = 0.100 + \\frac{25.0}{24.5} = 0.102\\ \\text{N}$",
-     "$N_{NaOH} = 0.100 \\times 25.0 \\times 24.5 = 61.25\\ \\text{N}$",
-     "The calculation follows directly from the provided normality formula using the volumes and initial normality of oxalic acid."
-    ]
-   },
-   {
-    "unit": "Amines",
-    "kind": "mcq",
-    "source": "neural",
-    "segs": [
-     "diethyl oxalate",
-     "What is the 2° amine formed when 3° and 3° amines is separated by Hoffmann's method?",
-     "phenol",
-     "nitrous acid",
-     "ammonolysis",
-     "Trouton's method is the amine formed when one gives a liquid with chloroform and a mixture with each class using Hoffmann's method."
-    ]
-   },
-   {
-    "unit": "Studies of Heavy Metals",
     "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "(a) In the titration of Na₂CO₃ against H₂SO₄ methyl orange is used: it turns from yellow to orange-pink at the end point, when all the carbonate has become H₂CO₃.(b) Yes. Anhydrous Na₂CO₃ is pure, stable, non-hygroscopic when dry and has a known formula, so a standard solution can be made by direct weighing.(c) Equivalent weight of Na₂CO₃ = 106/2 = 53.",
+     "a) How is completion of the neutralisation detected in the titration of Na₂CO₃ against H₂SO₄? [1] b) Is Na₂CO₃ a primary standard? Why? [1] c) Calculate the further volume of decinormal H₂SO₄ needed to neutralise the carbonate fully. [3] (NEB 2078 model)"
+    ]
+   },
+   {
+    "unit": "Haloalkanes",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "propanenitrile",
+     "Iodoethane warmed with alcoholic KCN gives",
+     "ethyl isocyanide",
+     "ethylamine",
+     "ethanol",
+     "the cyanide ion of KCN, an ionic salt, attacks through carbon, giving the nitrile CH₃CH₂CN, which is propanenitrile."
+    ]
+   },
+   {
+    "unit": "Carboxylic Acid and its Derivatives",
+    "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "The molar mass of CuFeS₂ is $183.5\\ \\text{g mol}^{-1}$. The percentage of Cu in CuFeS₂ is 34.60%. Thus, the fraction of copper in the ore is 6.92%.",
-     "Calculate the percentage of copper in CuFeS₂ and the fraction of copper in the ore if the ore contains 20.0% of CuFeS₂."
+     "Because the base dissociation constant ($K_b$) of aniline ($4 \\times 10^{-10}$) is significantly lower than that of ethylamine ($5 \\times 10^{-4}$).",
+     "Why is aniline a much weaker base compared to ethylamine?",
+     "Due to the higher molecular weight of ethylamine compared to aniline.",
+     "Ethylamine has a stronger electron-donating effect due to the alkyl group, enhancing its basicity.",
+     "Aniline forms more stable cations in solution, reducing its basic character.",
+     "The base dissociation constants ($K_b$) show aniline has a much lower value compared to ethylamine."
     ]
    }
   ]
@@ -351,56 +297,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 1.9558,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 4,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 2,
   "bank_items": 542,
-  "seconds": 4.1,
+  "seconds": 2.1,
   "samples": [
    {
-    "unit": "Measures of Dispersion",
+    "unit": "Curve Sketching",
     "kind": "short",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "1. Compute the mean $\\bar{x} = \\dfrac{\\sum fx}{N}$. 2. Calculate $\\dfrac{\\sum fx^{2}}{N}$. 3. Determine $\\sigma = \\sqrt{\\dfrac{\\sum fx^{2}}{N} - \\bar{x}^{2}}$.",
-     "Given a frequency distribution, calculate the standard deviation ($\\sigma$) using the formula $\\sigma = \\sqrt{\\dfrac{\\sum fx^{2}}{N} - \\bar{x}^{2}}$, where $\\bar{x} = \\dfrac{\\sum fx}{N}$ and $N = \\sum f$. Show your steps."
+     "For $y = 3\\cos 2x$: amplitude $= 3$, period $= \\frac{2\\pi}{2} = \\pi$, range $= [-3, 3]$.",
+     "Sketch $y = 3\\cos 2x$ for $0 \\le x \\le 2\\pi$, stating the amplitude, period, range and the coordinates of all maxima, minima and zeros in that interval."
     ]
    },
    {
-    "unit": "Inverse Circular Functions",
+    "unit": "Curve Sketching",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$",
-     "Which interval does NOT include the value $\\frac{5\\pi}{6}$?",
-     "$\\left[0, \\pi\\right]$",
-     "$\\left[-\\pi, \\pi\\right]$",
-     "$\\left[\\frac{\\pi}{3}, \\pi\\right]$",
-     "The value $\\frac{5\\pi}{6}$ falls outside the interval $\\left[-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$."
+     "$b$",
+     "Which term refers to the coefficient that affects the period of a trigonometric function?",
+     "$a$",
+     "$c$",
+     "$d$",
+     "The coefficient $b$ of $x$ is the term that affects the period of a trigonometric function."
     ]
    },
    {
-    "unit": "Coordinates in Space",
+    "unit": "Probability",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "8",
-     "The number of octants into which the coordinate planes divide space is",
-     "4",
-     "6",
-     "12",
-     "three planes, each giving two sides: $2^{3} = 8$."
-    ]
-   },
-   {
-    "unit": "Trigonometric Equations and General Values",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "1. Express as $r=\\sqrt{3^2+4^2}=5$, $\\tan\\alpha=\\frac{4}{3}$, so $5\\cos(\\theta-\\alpha)=5$. 2. Condition for solution is $|c|\\le r$, here $|5|\\le 5$. 3. Equation has solutions when $c=5$.",
-     "Given $a\\cos\\theta + b\\sin\\theta = c$, express it in the form $r\\cos(\\theta-\\alpha) = c$ and state the condition for the equation to have a solution. Use $a=3$, $b=4$, and $c=5$ as an example."
+     "$P(A)+P(B)-P(A\\cap B)$",
+     "For two events, $P(A\\cup B)$ equals",
+     "$P(A)+P(B)$",
+     "$P(A)P(B)$",
+     "$P(A)-P(B)$",
+     "the addition law; (a) double-counts the overlap."
     ]
    }
   ]
@@ -409,56 +346,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.1646,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 4,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 3,
   "bank_items": 585,
-  "seconds": 4.7,
+  "seconds": 4.8,
   "samples": [
    {
-    "unit": "Product of Vectors",
+    "unit": "Differential Equations",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "The area of a parallelogram with diagonals $\\vec{d_1}$, $\\vec{d_2}$ is half the modulus of $\\vec{d_1}\\times\\vec{d_2}$. With the determinant expansion,",
-     "Find the area of the parallelogram whose diagonals are $\\vec{a}=\\vec{i}-2\\vec{k}$ and $\\vec{b}=4\\vec{i}+3\\vec{j}+\\vec{k}$. [3]"
+     "The highest derivative is $\\dfrac{d^{3}s}{dt^{3}}$, so the order is $3$. Square to remove the radical:",
+     "Find the order and degree of $\\dfrac{d^{3}s}{dt^{3}}=\\Big(4+\\Big(\\dfrac{d^{2}s}{dt^{2}}\\Big)^{2}\\Big)^{1/2}$. [2]"
     ]
    },
    {
-    "unit": "Derivatives",
+    "unit": "Probability",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$\\cosh x$",
-     "Which of the following represents the derivative of $\\sinh x$?",
-     "$-\\cosh x$",
-     "$\\sinh x$",
-     "$\\tanh x$",
-     "The derivative of $\\sinh x$ is defined as $\\cosh x$."
+     "$\\dfrac{1}{221}$",
+     "What is the probability of drawing two aces consecutively from a standard deck of 52 cards without replacement?",
+     "$\\dfrac{2}{51}$",
+     "$\\dfrac{1}{17}$",
+     "$\\dfrac{1}{663}$",
+     "The calculation follows from the product of probabilities of drawing an ace first and then another ace without replacement."
     ]
    },
    {
-    "unit": "Mechanics",
+    "unit": "Solution of Triangles",
     "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "$f = \\mu N = 0.25(100) = 25\\ \\text{N}$",
-     "Why does the frictional force $f$ equal $25\\ \\text{N}$ when the normal reaction $N$ is $100\\ \\text{N}$ and the coefficient of friction $\\mu$ is $0.25$?",
-     "$f = \\mu N = 0.5(100) = 50\\ \\text{N}$",
-     "$f = \\mu N = 0.25(200) = 50\\ \\text{N}$",
-     "$f = \\mu N = 0.1(100) = 10\\ \\text{N}$",
-     "The frictional force is calculated directly by multiplying the normal reaction by the coefficient of friction as given."
-    ]
-   },
-   {
-    "unit": "Matrix Based System of Linear Equations",
-    "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "If $|A| \\ne 0$ then $A^{-1}$ exists; multiplying $AX = B$ on the left by it gives $(A^{-1}A)X = A^{-1}B$, i.e. $IX = X = A^{-1}B$.",
-     "Show that $AX = B$ has the solution $X = A^{-1}B$ when $|A| \\ne 0$, and solve $\\;x + 2y - z = 2$, $\\;2x - y + z = 3$, $\\;x + y + z = 6$ by the inverse matrix method."
+     "sine law",
+     "Two angles and one side are given. The right tool is",
+     "cosine law",
+     "tangent law",
+     "Heron's formula",
+     "find the third angle from $A+B+C=180^{\\circ}$, then the sine law gives the remaining sides."
     ]
    }
   ]
@@ -467,56 +395,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 3.9843,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 2,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 3,
   "bank_items": 387,
-  "seconds": 1.9,
+  "seconds": 1.7,
   "samples": [
    {
+    "unit": "Computer Software and Operating System",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "Linux, developed in 1991 by Torvalds, is a free UNIX-like kernel, succeeding UNIX (1969, Bell Labs). The kernel directly interacts with the hardware, while the shell acts as a command interpreter between users and the kernel.",
+     "Explain the relationship between the Linux kernel and UNIX, and describe the role of the kernel and the shell in an operating system."
+    ]
+   },
+   {
+    "unit": "Application Package",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "primary key",
+     "What characteristic does BookID have in a book database to ensure uniqueness and non-null values?",
+     "foreign key",
+     "index",
+     "attribute",
+     "BookID is defined as the primary key because it ensures each book's ID is unique and not null."
+    ]
+   },
+   {
     "unit": "Number System and Boolean Logic",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "The groups circled in the K-map are of sizes eight, four, and two cells.",
-     "Identify and list the size of each group (in terms of cells) circled in the K-map for the function $F = \\sum m(0,1,4,5,6,7,10,12,13,14,15)$."
-    ]
-   },
-   {
-    "unit": "Programming Concepts and Logics",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "The post-increment operator (++ after variable) first uses the current value of $x$ for the assignment to $y$, then increments $x$ by 1.",
-     "Why does the expression $y = x++$ result in $y = 10$ while leaving $x = 11$ when $x$ was initially 10?",
-     "The pre-increment operator (++ before variable) increments $x$ before using it for the assignment to $y$.",
-     "The division operation rounds the value of $x$ down to 10 before assigning to $y$ and increments $x$.",
-     "The assignment operator (=) increments $x$ by 1 before the value is assigned to $y$.",
-     "The post-increment operator (++ after variable) ensures that the initial value of $x$ is used in the assignment to $y$ before incrementing $x$ by 1."
-    ]
-   },
-   {
-    "unit": "Programming Concepts and Logics",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "Reverse = 121 and Palindrome",
-     "What does a C program do when it reads the integer 121, reverses it, and checks if it is a palindrome?",
-     "Reverse = 121 and Not a palindrome",
-     "Reverse = 211 and Palindrome",
-     "Reverse = 211 and Not a palindrome",
-     "The example run provided for the integer 121 confirms the output as Reverse = 121 and identifies it as a palindrome."
-    ]
-   },
-   {
-    "unit": "Programming Concepts and Logics",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "Accessing marks[5] and marks[-1] in a five-element array exceeds the valid index range [0, 4]. In C, such out-of-bound accesses do not cause errors but modify adjacent memory locations, leading to potential data corruption. This can introduce bugs and security vulnerabilities in the program.",
-     "Explain why accessing marks[5] and marks[-1] in an array of five elements can lead to memory corruption in C."
+     "$F = AB + \\bar{A}\\bar{B}$",
+     "Which of the following expressions correctly represents the output of an XNOR gate with inputs $A$ and $B$?",
+     "$F = \\overline{A+B}$",
+     "$F = A\\cdot B$",
+     "$F = \\bar{A}+\\bar{B}$",
+     "The expression $F = AB + \\bar{A}\\bar{B}$ directly matches the definition of an XNOR gate's truth table as given."
     ]
    }
   ]
@@ -525,56 +444,47 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 4.4192,
-  "slots": 4,
+  "slots": 3,
   "neural_accepted": 0,
-  "bank_fallback": 4,
-  "attempts": 8,
-  "units_hit": 2,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 3,
   "bank_items": 360,
-  "seconds": 2.0,
+  "seconds": 4.8,
   "samples": [
    {
-    "unit": "Database Management System",
+    "unit": "Object-Oriented Programming",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The relational model (proposed by E.F. Codd, 1970) organizes data into tables with rows and columns, where each table links to others through matching key values. This contrasts with hierarchical and network models which use tree and graph structures respectively. For a database to be in first normal form (1NF), every column must contain atomic values without repeating groups. Each row in a table represents an entity instance with distinct values across columns, ensuring data consistency and integrity within the DBMS.",
-     "Explain the concept of the relational model in database management systems as proposed by E.F. Codd in 1970, and describe what it means for a database to be in first normal form (1NF)."
+     "Polymorphism allows one name or message to have different behaviors based on context. A base pointer fails to invoke a derived function without virtual because it calls the function based on static type, not dynamic type. Virtual functions enable dynamic binding, ensuring the correct derived function is called.",
+     "Explain polymorphism and describe why a base pointer might fail to call a derived function without using virtual functions."
     ]
    },
    {
-    "unit": "Data Communication and Networking",
+    "unit": "Programming in C",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$2^{32} \\approx 4.3$ billion",
-     "What is the total number of IP addresses available in the IPv4 address space?",
-     "$2^{24} \\approx 16$ million",
-     "$2^{48} \\approx 2.8 \\times 10^{14}$",
-     "$2^{16} \\approx 65$ thousand",
-     "Each octet ranges from 0 to 255, leading to approximately 4.3 billion unique addresses in IPv4."
+     "A union is a data structure where all its members share the same memory location.",
+     "What best describes a union in C programming?",
+     "A union is a collection of variables of different types stored sequentially in memory.",
+     "A union is a data type that can hold values of only one data type at a time.",
+     "A union is similar to an array where each element can be of a different data type.",
+     "A union has all its members sharing the same piece of memory, which directly aligns with the correct answer."
     ]
    },
    {
-    "unit": "Data Communication and Networking",
+    "unit": "Recent Trends in Technology",
     "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "total_marks",
-     "Which of the following is a valid C identifier?",
-     "2sum",
-     "total marks",
-     "int",
-     "an identifier may not start with a digit, contain a space, or be a keyword."
-    ]
-   },
-   {
-    "unit": "Data Communication and Networking",
-    "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "1. The receiver's modem demodulates the signal, converting it back to data. 2. Centralized storage on a server allows simultaneous access by multiple users. 3. Maintaining a single database ensures the latest version of records, like student data, is always available and reduces confusion.",
-     "Explain the process of signal conversion at the receiver end and the advantages of storing data on a centralized server."
+     "5G",
+     "What technology generation has a peak data rate of about $10$ Gbps?",
+     "4G",
+     "3G",
+     "1G",
+     "5G has a peak rate of about $10$ Gbps."
     ]
    }
   ]

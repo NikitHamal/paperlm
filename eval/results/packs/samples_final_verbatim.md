@@ -1,434 +1,436 @@
-# Verbatim samples from the shipped specialist packs (planner seed 15)
+# Verbatim samples from the shipped specialist packs (planner seed 16)
 
 Each paper is planned by the blueprint planner (syllabus-share quotas, anti-duplication tracker) from the pack's verified bank plus computed numericals. Source tags: gold = real NEB-style item, teacher = Qwen-32B draft that passed blind multi-order solve + entailment + distractor probes, computed = parametric solver.
 
 ## Biology - Class 12 (NEB)  (`bio12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.5528)
 
-**Q1. [Applied Biology; 1 mark; gold]** Which enzyme is needed for the digestion of milk protein in human beings?
+**Q1. [Plant Physiology; 1 mark; gold]** Who proposed the concept of totipotency of plant cells?
 
-- (a) rennin
-- (b) sucrase
-- (c) lactase
-- (d) pepsin
+- (a) Haberlandt
+- (b) Steward
+- (c) Skoog
+- (d) Murashige
 
-Key: (a) rennin. Why: rennin curdles casein in infants; lactase(b) digests the milk sugar, which is the trap. Pepsin also acts on protein but the classic milk-protein answer is rennin.
+Key: (a) Haberlandt. Why: Gottlieb Haberlandt (1902). Skoog and Miller found kinetin; Murashige and Skoog gave the medium.
 
-**Q2. [Animal Tissues; 1 mark; gold]** Which cells of connective tissue produce histamine and heparin?
+**Q2. [Applied Biology; 1 mark; gold]** The earthworm species normally used in vermicomposting is
 
-- (a) fibroblasts
-- (b) mast cells
-- (c) plasma cells
-- (d) macrophages
+- (a) Lampito mauritii
+- (b) Lumbricus terrestris
+- (c) Eisenia fetida
+- (d) Pheretima posthuma
 
-Key: (b) mast cells. Why: mast cell granules hold histamine and heparin. Plasma cells make antibodies.
+Key: (c) Eisenia fetida. Why: Eisenia fetida is epigeic. Lumbricus terrestris is anecic and unsuitable.
 
-**Q3. [Developmental Biology; 1 mark; gold]** Metamorphosis of a frog tadpole into an adult is controlled by
+**Q3. [Genetics; 1 mark; gold]** The promotion of flowering by a period of low temperature is called
 
-- (a) oestrogen
-- (b) insulin
-- (c) thyroxine
-- (d) adrenaline
+- (a) photoperiodism
+- (b) stratification
+- (c) scarification
+- (d) vernalisation
 
-Key: (c) thyroxine. Why: thyroxine from the thyroid; if the gland is removed, tadpoles remain tadpoles.
+Key: (d) vernalisation. Why: vernalisation; stratification and scarification are seed-dormancy treatments.
 
-**Q4. [Human Biology; 1 mark; computed]** A person has a heart rate of $72\ \text{beats min}^{-1}$ and a stroke volume of $60\ \text{mL}$. What is the cardiac output in litres per minute?
+**Q4. [Human Biology; 1 mark; computed]** A person has a heart rate of $75\ \text{beats min}^{-1}$ and a stroke volume of $70\ \text{mL}$. What is the cardiac output in litres per minute?
 
-- (a) $8.64\ \text{L min}^{-1}$
-- (b) $1.2\ \text{L min}^{-1}$
-- (c) $4.32\ \text{L min}^{-1}$
-- (d) $43.2\ \text{L min}^{-1}$
+- (a) $5.25\ \text{L min}^{-1}$
+- (b) $52.5\ \text{L min}^{-1}$
+- (c) $1.07\ \text{L min}^{-1}$
+- (d) $10.5\ \text{L min}^{-1}$
 
-Key: (c) $4.32\ \text{L min}^{-1}$. Why: Cardiac output $=$ heart rate $\times$ stroke volume. $CO = 72\times 60\ \text{mL min}^{-1}$ $CO = 4.32\ \text{L min}^{-1}$
+Key: (a) $5.25\ \text{L min}^{-1}$. Why: Cardiac output $=$ heart rate $\times$ stroke volume. $CO = 75\times 70\ \text{mL min}^{-1}$ $CO = 5.25\ \text{L min}^{-1}$
 
-**Q5. [Plant Physiology; 3 marks; teacher]** Why does PEP carboxylase play a crucial role in plant photosynthesis?
-
-Marking scheme:
-
-- PEP carboxylase facilitates CO2 transport to the bundle sheath cells.  **[1]**
-- This ensures RuBisCO operates in a CO2-rich environment.  **[1]**
-- Thus, enhancing the efficiency of the Calvin cycle by minimizing photorespiration.  **[1]**
-
-**Q6. [Genetics; 5 marks; teacher]** In a dihybrid cross between heterozygous parents (RrYy x RrYy), calculate the expected phenotypic ratio and numbers for 1600 offspring. Additionally, explain Chargaff's rule regarding the base composition in DNA.
+**Q5. [Developmental Biology; 2 marks; teacher]** Describe the three parts of the mesoderm and their respective roles in development.
 
 Marking scheme:
 
-- For 1600 offspring: round yellow (900), round green (300), wrinkled yellow (300), wrinkled green (100).  **[2]**
-- Each gene follows Rr × Rr and Yy × Yy, each giving 1/2 chance of heterozygote.  **[1]**
-- In DNA, Chargaff's rule states $A = T$ and $G = C$, thus purines equal pyrimidines, $\frac{A+G}{T+C} = 1$.  **[1]**
-- Expected (E) and observed (O) totals match.  **[1]**
+- The mesoderm splits into epimere (forms somites → muscles and vertebrae), mesomere (develops into kidney), and hypomere (contains coelom cavity).  **[2]**
+
+**Q6. [Animal Tissues; 5 marks; teacher]** Describe the structure of a multipolar motor neuron observed in a spinal-cord smear under ×100 magnification and explain how nerve impulses are conducted and transmitted.
+
+Marking scheme:
+
+- A multipolar motor neuron features a large cell body containing a prominent nucleus and numerous branching dendrites.  **[1]**
+- Nissl granules are present in the cytoplasm of the neuron's cell body.  **[1]**
+- The neuron has one axon that conducts impulses away from the cell body.  **[1]**
+- Impulse conduction is facilitated by myelin sheath interspersed with nodes of Ranvier, enabling saltatory conduction.  **[1]**
+- Transmission occurs chemically at the synapse, which allows unidirectional impulse transfer.  **[1]**
 
 ## Physics - Class 11 (NEB)  (`phy11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.4801)
 
-**Q1. [Nuclear physics; 1 mark; gold]** The radius of a nucleus of mass number $A$ is proportional to
+**Q1. [Physical Quantities; 1 mark; gold]** The value of $1/4\pi\varepsilon_0$ in SI units is
 
-- (a) $A^{1/3}$
-- (b) $A^{2}$
-- (c) $A$
-- (d) $A^{2/3}$
+- (a) $9\times10^{9}$
+- (b) $6.67\times10^{-11}$
+- (c) $8.85\times10^{-12}$
+- (d) $1.6\times10^{-19}$
 
-Key: (a) $A^{1/3}$. Why: volume is proportional to $A$, so radius goes as the cube root.
+Key: (a) $9\times10^{9}$. Why: option(b) is $\varepsilon_0$ itself, which is what the $9\times10^{9}$ is built from.
 
-**Q2. [Reflection at curved mirror; 1 mark; gold]** The linear magnification produced by a mirror is
+**Q2. [Nuclear physics; 1 mark; teacher]** In a nuclear reaction involving nucleons, what remains constant in terms of quantity?
 
-- (a) $m = -u/v$
-- (b) $m = -v/u$
-- (c) $m = v/u$
-- (d) $m = u/v$
+- (a) The speed of nucleons
+- (b) The energy of nucleons
+- (c) The total number of nucleons
+- (d) The mass of nucleons
 
-Key: (b) $m = -v/u$. Why: the minus sign is what tells you a real image is inverted. Option (a) is the lens magnification.
+Key: (c) The total number of nucleons. Why: Nucleons are neither created nor destroyed, ensuring the conservation of their total number.
 
-**Q3. [Electric field; 1 mark; teacher]** Consider a cylindrical region with a wire running along its central axis. If the radius of this cylinder is denoted by $r$ and its length by $l$, which statement correctly describes their orientation?
+**Q3. [Dynamics; 1 mark; gold]** The dimensional formula $[ML^{-1}T^{-2}]$ belongs to
 
-- (a) The wire is tangent to the surface of the cylinder.
-- (b) The wire is perpendicular to the axis of the cylinder.
-- (c) The wire is along the axis of the cylinder.
-- (d) The wire crosses the cylinder at an angle of 45 degrees.
+- (a) surface tension
+- (b) force constant
+- (c) linear momentum
+- (d) pressure
 
-Key: (c) The wire is along the axis of the cylinder.. Why: The wire's position along the cylinder's axis is explicitly stated in the description.
+Key: (d) pressure. Why: pressure is force per area. Surface tension and force constant are both $[MT^{-2}]$, momentum is $[MLT^{-1}]$.
 
-**Q4. [DC Circuits; 1 mark; computed]** A cell of emf $24\ \text{V}$ and internal resistance $1\ \Omega$ is connected to an external resistance of $10\ \Omega$. Find the current in the circuit.
+**Q4. [DC Circuits; 1 mark; computed]** A cell of emf $12\ \text{V}$ and internal resistance $1\ \Omega$ is connected to an external resistance of $4\ \Omega$. Find the current in the circuit.
 
-- (a) $24\ \text{A}$
-- (b) $2.4\ \text{A}$
-- (c) $2.18\ \text{A}$
-- (d) $2.67\ \text{A}$
+- (a) $2.4\ \text{A}$
+- (b) $4\ \text{A}$
+- (c) $12\ \text{A}$
+- (d) $60\ \text{A}$
 
-Key: (c) $2.18\ \text{A}$. Why: For a cell with internal resistance $I = \dfrac{E}{R + r}$. $I = \dfrac{E}{R+r} = \dfrac{24}{10+1}$ $I = 2.18\ \text{A}$
+Key: (a) $2.4\ \text{A}$. Why: For a cell with internal resistance $I = \dfrac{E}{R + r}$. $I = \dfrac{E}{R+r} = \dfrac{12}{4+1}$ $I = 2.4\ \text{A}$
 
-**Q5. [Physical Quantities; 3 marks; teacher]** Define absolute error, mean absolute error, relative error, and percentage error. Given the mass of a body as $20.00 \pm 0.05\ \text{g}$ and its volume as $5.00 \pm 0.02\ \text{cm}^3$, calculate the relative error in mass.
-
-Marking scheme:
-
-- Absolute error: difference between true value and measured value.  **[1]**
-- Mean absolute error: average of absolute errors.  **[1]**
-- Relative error: absolute error divided by true value.  **[1]**
-
-**Q6. [Nuclear physics; 5 marks; teacher]** Explain the concept of pair production in nuclear physics and justify why it requires a minimum energy of $1.02\ \text{MeV}$ and must occur in the vicinity of a nucleus.
+**Q5. [Electric field; 3 marks; teacher]** Explain the significance of using a limit $q_0 \to 0$ in determining the electric field and describe the units of measurement for the electric field.
 
 Marking scheme:
 
-- Pair production involves the creation of an electron-positron pair from a photon.  **[2]**
-- It needs at least $1.02\ \text{MeV}$ because this is the total rest mass energy of both particles ($2 \times 0.511\ \text{MeV}$).  **[1]**
-- This process must happen near a nucleus due to the need to conserve both energy and momentum; the nucleus provides a rest frame to balance the momentum.  **[1]**
-- Additionally, the high electric field near a nucleus facilitates the conversion of photon energy into particle mass.  **[1]**
+- The limit $q_0 \to 0$ ensures the test charge does not affect the field.  **[2]**
+- Electric field units are N C⁻¹ or V m⁻¹, indicating force per unit charge or potential difference per distance.  **[1]**
+
+**Q6. [Reflection at curved mirror; 5 marks; teacher]** A concave mirror has a focal length of $f=-20\ \text{cm}$. An object is placed at a distance of $u=-30\ \text{cm}$ from the mirror. Calculate the image distance $v$ and verify the magnification formula using the values obtained.
+
+Marking scheme:
+
+- Given $f=-20\ \text{cm}$ and $u=-30\ \text{cm}$, use the mirror formula: $\dfrac{1}{v}=\dfrac{1}{f}-\dfrac{1}{u}=-\dfrac{1}{20}+\dfrac{1}{30}=-\dfrac{1}{60}$, thus $v=-60\ \text{cm}$.  **[1]**
+- Verify magnification: $\dfrac{1}{f}-\dfrac{1}{v}=\dfrac{1}{u}$.  **[1]**
+- Substitute $v=-60\ \text{cm}$: $\dfrac{1}{-20}-\dfrac{1}{-60}=\dfrac{1}{-30}$.  **[1]**
+- Simplify: $-\dfrac{3}{60}+\dfrac{1}{60}=-\dfrac{2}{60}=-\dfrac{1}{30}$.  **[1]**
+- This confirms the magnification formula holds true.  **[1]**
 
 ## Biology - Class 11 (NEB)  (`bio11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.5011)
 
-**Q1. [Biota and Environment; 1 mark; gold]** The technique used to amplify a small sample of DNA many million times is
+**Q1. [Biomolecules and Cell Biology; 1 mark; computed]** An organism has $2n = 24$ chromosomes in its somatic cells. How many chromosomes does each gamete contain?
 
-- (a) PCR
-- (b) chromatography
-- (c) ELISA
-- (d) electrophoresis
+- (a) $12$
+- (b) $48$
+- (c) $6$
+- (d) $24$
 
-Key: (a) PCR. Why: the polymerase chain reaction, invented by Kary Mullis.
+Key: (a) $12$. Why: Meiosis halves the chromosome number, so a gamete is haploid ($n$). $n = \dfrac{2n}{2} = \dfrac{24}{2}$ $n = 12$
 
-**Q2. [Ecology; 1 mark; gold]** The term ecosystem was coined in 1935 by
+**Q2. [Biota and Environment; 1 mark; teacher]** What is the carrying capacity $K$ of a fish population in Phewa Tal?
 
-- (a) R. L. Lindeman
-- (b) A. G. Tansley
-- (c) E. P. Odum
-- (d) Charles Elton
+- (a) $K = 9000$
+- (b) $K = 7500$
+- (c) $K = 8000$
+- (d) $K = 8500$
 
-Key: (b) A. G. Tansley. Why: Tansley, 1935; Lindeman later quantified the energy flow.
+Key: (c) $K = 8000$. Why: The carrying capacity $K$ of a fish population in Phewa Tal is explicitly stated as $K = 8000$.
 
-**Q3. [Evolutionary Biology; 1 mark; gold]** The ship on which Darwin made his five-year voyage was the
+**Q3. [Floral Diversity; 1 mark; gold]** The three-domain system of classification was proposed by
 
-- (a) Endeavour
-- (b) Challenger
-- (c) Beagle
-- (d) Discovery
+- (a) R. H. Whittaker
+- (b) Carolus Linnaeus
+- (c) Ernst Haeckel
+- (d) Carl Woese
 
-Key: (c) Beagle. Why: HMS Beagle, 1831–36.
+Key: (d) Carl Woese. Why: Woese (1977, 1990), on the basis of 16S/18S rRNA sequences.
 
-**Q4. [Biomolecules and Cell Biology; 1 mark; computed]** An organism has $2n = 24$ chromosomes in its somatic cells. How many chromosomes does each gamete contain?
+**Q4. [Faunal Diversity; 1 mark; gold]** The scientific name of the Indian bullfrog studied in the CDC course is
 
-- (a) $6$
-- (b) $24$
-- (c) $12$
-- (d) $48$
+- (a) Rana tigrina
+- (b) Bufo melanostictus
+- (c) Hyla arborea
+- (d) Xenopus laevis
 
-Key: (c) $12$. Why: Meiosis halves the chromosome number, so a gamete is haploid ($n$). $n = \dfrac{2n}{2} = \dfrac{24}{2}$ $n = 12$
+Key: (a) Rana tigrina. Why: Rana tigrina (now often Hoplobatrachus tigerinus), the Indian bullfrog.
 
-**Q5. [Biomolecules and Cell Biology; 3 marks; teacher]** Describe the roles of the Golgi body in plant cells during cytokinesis.
-
-Marking scheme:
-
-- Forms lysosomes. 2.  **[1]**
-- Secretes polysaccharides for cell wall synthesis. 3.  **[1]**
-- Supplies vesicles for cell plate formation during cytokinesis.  **[1]**
-
-**Q6. [Floral Diversity; 5 marks; teacher]** Explain the significance of heterospory in plant evolution and describe the characteristics of angiosperms, including their diversity.
+**Q5. [Evolutionary Biology; 3 marks; teacher]** Describe the concept of speciation using the example of the peppered moth (Biston betularia) in Manchester pre-1850.
 
 Marking scheme:
 
-- Heterospory is significant as it marks an evolutionary step towards seed formation in plants like Selaginella, Marsilea, and Salvinia.  **[2]**
-- Angiosperms are characterized by flowers and seeds enclosed within fruits.  **[1]**
-- They represent the largest and most successful plant group with about $2{,}50{,}000$ species.  **[1]**
-- These features enhance reproductive success and adaptability, contributing to their widespread distribution and diversity.  **[1]**
+- Speciation involves gradual variation accumulation over generations, forming a new species.  **[1]**
+- Pre-1850 in Manchester, the peppered moth was predominantly light-colored.  **[1]**
+- Environmental changes later favored darker variants, illustrating how species can evolve due to natural selection.  **[1]**
+
+**Q6. [Ecology; 5 marks; teacher]** Explain the role of respiration and decomposition in the carbon cycle and how global warming is related to greenhouse gases. Also, state why the pyramid of energy cannot be inverted unlike pyramids of number and biomass.
+
+Marking scheme:
+
+- Respiration in plants, animals, and microbes releases CO₂ into the atmosphere.  **[1]**
+- Decomposition breaks down dead matter, also releasing CO₂.  **[1]**
+- Greenhouse gases trap heat in the troposphere, leading to global warming.  **[1]**
+- The pyramid of energy cannot invert because energy transfer follows the second law of thermodynamics, losing energy as heat at each trophic level ($E_{n+1} = E_n \times 0.1$, where $E$ is energy at trophic levels $n$ and $n+1$).  **[1]**
+- In contrast, pyramids of number and biomass may invert due to variations in organism sizes and population densities.  **[1]**
 
 ## Physics - Class 12 (NEB)  (`phy12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.6191)
 
-**Q1. [Magnetic field; 1 mark; computed]** A straight wire of length $40\ \text{cm}$ carrying a current of $1\ \text{A}$ is placed perpendicular to a magnetic field of $80\ \text{mT}$. Find the force on the wire.
+**Q1. [Rotational dynamics; 1 mark; teacher]** The formula for the moment of inertia of a body about an axis is given by $I = \sum m r^{2}$. What does this quantity measure in relation to rotational motion?
 
-- (a) $0.032\ \text{N}$
-- (b) $0.0032\ \text{N}$
-- (c) $3.2\ \text{N}$
-- (d) $0.32\ \text{N}$
+- (a) Resistance to a change in rotational motion
+- (b) Speed of rotation
+- (c) Rate of rotational motion
+- (d) Torque applied to the body
 
-Key: (a) $0.032\ \text{N}$. Why: The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 80\times10^{-3}\times1\times40\times10^{-2}$ $F = 0.032\ \text{N}$
+Key: (a) Resistance to a change in rotational motion. Why: The moment of inertia measures the resistance to a change in rotational motion, analogous to how mass measures resistance in linear motion.
 
-**Q2. [Polarization; 1 mark; gold]** Unpolarized light of intensity $I_0$ passes through an ideal polaroid. The transmitted intensity is
+**Q2. [Magnetic field; 1 mark; computed]** A straight wire of length $20\ \text{cm}$ carrying a current of $4\ \text{A}$ is placed perpendicular to a magnetic field of $50\ \text{mT}$. Find the force on the wire.
 
-- (a) zero
-- (b) $I_0/2$
-- (c) $I_0$
-- (d) $I_0/4$
+- (a) $0.004\ \text{N}$
+- (b) $0.4\ \text{N}$
+- (c) $0.04\ \text{N}$
+- (d) $4\ \text{N}$
 
-Key: (b) $I_0/2$. Why: the polaroid passes one of the two equal components of the random polarization.
+Key: (c) $0.04\ \text{N}$. Why: The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 50\times10^{-3}\times4\times20\times10^{-2}$ $F = 0.04\ \text{N}$
 
-**Q3. [Electrical circuits; 1 mark; teacher]** What is the specific heat capacity of water used in the calculation?
+**Q3. [Fluid statics; 1 mark; gold]** Two capillary tubes of radii $4\ \text{mm}$ and $2\ \text{mm}$ are dipped in the same liquid. The ratio of the heights of rise in them is
 
-- (a) $8400\ \text{J kg}^{-1}\text{K}^{-1}$
-- (b) $2100\ \text{J kg}^{-1}\text{K}^{-1}$
-- (c) $4200\ \text{J kg}^{-1}\text{K}^{-1}$
-- (d) $1050\ \text{J kg}^{-1}\text{K}^{-1}$
+- (a) $2:1$
+- (b) $1:4$
+- (c) $4:1$
+- (d) $1:2$
 
-Key: (c) $4200\ \text{J kg}^{-1}\text{K}^{-1}$. Why: If 80 % of the electrical energy reaches the water, how long does it take? Take the specific heat capacity of water as $4200\ \text{J kg}^{-1}\text{K}^{-1}$.
+Key: (d) $1:2$. Why: $h\propto 1/r$, so the wider tube gives the smaller rise: $\dfrac{h_{4}}{h_{2}} = \dfrac{r_{2}}{r_{4}} = \dfrac{2}{4} = 1:2$. Option(b) inverts the ratio.
 
-**Q4. [Thermoelectric effects; 1 mark; teacher]** Given the relationship between the thermoelectric potential $E = \alpha\theta + \frac{1}{2}\beta\theta^{2}$, what expression correctly represents the thermoelectric power (Seebeck coefficient)?
+**Q4. [Thermoelectric effects; 1 mark; gold]** Antimony and bismuth are chosen for a thermopile because
 
-- (a) $S = \alpha\theta + \beta\theta^2$
-- (b) $S = \alpha\theta + \beta$
-- (c) $S = \alpha + \beta\theta$
-- (d) $S = \frac{\alpha}{\theta} + \frac{1}{2}\beta\theta$
+- (a) they lie at opposite ends of the thermoelectric series
+- (b) they are cheap
+- (c) they melt at a high temperature
+- (d) they are black
 
-Key: (c) $S = \alpha + \beta\theta$. Why: The derivative of $E$ with respect to $\theta$ yields the thermoelectric power as $S = \alpha + \beta\theta$.
+Key: (a) they lie at opposite ends of the thermoelectric series. Why: the widest separation in the series gives the largest thermo-e.m.f.
 
-**Q5. [Rotational dynamics; 3 marks; teacher]** Derive the moment of inertia of a uniform thin rod of mass M and length L about an axis through its center perpendicular to its length. Show the integral setup and the final expression.
-
-Marking scheme:
-
-- Consider a small element $dx$ at distance $x$ from center C.  **[1]**
-- Mass element $dm = \frac{M}{L} dx$.  **[1]**
-- Moment of inertia $dI = x^2 dm = \frac{M}{L} x^2 dx$.  **[1]**
-
-**Q6. [Fluid statics; 5 marks; teacher]** Calculate the work done in blowing a soap bubble of radius $3\ \text{cm}$ and determine the excess pressure inside it, given that the surface tension $T = 0.03\ \text{N m}^{-1}$. Additionally, explain how surface tension changes with temperature and the effect of detergents on it.
+**Q5. [Electrical circuits; 2 marks; gold]** State and derive Joule's law of heating, and explain why the element of a heater glows red while its copper connecting leads stay cool.
 
 Marking scheme:
 
-- The work done to blow a soap bubble of radius $3\ \text{cm}$ is $W = 8\pi R^2 T = 8\pi (0.03)^2 (0.03) = 2.26\times10^{-4}\ \text{J}$.  **[2]**
-- The excess pressure inside the bubble is $4T/R = 4(0.03)/(0.03) = 4\ \text{Pa}$.  **[2]**
-- Surface tension decreases with increasing temperature and is reduced by detergents.  **[1]**
+- $W = qV = VIt = I^2Rt$, all of which appears as heat since the drift velocity is unchanged.  **[2]**
+
+**Q6. [Polarization; 5 marks; teacher]** Given the refractive index of glass as $1.5$, calculate the polarizing angle ($\theta_p$) and the corresponding angle of refraction. Also, explain how to determine the degree of polarization using the intensities $I_{\max}$ and $I_{\min}$.
+
+Marking scheme:
+
+- Use the formula $\theta_p = \tan^{-1}(n)$ where $n=1.5$.  **[1]**
+- Thus, $\theta_p = \tan^{-1}(1.5) = 56.31^\circ$. 2.  **[1]**
+- The corresponding angle of refraction can be found using Snell's law, $n_1\sin(\theta_i) = n_2\sin(\theta_r)$.  **[1]**
+- For air ($n_1 = 1$) to glass ($n_2 = 1.5$), $\sin(\theta_r) = \frac{\sin(56.31^\circ)}{1.5}$.  **[1]**
+- Hence, $\theta_r = 33.69^\circ$. 3.  **[1]**
 
 ## Chemistry - Class 11 (NEB)  (`chem11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.8785)
 
-**Q1. [Modern Chemical Manufactures; 1 mark; gold]** An efflorescent substance is
+**Q1. [Foundation and Fundamentals; 1 mark; computed]** How many molecules are present in $2\ \text{mol}$ of a substance? ($N_A = 6.022\times10^{23}\ \text{mol}^{-1}$)
 
-- (a) $\text{Na}_2\text{CO}_3\cdot10\text{H}_2\text{O}$
-- (b) conc. $\text{H}_2\text{SO}_4$
-- (c) anhydrous $\text{CaCl}_2$
-- (d) NaCl
+- (a) $1.204\times10^{24}\ \text{molecules}$
+- (b) $1.204\times10^{22}\ \text{molecules}$
+- (c) $2.409\times10^{24}\ \text{molecules}$
+- (d) $1.204\times10^{23}\ \text{molecules}$
 
-Key: (a) $\text{Na}_2\text{CO}_3\cdot10\text{H}_2\text{O}$. Why: washing soda loses water on standing.
+Key: (a) $1.204\times10^{24}\ \text{molecules}$. Why: Number of particles $N = n\times N_A$ with $N_A = 6.022\times10^{23}\ \text{mol}^{-1}$. $N = nN_A = 2\times6.022\times10^{23}$ $N = 1.204\times10^{24}$
 
-**Q2. [Chemistry of Non-metals; 1 mark; gold]** The gas prepared in a Kipp's apparatus from $\text{FeS}$ is
+**Q2. [Modern Chemical Manufactures; 1 mark; gold]** In the diaphragm cell the product formed at the cathode is
 
-- (a) $\text{SO}_2$
-- (b) $\text{H}_2\text{S}$
-- (c) $\text{H}_2$
-- (d) $\text{CO}_2$
+- (a) oxygen
+- (b) sodium metal
+- (c) hydrogen
+- (d) chlorine
 
-Key: (b) $\text{H}_2\text{S}$. Why: $\text{FeS}$ with dilute acid gives hydrogen sulphide; (b) comes from marble.
+Key: (c) hydrogen. Why: water is reduced in preference to Na⁺, so hydrogen is evolved; sodium metal needs molten NaCl.
 
-**Q3. [Fundamental Principles of Organic Chemistry; 1 mark; teacher]** According to Dalton's law of partial pressures, if the total pressure in a vessel is $P$, what expression represents the partial pressure ($p_i$) of a component gas with mole fraction $x_i$?
+**Q3. [Chemical Bonding and Shapes of Molecules; 1 mark; gold]** The shape of the ammonia molecule is
 
-- (a) $p_i = P - x_i$
-- (b) $p_i = \frac{x_i}{P}$
-- (c) $p_i = x_iP$
-- (d) $p_i = x_i + P$
+- (a) tetrahedral
+- (b) planar
+- (c) linear
+- (d) trigonal pyramidal
 
-Key: (c) $p_i = x_iP$. Why: The correct expression according to Dalton's law is $p_i = x_iP$.
+Key: (d) trigonal pyramidal. Why: three bond pairs and one lone pair; (a) ignores the lone pair.
 
-**Q4. [Foundation and Fundamentals; 1 mark; computed]** How many molecules are present in $3\ \text{mol}$ of a substance? ($N_A = 6.022\times10^{23}\ \text{mol}^{-1}$)
+**Q4. [Hydrocarbons; 1 mark; gold]** Which one does not undergo sulphonation with oleum?
 
-- (a) $3.613\times10^{24}\ \text{molecules}$
-- (b) $1.807\times10^{23}\ \text{molecules}$
-- (c) $1.807\times10^{24}\ \text{molecules}$
-- (d) $1.807\times10^{22}\ \text{molecules}$
+- (a) methane
+- (b) hexane
+- (c) heptane
+- (d) 2-methylpropane
 
-Key: (c) $1.807\times10^{24}\ \text{molecules}$. Why: Number of particles $N = n\times N_A$ with $N_A = 6.022\times10^{23}\ \text{mol}^{-1}$. $N = nN_A = 3\times6.022\times10^{23}$ $N = 1.807\times10^{24}$
+Key: (a) methane. Why: the first three members, methane, ethane and propane, do not sulphonate.
 
-**Q5. [Foundation and Fundamentals; 3 marks; teacher]** Calculate the mass of NaOH required to neutralize 0.5 mol of H_2SO_4, given the molar mass of NaOH is 40 g/mol.
-
-Marking scheme:
-
-- Reaction: H_2SO_4 + 2NaOH -> Na_2SO_4 + 2H_2O. 2.  **[1]**
-- Moles of NaOH = 0.5 mol * 2 = 1 mol. 3.  **[1]**
-- Mass of NaOH = 1 mol * 40 g/mol = 40 g.  **[1]**
-
-**Q6. [Chemical Bonding and Shapes of Molecules; 5 marks; teacher]** Using VSEPR theory, predict and explain the shape of $\text{H}_2\text{O}$ molecule. Account for its bond angle based on the presence of lone pairs. Include the number of lone pairs present on each atom.
+**Q5. [Fundamental Principles of Organic Chemistry; 2 marks; teacher]** Why does a C=C double bond not rotate freely? Provide the energy cost associated with breaking the π bond.
 
 Marking scheme:
 
-- The $\text{H}_2\text{O}$ molecule has a bent shape due to the presence of two lone pairs on the oxygen atom.  **[2]**
-- Oxygen has six valence electrons; forming two bonds with hydrogen leaves four electrons as two lone pairs.  **[1]**
-- These lone pairs repel the bonding pairs, reducing the bond angle from ideal tetrahedral (109.5°) to approximately 104.5°.  **[1]**
-- The molecule has 2 lone pairs on the oxygen atom and no lone pairs on the hydrogen atoms.  **[1]**
+- The C=C double bond does not rotate freely because rotation would break the π bond.  **[1]**
+- The energy required to break this π bond is about 250 $kJ\ mol^{-1}$.  **[1]**
+
+**Q6. [Chemistry of Non-metals; 5 marks; teacher]** Given the reaction between zinc and dilute sulfuric acid, calculate the volume of hydrogen gas liberated at STP when 65 grams of zinc reacts completely. Also, write the balanced chemical equation for the preparation of ammonia using ammonium chloride and slaked lime.
+
+Marking scheme:
+
+- The reaction between zinc and sulfuric acid is $\text{Zn} + \text{H}_2\text{SO}_4 \rightarrow \text{ZnSO}_4 + \text{H}_2$.  **[1]**
+- For 65 grams of Zn (1 mole), 1 mole of $\text{H}_2$ is produced.  **[1]**
+- At STP, 1 mole of $\text{H}_2$ occupies 22.4 L.  **[1]**
+- Thus, 22.4 L of $\text{H}_2$ is liberated.  **[1]**
+- The balanced equation for ammonia preparation is $\ce{2NH4Cl + Ca(OH)2 ->[\Delta] CaCl2 + 2NH3^ + 2H2O}$.  **[1]**
 
 ## Chemistry - Class 12 (NEB)  (`chem12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.3057)
 
-**Q1. [Aldehydes and Ketones; 1 mark; gold]** Tollens' reagent is obtained when AgNO₃ solution is treated with
+**Q1. [Chemical Kinetics; 1 mark; gold]** The hydrolysis of ethyl acetate in a large excess of water is
 
-- (a) excess ammonia solution
-- (b) KI solution
-- (c) dilute HCl
-- (d) NaCl solution
+- (a) pseudo-first order
+- (b) second order
+- (c) zero order
+- (d) third order
 
-Key: (a) excess ammonia solution. Why: ammonia dissolves the brown Ag₂O first formed, giving the diamminesilver(I) ion that is reduced by aldehydes to a silver mirror.
+Key: (a) pseudo-first order. Why: truly bimolecular, but $[\text{H}_2\text{O}]$ is constant, so it behaves as first order.
 
-**Q2. [Studies of Heavy Metals; 1 mark; gold]** The Bessemer converter is used in the extraction of copper for
+**Q2. [Aldehydes and Ketones; 1 mark; gold]** Bakelite is obtained from methanal and
 
-- (a) electrolytic refining of copper
-- (b) converting copper matte into blister copper
-- (c) concentrating copper pyrite
-- (d) roasting zinc blende
+- (a) urea
+- (b) benzene
+- (c) phenol
+- (d) aniline
 
-Key: (b) converting copper matte into blister copper. Why: hot air blown through molten matte oxidises FeS to slag and then Cu₂S to blister copper: 2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂, then 2Cu₂O + Cu₂S → 6Cu + SO₂.
+Key: (c) phenol. Why: phenol and methanal condense to a cross-linked, three-dimensional thermosetting network.
 
-**Q3. [Haloalkanes; 1 mark; gold]** Trichloromethane is stored in dark bottles filled to the brim because in air and light it forms
+**Q3. [Electrochemistry; 1 mark; computed]** Calculate the mass of copper deposited when a current of $2\ \text{A}$ is passed through $\text{CuSO}_4$ solution for $40$ minutes. (Cu $= 63.5$, $F = 96500\ \text{C mol}^{-1}$.)
 
-- (a) methanol
-- (b) HCl
-- (c) phosgene
-- (d) chloropicrin
+- (a) $3.16\ \text{g}$
+- (b) $6.32\ \text{g}$
+- (c) $0.0263\ \text{g}$
+- (d) $1.58\ \text{g}$
 
-Key: (c) phosgene. Why: slow photo-oxidation gives carbonyl chloride; the ethanol added destroys any phosgene formed and the full bottle excludes air.
+Key: (d) $1.58\ \text{g}$. Why: Faraday's first law gives $m = \dfrac{M I t}{nF}$. $m = \dfrac{MIt}{nF} = \dfrac{63.5\times2\times40\times60}{2\times96500}$ $m = 1.58\ \text{g}$
 
-**Q4. [Electrochemistry; 1 mark; computed]** Calculate the mass of copper deposited when a current of $3\ \text{A}$ is passed through $\text{CuSO}_4$ solution for $20$ minutes. (Cu $= 63.5$, $F = 96500\ \text{C mol}^{-1}$.)
+**Q4. [Alcohols; 1 mark; gold]** Ethanol heated with concentrated H₂SO₄ at 140 °C gives mainly
 
-- (a) $2.37\ \text{g}$
-- (b) $0.79\ \text{g}$
-- (c) $1.18\ \text{g}$
-- (d) $4.74\ \text{g}$
+- (a) ethoxyethane
+- (b) ethene
+- (c) ethanal
+- (d) ethyl hydrogen sulphate
 
-Key: (c) $1.18\ \text{g}$. Why: Faraday's first law gives $m = \dfrac{M I t}{nF}$. $m = \dfrac{MIt}{nF} = \dfrac{63.5\times3\times20\times60}{2\times96500}$ $m = 1.18\ \text{g}$
+Key: (a) ethoxyethane. Why: 140 °C favours intermolecular dehydration to the ether; 170 °C gives ethene.
 
-**Q5. [Chemical Kinetics; 3 marks; teacher]** Explain how to determine the order of a reaction with respect to reactant A using initial rates.
-
-Marking scheme:
-
-- Conduct multiple experiments, altering [A] while keeping other concentrations constant. 2.  **[1]**
-- Measure initial rates for each experiment. 3.  **[1]**
-- If doubling [A] doubles the rate, the order with respect to A is 1, as $2^1 = 2$.  **[1]**
-
-**Q6. [Electrochemistry; 5 marks; gold]** a) Draw the standard hydrogen electrode and label it. [2] b) Why is it called a reference electrode? [1] c) E°(Zn²⁺/Zn) = −0.76 V and E°(Pb²⁺/Pb) = −0.13 V. Write the cell notation and calculate the emf. [2] (NEB model set B)
+**Q5. [Haloalkanes; 3 marks; teacher]** Explain the rate law for the reaction of haloalkanes and what happens if the carbon attached to the halogen is chiral.
 
 Marking scheme:
 
-- (a) See the figure: platinum foil coated with platinum black, dipping in 1 M HCl; pure H₂ gas at 1 atm bubbled over it; a side tube to a salt bridge.(b) Its potential is fixed at zero by convention, so every other electrode potential is measured relative to it.(c) Zn (more negative) is the anode and Pb the cathode.  **[5]**
+- The rate law for the reaction of haloalkanes is $\text{rate} = k[\text{R-X}]$, indicating first-order kinetics.  **[2]**
+- If the carbon attached to the halogen is chiral, nucleophilic attack can occur from both faces, leading to a racemic mixture due to racemization.  **[1]**
+
+**Q6. [Studies of Heavy Metals; 5 marks; teacher]** Explain how to calculate the percentage of copper in chalcopyrite (CuFeS$_2$) and determine the copper content if the ore is 20% pure chalcopyrite.
+
+Marking scheme:
+
+- Calculate molar mass of CuFeS$_2$: $M(CuFeS_2) = 63.5 + 56 + 2(32) = 183.5$ g/mol. 2.  **[1]**
+- Determine %Cu in CuFeS$_2$: $\%Cu = \frac{63.5}{183.5} \times 100 = 34.60\%$. 3.  **[1]**
+- Given ore purity as 20%, calculate effective copper content: $0.200 \times 34.60\% = 6.92\%$. 4.  **[1]**
+- Thus, copper constitutes 6.92% of the ore by weight. 5.  **[1]**
+- This calculation helps assess copper concentration in ores for extraction processes.  **[1]**
 
 ## Mathematics - Class 11 (NEB)  (`math11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 1.9558)
 
-**Q1. [Computational Methods; 1 mark; gold]** The Newton–Raphson iteration formula is
+**Q1. [Curve Sketching; 1 mark; gold]** The period of $y = 5\cos 4x$ is
 
-- (a) $x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$
-- (b) $x_{n+1}=\frac{f(x_n)}{f'(x_n)}$
-- (c) $x_{n+1}=x_n+\frac{f(x_n)}{f'(x_n)}$
-- (d) $x_{n+1}=x_n-\frac{f'(x_n)}{f(x_n)}$
+- (a) $\frac{\pi}{2}$
+- (b) $2\pi$
+- (c) $\frac{\pi}{4}$
+- (d) $8\pi$
 
-Key: (a) $x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$. Why: subtract the ratio; (a) has the wrong sign and (c) inverts the ratio.
+Key: (a) $\frac{\pi}{2}$. Why: period $= \frac{2\pi}{|b|} = \frac{2\pi}{4} = \frac{\pi}{2}$; the amplitude $5$ is irrelevant.
 
-**Q2. [Trigonometric Equations and General Values; 1 mark; gold]** The general solution of $\sin x=\frac12$ is
+**Q2. [Computational Methods; 1 mark; teacher]** Which of the following methods involves dividing an interval into $n$ sub-intervals to approximate the definite integral?
 
-- (a) $n\pi+\frac{\pi}{6}$
-- (b) $n\pi+(-1)^n\frac{\pi}{6}$
-- (c) $2n\pi\pm\frac{\pi}{6}$
-- (d) $n\pi\pm\frac{\pi}{6}$
+- (a) Euler's method
+- (b) bisection method
+- (c) trapezoidal rule
+- (d) Newton's method
 
-Key: (b) $n\pi+(-1)^n\frac{\pi}{6}$. Why: for $\sin x=\sin\alpha$ the general value is $n\pi+(-1)^n\alpha$ with $\alpha=\pi/6$.
+Key: (c) trapezoidal rule. Why: The trapezoidal rule is specifically derived for approximating integrals by dividing the area under the curve into trapezoids.
 
-**Q3. [Vectors; 1 mark; teacher]** In vector algebra, if we want to express vector $\vec{c}$ as a linear combination of vectors $\vec{a}$ and $\vec{b}$, which of the following represents this expression?
+**Q3. [Inverse Circular Functions; 1 mark; gold]** $\sin^{-1}\left(\frac12\right)$ is
 
-- (a) $\vec{c} = \frac{x}{\vec{a}} + \frac{y}{\vec{b}}$
-- (b) $\vec{c} = x\vec{a} - y\vec{b}$
-- (c) $\vec{c} = x\vec{a} + y\vec{b}$
-- (d) $\vec{c} = x\vec{a} \cdot y\vec{b}$
+- (a) $\frac{\pi}{3}$
+- (b) $\frac{\pi}{4}$
+- (c) $\frac{5\pi}{6}$
+- (d) $\frac{\pi}{6}$
 
-Key: (c) $\vec{c} = x\vec{a} + y\vec{b}$. Why: The expression $\vec{c} = x\vec{a} + y\vec{b}$ directly matches the statement provided.
+Key: (d) $\frac{\pi}{6}$. Why: principal value in $[-\pi/2,\pi/2]$; $5\pi/6$ also has sine $\frac12$ but is outside the range.
 
-**Q4. [Anti-derivatives; 1 mark; computed]** Evaluate $\displaystyle\int_{0}^{2}\left(3x^{2} + 8x\right)dx$.
+**Q4. [Anti-derivatives; 1 mark; computed]** Evaluate $\displaystyle\int_{0}^{1}\left(3x^{2} + 2x\right)dx$.
 
-- (a) $40$
-- (b) $28$
-- (c) $24$
-- (d) $56$
+- (a) $2$
+- (b) $4$
+- (c) $5$
+- (d) $3$
 
-Key: (c) $24$. Why: By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{2}(3x^{2}+8x)dx = \left[\dfrac{3x^{3}}{3} + \dfrac{8x^{2}}{2}\right]_0^{2}$ $= 24$
+Key: (a) $2$. Why: By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{1}(3x^{2}+2x)dx = \left[\dfrac{3x^{3}}{3} + \dfrac{2x^{2}}{2}\right]_0^{1}$ $= 2$
 
-**Q5. [Curve Sketching; 3 marks; teacher]** Given $f(x)=x^3$ and $g(x)=e^{-x}$, determine if each function is increasing or decreasing on $\mathbb{R}$, and explain why $f(x)=x^2$ is not monotonic.
-
-Marking scheme:
-
-- $f(x)=x^3$ is increasing on $\mathbb{R}$ as its derivative $f'(x)=3x^2 \geq 0$. 2.  **[1]**
-- $g(x)=e^{-x}$ is decreasing because $g'(x)=-e^{-x} < 0$. 3.  **[1]**
-- $f(x)=x^2$ is not monotonic since it decreases on $(-\infty,0]$ and increases on $[0,\infty)$.  **[1]**
-
-**Q6. [Anti-derivatives; 5 marks; teacher]** Evaluate the integral $\int\frac{2x+1}{(x-1)(x^{2}+1)}\,dx$ using partial fractions, clearly stating the form of the decomposition and justifying it.
+**Q5. [Vectors; 2 marks; gold]** Prove by vector methods that the diagonals of a parallelogram bisect each other.
 
 Marking scheme:
 
-- To evaluate $\int\frac{2x+1}{(x-1)(x^{2}+1)}\,dx$, decompose into partial fractions as $\frac{A}{x-1} + \frac{Bx+C}{x^2+1}$.  **[1]**
-- This form is chosen because $(x-1)$ and $(x^2+1)$ are distinct irreducible factors of the denominator.  **[1]**
-- Multiplying both sides by $(x-1)(x^2+1)$ gives $2x+1 = A(x^2+1) + (Bx+C)(x-1)$.  **[1]**
-- Solving for coefficients $A$, $B$, and $C$ yields $A=1$, $B=-1$, and $C=2$.  **[1]**
-- Thus, the integral becomes $\int\left(\frac{1}{x-1} + \frac{-x+2}{x^2+1}\right)dx$.  **[1]**
+- Let $OACB$ be a parallelogram with $\vec{OA} = \vec{a}$, $\vec{OB} = \vec{b}$, so $\vec{OC} = \vec{a}+\vec{b}$.  **[1]**
+- The midpoint of the diagonal $OC$ has position vector $\dfrac{\vec{a}+\vec{b}}{2}$.  **[1]**
+
+**Q6. [Trigonometric Equations and General Values; 5 marks; teacher]** Given that $\cos\theta = -\frac{1}{\sqrt{2}}$, find the general solution for $\theta$. Use the facts that $\cos(\pi - \alpha) = -\cos(\alpha)$ and $\cos\theta=\cos\alpha \Rightarrow \theta = 2n\pi\pm\alpha$. Show your work.
+
+Marking scheme:
+
+- Given $\cos\theta = -\frac{1}{\sqrt{2}}$, identify $\alpha$ as $\frac{\pi}{4}$ since $\cos(\frac{\pi}{4}) = \frac{1}{\sqrt{2}}$.  **[1]**
+- Since cosine is negative, we consider $\pi - \frac{\pi}{4} = \frac{3\pi}{4}$.  **[1]**
+- Using $\cos\theta=\cos\alpha \Rightarrow \theta = 2n\pi\pm\alpha$, substitute $\alpha = \frac{3\pi}{4}$ to get $\theta = 2n\pi \pm \frac{3\pi}{4}$.  **[1]**
+- Thus, the general solutions are $\theta = 2n\pi + \frac{3\pi}{4}$ and $\theta = 2n\pi - \frac{3\pi}{4}$ where $n \in \mathbb{Z}$.  **[1]**
+- This covers all possible values of $\theta$ satisfying the given equation.  **[1]**
 
 ## Mathematics - Class 12 (NEB)  (`math12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.1646)
 
-**Q1. [Anti-derivatives; 1 mark; gold]** $1^{2}+2^{2}+\cdots+n^{2}$ equals
+**Q1. [Complex Numbers; 1 mark; gold]** The number of distinct fifth roots of unity is
 
-- (a) $\frac{n(n+1)(2n+1)}{6}$
-- (b) $\frac{n(n+1)(n+2)}{6}$
-- (c) $\frac{n(n+1)}{2}$
-- (d) $\left[\frac{n(n+1)}{2}\right]^{2}$
+- (a) $5$
+- (b) $2$
+- (c) $1$
+- (d) infinitely many
 
-Key: (a) $\frac{n(n+1)(2n+1)}{6}$. Why: the standard result; (c) is the sum of cubes.
+Key: (a) $5$. Why: the equation $z^{5}=1$ has exactly $5$ distinct roots.
 
-**Q2. [Conic Sections; 1 mark; gold]** The eccentricity of the ellipse $\frac{x^{2}}{25}+\frac{y^{2}}{16}=1$ is
+**Q2. [Anti-derivatives; 1 mark; teacher]** What happens when integrating a single logarithmic or inverse trigonometric function?
 
-- (a) $\frac{5}{3}$
-- (b) $\frac{3}{5}$
-- (c) $\frac{4}{5}$
-- (d) $\frac{5}{4}$
+- (a) It cannot be integrated directly without additional functions.
+- (b) It requires an external factor for integration.
+- (c) It is integrated against the invisible factor $1$.
+- (d) It is always integrated using substitution methods.
 
-Key: (b) $\frac{3}{5}$. Why: $e=\sqrt{1-\frac{16}{25}}=\sqrt{\frac{9}{25}}=\frac{3}{5}$.
+Key: (c) It is integrated against the invisible factor $1$.. Why: A lone logarithm or inverse-trig function is integrated against the invisible factor $1$, as stated in the mathematics text.
 
-**Q3. [Product of Vectors; 1 mark; computed]** Find the scalar product of $\vec{a} = 2\hat{i} + 1\hat{j} + 6\hat{k}$ and $\vec{b} = 3\hat{i} + 1\hat{j} + 4\hat{k}$.
+**Q3. [Matrix Based System of Linear Equations; 1 mark; gold]** If the system of equations is $p_1x+q_1y=r_1$ and $p_2x+q_2y=r_2$, what is the value of $y$?
 
-- (a) $17$
-- (b) $144$
-- (c) $31$
-- (d) $24$
+- (a) $\frac{r_1q_2-r_2q_1}{p_1q_2-p_2q_1}$
+- (b) $\frac{p_1q_2-p_2q_1}{p_1r_2-p_2r_1}$
+- (c) $\frac{p_2r_1-p_1r_2}{p_1q_2-p_2q_1}$
+- (d) $\frac{p_1r_2-p_2r_1}{p_1q_2-p_2q_1}$
 
-Key: (c) $31$. Why: The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 2\times3+1\times1+6\times4$ $\vec{a}\cdot\vec{b} = 31$
+Key: (d) $\frac{p_1r_2-p_2r_1}{p_1q_2-p_2q_1}$. Why: $y = \frac{D_y}{D}$, and $D_y$ replaces the $y$-column by the constants, giving $p_1r_2-p_2r_1$ over $p_1q_2-p_2q_1$. (The paper printed its four options as determinant ratios; they are written out here.)
 
-**Q4. [Derivatives; 1 mark; teacher]** As $x$ becomes very large, which function does $\sinh x$ approach?
+**Q4. [Product of Vectors; 1 mark; computed]** Find the scalar product of $\vec{a} = 5\hat{i} + 1\hat{j} + 4\hat{k}$ and $\vec{b} = 3\hat{i} + 6\hat{j} + 3\hat{k}$.
 
-- (a) $e^x$
-- (b) $\cosh x$
-- (c) $\frac{1}{2} e^x$
-- (d) $\frac{1}{2} e^{-x}$
+- (a) $33$
+- (b) $9$
+- (c) $45$
+- (d) $22$
 
-Key: (c) $\frac{1}{2} e^x$. Why: Both $\sinh x$ and $\cosh x$ approach $\frac{1}{2} e^x$ for large values of $x$.
+Key: (a) $33$. Why: The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 5\times3+1\times6+4\times3$ $\vec{a}\cdot\vec{b} = 33$
 
-**Q5. [Complex Numbers; 3 marks; teacher]** Given $z = 1.18(\cos 32^{\circ} + i\sin 32^{\circ})$, calculate $z^4$ and express it in polar form.
+**Q5. [Product of Vectors; 3 marks; teacher]** Define the scalar product of two vectors and using vector methods, prove that $a^{2} = b^{2}+c^{2}-2bc\cos A$ for any triangle ABC.
 
 Marking scheme:
 
-- Calculate radius: $1.18^4 = 1.94$. 2.  **[1]**
-- Calculate angle: $4 \times 32^{\circ} = 128^{\circ}$. 3.  **[1]**
-- Express $z^4$ as $1.94(\cos 128^{\circ} + i\sin 128^{\circ})$.  **[1]**
+- Scalar product: $\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta$. 2.  **[1]**
+- In $\triangle ABC$, let $\vec{BC}=\vec{a}$, $\vec{CA}=\vec{b}$, $\vec{AB}=\vec{c}$. 3.  **[1]**
+- Using vector identity: $(\vec{b}-\vec{c})^2 = \vec{b}^2 + \vec{c}^2 - 2\vec{b}\cdot\vec{c} = b^2 + c^2 - 2bc\cos A$, thus $a^2 = b^2 + c^2 - 2bc\cos A$.  **[1]**
 
 **Q6. [Conic Sections; 5 marks; gold]** a) Find the foci and the centre of the hyperbola $9x^{2}-16y^{2}-144=0$. [2] b) A parabolic reflector is $20$ cm in diameter and $5$ cm deep. Find the position of its focus. [3] (NEB 2080 Q21a; NEB 2081 Q4)
 
@@ -441,110 +443,107 @@ Marking scheme:
 
 ## Computer Science - Class 11 (NEB)  (`cs11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.9843)
 
-**Q1. [Multimedia; 1 mark; gold]** Which device reads the pencil-filled bubbles on an objective answer sheet?
+**Q1. [Computer System; 1 mark; gold]** The generation of computers that used integrated circuits is the
 
-- (a) OMR
-- (b) BCR
-- (c) OCR
-- (d) MICR
+- (a) third
+- (b) second
+- (c) first
+- (d) fifth
 
-Key: (a) OMR. Why: Optical Mark Recognition senses marks; OCR reads printed characters.
+Key: (a) third. Why: third generation (1964 to 1971) used integrated circuits.
 
-**Q2. [Computer Software and Operating System; 1 mark; gold]** An operating system that keeps several programs in main memory and switches the CPU among them is called
+**Q2. [Multimedia; 1 mark; gold]** In 24-bit true colour, the number of colours available is about
 
-- (a) real-time only
-- (b) multiprogramming
-- (c) single-user
-- (d) batch only
+- (a) 4.3 billion
+- (b) 256
+- (c) 16.7 million
+- (d) 65,536
 
-Key: (b) multiprogramming. Why: multiprogramming keeps many jobs in memory so the CPU is never idle.
+Key: (c) 16.7 million. Why: 2²⁴ ≈ 16.7 million.
 
-**Q3. [Programming Concepts and Logics; 1 mark; computed]** Convert the binary number $11100_{2}$ to decimal.
+**Q3. [Number System and Boolean Logic; 1 mark; gold]** The 2's complement of $0101$ (4 bits) is
 
-- (a) $56$
-- (b) $7$
-- (c) $28$
+- (a) 1010
+- (b) 1001
+- (c) 0110
+- (d) 1011
+
+Key: (d) 1011. Why: 1's complement 1010, add 1 gives 1011.
+
+**Q4. [Programming Concepts and Logics; 1 mark; computed]** Convert the binary number $10111_{2}$ to decimal.
+
+- (a) $23$
+- (b) $46$
+- (c) $24$
 - (d) $29$
 
-Key: (c) $28$. Why: A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $1\times16+1\times8+1\times4+0\times2+0\times1$ $= 28$
+Key: (a) $23$. Why: A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $1\times16+0\times8+1\times4+1\times2+1\times1$ $= 23$
 
-**Q4. [Web Technology I; 1 mark; teacher]** What is used to uniquely identify a computer on the internet?
-
-- (a) Domain name
-- (b) URL
-- (c) IP address
-- (d) MAC address
-
-Key: (c) IP address. Why: An IP address, such as 142.250.183.4, is used to uniquely identify a computer on the internet.
-
-**Q5. [Computer System; 3 marks; teacher]** Explain the formula for access time in a computer system and briefly describe what computer memory does.
+**Q5. [Programming Concepts and Logics; 2 marks; teacher]** What is the output of the factorial program for inputs 7 and 0, and why does the loop not run for input 0?
 
 Marking scheme:
 
-- Access time is calculated as $Access\ time = seek\ time + rotational\ latency + transfer\ time$.  **[2]**
-- Computer memory stores data and instructions temporarily or permanently, facilitating quick access during processing.  **[1]**
+- For input 7, output is $7!$.  **[1]**
+- For input 0, output is $1$, as the loop runs zero times, keeping $fact=1$, matching $0!$ mathematically.  **[1]**
 
-**Q6. [Programming Concepts and Logics; 5 marks; teacher]** Explain the difference between pre-increment (++x) and post-increment (x++) operators with an example. Also, provide the correct evaluation of the expression 2 + 3 * 4 - 6 / 2, and describe how the number 59 is represented in BCD.
+**Q6. [Computer Software and Operating System; 5 marks; teacher]** Explain the concept of proprietary software and define the role of an operating system in managing computer operations. Additionally, describe mobile computing and provide examples of devices used in it.
 
 Marking scheme:
 
-- Pre-increment (++x) increments the value before it is used, e.g., if x=10, then y=++x sets y to 11.  **[2]**
-- Post-increment (x++) uses the current value first, then increments, e.g., if x=10, then y=x++ sets y to 10.  **[1]**
-- The expression 2 + 3 * 4 - 6 / 2 evaluates to 11, following operator precedence rules.  **[1]**
-- In BCD, 59 is represented as $0101\ 1001$, where each 4-bit segment corresponds to a decimal digit.  **[1]**
+- Proprietary software, like Windows and MS Office, is closed-source and requires payment.  **[2]**
+- The OS is the system software interfacing users with hardware, being the first program loaded during startup and controlling all other programs.  **[2]**
+- Mobile computing involves using wireless-connected portable devices such as smartphones and tablets for work, communication, and accessing information on-the-go.  **[1]**
 
 ## Computer Science - Class 12 (NEB)  (`cs12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 4.4192)
 
-**Q1. [Recent Trends in Technology; 1 mark; gold]** Why is cloud computing popular nowadays?
+**Q1. [Database Management System; 1 mark; gold]** Which statement removes the whole table together with its structure?
 
-- (a) cost-sharing and easily accessible
-- (b) affordable to all (NEB model question)
-- (c) modern technology and costly
-- (d) accessible and freely available
+- (a) DROP TABLE student_info;
+- (b) TRUNCATE TABLE student_info;
+- (c) DELETE FROM student_info;
+- (d) ALTER TABLE student_info;
 
-Key: (a) cost-sharing and easily accessible. Why: many users share one pool of resources, so the cost per user falls and the service is reachable from anywhere.
+Key: (a) DROP TABLE student_info;. Why: DROP destroys structure and data; DELETE/TRUNCATE keep the structure.
 
-**Q2. [Web Technology II; 1 mark; gold]** A collection of hyperlinked documents on the Internet is called
+**Q2. [Recent Trends in Technology; 1 mark; teacher]** A sensor collects data every 5 seconds. How many readings will it collect in a single day?
 
-- (a) email system (NEB 2080)
-- (b) www
-- (c) HTML
-- (d) webpage
+- (a) 51840
+- (b) 8640
+- (c) 17280
+- (d) 34560
 
-Key: (b) www. Why: the World Wide Web is the hyperlinked document collection; HTML is only its language.
+Key: (c) 17280. Why: The calculation $\dfrac{24 \times 60 \times 60}{5}$ correctly yields 17280 readings per day.
 
-**Q3. [Object-Oriented Programming; 1 mark; gold]** A special member function that runs automatically when an object is created is a
+**Q3. [Data Communication and Networking; 1 mark; computed]** What is the minimum number of bits needed to represent $200$ different values?
 
-- (a) friend function
-- (b) destructor
-- (c) constructor
-- (d) virtual function
-
-Key: (c) constructor. Why: the constructor initialises the object's data members.
-
-**Q4. [Data Communication and Networking; 1 mark; computed]** What is the minimum number of bits needed to represent $100$ different values?
-
-- (a) $13\ \text{bits}$
-- (b) $2\ \text{bits}$
+- (a) $3\ \text{bits}$
+- (b) $25\ \text{bits}$
 - (c) $7\ \text{bits}$
-- (d) $6\ \text{bits}$
+- (d) $8\ \text{bits}$
 
-Key: (c) $7\ \text{bits}$. Why: $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 100\rceil$ $k = 7\ \text{bits}$
+Key: (d) $8\ \text{bits}$. Why: $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 200\rceil$ $k = 8\ \text{bits}$
 
-**Q5. [Database Management System; 3 marks; teacher]** List and briefly explain three disadvantages of using a centralized database management system.
+**Q4. [Software Process Model; 1 mark; teacher]** Why does the system analyst study the business problem?
+
+- (a) To decide what the system must do.
+- (b) To choose the programming language.
+- (c) To train the end-users.
+- (d) To design the user interface.
+
+Key: (a) To decide what the system must do.. Why: The analyst studies the business problem to decide what the system must do.
+
+**Q5. [Object-Oriented Programming; 3 marks; teacher]** Explain the types of inheritance and differentiate between compile-time and run-time polymorphism in OOP.
 
 Marking scheme:
 
-- Higher costs for both software and hardware. 2.  **[1]**
-- Increased complexity requiring skilled staff. 3.  **[1]**
-- Single point of failure; if the server fails, all applications stop.  **[1]**
+- Inheritance types include single, multilevel, multiple, hierarchical, and hybrid.  **[2]**
+- Compile-time polymorphism uses function and operator overloading, while run-time polymorphism utilizes virtual functions and overriding.  **[1]**
 
-**Q6. [Data Communication and Networking; 5 marks; teacher]** Explain the concept of subnetting within a class C IP address block using a block size of 64. Additionally, define IP address, subnet mask, gateway, and MAC address.
+**Q6. [Web Technology II; 5 marks; teacher]** Explain the function of 'onsubmit="return validateForm()"' in a web form submission process, and discuss the syntax and parameters of 'mysqli_connect()' function used for connecting to a MySQL database. Also, mention a common mistake students make while learning this topic.
 
 Marking scheme:
 
-- Subnetting a class C block with a size of 64 yields subnets starting at 0, 64, 128, and 192 ($4 \times 64 = 256$).  **[1]**
-- An IP address uniquely identifies devices on a network.  **[1]**
-- A subnet mask divides an IP address into network and host parts.  **[1]**
-- A gateway routes traffic between networks.  **[1]**
-- A MAC address is a unique identifier for a network interface.  **[1]**
+- The 'onsubmit="return validateForm()"' prevents form submission if the 'validateForm()' function returns false, ensuring data validation before submission.  **[2]**
+- The 'mysqli_connect()' function connects to a MySQL database using the syntax: mysqli_connect(server, username, password, database).  **[1]**
+- Parameters include 'server' (e.g., "localhost"), 'username', 'password', and an optional 'database'.  **[1]**
+- A frequent error is mixing syntax or habits between different programming languages.  **[1]**
