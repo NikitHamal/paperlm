@@ -1,84 +1,68 @@
 
-##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.4801,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/26","duplicates":0,"bank_size":965,"bank_mcq":740,"bank_short":225,"seconds":50.9}
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5528,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/10","duplicates":0,"bank_size":801,"bank_mcq":570,"bank_short":231,"seconds":37.3}
 
-[Physical Quantities] MCQ <gold>
-Q. Which pair does not have the same dimensions?
-  a) work and torque
-  b) stress and pressure
-  c) force and power
-  d) impulse and momentum
-Key: c  Why: force is $[MLT^{-2}]$, power is $[ML^{2}T^{-3}]$. Distractor (a) tempts students who think "torque is not energy so its dimensions must differ"; they are identical, only the physical meaning differs.
+[Plant Physiology] MCQ <teacher>
+Q. According to Blackman's Law of Limiting Factors, which statement best describes the rate of a biological process?
+  a) The rate is determined by the most abundant factor.
+  b) The rate is determined by the factor that is least available.
+  c) The rate increases as all factors become more available.
+  d) The rate is unaffected by the availability of individual factors.
+Key: b  Why: Blackman's Law of Limiting Factors states that the rate of a process is limited by the factor that is in shortest supply.
 
-[Nuclear physics] MCQ <gold>
-Q. The energy equivalent of a mass defect of $1\ \text{u}$ is
-  a) $13.6\ \text{eV}$
-  b) $931.5\ \text{MeV}$
-  c) $200\ \text{MeV}$
-  d) $1.02\ \text{MeV}$
-Key: b  Why: the standard conversion.
+[Human Biology] MCQ <teacher>
+Q. Which law states that the diffusion rate is proportional to the surface area and pressure difference divided by the thickness?
+  a) Boyle's law
+  b) Fick's law
+  c) Henry's law
+  d) Dalton's law
+Key: b  Why: Fick's law directly relates diffusion rate to surface area and pressure difference over thickness.
+
+[Genetics] MCQ <gold>
+Q. Crossing over takes place during
+  a) diplotene
+  b) pachytene
+  c) leptotene
+  d) zygotene
+Key: b  Why: chiasmata form and the segments are exchanged in pachytene of prophase I.
+
+[Applied Biology] 3-mark <teacher>
+Q. Compare the recall percentages of re-readers and retrievers after five minutes and one week.
+Model answer: Five minutes later, re-readers recalled 83% vs 71% for retrievers. One week later, retrievers recalled 61% while re-readers fell to 40%.
+
+[Animal Tissues] 2-mark <teacher>
+Q. Describe two functions of animal tissues related to defense and insulation.
+Model answer: Macrophages and plasma cells defend against infections. Subcutaneous fat insulates, reducing heat loss in cold regions like Mustang.
+
+##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.4801,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/26","duplicates":0,"bank_size":965,"bank_mcq":740,"bank_short":225,"seconds":67}
 
 [Dynamics] MCQ <teacher>
-Q. In a physics experiment involving a pulley system, what condition is assumed about the pulley to ensure all torque contributes to the motion of the objects?
-  a) massless
-  b) elastic
-  c) rigid
-  d) frictional
-Key: a  Why: The pulley is assumed to be massless so that all torque contributes to the motion of the objects.
+Q. In a system involving a light inextensible string and a frictionless, massless pulley, if the pulley were to have mass, how would it affect the acceleration $a$ of the objects attached to the string?
+  a) It would decrease the value of $a$.
+  b) It would not change the value of $a$.
+  c) It would increase the value of $a$.
+  d) It would cause $a$ to become negative.
+Key: a  Why: Part of the torque would go into spinning the pulley if it had mass, thus reducing the acceleration $a$.
 
 [DC Circuits] MCQ <teacher>
-Q. In a parallel circuit, what happens to the current at a junction where it splits into three branches?
-  a) The voltage across each branch is divided equally among the branches.
-  b) The current in each branch is the same as the incoming current.
-  c) The total incoming current equals the sum of the currents in the three branches.
-  d) The resistance in each branch adds up to the total resistance.
-Key: c  Why: By Kirchhoff's first law, the total incoming current at a junction is equal to the sum of the currents flowing out of the junction.
+Q. What formula represents the maximum power $P_{max}$ in terms of electromotive force $E$ and internal resistance $r$ in a circuit?
+  a) $Er^2$
+  b) $\dfrac{E^{2}}{4r}$
+  c) $\dfrac{E}{2r}$
+  d) $E^2r$
+Key: b  Why: The maximum power is $P_{max}=\dfrac{E^{2}}{4r}$ and the efficiency is then only 50%.
 
-[Reflection at curved mirror] 3-mark <teacher>
-Q. Given a convex rear-view mirror with a radius of curvature of $2.0\ \text{m}$, explain how the angle $\theta$ and $2\theta$ can be approximated using the distances $PC$ and $PF$. Assume $N$ lies practically at the pole $P$.
-Model answer: 1. The angle $\theta \approx \frac{h}{PC}$ where $PC \approx NC$. 2. Similarly, $2\theta \approx \frac{h}{PF}$ with $PF \approx NF$. 3. For a convex mirror with $R = 2.0\ \text{m}$, $F = R/2 = 1.0\ \text{m}$, thus approximations hold near pole $P$.
+[Reflection at curved mirror] MCQ <teacher>
+Q. Given that the image formed by a curved mirror is real and magnified three times, what is the magnification factor $m$?
+  a) $m = 1$
+  b) $m = 3$
+  c) $m = -3$
+  d) $m = -1$
+Key: c  Why: The magnification factor for a real, inverted image is negative, hence $m = -3$.
+
+[Nuclear physics] 2-mark <gold>
+Q. Each fission of ²³⁵U releases $200\ \text{MeV}$. Calculate the energy released by the complete fission of $0.50\ \text{kg}$ of ²³⁵U, and the mass that disappears in the process.
+Model answer: $N = (500/235)\times6.022\times10^{23} = 1.28\times10^{24}$ nuclei. $E = 1.28\times10^{24}\times200\times1.6\times10^{-13} = 4.1\times10^{13}\ \text{J}$.
 
 [Electric field] 3-mark <teacher>
-Q. Define electric flux and write its formula when a flat area $A$ is placed in a uniform electric field $\vec{E}$ making an angle $\theta$ with the normal to the area. What are the SI units of electric flux?
-Model answer: Electric flux measures field 'flow' through a surface. Formula: $\Phi_E = \vec{E}\cdot\vec{A} = EA\cos\theta$. SI units: N m² C⁻¹ or V m.
-
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5528,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/10","duplicates":0,"bank_size":801,"bank_mcq":570,"bank_short":231,"seconds":15.2}
-
-[Plant Physiology] MCQ <gold>
-Q. The water potential of pure water at standard temperature and atmospheric pressure is:
-  a) $+1$ MPa
-  b) $-1$ MPa
-  c) equal to its osmotic pressure
-  d) zero
-Key: d  Why: pure free water is the reference state, defined as zero.
-
-[Applied Biology] MCQ <gold>
-Q. The first vaccine in history was prepared against
-  a) polio
-  b) rabies
-  c) smallpox
-  d) tetanus
-Key: c  Why: Edward Jenner used cowpox against smallpox (1796).
-
-[Genetics] MCQ <teacher>
-Q. When a red-flowered Mirabilis jalapa plant (RR) is crossed with a white-flowered one (rr), what color will the offspring flowers most likely exhibit?
-  a) pink (Rr)
-  b) red (RR)
-  c) white (rr)
-  d) red and white striped
-Key: a  Why: The cross between red (RR) and white (rr) in Mirabilis jalapa produces pink (Rr) offspring.
-
-[Human Biology] MCQ <gold>
-Q. The number of functional gametes formed from one primary oocyte is
-  a) four
-  b) two
-  c) three
-  d) one
-Key: d  Why: the other three haploid nuclei are shed as polar bodies.
-
-[Animal Tissues] 3-mark <teacher>
-Q. Given an image magnification of 1000x, calculate the actual size in micrometers (μm) if the image size is 40 mm. Also, convert 2.4 cm into micrometers.
-Model answer: Actual size: $\frac{40\ \text{mm}}{1000} = 0.040\ \text{mm} = 40\ \mu\text{m}$. Conversion: $2.4\ \text{cm} = 24\ \text{mm} = 24\,000\ \mu\text{m}$.
-
-[Developmental Biology] 3-mark <teacher>
-Q. Given that each secondary spermatocyte in a frog contains 13 chromosomes, each consisting of two chromatids, calculate the total number of chromatids present. Additionally, describe the shape and size of a frog's egg.
-Model answer: Each secondary spermatocyte has 13 chromosomes, each with 2 chromatids, thus totaling $13 \times 2 = 26$ chromatids. A frog's egg is spherical with a diameter of 1.8 mm.
+Q. Explain how the electric field strength is determined using electric field lines and identify if there is any point between two like charges where the resultant electric field is zero.
+Model answer: The electric field strength is determined by the density of field lines; more lines per unit area indicate a stronger field ($E$). For two like charges, the field lines between them point in the same direction, adding up and never cancelling out, hence there is no point where the resultant field is zero.

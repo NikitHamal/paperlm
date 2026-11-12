@@ -18,7 +18,7 @@ B12 = [
       r"The F2 phenotypic ratio of a monohybrid cross is $3:1$, so $\dfrac34$ show the dominant trait.", "the monohybrid phenotypic ratio", [r"$\dfrac{3}{4}\times @N@$", r"Dominant offspring $= @ans@$"]),
     T("bio_transform_eff", "Biotechnology", ["transformation", "efficiency", "colonies", "plasmid", "dna"], ["c=[200,300,600,1200]", "d=[0.1,0.2,0.5,2]"],
       r"After transformation with $@d@\ \mu\text{g}$ of plasmid DNA, $@c@$ colonies grow on the selective plate. What is the transformation efficiency (colonies per $\mu\text{g}$)?",
-      "c/d", ["c*d", "d/c", "c+d", "c/(d*10)"], r"Transformation efficiency $=$ number of transformants $/$ amount of DNA used (in $\mu\text{g}$).", "transformation efficiency",
+      "c/d", ["c*d", "c/d/10", "c/d*2", "c/d/2"], r"Transformation efficiency $=$ number of transformants $/$ amount of DNA used (in $\mu\text{g}$).", "transformation efficiency",
       [r"$\dfrac{@c@}{@d@}$", r"Efficiency $= @ans@\ \text{colonies}/\mu\text{g}$"], u=r"\text{colonies}/\mu\text{g}"),
     T("bio_rq", "Plant Physiology", ["respiratory", "quotient", "carbon", "dioxide", "oxygen"], ["co=[6,8,10,12,14]", "o2=[6,8,10,12,14]"],
       r"A germinating seed releases $@co@\ \text{mL}$ of $\text{CO}_2$ and consumes $@o2@\ \text{mL}$ of $\text{O}_2$. Calculate its respiratory quotient.", "co/o2", ["o2/co", "co*o2", "co-o2", "co+o2"],

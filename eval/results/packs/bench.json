@@ -1,36 +1,36 @@
 {
- "phy11": {
-  "params": 10203840,
-  "onnx_mb": 10.73,
-  "val_loss": 2.4801,
-  "slots": 6,
-  "neural_accepted": 0,
-  "neural_attempts": 12,
-  "neural_gate_rate": 0,
-  "bank_fallback": 6,
-  "empty": 0,
-  "units_covered": "6/26",
-  "duplicates": 0,
-  "bank_size": 965,
-  "bank_mcq": 740,
-  "bank_short": 225,
-  "seconds": 50.9
- },
  "bio12": {
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 3.5528,
-  "slots": 6,
+  "slots": 5,
   "neural_accepted": 0,
-  "neural_attempts": 12,
+  "neural_attempts": 10,
   "neural_gate_rate": 0,
-  "bank_fallback": 6,
+  "bank_fallback": 5,
   "empty": 0,
-  "units_covered": "6/10",
+  "units_covered": "5/10",
   "duplicates": 0,
   "bank_size": 801,
   "bank_mcq": 570,
   "bank_short": 231,
-  "seconds": 15.2
+  "seconds": 37.3
+ },
+ "phy11": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 2.4801,
+  "slots": 5,
+  "neural_accepted": 0,
+  "neural_attempts": 10,
+  "neural_gate_rate": 0,
+  "bank_fallback": 5,
+  "empty": 0,
+  "units_covered": "5/26",
+  "duplicates": 0,
+  "bank_size": 965,
+  "bank_mcq": 740,
+  "bank_short": 225,
+  "seconds": 67
  }
 }
