@@ -2,48 +2,48 @@
  "bio12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.5528,
+  "val_loss": 3.6097,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 801,
-  "seconds": 1.9,
+  "bank_items": 1208,
+  "seconds": 3.1,
   "samples": [
    {
     "unit": "Developmental Biology",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "After 5 cleavages, the embryo will have $2^{5} = 32$ blastomeres. This indicates that the embryo's size has not increased despite the cleavages.",
-     "If an embryo undergoes 5 cleavages, how many blastomeres will it have, and what does this indicate about its size?"
+     "Thyroxine, produced by the thyroid gland using iodine, drives metamorphosis. TSH from the anterior pituitary stimulates thyroxine production ($TSH \\rightarrow Thyroxine \\rightarrow Metamorphosis$).",
+     "Describe the role of thyroxine and TSH in metamorphosis."
     ]
    },
    {
-    "unit": "Plant Physiology",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "pepsin",
-     "The enzyme that works best at pH 1.5–2.0 is",
-     "salivary amylase",
-     "trypsin",
-     "intestinal lipase",
-     "pepsin is the only enzyme of the strongly acidic gastric juice."
-    ]
-   },
-   {
-    "unit": "Genetics",
+    "unit": "Applied Biology",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Exposure to very high temperatures",
-     "In which scenario would you expect an increase in mutation rate due to environmental factors?",
-     "Presence of sex in male Drosophila",
-     "Presence of sex in female Bombyx mori",
-     "Moderate temperature conditions",
-     "Temperature — very high and very low temperatures increase mutation rate."
+     "Eligibility to sit the entrance examination",
+     "What does your Grade 12 result primarily determine for the major technical entrances in Nepal?",
+     "Final ranking in the merit list",
+     "Overall score in the entrance examination",
+     "Scholarship amount for higher studies",
+     "The Grade 12 result decides only whether you may sit the entrance examination."
+    ]
+   },
+   {
+    "unit": "Human Population and Health Disorders",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Falling fertility and emigration",
+     "According to recent demographic changes in Nepal, what factor contributed to the slowest population growth in 110 years?",
+     "Increased rural to urban migration",
+     "Expansion of agricultural lands",
+     "Natural disasters affecting birth rates",
+     "Falling fertility plus emigration gave the slowest growth in 110 years of census-taking."
     ]
    }
   ]
@@ -51,48 +51,48 @@
  "phy11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.4801,
+  "val_loss": 2.2312,
   "slots": 3,
-  "neural_accepted": 1,
-  "bank_fallback": 2,
+  "neural_accepted": 0,
+  "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 965,
-  "seconds": 3.9,
+  "bank_items": 1397,
+  "seconds": 6.2,
   "samples": [
    {
-    "unit": "Quantity of Heat",
+    "unit": "Work, energy and power",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Drying ice removes water at $0\\ ^\\circ$C which ensures accurate latent heat of fusion ($L_f$) measurement. Wet ice contains water reducing measured $L_f$ value.",
-     "Why is it necessary to dry small pieces of ice at $0\\ ^\\circ$C on blotting paper before adding them to warm water in a calorimeter?"
+     "The acceleration $a$ can be expressed using the formula $v^2 = u^2 + 2as$. Rearranging gives $a = \\frac{v^2 - u^2}{2s}$.",
+     "A body accelerates from an initial speed $u$ to a final speed $v$ over a distance $s$. Express the acceleration $a$ of the body in terms of $u$, $v$, and $s$."
     ]
    },
    {
-    "unit": "Thermal Expansion",
+    "unit": "Heat and Temperature",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$\\alpha:\\beta:\\gamma = 1:2:3$",
-     "If the initial area $A_1$ of a metal plate changes to $A_2$ due to a temperature change $\\Delta\\theta$, which of the following correctly represents the coefficient relation between linear expansion $\\alpha$, area expansion $\\beta$, and volume expansion $\\gamma$?",
-     "$\\alpha:\\beta:\\gamma = 1:3:2$",
-     "$\\alpha:\\beta:\\gamma = 2:1:3$",
-     "$\\alpha:\\beta:\\gamma = 3:2:1$",
-     "The correct ratio is given by the fundamental relationships in thermal expansion."
+     "$T = 273.16\\times \\frac{P}{P_{tr}}$",
+     "What is the formula used to calculate an unknown temperature $T$ based on pressure measurements?",
+     "$T = \\frac{P}{P_{tr}} + 273.16$",
+     "$T = 273.16 - P_{tr} \\times P$",
+     "$T = P_{tr} + 273.16 \\times P$",
+     "The formula $T = 273.16\\times \\frac{P}{P_{tr}}$ directly calculates the unknown temperature using pressure measurements at the triple point of water and at the unknown temperature."
     ]
    },
    {
-    "unit": "Capacitor",
+    "unit": "Nuclear physics",
     "kind": "mcq",
-    "source": "neural",
+    "source": "bank:teacher",
     "segs": [
-     "$V_1 = \\frac{Q_2}{C_1} + \\frac{Q}{2}$",
-     "What is the formula for the equivalent capacitance $C_1$, and $C_2$, and $C_1$ of $V_2$, and $V_2$ in a capacitor with_1$ of $V_2$, and $V_1$ of $V_2$, and $V_2$ are connected to a voltage $V_2$, and $V_1$ are connected to a common voltage $V_1$, and $V_2$ are connected to a charge $Q$. If the battery of $V_1$, and $V_2$ are connected to a voltage $V_1$, and $",
-     "$V_1 = C_2,C_2$",
-     "$C_1 = C_2 + C_2 + C_2$",
-     "$V_1 = C_2 + C_2 + C_2$",
-     "The correct_1 = \\frac{V}{C_1} + \\frac{V_2}{C_1} + \\frac{1}{C_2}$ directly relates to the formula $\\frac{Q}{C_1} + \\frac{Q}{C_2}$. Sum of charge $Q_1$ and $C_2$. always falls by the same voltage.C_1$."
+     "It represents the product of the number of nucleons and the binding energy per nucleon.",
+     "Why is the total binding energy before the split calculated as $B_{\\text{before}} = 236 \\times 7.6$?",
+     "It calculates the kinetic energy released during the split.",
+     "It indicates the energy required to split the nucleus into individual nucleons.",
+     "It measures the difference in mass between the initial nucleus and its decay products.",
+     "The total binding energy is defined as the product of the binding energy per nucleon and the number of nucleons."
     ]
    }
   ]
@@ -105,43 +105,43 @@
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 3,
-  "bank_items": 746,
-  "seconds": 1.3,
+  "units_hit": 2,
+  "bank_items": 1149,
+  "seconds": 3.9,
   "samples": [
    {
-    "unit": "Floral Diversity",
+    "unit": "Biomolecules and Cell Biology",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "In gymnosperms, the female gametophyte forms haploid (n) endosperm before fertilisation. In contrast, angiosperms form triploid (3n) endosperm post-double fertilisation.",
-     "Compare the endosperm formation in gymnosperms and angiosperms. Mention the ploidy level of the endosperm in both groups."
+     "Chromosomes are composed of two sister chromatids joined by a centromere and appear as the shortest and thickest structures during cell division, ideal for counting and study. In animals, centrioles pair and migrate to opposite poles, initiating spindle formation through microtubule extension. Plants lack centrioles but still form spindles via microtubules emanating from polar regions. These mechanisms ensure chromosome separation during mitosis.",
+     "Describe the structure and composition of chromosomes during cell division and explain the differences in spindle formation between animal and plant cells."
     ]
    },
    {
-    "unit": "Evolutionary Biology",
+    "unit": "Biomolecules and Cell Biology",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "Homo habilis",
-     "The first hominin to make stone tools was",
-     "Australopithecus",
-     "Homo erectus",
-     "Ramapithecus",
-     "Homo habilis, the \"handy man\", made the Oldowan pebble tools."
+     "rRNA",
+     "The nucleolus is the site of synthesis of",
+     "mRNA",
+     "tRNA",
+     "DNA",
+     "rRNA is transcribed and packed with protein in the nucleolus."
     ]
    },
    {
-    "unit": "Biota and Environment",
+    "unit": "Floral Diversity",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Each predator consumes numerous prey, concentrating the poison in higher trophic levels.",
-     "Which of the following best describes why biomagnification occurs in a food chain?",
-     "Poison breaks down more quickly at higher trophic levels.",
-     "Prey organisms produce less poison as they move up the food chain.",
-     "Predators at higher trophic levels excrete most of the poison they consume.",
-     "Each predator eats many prey and keeps nearly all the poison, leading to increased concentration at higher trophic levels."
+     "Gymnosperms",
+     "What term describes seed plants where the ovule is exposed without an ovary wall?",
+     "Angiosperms",
+     "Bryophytes",
+     "Pteridophytes",
+     "Gymnosperms are defined by having their ovules exposed on the surface without an enclosing ovary wall."
     ]
    }
   ]
@@ -149,48 +149,48 @@
  "phy12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.6191,
+  "val_loss": 2.4074,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1003,
-  "seconds": 1.7,
+  "bank_items": 1418,
+  "seconds": 4.1,
   "samples": [
    {
-    "unit": "Polarization",
+    "unit": "First Law of Thermodynamics",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "Malus' law: the intensity of plane-polarized light transmitted by an analyser is $I = I_0\\cos^{2}\\theta$, where $\\theta$ is the angle between the polarization direction of the light and the axis of the analyser.",
-     "State Malus' law. [1]"
+     "The first law: the heat supplied to a system equals the increase in its internal energy plus the work done by the system: $Q = \\Delta U + W$.",
+     "State the first law of thermodynamics. [1]"
     ]
    },
    {
-    "unit": "Photons",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "Because $K_{max} = hf - \\phi_0$ defines a linear relationship with $f$ where $h$ is the constant slope.",
-     "Why does the graph of $K_{max}$ versus $f$ result in a straight line with a slope of $h$, irrespective of light intensity?",
-     "Due to the direct proportionality between light intensity and $K_{max}$.",
-     "As a consequence of the quadratic relationship between frequency and maximum kinetic energy.",
-     "Since the photoelectric effect only depends on the wavelength of the incident light.",
-     "$K_{max} = hf - \\phi_0$ is a straight line in $f$ with slope $h$ — independent of intensity."
-    ]
-   },
-   {
-    "unit": "Rotational dynamics",
+    "unit": "Periodic motion",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "angular momentum",
-     "Planck's constant has the dimensions of",
-     "energy",
-     "power",
-     "linear momentum",
-     "$[ML^{2}T^{-1}]$, the same as angular momentum; energy is $hf$, not $h$."
+     "$0.044\\ \\text{J}$",
+     "A simple pendulum bob of mass $0.40\\ \\text{kg}$ has potential energy $0.044\\ \\text{J}$ at an extreme point, taking the mean point as reference. Its kinetic energy at the mean point is",
+     "$0.022\\ \\text{J}$",
+     "$0.011\\ \\text{J}$",
+     "$0.033\\ \\text{J}$",
+     "energy is conserved at every point of the swing, so $K_{mean} = U_{extreme} = 0.044\\ \\text{J}$; the mass, time period and amplitude are red herrings."
+    ]
+   },
+   {
+    "unit": "Wave motion",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$y = 4\\sin(0.5\\pi x)\\cos(200\\pi t)$",
+     "What is the equation describing a stationary wave on a string?",
+     "$y = 4\\sin(0.5\\pi t)\\cos(200\\pi x)$",
+     "$y = 2\\sin(0.5\\pi x)\\cos(200\\pi t)$",
+     "$y = 4\\cos(0.5\\pi x)\\sin(200\\pi t)$",
+     "The equation $y = 4\\sin(0.5\\pi x)\\cos(200\\pi t)$ directly describes the stationary wave as provided."
     ]
    }
   ]
@@ -198,48 +198,48 @@
  "chem11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.8785,
+  "val_loss": 2.748,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 2,
-  "bank_items": 416,
-  "seconds": 4.1,
+  "units_hit": 3,
+  "bank_items": 1150,
+  "seconds": 6.0,
   "samples": [
    {
-    "unit": "Hydrocarbons",
+    "unit": "Chemistry of Metals",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Polymerisation involves joining many ethene molecules to form polythene: $n\\,\\text{CH}_2{=}\\text{CH}_2 \\rightarrow (-\\text{CH}_2\\text{CH}_2-)_n$. In lab, acetylene is produced by reacting calcium carbide with water: $\\text{CaC}_2 + 2\\text{H}_2\\text{O} \\rightarrow \\text{Ca(OH)}_2 + \\text{C}_2\\text{H}_2$.",
-     "Explain the process of polymerisation leading to the formation of polythene and write the chemical equation for the production of acetylene in the laboratory using calcium carbide."
-    ]
-   },
-   {
-    "unit": "Aromatic Hydrocarbons",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "—COOH",
-     "Which group is meta-directing?",
-     "—OH",
-     "—CH₃",
-     "—Cl",
-     "the carbon of —COOH is doubly bonded to oxygen, so the group is −R and deactivating."
+     "Sodium hydroxide is termed caustic soda due to its highly corrosive nature that can severely damage skin upon contact.",
+     "Why is sodium hydroxide referred to as caustic soda?"
     ]
    },
    {
     "unit": "Hydrocarbons",
     "kind": "mcq",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "a white precipitate",
-     "Ethyne gives with ammoniacal $\\text{AgNO}_3$",
-     "no reaction",
-     "a red precipitate",
-     "a yellow precipitate",
-     "silver acetylide, white."
+     "49.5 MJ",
+     "What is the heat of combustion per kilogram for butane?",
+     "50.3 MJ",
+     "55.5 MJ",
+     "45.0 MJ",
+     "The passage explicitly states that the heat of combustion per kilogram for butane is 49.5 MJ."
+    ]
+   },
+   {
+    "unit": "Modern Chemical Manufactures",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Chilean saltpetre",
+     "What was the primary source of nitric acid before 1900?",
+     "Ammonium nitrate",
+     "Nitrogen gas",
+     "Atmospheric nitrogen",
+     "Before 1900, the world's nitric acid was sourced from Chilean saltpetre."
     ]
    }
   ]
@@ -247,48 +247,48 @@
  "chem12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.3057,
+  "val_loss": 3.131,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 577,
-  "seconds": 2.5,
+  "bank_items": 1101,
+  "seconds": 4.9,
   "samples": [
    {
-    "unit": "Volumetric Analysis",
+    "unit": "Ionic Equilibrium",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "(a) In the titration of Na₂CO₃ against H₂SO₄ methyl orange is used: it turns from yellow to orange-pink at the end point, when all the carbonate has become H₂CO₃.(b) Yes. Anhydrous Na₂CO₃ is pure, stable, non-hygroscopic when dry and has a known formula, so a standard solution can be made by direct weighing.(c) Equivalent weight of Na₂CO₃ = 106/2 = 53.",
-     "a) How is completion of the neutralisation detected in the titration of Na₂CO₃ against H₂SO₄? [1] b) Is Na₂CO₃ a primary standard? Why? [1] c) Calculate the further volume of decinormal H₂SO₄ needed to neutralise the carbonate fully. [3] (NEB 2078 model)"
+     "In pure water $S = \\sqrt{K_{sp}} = 1.34\\times10^{-5}$ mol L⁻¹.",
+     "The solubility product of AgCl is $1.8\\times10^{-10}$. Calculate its solubility in pure water and in 0.10 M AgNO₃ solution."
     ]
    },
    {
-    "unit": "Haloalkanes",
+    "unit": "Haloarenes",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "propanenitrile",
-     "Iodoethane warmed with alcoholic KCN gives",
-     "ethyl isocyanide",
-     "ethylamine",
-     "ethanol",
-     "the cyanide ion of KCN, an ionic salt, attacks through carbon, giving the nitrile CH₃CH₂CN, which is propanenitrile."
+     "the C–Cl bond has partial double-bond character",
+     "Chlorobenzene is less reactive than chloroethane towards nucleophiles because",
+     "it is aromatic",
+     "chlorine is more electronegative",
+     "it is insoluble in water",
+     "the lone pair on chlorine is delocalised into the ring, shortening and strengthening the C–Cl bond; the sp² carbon also holds the halogen more tightly."
     ]
    },
    {
-    "unit": "Carboxylic Acid and its Derivatives",
+    "unit": "Studies of Heavy Metals",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Because the base dissociation constant ($K_b$) of aniline ($4 \\times 10^{-10}$) is significantly lower than that of ethylamine ($5 \\times 10^{-4}$).",
-     "Why is aniline a much weaker base compared to ethylamine?",
-     "Due to the higher molecular weight of ethylamine compared to aniline.",
-     "Ethylamine has a stronger electron-donating effect due to the alkyl group, enhancing its basicity.",
-     "Aniline forms more stable cations in solution, reducing its basic character.",
-     "The base dissociation constants ($K_b$) show aniline has a much lower value compared to ethylamine."
+     "Copper",
+     "Which metal has been used in the repoussé work of the Kathmandu Valley, the gilded roofs of Pashupatinath, and the water vessels of every Newari household?",
+     "Iron",
+     "Silver",
+     "Gold",
+     "The passage explicitly mentions copper as the metal used in these applications."
     ]
    }
   ]
@@ -296,48 +296,48 @@
  "math11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 1.9558,
+  "val_loss": 1.9179,
   "slots": 3,
-  "neural_accepted": 0,
-  "bank_fallback": 3,
+  "neural_accepted": 1,
+  "bank_fallback": 2,
   "attempts": 6,
-  "units_hit": 2,
-  "bank_items": 542,
-  "seconds": 1.4,
+  "units_hit": 3,
+  "bank_items": 1089,
+  "seconds": 9.3,
   "samples": [
    {
-    "unit": "Curve Sketching",
+    "unit": "Quadratic Equation",
     "kind": "short",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "For $y = 3\\cos 2x$: amplitude $= 3$, period $= \\frac{2\\pi}{2} = \\pi$, range $= [-3, 3]$.",
-     "Sketch $y = 3\\cos 2x$ for $0 \\le x \\le 2\\pi$, stating the amplitude, period, range and the coordinates of all maxima, minima and zeros in that interval."
+     "1. Subtract equations: $(b-c)\\alpha = c-b$, divide by $b-c$: $\\alpha = 1$. 2. Substitute $\\alpha = 1$ into $2\\alpha^2 = q$: $2(1)^2 = q$. 3. Thus, $q = 2$.",
+     "Given $\\alpha^2 + b\\alpha + c = 0$ and $\\alpha^2 + c\\alpha + b = 0$, derive how $\\alpha = 1$ when $b \\ne c$. Further, if the product of roots is given as $\\alpha(2\\alpha) = 2\\alpha^2 = q$, find $q$ when $\\alpha = 1$."
     ]
    },
    {
-    "unit": "Curve Sketching",
+    "unit": "Coordinates in Space",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$b$",
-     "Which term refers to the coefficient that affects the period of a trigonometric function?",
-     "$a$",
-     "$c$",
-     "$d$",
-     "The coefficient $b$ of $x$ is the term that affects the period of a trigonometric function."
+     "Points $A$, $B$, and $C$ are collinear.",
+     "If points $A$, $B$, and $C$ lie on the same line, which statement best describes their relationship?",
+     "Points $A$, $B$, and $C$ form a triangle.",
+     "Points $A$, $B$, and $C$ are coplanar but not necessarily collinear.",
+     "Points $A$, $B$, and $C$ are non-coplanar.",
+     "The statement that points $A$, $B$, and $C$ lie on the same line directly implies they are collinear."
     ]
    },
    {
-    "unit": "Probability",
+    "unit": "Mechanics",
     "kind": "mcq",
-    "source": "bank:gold",
+    "source": "neural",
     "segs": [
-     "$P(A)+P(B)-P(A\\cap B)$",
-     "For two events, $P(A\\cup B)$ equals",
-     "$P(A)+P(B)$",
-     "$P(A)P(B)$",
-     "$P(A)-P(B)$",
-     "the addition law; (a) double-counts the overlap."
+     "The parallelogram law",
+     "Which principle allows for finding the resultant of two forces acting at a point?",
+     "Newton's law",
+     "The triangle law",
+     "Pascal's law",
+     "The parallelogram law is used to find the resultant of two forces."
     ]
    }
   ]
@@ -345,48 +345,48 @@
  "math12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.1646,
+  "val_loss": 2.0647,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 3,
-  "bank_items": 585,
-  "seconds": 2.8,
+  "units_hit": 2,
+  "bank_items": 1056,
+  "seconds": 3.4,
   "samples": [
    {
-    "unit": "Differential Equations",
+    "unit": "Binomial Theorem",
     "kind": "short",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "The highest derivative is $\\dfrac{d^{3}s}{dt^{3}}$, so the order is $3$. Square to remove the radical:",
-     "Find the order and degree of $\\dfrac{d^{3}s}{dt^{3}}=\\Big(4+\\Big(\\dfrac{d^{2}s}{dt^{2}}\\Big)^{2}\\Big)^{1/2}$. [2]"
+     "To find the term independent of $x$, set the exponent of $x$ to zero: $18-3r=0$. Solving gives $r=6$. The term is $T_{7} = {}^{9}C_{6}(-2)^{6} = 84 \\times 64 = 5376$.",
+     "Find the term independent of $x$ in the expansion of $(x^2 - \\frac{2}{x})^9$ using the binomial theorem."
     ]
    },
    {
-    "unit": "Probability",
+    "unit": "Complex Numbers",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$\\dfrac{1}{221}$",
-     "What is the probability of drawing two aces consecutively from a standard deck of 52 cards without replacement?",
-     "$\\dfrac{2}{51}$",
-     "$\\dfrac{1}{17}$",
-     "$\\dfrac{1}{663}$",
-     "The calculation follows from the product of probabilities of drawing an ace first and then another ace without replacement."
+     "De Moivre's Theorem",
+     "What is the name of the theorem that states $[r(\\cos\\theta+i\\sin\\theta)]^{n}=r^{n}[\\cos n\\theta+i\\sin n\\theta]$ for any positive integer $n$?",
+     "Euler's Formula",
+     "Cauchy's Integral Theorem",
+     "Lagrange's Identity",
+     "The given formula is a direct statement of De Moivre's Theorem which applies to powers of complex numbers in polar form."
     ]
    },
    {
-    "unit": "Solution of Triangles",
+    "unit": "Binomial Theorem",
     "kind": "mcq",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "sine law",
-     "Two angles and one side are given. The right tool is",
-     "cosine law",
-     "tangent law",
-     "Heron's formula",
-     "find the third angle from $A+B+C=180^{\\circ}$, then the sine law gives the remaining sides."
+     "$\\dfrac{e + e^{-1}}{2}$",
+     "What is the value of the series $\\;1 + \\dfrac{1}{2!} + \\dfrac{1}{4!} + \\dfrac{1}{6!} + \\cdots$ expressed in terms of $e$?",
+     "$\\dfrac{e - e^{-1}}{2}$",
+     "$\\dfrac{e + 1}{2}$",
+     "$\\dfrac{e^2 + 1}{2}$",
+     "The given series is the sum of even terms of the Taylor expansion of $e^x$ evaluated at $x=1$ and $x=-1$, which simplifies to $\\dfrac{e + e^{-1}}{2}$."
     ]
    }
   ]
@@ -394,48 +394,48 @@
  "cs11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.9843,
+  "val_loss": 3.5845,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 3,
-  "bank_items": 387,
-  "seconds": 1.0,
+  "units_hit": 2,
+  "bank_items": 878,
+  "seconds": 2.5,
   "samples": [
    {
-    "unit": "Computer Software and Operating System",
+    "unit": "Multimedia",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Linux, developed in 1991 by Torvalds, is a free UNIX-like kernel, succeeding UNIX (1969, Bell Labs). The kernel directly interacts with the hardware, while the shell acts as a command interpreter between users and the kernel.",
-     "Explain the relationship between the Linux kernel and UNIX, and describe the role of the kernel and the shell in an operating system."
+     "Graphics are static images including photographs, drawings, diagrams, logos, and charts. They efficiently convey visual information, making them ideal for quickly depicting appearances.",
+     "What are graphics and how do they function in visual communication?"
     ]
    },
    {
-    "unit": "Application Package",
+    "unit": "Web Technology I",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "primary key",
-     "What characteristic does BookID have in a book database to ensure uniqueness and non-null values?",
-     "foreign key",
-     "index",
-     "attribute",
-     "BookID is defined as the primary key because it ensures each book's ID is unique and not null."
+     "SVG",
+     "What technology allows shapes to remain sharp at any size due to their description by coordinates rather than pixels?",
+     "PNG",
+     "JPEG",
+     "CSS",
+     "SVG stays perfectly sharp at any size because it describes shapes using coordinates."
     ]
    },
    {
-    "unit": "Number System and Boolean Logic",
+    "unit": "Web Technology I",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$F = AB + \\bar{A}\\bar{B}$",
-     "Which of the following expressions correctly represents the output of an XNOR gate with inputs $A$ and $B$?",
-     "$F = \\overline{A+B}$",
-     "$F = A\\cdot B$",
-     "$F = \\bar{A}+\\bar{B}$",
-     "The expression $F = AB + \\bar{A}\\bar{B}$ directly matches the definition of an XNOR gate's truth table as given."
+     "It allows users to adjust font size or contrast for better readability.",
+     "Why is clean HTML with CSS beneficial for users with visual impairments?",
+     "It enhances the color schemes automatically.",
+     "It increases the loading speed of web pages.",
+     "It provides automatic voice navigation on websites.",
+     "Users can change font size or contrast for comfort, aiding those with visual impairments."
     ]
    }
   ]
@@ -443,22 +443,22 @@
  "cs12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 4.4192,
+  "val_loss": 4.1563,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 3,
-  "bank_items": 360,
-  "seconds": 2.5,
+  "units_hit": 2,
+  "bank_items": 740,
+  "seconds": 2.8,
   "samples": [
    {
-    "unit": "Object-Oriented Programming",
+    "unit": "Software Process Model",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Polymorphism allows one name or message to have different behaviors based on context. A base pointer fails to invoke a derived function without virtual because it calls the function based on static type, not dynamic type. Virtual functions enable dynamic binding, ensuring the correct derived function is called.",
-     "Explain polymorphism and describe why a base pointer might fail to call a derived function without using virtual functions."
+     "The waterfall model is suitable for small and short projects with stable, well-understood requirements, such as a simple billing program or a copy of an existing system. It is also applicable when projects are bound by strict documentation rules. The system analyst plays a crucial role by studying the business problem to determine the system's required functionalities. This involves detailed analysis to ensure all project requirements are clearly defined before proceeding to the next phase, ensuring a linear and sequential development process.",
+     "Describe the context in which the waterfall model is suitable and explain the role of the system analyst in this process."
     ]
    },
    {
@@ -466,25 +466,25 @@
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "A union is a data structure where all its members share the same memory location.",
-     "What best describes a union in C programming?",
-     "A union is a collection of variables of different types stored sequentially in memory.",
-     "A union is a data type that can hold values of only one data type at a time.",
-     "A union is similar to an array where each element can be of a different data type.",
-     "A union has all its members sharing the same piece of memory, which directly aligns with the correct answer."
+     "It passes copies of the variables, thus any changes made inside the function do not affect the original values.",
+     "Why does call by value in C programming not allow modification of the original variable passed to a function?",
+     "It locks the original variables to prevent any modifications during the function call.",
+     "It uses pointers to directly modify the memory location of the original variables.",
+     "It only allows read operations on the original variables without any write capabilities.",
+     "Call by value passes copies and cannot change the original."
     ]
    },
    {
-    "unit": "Recent Trends in Technology",
+    "unit": "Software Process Model",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "5G",
-     "What technology generation has a peak data rate of about $10$ Gbps?",
-     "4G",
-     "3G",
-     "1G",
-     "5G has a peak rate of about $10$ Gbps."
+     "specification, design and implementation, validation, evolution",
+     "Which of the following represents the stages of the software development process?",
+     "coding, testing, debugging, deployment",
+     "planning, analysis, programming, maintenance",
+     "requirements, architecture, coding, review",
+     "The given sequence is explicitly defined as the stages of the software development process."
     ]
    }
   ]

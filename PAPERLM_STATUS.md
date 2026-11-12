@@ -1,5 +1,12 @@
 # PAPERLM_STATUS.md - PaperLM build log (single source of truth, resume from here)
 
+## v19 session (newest; read first) - fresh token on the SAME VM, wave9 teacher running, nothing re-hydrated
+- **VM**: `https://sb-84ba1da1dc9d55f9.sb.molab.run/` (session `sess-g2qsrh05rtxjbmb0`) re-attached with the new token (`~/.molab_token`, mode 600, never committed; `scripts/molab_*.sh` default to this URL). Keep-alive daemon alive (`/tmp/paperlm/heartbeat.txt` count 376, local=200 public=200), GPU 99 % (wave9 teacher9b loading Qwen). `/tmp/paperlm`, `/work/paperlm` and the corpus were still on the VM disk, so no re-hydration.
+- **State at attach**: `WAVE8_DONE` present and its publish is on `origin/main` (30bfb12). The chained `wave9.sh` (teacher chem11 chem12 math11 math12 cs11 cs12, then bio12 phy11 bio11 phy12, retrain 10 packs, TFLite, publish with bank_qa v18, push from the VM) is running; it creates `/tmp/paperlm/WAVE9_DONE`. Do not start another GPU job before it.
+- **Validation re-run from this sandbox** (`eval/validate_all.sh bio12 phy12`): Python ORT 10/10 packs load + FSM decode (10,203,840 params, INT8 ONNX 10.73 MB each), planner TOTAL violations 0. UI grep (`docs/`): no box-shadow, no LIVE badge, no emoji.
+- **Known stale value**: `docs/packs/pack_registry.json` still lists old `numeric` counts (bio12 10, ...) until the wave9 publish regenerates it from the specs.
+- **Rule for sandbox sessions while a VM wave is running**: do not touch `docs/packs/*/bank.json`, `packs/*/`, `pack_registry.json`; the VM publish rewrites them and would fail its rebase.
+
 ## v18 session (newest; read first) - fresh token attached to the SAME VM, wave8r in teacher stage, wave9 chained
 - **VM**: `https://sb-84ba1da1dc9d55f9.sb.molab.run/` (session `sess-g2qsrh05rtxjbmb0`) re-attached with the new token (`~/.molab_token`, mode 600, never committed). `scripts/molab_*.sh` already point at this URL. Keep-alive heartbeat (60 s, count 334 at attach) and the 3 s Marimo cards are alive; GPU 99 % / 92 GB busy with `wave8r` (teacher on bio12 phy11 bio11 phy12 at attach, then chem11/chem12 re-run, then train all 10 packs, publish with regression guard, push from the VM). `chain9` then runs `wave9.sh`. **Do not start another GPU job until `/tmp/paperlm/WAVE9_DONE`.**
 - Not re-hydrated: the VM disk still holds `/tmp/paperlm`, `/work/paperlm`, Qwen2.5-32B in `/dev/shm`, so no corpus rebuild was needed.
