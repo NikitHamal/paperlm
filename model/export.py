@@ -78,4 +78,4 @@ def main():
         rep["size_MB_" + f] = round(os.path.getsize(f"{out}/{f}") / 1e6, 2)
     rep["ppl_fp32"] = math.exp(rep["val_fp32"]); rep["ppl_int8"] = math.exp(rep["val_int8"])
     json.dump(rep, open(f"{out}/export_report.json", "w"), indent=1); print(json.dumps(rep, indent=1))
-main()
+if __name__ == "__main__": main()
