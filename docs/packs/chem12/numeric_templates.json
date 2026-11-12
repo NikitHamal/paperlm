@@ -1,1 +1,1 @@
-["molarity", "dilution", "molality", "ph_acid", "ph_base", "half_first", "faraday", "gibbs", "moles_m"]
+["molarity", "dilution", "molality", "ph_acid", "ph_base", "half_first", "faraday", "gibbs", "moles_m", "c12_buffer", "c12_ph_poh", "c12_electrolysis", "c12_ecell", "c12_dg_nfe", "c12_remaining", "c12_titration", "c12_eqwt", "c12_k_first", "c12_rate_law", "c12_ksp_a2b", "c12_ka_ph", "c12_hess", "c12_entropy_ph", "c12_nernst", "c12_c14_age"]

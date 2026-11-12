@@ -1,7 +1,7 @@
 {
  "bio12": {
-  "templates": 10,
-  "instances": 3000,
+  "templates": 19,
+  "instances": 5700,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  },
@@ -12,26 +12,26 @@
   "exact_integer_rounded_to_sigfigs": 0
  },
  "bio11": {
-  "templates": 14,
-  "instances": 4200,
+  "templates": 19,
+  "instances": 5700,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  },
  "phy12": {
+  "templates": 44,
+  "instances": 13200,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "chem11": {
   "templates": 24,
   "instances": 7200,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  },
- "chem11": {
-  "templates": 12,
-  "instances": 3600,
-  "failures": 0,
-  "exact_integer_rounded_to_sigfigs": 0
- },
  "chem12": {
-  "templates": 9,
-  "instances": 2700,
+  "templates": 25,
+  "instances": 7500,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  },
@@ -48,14 +48,14 @@
   "exact_integer_rounded_to_sigfigs": 0
  },
  "cs11": {
-  "templates": 8,
-  "instances": 2400,
+  "templates": 13,
+  "instances": 3900,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  },
  "cs12": {
-  "templates": 7,
-  "instances": 2100,
+  "templates": 12,
+  "instances": 3600,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  }

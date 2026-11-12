@@ -1,1 +1,1 @@
-["moles_m", "avogadro", "gas_stp", "percent_comp", "pct_yield", "boyle", "charles", "ideal_n", "gas_p", "kc_equil", "bohr_e", "molarity"]
+["moles_m", "avogadro", "gas_stp", "percent_comp", "pct_yield", "boyle", "charles", "ideal_n", "gas_p", "kc_equil", "bohr_e", "molarity", "c11_neutrons", "c11_bohr_r", "c11_mole_ratio", "c11_dalton", "c11_graham", "c11_limiting", "c11_gas_density", "c11_kp_kc", "c11_wavelength", "c11_spec_lines", "c11_shell_e", "c11_mass_ca"]

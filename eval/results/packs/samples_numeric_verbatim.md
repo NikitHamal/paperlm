@@ -1,4 +1,4 @@
-## bio12: 10 numeric templates
+## bio12: 19 numeric templates
 
 - In a double-stranded DNA sample adenine makes up $26\%$ of the bases. What percentage is guanine?
   (a) $24\ \%$  (b) $48\ \%$  (c) $26\ \%$  (d) $74\ \%$
@@ -39,6 +39,42 @@
 - A town of $40000$ people records $1000$ births in a year. Find the crude birth rate per 1000 people.
   (a) $25\ \text{per 1000}$  (b) $50\ \text{per 1000}$  (c) $2.5\ \text{per 1000}$  (d) $12.5\ \text{per 1000}$
   Key: (a). Crude birth rate $=$ (births / mid-year population) $\times 1000$. CBR $= \dfrac{1000}{40000}\times 1000$ CBR $= 25$ per 1000
+
+- A DNA segment contains $1000$ base pairs. If the rise per base pair is $0.34\ \text{nm}$, what is its length in nm?
+  (a) $680\ \text{nm}$  (b) $340\ \text{nm}$  (c) $34\ \text{nm}$  (d) $3400\ \text{nm}$
+  Key: (b). In B-DNA the rise per base pair is $0.34\ \text{nm}$. $L = 1000\times 0.34$ $L = 340\ \text{nm}$
+
+- A coding region of mRNA (start codon to the last sense codon, stop codon excluded) has $90$ nucleotides. How many amino acids does the polypeptide contain?
+  (a) $45$  (b) $30$  (c) $270$  (d) $90$
+  Key: (b). The genetic code is a triplet code: three nucleotides specify one amino acid. Amino acids $= \dfrac{90}{3}$ Amino acids $= 30$
+
+- A monohybrid cross $Aa \times Aa$ produces $160$ offspring. How many are expected to show the dominant phenotype?
+  (a) $160$  (b) $120$  (c) $80$  (d) $40$
+  Key: (b). The F2 phenotypic ratio of a monohybrid cross is $3:1$, so $\dfrac34$ show the dominant trait. $\dfrac{3}{4}\times 160$ Dominant offspring $= 120$
+
+- After transformation with $0.5\ \mu\text{g}$ of plasmid DNA, $300$ colonies grow on the selective plate. What is the transformation efficiency (colonies per $\mu\text{g}$)?
+  (a) $60\ \text{colonies}/\mu\text{g}$  (b) $150\ \text{colonies}/\mu\text{g}$  (c) $600\ \text{colonies}/\mu\text{g}$  (d) $1200\ \text{colonies}/\mu\text{g}$
+  Key: (c). Transformation efficiency $=$ number of transformants $/$ amount of DNA used (in $\mu\text{g}$). $\dfrac{300}{0.5}$ Efficiency $= 600\ \text{colonies}/\mu\text{g}$
+
+- A germinating seed releases $14\ \text{mL}$ of $\text{CO}_2$ and consumes $10\ \text{mL}$ of $\text{O}_2$. Calculate its respiratory quotient.
+  (a) $1.4$  (b) $140$  (c) $24$  (d) $0.714$
+  Key: (a). $\text{RQ} = \dfrac{\text{volume of CO}_2\text{ released}}{\text{volume of O}_2\text{ consumed}}$. $\text{RQ} = \dfrac{14}{10}$ $\text{RQ} = 1.4$
+
+- A zygote undergoes $4$ successive cleavage divisions. How many blastomeres are present?
+  (a) $16$  (b) $15$  (c) $8$  (d) $32$
+  Key: (a). Each cleavage division doubles the number of cells, so $n$ divisions give $2^n$ blastomeres. Blastomeres $= 2^{4}$ Blastomeres $= 16$
+
+- A person has a systolic pressure of $120\ \text{mm Hg}$ and a diastolic pressure of $80\ \text{mm Hg}$. Find the pulse pressure.
+  (a) $1.5\ \text{mm Hg}$  (b) $40\ \text{mm Hg}$  (c) $100\ \text{mm Hg}$  (d) $200\ \text{mm Hg}$
+  Key: (b). Pulse pressure $=$ systolic pressure $-$ diastolic pressure. $120 - 80$ Pulse pressure $= 40\ \text{mm Hg}$
+
+- A person has a mass of $70\ \text{kg}$ and a height of $1.7\ \text{m}$. Calculate the body mass index (BMI).
+  (a) $119\ \text{kg m}^{-2}$  (b) $41.2\ \text{kg m}^{-2}$  (c) $24.2\ \text{kg m}^{-2}$  (d) $20.6\ \text{kg m}^{-2}$
+  Key: (c). $\text{BMI} = \dfrac{\text{mass (kg)}}{\text{height (m)}^2}$. $\text{BMI} = \dfrac{70}{(1.7)^2}$ $\text{BMI} = 24.2\ \text{kg m}^{-2}$
+
+- A population grows at $2.5\%$ per year. Using the rule of 70, estimate its doubling time in years.
+  (a) $28\ \text{years}$  (b) $14\ \text{years}$  (c) $41\ \text{years}$  (d) $175\ \text{years}$
+  Key: (a). Doubling time $\approx \dfrac{70}{\text{growth rate in } \%}$. $t_d \approx \dfrac{70}{2.5}$ $t_d \approx 28\ \text{years}$
 
 ## phy11: 36 numeric templates
 
@@ -186,7 +222,7 @@
   (a) $20$  (b) $320$  (c) $80$  (d) $40$
   Key: (d). After $n$ half-lives, $N = \dfrac{N_0}{2^{n}}$ with $n = \dfrac{t}{T_{1/2}}$. $n = \dfrac{t}{T_{1/2}} = \dfrac{20}{5} = 4$ $N = \dfrac{N_0}{2^{n}} = \dfrac{640}{2^{4}} = 40$
 
-## bio11: 14 numeric templates
+## bio11: 19 numeric templates
 
 - A compound microscope has an objective lens of $10\times$ and an eyepiece of $10\times$. What is the total magnification?
   (a) $1000\ \times$  (b) $20\ \times$  (c) $100\ \times$  (d) $10\ \times$
@@ -244,7 +280,27 @@
   (a) $2500$  (b) $32000$  (c) $5000$  (d) $16000$
   Key: (d). Binary fission doubles the number every generation: $N = N_0\times 2^n$. $n = \dfrac{150}{30}$ generations $N = 500\times 2^n = 16000$
 
-## phy12: 24 numeric templates
+- A producer level fixes $2000\ \text{kJ}$ of energy. By the ten percent law, how much energy reaches the trophic level $2$ step(s) above it?
+  (a) $1000\ \text{kJ}$  (b) $200\ \text{kJ}$  (c) $20\ \text{kJ}$  (d) $1620\ \text{kJ}$
+  Key: (c). Only about $10\%$ of the energy is passed on at each trophic transfer (Lindeman's ten percent law). $E = 2000\times(0.1)^{2}$ $E = 20\ \text{kJ}$
+
+- A community has a gross primary productivity of $1200\ \text{kcal m}^{-2}\text{yr}^{-1}$ and plant respiration of $500\ \text{kcal m}^{-2}\text{yr}^{-1}$. Find the net primary productivity.
+  (a) $700\ \text{kcal m}^{-2}\text{yr}^{-1}$  (b) $350\ \text{kcal m}^{-2}\text{yr}^{-1}$  (c) $1400\ \text{kcal m}^{-2}\text{yr}^{-1}$  (d) $1700\ \text{kcal m}^{-2}\text{yr}^{-1}$
+  Key: (a). $\text{NPP} = \text{GPP} - R$. $\text{NPP} = 1200 - 500$ $\text{NPP} = 700\ \text{kcal m}^{-2}\text{yr}^{-1}$
+
+- In a mark-recapture study, $40$ animals were marked and released. A later sample of $60$ contained $10$ marked animals. Estimate the population size by the Lincoln index.
+  (a) $24000$  (b) $90$  (c) $6.67$  (d) $240$
+  Key: (d). Lincoln index: $N = \dfrac{M\times C}{R}$. $N = \dfrac{40\times 60}{10}$ $N = 240$
+
+- A polypeptide chain is made of $10$ amino acids. How many peptide bonds does it contain?
+  (a) $5$  (b) $9$  (c) $11$  (d) $10$
+  Key: (b). Joining $n$ amino acids in a single chain forms $n-1$ peptide bonds. Bonds $= 10 - 1$ Bonds $= 9$
+
+- A single cell undergoes $5$ successive mitotic divisions. How many cells result?
+  (a) $30$  (b) $32$  (c) $25$  (d) $10$
+  Key: (b). Each mitosis doubles the cell number, so $n$ divisions give $2^n$ cells. Cells $= 2^{5}$ Cells $= 32$
+
+## phy12: 44 numeric templates
 
 - Find the time period of a simple pendulum of length $2\ \text{m}$. (Take $g = 9.8\ \text{m s}^{-2}$.)
   (a) $1.28\ \text{s}$  (b) $2.84\ \text{s}$  (c) $27.8\ \text{s}$  (d) $0.452\ \text{s}$
@@ -342,7 +398,87 @@
   (a) $1.5\ \text{A}$  (b) $1.2\ \text{A}$  (c) $1\ \text{A}$  (d) $6\ \text{A}$
   Key: (c). For a cell with internal resistance $I = \dfrac{E}{R + r}$. $I = \dfrac{E}{R+r} = \dfrac{12}{10+2}$ $I = 1\ \text{A}$
 
-## chem11: 12 numeric templates
+- In Young's double-slit experiment light of wavelength $600\ \text{nm}$ is used, the slits are $2\ \text{mm}$ apart and the screen is $1.5\ \text{m}$ away. Find the fringe width.
+  (a) $0.9\ \text{mm}$  (b) $0.45\ \text{mm}$  (c) $1.8\ \text{mm}$  (d) $0.8\ \text{mm}$
+  Key: (b). The fringe width is $\beta = \dfrac{\lambda D}{d}$. $\beta = \dfrac{\lambda D}{d} = \dfrac{600\times10^{-9}\times1.5}{2\times10^{-3}}$ $\beta = 0.45\ \text{mm}$
+
+- Light is reflected from a glass surface of refractive index $1.62$. At what angle of incidence (in degrees) is the reflected light completely plane polarized?
+  (a) $58.3\ ^{\circ}$  (b) $48.6\ ^{\circ}$  (c) $29.2\ ^{\circ}$  (d) $31.7\ ^{\circ}$
+  Key: (a). Brewster's law: $\tan\theta_p = \mu$. $\theta_p = \tan^{-1}(1.62)$ $\theta_p = 58.3^{\circ}$
+
+- Water (surface tension $0.072\ \text{N m}^{-1}$, density $1000\ \text{kg m}^{-3}$, zero angle of contact) rises in a capillary tube of radius $0.5\ \text{mm}$. Find the height of rise. Take $g=9.8\ \text{m s}^{-2}$.
+  (a) $29.4\ \text{mm}$  (b) $7.35\ \text{mm}$  (c) $58.8\ \text{mm}$  (d) $14.7\ \text{mm}$
+  Key: (a). Jurin's law: $h = \dfrac{2T\cos\theta}{r\rho g}$. $h = \dfrac{2\times0.072}{0.5\times10^{-3}\times1000\times9.8}\ \text{m}$ $h = 29.4\ \text{mm}$
+
+- A series LCR circuit has $R=40\ \Omega$, $X_L=100\ \Omega$ and $X_C=80\ \Omega$. Calculate its impedance.
+  (a) $60\ \Omega$  (b) $134\ \Omega$  (c) $220\ \Omega$  (d) $44.7\ \Omega$
+  Key: (d). $Z = \sqrt{R^2+(X_L-X_C)^2}$. $Z = \sqrt{40^2+(100-80)^2}$ $Z = 44.7\ \Omega$
+
+- Two coils have a mutual inductance of $20\ \text{mH}$. The current in the primary changes by $2\ \text{A}$ in $0.5\ \text{s}$. Find the emf induced in the secondary.
+  (a) $0.16\ \text{V}$  (b) $0.08\ \text{V}$  (c) $0.02\ \text{V}$  (d) $0.005\ \text{V}$
+  Key: (b). $\varepsilon = M\dfrac{dI}{dt}$. $\varepsilon = 20\times10^{-3}\times\dfrac{2}{0.5}$ $\varepsilon = 0.08\ \text{V}$
+
+- An inductor of $100\ \text{mH}$ carries a steady current of $3\ \text{A}$. How much energy is stored in its magnetic field?
+  (a) $15\ \text{J}$  (b) $0.45\ \text{J}$  (c) $0.15\ \text{J}$  (d) $0.9\ \text{J}$
+  Key: (b). $U = \tfrac12 LI^2$. $U = \tfrac12\times100\times10^{-3}\times3^2$ $U = 0.45\ \text{J}$
+
+- A proton ($m=1.67\times10^{-27}\ \text{kg}$, $q=1.6\times10^{-19}\ \text{C}$) enters a uniform magnetic field of $50\ \text{mT}$ perpendicular to the field with speed $200\ \text{km s}^{-1}$. Find the radius of its circular path.
+  (a) $2.09\ \text{cm}$  (b) $8.35\ \text{cm}$  (c) $4.18\ \text{cm}$  (d) $0.0418\ \text{cm}$
+  Key: (c). The magnetic force provides the centripetal force: $qvB = \dfrac{mv^2}{r}$, so $r = \dfrac{mv}{qB}$. $r = \dfrac{mv}{qB} = \dfrac{1.67\times10^{-27}\times200\times10^{3}}{1.6\times10^{-19}\times50\times10^{-3}}$ $r = 4.18\ \text{cm}$
+
+- The mass defect of a nucleus is $0.03\ \text{u}$. Find its binding energy in MeV ($1\ \text{u}=931.5\ \text{MeV}/c^2$).
+  (a) $27.9\ \text{MeV}$  (b) $279\ \text{MeV}$  (c) $2.79\ \text{MeV}$  (d) $55.8\ \text{MeV}$
+  Key: (a). $E_b = \Delta m\times931.5\ \text{MeV}$. $E_b = 0.03\times931.5$ $E_b = 27.9\ \text{MeV}$
+
+- Using $R = R_0A^{1/3}$ with $R_0 = 1.2\ \text{fm}$, find the radius of a nucleus of mass number $64$.
+  (a) $4.8\ \text{fm}$  (b) $9.6\ \text{fm}$  (c) $25.6\ \text{fm}$  (d) $76.8\ \text{fm}$
+  Key: (a). Nuclear radius: $R = R_0A^{1/3}$. $R = 1.2\times64^{1/3}$ $R = 4.8\ \text{fm}$
+
+- Find the energy in eV of a photon of wavelength $400\ \text{nm}$ ($hc = 1240\ \text{eV nm}$).
+  (a) $3.1\ \text{eV}$  (b) $1.55\ \text{eV}$  (c) $31\ \text{eV}$  (d) $0.323\ \text{eV}$
+  Key: (a). $E = \dfrac{hc}{\lambda}$. $E = \dfrac{1240}{400}$ $E = 3.1\ \text{eV}$
+
+- In a common-emitter transistor circuit the collector current is $2\ \text{mA}$ and the base current is $25\ \mu\text{A}$. Find the current gain $\beta$.
+  (a) $80$  (b) $0.988$  (c) $160$  (d) $50$
+  Key: (a). $\beta = \dfrac{I_C}{I_B}$. $\beta = \dfrac{2\times10^{-3}}{25\times10^{-6}}$ $\beta = 80$
+
+- A transistor has a current gain $\beta = 99$. Find $\alpha = I_C/I_E$.
+  (a) $0.99$  (b) $99$  (c) $1.01$  (d) $0.01$
+  Key: (a). $\alpha = \dfrac{\beta}{1+\beta}$. $\alpha = \dfrac{99}{1+99}$ $\alpha = 0.99$
+
+- A source of frequency $500\ \text{Hz}$ moves towards a stationary observer at $30\ \text{m s}^{-1}$. If the speed of sound is $340\ \text{m s}^{-1}$, find the frequency heard.
+  (a) $456\ \text{Hz}$  (b) $459\ \text{Hz}$  (c) $548\ \text{Hz}$  (d) $544\ \text{Hz}$
+  Key: (c). $f' = f\dfrac{v}{v-v_s}$ for an approaching source. $f' = 500\times\dfrac{340}{340-30}$ $f' = 548\ \text{Hz}$
+
+- A pipe closed at one end is $40\ \text{cm}$ long. Find its fundamental frequency (speed of sound $340\ \text{m s}^{-1}$).
+  (a) $3400\ \text{Hz}$  (b) $213\ \text{Hz}$  (c) $850\ \text{Hz}$  (d) $425\ \text{Hz}$
+  Key: (b). For a closed pipe $f_1 = \dfrac{v}{4L}$. $f_1 = \dfrac{340}{4\times40\times10^{-2}}$ $f_1 = 213\ \text{Hz}$
+
+- A Carnot engine works between $500\ \text{K}$ and $250\ \text{K}$. Find its efficiency in percent.
+  (a) $250\ \%$  (b) $50\ \%$  (c) $0.5\ \%$  (d) $100\ \%$
+  Key: (b). $\eta = 1-\dfrac{T_2}{T_1}$. $\eta = 1-\dfrac{250}{500}$ $\eta = 50\%$
+
+- A gas absorbs $300\ \text{J}$ of heat and does $150\ \text{J}$ of work on its surroundings. Find the change in its internal energy.
+  (a) $150\ \text{J}$  (b) $225\ \text{J}$  (c) $300\ \text{J}$  (d) $450\ \text{J}$
+  Key: (a). First law: $\Delta U = Q - W$. $\Delta U = 300 - 150$ $\Delta U = 150\ \text{J}$
+
+- A wheel of moment of inertia $0.5\ \text{kg m}^2$ rotates at $10\ \text{rad s}^{-1}$. Find its rotational kinetic energy.
+  (a) $2.5\ \text{J}$  (b) $50\ \text{J}$  (c) $25\ \text{J}$  (d) $1.25\ \text{J}$
+  Key: (c). $K = \tfrac12 I\omega^2$. $K = \tfrac12\times0.5\times10^2$ $K = 25\ \text{J}$
+
+- A torque acts on a body of moment of inertia $1\ \text{kg m}^2$ and gives it an angular acceleration of $5\ \text{rad s}^{-2}$. Find the torque.
+  (a) $5\ \text{N m}$  (b) $25\ \text{N m}$  (c) $10\ \text{N m}$  (d) $0.2\ \text{N m}$
+  Key: (a). $\tau = I\alpha$. $\tau = 1\times5$ $\tau = 5\ \text{N m}$
+
+- A particle executes simple harmonic motion of amplitude $5\ \text{cm}$ and period $2\ \text{s}$. Find its maximum speed.
+  (a) $62.8\ \text{cm s}^{-1}$  (b) $2.5\ \text{cm s}^{-1}$  (c) $15.7\ \text{cm s}^{-1}$  (d) $1.59\ \text{cm s}^{-1}$
+  Key: (c). $v_{max} = A\omega = \dfrac{2\pi A}{T}$. $v_{max} = \dfrac{2\pi}{2}\times5$ $v_{max} = 15.7\ \text{cm s}^{-1}$
+
+- Two tuning forks of frequencies $512\ \text{Hz}$ and $505\ \text{Hz}$ are sounded together. How many beats are heard per second?
+  (a) $7\ \text{Hz}$  (b) $14\ \text{Hz}$  (c) $1.01\ \text{Hz}$  (d) $509\ \text{Hz}$
+  Key: (a). Beat frequency $= |f_1 - f_2|$. $f_b = 512 - 505$ $f_b = 7\ \text{Hz}$
+
+## chem11: 24 numeric templates
 
 - Calculate the number of moles in $50\ \text{g}$ of a substance whose molar mass is $58\ \text{g mol}^{-1}$.
   (a) $0.862\ \text{mol}$  (b) $0.431\ \text{mol}$  (c) $1.72\ \text{mol}$  (d) $1.16\ \text{mol}$
@@ -392,7 +528,55 @@
   (a) $1.67\ \text{mol L}^{-1}$  (b) $66.7\ \text{mol L}^{-1}$  (c) $3.34\ \text{mol L}^{-1}$  (d) $0.15\ \text{mol L}^{-1}$
   Key: (a). Molarity is the number of moles of solute per litre of solution, $M = \dfrac{n}{V(\text{L})}$. $n = \dfrac{20}{40}\ \text{mol}$, $V = \dfrac{300}{1000}\ \text{L}$ $M = \dfrac{n}{V} = 1.67\ \text{mol L}^{-1}$
 
-## chem12: 9 numeric templates
+- An atom has mass number $A = 40$ and atomic number $Z = 18$. How many neutrons does it contain?
+  (a) $18$  (b) $58$  (c) $22$  (d) $40$
+  Key: (c). Number of neutrons $= A - Z$. $N = A - Z = 40 - 18$ $N = 22$
+
+- Using $r_n = 0.529\,n^2\ \text{\AA}$, calculate the radius of the Bohr orbit with $n = 3$ in hydrogen.
+  (a) $3.17\ \text{\AA}$  (b) $4.76\ \text{\AA}$  (c) $0.0588\ \text{\AA}$  (d) $1.59\ \text{\AA}$
+  Key: (b). Bohr radius of the $n$th orbit of hydrogen: $r_n = 0.529\,n^2\ \text{\AA}$. $r = 0.529\times 3^2$ $r = 4.76\ \text{\AA}$
+
+- In $\text{N}_2 + 3\text{H}_2 \rightarrow 2\text{NH}_3$, how many moles of $\text{NH}_3$ form from $9$ mol of $\text{H}_2$ (excess $\text{N}_2$)?
+  (a) $18\ \text{mol}$  (b) $6\ \text{mol}$  (c) $13.5\ \text{mol}$  (d) $9\ \text{mol}$
+  Key: (b). The balanced equation gives the ratio $\text{H}_2:\text{NH}_3 = 3:2$. $\text{NH}_3 = \dfrac{2}{3}\times 9$ $\text{NH}_3 = 6\ \text{mol}$
+
+- A gas mixture has $2$ mol of A and $3$ mol of B at a total pressure of $3\ \text{atm}$. Find the partial pressure of A.
+  (a) $15\ \text{atm}$  (b) $1.5\ \text{atm}$  (c) $1.8\ \text{atm}$  (d) $1.2\ \text{atm}$
+  Key: (d). Dalton's law: $p_A = x_A P_{\text{total}}$ with $x_A = \dfrac{n_A}{n_A+n_B}$. $p_A = \dfrac{2}{2+3}\times 3$ $p_A = 1.2\ \text{atm}$
+
+- Find the ratio $\dfrac{r_1}{r_2}$ of the rates of effusion of a gas of molar mass $4\ \text{g mol}^{-1}$ to a gas of molar mass $128\ \text{g mol}^{-1}$.
+  (a) $22.6$  (b) $5.66$  (c) $0.177$  (d) $32$
+  Key: (b). Graham's law: $\dfrac{r_1}{r_2} = \sqrt{\dfrac{M_2}{M_1}}$. $\dfrac{r_1}{r_2} = \sqrt{\dfrac{128}{4}}$ $\dfrac{r_1}{r_2} = 5.66$
+
+- In $\text{N}_2 + 3\text{H}_2 \rightarrow 2\text{NH}_3$, $4\ \text{mol}$ of $\text{N}_2$ reacts with $6\ \text{mol}$ of $\text{H}_2$. How many moles of $\text{NH}_3$ can form at most?
+  (a) $4\ \text{mol}$  (b) $10\ \text{mol}$  (c) $2\ \text{mol}$  (d) $8\ \text{mol}$
+  Key: (a). The limiting reagent decides the yield: $\text{N}_2$ gives $2x$ mol, $\text{H}_2$ gives $\tfrac{2y}{3}$ mol of $\text{NH}_3$. From $\text{N}_2$: $2\times4$; from $\text{H}_2$: $\dfrac{2\times6}{3}$ $n(\text{NH}_3) = 4\ \text{mol}$
+
+- Find the density of a gas of molar mass $28\ \text{g mol}^{-1}$ at $2\ \text{atm}$ and $350\ \text{K}$ ($R = 0.0821\ \text{L atm K}^{-1}\text{mol}^{-1}$).
+  (a) $3.9\ \text{g L}^{-1}$  (b) $1.95\ \text{g L}^{-1}$  (c) $0.513\ \text{g L}^{-1}$  (d) $0.16\ \text{g L}^{-1}$
+  Key: (b). From $PV = nRT$: $d = \dfrac{PM}{RT}$. $d = \dfrac{2\times28}{0.0821\times350}$ $d = 1.95\ \text{g L}^{-1}$
+
+- For a gaseous reaction with $\Delta n = 2$ the value of $K_c$ is $2$ at $500\ \text{K}$. Find $K_p$ ($R = 0.0821\ \text{L atm K}^{-1}\text{mol}^{-1}$).
+  (a) $3370$  (b) $6740$  (c) $1690$  (d) $164$
+  Key: (a). $K_p = K_c(RT)^{\Delta n}$. $K_p = 2\times(0.0821\times500)^{2}$ $K_p = 3370$
+
+- Calculate the wavelength of radiation of frequency $6\times10^{14}\ \text{Hz}$ ($c = 3\times10^{8}\ \text{m s}^{-1}$).
+  (a) $500\ \text{nm}$  (b) $5000\ \text{nm}$  (c) $50\ \text{nm}$  (d) $18000\ \text{nm}$
+  Key: (a). $c = \nu\lambda$, so $\lambda = \dfrac{c}{\nu}$. $\lambda = \dfrac{3\times10^{8}}{6\times10^{14}}\ \text{m}$ $\lambda = 500\ \text{nm}$
+
+- An excited hydrogen atom in the $n=4$ level can fall to lower levels in all possible ways. How many different spectral lines can be emitted?
+  (a) $16$  (b) $6$  (c) $12$  (d) $10$
+  Key: (b). The number of lines $= \dfrac{n(n-1)}{2}$. Lines $= \dfrac{4(4-1)}{2}$ Lines $= 6$
+
+- What is the maximum number of electrons in the shell with principal quantum number $n = 3$?
+  (a) $18$  (b) $8$  (c) $6$  (d) $9$
+  Key: (a). A shell holds at most $2n^2$ electrons. Maximum electrons $= 2n^2 = 2\times3^2$ Maximum electrons $= 18$
+
+- How many grams of calcium are present in $100\ \text{g}$ of $\text{CaCO}_3$? ($\text{Ca}=40$, $\text{C}=12$, $\text{O}=16$)
+  (a) $12\ \text{g}$  (b) $40\ \text{g}$  (c) $4000\ \text{g}$  (d) $60\ \text{g}$
+  Key: (b). The molar mass of $\text{CaCO}_3$ is $100\ \text{g mol}^{-1}$ and it contains $40\ \text{g}$ of Ca per mole. $m_{Ca} = \dfrac{40}{100}\times100$ $m_{Ca} = 40\ \text{g}$
+
+## chem12: 25 numeric templates
 
 - $20\ \text{g}$ of NaOH (molar mass $40\ \text{g mol}^{-1}$) is dissolved in water to make $300\ \text{mL}$ of solution. Find its molarity.
   (a) $1.67\ \text{mol L}^{-1}$  (b) $66.7\ \text{mol L}^{-1}$  (c) $3.34\ \text{mol L}^{-1}$  (d) $0.15\ \text{mol L}^{-1}$
@@ -429,6 +613,70 @@
 - Calculate the number of moles in $50\ \text{g}$ of a substance whose molar mass is $58\ \text{g mol}^{-1}$.
   (a) $0.862\ \text{mol}$  (b) $0.431\ \text{mol}$  (c) $1.72\ \text{mol}$  (d) $1.16\ \text{mol}$
   Key: (a). The amount of substance is $n = \dfrac{\text{mass}}{\text{molar mass}}$. $n = \dfrac{m}{M} = \dfrac{50}{58}$ $n = 0.862\ \text{mol}$
+
+- A buffer contains $1\ \text{mol L}^{-1}$ of salt and $0.5\ \text{mol L}^{-1}$ of weak acid with $\text{p}K_a = 4.76$. Calculate its pH.
+  (a) $4.76$  (b) $4.46$  (c) $5.06$  (d) $6.76$
+  Key: (c). Henderson equation: $\text{pH} = \text{p}K_a + \log_{10}\dfrac{[\text{salt}]}{[\text{acid}]}$. $\text{pH} = 4.76 + \log_{10}\dfrac{1}{0.5}$ $\text{pH} = 5.06$
+
+- The $\text{pOH}$ of an aqueous solution at $25^\circ\text{C}$ is $5$. Calculate its pH.
+  (a) $9$  (b) $2$  (c) $19$  (d) $5$
+  Key: (a). At $25^\circ\text{C}$, $\text{pH} + \text{pOH} = 14$. $\text{pH} = 14 - \text{pOH} = 14 - 5$ $\text{pH} = 9$
+
+- A current of $2\ \text{A}$ is passed for $1800\ \text{s}$ through $\text{CuSO}_4$ solution. Calculate the mass of copper deposited ($M = 63.5\ \text{g mol}^{-1}$, $F = 96500\ \text{C mol}^{-1}$).
+  (a) $0.79\ \text{g}$  (b) $2.37\ \text{g}$  (c) $1.18\ \text{g}$  (d) $4.74\ \text{g}$
+  Key: (c). By Faraday's first law $m = \dfrac{M I t}{n F}$ with $n = 2$ for $\text{Cu}^{2+}$. $m = \dfrac{63.5\times 2\times 1800}{2\times 96500}$ $m = 1.18\ \text{g}$
+
+- A cell has a cathode with $E^\circ = 0.8\ \text{V}$ and an anode with $E^\circ = -0.13\ \text{V}$. Calculate $E^\circ_{\text{cell}}$.
+  (a) $0.93\ \text{V}$  (b) $0.465\ \text{V}$  (c) $1.86\ \text{V}$  (d) $0.67\ \text{V}$
+  Key: (a). $E^\circ_{\text{cell}} = E^\circ_{\text{cathode}} - E^\circ_{\text{anode}}$. $E^\circ_{\text{cell}} = 0.8 - (-0.13)$ $E^\circ_{\text{cell}} = 0.93\ \text{V}$
+
+- A cell transfers $n = 2$ moles of electrons with $E^\circ_{\text{cell}} = 0.8\ \text{V}$. Calculate $\Delta G^\circ$ in kJ ($F = 96500\ \text{C mol}^{-1}$).
+  (a) $-154\ \text{kJ}$  (b) $-308\ \text{kJ}$  (c) $-77.2\ \text{kJ}$  (d) $-77\ \text{kJ}$
+  Key: (a). $\Delta G^\circ = -nFE^\circ_{\text{cell}}$. $\Delta G^\circ = -2\times 96500\times 0.8\ \text{J}$ $\Delta G^\circ = -154\ \text{kJ}$
+
+- A first-order reaction has a half-life of $30\ \text{min}$. What mass of a $64\ \text{g}$ sample remains after $120\ \text{min}$?
+  (a) $8\ \text{g}$  (b) $128\ \text{g}$  (c) $16\ \text{g}$  (d) $4\ \text{g}$
+  Key: (d). After $n$ half-lives the amount left is $A_0\left(\dfrac12\right)^n$. $n = \dfrac{120}{30} = 4$ $A = 64\times\left(\dfrac12\right)^{4} = 4\ \text{g}$
+
+- $25\ \text{mL}$ of $0.2\ \text{M}$ HCl exactly neutralises a volume of $0.4\ \text{M}$ NaOH. Calculate that volume of NaOH.
+  (a) $15\ \text{mL}$  (b) $50\ \text{mL}$  (c) $12.5\ \text{mL}$  (d) $312\ \text{mL}$
+  Key: (c). At the end point $M_1V_1 = M_2V_2$ for a 1:1 reaction. $V_2 = \dfrac{M_1V_1}{M_2} = \dfrac{0.2\times 25}{0.4}$ $V_2 = 12.5\ \text{mL}$
+
+- A solution of an acid is $0.2\ \text{M}$ and its n-factor (basicity) is $2$. Calculate its normality.
+  (a) $2.2\ \text{N}$  (b) $0.1\ \text{N}$  (c) $0.4\ \text{N}$  (d) $0.8\ \text{N}$
+  Key: (c). Normality $N = M\times$ n-factor. $N = 0.2\times 2$ $N = 0.4\ \text{N}$
+
+- A first-order reaction is $75\%$ complete in $20\ \text{min}$. Find the rate constant ($\log$ is to the base 10).
+  (a) $0.0288\ \text{min}^{-1}$  (b) $0.0693\ \text{min}^{-1}$  (c) $0.0301\ \text{min}^{-1}$  (d) $0.0144\ \text{min}^{-1}$
+  Key: (b). $k = \dfrac{2.303}{t}\log\dfrac{a}{a-x}$. $k = \dfrac{2.303}{20}\log\dfrac{100}{100-75}$ $k = 0.0693\ \text{min}^{-1}$
+
+- For a reaction with rate law $\text{rate} = k[\text{A}]^2[\text{B}]$, $k = 0.2$ (units consistent), $[\text{A}] = 0.2\ \text{M}$ and $[\text{B}] = 0.4\ \text{M}$. Find the rate.
+  (a) $0.008\ \text{M s}^{-1}$  (b) $0.072\ \text{M s}^{-1}$  (c) $0.016\ \text{M s}^{-1}$  (d) $0.0032\ \text{M s}^{-1}$
+  Key: (d). Insert the concentrations into the rate law. $\text{rate} = 0.2\times(0.2)^2\times0.4$ $\text{rate} = 0.0032\ \text{M s}^{-1}$
+
+- The molar solubility of $\text{CaF}_2$ is $s = 10^{-3}\ \text{mol L}^{-1}$. Calculate its solubility product $K_{sp}$.
+  (a) $4\times10^{-9}\ \text{mol}^3\text{L}^{-3}$  (b) $4\times10^{-8}\ \text{mol}^3\text{L}^{-3}$  (c) $2\times10^{-9}\ \text{mol}^3\text{L}^{-3}$  (d) $8\times10^{-9}\ \text{mol}^3\text{L}^{-3}$
+  Key: (a). $\text{CaF}_2 \rightleftharpoons \text{Ca}^{2+} + 2\text{F}^-$, so $K_{sp} = s(2s)^2 = 4s^3$. $K_{sp} = 4s^3 = 4\times(10^{-3})^3$ $K_{sp} = 4\times10^{-9}\ \text{mol}^3\text{L}^{-3}$
+
+- A $0.5\ \text{M}$ solution of a weak monobasic acid has $\text{pH} = 3$. Find its dissociation constant $K_a$.
+  (a) $2\times10^{-6}$  (b) $4\times10^{-6}$  (c) $5\times10^{-7}$  (d) $1\times10^{-6}$
+  Key: (a). $[\text{H}^+] = 10^{-\text{pH}}$ and $K_a = \dfrac{[\text{H}^+]^2}{C}$ for a weak acid. $K_a = \dfrac{(10^{-3})^2}{0.5}$ $K_a = 2\times10^{-6}$
+
+- For $\text{A} \rightarrow \text{B} + \text{C}$ the standard enthalpies of formation are $\Delta H_f(\text{A}) = -85\ \text{kJ mol}^{-1}$, $\Delta H_f(\text{B}) = -393\ \text{kJ mol}^{-1}$ and $\Delta H_f(\text{C}) = -130\ \text{kJ mol}^{-1}$. Find $\Delta H^\circ$ of the reaction.
+  (a) $-876\ \text{kJ mol}^{-1}$  (b) $-438\ \text{kJ mol}^{-1}$  (c) $-178\ \text{kJ mol}^{-1}$  (d) $-608\ \text{kJ mol}^{-1}$
+  Key: (b). $\Delta H^\circ = \sum\Delta H_f(\text{products}) - \sum\Delta H_f(\text{reactants})$. $\Delta H^\circ = (-393) + (-130) - (-85)$ $\Delta H^\circ = -438\ \text{kJ mol}^{-1}$
+
+- A phase change at $298\ \text{K}$ absorbs $40.7\ \text{kJ mol}^{-1}$ of heat reversibly. Find the entropy change.
+  (a) $137\ \text{J K}^{-1}\text{mol}^{-1}$  (b) $274\ \text{J K}^{-1}\text{mol}^{-1}$  (c) $12100\ \text{J K}^{-1}\text{mol}^{-1}$  (d) $68.5\ \text{J K}^{-1}\text{mol}^{-1}$
+  Key: (a). At equilibrium $\Delta S = \dfrac{\Delta H}{T}$. $\Delta S = \dfrac{40.7\times1000}{298}$ $\Delta S = 137\ \text{J K}^{-1}\text{mol}^{-1}$
+
+- A cell has $E^\circ_{cell} = 0.76\ \text{V}$ for a reaction with $n = 2$. Find $E_{cell}$ at $298\ \text{K}$ when the reaction quotient is $Q = 1000$.
+  (a) $0.405\ \text{V}$  (b) $0.849\ \text{V}$  (c) $0.671\ \text{V}$  (d) $0.556\ \text{V}$
+  Key: (c). $E = E^\circ - \dfrac{0.0592}{n}\log Q$. $E = 0.76 - \dfrac{0.0592}{2}\log 1000$ $E = 0.671\ \text{V}$
+
+- A fossil contains $\dfrac{1}{4}$ of the $^{14}\text{C}$ activity of a living sample. Find its age (half-life of $^{14}\text{C} = 5730\ \text{years}$).
+  (a) $24800\ \text{years}$  (b) $11500\ \text{years}$  (c) $1430\ \text{years}$  (d) $22900\ \text{years}$
+  Key: (b). $t = \dfrac{t_{1/2}}{0.693}\ln\dfrac{N_0}{N}$. $t = \dfrac{5730}{0.693}\ln 4$ $t = 11500\ \text{years}$
 
 ## math11: 28 numeric templates
 
@@ -674,7 +922,7 @@
   (a) $70\ \%$  (b) $46.7\ \%$  (c) $87.5\ \%$  (d) $188\ \%$
   Key: (c). Percentage increase $= \dfrac{\text{new}-\text{old}}{\text{old}}\times100$. $\dfrac{150-80}{80}\times100$ $87.5\%$
 
-## cs11: 8 numeric templates
+## cs11: 13 numeric templates
 
 - Convert the binary number $01101_{2}$ to decimal.
   (a) $26$  (b) $13$  (c) $22$  (d) $14$
@@ -708,7 +956,27 @@
   (a) $46$  (b) $56$  (c) $86$  (d) $101$
   Key: (c). A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$. $(56)_{16} = 5\times16^{1}+6\times16^{0}$ $= 86$
 
-## cs12: 7 numeric templates
+- Convert the octal number $(447)_8$ into decimal.
+  (a) $327$  (b) $15$  (c) $447$  (d) $295$
+  Key: (d). Octal to decimal: multiply each digit by a power of 8. $4\times 8^2 + 4\times 8^1 + 7\times 8^0$ $= 295$
+
+- How many rows are needed in the truth table of a Boolean function with $4$ input variables?
+  (a) $16$  (b) $4$  (c) $15$  (d) $8$
+  Key: (a). A function of $n$ variables has $2^n$ input combinations. Rows $= 2^{4}$ Rows $= 16$
+
+- What is the largest positive integer that can be stored in an $8$-bit signed (two's complement) number?
+  (a) $129$  (b) $127$  (c) $128$  (d) $255$
+  Key: (b). An $n$-bit two's complement integer ranges from $-2^{n-1}$ to $2^{n-1}-1$. Maximum $= 2^{8-1} - 1$ Maximum $= 127$
+
+- An image uses a colour depth of $4$ bits per pixel. How many different colours can it display?
+  (a) $16$  (b) $32$  (c) $8$  (d) $160$
+  Key: (a). A colour depth of $n$ bits gives $2^n$ colours. Colours $= 2^{4}$ Colours $= 16$
+
+- Mono audio is sampled at $22050\ \text{Hz}$ with $16$ bits per sample for $60\ \text{s}$. Find the uncompressed size in kilobytes ($1\ \text{KB} = 1000\ \text{B}$).
+  (a) $165.4\ \text{KB}$  (b) $21170\ \text{KB}$  (c) $2646\ \text{KB}$  (d) $44.1\ \text{KB}$
+  Key: (c). Size $=$ sampling rate $\times$ bits per sample $\times$ time $\times$ channels, divided by 8 for bytes. $\dfrac{22050\times 16\times 60}{8}\ \text{bytes}$ $= 2646\ \text{KB}$
+
+## cs12: 12 numeric templates
 
 - Convert the binary number $01101_{2}$ to decimal.
   (a) $26$  (b) $13$  (c) $22$  (d) $14$
@@ -737,3 +1005,23 @@
 - Convert the hexadecimal number $(56)_{16}$ to decimal.
   (a) $46$  (b) $56$  (c) $86$  (d) $101$
   Key: (c). A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$. $(56)_{16} = 5\times16^{1}+6\times16^{0}$ $= 86$
+
+- Relation A has $8$ tuples and relation B has $3$ tuples. How many tuples are in the Cartesian product $A \times B$?
+  (a) $24$  (b) $8$  (c) $23$  (d) $11$
+  Key: (a). The Cartesian product pairs every tuple of A with every tuple of B. $8\times 3$ Tuples $= 24$
+
+- Relation A has $3$ attributes and relation B has $4$ attributes. What is the degree of $A \times B$?
+  (a) $3$  (b) $12$  (c) $7$  (d) $6$
+  Key: (c). The degree (number of attributes) of $A \times B$ is the sum of the degrees. $3 + 4$ Degree $= 7$
+
+- A /24 network is divided using prefix length $/27$. How many equal subnets are created?
+  (a) $8$  (b) $6$  (c) $3$  (d) $32$
+  Key: (a). Borrowing $p-24$ host bits creates $2^{p-24}$ subnets. Borrowed bits $= 27 - 24$ Subnets $= 2^{27-24} = 8$
+
+- How many bytes does the C declaration \texttt{int a[20];} occupy if \texttt{int} is 4 bytes?
+  (a) $76\ \text{bytes}$  (b) $80\ \text{bytes}$  (c) $40\ \text{bytes}$  (d) $20\ \text{bytes}$
+  Key: (b). An array occupies (number of elements) $\times$ (size of one element). $20\times 4$ Size $= 80\ \text{bytes}$
+
+- How many times does the body of \texttt{for(i=1; i<30; i+=5)} execute?
+  (a) $7$  (b) $5$  (c) $6$  (d) $29$
+  Key: (c). The loop runs for each $i = a, a+s, \ldots$ while $i < b$, i.e. $\lceil (b-a)/s\rceil$ times. $\left\lceil\dfrac{30-1}{5}\right\rceil$ Iterations $= 6$

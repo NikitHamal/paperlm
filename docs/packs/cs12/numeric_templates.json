@@ -1,1 +1,1 @@
-["bin2dec", "dl_time", "subnet", "bits_needed", "mem_kb", "cpu_time", "hex2dec"]
+["bin2dec", "dl_time", "subnet", "bits_needed", "mem_kb", "cpu_time", "hex2dec", "cs12_cartesian", "cs12_degree", "cs12_subnets", "cs12_array", "cs12_loop"]

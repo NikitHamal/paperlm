@@ -1,1 +1,1 @@
-["bio_chargaff_g", "bio_dna_hbonds", "bio_mono_f2", "bio_dihybrid", "bio_recomb", "bio_pcr", "bio_cardiac_out", "bio_water_pot", "bio_glycolysis_atp", "bio_birth_rate"]
+["bio_chargaff_g", "bio_dna_hbonds", "bio_mono_f2", "bio_dihybrid", "bio_recomb", "bio_pcr", "bio_cardiac_out", "bio_water_pot", "bio_glycolysis_atp", "bio_birth_rate", "bio_dna_len", "bio_codon_aa", "bio_f2_dom", "bio_transform_eff", "bio_rq", "bio_cleavage", "bio_map_pressure", "bio_bmi", "bio_doubling"]
