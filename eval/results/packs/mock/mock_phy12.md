@@ -50,17 +50,17 @@
    c) transverse
    d) longitudinal
 
-9. The work done in blowing a soap bubble of radius $2\ \text{cm}$ (surface tension $0.03\ \text{N m}^{-1}$) is about
-   a) $3.0\times10^{-4}\ \text{J}$
-   b) $6.0\times10^{-4}\ \text{J}$
-   c) $1.5\times10^{-4}\ \text{J}$
-   d) $3.0\times10^{-2}\ \text{J}$
+9. Find the energy of the electron of a hydrogen atom in the $n = 4$ orbit.
+   a) $-0.85\ \text{eV}$
+   b) $-54.4\ \text{eV}$
+   c) $-3.4\ \text{eV}$
+   d) $-0.544\ \text{eV}$
 
-10. A motor applies a torque of $20\ \text{N m}$ to a shaft turning at $50\ \text{rad s}^{-1}$. The power delivered is
-   a) $2.5\ \text{W}$
-   b) $0.4\ \text{W}$
-   c) $70\ \text{W}$
-   d) $1000\ \text{W}$
+10. A straight wire of length $40\ \text{cm}$ carrying a current of $2\ \text{A}$ is placed perpendicular to a magnetic field of $70\ \text{mT}$. Find the force on the wire.
+   a) $0.0056\ \text{N}$
+   b) $5.6\ \text{N}$
+   c) $0.56\ \text{N}$
+   d) $0.056\ \text{N}$
 
 ## Group B: written
 
@@ -68,7 +68,7 @@
 
 12. Name two phenomena explained by the wave theory and one that is not. [3] [3]
 
-13. a) an ammeter reading up to $1\ \text{A}$ and b) a voltmeter reading up to $5\ \text{V}$. [5]
+13. Explain the concept of surface tension and derive the formula for capillary rise. How does the height of capillary rise vary with the radius of the tube? [5]
 
 14. Explain the relationship between displacement amplitude and pressure amplitude in sound waves and discuss how frequency affects this relationship. Additionally, under what condition does the observed frequency equal the emitted frequency when both source and observer are moving? Justify your answer. [5]
 
@@ -82,11 +82,11 @@
 6. (b) $v=\sqrt{\frac{\gamma RT}{M}}$ - The speed of sound in an ideal gas depends on temperature and molar mass as given by the formula $v=\sqrt{\frac{\gamma RT}{M}}$.
 7. (c) $e = -N\frac{d\Phi}{dt}$ - The formula $e = -N\frac{d\Phi}{dt}$ directly corresponds to Faraday's law as stated.
 8. (c) transverse - only a transverse vibration can be restricted to one plane.
-9. (a) $3.0\times10^{-4}\ \text{J}$ - a bubble has two surfaces: $W = T\times2\times4\pi r^{2} = 0.03\times2\times4\pi(0.02)^{2} = 3.0\times10^{-4}\ \text{J}$. Option (a) counts one surface only.
-10. (d) $1000\ \text{W}$ - $P = \tau\omega = 20\times50 = 1000\ \text{W}$.
+9. (a) $-0.85\ \text{eV}$ - In the Bohr model the energy of the $n$th orbit of hydrogen is $E_n = -\dfrac{13.6}{n^2}\ \text{eV}$. $E_n = -\dfrac{13.6}{n^2} = -\dfrac{13.6}{4^2}$ $E_n = -0.85\ \text{eV}$
+10. (d) $0.056\ \text{N}$ - The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 70\times10^{-3}\times2\times40\times10^{-2}$ $F = 0.056\ \text{N}$
 11. [3 marks] With the cold junction at $0\ ^{\circ}\text{C}$, the thermo-e.m.f. first rises as the hot-junction temperature rises, reaches a maximum at $\theta_n$, then falls, reaching zero at $\theta_i$ and reversing beyond it. [3]
 12. [3 marks] Explained by the wave theory: reflection and refraction (Huygens' construction), interference and diffraction (superposition, bending) and polarization (transverse waves). [2] | Not explained: the photoelectric effect, which needs energy in quanta (photons). [1]
-13. [5 marks] (a) $S = \dfrac{I_gG}{I-I_g} = \dfrac{(10^{-3})(100)}{1-0.001} = \dfrac{0.1}{0.999} = 0.100\ \Omega$ in parallel.(b) $R = \dfrac{V}{I_g} - G = \dfrac{5}{10^{-3}} - 100 = 5000 - 100 = 4900\ \Omega$ in series. [5]
+13. [5 marks] Surface tension $T$ is defined as the force acting per unit length on an imaginary line on the liquid surface, $T = \frac{F}{l}$, measured in N m$^{-1}$. [2] | The capillary rise $h$ is given by $h = \frac{2T\cos\theta}{r\rho g}$, where $T$ is surface tension, $\theta$ is contact angle, $r$ is tube radius, $\rho$ is liquid density, and $g$ is gravitational acceleration. [2] | From this formula, it's evident that $h \propto \frac{1}{r}$, indicating that the height of capillary rise decreases as the tube radius increases. [1]
 14. [5 marks] In sound waves, displacement amplitude $y$ and pressure amplitude $\Delta P$ are directly related; higher $y$ results in higher $\Delta P$. [1] | The pressure amplitude increases linearly with frequency $f$ for a fixed displacement amplitude. [1] | This means $\Delta P \propto f$. [1] | When both the source and observer move with the same velocity in the same direction, their relative distance remains constant. [1] | Hence, the Doppler effect does not alter the frequency, leading to $f' = f$. [1]
 
-Units covered: 13 of 25; slots without a unique verified item: 0; every item comes from the verified bank (provenance: gold NEB or teacher+verifier).
+Units covered: 14 of 25; slots without a unique verified item: 0; every item comes from the verified bank (provenance: gold NEB, teacher+verifier, or computed by the parametric solver).

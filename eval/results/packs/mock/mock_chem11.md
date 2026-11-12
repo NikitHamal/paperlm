@@ -50,17 +50,17 @@
    c) magnesium
    d) iron
 
-9. The number of unpaired electrons in Fe³⁺ is
-   a) 5
-   b) 4
-   c) 3
-   d) 6
+9. For the reaction $A + B \rightleftharpoons 2C$ the equilibrium concentrations are $[A] = 0.2\ \text{M}$, $[B] = 0.1\ \text{M}$ and $[C] = 0.4\ \text{M}$. Calculate $K_c$.
+   a) $8$
+   b) $40$
+   c) $0.125$
+   d) $20$
 
-10. The empirical formula of glucose, $\text{C}_6\text{H}_{12}\text{O}_6$, is
-   a) $\text{C}_3\text{H}_6\text{O}_3$
-   b) $\text{CH}$
-   c) $\text{C}_2\text{H}_4\text{O}_2$
-   d) $\text{CH}_2\text{O}$
+10. A reaction has a theoretical yield of $25\ \text{g}$ but only $18\ \text{g}$ of product is obtained. Calculate the percentage yield.
+   a) $0.72\ \%$
+   b) $4.5\ \%$
+   c) $28\ \%$
+   d) $72\ \%$
 
 ## Group B: written
 
@@ -82,11 +82,11 @@
 6. (b) Cu²⁺ - Cu²⁺ gains the two electrons lost by zinc, so it is reduced and is therefore the oxidising agent.
 7. (c) 100% - in an addition reaction all reactant atoms appear in the product.
 8. (c) magnesium - $\text{Mg}^{2+}$ sits in the porphyrin ring (iron is in haem).
-9. (a) 5 - Fe³⁺ is [Ar]3d⁵, and by Hund's rule all five are unpaired.
-10. (d) $\text{CH}_2\text{O}$ - divide the subscripts $6:12:6$ by 6.
+9. (a) $8$ - For $A + B \rightleftharpoons 2C$, $K_c = \dfrac{[C]^2}{[A][B]}$. $K_c = \dfrac{[C]^2}{[A][B]} = \dfrac{(0.4)^2}{0.2\times 0.1}$ $K_c = 8$
+10. (d) $72\ \%$ - Percentage yield $= \dfrac{\text{actual yield}}{\text{theoretical yield}}\times100$. $\text{yield} = \dfrac{18}{25}\times100$ $\text{yield} = 72\%$
 11. [2 marks] (i) 4-methylpentan-2-ol — the chain is five carbons, the OH takes the lower locant 2, so the methyl lands on C4. [2]
 12. [2 marks] A compound is optically active if it is chiral, i.e. its mirror image is not superimposable on it; the usual cause is a carbon carrying four different groups, and the molecule must have no plane or centre of symmetry. [2]
 13. [5 marks] (a) $\text{NH}_3 + \text{HCl} \to \text{NH}_4\text{Cl}$ (white fumes).(b) $\text{NH}_3 + 3\text{Cl}_2 \to \text{NCl}_3 + 3\text{HCl}$ (excess chlorine); with excess ammonia, $8\text{NH}_3 + 3\text{Cl}_2 \to \text{N}_2 + 6\text{NH}_4\text{Cl}$.(c) $\text{CuSO}_4 + 4\text{NH}_3 \to [\text{Cu(NH}_3)_4]\text{SO}_4$ (deep blue; a pale blue precipitate of $\text{Cu(OH)}_2$ first). [5]
 14. [4 marks] (a) Two postulates fail: real molecules attract one another and have a finite volume. [1] | $Z = PV/nRT$; [1] | $Z = 1$ for an ideal gas. [1] | CO₂ dips well below 1 at moderate pressure (strong attractions) and rises above 1 at high pressure; [1]
 
-Units covered: 11 of 17; slots without a unique verified item: 0; every item comes from the verified bank (provenance: gold NEB or teacher+verifier).
+Units covered: 11 of 17; slots without a unique verified item: 0; every item comes from the verified bank (provenance: gold NEB, teacher+verifier, or computed by the parametric solver).

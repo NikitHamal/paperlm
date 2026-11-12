@@ -27,7 +27,7 @@ def scheme(ans, marks):
     return [(s, m) for s, m in zip(steps, mk) if m]
 
 
-def plan(pid, n_mcq=10, n_short=4, seed=7):
+def plan(pid, n_mcq=10, n_short=4, seed=7, n_num=2):
     d = f"{R}/docs/packs/{pid}"; g = json.load(open(f"{d}/syllabus_graph.json")); bank = json.load(open(f"{d}/bank.json")); rnd = random.Random(seed)
     spec = [("mcq", 1)] * n_mcq + [("short", 3)] * (n_short // 2) + [("short", 5)] * (n_short - n_short // 2)
     us = g["units"]; slots = [u for u, c in zip(us, quotas(us, len(spec))) for _ in range(c)]; rnd.shuffle(slots)
@@ -40,6 +40,19 @@ def plan(pid, n_mcq=10, n_short=4, seed=7):
             if pool: break
         else: miss += 1; continue
         b = rnd.choice(pool); used.add(b["question"]); anchors.add(b["anchor"]); seen_w.append(W(b["question"])); out.append((kind, marks, b))
+    nbp = f"{d}/numeric_bank.json"  # v13: computed numericals replace the lowest-priority bank MCQs (key + distractors derived from a formula, exact by construction)
+    if n_num and os.path.exists(nbp):
+        nb = json.load(open(nbp)); by = {}
+        for b in nb: by.setdefault(b["tpl"], []).append(b)
+        share = {u["name"]: u["share"] for u in us}; tpls = sorted(by, key=lambda t: (-share.get(by[t][0]["unit"], 0), t)); picks = []; seen_u = set()
+        for t in tpls:  # heaviest syllabus unit first, one template per unit before a unit repeats
+            if len(picks) >= n_num: break
+            if by[t][0]["unit"] in seen_u and len(seen_u) < len({by[x][0]["unit"] for x in tpls}): continue
+            picks.append(rnd.choice(by[t])); seen_u.add(by[t][0]["unit"])
+        mc = [i for i, (k, m, b) in enumerate(out) if k == "mcq"]
+        for pk in picks:
+            same = [i for i in mc if out[i][2]["unit"] == pk["unit"] and out[i][2].get("src") != "computed"]
+            j = (same or mc[::-1])[0]; mc.remove(j); out[j] = ("mcq", 1, pk)
     return g, out, miss
 
 
@@ -57,7 +70,7 @@ def render(pid, n_mcq, n_short, seed):
             else:
                 key.append(f"{n}. [{b['marks']} marks] " + " | ".join(f"{s} [{m}]" for s, m in scheme(b["answer"], b["marks"])))
                 L += [f"{n}. {b['question']} [{b['marks']}]", ""]
-    L += ["## Answer key and marking scheme", ""] + key + ["", f"Units covered: {len({b['unit'] for _, _, b in items})} of {len(g['units'])}; slots without a unique verified item: {miss}; every item comes from the verified bank (provenance: gold NEB or teacher+verifier)."]
+    L += ["## Answer key and marking scheme", ""] + key + ["", f"Units covered: {len({b['unit'] for _, _, b in items})} of {len(g['units'])}; slots without a unique verified item: {miss}; every item comes from the verified bank (provenance: gold NEB, teacher+verifier, or computed by the parametric solver)."]
     return "\n".join(L)
 
 

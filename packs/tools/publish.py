@@ -28,3 +28,6 @@ for pid in SP:
     p = f"{R}/docs/packs/{pid}/pack.json"
     if os.path.exists(p): m = json.load(open(p)); reg.append({k: m[k] for k in ["pack_id", "title", "level", "subject", "params", "onnx_mb", "val_loss"]} | {"numeric": len(SP[pid].get("numeric", []))})
 json.dump(dict(version=2, packs=reg), open(f"{R}/docs/packs/pack_registry.json", "w"), indent=1); shutil.copy(f"{R}/docs/packs/pack_registry.json", f"{R}/packs/pack_registry.json"); print("registry", [x["pack_id"] for x in reg])
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import build_numeric_bank as _nb  # v13: precomputed numeric banks (Android/offline) for every pack
+for pid in SP:
+    if os.path.exists(f"{R}/docs/packs/{pid}/numeric_templates.json"): print("numeric_bank", pid, _nb.build(pid))

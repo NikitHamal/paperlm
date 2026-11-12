@@ -26,11 +26,11 @@
    c) fibroblasts
    d) osteoblasts only
 
-5. Pancreas is a gland with exocrine and endocrine functions; its exocrine part is the pancreatic acini. What is the endocrine part?
-   a) islets of Langerhans
-   b) zona reticularis
-   c) zona glomerulosa
-   d) adenohypophysis
+5. A person has a heart rate of $80\ \text{beats min}^{-1}$ and a stroke volume of $80\ \text{mL}$. What is the cardiac output in litres per minute?
+   a) $6.4\ \text{L min}^{-1}$
+   b) $12.8\ \text{L min}^{-1}$
+   c) $64\ \text{L min}^{-1}$
+   d) $1\ \text{L min}^{-1}$
 
 6. In a monohybrid cross between two heterozygous individuals (Aa x Aa) for a certain trait, what phenotypic ratio would you expect to observe in their offspring according to Mendel's laws?
    a) 1 : 2 : 1
@@ -50,11 +50,11 @@
    c) spermatozoa form from spermatids
    d) primary spermatocytes form from spermatogonia
 
-9. In the process of ATP synthesis in plants, how many $H^+$ ions are typically consumed to produce one molecule of ATP?
-   a) 4
-   b) 6
-   c) 2
-   d) 8
+9. Glycolysis breaks down $4$ glucose molecules. What is the net gain of ATP?
+   a) $8$
+   b) $4$
+   c) $16$
+   d) $152$
 
 10. A sieve tube element has no nucleus. It stays alive because of the help of
    a) passage cell
@@ -78,15 +78,15 @@
 2. (c) $T_d \approx \frac{70}{R}$ - The rule of 70 states that dividing 70 by the growth rate gives the doubling time.
 3. (d) typhoid and cholera - typhoid and cholera spread by the faeco-oral route. Tuberculosis and influenza are airborne; candidiasis is fungal.
 4. (b) osteocytes - osteocytes sit in lacunae. Osteoblasts make matrix and become osteocytes; chondrocytes belong to cartilage.
-5. (a) islets of Langerhans - the islets of Langerhans make insulin and glucagon. Zona glomerulosa and zona reticularis are adrenal cortex layers, adenohypophysis is the anterior pituitary.
+5. (a) $6.4\ \text{L min}^{-1}$ - Cardiac output $=$ heart rate $\times$ stroke volume. $CO = 80\times 80\ \text{mL min}^{-1}$ $CO = 6.4\ \text{L min}^{-1}$
 6. (b) 3 : 1 - The expected phenotypic ratio for a monohybrid cross between two heterozygous individuals is 3 : 1 according to Mendel's law of segregation.
 7. (c) Eisenia fetida - Eisenia fetida is epigeic. Lumbricus terrestris is anecic and unsuitable.
 8. (c) spermatozoa form from spermatids - spermiogenesis is the conversion of a spermatid into a spermatozoon (no division). Options (a)–(c) are the division steps of the multiplication and maturation phases.
-9. (a) 4 - About 4 $H^+$ are consumed per ATP made according to modern accounting.
+9. (a) $8$ - Glycolysis yields a net gain of 2 ATP per glucose (4 produced, 2 used). Net ATP $= 2\times 4$ Net ATP $= 8$
 10. (d) companion cell - the companion cell, sister cell of the sieve element, supplies ATP and proteins. Bulliform and passage cells are in leaf and endodermis.
 11. [2 marks] The pump removes 3 Na$^+$ and brings in 2 K$^+$ per ATP, creating higher Na$^+$ concentrations outside and higher K$^+$ concentrations inside the cell. [2]
 12. [3 marks] A linear DNA with 5 cut sites produces 6 fragments ($n+1$). [1] | A circular DNA with 5 cut sites produces 5 fragments ($n$). [1] | After 30 cycles of PCR, $2^{30} \approx 10^9$ DNA copies are generated in about two hours. [1]
 13. [5 marks] GA$_3$ is one of over 130 gibberellins, critical for growth processes. 2. [1] | Insufficient oxygen halts the electron transport chain, preventing NADH reoxidation and glycolysis due to NAD$^+$ depletion. 3. [1] | Vacuolated cells' water potential primarily depends on the vacuolar solutes. 4. [1] | Gravity's effect on water potential is negligible below 10m. 5. [1] | Calculated $\Psi_s$ using formula: $\Psi_s = -(1)(0.2)(0.00831)(295) = -0.49$ MPa. [1]
 14. [5 marks] Each grain produces 2 male gametes, thus $1200 \times 2 = 2400$ male gametes are produced. [2] | During megaspore formation, each meiosis yields 4 megaspores. [1] | With 8 meioses, $8 \times 4 = 32$ megaspores are formed. [1] | Additionally, $8 \times 3 = 24$ cells degenerate during this process. [1]
 
-Units covered: 10 of 10; slots without a unique verified item: 0; every item comes from the verified bank (provenance: gold NEB or teacher+verifier).
+Units covered: 10 of 10; slots without a unique verified item: 0; every item comes from the verified bank (provenance: gold NEB, teacher+verifier, or computed by the parametric solver).
