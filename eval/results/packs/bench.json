@@ -14,23 +14,40 @@
   "bank_size": 801,
   "bank_mcq": 570,
   "bank_short": 231,
-  "seconds": 37.3
+  "seconds": 14.2
  },
- "phy11": {
+ "phy12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.4801,
+  "val_loss": 2.6191,
   "slots": 5,
   "neural_accepted": 0,
   "neural_attempts": 10,
   "neural_gate_rate": 0,
   "bank_fallback": 5,
   "empty": 0,
-  "units_covered": "5/26",
+  "units_covered": "5/25",
   "duplicates": 0,
-  "bank_size": 965,
-  "bank_mcq": 740,
-  "bank_short": 225,
-  "seconds": 67
+  "bank_size": 1003,
+  "bank_mcq": 712,
+  "bank_short": 291,
+  "seconds": 22.5
+ },
+ "chem12": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 3.3057,
+  "slots": 5,
+  "neural_accepted": 0,
+  "neural_attempts": 10,
+  "neural_gate_rate": 0,
+  "bank_fallback": 5,
+  "empty": 0,
+  "units_covered": "5/21",
+  "duplicates": 0,
+  "bank_size": 577,
+  "bank_mcq": 439,
+  "bank_short": 138,
+  "seconds": 20.7
  }
 }

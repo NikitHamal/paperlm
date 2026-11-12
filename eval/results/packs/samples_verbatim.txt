@@ -1,5 +1,5 @@
 
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5528,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/10","duplicates":0,"bank_size":801,"bank_mcq":570,"bank_short":231,"seconds":37.3}
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5528,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/10","duplicates":0,"bank_size":801,"bank_mcq":570,"bank_short":231,"seconds":14.2}
 
 [Plant Physiology] MCQ <teacher>
 Q. According to Blackman's Law of Limiting Factors, which statement best describes the rate of a biological process?
@@ -33,36 +33,70 @@ Model answer: Five minutes later, re-readers recalled 83% vs 71% for retrievers.
 Q. Describe two functions of animal tissues related to defense and insulation.
 Model answer: Macrophages and plasma cells defend against infections. Subcutaneous fat insulates, reducing heat loss in cold regions like Mustang.
 
-##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.4801,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/26","duplicates":0,"bank_size":965,"bank_mcq":740,"bank_short":225,"seconds":67}
+##### phy12 (Physics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6191,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/25","duplicates":0,"bank_size":1003,"bank_mcq":712,"bank_short":291,"seconds":22.5}
 
-[Dynamics] MCQ <teacher>
-Q. In a system involving a light inextensible string and a frictionless, massless pulley, if the pulley were to have mass, how would it affect the acceleration $a$ of the objects attached to the string?
-  a) It would decrease the value of $a$.
-  b) It would not change the value of $a$.
-  c) It would increase the value of $a$.
-  d) It would cause $a$ to become negative.
-Key: a  Why: Part of the torque would go into spinning the pulley if it had mass, thus reducing the acceleration $a$.
+[Fluid statics] MCQ <gold>
+Q. If the height of capillary rise in a tube on the Earth is $h$, the height on the Moon ($g_{Moon} = g/6$) is
+  a) $36h$
+  b) $6h$
+  c) $h$
+  d) $h/6$
+Key: b  Why: $h\propto 1/g$; weaker gravity means the column climbs six times higher.
 
-[DC Circuits] MCQ <teacher>
-Q. What formula represents the maximum power $P_{max}$ in terms of electromotive force $E$ and internal resistance $r$ in a circuit?
-  a) $Er^2$
-  b) $\dfrac{E^{2}}{4r}$
-  c) $\dfrac{E}{2r}$
-  d) $E^2r$
-Key: b  Why: The maximum power is $P_{max}=\dfrac{E^{2}}{4r}$ and the efficiency is then only 50%.
+[Thermoelectric effects] MCQ <teacher>
+Q. For a thermocouple with its cold junction at $0\,^{\circ}\text{C}$, which formula represents the thermo-e.m.f. $E$ in microvolts as a function of temperature $\theta$?
+  a) $E = 10\theta + 0.1\theta^{2}$
+  b) $E = 50\theta - 0.01\theta^{2}$
+  c) $E = 25\theta - 0.05\theta^{2}$
+  d) $E = 25 + 0.05\theta$
+Key: c  Why: For a thermocouple with its cold junction at $0\,^{\circ}\text{C}$, the thermo-e.m.f. in microvolts is $E = 25\theta - 0.05\theta^{2}$.
 
-[Reflection at curved mirror] MCQ <teacher>
-Q. Given that the image formed by a curved mirror is real and magnified three times, what is the magnification factor $m$?
-  a) $m = 1$
-  b) $m = 3$
-  c) $m = -3$
-  d) $m = -1$
-Key: c  Why: The magnification factor for a real, inverted image is negative, hence $m = -3$.
+[Polarization] MCQ <teacher>
+Q. For a glass with a refractive index of $1.5$, what is the angle of polarization?
+  a) $33.7°$
+  b) $45°$
+  c) $56.3°$
+  d) $90°$
+Key: c  Why: The angle of polarization for glass with a refractive index of 1.5 is calculated as $\tan^{-1}(1.5)$ which equals $56.3°$.
 
-[Nuclear physics] 2-mark <gold>
-Q. Each fission of ²³⁵U releases $200\ \text{MeV}$. Calculate the energy released by the complete fission of $0.50\ \text{kg}$ of ²³⁵U, and the mass that disappears in the process.
-Model answer: $N = (500/235)\times6.022\times10^{23} = 1.28\times10^{24}$ nuclei. $E = 1.28\times10^{24}\times200\times1.6\times10^{-13} = 4.1\times10^{13}\ \text{J}$.
+[Magnetic field] 3-mark <gold>
+Q. Show that an electron entering a uniform magnetic field at right angles moves in a circle of radius $r = mv/eB$. [3]
+Model answer: A charge $e$ moving with velocity $v$ at right angles to a field $B$ feels a force
 
-[Electric field] 3-mark <teacher>
-Q. Explain how the electric field strength is determined using electric field lines and identify if there is any point between two like charges where the resultant electric field is zero.
-Model answer: The electric field strength is determined by the density of field lines; more lines per unit area indicate a stronger field ($E$). For two like charges, the field lines between them point in the same direction, adding up and never cancelling out, hence there is no point where the resultant field is zero.
+[Electrical circuits] 3-mark <gold>
+Q. Derive the expression for the internal resistance of a cell using a potentiometer. [3]
+Model answer: A cell of e.m.f. $E$ and internal resistance $r$ is balanced on the potentiometer wire: on open circuit at length $l_1$, so $E = kl_1$ ($k$ is the potential gradient). Then a resistance $R$ is connected across the cell.
+
+##### chem12 (Chemistry - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.3057,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/21","duplicates":0,"bank_size":577,"bank_mcq":439,"bank_short":138,"seconds":20.7}
+
+[Chemical Kinetics] MCQ <gold>
+Q. In a plot of $\ln k$ against $1/T$ the slope is equal to
+  a) $+E_a/R$
+  b) $-E_a/R$
+  c) $\ln A$
+  d) $-E_a/2.303R$
+Key: b  Why: from $\ln k = \ln A - E_a/RT$.
+
+[Haloalkanes] MCQ <gold>
+Q. The intermediate in an S_{N}1 reaction is
+  a) a carbanion
+  b) a free radical
+  c) a carbocation
+  d) a carbene
+Key: c  Why: the slow step is heterolysis of C–X to give a planar carbocation.
+
+[Electrochemistry] MCQ <gold>
+Q. The standard electrode potentials of four elements are +0.34 V, −0.76 V, 0.00 V and −3.05 V. The order of decreasing reducing power is
+  a) +0.34 > 0.00 > −0.76 > −3.05
+  b) −0.76 > −3.05 > 0.00 > +0.34
+  c) 0.00 > +0.34 > −0.76 > −3.05
+  d) −3.05 > −0.76 > 0.00 > +0.34
+Key: d  Why: reducing power increases as E° becomes more negative, so the most negative value heads the list.
+
+[Aldehydes and Ketones] 3-mark <teacher>
+Q. Describe the complete reduction process of an aldol condensation product using the example of $\ce{CH3CH(OH)CH2CHO}$ and state the final product formed.
+Model answer: 1. Heating $\ce{CH3CH(OH)CH2CHO}$ causes dehydration: $\ce{CH3CH(OH)CH2CHO ->[\Delta] CH3CH=CHCHO + H2O}$. 2. Further reduction removes all oxygen, converting >C=O to >CH₂. 3. The final product is $\ce{CH3CH=CHCH3}$.
+
+[Studies of Heavy Metals] 2-mark <teacher>
+Q. Calculate the amount of copper recovered if the initial mass is $m = 1000 \times 0.0692 = 69.2\ \text{kg}$ with a 90% recovery rate.
+Model answer: Initial mass of copper is $69.2\ \text{kg}$. At 90% recovery, the recovered copper is $m = 0.90 \times 69.2 = 62.3\ \text{kg}$.
