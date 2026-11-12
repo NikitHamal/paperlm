@@ -126,6 +126,57 @@ def qa(it):
     return r
 
 
+
+# ---- v18 rules (found by reading shipped items) ----
+OPTREF = re.compile(r"\b(?:options?|choices?)\s*\(?[a-dA-D1-4]\)?(?=[\s,.;:)]|$)|\(\s*[a-d]\s*\)\s+(?:is|describes|states|refers)\b|\b(?:the|all) (?:above|other) options\b|\bnone of the (?:above|options)\b", re.I)
+UNGROUNDED = re.compile(r"\b(?:in|for|of|from|by|to) the (?:given|above|following|mentioned|said) (?:reaction|process|experiment|situation|scenario|system|compound|circuit|case|equation|statement|example|organism|cross|diagram|passage)\b|\bthe (?:given|above) (?:reaction|process|experiment|situation|scenario|system|circuit|case|example)\b", re.I)
+IMP = r"(?:explain|describe|define|state|derive|discuss|list|write|mention|differentiate|distinguish|what is|how)"
+STOPW = set("the and for with that this what from which their there these those about into also have been does when where while explain describe define state derive discuss list write mention each other than then them they your".split())
+
+
+def _cw(t):
+    return {w for w in re.findall(r"[a-z]{4,}", t.lower()) if w not in STOPW}
+
+
+def mashup(q):
+    """A written stem that glues two unrelated asks together ('Explain meiosis in frogs ... Also define animation ...'): split at the
+    sentence / ', and' / 'Also' boundary; both halves are imperatives and share no content word."""
+    parts = re.split(r"(?<=[.?;])\s+(?:Also,?\s+|Additionally,?\s+)?(?=[A-Z])|,?\s+(?:and|also|then)\s+(?=" + IMP + r"\b)|,\s+(?:and\s+)?(?:also\s+)?(?=" + IMP + r"\b)", q.strip(), flags=re.I)
+    parts = [x for x in parts if x and len(x) > 15]
+    if len(parts) < 2 or re.search(r"\b[a-d]\)", q): return False
+    for a, b in zip(parts, parts[1:]):
+        if re.match(IMP + r"\b", a.strip(), re.I) and re.match(IMP + r"\b", b.strip(), re.I) and not (_cw(a) & _cw(b)) and len(_cw(a)) >= 3 and len(_cw(b)) >= 3 and not re.search(r"\b(?:its|their|it|this|these|those|them|such|same|each|both|the former|the latter)\b", b, re.I): return True
+    return False
+
+
+def _clean_sent(t):
+    """drop the sentences / ';' clauses of a rationale that talk about option letters"""
+    segs = re.split(r"(?<=[.;])\s+", t.strip()); out = [x for x in segs if not OPTREF.search(x)]
+    return " ".join(out).strip().rstrip(";")
+
+
+_old_repair = repair
+
+
+def repair(it):
+    it = _old_repair(it)
+    for k in ("why", "anchor"):
+        if it.get(k) and OPTREF.search(it[k]):
+            it = dict(it); it[k] = _clean_sent(it[k]); it["repaired_" + k] = "option_ref"
+    return it
+
+
+_old_qa = qa
+
+
+def qa(it):
+    r = _old_qa(it); q = it.get("question", "")
+    if UNGROUNDED.search(q) and "$" not in q and not re.search(r"\d", q): r.append("ungrounded_referent")
+    if it["type"] != "mcq" and mashup(q): r.append("topic_mashup")
+    if OPTREF.search(q + " " + it.get("answer", "")): r.append("option_ref")
+    return r
+
+
 def run(pid):
     f = f"{R}/docs/packs/{pid}/bank.json"
     B = json.load(open(f, encoding="utf-8")); why = collections.Counter(); keep = []
