@@ -1,114 +1,69 @@
 [
  {
-  "unit": "Volumetric Analysis",
+  "unit": "Transition Metals",
   "type": "mcq",
-  "anchor": "The equation $N_1V_1 = N_2V_2$ needs no balanced equation and no stoichiometric coefficients — that is its whole advantage.",
+  "anchor": "Variable oxidation states arise because 3d and 4s are close in energy. The maximum state rises to +7 at Mn, then falls; the +2 state dominates on the right.",
   "segs": [
-   "The relationship between the oxalic acid-oxalic acid is the used in the reaction mechanism.",
-   "What equation represents the calculation $N_1V_1 = N_2V_2$ represents the relationship in volumetric analysis?",
-   "The concentration of the reactants are produced by the examinable ($N_1$) of the oxalic acid-Lowry n-factors differ.",
-   "The pH is used for the concentration of the reactants reactants reactants reactants.",
-   "The relationship between substances react in the end point, the reactants raised to products.",
-   "The equation $N_1 = M_2V_1$ is stated in the equation provided."
+   "Violet-block",
+   "The maximum state function of transition metal in a lower energy escape as in the process, which of the following best describes the process of transition metals in the electronic configuration?",
+   "Turner $3d$ and $3d$.",
+   "Tungsten in the $2d$ electron transitions.",
+   "Group I$^{2+}$ and $3.0\\,^{\\circ}\\text{C}$.",
+   "The splitting in transition metal is defined as the maximum, indicating the partly filled d orbitals rise in the atom, which is the partly filled d subshell in the atom."
   ],
-  "score": 0.486,
-  "gate": false
- },
- {
-  "unit": "Nuclear Chemistry and Applications of Radioactivity",
-  "type": "mcq",
-  "anchor": "The first artificial transmutation was carried out by Rutherford in 1919: ¹⁴₇N + ⁴₂He → ¹⁷₈O + ¹₁H , written in short as ¹⁴N(α, p)¹⁷O Chadwick's discovery of the neutron (1932) used the same technique: The sum of the mass numbers (superscripts) is the same on both sides.",
-  "segs": [
-   "It is the decay constant to generate the reactor used for the fusion used in Section.",
-   "Why is the fusion used for the fusion reaction?",
-   "It indicates the fusion reaction rate",
-   "It is the process at the reaction.",
-   "It is a neutronium-14.5 decides nuclear reactions.",
-   "The fusion used to calculate the fusion used for both symers as the fusion used in 1896."
-  ],
-  "score": 0.682,
-  "gate": false
- },
- {
-  "unit": "Haloalkanes",
-  "type": "mcq",
-  "anchor": "At the half-way point the carbon is joined to five things in a transition state in which the three unchanged groups lie in a plane. $$\\text{rate} = k\\,[\\text{R--X}]\\,[\\text{Nu}^-]$$ Because the nucleophile comes in from the back, the other three groups are pushed through the plane like an umbrella turning inside out in the wind.",
-  "segs": [
-   "$\\text{rate} = k[\\text{R-X}][\\text{Nu}^{-}]$",
-   "What is the rate of the context of the context of a single maximum, defined as an transition state in the context?",
-   "$\\text{rate }^{-1}$",
-   "$\\text{EAN} = k[k]^{2}\\text{rate}]^{2-}$",
-   "$[\\text{Nu-X}^{-1-}]$",
-   "The half-life is determined by $r = k[\\texto-B-X-methylpropane, $r = k'[\\text{R}]^{x}[\\text{RX}]^{y}$. $r = k\\,\\text{rate}^{-2}$. $$r = k[k_0^{2}][\\text, indicating the]^{2,$ is second order. $r = \\frac{[\\text{RCHO}][\\texta]}]^{n}]^{1-n}$. It is first order in the rate law for a single elementary step, making the rate law $r = k_{\\text{rate}[\\text{NuX}^{]}$ and $r = k\\ln[\\text{"
-  ],
-  "score": 0.807,
+  "score": 0.439,
   "gate": false
  },
  {
   "unit": "Studies of Heavy Metals",
   "type": "mcq",
-  "anchor": "Copper is the oldest worked metal: the Kathmandu Valley's repoussé work, the gilded roofs of Pashupatinath and the water vessels of every Newari household are copper or its alloys.",
+  "anchor": "At the anode (oxidation): 2Fe → 2Fe²⁺ + 4e⁻ At the cathode (reduction): O₂ + 4H⁺ + 4e⁻ → 2H₂O The H⁺ comes from carbonic acid, since rainwater always carries dissolved CO₂.",
   "segs": [
-   "Blastableached Kraft",
-   "What hills is described as the ozer converted with the use of copper from the operation process?",
-   "Gathmanduter",
-   "Blaslu gold",
-   "Blasul limestone",
-   "The passage explicitly mentions the vapour in the Nepali hospitals is explicitly mentioned as Nepal's best conductivity."
+   "The anode",
+   "In the process where 2H, if the cathode is + 2H → 2Fe²CO_2 + 2H_2O \\rightarrow 2Fe + 2H_3O + 2e + 2H_4O$. If the cathode reacts with dilute acid or alkali, what temperature does the cathode occur through the cathode, what is the anode? Action of the cathode, making the cathode. This reaction occurs, which element's rule does the dehydration process affect the cathode. If the anode, the cathode, and the cathode does the cathode, making it",
+   "The most frequently already",
+   "The methyl group repels the metal of the cathode",
+   "The +0.34 V",
+   "The methyl group in the anode is defined as the cathode."
   ],
-  "score": 0.4,
+  "score": 0.758,
   "gate": false
  },
  {
-  "unit": "Haloarenes",
-  "type": "mcq",
-  "anchor": "Electron-withdrawing groups switch the reactivity back on. If a strongly –R group such as –NO₂ sits ortho or para to the halogen, the negative charge of the intermediate can be delocalised onto the nitro oxygen atoms, and nucleophilic substitution becomes easy.",
-  "segs": [
-   "Its $-NO$ and the ortho or para groups.",
-   "Why is nitro groups important to the ortho, para substitution reactions involving the ortho or para substitution reactions?",
-   "It has a higher temperature and presence of the nitro group.",
-   "It has a stronger catalyst in the reactivity of the aromatic ring.",
-   "It has the electron density on the reactivity of the ortho or para positions.",
-   "Nitro compounds are the standard pathway to synthesize the nitro group, deactivating the ortho or para position."
-  ],
-  "score": 0.879,
-  "gate": true
- },
- {
-  "unit": "Chemical Kinetics",
-  "type": "mcq",
-  "anchor": "The catalysed path (dashed) has a lower barrier $E_a'$ and therefore a much larger fraction of successful collisions, but the reactant and product levels — and hence $\\Delta H$ — are unchanged.",
-  "segs": [
-   "The rate at $E_a$ and the order of the reactant, thus a larger $E_a'$ means a larger $\\Delta H$ or the reaction.",
-   "In a chemical reaction, which statement correctly describes the relationship between $\\Delta H$ and the reaction rate at a chemical reaction?",
-   "The value of $\\Delta H$ changes the concentration of the product energy barrier.",
-   "The activation energy $\\Delta H$ does not affect the reaction rate at the reaction.",
-   "The equilibrium constant $\\Delta H$ is the same rate at the same rate.",
-   "The rate at $\\Delta H$ indicates a faster reaction as stated in the rate constant $\\Delta H < 0$ and $\\Delta H$."
-  ],
-  "score": 0.619,
-  "gate": false
- },
- {
-  "unit": "Electrochemistry",
+  "unit": "Amines",
   "type": "short",
-  "anchor": "The Daniell cell, Zn(s) | Zn²⁺(1 M) || Cu²⁺(1 M) | Cu(s). Electrons leave the zinc anode, travel through the external wire to the copper cathode; the salt bridge carries ions to keep both solutions electrically neutral. Electrons leave the zinc anode, travel through the external wire to the copper cathode; the salt bridge carries ions to keep both solutions electrically neutral. Only the signs swap. 5.5 Cell potential and standard cell potential. The cell potential or electromotive force is the potential difference between the two electrodes of a cell when no current is drawn.",
+  "anchor": "Nitric acid also oxidises aniline to tarry products. The answer is to protect the nitrogen by acetylation first.",
   "segs": [
-   "The standard electrode potential is the anode in the cathode. A Daniell cell is used, leading to keep both solutions electrically neutral. The potential of the anode and the anode in the anode. The potential force is the anode, which is the anode.",
-   "Why do ions travel through the anode, and the cathode bridge in an electrochemical cell when no current of ions to keep both solutions?"
+   "A high molar mass is aniline to aniline and ammonia. The nitrogen lone pair is the lone pair of aniline, reducing its lone pair.",
+   "Why is aniline prepared from aniline to aniline?"
   ],
-  "score": 0.918,
-  "gate": true
+  "score": 0.46,
+  "gate": false
  },
  {
   "unit": "Haloalkanes",
   "type": "short",
   "anchor": "$$\\text{rate} = k[\\text{R–X}][\\text{Nu}^{-}] \\quad\\text{(second order)}$$ Slow step: the C–Br bond breaks to give a planar carbocation (CH₃)₃C⁺ and Br⁻. Potassium attacks through C or O, silver through N. Aqueous KOH substitutes (alcohol); alcoholic KOH eliminates (alkene), the more substituted alkene being the major product by Saytzeff's rule. $$\\text{rate} = k\\,[\\text{R--X}]\\,[\\text{Nu}^-]$$ Because the nucleophile comes in from the back, the other three groups are pushed through the plane like an umbrella turning inside out in the wind.",
   "segs": [
-   "$\\text{rate}^{-2}$ breaks in the rate equation, doubling [\\text{R-X}][\\text{Nu}^{-}]^{2}$. The C-X bond breaks in the C-X bond, is planar, and the C-X and is the weakest. It is the C-X to leave the C-X bonds, making the C-X carbon symmetry. 3. The C-I bond breaks in the S(N)1 mechanism, and SN2). The C-Br bond breaks in the reaction is nucleophilic substitution. The C-Cl bond breaks in the nucleophilic substitution of the C-X breaks in the C=O and the C-I bond, giving the C-X of the C-I and Br bonds. The C-B breaks in the CX bond breaks in both A and C-X bond is the weakest, and the C is a planar carbocation, with the nucleophile and the C-Br bond behaves as $",
-   "Describe the reaction involving haloalkanes, and nitrogen, explain why a nucleophile does the C-X bonding."
+   "The nucleophile attacks the back from $(\\text{rate})\\text{rate} = k[\\text{R-X}][\\text{Nu}^{-}]$. In the reaction $$\\text{rate} \\to \\text{Nu}^-$ acts as an example $(\\text{CH}_3)_3\\text{C}(\\text{Nu})^-]^{-}$. S(\\text{CHI})_3\\text\\text{CH}(\\text{OH})-$.",
+   "a) What product is $(\\text{Nu (}^-)_2\\text{Br}]\\text{OH}^-$, which reacts with $[\\text{Nu L}^{-X}]$ to form a planar carbocation."
   ],
-  "score": 0.428,
+  "score": 0.807,
+  "gate": false
+ },
+ {
+  "unit": "Chemical Kinetics",
+  "type": "mcq",
+  "anchor": "(a) The iodine clock: the solution turns dark when the iodine finally appears (b) Clock time against temperature (Arrhenius)Plate 3.P. (a) In the iodine clock the solution stays clear until all the thiosulfate has been used and then suddenly turns dark.",
+  "segs": [
+   "It dissolves in the reaction, leading to differentlyce.",
+   "Why is the half-life of a first-order reaction exist?",
+   "It increases the rate of reaction due to the rate of reaction.",
+   "It stabilizes the rate of the reaction without solely.",
+   "It stabilize the complex.",
+   "The passage explicitly mentions calculating the rate of reaction between iodide and cyanide, which is independent of the concentration of the reactant and without forming ionic reactions."
+  ],
+  "score": 0.517,
   "gate": false
  },
  {
@@ -116,14 +71,14 @@
   "type": "mcq",
   "anchor": "It forms a new carbon–carbon bond, which allows a carbon chain to be built up step by step from simple halides. The Grignard reagent, prepared in dry ether, converts carbonyl compounds into primary, secondary and tertiary alcohols and CO$_2$ into acids.",
   "segs": [
-   "It has a carbonyl carbon-carbon bond.",
-   "Why is the Grignard reagent prepared from a Grignard reagent in the Grignard reagent in a Grignard reagent, which was isolated to the Grignard reagent?",
-   "It is a secondary alcohols in Grignard reagent.",
-   "It decomposes into a Grignard reagent.",
-   "Its initial secondary alcohols to form a Grignard reagent.",
-   "The passage explicitly mentions the Grignard reagent, which allows the reagent to remove a Grignard reagent, ketones, to alcohols, and tertiary alcohols."
+   "A Grignard reagent",
+   "What compound can be used to reduce a Grignard reagent?",
+   "Electrophilic substitution",
+   "Hydrogen bond-oxygen bond",
+   "Carbon forming a Grignard reagent",
+   "Both aldehydes and ketones, acids, and ketones are prepared from a Grignard reagent and not a haloalkane."
   ],
-  "score": 0.948,
+  "score": 0.864,
   "gate": true
  },
  {
@@ -131,10 +86,10 @@
   "type": "short",
   "anchor": "Hoffmann's method uses diethyl oxalate, (COOC₂H₅)₂, which reacts differently with each class. Hoffmann's separation of a mixture of 1°, 2° and 3° amines using diethyl oxalate.",
   "segs": [
-   "(a) Ethanol and Ze prefunctional amines: a mixture of 1°, 3° amines by the 1°, 2°, 2° (b) 1° (one fewer).(b) 1°, 2-methylpropan-1-ol and 3° amines.(c) Identify Hoffmann's method (CONHC). (NEB 2081, 2081 and 2° amines. (NEB 2°, 2) (a) uses 1° (°), 2° (COOC), 3° and 3° (°).(b. 1° amines (CONHCC), 3° (secondary), 3° amines with each, a mixture of 1.(a) From a mixture of 15° and 3° amines give a liquid oxalate with 1° and 3°, and 3° amines by Hoffmann's test (CONHC1°, 2° and 3°.",
-   "a) Give one of a primary, a tertiary and tertiary amines, and nothing from amines and a tertiary (b) the mixture of 1° amines, 2° amines and 3° amines (acalic acid) (an oxalate). [1] (NEB 2079)"
+   "Williamson's method: 1° > 2° > 2°, 2°, and 3° amines (R)°, and 2° amines have $R'$C and tertiary amines. 2° amines: 1° > 1°, 2° and 3° amines of amines.(c) E°, 2° amines can lose one, secondary, tertiary amines by Hoffmann's method for separation.(a) 1°(C2H5) = 2° amines by Hoffmann' amines, which reacts with diethyl oxalate and 1°, 2R.(a) Identify a liquid oxamic ester with 1°, 2 1°, 2 secondary amines and° amines by Hoffmann must be Hoffmann's method: 2°, 2Hth 3°, 2°(CH) = a mixture of 1°, 2H°), secondary amines (H), secondary amines by Hoffmann'OH, secondary amines like amines: 1°, 2C2H 2°, 2 3°, 2R) nitrous acid (W), 2°, 3° amines of 1°, 3",
+   "a) Give the Optical and Hoffmann's method using primary amines of amines and Hoffmann's separation of 1° amines using diethyl oxalate, secondary amines and tertiary amines. [1° amines have the method of primary amines: primary amines are primary, secondary, tertiary and tertiary amines: $$_3° > 1° amines"
   ],
-  "score": 0.604,
+  "score": 0.733,
   "gate": false
  },
  {
@@ -142,25 +97,40 @@
   "type": "short",
   "anchor": "The blue precipitate B that forms dissolves in excess of the reagent to give a deep blue solution C.(a) Identify A, B and C with the reactions. [3](b) Write the electronic configuration of A. [1](c) Name a method for the purification of A. [1] (NEB 2079 model, model set B)",
   "segs": [
-   "(a) Smang: 2NH3, 2079, 2081, 2083 and model set B.(b) Why: 2079 and 2079 model, 2082 and 2083, model set A).(b) Identify A, [1] (NEB 2079) Explain the reactions of the reactions and the reactions in the reactions. [1](b) Write the reactions of the equation, with its reactions with its structural formulae. [1] (a) What is the reactions of the item? [1](c) Write the reactions and the extraction of the reactions. [2](b) Name the reactions of 2079.(b) Write reactions, the reaction of the reactions,(b) the reaction,(b) an excess of the solution,(b) E(Zn) = E,(Zn) = -0.79 and(b) the solution of C with excess CH3 and(b) [3](b) Why is a tagidual hist",
-   "a) State the standard the standard laboratory reagent for the reduction process. [1] b) What happens when(a) the solution is obtained from(a) Write the reactions for the given the,(b) Write equations for the first,(b) [1](d) Name the reactions and the unit of(b) the reactions,(c) the(a) the CH3 of(c"
+   "(a) Write the reactions of the 2079 model, 2081, 2082, model set A (diethylenedi) give the 2078 model, 2079, 2083 and 2081 and 2083 papers (NEB model set B)",
+   "a) Describe the extraction of smelting zinc with a full dm in the blast furnace, and the Openic oxides to give the ore. [1] b) Write the reactions for the reactions of the reactions. [1] c) What is the order of the following was the open hearth and the 2077 model for the 2073 and 2079. [1] (NEB 2079"
   ],
-  "score": 0.595,
+  "score": 0.767,
   "gate": false
  },
  {
-  "unit": "Studies of Heavy Metals",
+  "unit": "Aldehydes and Ketones",
   "type": "mcq",
-  "anchor": "Pure iron is a lustrous, silvery-white, soft metal of density 7.86 g cm⁻³ and melting point 1535 °C. Note that dilute acids give iron(II), while chlorine and hot concentrated sulphuric acid give iron(III): the halogen and the hot acid are the stronger oxidising agents.",
+  "anchor": "(b) In (CH₃)₃CCHO the carbon next to —CHO carries three methyl groups and no hydrogen.",
   "segs": [
-   "Cobel Pure of the iron oxide causes the iron as a flux.",
-   "What is the process used to measure the process of iron?",
-   "Morteter of the presence of water.",
-   "Complexidercy blue solution.",
-   "Computed as a reducing agent",
-   "The passage explicitly states that the ore's voltage is the standard laboratory reagent used in the ore."
+   "CH3CH(OH)CH3)2CCHO",
+   "Which compound is formed when propan-2-ol undergoes the carbonyl group?",
+   "CHI effect",
+   "(CHI)CHI",
+   "CHCHI",
+   "The methyl group (CHI) is the least electronegative ring and carries the methyl group."
   ],
-  "score": 0.62,
+  "score": 0.6,
+  "gate": false
+ },
+ {
+  "unit": "Nuclear Chemistry and Applications of Radioactivity",
+  "type": "mcq",
+  "anchor": "The first artificial transmutation was carried out by Rutherford in 1919: ¹⁴₇N + ⁴₂He → ¹⁷₈O + ¹₁H , written in short as ¹⁴N(α, p)¹⁷O Chadwick's discovery of the neutron (1932) used the same technique: The sum of the mass numbers (superscripts) is the same on both sides.",
+  "segs": [
+   "The minimum mass of fundament: $^{139}_2He + ^1_1V_2$",
+   "What is the neutron in the neutron in was discovered by the neutron in",
+   "Ohutherford's equation",
+   "The mass of util in the mass ratio",
+   "The temperature required for an unstable nucleus",
+   "The given formula is explicitly mentioned as the formula for an atomic mass as $\\dfrac{r_2}{N_1V_1$. The atomic mass is calculated by the mass of ²³(\\text{H}_2\\text{O})$. Both the total mass numbers. The mass of utilized in the mass numbers is explicitly mentioned as $(\\text{N})_2\\text{H} + \\text{H}_1V_{2}\\text{H}(\\text{O)}_2\\textranium-23}"
+  ],
+  "score": 0.647,
   "gate": false
  },
  {
@@ -168,14 +138,14 @@
   "type": "mcq",
   "anchor": "The heat makes steam, which drives a turbine and generator. The activity is $A = A_{0}e^{-\\lambda t}$ and the half-life is $t_{1/2} = 0.693/\\lambda$.",
   "segs": [
-   "$\\lambda = 0$",
-   "What is the half-life of the half-life $\\lambda$-life $t_{1/2}$ in nuclear kinetics?",
-   "$\\lambda = 0.693 \\times t_{1/693}$",
-   "$\\lambda = \\frac{2.303}{t_{1}$$$ t_{1} = \\frac{0.693}{t}$$$\\lambda = \\fracavels{2.393}{k_{1/1}}$$$t_{193}$$$ is $\\lambda = \\frac{0$t_{2}}$. $\\lambda = \\fracavel through the half-life, which matches the half-life. $\\lambda = 0.203/20$ half-life",
-   "$\\lambda = 2$",
-   "The half-life is $t_{93}$ half-life shows the half-life for a half-life for the half-life is calculated as $t_{22}$."
+   "$\\lambda = \\\\frac{0.693}{t_{1/2}}$",
+   "What is the half-life of a first-life $t_{19}$?",
+   "$\\lambda = \\frac{2.303}{t}$",
+   "$\\lambda = 0.92/10_{92}$",
+   "$t_{1} = \\frac{2\\%}{t_2/2}$",
+   "The half-life is directly provided as $\\lambda = \\frac{t_{2}}{0.6193}$."
   ],
-  "score": 0.858,
+  "score": 0.725,
   "gate": false
  },
  {
@@ -183,14 +153,44 @@
   "type": "mcq",
   "anchor": "$\\Delta G$ also has a mechanical meaning: $-\\Delta G$ is the maximum useful (non-expansion) work obtainable from the change.",
   "segs": [
-   "$\\Delta G$",
-   "What type of reaction is a spontaneous at all without a reaction?",
-   "$\\Delta G = \\Delta G^{\\circ} + RT\\ln Q$",
-   "$\\Delta G^{\\circ1} + RT$",
-   "$\\Delta S = \\Delta G^\\circ$",
-   "The equation $\\Delta G = \\Delta H + T\\Delta S$ correctly describes the Gibbs free energy change as the change in Gibbs free energy change under non-standard conditions."
+   "It is a cyclic acid and a gas volume change is $\\Delta G$.",
+   "What is the change in internal energy ($\\Delta G$) when only $p$-$V$ is considered?",
+   "It is non-exactly deposits its initial and pressure.",
+   "It is a measure of the change in internal energies.",
+   "It is composed of the piston gas depends on the initial and final system.",
+   "At constant, the system is the change in Gibbs freezing on the system at constant pressure, thus an instant cold packaging."
   ],
-  "score": 0.837,
+  "score": 0.642,
+  "gate": false
+ },
+ {
+  "unit": "Haloalkanes",
+  "type": "mcq",
+  "anchor": "When the halide has two different β-carbons, two alkenes are possible. Saytzeff's (Zaitsev's) rule says the major product is the more substituted alkene — the one with more alkyl groups attached to the doubly bonded carbons — because it is the more stable.",
+  "segs": [
+   "The major product is the more stable, having more substituted alkene, more substituted alkene, having more substituted ($E^\\circ$).",
+   "Which statement best describes the more substituted alkene will have more substituted alkene due to the major product?",
+   "The major product is more stable stable than the more substituted alkene, making the more substituted alkene more stable double bond configuration.",
+   "The more substituted alkene is the more substituted alkene due for the elimination reaction.",
+   "The more alkyl groups attached to the doubly bonded to the doubly.",
+   "The major product according to Saytzeff's rule, the more substituted alkene being the major product according to the major product according compounds."
+  ],
+  "score": 0.78,
+  "gate": false
+ },
+ {
+  "unit": "Cement",
+  "type": "mcq",
+  "anchor": "The gel interlocks into a hard mass, so cement sets in about 30 minutes to 10 hours and gains full strength in 28 days. Cement does not dry; it reacts with water, and so it also hardens underwater.",
+  "segs": [
+   "It reacts with water to form ettramples with water, preventing calcium hydroxide, and gives early strength.",
+   "Why does the composition of cement produce cement when added during the cement process of cement?",
+   "It decomposes into cracking due to tensile strength.",
+   "It reacts with calcium hydroxide to form a substance, preventing calcium silicate hydrate.",
+   "It increases the solubility of calcium hydroxide, making $3450^\\circ$C.",
+   "The passage explicitly states that C$_2$H$_8$, leading to a crucial role in cement."
+  ],
+  "score": 0.612,
   "gate": false
  }
 ]

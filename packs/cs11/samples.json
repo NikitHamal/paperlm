@@ -1,84 +1,28 @@
 [
  {
-  "unit": "Number System and Boolean Logic",
-  "type": "mcq",
-  "anchor": "Subtraction needs no new circuit: the two's complement of 0110 is 1010, and adding it to 1101 and discarding the carry-out leaves 0111, which is 7. This is why the CPU needs only an adder and a way to invert bits.Photo credits: (a) Kimmo Palosaari, Public domain.",
-  "segs": [
-   "1.",
-   "What is the name of the 1's complement of a computer's complement of 101.1010001?",
-   "10110111101",
-   "101010,10,0,100111001011 to the 1001.",
-   "101 is the 1000,1010.",
-   "The 2's complement of 010, 10, and 1010, which is 0101."
-  ],
-  "score": 0.45,
-  "gate": false
- },
- {
-  "unit": "Multimedia",
+  "unit": "Computer Software and Operating System",
   "type": "short",
-  "anchor": "Path animation: an object follows a drawn path, for example a bus moving along a road in a presentation. Morphing: one image is changed gradually into another, as in film effects. 2D and 3D animation: 2D uses flat drawings, and 3D uses models that are lit and rendered by the computer, as in modern films and games. Software: Adobe Premiere Pro, Kdenlive, OpenShot, Windows Video Editor. Animation is the process of creating the illusion of movement by displaying a rapid sequence of still images that differ slightly from one another. Computer-aided design (CAD) of buildings and machines, three-dimensional walk-throughs of a building before it is built, scientific visualisation of weather and earthquake data.",
+  "anchor": "Differentiate between multiprogramming, multitasking, multiprocessing and distributed operating systems. Write any five features of a Windows GUI operating system. First-come first-served would give an average of 4.33, better here but with a long job blocking all the others. Time sharing is what makes a single processor seem to run a browser, a music player and a document at once.Photo credits: (a) Rprpr, CC BY 3.0. (b) Explain in detail any five functions of an operating system, and name one Windows tool associated with each. (a) With a suitable diagram, explain the parts of a window in a Windows application.",
   "segs": [
-   "Morphing (CC BY-SA, as), and animation (CAD, CGIF, OCR, OCR (CAD, Premiere. Software: Adobe Premiere Pro, CVV, OCR (e. A database is animation as an example of creating motion (CAD, 2D animation).",
-   "Explain the concept of animation and provide an example of a rapid sequence of stills."
+   "A running applications sharing application developers normally, including a browser, and a browser to a single processor seem to run on a browser. 3. Linux is a Linux-source, an operating system player, secure, and running applications (a) application software is software and installed within a Linux kernel. Linux is a Windows tool used by a Linux kernel to solve a single processor, using a browser. This OS manages a single application of application software, and distributed OS manages the OS, and application programs, and tasks, ensuring user interface, device drivers, and a browser distributed operating system. It allows a single processor",
+   "a) to a common operating system, including a Windows application runs on a Linux kernel and complicts on a Linux kernel but is not called a browser."
   ],
-  "score": 0.6,
+  "score": 0.57,
   "gate": false
  },
  {
   "unit": "Information Security and Cyber Law",
   "type": "mcq",
-  "anchor": "Software is distributed under a licence stating what the copyright owner permits.",
+  "anchor": "The padlock shows that the connection is encrypted. If ransomware locks the files, you can restore them without paying.",
   "segs": [
-   "A digital signature is the sender's private key to an electronic code, what is a digital signature stating a document; it is a document too.",
-   "What is the primary key for a digital signature?",
-   "A digital signature uses a shared among multiple books.",
-   "Analytitle's identity.",
-   "A digital signature database information directly to its signature out.",
-   "A digital signature stems from the use of a document, which is a digital signature not changed."
+   "It is encrypted using https:// in the address bar",
+   "Why is encrypted using TLSiring the padlock icon without https:/ in the address location or lock?",
+   "It is encrypted using TLTradicious link",
+   "It is encrypted with the address bar",
+   "It is encrypted without https: encrypted using https.",
+   "The passage explicitly states that the padlock and https:/ alone is encrypted using httpper sees a padlock icon is encrypted with the padlock icon? messages across the connection."
   ],
-  "score": 0.427,
-  "gate": false
- },
- {
-  "unit": "Computer Software and Operating System",
-  "type": "short",
-  "anchor": "Software is a set of programs, procedures and associated documentation that tells a computer's hardware what to do and how to do it. A program is a finite sequence of instructions written to solve a particular problem. Desktop icons are added through Personalise → Themes → Desktop icon settings (This PC, Recycle Bin, Network) or by right-clicking a program → Send to → Desktop (create shortcut).",
-  "segs": [
-   "It provides instructions and documentation that tells a computer's hardware what tasks to do it.",
-   "Why is it a computer's operation?"
-  ],
-  "score": 0.629,
-  "gate": false
- },
- {
-  "unit": "Multimedia",
-  "type": "mcq",
-  "anchor": "The benefits of multimedia are large in education and communication, but the cost and the equipment it needs must be planned for. Animation is the illusion of movement created by showing a rapid sequence of still images that differ slightly.",
-  "segs": [
-   "The illusion of movement created by showing a rapid sequence of still images that differ slightly",
-   "What is the definition of animation?",
-   "The process of recording live actions into digital format",
-   "The process of editing videos to enhance visual effects",
-   "The process of compressing video files to reduce storage space",
-   "The passage defines multimedia as the illusion of movement through a rapid sequence of slightly differing still images."
-  ],
-  "score": 0.867,
-  "gate": true
- },
- {
-  "unit": "Computer System",
-  "type": "mcq",
-  "anchor": "(a) Explain the components of a computer system with a block diagram. (b) — second generation (1956 to 1963) used transistors. 4.",
-  "segs": [
-   "It contains the the the country of a computer's hardware with the same hardware.",
-   "Why does a computer chips provide a computer system?",
-   "It increases the processing speed of the computer hardware.",
-   "It enhances the graphical interface for the computer.",
-   "It allows users to adjusts the internet.",
-   "The microprocessor provides security of a computer' and the internet."
-  ],
-  "score": 0.528,
+  "score": 0.533,
   "gate": false
  },
  {
@@ -86,40 +30,148 @@
   "type": "short",
   "anchor": "An operating system (OS) is the system software that manages the hardware and software resources of a computer and works as the interface between the user and the machine.",
   "segs": [
-   "The operating system software resources of a computer and manages the hardware and software resources of the machine.",
-   "What is the role of an operating system (OS)?"
+   "A computer is the interface between the user and the interface between the hardware and the interface between user and the user and the manager. It manages the machine between the user and hardware and the manager.",
+   "Device between the user and managing all resources of an operating system."
   ],
-  "score": 0.867,
-  "gate": true
+  "score": 0.833,
+  "gate": false
  },
  {
-  "unit": "Programming Concepts and Logics",
-  "type": "mcq",
-  "anchor": "(c) The DEC PDP-11 minicomputer on which UNIX and C grew up. (e) The cover of The C Programming Language (1978), which defined K and R C.",
+  "unit": "Application Package",
+  "type": "short",
+  "anchor": "Tables, pictures, shapes, charts, equations and symbols. Spelling and grammar check, thesaurus, word count. A package is tested and installed within minutes, so work can begin the same day. A bank clerk does not have to wait months for a programmer. The four students score between 185 and 252, so Chandra is ranked first with an average of 84.0, and the Math column averages 72.5.",
   "segs": [
-   "It avoids declaration of R C by the UNIX operating system.",
-   "Why m(1978) like C programming language translated in C?",
-   "It translates high-level language easily readability.",
-   "It is an operating system that supports the country of a high-level language.",
-   "It is easier to a scriptingement time of C.",
-   "C can only language with high-level language with high-generation languages."
+   "2.g., the stock count count at the spreadsheetsection. 2. A bank clerk can be tested and installed, facilitating formulas to parents. The spreadsheets of the same column, column and row numbers are named with the same column, the column and the row numbers of the same column and the row to the row numbers. This ensures the same column and column with the same column and row numbers, and row numbers are checked by column letters, column and row 1, with the same column column and row numbers. The row numbers change automatically, the row numbers change automatically; the formula formula is copied down, the row numbers of row 1, and the row number",
+   "Explain how a formula is used to describe how a formula is done with a formula and a formula is used in a spreadsheet."
   ],
-  "score": 0.545,
+  "score": 0.422,
   "gate": false
  },
  {
   "unit": "Information Security and Cyber Law",
   "type": "mcq",
-  "anchor": "Symmetric encryption uses one shared key; asymmetric encryption uses a public/private key pair.",
+  "anchor": "(1+4) Spam is unwanted bulk electronic mail, usually advertising or carrying harmful links.",
   "segs": [
-   "Electronic Transactions Act 2064",
-   "The recip number of employs in Nepal use a public key for a public key frames?",
-   "Assembedded",
-   "Assembly uses a single public key",
-   "Assembles a single shared key",
-   "The passage explicitly mentions that a digital signature uses a shared key to a digital signature database."
+   "spam",
+   "The unsolicited bulk electronic mail, usually advertising or responding a computer or network?",
+   "pam",
+   "cookie",
+   "data bus",
+   "phishing is unsolicitimate is unsolicing harmful links."
   ],
-  "score": 0.477,
+  "score": 0.896,
+  "gate": true
+ },
+ {
+  "unit": "Computer System",
+  "type": "mcq",
+  "anchor": "ConnectIPS moves money between bank accounts, and Fonepay lets you pay in a shop by scanning a QR code. Because every branch connects to one central database, you can deposit in Kathmandu and withdraw in Jumla.",
+  "segs": [
+   "Symbanch to a QR code of a QR code",
+   "Which of the following steps to eyzing each bring with a QR code?",
+   "Banking",
+   "Boolean pours",
+   "RII",
+   "The passage explicitly mentions that Fonepay lets a specialist in a remote houses of a specialist in magnetic ink, which is used to manage modern banking transactions."
+  ],
+  "score": 0.536,
+  "gate": false
+ },
+ {
+  "unit": "Computer System",
+  "type": "mcq",
+  "anchor": "Five generations: vacuum tube → transistor → IC → microprocessor → AI/ULSI. Babbage is the Father of Computer; the Intel 4004 (1971) began generation four.",
+  "segs": [
+   "IBM the Intel 404004 (1959)",
+   "Which of the following was the first microprocessor that introduced the first microprocessor?",
+   "UNIVAC",
+   "First",
+   "UNIAC",
+   "The passage explicitly states that the Intel 4004, introduced the first microprocessor."
+  ],
+  "score": 0.52,
+  "gate": false
+ },
+ {
+  "unit": "Information Security and Cyber Law",
+  "type": "mcq",
+  "anchor": "Cybercrime is any illegal act in which a computer, a network or a mobile phone is the tool, the target or the place of the crime.",
+  "segs": [
+   "Cybercrime",
+   "What term describes any illegal act where a computer, network, or mobile phone is used as the tool, target, or place of the crime?",
+   "Hacking",
+   "Phishing",
+   "Hacking",
+   "The passage defines cybercrime as a crime involving computers, or mobile phones as tools, or targeting of a computer, or network."
+  ],
+  "score": 0.699,
+  "gate": false
+ },
+ {
+  "unit": "Information Security and Cyber Law",
+  "type": "short",
+  "anchor": "As payments, government services and education move online in Nepal through ConnectIPS, Fonepay and the Nagarik App, the criminals also move online. Hacking and cracking: gaining unauthorised access to a system; a cracker does so with criminal intent. (a) Malware is malicious software designed to damage, disrupt or gain unauthorised access to a computer system. Virus: attaches to a host file and spreads when the file is run or shared; it can corrupt files.",
+  "segs": [
+   "It targets individuals by a host file and spreads when the file is run or shared. This is essential to a host file and genericious invention, such as pirated software, spreads when asked to a host file or run or shared.",
+   "List two main criminals a virus attaches to a host file."
+  ],
+  "score": 0.686,
+  "gate": false
+ },
+ {
+  "unit": "Computer Software and Operating System",
+  "type": "mcq",
+  "anchor": "Support for a huge range of hardware and legacy software — the main reason Windows still dominates offices in Nepal.",
+  "segs": [
+   "Windows dominance",
+   "Which of the following is NOT a characteristic of hardware mentioned for a programmer?",
+   "Paphical-in",
+   "File",
+   "Execut App",
+   "The passage explicitly lists depending as the machine that wallpects of hardware."
+  ],
+  "score": 0.579,
+  "gate": false
+ },
+ {
+  "unit": "Computer Software and Operating System",
+  "type": "mcq",
+  "anchor": "The easy GUI of Windows and Android is a main reason why ordinary people can use computers. 7. The OS notices hardware and software faults, such as a disk that cannot be read, and shows a message or takes action.",
+  "segs": [
+   "It makes the hardware easy to use, protects it, and shares its resources.",
+   "Why is it important to update system software regularly and destrobin for a disk space for a device.",
+   "It enhances the performance of the hardware components of a device.",
+   "Its hardware cannot be physically damaged by providing a user interface.",
+   "It requires users to connect to install software.",
+   "The OS provides an operating system as a command line or application software resources, making it easy to use, and efficiently."
+  ],
+  "score": 0.614,
+  "gate": false
+ },
+ {
+  "unit": "Web Technology I",
+  "type": "mcq",
+  "anchor": "A browser and a search engine are not the same thing. The browser is software installed on your device; the search engine is a website you visit using a browser. 6.2 The internet, web technologies and content management systems.",
+  "segs": [
+   "A web page",
+   "Which of the following is a search engine?",
+   "a database management",
+   "LibreOffice Writ",
+   "Logical web",
+   "A web browser is defined as the search engine containing through a browser."
+  ],
+  "score": 0.721,
+  "gate": false
+ },
+ {
+  "unit": "Application Package",
+  "type": "short",
+  "anchor": "(1+4) An office package is a bundle of application programs that handle the common tasks of an office. Word processor (MS Word): letters, reports and documents; formatting, tables, spell check, mail merge. A foreign key is a field in one table that holds the primary key of another table and links the two. Tables hold the data; queries select, sort and calculate; forms give a friendly screen for entering one record; reports make printable output such as a mark ledger; (macros and modules automate tasks).",
+  "segs": [
+   "A spreadsheet application package creates a word processor for tasks like student data, handling multiple users, and calculates data in a DBMS. A foreign key is an office package that calculates data in a spreadsheet. Hostg. Post-specific software manages the outputs of a common interface for entering records and reports. Fatabase data in a DBMS, such as SUM, A field of another table, and spreadsheets. This primary key is the primary key of the inputs, such as a primary key of another table to identify a common interface.",
+   "Describe the primary key of a DBMS in a DBMS and explain the primary key of another., A field in a spreadsheet, such as a foreign key of another table and DBMS. Also that calculates data in the Marks table."
+  ],
+  "score": 0.651,
   "gate": false
  },
  {
@@ -127,70 +179,14 @@
   "type": "mcq",
   "anchor": "It works because of persistence of vision: the eye keeps an image for a fraction of a second, so frames shown faster than about 12 per second blend into motion.",
   "segs": [
-   "It contains the number of channels in one image.",
-   "Why is the number of frames per second for achieveyequery (2.2.26.265 \\times 2456?",
-   "It includes denlossygment.",
-   "It contains a JPEG of the technique for a second.",
-   "It is an image to the size of the number of channels.",
-   "The passage directly states that the frame is the number of channels, and the number of channelss."
+   "It includes the wave of a second where each second represents a second.",
+   "Why does a sound image be about a raster image for about a second?",
+   "It can be approximately using advanced vision.",
+   "It increases the process of vision.",
+   "You need for audio data transmission over time.",
+   "A raster image for about $2^{10}{24}$ matches the illusion of movement by persistence of vision."
   ],
-  "score": 0.537,
-  "gate": false
- },
- {
-  "unit": "Web Technology I",
-  "type": "mcq",
-  "anchor": "Users can also change font size or contrast for comfort.",
-  "segs": [
-   "<s declares change font size or contrast for faster",
-   "Which of the following is an example of a website website?",
-   "<s users to modify digital communication.",
-   "<mest>",
-   "<mbedded data from examples",
-   "Press schemes various HTML5 elements are used to write HTML and define loops."
-  ],
-  "score": 0.583,
-  "gate": false
- },
- {
-  "unit": "Information Security and Cyber Law",
-  "type": "short",
-  "anchor": "The National ICT Policy, 2015 aims to make Nepal an information and knowledge-based society and economy: affordable broadband for all, ICT in every school, services of the government online (e-government), growth of the IT industry, safety of networks and data, and a smaller digital divide. In exchange for the monopoly the inventor must publish how the invention works. Trademark protects a name, logo, slogan or symbol that identifies the source of goods or services, so that customers are not misled.",
-  "segs": [
-   "The e-15 aims to make Nepal an information and knowledge-based society and economy",
-   "What is the primary goal of the National ICT Policy, 2015 aims to the National ICT Policy or 2015 in Nepal?"
-  ],
-  "score": 0.92,
-  "gate": true
- },
- {
-  "unit": "Information Security and Cyber Law",
-  "type": "mcq",
-  "anchor": "The National Information and Communication Technology Policy, 2015 aims to build an information- and knowledge-based society through affordable broadband, ICT in every school, online government services, a stronger IT industry and attention to cyber security.",
-  "segs": [
-   "To make Nepal an information and knowledge-based society and economy",
-   "What is the primary goal of the National Information and Communication Technology Policy, 2015 in Nepal?",
-   "To ensure the export of IT services",
-   "To increase the export of the cybersecurity measures across the country",
-   "To enhance the cybersecure of the IT services",
-   "The passage explicitly states the National ICT Policy, 20015 aims to make Nepal an information systems."
-  ],
-  "score": 0.745,
-  "gate": false
- },
- {
-  "unit": "Multimedia",
-  "type": "mcq",
-  "anchor": "The images are drawn or generated, not captured from the real world — that is what separates animation from video. Animation works because of persistence of vision: the human eye retains an image for about a sixteenth of a second after it disappears, so images shown faster than about 16 per second blend into continuous motion.",
-  "segs": [
-   "It is the illusion of movement created by showing drawn or computed rather than a second.",
-   "Why is animation a method used in an example of a computer processor?",
-   "It is an example of creating 3D images.",
-   "It is the process of creating 3D models from 2D models.",
-   "It is an illusion of creating 3D animation and is.",
-   "The passage defines animation as the illusion of movement by displaying a rapid sequence of still images that differ slightly from one another."
-  ],
-  "score": 0.52,
+  "score": 0.75,
   "gate": false
  }
 ]

@@ -4,14 +4,29 @@
   "type": "mcq",
   "anchor": "Diesel cycle: heat added isobarically, allowing a much larger $r$.",
   "segs": [
-   "convert heat capacity",
-   "Which law is used to heat engine involves heat enters a system to a sink at a sink at a cold body without heat exchange between a cold space and absorbs heat $Q$?",
-   "Photon conver heat engine",
-   "Isochoric heating",
-   "Isochoric",
-   "The passage explicitly states that the heat absorbed heat $Q$ is defined as the conversion of heat."
+   "Diesel cycle",
+   "What operation is considered a measure function in entropy of a heat engine?",
+   "Resoltmeter",
+   "Carnot C",
+   "Dieselocouple",
+   "The passage explicitly states that the Carnot engine is specifically mentioned as a measure of total work $P_2$."
   ],
-  "score": 0.61,
+  "score": 0.786,
+  "gate": false
+ },
+ {
+  "unit": "Electromagnetic Induction",
+  "type": "mcq",
+  "anchor": "$e = Blv$, the generator equation $e = NBA\\omega\\sin\\omega t$, or the transformer turns-ratio with its losses.",
+  "segs": [
+   "$e = NBA\\omega\\sin\\omega t$",
+   "In a transformer, if the induced emf $e$ in a transformer is $e = Blv$, what is the induced emf $B$ in the induced emf?",
+   "$e = BIA$",
+   "$e = Blv$",
+   "$e_0 = NBA\\omega$",
+   "The induced emf in a transformer is given as $e = Blv\\sin\\omega t$."
+  ],
+  "score": 0.757,
   "gate": false
  },
  {
@@ -19,15 +34,56 @@
   "type": "mcq",
   "anchor": "An alternating current reverses direction periodically. The commonest form is sinusoidal: $$i = I_0\\sin\\omega t, \\qquad v = V_0\\sin\\omega t$$ where $I_0$ and $V_0$ are the peak (maximum or amplitude) values, $\\omega = 2\\pi f$ is the angular frequency and $f = 1/T$.",
   "segs": [
-   "$\\omega_0 = \\frac{\\omega_0}{\\omega C}$",
-   "In an alternating current circuit where $i = I_0$ and the peak current $i$ is the peak current and the peak current is the peak current",
-   "$i = I_{rms}$",
-   "$\\omega_0$",
-   "$\\omega = \\frac{\\omega}{2}I_0$",
-   "$i = 2\\pi/\\omega_0$ is $\\omega_0 = 2\\pi/\\pi$, $\\omega_0/\\omega_0 = \\omega_0$."
+   "$i = I_0\\sin\\omega t$",
+   "In a sinusoidal alternating current, the peak voltage is",
+   "$i(\\omega t -\\pi t)$",
+   "$i(t)$",
+   "$I_0/2$",
+   "$i = I\\omega\\sin\\omega t$, so $i = I_m\\sin\\omega t$."
   ],
-  "score": 0.912,
+  "score": 1.0,
+  "gate": true
+ },
+ {
+  "unit": "Second Law of Thermodynamics",
+  "type": "mcq",
+  "anchor": "Isothermal expansion at $T_1$: the gas takes heat $Q_1$ from the source and does work; its temperature stays constant.",
+  "segs": [
+   "Isothermal compression",
+   "What process describes the scenario where work is done on the gas, and it releases heat $Q_2$ to the sink at constant temperature $T_2$?",
+   "Adiabatic expansion",
+   "Isobaric compression",
+   "Isochoric heating",
+   "The passage explicitly states the process as isothermal compression at $T_2 = 2T_1$."
+  ],
+  "score": 0.669,
   "gate": false
+ },
+ {
+  "unit": "First Law of Thermodynamics",
+  "type": "short",
+  "anchor": "Work done by a gas is $W = \\int P\\,dV$, the area under the $P$–$V$ curve; positive for expansion, negative for compression. For an ideal gas the intermolecular forces are zero, so where $f$ is the number of degrees of freedom.",
+  "segs": [
+   "The integral $W = \\int P\\,dV$ is $W = \\int\\,dV$. 2. For an ideal gas, $W = \\int \\int P\\,dx$, where $P$ is the area under the $P$-$V$ curve. This shows that for a gas expands, the area under the curve is the area under its $P$-W$ curve. 2. $P\\,dV$ for an ideal gas expands isothermally to $P\\,dP$. For an ideal expansion, $P\\,dv/dV$ is $P\\,W = P\\,dV = P\\,dP/dV = P\\; for an ideal gas.",
+   "Compare the work done by a gas during an isothermal process where $P$ remains constant for an ideal gas, and $P$ is positive for an ideal gas and $P$."
+  ],
+  "score": 0.803,
+  "gate": false
+ },
+ {
+  "unit": "Alternating Currents",
+  "type": "mcq",
+  "anchor": "Instead each sinusoid is represented by a phasor: a rotating vector whose length is the peak (or r.m.s.) value and which rotates anticlockwise with angular velocity $\\omega$.",
+  "segs": [
+   "reads the peak and rotates anticlockwise with angular velocity $\\omega$.",
+   "In a rotating alternating current circuit, how do the peak and rotates at a fixed angle $\\omega$?",
+   "The peak and rotates rotating at a fixed angle unit voltage.",
+   "The r.m.s. value and rotates anticdition.",
+   "The rMrad sweeps only a rotating vector.",
+   "A phasor is defined by $\\omega = \\sqrt{\\omega_0 CR^{2}$. correctly describes the peak value in an alternating current. Pquare with angular velocity $\\theta$, which remains constant. This is the correct answer. The peak or r.m.f.s. value, which rotates anticl represented as a rotating vector whose length is $\\omega$. The r.m., $\\omega$ is the peak or e.m.s cycle. value. Its r.m."
+  ],
+  "score": 0.885,
+  "gate": true
  },
  {
   "unit": "Second Law of Thermodynamics",
@@ -35,24 +91,24 @@
   "anchor": "Draw its energy-flow diagram, derive $\\eta = 1 - Q_2/Q_1$, and explain why $\\eta$ can never be 100 %.",
   "segs": [
    "$\\eta = 1 - \\frac{Q_2}{Q_1}$",
-   "In an equation representing the efficiency $\\eta$-\\eta = 1 - 1 - \\frac{T_2}{T_1}$, what is the efficiency $\\eta = 1 - T_2/T_1$ used to calculate the efficiency $\\eta_1$?$",
-   "$\\eta = 1 + \\frac{T_1 - 1}{T_2 - 1}$",
-   "$\\eta r_1 = \\frac{T_3}{T_4}$",
-   "$Q_1 = \\frac1 - \\frac{T}{T_3 - T_1}$",
-   "The formula $\\eta = 1 + 0.093$ correctly represents the efficiency of a heat engine as given by the formula provided."
+   "In an ideal thermodynamic process, if a heat engine operates at 50% and $\\eta$ can be 100%, which formula correctly represents the efficiency of this engine?",
+   "$\\eta = 1 + \\frac{T_2}{T_1}$",
+   "$\\eta = \\frac{T_1 - T_2}{\\gamma - 1}$",
+   "$\\text{Otto} = 1 - \\frac12$",
+   "The formula $\\eta = 1 - T_2/T_1$ correctly represents the efficiency equation for the efficiency of a heat engine."
   ],
-  "score": 0.652,
+  "score": 0.653,
   "gate": false
  },
  {
-  "unit": "Fluid statics",
+  "unit": "Wave in pipes and strings",
   "type": "short",
-  "anchor": "(a) Derive the expression for the rise of a liquid in a capillary tube. [4](b) Give two applications of capillarity. [2](c) Eight drops of water, each of radius $1.0\\ \\text{mm}$, combine into a single drop. (b) A tank on the ground holds water to a depth of $3\\ \\text{m}$.",
+  "anchor": "It is very nearly an arc of a circle of radius $R$ subtending a small angle $\\Delta\\theta$ at the centre, so its length is $R\\Delta\\theta$ and its mass is Closed: $f_1 = 340/(4 \\times 0.60) = 141.7\\ \\text{Hz}$; the next are $425\\ \\text{Hz}$ and $708\\ \\text{Hz}$. If the wire has radius $r$ and material density $\\rho$ then $\\mu = \\pi r^{2}\\rho$, so a thicker or denser wire carries slower waves.",
   "segs": [
-   "The rise of water for water in a capillary tube is derived as $2\\ \\text{mm}$. For water, $2\\ \\text inside the capillary tube. The rise of water is $3.0\\ \\text{mm s}^{-1}$. This radius causes a height of rise to the water. This water rises to $3.0\\times10^{-3}\\ \\text{Pa}$, given the radius of the tube. This shows a capillary rise of water in a tube. This shows the rise of water in the tube. Surface tension is $0.072\\ \\text{N m}^{-3 s}$. This is the rise of water by a tube of internal radius $0.0\\ \\text..",
-   "a) Bernoulli's equation $1\\ \\text{mmly, calculate the rise of water for a tube of radius $0.1\\ \\text{m}$. Use the specified conditions for the rise of water, given $0.02\\ \\text{m s}^{{-1}\\ \\text{kg m}^{2}$. Use $T = 0.072 \\times 10^{5}\\ \\text{N s}^{\\circ}$. Calculate the radius of the capillary tube. Also, derive the radius of the rise of water under a capillary tube. ($2.0\\ \\text"
+   "For a wire, $\\eta = 1/L$, $L = 1/L = 1/(4\\pi r)$, $\\mu = \\mu v^2/(\\rho-\\sigma)$, and $v = \\sqrt{T/\\mu}$. For a small angle $\\theta$, the speed is $v = \\sqrt end. According to the wave's density, the wire forms a few degrees, $T = T/L$, and $f_1 = v/2L$. Using $L = nv/2L$ and $f_2 = \\frac{v}{2L}$. Each length is directly proportional to the square root of the length of the wire. Power $L = nL/2L$, so $f_1/2L$ leads to $f_1$ and $f = \\frac{v^2}{2L^2}$. 3. Multiplying the $v = \\sqrt t/L$: $f_1 + f_1 = v_1/2$. 3. For a closed pipe, $L_2 = nv/4L$, so the $f_1' = n/2L$: $v_2/2L$; $v_2 = v/2(L/2L)$, $f_1L = \\frac{v_1}{2(L+v_1)}$, $$f_1 = \\frac{v+v_1}(v+v_2)^{2}(L+v)^{2+27}$",
+   "Given the $L$-th harmonic for a closed pipe of length $L$ and length $L$ subtended at both ends, explain how the length of the length is related to the length $L$ of the pipe length $L$, given the length is $L$ and mass $L$?"
   ],
-  "score": 0.711,
+  "score": 0.478,
   "gate": false
  },
  {
@@ -60,14 +116,25 @@
   "type": "mcq",
   "anchor": "The work done in expanding from $V_{1}$ to $V_{2}$ is $$W = \\int_{V_{1}}^{V_{2}} P\\,dV = nRT\\int_{V_{1}}^{V_{2}}\\frac{dV}{V} = nRT\\ln\\frac{V_{2}}{V_{1}}$$ Adiabatic process.",
   "segs": [
-   "$W = nRT\\ln\\!\\left(\\frac{V_2}{V_1}\\right)$",
-   "In an isothermal process where $W = nRT\\ln(V_{V_1 - V_1}\\right]_{V_2^2}\\right)$, where $W = P_1V_1V_2$ represents the work done during an isothermal process, which of the following expressions?",
-   "$W = nRT!\\left(\\frac1V_2V_1^2 - P_2V_2^{\\gamma-1}\\right)^2$",
-   "$W = \\frac{1}{2}nC_v(V_1V - V_1)$",
-   "$W_1V_3 = nRT\\ln\\,(V_2^3 - V_1^2)$",
-   "The work done during an adiabatic process directly matches the formula provided in the process as derived from the first law of thermodynamics."
+   "The work done is $W = nRT\\ln\\!\\left(\\frac{V_{1}}{V_{2}}\\right)$",
+   "Which formula correctly represents the work done during an isothermal process involving an ideal gas?",
+   "$W = nRT\\ln\\frac{V_2}{V_1}$",
+   "$W = P_{2}V_{1/V_2}$",
+   "$$W = nRT \\ln\\left(\\frac{T_2}{T_1}\\right)$$",
+   "The given formula directly matches the work done during a thermodynamic process as per the thermodynamic principles."
   ],
-  "score": 0.668,
+  "score": 0.717,
+  "gate": false
+ },
+ {
+  "unit": "Rotational dynamics",
+  "type": "short",
+  "anchor": "The SI unit is N m; torque is a vector, $\\vec{\\tau} = \\vec{r}\\times\\vec{F}$. The extra energy comes from the muscular work done in pulling the arms inwards against the outward (centrifugal) effect. Conversely, when two rotating discs are coupled together, energy is lost to friction while $L$ is conserved.",
+  "segs": [
+   "The integral of the energy $E_k$ decreases when two rotating discs are coupled together, $L$ is conserved. This is conserved in a torque due to friction while energy remains conserved.",
+   "Explain the concept of moment of mechanical energy and angular momentum when two rotating discuss are coupled, and discs, using the principle, and discuss, and angular momentum."
+  ],
+  "score": 0.675,
   "gate": false
  },
  {
@@ -75,14 +142,14 @@
   "type": "mcq",
   "anchor": "The commonest form is sinusoidal: $$i = I_0\\sin\\omega t, \\qquad v = V_0\\sin\\omega t$$ where $I_0$ and $V_0$ are the peak (maximum or amplitude) values, $\\omega = 2\\pi f$ is the angular frequency and $f = 1/T$.",
   "segs": [
-   "$\\omega = \\omega_0\\sin\\omega t$",
-   "What is the equation representing the maximum value of an alternating current $I_0$ in an alternating current $i$ with the peak value of an alternating voltage?",
-   "$\\omega = I_0$",
-   "$i = I_0/\\omega$",
-   "$i t = I_0\\sin\\omega$",
-   "The amplitude of a sinusoidal current directly represents the root mean of the peak value $\\omega$ as $\\omega = \\sqrt{2I_0}$."
+   "$I_0\\sin\\omega t$",
+   "What is the expression for the peak voltage $i$ in a circuit?",
+   "$I_0\\cos\\omega t$",
+   "$V_0/\\omega$",
+   "$I_{rms} = I_0$",
+   "The passage directly states that the peak voltage is $V_0\\sin\\omega/2$."
   ],
-  "score": 0.908,
+  "score": 0.893,
   "gate": true
  },
  {
@@ -90,14 +157,14 @@
   "type": "mcq",
   "anchor": "$B = \\mu_0NI/2a$; the $2\\pi$ form belongs to a straight wire.",
   "segs": [
-   "$B = \\mu_0NI/2\\pi a$",
-   "The magnetic field $B$ at the centre of a circular coil of radius $r$ is the straight wire in a straight wire. The magnetic field at the center of the coil is",
-   "$B = \\mu/\\mu_0I$",
-   "$B = \\frac{\\mu_0 I}{2a}$",
-   "$B/\\mu_0$",
-   "$B = \\mu\\sin\\theta/2\\pi a/r$."
+   "$B = \\mu_0I/2\\pi a$",
+   "What is the formula for the magnetic field $B$ at the center of a circular coil with $N$ turns carrying a current $I$?",
+   "$B = \\frac{\\mu_0 I}{2\\pi a}$",
+   "$B = \\mu\\sin\\theta$",
+   "$B=\\frac{\\mu_0 NI}{2a}$",
+   "The provided formula correctly represents the magnetic field at the center of the circular coil as provided."
   ],
-  "score": 0.536,
+  "score": 0.506,
   "gate": false
  },
  {
@@ -105,96 +172,25 @@
   "type": "short",
   "anchor": "(a) State the Peltier effect and explain, with a diagram, how it differs from Joule heating. (b) Describe the construction and working of a thermopile and give two of its uses.",
   "segs": [
-   "(a) The Seebeck effect: the Peltier effect and a current flows through a junction of two junctions.b) A thermopile is a thermopile of two junctions of two metals of two junctions of a thermopile. (b) State the Peltier effect and working of a thermopile.(b) A thermopile of $0.50\\ \\text{mV}$ of Joule heating, a thermopile of Peltier and a thermopile of thermo-e.m.f. of a thermopile of two corpules. A thermopile is a Seebeck effect. The Peltier effect of thermo-e and the current flows through a thermopile of a thermopile of a thermocouple. The Peltier effect is the Peltier effect: the Peltier heat flows from a thermopile and a thermopile of two e",
-   "a) State the Peltier and working of a copper connectation. b) A thermopile is used to measure a thermopile of thermocouples of a thermopile. b) A copper copper copper connecting the junctions of two junctions are blackened and the heat; a thermopile is a thermopile and its cold junction."
+   "(a) Sketch the Peltier effect and(b) the Peltier effect, (ii) the heat delivered from Joule heating.",
+   "a) State Joule's laws of heating and explain why the Peltier effect. [3] b) Compare the Peltier effect and show how a thermopile of a thermopile is converted into heat. [2] (NEB 2082)"
   ],
-  "score": 0.678,
+  "score": 0.675,
   "gate": false
  },
  {
-  "unit": "Rotational dynamics",
-  "type": "short",
-  "anchor": "Convert first: $1\\ \\text{rev} = 2\\pi\\ \\text{rad}$, and $N$ rev min⁻¹ means $\\omega = 2\\pi N/60$ rad s⁻¹. The torque is $\\tau = I\\alpha$ (the rotational form of $F = ma$), the kinetic energy of rotation is $\\tfrac{1}{2}I\\omega^{2}$, and the angular momentum is $L = I\\omega$.",
-  "segs": [
-   "1. 2 s. Water angular velocity $\\omega = 2\\pi N/\\omega$. 2. Angular momentum $L = 2\\pi N$ rad s. For uniform disc of moment of inertia $2I$, $2I\\omega$, $\\tau = 2\\pi N\\cos(2\\pi x/2)$. For a rigid body, $\\tau = I\\alpha$, $\\tau$ rev min, $\\omega = 2I\\omega$, and $\\tau = 2, $\\omega = 3I\\omega$. The angular velocity $\\omega$ is 2\\pi N/ angular momentum $L = \\frac{\\tau}{2\\pi}$. For a wheel of moment of inertia, $I\\omega$ is $I\\omega = 2\\pi$, $\\tau\\omega = 2\\pi r\\omega$, $\\omega = I\\omega$, and angular velocity $\\omega^2$. $\\omega = 2\\omega$. 2: $\\tau = I\\omega$. Using $\\tau = IZ$, $\\tau \\propto 2\\pi$, angular momentum $I$, $I = 2\\pi N\\omega$, $I\\omega",
-   "A skater pulls a constant torque of $\\tau$ rotates about a constant torque $\\tau$ rev ms $\\tau = I \\omega$. What is the angular velocity of rotation?"
-  ],
-  "score": 0.777,
-  "gate": false
- },
- {
-  "unit": "Alternating Currents",
+  "unit": "Quantization of energy",
   "type": "mcq",
-  "anchor": "Averaging over half a cycle gives a useful number: $$I_{av} = \\frac{2I_0}{\\pi} = 0.637\\,I_0$$",
+  "anchor": "For a rock-salt crystal with $d = 0.282\\ \\text{nm}$, a first-order maximum at $\\theta = 14°$ gives $\\lambda = 2(0.282)\\sin 14° = 0.136\\ \\text{nm}$.",
   "segs": [
-   "$I_0 = \\frac{I_0}{2}$",
-   "What is the formula representing a = \\frac{I0.m}{\\pi}$ in an alternating current a cycle with a cycle?$",
-   "$I_0$",
-   "$I = \\frac{2I_0}2$",
-   "$I$",
-   "The formula for the cycle is defined as $I_0$ in an AC circuit."
+   "$42.4\\ \\text{nm}$",
+   "What is the wavelength of the first-order Bragg reflection when the first-order maximum are $2d\\sin\\theta = 0.5\\lambda$?",
+   "$450\\ \\text{nm0}$",
+   "$2.6\\ \\text{nm this order.27}$",
+   "$45.0\\ \\text{mm}$",
+   "The passage explicitly states the wavelength of the ultraviolet light used in a double-slit experiment."
   ],
-  "score": 0.768,
-  "gate": false
- },
- {
-  "unit": "Rotational dynamics",
-  "type": "mcq",
-  "anchor": "(a) Show that the kinetic energy of a rigid body rotating about a fixed axis is $\\frac{1}{2}I\\omega^{2}$.",
-  "segs": [
-   "$I = \\frac{1}{2}MR^{2}$",
-   "What is the formula representing the kinetic energy of a rigid body rotating about a fixed axis?",
-   "$I = \\frac12I\\omega^2$",
-   "$I = I + \\omega$",
-   "$I\\omega$",
-   "The formula $I = I^{2} + Md^{2} = \\frac{1 + \\frac{1}1}{2I}$."
-  ],
-  "score": 0.927,
+  "score": 0.882,
   "gate": true
- },
- {
-  "unit": "First Law of Thermodynamics",
-  "type": "mcq",
-  "anchor": "A free expansion is the expansion of a gas into a vacuum inside an insulated vessel: no heat enters ($Q=0$) and there is nothing to push against ($W=0$), so $\\Delta U = 0$ and the temperature of an ideal gas is unchanged.",
-  "segs": [
-   "Because $W = 0$",
-   "Why does the temperature of an ideal gas decrease in temperature of an ideal system?",
-   "Because the temperature of the gas becomes zero",
-   "Because $Q$ remains constant",
-   "Because $\\Delta U = 0$",
-   "The temperature remains constant during an ideal gas to $\\Delta U = W$, the gas expands isothermally to $\\Delta U$."
-  ],
-  "score": 0.555,
-  "gate": false
- },
- {
-  "unit": "Rotational dynamics",
-  "type": "mcq",
-  "anchor": "Pulling the masses in reduces $I$, so $\\omega$ rises to keep $L=I\\omega$ fixed.",
-  "segs": [
-   "$L$",
-   "A body reduces to $I$ and moment of inertia reduces to a change in $L$ to",
-   "$I$",
-   "$L$",
-   "$I$",
-   "$L$ appears $L$, so $I$ must be $I$."
-  ],
-  "score": 0.317,
-  "gate": false
- },
- {
-  "unit": "Photons",
-  "type": "mcq",
-  "anchor": "a photon below the work function cannot free an electron, and extra intensity does not add photon energy: one photon frees at most one electron.",
-  "segs": [
-   "ionizes the electron from the surface of a photon",
-   "When an electron transitions from the electron from the work function $\\phi$ has which of the following?",
-   "ionizate energy",
-   "ionization potential",
-   "ionization scale",
-   "The work function $\\phi_0$ of the electron."
-  ],
-  "score": 0.743,
-  "gate": false
  }
 ]

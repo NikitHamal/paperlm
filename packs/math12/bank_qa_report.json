@@ -1,13 +1,23 @@
 {
  "pack": "math12",
- "bank_in": 1056,
- "bank_kept": 1043,
- "dropped": 13,
+ "bank_in": 1734,
+ "bank_kept": 1599,
+ "dropped": 135,
  "reasons": {
-  "topic_mashup": 12,
-  "option_ref": 1
+  "leaked_context": 68,
+  "topic_mashup": 19,
+  "truncated_answer": 16,
+  "needs_figure": 13,
+  "answer_giveaway": 11,
+  "no_answer": 5,
+  "orphan_stem": 3,
+  "answer_misses_part": 2,
+  "stem_fragment": 2,
+  "option_ref": 2,
+  "empty_or_tiny_stem": 1,
+  "meta_exam_question": 1
  },
- "mcq": 847,
- "written": 196,
+ "mcq": 1332,
+ "written": 267,
  "units": 17
 }

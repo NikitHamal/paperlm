@@ -5,13 +5,13 @@
   "anchor": "Protista is a dustbin: it holds photosynthetic Chlamydomonas, animal-like Amoeba and fungus-like slime moulds together only because they are all \"simple eukaryotes\".",
   "segs": [
    "Protista",
-   "Which of the following organisms produce their photosynthetic organization and sex characteristics?",
+   "In the life cycle of the life cycle of fungi, which processing the following best describes the life cycle of parasites?",
+   "An apical division",
+   "Angiosperms",
    "Fungi",
-   "Circular foot",
-   "Stroma",
-   "The passage explicitly states that Bryophytes are described as a slipper-shaped."
+   "The passage explicitly states that plants are the fungus."
   ],
-  "score": 0.729,
+  "score": 0.737,
   "gate": false
  },
  {
@@ -19,14 +19,29 @@
   "type": "mcq",
   "anchor": "They made the monomers of life from inorganic gases, and nothing more — no protein, no nucleic acid, no cell. \"Miller and Urey created life in the laboratory\" is a standard wrong answer. \"I made polythene pipes\" — the gases were methane, ammonia, hydrogen and water vapour, with no free oxygen.",
   "segs": [
-   "They perform photosynthesis, a function of a Use and Urey experiment that are credited as a large share of nucleic acids, which is more than monkeys.",
-   "Why do all organisms existed a share of a proto a norrect influences in a vap of nucleic acids in the formation of a single boiling biochemical oxygen?",
-   "They had no genetic material to stimul the atmosphere.",
-   "They can be determined solely in the atmosphere.",
-   "The passage explicitly states that viruses were genetic material, use nucleic acids.",
-   "The passage directly states that humans and Code and Contain, much of the origin of nucleic acids, contribute to the early evolutionary history of nucleic acids."
+   "They showed the gases of organic molecules from simple inorganic gases.",
+   "Why did early the gases were the same molecules and early life forms of the same molecules of different atmospheric conditions?",
+   "They were the same molecules from different gases.",
+   "They were the first protocells during the same genetic code.",
+   "They were different molecules compared to the same rate of the same molecules.",
+   "The passage explicitly states that early the same genetic chemical evolution from the same molecules as the same genetic copulations alanine."
   ],
-  "score": 0.47,
+  "score": 0.617,
+  "gate": false
+ },
+ {
+  "unit": "Biomolecules and Cell Biology",
+  "type": "mcq",
+  "anchor": "Enzymes are biological catalysts — globular proteins produced by living cells which accelerate a biochemical reaction by lowering its activation energy, without themselves being consumed or altered at the end of the reaction.",
+  "segs": [
+   "Enzymes are the energy required for all living cells without being used up.",
+   "Why do mitochondria play a crucial role of the enzyme reactions within cells?",
+   "Enzymes slow down chemical reactions to control the rate of metabolic processes.",
+   "Enzymes slow chemical reactions to control their metabolic processes.",
+   "To decrease the role of biological catalyze.",
+   "Enzymes speed up chemical reactions in biochemical reaction they catalyze."
+  ],
+  "score": 0.671,
   "gate": false
  },
  {
@@ -34,25 +49,25 @@
   "type": "mcq",
   "anchor": "Corolla — 5 petals, gamopetalous, rotate, campanulate or funnel-shaped, valvate. Androecium — 5 stamens, epipetalous, alternating with the petals, polyandrous; anthers usually basifixed and dithecous, dehiscing longitudinally or by apical pores (Solanum).",
   "segs": [
-   "Tetradynamous",
-   "In the binomial nomenclature system, which structure is characterised by having the stamens arranged?",
-   "Fabaceae",
-   "Colyadelphous",
+   "Epipetalous",
+   "In the description of the androecium, what type of stamens inference of stamens to the petals?",
    "Polyadelphous",
-   "The passage explicitly states the stamens are tetradynamous, consists of stamens and epiphyllous stamens."
+   "Polyandrous",
+   "Diadelphous",
+   "The passage explicitly states the stamens are epipetalous, meaning the stamens."
   ],
-  "score": 0.408,
+  "score": 0.657,
   "gate": false
  },
  {
-  "unit": "Introduction to Biology",
+  "unit": "Introductory Microbiology",
   "type": "short",
-  "anchor": "Sixty-four of the seventy-five marks in the Biology paper are written answers. In a three-hour paper you have about 2.4 minutes per mark: roughly ten minutes for a four-mark answer and twenty for an eight-mark answer, with ten minutes at the end to check.",
+  "anchor": "Modern biotechnology rests on recombinant DNA technology — transferring a chosen gene from one organism into another so that the new host makes the desired product. The genome is one molecule (or a few pieces) of DNA or RNA, single- or double-stranded. Some animal viruses add an outer envelope of host membrane carrying viral spikes — influenza virus, HIV and SARS-CoV-2 are enveloped.",
   "segs": [
-   "The paper the paper the three-hour paper and an eight-hour. Learly about 15 minutes for a 75-mark exam with 10 minutes for a 4-mark exam with a 4-hour. A three-hour. Total year is for a three-mark exam with $18$ minutes for a 5-mark question. In a 4-mark paper the paper the answer. Total examinerical, and 2.4 minutes per mark for a three-hour answer. 4. The paper's time to check. Beight questions about $1.4$. In a 4, 2.4 minutes, and an eight-mark paper. Enzymes are model, this review. For a 4-histers $2$ minutes for a 4 minutes to check. In a 5-mark exam with 2.4. 2. In a 5 minutes for the 5-mark paper.1. Ud. $$1$. $$\\frac{-N}{-1} = \\frac{4}{-mark question.0.4.0.4 minutes per written mark in a 2.4 minutes for reviewing time",
-   "Explain the answer and an 8-mark exam with an 8-mark and an 8-hour paper."
+   "A virus is a viral particles are enveloped by the viral genome in a bacteriophage. It has the nucleic-acid genome in a protein coat that needs a host cell to multiecogenic or RNA. The genome is a nucleoprotein particle to multiply designs a host cell tool to multiply. These are RNA viruses that can reproduce independently and lack a host cell to a host cell to copy their rapid mutation rates.",
+   "Explain the approximate of a virus and explain why viruses are designed specifically for viruses."
   ],
-  "score": 0.7,
+  "score": 0.365,
   "gate": false
  },
  {
@@ -60,14 +75,14 @@
   "type": "mcq",
   "anchor": "All cells arise from pre-existing cells by division.",
   "segs": [
-   "Synthesis of proteins",
-   "What structure in animal cells have the cell that certain cells have the cell?",
+   "reduction reactions inhibitors",
+   "Which interphase inhibitors inhibitor resembleance the cell wall?",
+   "mitosis",
    "Mitochondria",
-   "Mitochondria",
-   "Lysosomes",
-   "The passage explicitly states that the cell divides by a single membrane with pores that the cell membrane with the cytoplasm."
+   "Nucleus",
+   "The passage explicitly states that cell wall happens in prophase in animal cells."
   ],
-  "score": 0.264,
+  "score": 0.394,
   "gate": false
  },
  {
@@ -75,10 +90,10 @@
   "type": "short",
   "anchor": "Corolla — 5 petals, gamopetalous, rotate, campanulate or funnel-shaped, valvate. Androecium — 5 stamens, epipetalous, alternating with the petals, polyandrous; anthers usually basifixed and dithecous, dehiscing longitudinally or by apical pores (Solanum).",
   "segs": [
-   "In Allium, with podosa, and the stamens are tetradynamous, with two short and four long stamens. 5 stamens are tetradvate. 5 stamens are alternate. Inflorescence is enclosed by fused sepals or 5 stamens, with a cross walls; anthers are tetradynamynamous, with alternate.",
-   "Describe the stamens in a stamens and explain the stamens and four long stamens and four long petals in a cross walls."
+   "Tetradynamous, basifixed, arranged in the stamens; polyandrous, epipetalous, dithecous, basiflower, dithecarpous, with a campan androecium; anthers usually basifixed.",
+   "Describe the androecium and gamoecium of stamens in the androecium and the stamens inference of stamens."
   ],
-  "score": 0.379,
+  "score": 0.636,
   "gate": false
  },
  {
@@ -86,14 +101,14 @@
   "type": "mcq",
   "anchor": "For this reason lysosomes are called the suicide bags of the cell.",
   "segs": [
-   "They are called 'suicide bags' because they are surrounded dictyosomes.",
-   "Why do chloroplasts considered the function of lysosomes?Form the function of lysosomes are surrounded dic acid synthesizing proteins.",
-   "They are used exclusively found in animal cells.",
-   "They both produce mitochondria.ome assembly forming a single membrane.",
-   "They all proteins exclusively through binary fission like cell.",
-   "The passage explicitly states that the Golgi apparatus is function of the Golgi apparatus."
+   "glycogen",
+   "What type of chemicals the primary storage carbohydrate of the cell wall in plant cells is called when they",
+   "Mitochondria",
+   "Nucleus",
+   "Green",
+   "The passage explicitly states that the pigment and colourless proteinaceous ground substance contains the enzymes of the cell wall."
   ],
-  "score": 0.531,
+  "score": 0.449,
   "gate": false
  },
  {
@@ -101,25 +116,29 @@
   "type": "mcq",
   "anchor": "A compound microscope has an objective lens and an eyepiece lens, and its magnification is $M=M_{\\text{objective}}\\times M_{\\text{eyepiece}}$.",
   "segs": [
-   "The total magnification of a compound microscope",
-   "What is the formula used to calculate the total magnification of a magnification of a compound eyepiece and an objective lens with a magnification of the eyepiece and an objective.",
-   "The sum of the magnifications of the magnifications.",
-   "The sum feature of the magnifications provided by the eyepiece.",
-   "Only the magnifications provided as the objective lens.",
-   "The total magnification is the product of the two magnifications."
+   "$40\\times$",
+   "What term describes the total magnification of a compound microscope with a compound microscope with the eyepiece lens with a magnification of $1\\times$ and an objective lens with a compound microscope?",
+   "$5\\times$",
+   "$5\\times\\times$",
+   "$40\\times\\times$",
+   "The passage explicitly calculated as the magnification of a magnification of the eyepiece."
   ],
-  "score": 0.776,
-  "gate": false
+  "score": 0.912,
+  "gate": true
  },
  {
-  "unit": "Ecology",
-  "type": "short",
-  "anchor": "Melting glaciers: the Himalayan glaciers, including those of Khumbu, are retreating quickly, and glacial lakes such as Imja and Tsho Rolpa are at risk of outburst floods (GLOF). Carbon: burning of fossil fuel and deforestation raise CO₂ and cause global warming. Human activity is upsetting them, so sustainable farming, tree planting and a lower use of fossil fuels are important.",
+  "unit": "Floral Diversity",
+  "type": "mcq",
+  "anchor": "Similarly Brassicaceae was once Cruciferae, Fabaceae was Leguminosae, and Poaceae was Gramineae. Write the name your syllabus uses, but if you know the modern one, add it in brackets — it never loses marks and it shows you understand that classification is a moving target.",
   "segs": [
-   "To reduce CO_2O, C$, N_2O, and H_2. Rainable global warming caused by human activities like rural landscapes, causing global warming. Khewa, the Himalayan glacts of fossil fuels such as burning fossil fuels and deforestation. 5. Imjor conse actions, tree plantes, and fossil fuels raise COMR. 3. Define biology and fossil fuels are threatening fossil fuels such as CO_2O_2O, making them effectively. 4. Ins, prefer global warming, and fossil fuels are crucial for the burning of fossil fuels raises CO_2. Daxy protection, causing fossil fuels and global warming. 2. Enforms, reducing COM_2 and fossil fuels raises heat in fossil fuels. Insims, causing fossil fuel and deforestation, reducing CO_2. 3. M_2 ($",
-   "Explain the effect of fossil fuels contribute to global warming and cause global warming."
+   "Angiosperm Phylogeny Phrubs, including proteus, Pisum sativus, which is a most.",
+   "Why is the family Brassicaceae family classification a condimated plants in the Liliaceae family?",
+   "Angiosperm Phittaker",
+   "Solanum noctinomorphic",
+   "Euaceae",
+   "The passage explicitly states that the Brassicaceae is the plants in the Family Angiosperm Panda sativus."
   ],
-  "score": 0.596,
+  "score": 0.411,
   "gate": false
  },
  {
@@ -127,44 +146,25 @@
   "type": "mcq",
   "anchor": "Legal and institutional measures — the Environment Protection Act, the Forest Act, compulsory Environmental Impact Assessment for large projects, and the national protected-area network described in Unit 5.",
   "segs": [
-   "It makes the amount of hydroserequare to the environment for the next.",
-   "Why does the ecological banned plants impact assessment compulsory for the year due to the environment for a fresh fish-eating grassland of the next-area regulations in Nepal?",
-   "It increases the amount of the amount of hydrophytes high-area systems.",
-   "It increases the biodiversity through use of the environment for the environment for.",
-   "It increases two specific habitat to the surface area for the environment.",
-   "The passage explicitly states that the site less suitable for the environment for the impact of the Chure hills of the next, leading to the next."
+   "It transforming the concentration of the chain that is protected and less than the next in the next in the Terai to the next.",
+   "Why does the Chure hills of the Terai region during the Terai region for the Terai region?",
+   "It increases the levels of the effective.",
+   "It decreases the concentration of the next in the environment for the next community.",
+   "It focuses the decrease the succeeds in the environment for each trophic levels.",
+   "The passage states that the in-migration occupies the in-eergy prevents the rate of available to the next."
   ],
-  "score": 0.513,
+  "score": 0.449,
   "gate": false
  },
  {
-  "unit": "Evolutionary Biology",
-  "type": "mcq",
-  "anchor": "Increase in cranial capacity: 400 → 450 → 700 → 950 → 1450 cm³. Shortening of the jaws and face, prognathous → orthognathous, canines reduced, a chin appears, brow ridges lost, forehead vertical.",
+  "unit": "Vegetation",
+  "type": "short",
+  "anchor": "This single fact produces the belts described below. Nepal averages about 1,600 mm of rain a year and roughly 80 % of it falls between June and September. Vegetation sits between the physical environment and the people who live in it, and the influence runs in all three directions. Firewood is still the main cooking fuel in most rural Nepali households.",
   "segs": [
-   "Cro-14 dating",
-   "What term correctly describes the ideanic period of anatomically modern Homo sapiens considered the cranial capacity of modern humans?",
-   "Specially in Africa",
-   "Modern humans",
-   "Promousesing",
-   "The passage explicitly states that Miocene the evolutionary line is characterized by the evolutionary idea of audd tert regions of the Himalayas of the evolutionary biology."
+   "Nepal rural Nepali households in Nepal leads to the departts of Nepal due to a higher altitude range. The Terai's rainfalls station of Nepal, leading to rural Nepali herbs in Nepal. Soil erosion and landslides, stating vegetation, and its altitude, and its extensive belts.",
+   "Describe the impact of the rainfall and the vegetation of Nepal in Nepal and the vegetation of the Terai region of Nepal in Nepal."
   ],
-  "score": 0.436,
-  "gate": false
- },
- {
-  "unit": "Biota and Environment",
-  "type": "mcq",
-  "anchor": "Nitrogen is needed for every protein and nucleic acid, yet the huge atmospheric supply is inert.",
-  "segs": [
-   "phosphorus, striped response of a CFCs.",
-   "The atmosphere of a fish concentration of a fish-eating is",
-   "DDT in the atmosphere",
-   "NHardy-1.",
-   "CHigh haemoglobin",
-   "Nitrogen is the disturbed nitrogen of much of atmospheric supply is why the atmosphere is available."
-  ],
-  "score": 0.38,
+  "score": 0.503,
   "gate": false
  },
  {
@@ -172,25 +172,25 @@
   "type": "short",
   "anchor": "Body segmented and divided into head, thorax and abdomen (or cephalothorax and abdomen); segmentation is heteronomous, different segments doing different jobs. Animals share collagen and cell junctions binding the cells; a diploid adult developed from a zygote through blastula and gastrula stages; glycogen as the store; movement at some stage; and nervous and muscular tissue, which no other kingdom has. The visceral mass is covered by the mantle, a fleshy fold that secretes the calcareous shell and encloses the mantle cavity holding the gills. Most have a rasping radula armed with rows of chitinous teeth; it is absent in the filter-feeding bivalves.",
   "segs": [
-   "In the pharynx, the septa, and the muscular system of hyphae have no mouth at the coelom and no sperm. The gut is a fleshy fold into the worm is holding the coelom and the corteinoden, which are used for filter feeding, supporting the pharynx in the pharynx. The Americ segmentation is blastigger-like cephalisation in the gut.",
-   "Describe the reproductive system of the worm that control is a calcareous shells and explain the function of the pharynx in certain organisms into the digestive system of a calcareous cuticle."
+   "Annelida, a muscular filter-filled cavity, developing through the calcareous shell. Examples develops from the filterobs from the filamental column and the coelomic fluid that secretes the calcareital duct. This closing digestive processes, typically a coelom divided into metameron in the gonads between epidermis and segmental vessels into the coelom and the coelom is a fluid that activates in the coelomic fluid.",
+   "Describe the structure of the coelom in the coelom of the true coelom in the segmental organs in the coelom."
   ],
-  "score": 0.281,
+  "score": 0.352,
   "gate": false
  },
  {
-  "unit": "Introductory Microbiology",
+  "unit": "Evolutionary Biology",
   "type": "mcq",
-  "anchor": "Compare it with the eukaryotic cell of Unit 1: there is no nuclear envelope and no membrane-bound organelle of any kind.",
+  "anchor": "Australopithecus (\"southern ape\") lived in eastern and southern Africa from about 4.2 to 2 Mya. A. africanus was described by Raymond Dart in 1924 from the Taung skull; A. afarensis is known from \"Lucy\", a 40 %-complete skeleton found at Hadar, Ethiopia, in 1974 and dated to 3.2 Mya.",
   "segs": [
-   "Prokaryotic cells lack a nuclear envelope and membrane-bound organelles.",
-   "What distinguishes prokaryotic cells from eukaryotic cells from eukaryotic cells based on its membrane-bound organelles, including within eukaryotic cells?",
-   "Prokaryotic cells are larger in size compared to eukaryotic cells.",
-   "Prokaryotic cells contain mitochondria and chloroplasts.",
-   "Prokaryotic cell walls are larger in size due to eukaryotic cells.",
-   "Prokaryotic cells do not have a nuclear envelope or any membrane-bound organelles with eukaryotic cells."
+   "A. africanus",
+   "Which of the following hominid species was the earliest known from H. africanus in 1924, is associated with A. africanus, africanus in 2024, is about 194 dated?",
+   "A. african population of S. africanus",
+   "A. afarensis was highly 2024.",
+   "A. a-ithecus africanus",
+   "The Taung skull, africanus was found to be the discovery of the Taung skins, known from africanus."
   ],
-  "score": 0.705,
-  "gate": false
+  "score": 0.905,
+  "gate": true
  }
 ]

@@ -8,8 +8,8 @@
    "subject": "biology",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.6097,
-   "numeric": 10
+   "val_loss": 3.508,
+   "numeric": 19
   },
   {
    "pack_id": "phy11",
@@ -18,7 +18,7 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.2312,
+   "val_loss": 2.0935,
    "numeric": 36
   },
   {
@@ -28,8 +28,8 @@
    "subject": "biology",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.5011,
-   "numeric": 14
+   "val_loss": 3.4911,
+   "numeric": 19
   },
   {
    "pack_id": "phy12",
@@ -38,8 +38,8 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.4074,
-   "numeric": 24
+   "val_loss": 2.1859,
+   "numeric": 44
   },
   {
    "pack_id": "chem11",
@@ -49,7 +49,7 @@
    "params": 10203840,
    "onnx_mb": 10.73,
    "val_loss": 2.748,
-   "numeric": 12
+   "numeric": 24
   },
   {
    "pack_id": "chem12",
@@ -58,8 +58,8 @@
    "subject": "chemistry",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.131,
-   "numeric": 9
+   "val_loss": 2.991,
+   "numeric": 25
   },
   {
    "pack_id": "math11",
@@ -68,8 +68,8 @@
    "subject": "mathematics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 1.9179,
-   "numeric": 28
+   "val_loss": 1.8675,
+   "numeric": 35
   },
   {
    "pack_id": "math12",
@@ -78,8 +78,8 @@
    "subject": "mathematics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.0647,
-   "numeric": 32
+   "val_loss": 1.9087,
+   "numeric": 33
   },
   {
    "pack_id": "cs11",
@@ -88,8 +88,8 @@
    "subject": "computer-science",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.5845,
-   "numeric": 8
+   "val_loss": 3.5669,
+   "numeric": 13
   },
   {
    "pack_id": "cs12",
@@ -98,8 +98,8 @@
    "subject": "computer-science",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 4.1563,
-   "numeric": 7
+   "val_loss": 3.8339,
+   "numeric": 12
   }
  ]
 }

@@ -1,88 +1,77 @@
 [
  {
+  "unit": "Dispersion",
+  "type": "mcq",
+  "anchor": "A converging lens brings violet to a focus at $F_V$ and red at $F_R$; the separation $f_R - f_V$ is the longitudinal chromatic aberration.",
+  "segs": [
+   "It focuses violet light at the near point $F_V$.",
+   "When light travels through a prism at the near point of red and violet light, which color will red light at the near $F_R$?",
+   "It diverges towards the focal point $F_R f_V$.",
+   "It focuses red light through the lens.",
+   "It focusing red light at $F_V > f_R$.",
+   "The dispersion of light is caused by the lens for violet as stated in the provided physics passage."
+  ],
+  "score": 0.542,
+  "gate": false
+ },
+ {
+  "unit": "Dynamics",
+  "type": "mcq",
+  "anchor": "It accelerates downwards, so take downwards as positive for this mass. Net force $=$ mass $\\times$ acceleration: Step 2 — free-body equation for $m_2$.",
+  "segs": [
+   "$\\text{Net force} = \\text{mass} \\times \\text{acceleration}$",
+   "What is the formula for the gravitational acceleration $\\text{Net work done by a constant mass $m$? ($\\text{N}$) $-\\text{acceleration}$. What is the net force acting on the block? Solution. A $\\text{N} = \\text{acceleration} + \\text{acceleration} \\qquad \\text{acceleration} \\quad \\text{acceleration} = \\text{s} - \\text{acceleration}, which is the net force experience a constant acceleration of $2\\ \\text{N}$. How does the net force relate to",
+   "$\\text{N m}^{-2}$",
+   "$\\text{m s}^{-1}$",
+   "$2\\ \\text{m s}$",
+   "The net force directly equals the change in acceleration, which directly provides the net force over time, which is $2\\ \\text {$ acceleration}$.8\\ \\text{m}$."
+  ],
+  "score": 0.655,
+  "gate": false
+ },
+ {
   "unit": "DC Circuits",
   "type": "mcq",
   "anchor": "With electric field $E$, an electron has acceleration $a=\\dfrac{eE}{m}$ and, with an average time $\\tau$ between collisions (relaxation time), $v_d=\\dfrac{eE}{m}\\,\\tau$.",
   "segs": [
-   "$E=\\dfrac{m}{m}$",
-   "What is the expression for resistance $E$, where $E$ is the resistance ($E$) of a particle in a uniform electric field ($E$, and electric field ($x$)?",
-   "$E=Vd$",
-   "$E=I^2$",
-   "$E$",
-   "The formula $E=\\dfrac{E}{d}$ directly expresses the relationship as $E=\\dfrac Q{E}{V}$."
+   "$v_e=\\dfrac{e}{m}$",
+   "Which formula represents the relationship between electron, charge, and charge $E$, and the current $I$?",
+   "$I=Im$",
+   "$E=\\dfrac{m}{E}$",
+   "$E_d=Im$",
+   "The formula $v_d=E_d$ directly represents the relationship between current, acceleration, and time."
   ],
-  "score": 0.867,
+  "score": 0.863,
   "gate": true
- },
- {
-  "unit": "Dynamics",
-  "type": "mcq",
-  "anchor": "The routine is always the same: isolate one body, draw its free-body diagram, choose axes along and across the motion, and write $\\sum F = ma$ for each axis.",
-  "segs": [
-   "$\\sum F = 0$",
-   "In a system where two bodies $\\sum F = 0 = 0$ and $\\sum F = 1$, what is the acceleration $a$ in the direction of the acceleration $a = 0$?",
-   "$\\sum F = \\frac{dv}{dt}$",
-   "$\\sum F_e = 0$",
-   "$\\sum \\vec{p} = 0$",
-   "The condition for two bodies situde to each other, the same impulse is zero."
-  ],
-  "score": 0.86,
-  "gate": true
- },
- {
-  "unit": "Dynamics",
-  "type": "mcq",
-  "anchor": "Why: the syllabus names the laws and their verification. Outline: four laws; $\\mu = \\tan\\theta$ at the angle of friction; incline with and without friction.",
-  "segs": [
-   "$\\mu = \\tan\\theta$",
-   "In a incline, if $\\mu$ represents the angle of friction ($\\mu$) for which the angle of inclination is $\\mu$?",
-   "$\\mu = \\tan\\alpha$",
-   "$\\mu = \\sin\\theta$",
-   "$\\mu$",
-   "The coefficient of static friction is defined as the angle of friction, which is directly proportional to the angle of inclimum angle."
-  ],
-  "score": 0.879,
-  "gate": true
- },
- {
-  "unit": "Electric field",
-  "type": "mcq",
-  "anchor": "Take a cylinder of radius $r$ and length $l$, with the wire along its axis.",
-  "segs": [
-   "$1/r$",
-   "A long straight wire of length $l$ has a distance of $r$. Its new length $l$ is",
-   "$1/r^{2}$",
-   "$1/4$",
-   "$1 + \\frac{1}{r^2}$",
-   "$E$ is explicitly defined as $1/r^2$ of the wire of length $r$."
-  ],
-  "score": 0.486,
-  "gate": false
- },
- {
-  "unit": "DC Circuits",
-  "type": "short",
-  "anchor": "Household wiring in Nepal uses parallel connections so that every appliance receives the full $230\\ \\text{V}$. The general form $P = VI$ works for any device, ohmic or not.",
-  "segs": [
-   "The element must be ohmic, ohmic, each element must be ohmic. The element must be ohmic and share the current. It receives the full $V$, so $P = VI$ works for any device, ohmic or not.",
-   "Explain the relationship $P = VI = VI$ for any device, and form $P = VI/V$ for any device?"
-  ],
-  "score": 0.619,
-  "gate": false
  },
  {
   "unit": "Work, energy and power",
   "type": "mcq",
   "anchor": "$$W_{net} = \\tfrac{1}{2}mv^{2} - \\tfrac{1}{2}mu^{2} = \\Delta K$$ The net work done by all the forces acting on a body equals the change in its kinetic energy.",
   "segs": [
-   "$W = \\tfrac{1}{2}mv^{2} - \\tfrac{1}2mK$",
-   "A body of mass $m$ moving a body of mass $2mu$ has its kinetic energy of its kinetic energy $W = \\tfrac{2}{2}mu^{2}$. What is the change in kinetic energy of the body?",
-   "$W = mv^{2} + m^{2}v^{2} = \\tfrac{12}{2a}$",
-   "$W = \\tfrac12mv^{2/2}mv^2$",
-   "$W^{2}^{2}m(2r)$",
-   "The change in kinetic energy is derived by the product of kinetic energy."
+   "$W = \\tfrac{1}{2}mv^{2} - \\tfrac{1}2mu^{2}$",
+   "A body starts with mass $m$ and accelerates uniformly from rest its speed $v$ to a constant speed $v$ over a distance $s$. What is the work done by the net force during its motion?",
+   "$W = \\tfrac12mv^{2 s}{2a}$",
+   "$W = ma^{2} + \\tfrac{1}^{2} = \\tfrac{12}{2}m(v^{2})$",
+   "$W_{net} = \\tfrac{2mv^{4} - \\tfrac{2}{2a(v^{1} + \\tfrac{2}}{2}mu^{2a} = \\tfrac{mv^{21}{2a_{2}^{2 s s}^{2a s}^{-1}$. Option (a) is the work done on an object. With $W = \\tfrac{2}2mv^{1} - \\tfrac{mv^2}{2m}$. Option(b) is the change in kinetic",
+   "According to the work-energy theorem, the work done on a body equals the change in kinetic energy."
   ],
-  "score": 0.971,
+  "score": 0.799,
+  "gate": false
+ },
+ {
+  "unit": "Circular Motion",
+  "type": "mcq",
+  "anchor": "Vertical circle: $v_{\\text{top}}(\\min) = \\sqrt{gr}$, $v_{\\text{bottom}}(\\min) = \\sqrt{5gr}$, $v_2^2 = v_1^2 + 4gr$, and $T_2 - T_1 = 6mg$ always.",
+  "segs": [
+   "$v_{bottom} = \\sqrt{5gr}\\,dv = \\sqrt{5 + 4gr}$",
+   "In the context of circular motion, if $v_{\\text{max}} = \\sqrt{rg(2)} = \\sqrt{2gr}$, what is the formula for the speed $v_{bo}$ of the circle at the bottom of the circle?",
+   "$v_{\\text B} = v_{\\text{min}} + \\sqrt{rg}$",
+   "$v_2^2 + v_1^2 + 4gr$",
+   "$v = v_1^{2} + 4gr$",
+   "The formula $v_2^{2} = \\sqrt{gr}$ directly matches the expression given in the passage for the tension at the bottom as $v_2 = \\sqrt{gr\\,\\Delta\\theta}$."
+  ],
+  "score": 0.858,
   "gate": true
  },
  {
@@ -90,10 +79,10 @@
   "type": "short",
   "anchor": "Steps 1–5 assumed a constant force acting along the motion and a constant mass. The theorem itself is more general: for a varying force you replace $Fs$ by $\\int F\\,dx$ and reach the same answer. $$W_{net} = \\tfrac{1}{2}mv^{2} - \\tfrac{1}{2}mu^{2} = \\Delta K$$ The net work done by all the forces acting on a body equals the change in its kinetic energy.",
   "segs": [
-   "1. $W_{1}^{2}m^{2}v^{2} = \\tfrac{1}{2}mv^{2} - \\tfrac{1}2u^{2}$. The work done by a variable force equals the change in kinetic energy is $W = \\tfrac{12}{2}mu^{2}\\,dx$.",
-   "Calculate the work done by a force on a body in a system."
+   "The work done by the net force equals the change in kinetic energy. Kinetic energy. Replace $W = \\tfrac{1}{2}mv^{2} - \\tfrac{1}2mv^{2a}$.",
+   "Derive the expression for the work-energy theorem $W = \\tfrac12mv^{1} - \\tfrac{2}{2}mu^{2}$, explain how the work done by gravity is constant."
   ],
-  "score": 0.812,
+  "score": 0.833,
   "gate": false
  },
  {
@@ -101,10 +90,10 @@
   "type": "short",
   "anchor": "(a) Show that a ray emerging from a parallel-sided glass slab is parallel to the incident ray, and derive an expression for the lateral shift. (b) A slab of glass of refractive index $1.5$ is $10\\ \\text{cm}$ thick.",
   "segs": [
-   "The lateral shift is $1.5$. $r_1 = \\dfrac{1.5}{1.5-1} = 1.5$, so $r_1=1.5$ and $r_2=1.03$, so $e=\\dfrac{1}{n}=\\dfrac{1.0}{1.01}=1.53$.",
-   "Calculate the lateral displacement of a ray passing through a parallel-sided slab. Also, derive the formula for the lateral displacement of the light ray relative to the incident ray."
+   "(a) A ray of light strikes a glass slab of thickness $1.5$ and refractive index $1.5\\ \\text{cm}$ thick. A ray of $1.5\\times10^{-3}\\ \\text{cm subm}$ is placed in air ($1.5$). (b) $1.53$ has a lateral shift of $1.4$ thick. (a) $1.0\\ \\text{cmm}$ thick. (b) A ray of $5.5$ has a lateral displacement of $1.0$. The emergent ray is parallel to the incident ray.",
+   "a) A ray meet at $25^{\\circ}$ from a glass slab of refractive index $10\\ \\text{m}$ and refractive index of $1.6$. Calculate the refractive index of the glass slab. b) A light ray of glass slab of thickness of $1.7$ and refractive index 1.5$ is $1.51$. Find the refractive index of $n$ and refractive index. (a) A ray strikes a glass slab. (b) Show that the refractive index of glass"
   ],
-  "score": 0.507,
+  "score": 0.743,
   "gate": false
  },
  {
@@ -112,14 +101,14 @@
   "type": "mcq",
   "anchor": "convection needs the material itself to move, which a solid cannot do.",
   "segs": [
-   "recreases steaded",
-   "Heat flows from a hotter to a solid material, the quantity that is",
-   "a conductor",
-   "dire a high density",
-   "a large excess temperature",
-   "a large excess, so halving $\\lambda$ falls."
+   "the material that excreases with a solid and made of the material can be determined.",
+   "In a solid, the rate of heat flow ($H$), which of the following statements correctly describes the rate of heat transfer between the two faces at which a temperature difference across the material?",
+   "Radiation",
+   "Twwater material only",
+   "Randomly becomes infinite",
+   "In a single solid, the temperature gradient is the conductivity of the material."
   ],
-  "score": 0.45,
+  "score": 0.552,
   "gate": false
  },
  {
@@ -127,10 +116,21 @@
   "type": "short",
   "anchor": "Each has baryon number $+\\frac{1}{3}$ and a property called colour — the \"charge\" of the strong force.",
   "segs": [
-   "1. Place the charges of the quarks $+\\frac{1}{3}$ equals $+\\frac{2}{3}e$.",
-   "Given a baryon number $+\\frac{3}{3}+\\frac{12}{35}+\\frac{23}{30}+\\frac{3.2}{30+1}$, what is the energy of one atomic number of nucleons?"
+   "The total charge on the electron is the sum of the individual particles, $+\\frac{1}{3}$. This is the total charge of the pair, $+\\frac1{3}{3}+\\frac{12}{3}-\\frac{1}$.",
+   "Explain the concept of quarks and leptons and their individual particle."
   ],
-  "score": 0.491,
+  "score": 0.431,
+  "gate": false
+ },
+ {
+  "unit": "Dispersion",
+  "type": "short",
+  "anchor": "A converging lens brings violet to a focus at $F_V$ and red at $F_R$; the separation $f_R - f_V$ is the longitudinal chromatic aberration.",
+  "segs": [
+   "A correct lens focuses red and violet light at $F_V$, a converging lens focusing red light. Revert $F_V > f_R$. The longitudinal chromatic aberration is caused by red light, red, red and red light.",
+   "Explain how the lens maker's formula include the focal lengths for violet and red light to red and red light to forming red and red light, and violet light."
+  ],
+  "score": 0.628,
   "gate": false
  },
  {
@@ -138,29 +138,29 @@
   "type": "mcq",
   "anchor": "With electric field $E$, an electron has acceleration $a=\\dfrac{eE}{m}$ and, with an average time $\\tau$ between collisions (relaxation time), $v_d=\\dfrac{eE}{m}\\,\\tau$.",
   "segs": [
-   "$E=\\dfrac{m}{d}$",
-   "What is the formula for electric field $E$ with an electric field $E_g$ in terms of electric field $E=\\dfrac{E}{d}\\,d$?",
-   "$E=\\frac{m}{m}$",
-   "$E=\\dfrac Vd$",
-   "$E_e=\\frac{d}{m}\\,d\\,d$",
-   "The formula $E=\\dfrac q\\dfrac{E}$ directly matches the expression given for resistance in the context for electric field between two parallel plates."
+   "$E=\\dfrac{E}{E}$",
+   "What formula represents the relationship between electron in a conductor under an electric field $E$, resistivity $\\sigma$, and resistivity $\\sigma$?",
+   "$E=\\dfrac \\frac{e}{E}=\\dfrac{m}{E}\\,e$",
+   "$E=V\\,I\\,V$",
+   "$E\\,dr$",
+   "The passage directly states the relationship between electron and hole in an electric field as $E=\\dfrac{e}{A}$."
   ],
-  "score": 0.891,
-  "gate": true
+  "score": 0.842,
+  "gate": false
  },
  {
   "unit": "Recent Trends in physics",
   "type": "mcq",
   "anchor": "Each has baryon number $+\\frac{1}{3}$ and a property called colour — the \"charge\" of the strong force.",
   "segs": [
-   "the opposite sign",
-   "What term describes the presence of a quark compromotes to its baryon number of $+1$ and $-1$?",
-   "electron $+1$",
-   "antind the opposite charge",
-   "atomic number $+1$",
-   "Only the charges on the family of a baryon number $+1e$."
+   "$+\\frac{1}{3}+\\frac{1+}{3}$",
+   "What is the total charge on the charge of a proton formed by the $+\\frac{1-}{3}-\\frac{1}+\\frac{+}{3+3}$?",
+   "$+1$",
+   "$+\\frac{2}{3} +\\frac{1}23+\\frac{13}{3} = +1$",
+   "$-1.5$",
+   "The passage directly states that the $+1$ remains constant and $+1$."
   ],
-  "score": 0.476,
+  "score": 0.75,
   "gate": false
  },
  {
@@ -168,21 +168,25 @@
   "type": "short",
   "anchor": "The displacement is the area of the trapezium $OABC$, which is the sum of the rectangle $OADC$ (area $ut$) and the triangle $ABD$ (area $\\tfrac{1}{2}\\times t\\times(v-u)$): $$s = ut + \\tfrac{1}{2}t(v - u) = ut + \\tfrac{1}{2}t(at) = ut + \\tfrac{1}{2}at^{2}$$ 3. Outline: $T = \\dfrac{2u\\sin\\theta}{g}$, $H = \\dfrac{u^{2}\\sin^{2}\\theta}{2g}$, $R = \\dfrac{u^{2}\\sin2\\theta}{g}$; maximum range at $45^{\\circ}$; $R$ equal for $\\theta$ and $90^{\\circ} - \\theta$.",
   "segs": [
-   "1. $R = u\\sin(2\\theta)(2g + at0) = (u\\sin(u\\sin\\theta)$, $R = u\\cos\\theta + at$. $\\sin\\theta = u\\sin\\theta - \\tfrac{g}{2}at^{2}$, term $R$, and $R = u + at$.",
-   "Given a projectile, derive the formula for maximum range when $R = u^{2} + u^{2 - u^{21}$, calculate the maximum height $H$. What is the maximum range $R$? Describe how to find the maximum range $H$. Additionally, calculate the maximum range $\\sin(u\\sin^{2}\\theta)$. What is its maximum range. Explain how the range $R$ is maximum when the range is $R$. Additional $R = u - at$. A"
+   "The area of the triangle formed ($R$) is the area of the triangle, maximizes the triangle formed by the trapezium. 3. P1: $v^{2} = u^{2} + 2as$, we get $2u^{2}$. 3. Thus, $\\theta = 30^{\\circ}$, and $-45^{\\circ} = u^2 + 2as$. Solving for $s$ as $\\sin^{2}\\theta/2$.",
+   "Derive the formula for the maximum height $H$ reached by a projectile launched with an initial velocity $u$ at an angle $\\theta$ to the vertical."
   ],
-  "score": 0.733,
+  "score": 0.622,
   "gate": false
  },
  {
-  "unit": "Dynamics",
-  "type": "short",
-  "anchor": "A body stays at rest or in uniform motion unless an external force acts — Newton's first law. It also follows directly from $\\vec{F} = d\\vec{p}/dt$: zero net external force means $d\\vec{p}/dt = 0$. On a rough incline the maximum angle at which a body just stays at rest without slipping is the angle of repose $\\alpha$.",
+  "unit": "Thermal Expansion",
+  "type": "mcq",
+  "anchor": "Define linear, superficial and cubical expansivity. Show that $\\gamma = 3\\alpha$ for an isotropic solid.",
   "segs": [
-   "First law: $\\vec{F} = \\Delta \\vec{F}$, $\\vec{F s} = \\mu\\text{C}$. $\\vec{F/dt = 0$, $\\vec F = m\\vec{v}$, $dt = \\frac{dt}{dt}$. Thus, $\\vec{J} = \\int_{t_{av}} = m\\vec{F} - m\\vec{u} = 0$, which is the net force $\\vec{FF} = m\\vec E\\,dt = 0$. This fails for a body applied force equals the net force is constant. It is directly proportional to the net force applied force and frick N m\\vec{u s}$. The force $\\vec{J s} = \\int_tq_1\\Delta t = \\Delta \\vec{p}$. $F = d\\vec{F}$. $\\Delta t = \\frac{\\vec{F}}{\\Delta t} = \\mu_k N_1\\Delta t}$. $$\\vec{J}_{av} = \\frac{d\\vec{F}{\\Delta t = \\frac F_{av}{\\Delta t\\,\\Delta t}$$ The impulse is $\\vec{F_{av}$: $\\vec{J m} = \\int_1\\vec{F}\\Delta t = \\frac \\vec{F}{dt} = \\frac{\\vec E}{\\Delta t_{av}\\Delta t} =",
-   "If a force $\\vec{v}_{av2}$ is directly proportional to $\\vec{Fs}$, how to the net force $F$ is $F_{av s}$. How force $F_{AB}$ acts on a body?"
+   "$\\gamma = 3\\alpha$",
+   "What term describes the relationship between the coefficient of volume expansion ($\\gamma$) and the coefficient of linear expansion ($\\alpha$) for an isotropic solid?",
+   "$\\gamma = 2\\alpha$",
+   "$\\gamma = \\alpha^3$",
+   "$\\gamma > 3\\alpha$",
+   "The equation $\\gamma = 3\\alpha = 3\\alpha$ for an isotropic solid is $\\alpha = 3\\alpha = 1$."
   ],
-  "score": 0.65,
-  "gate": false
+  "score": 0.902,
+  "gate": true
  }
 ]

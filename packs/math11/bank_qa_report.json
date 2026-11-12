@@ -1,12 +1,20 @@
 {
  "pack": "math11",
- "bank_in": 1089,
- "bank_kept": 1085,
- "dropped": 4,
+ "bank_in": 1741,
+ "bank_kept": 1653,
+ "dropped": 88,
  "reasons": {
-  "topic_mashup": 4
+  "answer_giveaway": 26,
+  "leaked_context": 24,
+  "needs_figure": 23,
+  "topic_mashup": 6,
+  "orphan_stem": 4,
+  "truncated_answer": 3,
+  "empty_or_tiny_stem": 2,
+  "answer_misses_part": 1,
+  "arithmetic_error": 1
  },
- "mcq": 898,
- "written": 187,
+ "mcq": 1382,
+ "written": 271,
  "units": 21
 }

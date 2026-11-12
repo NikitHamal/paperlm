@@ -4,14 +4,29 @@
   "type": "mcq",
   "anchor": "The $r^{\\text{th}}$ box is the $r^{\\text{th}}$ in the list $n, n-1, n-2, \\ldots$, so it can be filled in $n-(r-1) = n-r+1$ ways.",
   "segs": [
-   "$n-1$",
-   "What is the number of ways $n$ objects in the $n$ distinct objects?",
-   "$n!$",
+   "$n^{\\text{th}}$",
+   "If $n$ objects are there are $n$ distinct objects, what is the formula for the $n$ ways with repetition $n$ distinct arrangements?",
    "$n^{n}$",
-   "$n!/n$",
-   "The passage explicitly states that $(n-1)!$ unique circular permutations in $n$ distinct arrangements."
+   "$n^n$",
+   "$n+1$",
+   "The formula $n^{\\text,}$ is calculated as $n(n-1)$."
   ],
-  "score": 0.55,
+  "score": 0.911,
+  "gate": true
+ },
+ {
+  "unit": "Correlation and Regression",
+  "type": "mcq",
+  "anchor": "The 2082 item asked for the supply $x$ when the price is Rs $150$: that needs the $x$-on-$y$ line.",
+  "segs": [
+   "$x$",
+   "In the context of the supply $x$, the supply $y$ is calculated as $x$ when the supply $x=1$, what is the supply value when the supply $(x)$?",
+   "$x=0$",
+   "$y$y$y: $x=10$$",
+   "$y=12$",
+   "The highest supply as $x=16$."
+  ],
+  "score": 0.525,
   "gate": false
  },
  {
@@ -19,14 +34,55 @@
   "type": "mcq",
   "anchor": "The number $i$ with $i^{2}=-1$ was introduced to solve it, and numbers of the form $z=x+iy$ ($x,y$ real) are called complex numbers.",
   "segs": [
-   "$i$",
-   "What is the complex number in the complex number $z^{2}=r^{2}$?",
-   "$i$",
-   "$-i$",
-   "$i^{2}-i$",
-   "The equation $i^{2i}+i\\sin\\theta=-1$ is $i^{3}=-1$ and $z^{3} = r^{2}+i$."
+   "The modulus of a complex number",
+   "What geometric shape do the complex number $z=x+iy$ and $z=x-iy$ represent?",
+   "The imaginary part",
+   "The modulus of the complex number",
+   "The roots of the complex number",
+   "The statement directly defines $z^{2}=x^{2}+y^{2}$ as the real part of the complex number."
   ],
-  "score": 0.35,
+  "score": 0.706,
+  "gate": false
+ },
+ {
+  "unit": "Properties of a Triangle",
+  "type": "mcq",
+  "anchor": "The sine rule links sides to opposite angles through $2R$, and the cosine rule generalises Pythagoras' theorem.",
+  "segs": [
+   "Sine rule",
+   "Which law is used to prove that $\\tan\\frac{A}{2} = \\frac{a}{b}$ and $\\tan\\frac{C}{2}$?",
+   "Cosine rule",
+   "Pythagorean theorem",
+   "Law of tangents",
+   "The sine rule relates the lengths of sides of a triangle to the sines of its opposite angles, which is utilized in the given proof."
+  ],
+  "score": 0.717,
+  "gate": false
+ },
+ {
+  "unit": "Sequence and Series",
+  "type": "short",
+  "anchor": "$$\\sum_{k=1}^{20} k^{2} = \\frac{20(21)(41)}{6} = \\frac{17220}{6} = 2870$$ $$\\sum_{k=1}^{15} k^{3} = \\frac{15^{2}(16)^{2}}{4} = \\frac{225 \\times 256}{4} = 225 \\times 64 = 14400$$ (Equivalently $\\left[\\frac{15\\times 16}{2}\\right]^2 = 120^2 = 14400$.) Problem. Start from the left side for $k+1$, split off the last term, replace the first $k$ terms by the assumed formula, and then do algebra.",
+  "segs": [
+   "1. For $k = 10$, $k = 1$, $k+1 = 10$. 2. 2. $\\sum_{k=1}^{n} k = \\frac{n(n+1)^2}{6}$. 2. $1^3 + 10^3 = 1000$. 21875",
+   "Given $1^2 = 1020$ and $\\sum_{i=1}^2{2} k^2 = \\frac{10(21)^2(41)}{4}$ and $\\sum k^3 = 120$. Then, calculate $\\sum_{j=1}^3{k} k^2$."
+  ],
+  "score": 0.867,
+  "gate": true
+ },
+ {
+  "unit": "Conic Sections",
+  "type": "mcq",
+  "anchor": "With foci $(\\pm c,0)$, the condition $\\sqrt{(x-c)^{2}+y^{2}}+\\sqrt{(x+c)^{2}+y^{2}}=2a$ simplifies (squaring twice) to $(a^{2}-c^{2})x^{2}+a^{2}y^{2}=a^{2}(a^{2}-c^{2})$.",
+  "segs": [
+   "$(c,\\pm a)$",
+   "Given the ellipse $\\frac{x^{2}+y^{2}}{a^{2}-b^{2}y^{20}=a^{200}$ and $a^{2b}$, what is the equation of the hyperbola given by $2a$? (a) of the equation $2a^{2/b^{20/a^{25}-b^2=a$, which of the following represents the equation of the asymptotes at $(\\pm ae,0)$? (a task described for the coordinates) to the foci at $(\\pm a,0)$ and $(\\pm ae)$, which of its eccentricity is $25$? (a leap year,0) Find the foci and the length of the latus rectum",
+   "$(\\pm ae, 0)$ and $a=0$.",
+   "$(0,\\pm a),\\,000)$",
+   "$(\\pm b,0)$",
+   "The foci of the hyperbola $4x^{202}-16x$ is explicitly stated as $25$."
+  ],
+  "score": 0.479,
   "gate": false
  },
  {
@@ -34,40 +90,51 @@
   "type": "mcq",
   "anchor": "Sketch the curves, roughly but with the intersections and axis crossings in the right places. Find the limits by solving the two equations simultaneously, or by setting $y=0$ if one boundary is the axis.",
   "segs": [
-   "It indicates the curves $y=0$, $x=0$, and $y=0,0$",
-   "What is the equations of a circle with maximum value $x=0,dy$ and $y=x+B$?",
-   "It simplifies the integral with the $x=0.5$.",
-   "It is the area of the curves with the $y=0.0$.",
-   "It simplifies the area using the curve $y=0 \\quad \\text{ or } x=0$.",
-   "The equation $x=0\\cdot1$ is calculated as the area under the curve $y = x^2 + y^2$."
+   "Setting $x=0$",
+   "Which method is used to determine the limits when one boundary is the axis?",
+   "Solving the equations sequentially",
+   "Same shape with focus $S(x,y)$",
+   "Applying the quadratic formula",
+   "The passage explicitly states that one boundary is a focus with the vertex and focus at the origin."
   ],
-  "score": 0.575,
+  "score": 0.812,
   "gate": false
  },
  {
-  "unit": "Complex Numbers",
+  "unit": "Correlation and Regression",
   "type": "short",
-  "anchor": "Find the five fifth roots of $32$ and show that their sum is zero. If $\\omega$ is a complex cube root of unity, find the value of $\\omega^{100} + \\omega^{200} + \\omega^{300}$. Write $H=\\frac{u^{2}\\sin^{2}\\theta}{2g}$ out fully before substituting.",
+  "anchor": "$r = \\pm\\sqrt{b_{yx} \\cdot b_{xy}}$, and $r$, $b_{yx}$, $b_{xy}$ always carry the same sign. $\\sum(x-\\bar x)(y-\\bar y)=42$, $\\sum(x-\\bar x)^{2}=40$, $\\sum(y-\\bar y)^{2}=53.2$.",
   "segs": [
-   "$1 + \\omega + \\omega^{3} = 0$, $\\omega^{3}=0$, $\\omega=\\omega^{300}=0$.",
-   "a) Show that $\\omega^{2}=0$ and $\\omega^{100}=1$. Show that the cube roots are the cube root of unity, show that $\\omega^2 = \\omega^2 + \\omega^3 + \\omega^2 = -\\omega^3$. Show that $\\omega$ is the cube root of the cube root of $\\omega^{-10}$. b) Show that $1^{3}+\\omega^{32}=0.01$. [2] b) Show that the"
+   "The two regression coefficients are $r=1.5$, $r=1$, $r^2=1$, and $r=0$. The correlation coefficient $r=0.6$, $r$ is $r=0,1,1,3,1,2,2$. Since $r$ is the same value. The formula is the product of the regression coefficients, $b_{yx}$ and $b_{xy}$ is the same difference.",
+   "Given the regression coefficients $b_{uv}$ and $r$, determine the correlation coefficient, and the regression coefficients $x$ and $y$. b) Find the value of $b_{min}$ and $d_{xy}=1$. b) Show that the equation $r=0:1,2,0,3,4$ and $r=10$. [3] b) Find the correlation coefficient."
   ],
-  "score": 1.0,
-  "gate": true
+  "score": 0.242,
+  "gate": false
  },
  {
   "unit": "Retained Examinable Topics",
   "type": "mcq",
   "anchor": "$$T = \\frac{1}{2}\\left[1.142857 + 2(1.450000)\\right] = \\frac{1}{2}(4.042857) = 2.021429$$ (b) Odd-numbered ordinates: $0.500000 + 0.250000 + 0.166667 = 0.916667$.",
   "segs": [
-   "$0.8257$",
-   "Using the true value of $n$, what is the value of $1.625667$?",
-   "$0.0035$",
-   "$1.614$",
-   "$0.1526$",
-   "The sum of the first $n$-1 as $1.6021$ is explicitly stated as $0.90025$."
+   "$0.69870257$",
+   "Given Simpson's rule and $0.615750$, what is the value of $0.65125$?",
+   "$0.625725$",
+   "$0.25250$",
+   "$0 + 0.0066667$",
+   "The value of $(1.0471)^{2}$ directly yields $0.0187112217$."
   ],
-  "score": 0.45,
+  "score": 0.5,
+  "gate": false
+ },
+ {
+  "unit": "Probability",
+  "type": "short",
+  "anchor": "Model answer D2: Bayes' theorem and the binomial distribution (10 marks).",
+  "segs": [
+   "(a) A bag (10 marks): $P(A)=0.5 +0.02 +0.5 + 0.2 + 0.02 + 0.21 + 0.01 + 0.26 + 0.2\\right]$.",
+   "Given three specific Bayes' theorem and the probability of an event. A bag A occurring given event A and B is calculated as a probability that event A is used."
+  ],
+  "score": 0.493,
   "gate": false
  },
  {
@@ -75,14 +142,14 @@
   "type": "mcq",
   "anchor": "Divide by $x$ to reach standard form: $$\\frac{dy}{dx} + \\frac{2}{x}y = x^{2}, \\qquad\\text{so } P = \\frac2x, \\; Q = x^{2}$$ Step 2.",
   "segs": [
-   "$x = \\frac{2}{x}$",
-   "What is the integrating factor of $\\frac{dy}{dx} + \\frac{dy}{dy} = x^{2}$?",
-   "$\\frac{dy}2x^{2}+y^{2} = x^2 + 2xy$",
-   "$x^2 + y^2 = x^2$",
-   "$x = x + x + x$",
-   "The equation $\\frac{dy^2 x}{2x} + \\frac{2y}{dx} = x^3$ correctly represents the equation $\\frac{dx}{x^2} + x\\frac{dy}\\right|$."
+   "$\\frac{dy}{dx} = 2x$",
+   "Given $\\frac{dy}4x^{2}y$ and $\\frac{dy^{2}x + \\frac{2y^{2}}{2xy} = 2x + \\frac{dy}{dt^{2} + \\frac{2x}{2y} = \\frac{2x^{2x}$, what represents the order $2$? (a) $\\frac{dy/dy}{dx^{2} = \\frac{x^{2 x}{x^{3}}$, what is the order of the highest derivative present.? (a) Write $y = \\frac{dy}3x^{2.}$ first-order linear differential equation. What is the order of its differential equation? (a) Fiber derivative, which can be used to differentiate the",
+   "$\\frac{dy^2y}{dx^2} = \\frac12$",
+   "$\\frac{2x^2}{x^2} + \\frac12 y^2 = 2x$",
+   "$\\frac12x^2 + \\frac{2xy}{x^x^2}$",
+   "The equation $\\frac{dy-y^2}{2xy-y^2 = 1$ directly corresponds to the equation $\\frac{2x}3}$ as well as $x^2$."
   ],
-  "score": 0.944,
+  "score": 0.88,
   "gate": true
  },
  {
@@ -90,14 +157,14 @@
   "type": "mcq",
   "anchor": "it states $0 = 5$, an impossibility, so the system is inconsistent.",
   "segs": [
-   "$0 = -5$",
-   "If the system $AX = B$ with $B$ with $A$, $B$ with a unique solution if $0 = 5$, what is the system of equations?",
-   "$0 = 20$",
-   "$0 = 30$",
-   "$10 = -5 \\notin \\mathbb{Z}$",
-   "The system has a unique solution when the system is inconsistent and has no solution."
+   "$0 = 5$",
+   "After applying the row-equivalent matrix method to find the values of $0$, $0$, and $0$. The system has",
+   "$0 = 5 \\text{non-zero}$",
+   "$0 = 0$",
+   "$00 = 5$",
+   "$0 = 50$ is explicitly stated to be $0 = 0$, so $0 = 5$."
   ],
-  "score": 0.6,
+  "score": 0.461,
   "gate": false
  },
  {
@@ -105,92 +172,25 @@
   "type": "short",
   "anchor": "Divide by $x$ to reach standard form: $$\\frac{dy}{dx} + \\frac{2}{x}y = x^{2}, \\qquad\\text{so } P = \\frac2x, \\; Q = x^{2}$$ Step 2.",
   "segs": [
-   "$\\frac{dy}{dx} + \\frac{y}{dx} = x^{2}$, $\\frac{dy}2x^{2}+2x+2y = x$:",
-   "a) Find the integrating factor of $\\frac{dy\\left(x^{2x}{2y^{2}}\\right)} + \\frac{dy}{dy} = x^2 + x^{2x^{3}}$. [2] b) Express $y^{2x+2}$. [3] b) Find the general solution of the differential equation $\\frac{dy^{2}y^{2 } x^{2xy} + \\frac{2x}y} + \\frac{x^{22}{2x} + \\frac{dx}{x^{3/2} = x^3$. [2+2] (NEB 2080 Q22c; NEB 2082 Q22c, 2082, 2081 Q222c. The general solution is $\\frac{dy + y^"
+   "$\\frac{dy}{dx} = \\frac{dy}{2} + Py = x$:",
+   "Given the differential equation $\\frac{dy}2y + \\frac{dy} = \\frac{2x + \\frac{2}{x}$, and $\\frac{dy^{2}y}{2x} = \\frac{3x^{2}+2y^{2}}{2xy}$, simplify $\\frac{dy/(x^{2xy})^{2}$. Show that $\\frac{dy(y^{2x}{dx^{2}-y^{2.2}$. Then $\\frac{dy-2y^{3}}{2v} = \\frac{x^{20}{2v^{2} + \\frac{2xy}{x^{3}+2y}$, which is $\\frac{2x+y^{2xy-x^{2x+2y^2}{2xy^{2}x+y^2}$. The order is $2x$, so $2y = x^{2} -"
   ],
-  "score": 0.872,
+  "score": 0.933,
   "gate": true
  },
  {
   "unit": "Correlation and Regression",
   "type": "mcq",
-  "anchor": "$$r_s=1-\\frac{6\\sum d^{2}}{n(n^{2}-1)}$$ where $d$ is the difference between the two ranks of each item.",
+  "anchor": "The two $55$'s occupy places 4 and 5, so each gets $\\frac{4+5}{2} = 4.5$; the two $45$'s occupy places 8 and 9, so each gets $8.5$.",
   "segs": [
-   "$\\frac{6\\sum d^{2}}{n(n^{2}-1)}$",
-   "Given two ranks $n$ and $d$, $r$ are the sum of the ranks, the sum of the first $n$, $n$, and $n$. If $r$ is the sum of the squares of the first $r$ is $n$ objects, $r$ is an anticlockwiseed",
-   "$\\frac{n(n-1)(n-2)}{6}$",
-   "$r=\\frac{n(1)(n+1)}{2}$",
-   "$\\frac{6n(n-2r)}{6n(r-r)}$",
-   "The correct formula $r^{2}$ correctly calculates the sum of the sum of the arithmetic mean of the ranks in the first $r(n-1,r)$."
+   "$\\frac{8}{8}$",
+   "In the context of the correlation coefficient $r$, the regression line of $y$ on $x$, and $y$ is $\\frac{4}{5} = 8$, which $8$ is calculated as $\\frac{40}{4} = 4$ and $\\frac{6}{2} = 8$?",
+   "$\\frac{81}{2}$",
+   "$\\frac{4}50$",
+   "$\\frac13$",
+   "The formula $\\frac{42}{4}$ is calculated as the sum of squares when $r = 5$."
   ],
-  "score": 0.821,
-  "gate": false
- },
- {
-  "unit": "Differential Equations",
-  "type": "mcq",
-  "anchor": "Divide by $x$ to reach standard form: $$\\frac{dy}{dx} + \\frac{2}{x}y = x^{2}, \\qquad\\text{so } P = \\frac2x, \\; Q = x^{2}$$ Step 2.",
-  "segs": [
-   "$\\frac{dy}{dx} = \\frac{1}{x^{2}+y^{2}}$",
-   "What is the integrating factor of $\\frac{dy}5y^{2x}$?",
-   "$\\frac{dy^{2}y}{x^2} = \\frac{2x}{2}$",
-   "$\\frac{1}{2} = x\\frac{1} + x^{2}$, $\\frac{dy^2}{x^3} = x^2$",
-   "$\\frac x^2 = 2x^2 + 2xy$, $\\frac12$",
-   "The correct form includes all the derivative of the first equation."
-  ],
-  "score": 0.914,
+  "score": 0.876,
   "gate": true
- },
- {
-  "unit": "Anti-derivatives",
-  "type": "mcq",
-  "anchor": "Sketch the curves, roughly but with the intersections and axis crossings in the right places. Find the limits by solving the two equations simultaneously, or by setting $y=0$ if one boundary is the axis.",
-  "segs": [
-   "The curves $y=0$, $x=0$, and $y=0,0$",
-   "What is the relationship between the curves $y=vx$ and $y=vx=0$?",
-   "The curves $y = x$, $dv=0$, the $y=0.5$",
-   "The area is the curves $y = y=0$ degrees.",
-   "The curves $x=0,y=0$ and $y = x^2$ have the curve.",
-   "The curves $y^2 = y^2$ and $dx=0$ approaches the area between the curves $x=1$ and $y^2=0$."
-  ],
-  "score": 0.873,
-  "gate": true
- },
- {
-  "unit": "Binomial Theorem",
-  "type": "short",
-  "anchor": "Middle term of $\\left(x+\\dfrac1x\\right)^{10}$: it is $T_6={}^{10}C_5\\,x^{5}\\left(\\dfrac1x\\right)^{5}=252$.",
-  "segs": [
-   "(a) Foci: $T_5=1020$. The term of $T_5$ is $T_5(5+1)^5=25$. Here $T_5\\geq\\dfrac{16}{2}$, $T_4$ is even, so it is measured as $T_4(T_4-\\dfrac{2}{2})^5=10$.",
-   "a) What is the term of the middle term of $T$? [1] b) Find the middle term of the middle, explain how is the term of $Trapezoidal$? [2] b)"
-  ],
-  "score": 0.395,
-  "gate": false
- },
- {
-  "unit": "Matrix Based System of Linear Equations",
-  "type": "short",
-  "anchor": "Only two independent equations remain: Put $z = t$ (any real number). For a two-variable system, Cramer's rule is three determinants and one division.",
-  "segs": [
-   "The system is a two-variable system and three determinants are dependent.",
-   "When solving a system of linear equations and only one of a system ($z = 1$) and $z = 1$, what can be concluded about the third variable?"
-  ],
-  "score": 0.74,
-  "gate": false
- },
- {
-  "unit": "Mechanics",
-  "type": "mcq",
-  "anchor": "A force $F$ at angle $\\theta$ to the $x$-axis has components $F\\cos\\theta$ and $F\\sin\\theta$.",
-  "segs": [
-   "$x$ is multiplied by $F\\sin\\theta$, and the line is $F\\sin\\theta = g'$.",
-   "In the context of force $F$ acts on an angle $\\theta$, which of the following correctly describes the force force $F$?",
-   "$x = 0$ to $x = 0$.",
-   "$x = \\cos\\theta$",
-   "$x = 1$",
-   "The equation $F\\sin\\theta - \\sin\\theta$ represents the axis of a force at an angle $\\theta = 0$."
-  ],
-  "score": 0.663,
-  "gate": false
  }
 ]

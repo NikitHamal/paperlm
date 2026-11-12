@@ -1,8 +1,8 @@
 {
  "pack": "bio11",
  "tflite_mb": 12.38,
- "top1_agreement": 0.9718,
- "max_logit_diff": 0.268,
+ "top1_agreement": 0.9577,
+ "max_logit_diff": 0.372,
  "signatures": [
   "decode",
   "prefill"

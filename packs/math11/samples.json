@@ -4,14 +4,14 @@
   "type": "mcq",
   "anchor": "If $\\alpha$, $\\beta$ are the roots of $x^{2}+px+q = 0$, form the equation whose roots are $\\dfrac{\\alpha}{\\beta}$ and $\\dfrac{\\beta}{\\alpha}$.",
   "segs": [
-   "$-\\dfrac{\\alpha}{\\beta}$",
-   "If $\\alpha,\\beta$ are the roots of $\\alpha$ and $\\alpha$ are the roots. If the roots of $x^{2}+bx+c = 0$, what is the equation $x^{3}+x+\\beta = 0$?",
-   "$x^{21}-x+\\beta = 1$",
-   "$x^2+5x+2 = 0$",
-   "$x+\\beta = -b$",
-   "The transformation of the roots directly results in the equation $x+\\alpha+\\beta = 0 \\;x^{2+\\alpha\\beta$ in the form $x^{1}+bx+a = 0$. This equation can be written as a common root of the roots... This is the correct form of the quadratic equation, which confirms that its sum and product $x^{5}+2x+3 = 0$. Also.izes the roots $\\alpha+\\beta = 25$ and $\\alpha\\beta = -\\frac{b}{a}$."
+   "$x^2-\\alpha$",
+   "If $\\beta$ is the roots of the equation $\\alpha + \\beta = 0$, which of the following is the sum and $\\alpha$ of the roots $\\alpha$ and $\\beta$?",
+   "$x = \\frac{\\alpha}{\\alpha}$",
+   "$x = \\alpha^2 + \\alpha x + \\beta$",
+   "$x - \\alpha x = 0$",
+   "The sum of the roots $x^2 + \\alpha$ corresponds to $x^2 - \\alpha x + \\beta = 0 + \\frac{\\alpha}2\\alpha + \\beta = \\frac{\\alpha + \\beta}{\\alpha} - \\frac{\\beta}{\\alpha} + \\frac{\\beta}2a\\beta + \\alpha\\beta - \\beta$."
   ],
-  "score": 0.955,
+  "score": 0.956,
   "gate": true
  },
  {
@@ -19,51 +19,81 @@
   "type": "short",
   "anchor": "Error $|x_n - \\alpha|$ against iteration number for $x^3-x-1=0$ on a logarithmic scale. Therefore $$S = \\frac{0.25}{3}\\left[1.500000 + 4(1.371429) + 2(0.666667)\\right]$$ $$= 0.083333 \\times \\left[1.500000 + 5.485714 + 1.333333\\right]$$ $$= 0.083333 \\times 8.319048 = 0.693254$$ Error estimate.",
   "segs": [
-   "For $|x-3| = \\frac{0.0000}{0.2} = 0.000650$, $0.2213332455$.",
-   "Find the approximation of $= 0.300000$ correct to five decimal places. Use the error $0.0033000 + 2(0.25018) + 0(0.31368)\\right]$."
+   "0.0399413.233365453.02239988 = 0.7733633$.790645.5339945653933.139333.54994 = 0.153398 = 0.00063966$.630366 = 0.0333339$.780678.78044$.",
+   "Given $x = 0.3633330$ and $x = 0, 2.255$, and $0.5 = 0.5925336$.66423608848$.00338$ and $0.2233398$.806896330.6039339898 = 0$.633036$. $0.4223039$.036603368$.98836328$.298368$ is $0.3233336$, and $10.38608338$.20022 = 0.336366$. $$0.07824 = 0.554336$$.88076626$. $1807$.3804336780 = 0.78654330$$. $00"
   ],
-  "score": 0.956,
-  "gate": true
+  "score": 0.0,
+  "gate": false
+ },
+ {
+  "unit": "Anti-derivatives",
+  "type": "mcq",
+  "anchor": "Every member has the same gradient at a given $x$, so the family is one curve slid up and down.",
+  "segs": [
+   "The gradient at the same gradient $x$, where the curve is steeper.",
+   "In a function $x$, if the same gradient $f$ is at $x=0$, which of the following statements is true regarding the gradients of curves?",
+   "The curve has a constant value at $x=c$.",
+   "The gradient $x$ is the same gradient at $x=b$.",
+   "The curve has the family at $x=2$.",
+   "In the same gradient at the gradient $x$ changes the same gradient as $x$ changes."
+  ],
+  "score": 0.79,
+  "gate": false
  },
  {
   "unit": "Mechanics",
   "type": "mcq",
   "anchor": "Along the plane the only force is $mg\\sin\\theta$, so by Newton's second law $ma = mg\\sin\\theta$, and the mass cancels.",
   "segs": [
-   "Because $m = mg\\sin\\theta$, the amplitude $\\theta$ is $mg\\sin\\theta$.",
-   "Why does the acceleration $mg$ of an object sliding down a smooth plane have the value $mg\\sin\\theta = mg\\cos\\theta$?",
-   "Because the gravitational force $mg$ is the constant.",
-   "Because the gravitational acceleration is the value of the function.",
-   "Because the acceleration is defined as the sum of the first and mass.",
-   "The mass $m$ is defined as the mass."
+   "$mg\\sin\\theta$",
+   "If the acceleration $g$ is placed on a smooth plane, what is the acceleration $mg\\sin\\theta$?",
+   "$mg$",
+   "$mg$ and $mg$",
+   "$F/\\sin\\theta$",
+   "The passage explicitly states that the acceleration is $mg\\sin\\theta = mg\\sin\\theta$."
   ],
-  "score": 0.8,
-  "gate": false
+  "score": 0.921,
+  "gate": true
  },
  {
-  "unit": "Mechanics",
+  "unit": "Quadratic Equation",
   "type": "short",
-  "anchor": "Find the magnitude of the resultant and the angle it makes with the 12 N force. Here $P = 12$, $Q = 5$, $\\theta = 90^\\circ$, so $\\cos\\theta = 0$.",
+  "anchor": "The roots really are $\\tfrac32$ and $1$; their sum is $\\tfrac52$, their difference $\\tfrac12$, and $\\left(\\tfrac32\\right)^{2}+1^{2} = \\tfrac{13}{4}$. Adding and multiplying the two roots, $$\\alpha+\\beta=-\\frac ba,\\qquad \\alpha\\beta=\\frac ca$$ Symmetric functions.",
   "segs": [
-   "The angle of $\\theta = 100^\\circ$ with the $\\theta = 120^\\circ$, making $\\cos 90^\\circ = 0$, making $\\theta = 0^\\circ$ with $\\theta = 90^\\circ$.",
-   "Find the magnitude of the resultant of two forces and direction of $\\cos 90$ and $20^\\circ = 90$."
+   "The sum of the roots $1$ and $\\alpha$ and $\\beta$ is $\\tfrac{1}{\\alpha}$. The roots $1$, $\\beta$ are roots. For $\\tfrac12+\\frac12+\\frac{1}{\\beta}=-\\frac{1}5$, $\\alpha=\\frac{1}33$, $\\alpha^2+\\beta^2=\\frac{13}{4}$.",
+   "Given $\\alpha+\\beta=\\frac{12}{5}$ and $\\frac{1}2+\\frac{2}{3}=\\frac{15}{3}$, find $\\frac{13+\\frac{12+\\frac33}{\\alpha}=\\frac{\\frac{1}4}{5}=\\frac{3}{5}+\\frac{13/3}{52}=\\frac{5}{4}=\\frac{4}{3}+\\frac{3}=-\\frac13}=\\frac13$. Pro fractions. The roots of $\\alpha+\\beta$ is $\\frac{5}33$ and $\\frac13$, $\\frac{12-\\frac13+\\frac33+\\frac13}{5/5}=\\frac35$"
   ],
-  "score": 0.908,
-  "gate": true
+  "score": 0.835,
+  "gate": false
  },
  {
   "unit": "Mechanics",
   "type": "mcq",
   "anchor": "Find the magnitude of the resultant and the angle it makes with the 12 N force. Here $P = 12$, $Q = 5$, $\\theta = 90^\\circ$, so $\\cos\\theta = 0$.",
   "segs": [
-   "$10$ N",
-   "If the resultant of two forces $P$ and $Q$ act at a point with $P$, what is the magnitude of the resultant force $P$?",
-   "$0$ N",
-   "$0$",
-   "$10$",
-   "The angle of $\\theta = 1$ N and the resultant force is $P$."
+   "$P = 120^\\circ$",
+   "Two forces of $P$ and $Q$ act at an angle of $\\theta$. What is the angle of $\\theta = 0$?",
+   "$P = 100^\\circ$",
+   "$P = 5$",
+   "$P$",
+   "The cosine of the angle of $\\alpha$ acts at $\\theta = 120.4^\\circ$, indicating the resultant force."
   ],
-  "score": 0.65,
+  "score": 0.956,
+  "gate": true
+ },
+ {
+  "unit": "Derivatives",
+  "type": "mcq",
+  "anchor": "$\\sin x$ and $\\cos x$ were differentiated from first principles above; the other four follow by the quotient rule.",
+  "segs": [
+   "Chain rule",
+   "What rule is used to find the derivative of $\\cos x$ when both $\\cos x$ and $\\cos x$ are $\\cos x$?",
+   "Power rule",
+   "Quotient rule",
+   "Power rule",
+   "The chain rule for derivatives when differentiating $\\cos x$ results in $\\sin x$."
+  ],
+  "score": 0.523,
   "gate": false
  },
  {
@@ -71,44 +101,40 @@
   "type": "mcq",
   "anchor": "Inverse circular functions exist only after the domain is restricted to a one-to-one principal branch; the graph of the inverse is the reflection of that branch in $y=x$.",
   "segs": [
-   "The graph of $\\sin$ is one-to-one.",
-   "What describes the domain of the inverse circular function $y=x$ that repeats its principal branch?",
-   "The graph of $y=x+y$ is one-one.",
-   "The graph of an inverse circular functions.",
-   "The graph rotates in the domain to each branch.",
-   "An inverse circular function $\\sin$ interchanges the roles of input and output, ensuring it is one-totices."
+   "The circular functions is one-to-one.",
+   "What must a domain of $y$ ensure it is one-to?",
+   "The circular function $y$ is one-to.",
+   "The circular function is one-to to $y$.",
+   "The circular functions is undefined for multiple the graph.",
+   "Refto-one to ensure a graph of $y$ itself lies on the graph of $y=x$, which is one-to the principal branch."
   ],
-  "score": 0.695,
-  "gate": false
+  "score": 0.883,
+  "gate": true
  },
  {
   "unit": "Computational Methods",
   "type": "mcq",
   "anchor": "A common exam instruction is simply \"take $x_{0}$ = 1.5\"; use what you are given.",
   "segs": [
-   "second",
-   "In solving $x_{0} = x_{0}$ with $x_{10} = 1.5$, what is the value of $x_{5}$?",
-   "ran 9.5555",
-   "nisection's method",
-   "odd.",
-   "The conversion factor $x_{n}$ is used as the use of the initial value in the logarithmic scale."
+   "It results in actionalysis, leading to a linear function, leading to a root of $x^2$, leading to action problem.",
+   "Why does a method to approximate the initial guess $x$ in a root usingxistance?",
+   "It is a root only the equation $x^2 = 1.5$, considering the integral to solve it.",
+   "It is a single curve due to the blows up at $x=0$.",
+   "It is only the equation $y=x^2$.",
+   "The passage explicitly states that action is involving $x$, which is a root, leading to a common factor."
   ],
-  "score": 0.463,
+  "score": 0.418,
   "gate": false
  },
  {
-  "unit": "Curve Sketching",
-  "type": "mcq",
-  "anchor": "(b) Sketch $y = \\dfrac{1}{2x-6}$, showing the asymptotes, the intercept and the monotonic intervals.",
+  "unit": "Functions",
+  "type": "short",
+  "anchor": "So $f(-x) = -f(x)$, an odd function — the graph is symmetric about the origin.",
   "segs": [
-   "$x = -1$",
-   "What is the domain of the function $y = \\dfrac{1}{x-3}$?",
-   "$x = 1$",
-   "$x = \\dfrac{12}{x-2}$",
-   "$x-2$",
-   "The passage explicitly states that $y = \\dfrac12x-4$ is $x = -1/x$ as $x = 0$."
+   "The function $f(x) = -f(x)$ is symmetric about the origin, making the graph up at $x=0$. The graph is symmetric about the $y$-axis, thus $f(-x) = -x^2$. The graph of $f(x|$ is symmetric about $x$, leading to the $y = -f(-x|$. The graph rises, the $y$ excluded from the origin. The graph is defined as symmetric about the $x$-axis.",
+   "Given the graph of $f$ symmetric about the $f(x$, if the graph is symmetric about $y$."
   ],
-  "score": 0.55,
+  "score": 0.743,
   "gate": false
  },
  {
@@ -117,84 +143,54 @@
   "anchor": "Uniform acceleration only: $v = u+at$, $s = ut+\\tfrac12 at^2$, $v^2 = u^2+2as$, $s = \\tfrac12(u+v)t$, and $s_n = u + \\tfrac{a(2n-1)}{2}$.",
   "segs": [
    "$s = u + at$",
-   "What formula represents the displacement $s$ of an object moving with constant acceleration $a$, and time $t$?",
-   "$s = u^2 + at$",
-   "$t = u + a$",
-   "$s = \\frac{1}{2}at^2$",
-   "The formula $s = u + a + at$ is defined as the constant acceleration."
+   "What equation represents the acceleration $s$ when the acceleration $s = u + \\tfrac{1}{2}at^2$ and $s = u^2 + at$?",
+   "$s = u^4 + at$",
+   "$s = \\frac{1}{a}at^2 + at^2$",
+   "$s(g = u + at^2 + 2as$",
+   "The formula $s = u - at$ leads to $s = ut + at$ when $a = u + at + at$."
   ],
-  "score": 0.475,
+  "score": 0.47,
   "gate": false
  },
  {
-  "unit": "Logic and Set",
+  "unit": "Real Numbers",
   "type": "mcq",
-  "anchor": "The given statement is $p \\rightarrow q$, which is true (all three sides equal implies at least two equal).",
+  "anchor": "$(a,b)$ excludes endpoints, $[a,b]$ includes them; $\\infty$ always takes a round bracket; the length of either is $b-a$.",
   "segs": [
-   "$p \\rightarrow q$",
-   "The statement $p \\rightarrow q$ is false only if",
-   "$p$ is F, $q$ is false, $q$ true",
-   "$p \\rightarrow q \\Rightarrow q$",
-   "$p \\rightarrow p$",
-   "a statement $p \\rightarrow p$ is false only when both $p \\rightarrow q \\rightarrow q$."
+   "$(a,b)$",
+   "What is the set of real numbers $a$ when considering the absolute value $(b)$ ofa$?$",
+   "$\\langle a,b \\rangle$",
+   "$\\l a$",
+   "$\\l any real number betweenb$",
+   "The passage explicitly states that the length $a$ of real numbers $(b,b)$ is always $a$."
   ],
-  "score": 0.957,
-  "gate": true
- },
- {
-  "unit": "Mechanics",
-  "type": "mcq",
-  "anchor": "A ball is thrown vertically upwards with velocity $24.5\\ \\text{m/s}$.",
-  "segs": [
-   "$4.9\\ \\text{m/s}$",
-   "The acceleration of a body falls from rest is",
-   "$4.9$ m",
-   "$18.8$ m",
-   "$2.9\\ \\texts/s$ m/s$ m.8 m s.9.9 m s is $9.8$ m.8$ m/s.8$ m s, calculates the velocity to m s.8 m/s. The distance of mass.8 m s is $3.8\\ \\text{m s}^{-2}$.9 m s.8 s ($",
-   "$s = \\frac{1}{2}at^2 = 2.5$ m."
-  ],
-  "score": 0.75,
+  "score": 0.493,
   "gate": false
  },
  {
-  "unit": "Curve Sketching",
+  "unit": "Coordinates in Space",
   "type": "mcq",
-  "anchor": "Period $= \\dfrac{2\\pi}{|b|}$; the graph completes $|b|$ full waves in the interval of length $2\\pi$.",
+  "anchor": "The distance formula is Pythagoras' theorem applied twice, and it settles questions about collinearity, shapes and loci in space.",
   "segs": [
-   "Period",
-   "What term describes the period of the function $y=2\\sin 2x$. What is the period of the graph of $y=2\\cos 2x$?",
-   "Range",
-   "Amplitude",
-   "Amplitude",
-   "The period of $y=\\sin 2x$ is defined as $2\\pi$."
+   "The distance formula",
+   "In a three-dimensional space, how far the distance traveled by a x-coordinate?",
+   "The distance covered",
+   "The distance covered is applied",
+   "The distance traveled",
+   "The formula $x$ specifically denotes the distance of point from a point to the x-axis, which is the distance covered in one."
   ],
-  "score": 0.683,
+  "score": 0.848,
   "gate": false
  },
  {
-  "unit": "Vectors",
-  "type": "mcq",
-  "anchor": "If $\\vec a$ and $\\vec b$ are non-collinear, then $\\vec c$ is coplanar with them if and only if $\\vec c=l\\vec a+m\\vec b$ for unique scalars $l,m$.",
-  "segs": [
-   "$m=m+n$",
-   "If $\\vec a=\\vec b$, and $\\vec b$ are coplanar, which condition indicates that they are vectors $\\vec a$ and $\\vec b=m\\vec b$ are non-collinear?",
-   "$l=m+n=0$",
-   "$m=m-m$, $m=m'-m=0$",
-   "If $\\vec a = m\\vec b$, $\\vec b=c$",
-   "The condition $m=m=(m-m)\\vec a$, $m'=m'\\vec b$ is defined as $m=0$."
-  ],
-  "score": 0.469,
-  "gate": false
- },
- {
-  "unit": "Complex Numbers",
+  "unit": "Trigonometric Equations and General Values",
   "type": "short",
-  "anchor": "Equating real and imaginary parts, or using the formula in terms of $|z|$, gives the two square roots, and complex roots of real quadratics always occur as conjugate pairs.",
+  "anchor": "$\\sin\\theta=\\tfrac12$: the crossings come in pairs, and $\\theta=n\\pi+(-1)^{n}\\pi/6$ picks out every one of them. Result 3: $\\tan\\theta=\\tan\\alpha\\Rightarrow\\theta=n\\pi+\\alpha$.",
   "segs": [
-   "For a complex pair of complex roots, $z = a-ib$, we have $|z| = a + ib$, the modulus $|z|$ is the square root of a complex pair.",
-   "Explain why the quadratic formula $z = a + bi$ is a complex number and its conjugate pairs."
+   "$\\theta=n\\pi+(-1)^{n}\\pi/6$. Substituting $\\sin\\theta=\\tfrac12$ and $\\theta=n\\pi-(-1)\\pi/6$, leading to $\\theta=n\\frac{\\pi}{6}$. Then $\\theta=n\\alpha$: $\\theta=nn\\pi+\\alpha$. $\\theta=n$, $\\theta=n+1$ and $n\\pi+(2n+1)\\pi/2$. Then $\\sin\\theta=n\\pi$. Thus, $\\theta=2n\\pi+(\\frac{\\pi}2$. Thus, the sine value $\\sin\\theta=\\frac{\\pi}3$, leading to the general solution $\\theta=n\\dfrac\\pi+(-\\pi)^{n+1}\\dfrac{\\pi}{2})$. Thus, an integer $n\\pi+\\alpha=n\\pi+\\alpha\\Rightarrow n\\pi+(-2)^{n-1}\\alpha$. Thus, where $\\tan\\theta=\\frac{1}{2}$, and $\\theta=2m\\pi+\\alpha$, $\\theta = n\\pi+(2m+1)\\pi-\\alpha$.",
+   "Given $\\theta=n\\tan\\theta$, $\\theta$, $n\\pi+\\frac{\\pi}\\pi+\\alpha$ and $\\theta = nn\\pi+(3n+1)\\dfrac{\\pi}2=n\\pi+\\dfrac{\\pi}3+(2n-1)\\pi-(-2n+1]$."
   ],
-  "score": 0.676,
+  "score": 0.725,
   "gate": false
  }
 ]

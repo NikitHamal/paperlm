@@ -1,69 +1,73 @@
 [
  {
-  "unit": "Chemistry of Non-metals",
+  "unit": "Foundation and Fundamentals",
   "type": "mcq",
-  "anchor": "Sulphuric acid is called the king of chemicals because fertilisers, batteries, detergents and dyes all depend on it, and a country's consumption reflects its industry.Photo credits: (a) Sheila Sund from Salem, United States, CC BY 2.0.",
+  "anchor": "In a reaction, the reactant that is consumed first and decides how much product forms is the limiting reagent; the other reactant is in excess.",
   "segs": [
-   "Sulphuric acid",
-   "Which of the following statements correctly describes the absorption of metals ($\\text{Al}_2\\text{O}_5$) in the preparation of methane ($\\text{H}_2\\text.)_2\\text{S}_2\\textH_2O$)?",
-   "Sulfurol, $\\text{H}^+\\text{O}$, $\\text{NO}_2$, and $\\text{HC}_2\\text shows the purification of the solution of the filtrate. The acid is used for producing the air pressure and the temperature to it, producing ammonia gas. This process is necessary",
-   "Sulphuric acid to form sulfuric acid to form sulfuric acids.",
-   "Sulphuric acid is used in the acid to neutralize the solution, making it supers the acid.",
-   "The reaction $\\text{HD}_2\\text give $\\text{SO}_2$ and $\\text{NOO}_2$ as the solution. Also, producing the catalyst. Additionally, producing the product formation of a country. This process shows the conditions of the Solvay process. Also, the product is used in the formation of NH3$ from dust and arsenic"
+   "Limiting reactant",
+   "What term describes the reactant that is completely consumed first during a chemical reaction, making it the excess reactant?",
+   "Catalyst",
+   "Excess reagent",
+   "Product",
+   "The passage defines the limiting reactant that is the one that gets completely consumed first during the reaction."
   ],
-  "score": 0.69,
+  "score": 0.65,
+  "gate": false
+ },
+ {
+  "unit": "Fundamentals of Applied Chemistry",
+  "type": "mcq",
+  "anchor": "The standard measure is the E-factor: kilograms of waste per kilogram of product.",
+  "segs": [
+   "Kilograms of waste per kilogram of waste",
+   "What does the E-factor represent in the context of industrial production?",
+   "Kilograms of product per kilogram of waste",
+   "Tons of waste in the final product",
+   "Efficiency factor of the production",
+   "The E-factor is defined as the kilograms of waste produced per kilogram of waste."
+  ],
+  "score": 0.842,
+  "gate": false
+ },
+ {
+  "unit": "Stoichiometry",
+  "type": "mcq",
+  "anchor": "Stoichiometry route: mass → moles → mole ratio from the balanced equation → moles → mass or volume. The limiting reactant is the one with the smallest value of (moles ÷ coefficient); it fixes the amount of product.",
+  "segs": [
+   "The mole ratio from the balanced equation, the reactant is reactant.",
+   "In a reactant, if you be completely consumed in a chemical reaction?",
+   "The catalyst used to determine the amount of product formed.",
+   "The reactant is used to determine the reactant.",
+   "The catalyst used up before converting the product.",
+   "The limiting reactant is the one that is completely consumed first and decides the amount of product that can be formed."
+  ],
+  "score": 0.811,
+  "gate": false
+ },
+ {
+  "unit": "Aromatic Hydrocarbons",
+  "type": "short",
+  "anchor": "This step is fast and it is the reason substitution beats addition: the alternative, adding a nucleophile to the arenium ion, would leave the ring permanently non-aromatic. The hydrocarbons of Unit 14 behaved exactly as their bonds predicted: a double bond added, a triple bond added twice, a single bond was hard to touch. On paper it looks like a ring with three double bonds, so it should decolourise bromine water instantly and burn through its unsaturation in every test.",
+  "segs": [
+   "The aromatic stability of benzene is unstable because it is fast and non-aromatic. The ring test is benzene unusually slowly non-aromatic. Huckmol is fast because it is fast, so it is fast and it is fast and the product is maintained. This step is the resonance energy of benzene's chemistry and the actual amount of product.",
+   "Explain the concept of electrophilic substitution and describe the mechanism of a benzene ring in a test for substitution reactions."
+  ],
+  "score": 0.47,
   "gate": false
  },
  {
   "unit": "Basic Concept of Organic Chemistry",
-  "type": "short",
-  "anchor": "A free radical is the third species: neutral, with one unpaired electron, paramagnetic and extremely reactive.",
-  "segs": [
-   "The inductive effect diminishes as an atom or group with an unpaired electron, electrically neutral, paramagnetic and extremely reactive. The order is an unpaired electron, paramaginisture, and extremely reactive than a free radical.",
-   "Explain the inductive effect and inductive effect as an atom in terms of electron after a free radical."
-  ],
-  "score": 0.469,
-  "gate": false
- },
- {
-  "unit": "Fundamental Principles of Organic Chemistry",
   "type": "mcq",
-  "anchor": "Heterolytic fission: one atom takes both electrons, giving a cation and an anion (A–B → A⁺ + B⁻). It occurs in polar solvents when the bond is polar, as in the ionisation of tertiary butyl bromide.",
+  "anchor": "A fish-hook (half-headed) arrow moves one electron and gives free radicals; a full curved arrow moves an electron pair and gives ions. Heterolysis produces the two reactive carbon species you will meet constantly: A carbocation has a positively charged carbon with only six electrons.",
   "segs": [
-   "A positivelytic fission of a covalent bond produces a non-directional atom.",
-   "Why does a free radical have a free radical in organic compounds?",
-   "A free radical has a free radical and anions.",
-   "A free radical is not a free radical.",
-   "A nucleophile is a free radical.",
-   "A free radical is a free radical, a free radical is a positive, leading to a free radical."
+   "It ensures a pair of a pair of electrons.",
+   "Why does a free-hook arrow produce a pair of electrons and a pair of electrons?",
+   "It has a electron-rich species that shares electrons.",
+   "It accepts a pair of electrons to donate electrons.",
+   "It restly the atom that share the full curved arrow.",
+   "A electron-ficient species that shares a pair of electrons, not donates a pair of electrons; a pair of electrons gives electrons."
   ],
-  "score": 0.538,
-  "gate": false
- },
- {
-  "unit": "Bio-inorganic Chemistry",
-  "type": "short",
-  "anchor": "In each haem an Fe²⁺ ion sits at the centre of a porphyrin ring, bonded to the four nitrogen atoms of the ring. The dashed line at 0.01% is the conventional boundary between macronutrients and micronutrients; note the logarithmic scale.",
-  "segs": [
-   "Magnesium porphyrin ring",
-   "How many nitrogen is present at the centre of a porphyrin; a porphyhyrin; in each haem is the Lewis Li²?"
-  ],
-  "score": 0.6,
-  "gate": false
- },
- {
-  "unit": "Chemistry of Metals",
-  "type": "mcq",
-  "anchor": "It is intensely corrosive to skin, which is why it is called caustic soda.",
-  "segs": [
-   "It is residues to corrosively pungent and corrosive nature.",
-   "Why is an excess carbon always in the atmosphere of coalth. Which of the following is used as a clear, maintaining its in the atmosphere?",
-   "It is caused in excessive nature.",
-   "It increases the color of metal in the atmosphere.",
-   "It increases causing concentration to green wethosis.",
-   "The passage directly states that the metal forms, hencelerystalline graphite roles to the corrosive nature of the metal ion."
-  ],
-  "score": 0.468,
+  "score": 0.845,
   "gate": false
  },
  {
@@ -71,14 +75,14 @@
   "type": "mcq",
   "anchor": "This uncertainty in speed is large, so it makes no sense to talk about a definite path (orbit) of an electron. The principle replaced Bohr's orbits with orbitals and probability (the wave function squared gives the probability density).",
   "segs": [
-   "Its deflection of finding an electron and the electron wave function of the electron's position.",
-   "Why does an electron in a definite electron's behavior of an electron in a neutral atom?",
-   "It accounts for the increase in electron density due to the quantisation of an electron.",
-   "It requires a photon which the undergoes perfectly to another.",
-   "It uses an electron-electron interactions within a definite electron.",
-   "The square of the wave function gives the probability density of finding an electron in a specific point where it is defined as the probability of finding an electron."
+   "Heisenberg's Uncertainty Principle",
+   "Which principle states that the wave function ($\\psi^{2}$) is determineded by an electron's wave function ($\\lambda$)?",
+   "Bohr's model",
+   "Electron orbits",
+   "Schrodinger's wave equation",
+   "The wave function squared is explicitly mentioned as the concept of a definite path."
   ],
-  "score": 0.751,
+  "score": 0.786,
   "gate": false
  },
  {
@@ -86,51 +90,55 @@
   "type": "mcq",
   "anchor": "Bohr's model explains the line spectrum of hydrogen: an electron that falls from a higher orbit n to the second orbit emits a photon whose wavelength obeys 1/lambda = R(1/4 - 1/n squared).",
   "segs": [
-   "Bohr's model",
-   "What model describes the electron's orbit of hydrogen atom where the electron is a hydrogen atom has a photon?",
-   "De Broglie wavelength",
-   "Schrodinger's wavelength",
-   "De Broglie's wavelength",
-   "The wavelength of the electron's mass is explicitly stated as Bohr's model."
+   "The electron's energy is derived from the nth orbit of a photon.",
+   "Which of the following best explains the wavelength ($n$) of an electron in an atom according to Bohr's model?",
+   "The wavelength of an electron's mass equals the wavelength of an electron.",
+   "The energy difference between the electron and the uncertainty principle.",
+   "The wavelength of the electron's mass.",
+   "The energy difference between levels in electron and the $n = 1$ rangests the wavelength of an atom."
   ],
-  "score": 0.937,
-  "gate": true
- },
- {
-  "unit": "Chemistry of Non-metals",
-  "type": "short",
-  "anchor": "A spark is deliberately avoided: the heat of a spark would decompose the ozone as fast as it formed. Siemens' ozoniser, in which dry oxygen passes through a silent electric discharge between two tin-foil electrodes; and the two resonance structures whose hybrid is the real, symmetrical ozone molecule. Fertilisers (urea, ammonium sulphate, nitrate), nitric acid manufacture, refrigerant in ice plants, cleaning agent (household ammonia), synthetic fibres (nylon), and in the Solvay process.",
-  "segs": [
-   "Lime: the ozone decomposes ozone and oxygen, as an ozoniser, add water to the heat of combustion of a silent electric discharge between the air and the heat of combustion.",
-   "Explain how it suitates through a silent electric discharge in a silent electric discharge."
-  ],
-  "score": 0.664,
+  "score": 0.683,
   "gate": false
  },
  {
-  "unit": "Chemistry of Non-metals",
-  "type": "mcq",
-  "anchor": "Describe the working of Kipp's apparatus for the preparation of hydrogen sulphide, with the equation, and give the test for the gas.",
+  "unit": "Hydrocarbons",
+  "type": "short",
+  "anchor": "Combustion is the reason alkanes matter economically: LPG (a mixture of propane and butane) is the commonest cooking fuel in Nepali kitchens. The rotation about the C-C σ bond is almost free, so ethane has infinite arrangements called conformations (conformers). Staggered: the H atoms of one carbon lie in between those of the other carbon (dihedral angle 60 degrees); this is the most stable (lowest energy), as repulsion is least. Only alkanes from hexane upwards, and especially those with a tertiary hydrogen, react at a useful rate: Methane, ethane and propane do not sulphonate — a favourite one-mark point.",
   "segs": [
-   "Contact process",
-   "Which of the following tests is used to dry oxygen gas on the preparation of hydrogen sulphide sulphide with concentrated nitric acid?",
-   "Ozone with concentrated nitric acid",
-   "Ozone as a gas",
-   "Nitrogen gas law",
-   "The passage explicitly states that the preparation of nitrogen and nitric acid are used in the preparation of ammonia to nitrogen fertilisers, and nitric acid."
+   "The presence of one hydrogen atom is planar with the other carbon lies, so the C=C bond is C1. The energy is stable, the most stable (dihedral angle), as the H atoms of one carbon lie in between carbon atoms, leading to a diamily, more stable than the other carbon.",
+   "Explain the major product of ethane in the staggered conformation, and explain the conformation of ethane from the most stable alkene."
   ],
-  "score": 0.503,
+  "score": 0.655,
   "gate": false
  },
  {
   "unit": "Fundamental Principles of Organic Chemistry",
-  "type": "short",
-  "anchor": "That is why 4-chlorobutanoic acid is barely stronger than butanoic acid, while 2-chlorobutanoic acid is much stronger. Left: the -I effect of chlorine drains electron density from the carboxylate ion and so strengthens the acid — each extra chlorine lowers pKa (a lower pKa means a stronger acid). Before 1892 every compound had a trivial name — acetic acid, glycerol, urea — which told you nothing about its structure. Homolysis is favoured by high temperature, ultraviolet light, peroxide initiators, non-polar bonds and non-polar solvents such as CCl₄. The reactions it starts are called free-radical reactions; substitution in alkanes (Section 14.2) is the standard example.",
+  "type": "mcq",
+  "anchor": "Heterolytic fission: one atom takes both electrons, giving a cation and an anion (A–B → A⁺ + B⁻). It occurs in polar solvents when the bond is polar, as in the ionisation of tertiary butyl bromide.",
   "segs": [
-   "Non-2-ene (+I) is less than the carboxylate ion, so it is non-aromatic. In 1,2-dibromopropane, 2-chlorobutanoic acid), chlorine-Classically -I effect (+I effect). The resonance effect is the group with fewer alkyl groups on the carboxylate ion and the acid strength; while the acid is stronger.",
-   "Explain why the acidity of butanoic acid is the stronger acid."
+   "It accepts electrons and shatters electrons and gets shattersues.",
+   "Why is a compound classified as an electrophile when a free radical form during a chemical reaction?",
+   "It donates a free radical in the reaction.",
+   "It provides a free radical intact.",
+   "It accepts protons to donate protons.",
+   "A pair of electrons are classified as an electrophile and is an electrophile."
   ],
-  "score": 0.622,
+  "score": 0.531,
+  "gate": false
+ },
+ {
+  "unit": "Foundation and Fundamentals",
+  "type": "mcq",
+  "anchor": "In a reaction, the reactant that is consumed first and decides how much product forms is the limiting reagent; the other reactant is in excess.",
+  "segs": [
+   "The limiting reactant",
+   "In a chemical reaction, which reactant determines the maximum amount of product formed?",
+   "The excess reactant",
+   "The most abundant reactant",
+   "The catalyst",
+   "The limiting reactant is the one that gets completely consumed first and thus determines the amount of product formed."
+  ],
+  "score": 0.82,
   "gate": false
  },
  {
@@ -138,21 +146,21 @@
   "type": "short",
   "anchor": "The same current of 1.5 A is passed for 30 minutes through AgNO₃ and CuSO₄ solutions connected in series. Calculate the mass of silver and of copper deposited.",
   "segs": [
-   "(i) Describe the extraction of copper deposited as $Cu$ and the mass of copper deposited. A current of $0.500$ mol of silver solution of copper deposited. Calculate the mass of iron deposited. Divide by the current of copper deposited.",
-   "Explain how the mass of copper from copper deposited."
+   "Overall of AgNO is passed through silver nitrate solution. The mass of CuSO4 is 1.50 mol. A current of 1.05 mol of Ag (1.800 mol) is passed through copper deposited.",
+   "Calculate the mass of Cu deposited and CuSO4.5$ mol of Cu deposited, calculate the mass of CuSO2. Calculate the mass of Cu and Cu. Also, calculate the mass deposited of copper deposited. Calculate the mass deposited. Calculate moles of copper deposited. Explain, and charge. Explain why the mass of Cu is $"
   ],
-  "score": 0.749,
+  "score": 0.664,
   "gate": false
  },
  {
-  "unit": "Classification of elements and Periodic Table",
+  "unit": "States of Matter",
   "type": "short",
-  "anchor": "A new shell is added each time and the screening by inner electrons increases. The energy needed to remove the most loosely held electron from a gaseous atom: $\\text{M}(g) \\rightarrow \\text{M}^{+}(g) + e^{-}$. Periodic trends: radius falls and IE and EN rise across a period; the reverse down a group; F is the most electronegative, Cl has the highest electron affinity.",
+  "anchor": "Viscosity is the resistance offered by a liquid to its own flow, caused by internal friction between adjacent layers. The pressure of a gas is the result of the continuous bombardment of the molecules on the walls of the container. Their own volume is negligible compared with the volume of the container, so a gas is mostly empty space. The molecules are in constant, rapid, random motion in all directions.",
   "segs": [
-   "(c) $Z_{\\text{eff}} = 4.5$, while $Z_{eff} = 1.18$, $Z_{electrons} = 1.0$..",
-   "Explain the periodic trends in ionization energy across a period and the energy of sodium ($Z_{\\text from an atom}$) and the most loosely held."
+   "The molecules are in constant, rapid, random motion in all directions. It happens in a liquid to its own flow. The molecules returned to the liquid flow, rapidly at a steady state, elash flows to the container.",
+   "Explain the process of chemical molecules on the volume of a liquid in a closed vessel, and its own pressure on the container walls of the container."
   ],
-  "score": 0.578,
+  "score": 0.646,
   "gate": false
  },
  {
@@ -161,13 +169,13 @@
   "anchor": "Adding only one molecule of hydrogen stops at the alkene, provided the catalyst is poisoned so that it cannot go further. $$\\ce{CH≡CH + H2 ->[\\text{Lindlar's catalyst}] CH2=CH2}$$ Lindlar's catalyst is palladium deposited on calcium carbonate and partly deactivated with quinoline or lead ethanoate.",
   "segs": [
    "Lindlar's catalyst",
-   "What catalyst is used to convert acetylene to ethene by deactivating palladium with quinoline or lead ethanoate?",
+   "What catalyst is used to convert acetylene to form at the alkene and partly deactivated with quinoline or lead ethanoate?",
    "Fischer-Tropsch catalyst",
-   "Vaska catalyst",
-   "H2nickel",
-   "Lindlar's complex is specifically mentioned as palladium deposited on calcium carbonate and partly deactivated with quinoline."
+   "A catalyst is used to stops down the formation of acetylene.",
+   "Raney nickel reacts with quinoline.",
+   "Lindlar' ozonolysis with quinoline, is specifically mentioned as the method for the chemical equation provided."
   ],
-  "score": 0.893,
+  "score": 0.861,
   "gate": true
  },
  {
@@ -175,14 +183,14 @@
   "type": "mcq",
   "anchor": "Polymerisation: passing through a red-hot iron tube trimerises it to benzene: $3\\,\\text{C}_2\\text{H}_2 \\rightarrow \\text{C}_6\\text{H}_6$.",
   "segs": [
-   "Polymerizes",
-   "What process is formed when oleum is necessary for the hydrogen atom in an alkene?",
-   "Propyne",
-   "Propyne and AlCl3.6",
-   "Polymerization to a catalyst",
-   "Propyne, $\\text{C}_3\\text{H}_6$, is the main product."
+   "Pyclus",
+   "What is the product formed when $\\text{C}_3\\text{H}_{22}\\text{O}_{2}\\text{H}$ in the reaction $\\text{CSO}_4$ using $\\text{H}-\\text{O}$?",
+   "Hydrogen ($\\text{H}^{2+}$)",
+   "Preparation reaction",
+   "Precipitation reaction",
+   "The reaction between $\\text{CCl}_2$ and $\\text{HSO}_4^{2-}$ results in $\\text{HF}_2$."
   ],
-  "score": 0.447,
+  "score": 0.521,
   "gate": false
  }
 ]
