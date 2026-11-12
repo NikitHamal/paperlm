@@ -17,3 +17,23 @@ Runtime contract (identical in `docs/packlm.js` and `packs/tools/fsm.py`):
 2. Constrained decoding: only the legal next tag and balanced `{}`/`$` are unmasked at each step (`ConstrainedDecoder.kt`).
 3. Copy-bias (`beta`) toward anchor tokens, best-of-K, lexical grounding gate, strict gate v3 (`strictOK` in JS), then fallback to `bank.json`.
 4. `TflitePackRunner.kt` implements `feed(ids) -> logits(last)`; plug it in place of the ORT session. Python reference for parity: `packs/tools/export_tflite.py` (`tflite_report.json` per pack).
+
+## Kotlin integration map (all files in `ai.paperlm`)
+| file | role |
+|---|---|
+| `PaperTokenizer` (`PaperLm.kt`) | byte-level BPE encode, loads the pack's own `tokenizer.json` |
+| `TflitePackRunner.kt` | `feed(ids) -> logits` over `model.tflite` (`prefill`/`decode` signatures) |
+| `PackEngine.kt` | `PackMeta`, `TokTable`, `Fsm` (grammar-constrained decoding), `PackGate` (grounding gate + strict gate v3), `PackEngine.sample/best` (best-of-K with copy-bias + rerank) - 1:1 twin of `docs/packlm.js` |
+| `assets/templates.json` + `numeric_templates.json` | deterministic parametric numerical solver (ids allowed per pack) |
+| `bank.json` | verified fallback tier; the product never shows an item that failed both the neural gates and the bank |
+
+Minimal wiring:
+```kotlin
+val meta = PackMeta(JSONObject(File(dir, "pack.json").readText()))
+val tokJson = JSONObject(File(dir, "tokenizer.json").readText())
+val runner = TflitePackRunner(File(dir, "model.tflite"), meta.layers, meta.heads, meta.headDim, meta.maxSeq, meta.vocab)
+val engine = PackEngine(meta, PaperTokenizer(tokJson.toString()), TokTable(tokJson, meta.vocab), runner::feed, runner::reset)
+val cands = engine.sample(unit.name, "mcq", 1, fact.text, k = 3)
+val item = engine.best(cands, "mcq", fact.text, unit.terms.toSet())   // null -> take bank.json item
+```
+`PackEngine.kt` has not been compiled in CI (no Android toolchain on the training VM); the TFLite graph it drives has been executed and parity-checked in Python (`tflite_report.json`).
