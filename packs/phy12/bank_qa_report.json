@@ -1,12 +1,13 @@
 {
  "pack": "phy12",
- "bank_in": 615,
- "bank_kept": 614,
- "dropped": 1,
+ "bank_in": 614,
+ "bank_kept": 612,
+ "dropped": 2,
  "reasons": {
-  "needs_figure": 1
+  "orphan_stem": 1,
+  "leaked_context": 1
  },
  "mcq": 450,
- "written": 164,
+ "written": 162,
  "units": 25
 }

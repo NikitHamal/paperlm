@@ -45,9 +45,22 @@ FIG = re.compile(r"\b(figure|fig\.|diagram|shown (?:below|above|here)|as shown|g
 DANGLE = re.compile(r"\b(than|to|as|with|of) (?:it|them|this|that)\.?$", re.I)
 
 
+LEAK = re.compile(r"\b(?:based on|using|use|from|with|by|according to|in) the (?:provided|given|above|following) (?:formula|data|information|facts|text|passage|context|details|statement)s?\b|\bthe provided (?:formula|information|facts|data)\b|\b(?:value|data|formula|information)s? (?:is |are )?(?:provided|given above)\s*[.?]?\s*$", re.I)
+
+
+def orphan(q):
+    """A stem that starts mid-sentence: lowercase opener, 'b)'/'c)' first part, or 'a) <lowercase continuation>' (its main clause was cut off)."""
+    q = q.strip()
+    if re.match(r"[b-d]\)\s", q) or re.match(r"(?![a-d]\)\s)[a-z]", q): return True
+    m = re.match(r"a\)\s+([a-z])", q)
+    return bool(m)
+
+
 def qa(it):
     r = []
     q, a = it.get("question", "").strip(), it.get("answer", "").strip()
+    if orphan(q): r.append("orphan_stem")  # v13: chopped multi-part stems ('a) in series and b) in parallel. Find ...') have no main clause
+    if LEAK.search(q): r.append("leaked_context")  # v13: 'using the provided formula' points at teacher anchor text the student never sees
     if len(q) < 12: r.append("empty_or_tiny_stem")
     if not a: r.append("no_answer")
     if FIG.search(q) or (re.search(r"\bpoints? [A-Z]\b", q) and not re.search(r"\bpoints? [A-Z]\b", it.get("anchor", ""))): r.append("needs_figure")  # the pack has no figures: a stem that points at one cannot be answered
