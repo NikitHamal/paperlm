@@ -36,14 +36,14 @@
   "exact_integer_rounded_to_sigfigs": 0
  },
  "math11": {
-  "templates": 28,
-  "instances": 8400,
+  "templates": 36,
+  "instances": 10800,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  },
  "math12": {
-  "templates": 32,
-  "instances": 9600,
+  "templates": 34,
+  "instances": 10200,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
  },

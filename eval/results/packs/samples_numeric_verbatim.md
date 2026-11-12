@@ -678,7 +678,7 @@
   (a) $24800\ \text{years}$  (b) $11500\ \text{years}$  (c) $1430\ \text{years}$  (d) $22900\ \text{years}$
   Key: (b). $t = \dfrac{t_{1/2}}{0.693}\ln\dfrac{N_0}{N}$. $t = \dfrac{5730}{0.693}\ln 4$ $t = 11500\ \text{years}$
 
-## math11: 28 numeric templates
+## math11: 36 numeric templates
 
 - Find the larger root of the equation $x^{2} - 11x + 30 = 0$.
   (a) $11$  (b) $5$  (c) $6$  (d) $30$
@@ -752,10 +752,6 @@
   (a) $598$  (b) $650$  (c) $6080$  (d) $78$
   Key: (b). The sum of the first $n$ squares is $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6}$. $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6} = \dfrac{12\times(12+1)\times(2\times12+1)}{6}$ $= 650$
 
-- The two perpendicular sides of a right-angled triangle are $18\ \text{cm}$ and $24\ \text{cm}$. Find the length of the hypotenuse.
-  (a) $216\ \text{cm}$  (b) $30\ \text{cm}$  (c) $15.9\ \text{cm}$  (d) $42\ \text{cm}$
-  Key: (b). By Pythagoras theorem $c^2 = a^2 + b^2$. $c = \sqrt{a^2+b^2} = \sqrt{18^2+24^2}$ $c = 30\ \text{cm}$
-
 - Find the arithmetic mean of $10, 12, 20, 15$ and $18$.
   (a) $20$  (b) $15$  (c) $12.5$  (d) $14.3$
   Key: (b). The arithmetic mean is $\bar{x} = \dfrac{\sum x}{n}$. $\bar{x} = \dfrac{10+12+20+15+18}{5}$ $\bar{x} = 15$
@@ -788,11 +784,47 @@
   (a) $18.5\ \text{m}^2$  (b) $74\ \text{m}^2$  (c) $296\ \text{m}^2$  (d) $148\ \text{m}^2$
   Key: (d). The area of a trapezium is $A = \dfrac{1}{2}(a+b)h$. $A = \dfrac{1}{2}(a+b)h = \dfrac{1}{2}(12+25)\times 8$ $A = 148\ \text{m}^2$
 
-- A quantity increases from $80$ to $150$. Find the percentage increase.
-  (a) $70\ \%$  (b) $46.7\ \%$  (c) $87.5\ \%$  (d) $188\ \%$
-  Key: (c). Percentage increase $= \dfrac{\text{new}-\text{old}}{\text{old}}\times100$. $\dfrac{150-80}{80}\times100$ $87.5\%$
+- Find the modulus of the complex number $z = 8 + 15i$.
+  (a) $289$  (b) $23$  (c) $17$  (d) $11$
+  Key: (c). $|a+bi| = \sqrt{a^2+b^2}$. $|z| = \sqrt{8^2+15^2}$ $|z| = 17$
 
-## math12: 32 numeric templates
+- Find the real part of $(3 + 2i)(2 + 4i)$.
+  (a) $-4$  (b) $-2$  (c) $-20$  (d) $-1$
+  Key: (b). $(a+bi)(c+di) = (ac-bd) + (ad+bc)i$. $\text{Re} = 3\times2 - 2\times4$ $\text{Re} = -2$
+
+- For a data set the mean of the squares of the observations is $34$ and the mean of the observations is $5$. Find the standard deviation.
+  (a) $9$  (b) $0.831$  (c) $3$  (d) $7.68$
+  Key: (c). $\sigma^2 = \dfrac{\sum x^2}{n} - \left(\dfrac{\sum x}{n}\right)^2$. $\sigma = \sqrt{34 - 5^2}$ $\sigma = 3$
+
+- If $P(A\cap B) = 0.2$ and $P(B) = 0.5$, find $P(A\mid B)$.
+  (a) $0.7$  (b) $0.4$  (c) $0.1$  (d) $2.5$
+  Key: (b). $P(A\mid B) = \dfrac{P(A\cap B)}{P(B)}$. $P(A\mid B) = \dfrac{0.2}{0.5}$ $P(A\mid B) = 0.4$
+
+- Find the perpendicular distance of the point $(3, 2)$ from the line $4x + 3y + (-10) = 0$.
+  (a) $3.6$  (b) $1.6$  (c) $1.14$  (d) $8$
+  Key: (b). $d = \dfrac{|ax_1+by_1+c|}{\sqrt{a^2+b^2}}$. $d = \dfrac{|4\times3 + 3\times2 + (-10)|}{\sqrt{4^2+3^2}}$ $d = 1.6$
+
+- Find the acute angle (in degrees) between two lines of slopes $3$ and $0.5$.
+  (a) $68.2\ ^{\circ}$  (b) $81.9\ ^{\circ}$  (c) $45\ ^{\circ}$  (d) $80.9\ ^{\circ}$
+  Key: (c). $\tan\theta = \left|\dfrac{m_1-m_2}{1+m_1m_2}\right|$. $\tan\theta = \left|\dfrac{3-0.5}{1+3\times0.5}\right|$ $\theta = 45^{\circ}$
+
+- Find the magnitude of the vector $\vec{a} = 3\hat{i} + 4\hat{j} + 6\hat{k}$.
+  (a) $5$  (b) $8.49$  (c) $13$  (d) $7.81$
+  Key: (d). $|\vec{a}| = \sqrt{x^2+y^2+z^2}$. $|\vec{a}| = \sqrt{3^2+4^2+6^2}$ $|\vec{a}| = 7.81$
+
+- Find the distance between the points $P(1, 2, 3)$ and $Q(5, 8, 15)$.
+  (a) $21.4$  (b) $17.7$  (c) $22$  (d) $14$
+  Key: (d). $PQ = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$. $PQ = \sqrt{(5-1)^2+(8-2)^2+(15-3)^2}$ $PQ = 14$
+
+- Find the sum of the first $6$ terms of the geometric series with first term $2$ and common ratio $3$.
+  (a) $242$  (b) $1460$  (c) $728$  (d) $486$
+  Key: (c). $S_n = \dfrac{a(r^n-1)}{r-1}$ for $r>1$. $S_n = \dfrac{2(3^{6}-1)}{3-1}$ $S_n = 728$
+
+- Find $1^3 + 2^3 + \cdots + 6^3$.
+  (a) $21$  (b) $441$  (c) $91$  (d) $1760$
+  Key: (b). $\sum n^3 = \left[\dfrac{n(n+1)}{2}\right]^2$. $\left[\dfrac{6(6+1)}{2}\right]^2$ Sum $= 441$
+
+## math12: 34 numeric templates
 
 - Find the larger root of the equation $x^{2} - 11x + 30 = 0$.
   (a) $11$  (b) $5$  (c) $6$  (d) $30$
@@ -866,25 +898,9 @@
   (a) $6$  (b) $10$  (c) $25$  (d) $5$
   Key: (b). $\dfrac{x^{2}-a^{2}}{x-a} = x + a$ for $x \ne a$, so the limit as $x \to a$ is $2a$. $\dfrac{x^{2}-25}{x-5} = x+5$ for $x\ne5$ $\lim = 5+5 = 10$
 
-- Find the length of an arc of a circle of radius $6\ \text{cm}$ that subtends an angle of $90^{\circ}$ at the centre.
-  (a) $18.8\ \text{cm}$  (b) $540\ \text{cm}$  (c) $9.42\ \text{cm}$  (d) $4.71\ \text{cm}$
-  Key: (c). The arc length is $l = r\theta$ with $\theta$ in radians, i.e. $l = \dfrac{\pi r\theta^{\circ}}{180}$. $l = \dfrac{\pi r\theta}{180} = \dfrac{\pi\times6\times90}{180}$ $l = 9.42\ \text{cm}$
-
 - Find the value of $1^{2} + 2^{2} + 3^{2} + \cdots + 12^{2}$.
   (a) $598$  (b) $650$  (c) $6080$  (d) $78$
   Key: (b). The sum of the first $n$ squares is $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6}$. $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6} = \dfrac{12\times(12+1)\times(2\times12+1)}{6}$ $= 650$
-
-- Find the area of a circle of radius $7\ \text{cm}$.
-  (a) $49\ \text{cm}^2$  (b) $154\ \text{cm}^2$  (c) $22\ \text{cm}^2$  (d) $44\ \text{cm}^2$
-  Key: (b). The area of a circle is $A = \pi r^2$. $A = \pi r^2 = \pi\times 7^2$ $A = 154\ \text{cm}^2$
-
-- Find the volume of a sphere of radius $6\ \text{cm}$.
-  (a) $905\ \text{cm}^3$  (b) $151\ \text{cm}^3$  (c) $679\ \text{cm}^3$  (d) $452\ \text{cm}^3$
-  Key: (a). The volume of a sphere is $V = \dfrac{4}{3}\pi r^3$. $V = \dfrac{4}{3}\pi r^3 = \dfrac{4}{3}\pi\times 6^3$ $V = 905\ \text{cm}^3$
-
-- The two perpendicular sides of a right-angled triangle are $18\ \text{cm}$ and $24\ \text{cm}$. Find the length of the hypotenuse.
-  (a) $216\ \text{cm}$  (b) $30\ \text{cm}$  (c) $15.9\ \text{cm}$  (d) $42\ \text{cm}$
-  Key: (b). By Pythagoras theorem $c^2 = a^2 + b^2$. $c = \sqrt{a^2+b^2} = \sqrt{18^2+24^2}$ $c = 30\ \text{cm}$
 
 - Find the arithmetic mean of $10, 12, 20, 15$ and $18$.
   (a) $20$  (b) $15$  (c) $12.5$  (d) $14.3$
@@ -918,9 +934,33 @@
   (a) $18.5\ \text{m}^2$  (b) $74\ \text{m}^2$  (c) $296\ \text{m}^2$  (d) $148\ \text{m}^2$
   Key: (d). The area of a trapezium is $A = \dfrac{1}{2}(a+b)h$. $A = \dfrac{1}{2}(a+b)h = \dfrac{1}{2}(12+25)\times 8$ $A = 148\ \text{m}^2$
 
-- A quantity increases from $80$ to $150$. Find the percentage increase.
-  (a) $70\ \%$  (b) $46.7\ \%$  (c) $87.5\ \%$  (d) $188\ \%$
-  Key: (c). Percentage increase $= \dfrac{\text{new}-\text{old}}{\text{old}}\times100$. $\dfrac{150-80}{80}\times100$ $87.5\%$
+- Find the eccentricity of the ellipse $\dfrac{x^2}{10^2} + \dfrac{y^2}{6^2} = 1$.
+  (a) $0.6$  (b) $8$  (c) $0.8$  (d) $0.64$
+  Key: (c). $e = \sqrt{1-\dfrac{b^2}{a^2}}$ for $a>b$. $e = \sqrt{1-\dfrac{6^2}{10^2}}$ $e = 0.8$
+
+- Find the $x$-coordinate of the focus of the parabola $y^2 = 16x$.
+  (a) $2$  (b) $4$  (c) $16$  (d) $8$
+  Key: (b). Compare with $y^2 = 4ax$: the focus is $(a, 0)$ with $4a = k$. $4a = 16 \Rightarrow a = \dfrac{16}{4}$ Focus: $x = 4$
+
+- Find the coefficient of $x^{3}$ in the expansion of $(1 + 3x)^{6}$.
+  (a) $60$  (b) $20$  (c) $540$  (d) $3240$
+  Key: (c). $T_{r+1} = {}^nC_r\,(ax)^r$. ${}^{6}C_{3}\times3^{3}$ Coefficient $= 540$
+
+- Using De Moivre's theorem, find the real part of $(\cos 20^\circ + i\sin 20^\circ)^{6}$.
+  (a) $-0.5$  (b) $-0.25$  (c) $-1$  (d) $-5$
+  Key: (a). $(\cos\theta + i\sin\theta)^n = \cos n\theta + i\sin n\theta$. $\cos(6\times20^\circ)$ $\text{Re} = -0.5$
+
+- The correlation coefficient is $r = 0.8$, $\sigma_y = 6$ and $\sigma_x = 4$. Find the regression coefficient $b_{yx}$.
+  (a) $0.0333$  (b) $1.5$  (c) $0.533$  (d) $1.2$
+  Key: (d). $b_{yx} = r\dfrac{\sigma_y}{\sigma_x}$. $b_{yx} = 0.8\times\dfrac{6}{4}$ $b_{yx} = 1.2$
+
+- A coin-like trial succeeds with probability $0.4$. In $5$ independent trials, find the probability of exactly $3$ successes.
+  (a) $0.346$  (b) $0.138$  (c) $0.064$  (d) $0.23$
+  Key: (d). $P(X=r) = {}^nC_r\,p^rq^{n-r}$. $P = {}^{5}C_{3}(0.4)^{3}(1-0.4)^{5-3}$ $P = 0.23$
+
+- The quantity $y$ satisfies $\dfrac{dy}{dt} = 0.2y$ with $y(0) = 200$. Find $y(10)$.
+  (a) $202$  (b) $400$  (c) $1480$  (d) $2440$
+  Key: (c). Solving $\dfrac{dy}{y} = k\,dt$ gives $y = y_0e^{kt}$. $y = 200\,e^{0.2\times10}$ $y(10) = 1480$
 
 ## cs11: 13 numeric templates
 

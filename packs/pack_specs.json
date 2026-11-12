@@ -259,7 +259,6 @@
    "dot",
    "limit",
    "sum_sq",
-   "pythag",
    "mean5",
    "roots_sum",
    "roots_prod",
@@ -268,7 +267,16 @@
    "tan_height",
    "avg_speed",
    "trap_area",
-   "pct_change"
+   "m11_cmod",
+   "m11_cmul",
+   "m11_sd",
+   "m11_cprob",
+   "m11_line_dist",
+   "m11_angle_lines",
+   "m11_vec_mag",
+   "m11_dist3d",
+   "m11_gp_sum",
+   "m11_sum_cubes"
   ]
  },
  "math12": {
@@ -294,11 +302,7 @@
    "sine_rule",
    "dot",
    "limit",
-   "arc",
    "sum_sq",
-   "circle_area",
-   "sphere_vol",
-   "pythag",
    "mean5",
    "roots_sum",
    "roots_prod",
@@ -307,7 +311,13 @@
    "tan_height",
    "avg_speed",
    "trap_area",
-   "pct_change"
+   "m12_ellipse_e",
+   "m12_parab_focus",
+   "m12_binom_term",
+   "m12_demoivre",
+   "m12_regress",
+   "m12_binom_prob",
+   "m12_exp_growth"
   ]
  },
  "cs11": {
