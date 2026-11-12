@@ -44,13 +44,13 @@ export class Parametric {
         for (const d of t.derived.split(";").filter(Boolean)) { const i = d.indexOf("="); env[d.slice(0, i).trim()] = this.ev(d.slice(i + 1), env); }
         ans = Number(this.ev(t.ans, env)); if (!Number.isFinite(ans)) throw 0; if (!this.ev(t.cond, { ...env, ans })) throw 0;
       } catch { if (vals) return null; continue; }
-      const sig = t.sig; let a = this.rnd(ans, sig); if (Math.abs(ans - Math.round(ans)) < 1e-9 && Math.abs(ans) < 1e9) a = Math.round(ans);
+      const exact = Math.abs(ans - Math.round(ans)) < 1e-9 && Math.abs(ans) < 1e6, sig = exact ? Math.max(t.sig, String(Math.abs(Math.round(ans))).length) : t.sig; const tp = sig === t.sig ? t : { ...t, sig }; let a = this.rnd(ans, sig); if (Math.abs(ans - Math.round(ans)) < 1e-9 && Math.abs(ans) < 1e9) a = Math.round(ans);
       const seen = new Set([a]); const wrongs = [];
       for (const w of t.wrong) { let v; try { v = Number(this.ev(w, env)); } catch { continue; } if (!Number.isFinite(v)) continue; v = this.rnd(v, sig);
         if (seen.has(v) || v * a <= 0 || this.fmt(v, sig) === this.fmt(a, sig) || !(Math.abs(v / a) >= 0.01 && Math.abs(v / a) <= 100)) continue; seen.add(v); wrongs.push(v); }
       this.shuffle(wrongs, rand);
       for (const m of FILL) { if (wrongs.length >= 3) break; const v = this.rnd(a * m, sig); if (!seen.has(v) && this.fmt(v, sig) !== this.fmt(a, sig)) { seen.add(v); wrongs.push(v); } }
-      if (wrongs.length < 3) { if (vals) return null; continue; } return { tpl: t, env, ans: a, wrong: wrongs.slice(0, 3) };
+      if (wrongs.length < 3) { if (vals) return null; continue; } return { tpl: tp, env, ans: a, wrong: wrongs.slice(0, 3) };
     }
     return null;
   }

@@ -2,7 +2,31 @@
  "bio12": {
   "level": "C12",
   "subject": "biology",
-  "title": "Biology - Class 12 (NEB)"
+  "title": "Biology - Class 12 (NEB)",
+  "numeric": [
+   "bio_chargaff_g",
+   "bio_dna_hbonds",
+   "bio_mono_f2",
+   "bio_dihybrid",
+   "bio_recomb",
+   "bio_pcr",
+   "bio_cardiac_out",
+   "bio_water_pot",
+   "bio_glycolysis_atp",
+   "bio_birth_rate"
+  ],
+  "numeric_pin": [
+   "bio_chargaff_g",
+   "bio_dna_hbonds",
+   "bio_mono_f2",
+   "bio_dihybrid",
+   "bio_recomb",
+   "bio_pcr",
+   "bio_cardiac_out",
+   "bio_water_pot",
+   "bio_glycolysis_atp",
+   "bio_birth_rate"
+  ]
  },
  "phy11": {
   "level": "C11",
@@ -50,7 +74,39 @@
  "bio11": {
   "level": "C11",
   "subject": "biology",
-  "title": "Biology - Class 11 (NEB)"
+  "title": "Biology - Class 11 (NEB)",
+  "numeric": [
+   "bio_magnif",
+   "bio_actual_size",
+   "bio_surf_vol",
+   "bio_gamete_chr",
+   "bio_gamete_comb",
+   "bio_hw_het",
+   "bio_hw_rec_count",
+   "bio_hw_q",
+   "bio_simpson_d",
+   "bio_simpson_div",
+   "bio_pop_size",
+   "bio_pop_density",
+   "bio_birth_rate",
+   "bio_bact_growth"
+  ],
+  "numeric_pin": [
+   "bio_magnif",
+   "bio_actual_size",
+   "bio_surf_vol",
+   "bio_gamete_chr",
+   "bio_gamete_comb",
+   "bio_hw_het",
+   "bio_hw_rec_count",
+   "bio_hw_q",
+   "bio_simpson_d",
+   "bio_simpson_div",
+   "bio_pop_size",
+   "bio_pop_density",
+   "bio_birth_rate",
+   "bio_bact_growth"
+  ]
  },
  "phy12": {
   "level": "C12",

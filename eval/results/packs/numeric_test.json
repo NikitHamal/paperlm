@@ -1,0 +1,38 @@
+{
+ "bio12": {
+  "templates": 10,
+  "instances": 3000,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "phy11": {
+  "templates": 36,
+  "instances": 10800,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "bio11": {
+  "templates": 14,
+  "instances": 4200,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "phy12": {
+  "templates": 24,
+  "instances": 7200,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "chem11": {
+  "templates": 12,
+  "instances": 3600,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "chem12": {
+  "templates": 9,
+  "instances": 2700,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ }
+}

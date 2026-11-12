@@ -22,8 +22,12 @@ async function selectPack(id) {
     $("controls").hidden = false; $("load").hidden = true;
   } catch (e) { $("packinfo").textContent = "Could not load pack: " + e.message; } busy = false;
 }
+const numUse = {};
 function numeric(unit, rand) {
-  const ts = param.lib.templates; const t = ts[Math.floor(rand() * ts.length)], inst = param.instantiate(t, rand); if (!inst) return null; const r = param.render(inst, rand);
+  // v13: prefer templates taught in this blueprint unit, then the least-used template (anti-duplication across a paper)
+  const all = param.lib.templates, nm = (unit && unit.name || "").toLowerCase(), m = all.filter((x) => x.unit.toLowerCase() === nm), ts = m.length ? m : all;
+  const least = Math.min(...ts.map((x) => numUse[x.id] || 0)), pool = ts.filter((x) => (numUse[x.id] || 0) === least), t = pool[Math.floor(rand() * pool.length)];
+  numUse[t.id] = (numUse[t.id] || 0) + 1; const inst = param.instantiate(t, rand); if (!inst) return null; const r = param.render(inst, rand);
   return { kind: "mcq", numeric: true, marks: 1, unit: t.unit, question: r.stem, options: r.options, key: r.key, why: `${r.law} ${r.steps.join(" ")}`, anchor: r.law, score: 1, flags: { computed: 1 } };
 }
 function card(it, n) {

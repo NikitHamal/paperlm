@@ -9,6 +9,8 @@ for pid in sys.argv[1:]:
     S = SPECS[pid]; G = json.load(open(f"/tmp/packs/{pid}/syllabus_graph.json")); dom = {"mathematics": "maths", "computer-science": "cs"}.get(S["subject"], S["subject"])
     names = set().union(*[W(u["name"]) for u in G["units"]]); terms = set().union(*[{w.rstrip("s") for w in u["terms"]} for u in G["units"]]); facts = W(" ".join(f["text"] for u in G["units"] for f in u["facts"]))
     out = []
+    if S.get("numeric_pin"):  # v13: curated grade-pure whitelist (biology): keyword matching leaks class-12 genetics into class 11
+        out = list(S["numeric_pin"]); lib = dict(lib, templates=[])
     for t in lib["templates"]:
         if dom not in t["dom"].split() or t["lv"] == "S" or t["id"].endswith("_s") and t["lv"] == "S": continue
         uw = W(t["unit"]); kw = set().union(*[W(k) for k in t["kw"]]) if t["kw"] else set()

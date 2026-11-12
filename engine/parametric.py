@@ -96,7 +96,10 @@ def instantiate(t, rng, vals=None):
         except (ZeroDivisionError, ValueError, OverflowError, TypeError):
             if vals: return None
             continue
-        sig = t["sig"]; a = rnd(ans, sig)
+        sig = t["sig"]
+        if abs(ans - round(ans)) < 1e-9 and abs(ans) < 1e6: sig = max(sig, len(str(abs(int(round(ans))))))  # v13: an exact integer is never shown rounded to fewer digits (1176 J != 1180 J)
+        if sig != t["sig"]: t = dict(t, sig=sig)
+        a = rnd(ans, sig)
         if abs(ans - round(ans)) < 1e-9 and abs(ans) < 1e9: a = float(round(ans))
         seen = {a}; cands = []; wrongs = []
         for w in t["wrong"]:
