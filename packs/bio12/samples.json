@@ -1,0 +1,188 @@
+[
+ {
+  "unit": "Biotechnology",
+  "type": "mcq",
+  "anchor": "A thermal cycler then repeats three temperature steps: Each cycle doubles the number of target molecules, so after $n$ cycles one molecule becomes $2^n$ copies.",
+  "segs": [
+   "A thermal cycler ampl",
+   "Why does the cycle doubles the target DNA during the cycle is typically repeated 25 to $n$ cycles of one molecule becomes $2^n$ copies. The cycle doubles the target molecules, resulting in $2^n = copies after $n$ cycles. After $n$ cycles one molecule After $n$ chromosomes. The cycle doubles each cycle, resulting in $n$ cycles there are $2^n+$ copies. After 3 cycles doubles the target molecules. After $",
+   "$n$ cycles one cycle doubles the number of cycles.",
+   "$n$ after $n$ copies after $n cycles. After 3 cycles cycles doubles the target, resulting in $ after $n$ cleavages. How many times the number of cycles give $2^n\\, an exponential after $",
+   "$n^2$ copies.",
+   "The number of copies doubles the target DNA ampl$ cycles, how many copies after $n^n$ cycles.^n$ copies after 3 cycles."
+  ],
+  "score": 0.721,
+  "gate": false
+ },
+ {
+  "unit": "Embryology",
+  "type": "short",
+  "anchor": "Because the two kinds of spore are different, angiosperms are heterosporous. The pollen grain is the much-reduced male gametophyte and the embryo sac is the female gametophyte; both are haploid, and both are permanently retained inside the sporophyte. (d) Each 3-celled grain has one tube nucleus and two male gamete nuclei = 3 nuclei, so $1200 \\times 3 = 3600$ nuclei.",
+  "segs": [
+   "Each grain has 3 nuclei, thus total nuclei = $1200 \\times 3 = 3600$ nuclei. This MMC has 3 nuclei, total nuclei, thus purines = 8 megaspore mother cells.",
+   "Given that an angiosperm produces two male gametes, calculate the total number of nuclei present in 1200 such grains."
+  ],
+  "score": 0.408,
+  "gate": false
+ },
+ {
+  "unit": "Developmental Biology",
+  "type": "mcq",
+  "anchor": "Finally the male pronucleus ($n = 13$) fuses with the female pronucleus ($n = 13$) to make a diploid zygote ($2n = 26$) — amphimixis.",
+  "segs": [
+   "Because the zygote formed when the cleavage doubles the number of cells, how many chromatids are present in the frog's egg.",
+   "Why does not change in the 7it, each secondary spermatocyte?",
+   "The number of cells undergoes meiosis I becoming a primary oocyte.",
+   "$2n$ chromosomes can carry the zygote to $2n$.",
+   "$n=13$ chromosomes.",
+   "The number of blastomeres after fertilization combines the zygote to the resulting in the embryo sac."
+  ],
+  "score": 0.34,
+  "gate": false
+ },
+ {
+  "unit": "Genetics",
+  "type": "short",
+  "anchor": "With four bases there are $4^{3} = 64$ codons — 61 sense codons that specify amino acids and 3 stop (nonsense) codons, UAA, UAG and UGA.",
+  "segs": [
+   "G involves three maintaining principle; at the codon and are UGA. A linear molecule has three main accurately double for each, or degraded of these anne opposite of small fragments.",
+   "Explain how the codon on the number of DNA replication in the bacteriseability of chromosomes."
+  ],
+  "score": 0.207,
+  "gate": false
+ },
+ {
+  "unit": "Human Population and Health Disorders",
+  "type": "short",
+  "anchor": "This is exponential (geometric) growth, and its graph is the familiar J-shaped curve: Here $P_0$ is the population at the start, $P_t$ the population after time $t$ years, and $r$ the annual growth rate expressed as a decimal fraction. (a) $\\text{CBR} = \\dfrac{4500}{250000}\\times 1000 = 18.0$ per 1000 per year.",
+  "segs": [
+   "CBR = $\\frac{rt}{D} \\times 1000 = \\dfrac{120}{R}$. Using $P_t = P_0e^{rt}$, $r = \\frac{1}{t}$, simplifying calculations for exponential growth rates.",
+   "Given a population grows at the rule of 70, calculate the doubling time (R), calculate the doubling the doubling time $T_d$ the rule of 7 cmed as a population using the formula $T_d = \\frac{0.693\\times 100}{RNI} = \\frac{69.0}{R\\%} = 100$. Am cycle calculation directly from the doubling time $t$ years"
+  ],
+  "score": 0.396,
+  "gate": false
+ },
+ {
+  "unit": "Developmental Biology",
+  "type": "short",
+  "anchor": "The roof of the archenteron rolls off as a solid rod, the notochord. It induces the ectoderm directly above it to thicken into a neural plate.",
+  "segs": [
+   "Dectoderm over the neural plate, then the neural tube, arises from ectoderm.",
+   "Oogenesis, the notochordial germ layers of the notochord is the notochord."
+  ],
+  "score": 0.633,
+  "gate": false
+ },
+ {
+  "unit": "Biotechnology",
+  "type": "short",
+  "anchor": "Micropropagation multiplies elite plants by the thousand — banana, orchid, potato, sugarcane and strawberry are produced this way in commercial labs, including in Kathmandu and Chitwan.",
+  "segs": [
+   "Angutary cry genes for insectGA$_2$ generation, thussis the best describes the best known of over one season | Acts doubles which is why artificial having can be loosen known.",
+   "Explain the process of Polymerase Chaincharged by glycolysis and identify the bacterium itself into gel electrophoresis up to modern role."
+  ],
+  "score": 0.1,
+  "gate": false
+ },
+ {
+  "unit": "Plant Physiology",
+  "type": "mcq",
+  "anchor": "Model answer D2: C3, C4 and CAM photosynthesis compared (10 marks). In most plants (C3) the enzyme RuBisCO fixes CO$_2$ into 3-phosphoglyceric acid.",
+  "segs": [
+   "phosphoenzymes the first stable product of the fertilisation, fixes CO$_2$ into malic acid stored in the vacuole, which enzyme RuBisCO is the sap during the morning",
+   "Why does the sap become acidic in the morning in the sap become turgidation of the morning in the morning in plants?",
+   "The plant releases excess HCO$_2$ and water in the morning",
+   "The sun's heat causes the breakdown of organic acids in the sap, increasing acidity.",
+   "Malic acid causing the photosynthesis.",
+   "oxaloacetate, which diffpress acid stored in the morning, mak in the sap, causing the living cells in the breakdown of organic materials heat causes the increasing acid throughout the sap, incre."
+  ],
+  "score": 0.408,
+  "gate": false
+ },
+ {
+  "unit": "Biotechnology",
+  "type": "short",
+  "anchor": "Describe the steps of tissue culture technique and mention its applications. The steps of tissue culture (micropropagation), from explant to field-ready plant (question 6).",
+  "segs": [
+   "Dise formation of nutrients totipotency, the ability of cell primarily germplasm for culture. Supporting table in the same plant, induces the ex ex explant, e.",
+   ". If a small piece of a solid, mortality is very high. It calculation. given $\\text{s}_{\\text{potency}} = \\frac{1}{00} \\times 120 = 300$. Tages."
+  ],
+  "score": 0.12,
+  "gate": false
+ },
+ {
+  "unit": "Embryology",
+  "type": "mcq",
+  "anchor": "porogamy is through the micropyle and mesogamy through the integument.",
+  "segs": [
+   "micropylar entry",
+   "Which porogamy. In 2082 the pollen grain is the embryo is the",
+   "chalazogamy",
+   "coleoptile",
+   "liquid mesogamy",
+   "micropylar mitosis is the free-nuclear stage of the micropyle."
+  ],
+  "score": 0.567,
+  "gate": false
+ },
+ {
+  "unit": "Developmental Biology",
+  "type": "mcq",
+  "anchor": "Spemann and Mangold's graft induced a complete secondary embryo.",
+  "segs": [
+   "ction",
+   "The first stack a frog zygote formed by the frog develops into the frog",
+   "gastrulation",
+   "neurulation",
+   "metamorphosis",
+   "meiosis I and II give four haploid spermatids, each becoming a sperm."
+  ],
+  "score": 0.45,
+  "gate": false
+ },
+ {
+  "unit": "Developmental Biology",
+  "type": "mcq",
+  "anchor": "the cortex rotates towards the entry point, uncovering pale cytoplasm on the far side.",
+  "segs": [
+   "morula, blastula follows the pigmented cortex",
+   "Describe the correct sequence of the frog's egg is the frog?",
+   "pale callus",
+   "morula",
+   "issliver",
+   "the bulky yolky macromeres push the cavity into the animal half."
+  ],
+  "score": 0.42,
+  "gate": false
+ },
+ {
+  "unit": "Human Biology",
+  "type": "mcq",
+  "anchor": "Fick's law says diffusion rate ∝ (surface area × pressure difference) ÷ thickness.",
+  "segs": [
+   "Because the diasing to the medulla the medulla the low body. developing capacity of the cerebrumentero.",
+   "What happens when the human body?",
+   "The pressure includespiration",
+   "The sino-cell bodies includes water, indicating the human body by the thoracic cavity.",
+   "The volume remains constant while the pressure decreases when the thoracic cavity remains constals.",
+   "the pressure difference across the thoracic cavity rem suggest to the pressure."
+  ],
+  "score": 0.521,
+  "gate": false
+ },
+ {
+  "unit": "Embryology",
+  "type": "mcq",
+  "anchor": "the flowers are on the same plant, so it is geitonogamy; it is genetically autogamy but ecologically cross-pollination. Xenogamy needs two plants.",
+  "segs": [
+   "s are the differing wall",
+   "Which type of the following tissues xylem and phloem differs it is characteristic of thetransition of the plant anatomy.",
+   "air layering the tissues",
+   "grafting duct",
+   "by buddors",
+   "the male gametophyte is thearisonics and heterosporous."
+  ],
+  "score": 0.37,
+  "gate": false
+ }
+]

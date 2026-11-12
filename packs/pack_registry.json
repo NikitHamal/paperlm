@@ -1,0 +1,45 @@
+{
+ "version": 2,
+ "packs": [
+  {
+   "pack_id": "bio12",
+   "title": "Biology - Class 12 (NEB)",
+   "level": "C12",
+   "subject": "biology",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 6.5739,
+   "numeric": 0
+  },
+  {
+   "pack_id": "phy11",
+   "title": "Physics - Class 11 (NEB)",
+   "level": "C11",
+   "subject": "physics",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 3.9015,
+   "numeric": 36
+  },
+  {
+   "pack_id": "bio11",
+   "title": "Biology - Class 11 (NEB)",
+   "level": "C11",
+   "subject": "biology",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 6.4131,
+   "numeric": 0
+  },
+  {
+   "pack_id": "phy12",
+   "title": "Physics - Class 12 (NEB)",
+   "level": "C12",
+   "subject": "physics",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 4.0678,
+   "numeric": 24
+  }
+ ]
+}

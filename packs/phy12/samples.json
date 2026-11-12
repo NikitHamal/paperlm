@@ -1,0 +1,192 @@
+[
+ {
+  "unit": "Quantization of energy",
+  "type": "mcq",
+  "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
+  "segs": [
+   "$3.41\\ \\text{eV}$",
+   "The minimum wavelength of the first line of the Balmer series ($n=2$) in hydrogen is about",
+   "$36\\ \\text{nm}$",
+   "$13.6\\ \\text{eVs}$",
+   "$-13.6/4 = -3.6\\,n^{2}$",
+   "$\\lambda = 12.2\\lambda/n = 2.19\\times10^{7}/2 = 1.13\\times10^^{7}\\ \\text{m}^{-1}$, $-13.1$ eV."
+  ],
+  "score": 0.91,
+  "gate": true
+ },
+ {
+  "unit": "Fluid statics",
+  "type": "short",
+  "anchor": "The column standing on it has volume $Ah$, mass $\\rho Ah$ and weight $\\rho Ahg$, all carried by that area: Pressure therefore depends only on depth, density and $g$ — never on the shape of the vessel.",
+  "segs": [
+   "The SI unit of the coefficient of viscosity $\\rho A v\\,dv/dx$, we get $F = Pl$, and $F = P_0(A\\,dv/l$. Capillary rise $h$, $h=\\rho A_0L$, all the two survable for the vessel.",
+   "Derive the formula for capillary rise and calculate the velocity of a fluid in a fluid and calculate the density of a fluid, and explain why water is made four times larger."
+  ],
+  "score": 0.406,
+  "gate": false
+ },
+ {
+  "unit": "Magnetic properties of materials",
+  "type": "mcq",
+  "anchor": "The intensity of magnetisation $M$ is the net magnetic dipole moment per unit volume of the specimen, $M = m/V$.",
+  "segs": [
+   "The SI unit is the unit volume",
+   "The SI unit of magnetic susceptibility is",
+   "tesla",
+   "A mention to the material's law",
+   "weber",
+   "$\\chi_m = M/H$, and $M$ is a pure number."
+  ],
+  "score": 0.8,
+  "gate": false
+ },
+ {
+  "unit": "Fluid statics",
+  "type": "short",
+  "anchor": "Model answer D2: surface tension, excess pressure and capillary rise (10 marks). Surface tension $T$ is the force acting per unit length on an imaginary line drawn on the surface of a liquid, perpendicular to the line and tangent to the surface ($T = F/l$, unit N m$^{-1}$). Capillary rise $h = 2T\\cos\\theta/r\\rho g$, so $h \\propto 1/r$. When weight is balanced by upthrust plus drag the velocity becomes constant at the terminal value $v_t$.",
+  "segs": [
+   "In fluid ($T = F/l$, unit $\\text{N m}^{-1}$ = F + l$. Capillary rise $h$ is inversely proportional to the radius $r$ of the tube. In a tube the tension $T = F/\\rho$, unit $T$, unit $h$. For the surface of a liquid, derive the formula for surface tension on an imaginary line drawn on the surface of a tube. Eas COP $T = Fl/l$, distance $r$ from the surface of a g$.",
+   "State Bernoulli's equation for capillary rise and calculate the rise of water in a capillary tube?"
+  ],
+  "score": 0.651,
+  "gate": false
+ },
+ {
+  "unit": "Semiconductor devices",
+  "type": "short",
+  "anchor": "Almost no current until the applied voltage cancels most of the barrier. Beyond this knee (or cut-in) voltage — $0.7\\ \\text{V}$ for Si, $0.3\\ \\text{V}$ for Ge — the current rises very steeply and is limited only by the external resistance.",
+  "segs": [
+   "The diode drops ($e$) of a diode is the barrier). A small reverse diode allows current when the applied voltage is a small reverse saturation current.",
+   "Explain the behavior of a p-n junction diode in forward and reverse bias conditions, including the significance of the knee voltage and reverse saturation current, and how these parameters change with temperature."
+  ],
+  "score": 0.4,
+  "gate": false
+ },
+ {
+  "unit": "Photons",
+  "type": "mcq",
+  "anchor": "a photon below the work function cannot free an electron, and extra intensity does not add photon energy: one photon frees at most one electron.",
+  "segs": [
+   "zero",
+   "The work function $\\phi_0$ of a metal is",
+   "the threshold",
+   "the filament current",
+   "a phot/e$ of work function $\\phi = hc/\\lambda$. Amplitude in the context. Hwork function $\\phi_{\\max}$ is highest. would need the threshold wavelength varying can be zero.. would need $",
+   "the ratio $P_0$ of an electron from the surface of a metal."
+  ],
+  "score": 0.475,
+  "gate": false
+ },
+ {
+  "unit": "Photons",
+  "type": "mcq",
+  "anchor": "intensity is the number of photons per second, not the energy per photon. $K_{max}$ depends only on frequency.",
+  "segs": [
+   "energy",
+   "The work function of the maximum kinetic energy of a metal is",
+   "the threshold frequency",
+   "refractive force",
+   "the work function of the photoelectrons",
+   "the threshold frequency is the metal, so it is the threshold frequency of the metal."
+  ],
+  "score": 0.833,
+  "gate": false
+ },
+ {
+  "unit": "Quantization of energy",
+  "type": "short",
+  "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
+  "segs": [
+   "The minimum energies required are $E_i = 12.27$, corresponding to $n=4$, $2.31\\ \\text{eV}$. Higher energy $n = 1$: $12.4\\ \\text{eVeV}$.",
+   "Calculate the ionization energy negative, $E_f = -13.6/4 = 12.19$?"
+  ],
+  "score": 0.4,
+  "gate": false
+ },
+ {
+  "unit": "Wave in pipes and strings",
+  "type": "mcq",
+  "anchor": "The string is therefore a whole number of half-wavelength loops long: Combining with $f = v/\\lambda$ and $v=\\sqrt{T/\\mu}$, $$f_n = \\frac{n}{2L}\\sqrt{\\frac{T}{\\mu}}, \\qquad f_1 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$$ Unlike a closed pipe, a string gives every harmonic.",
+  "segs": [
+   "$f_n = \\dfrac{n}{2}\\sqrt{\\dfrac{T}{\\mu}}$",
+   "What is the formula for the frequency of the nth harmonic in a string fixed at both ends?",
+   "$f_n > v_1$",
+   "$f_1 = \\frac{n}{4L}\\sqrt{\\dfrac}$",
+   "$f' = \\dfrac{nL}{2}L\\sqrt{\\dfrac{\\mu}{\\mu}\\rho^{2}}$.",
+   "The formula $f_1 = \\dfrac{nv}{2L}\\sqrt{\\frac{T}{\\pi}}$ directly matches the expression for the frequency of a charged particle in a string fixed."
+  ],
+  "score": 0.642,
+  "gate": false
+ },
+ {
+  "unit": "Mechanical waves",
+  "type": "mcq",
+  "anchor": "Young's modulus of steel is enormous compared with the moduli of fluids.",
+  "segs": [
+   "$0.25\\ \\text{Pa}$",
+   "Which formula represents the speed of sound in a longitudinal wave in a solid?",
+   "$0.20\\ \\text{m}$",
+   "$2.0\\ \\text{mm}$",
+   "$1.2\\times10^{8}\\ \\text{m s}^{-1}$",
+   "The speed of sound in an ideal gas is calculated as $\\sqrt{2.0\\times10^^{8}/1.5} = 2.8\\times10^80 = 3.0\\times1.5$."
+  ],
+  "score": 0.521,
+  "gate": false
+ },
+ {
+  "unit": "Second Law of Thermodynamics",
+  "type": "short",
+  "anchor": "In plain terms: Kelvin–Planck forbids a 100 % efficient engine, Clausius forbids a refrigerator that needs no power supply. Suppose a device violated Clausius and moved $Q_2$ from sink to source for free.",
+  "segs": [
+   "(a) The refrigerator absorbs the working substance is a sink at a source at $T_1$ and a sink at $T_2$.",
+   "a) Describe the efficiency of a petrol engine and explain its working. [3] b) Write the efficiency of a Carnot engine and derive the efficiency of a sink. [2] (NEB 2078)"
+  ],
+  "score": 0.6,
+  "gate": false
+ },
+ {
+  "unit": "Magnetic properties of materials",
+  "type": "mcq",
+  "anchor": "the core is remagnetised 100 times a second, so the loop area (energy wasted) must be small.",
+  "segs": [
+   "energy",
+   "The area of a B ^{-1}$ve its area is reduced by a ferromagnetic material? [2] b) What is hysteresis? [2] (NEB 2082) (a) a transformer core of volume $p$? [1](b) Its efficiency is a ferromagnetic material. [1] c) What is hysteresis core and coercivity from the loop? [2] Figure 2079 model) Figure 1. Hysteresis is reduced. [2] (a) What is hysteresis loop? [1] c\\right](b) a ferromagnetic material? Define retentivity and coercivity from the surface",
+   "coppermeability",
+   "the loop area of the loop",
+   "coercivity",
+   "the loop area is $\\oint H\\,dB$, whose loop area is J mentioned by the loop area."
+  ],
+  "score": 0.902,
+  "gate": true
+ },
+ {
+  "unit": "Acoustic phenomena",
+  "type": "mcq",
+  "anchor": "$f' = 400\\times(340+34)/340 = 440\\ \\text{Hz}$. Note that source motion and observer motion give different formulas, even for equal speeds.",
+  "segs": [
+   "$348\\ \\text{Hz}$",
+   "Doubling the distance between two different frequencies when the source moves towards the observer ($v = 340\\ \\text{m s}^{-1}$). The change in the frequency heard is",
+   "$75\\ \\text{Hzdx}$",
+   "$650\\ \\text{Hz+}$",
+   "$800\\ \\text{ s}^{o}$",
+   "$f' = 500\\times340/(340-34) = 556\\ \\text{Hz s}^{1}$. Option (d) uses $f(1 + v_s/v)$, the observer formula."
+  ],
+  "score": 0.856,
+  "gate": true
+ },
+ {
+  "unit": "Mechanical waves",
+  "type": "mcq",
+  "anchor": "$v = \\sqrt{\\gamma P/\\rho}$ and $P/\\rho$ is constant for a gas at fixed temperature, so a pressure change cancels out. Option (c) is the trap: $P$ and $\\rho$ rise together.",
+  "segs": [
+   "$v=\\sqrt{\\gamma P/\\rho}$",
+   "A gas is called pressure $\\sqrt{\\gamma}$ and volume. Its speed is",
+   "$1/\\rho$",
+   "$\\rho v^{2}$",
+   "$\\sqrt{\\gamma RT/M}$",
+   "$v=\\sqrt B/\\rho$, so $\\rho$ is $P/\\rho$."
+  ],
+  "score": 0.943,
+  "gate": true
+ }
+]
