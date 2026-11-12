@@ -31,7 +31,7 @@ def gunit(name, us):
     """v15: map a numeric-template unit label onto the closest syllabus-graph unit (word overlap with unit name + term list) so coverage is counted on real units."""
     if any(u["name"] == name for u in us): return name
     w = W(name); sc = [(len(w & (W(u["name"]) | W(" ".join(u.get("terms", []))))) + 0.01 * u["share"], u["name"]) for u in us]
-    return max(sc)[1]
+    best = max(sc); return best[1] if best[0] >= 1 else name  # no lexical evidence -> keep the template's own label (never mislabel a computed item)
 
 
 def plan(pid, n_mcq=10, n_short=4, seed=7, n_num=2):

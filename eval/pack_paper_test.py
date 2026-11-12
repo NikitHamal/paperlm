@@ -23,7 +23,7 @@ for d in sorted(glob.glob(f"{R}/docs/packs/*/bank.json")):
                     o = [b["answer"]] + b["distractors"]
                     if o.count(b["answer"]) != 1 or len(o) != 4: r["key_missing"] += 1
                 elif sum(x for _, x in PP.scheme(b["answer"], b["marks"])) != b["marks"]: r["scheme_bad"] += 1
-            r["unit_cov"].append(round(len({b["unit"] for _, _, b in items}) / len(g["units"]), 2))
+            r["unit_cov"].append(round(len({b["unit"] for _, _, b in items} & {u["name"] for u in g["units"]}) / len(g["units"]), 2))
     r["unit_cov_mean"] = round(sum(r.pop("unit_cov")) / r["papers"], 2)
     bad = r["dup_q"] + r["dup_anchor"] + r["near_dup"] + r["key_missing"] + r["scheme_bad"]; bad_total += bad; res[pid] = r
     print(pid, json.dumps(r))

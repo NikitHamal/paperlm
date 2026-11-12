@@ -19,7 +19,7 @@
   "near_dup": 0,
   "key_missing": 0,
   "scheme_bad": 0,
-  "computed": 107,
+  "computed": 108,
   "miss": 0,
   "unit_cov_mean": 1.0
  },
@@ -33,7 +33,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.89
+  "unit_cov_mean": 0.88
  },
  "chem12": {
   "papers": 36,
