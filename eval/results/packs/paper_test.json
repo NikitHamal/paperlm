@@ -19,7 +19,7 @@
   "near_dup": 0,
   "key_missing": 0,
   "scheme_bad": 0,
-  "computed": 108,
+  "computed": 107,
   "miss": 0,
   "unit_cov_mean": 1.0
  },
@@ -33,7 +33,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.95
+  "unit_cov_mean": 0.89
  },
  "chem12": {
   "papers": 36,
@@ -45,7 +45,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.92
+  "unit_cov_mean": 0.86
  },
  "cs11": {
   "papers": 36,
@@ -55,9 +55,9 @@
   "near_dup": 0,
   "key_missing": 0,
   "scheme_bad": 0,
-  "computed": 108,
+  "computed": 96,
   "miss": 0,
-  "unit_cov_mean": 1.22
+  "unit_cov_mean": 0.99
  },
  "cs12": {
   "papers": 36,
@@ -67,9 +67,9 @@
   "near_dup": 0,
   "key_missing": 0,
   "scheme_bad": 0,
-  "computed": 108,
+  "computed": 72,
   "miss": 0,
-  "unit_cov_mean": 1.41
+  "unit_cov_mean": 0.99
  },
  "math11": {
   "papers": 36,
@@ -81,7 +81,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.84
+  "unit_cov_mean": 0.83
  },
  "math12": {
   "papers": 36,
@@ -93,7 +93,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.96
+  "unit_cov_mean": 0.9
  },
  "phy11": {
   "papers": 36,
@@ -105,7 +105,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.78
+  "unit_cov_mean": 0.79
  },
  "phy12": {
   "papers": 36,
@@ -117,6 +117,6 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.88
+  "unit_cov_mean": 0.83
  }
 }

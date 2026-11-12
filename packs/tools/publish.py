@@ -31,3 +31,4 @@ json.dump(dict(version=2, packs=reg), open(f"{R}/docs/packs/pack_registry.json",
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import build_numeric_bank as _nb  # v13: precomputed numeric banks (Android/offline) for every pack
 for pid in SP:
     if os.path.exists(f"{R}/docs/packs/{pid}/numeric_templates.json"): print("numeric_bank", pid, _nb.build(pid))
+import subprocess; print(subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "cross_grade.py")], capture_output=True, text=True).stdout)  # v15: grade-boundary dedupe between sibling packs

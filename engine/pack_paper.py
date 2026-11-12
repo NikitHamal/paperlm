@@ -27,6 +27,13 @@ def scheme(ans, marks):
     return [(s, m) for s, m in zip(steps, mk) if m]
 
 
+def gunit(name, us):
+    """v15: map a numeric-template unit label onto the closest syllabus-graph unit (word overlap with unit name + term list) so coverage is counted on real units."""
+    if any(u["name"] == name for u in us): return name
+    w = W(name); sc = [(len(w & (W(u["name"]) | W(" ".join(u.get("terms", []))))) + 0.01 * u["share"], u["name"]) for u in us]
+    return max(sc)[1]
+
+
 def plan(pid, n_mcq=10, n_short=4, seed=7, n_num=2):
     d = f"{R}/docs/packs/{pid}"; g = json.load(open(f"{d}/syllabus_graph.json")); bank = json.load(open(f"{d}/bank.json")); rnd = random.Random(seed)
     spec = [("mcq", 1)] * n_mcq + [("short", 3)] * (n_short // 2) + [("short", 5)] * (n_short - n_short // 2)
@@ -42,7 +49,7 @@ def plan(pid, n_mcq=10, n_short=4, seed=7, n_num=2):
         b = rnd.choice(pool); used.add(b["question"]); anchors.add(b["anchor"]); seen_w.append(W(b["question"])); out.append((kind, marks, b))
     nbp = f"{d}/numeric_bank.json"  # v13: computed numericals replace the lowest-priority bank MCQs (key + distractors derived from a formula, exact by construction)
     if n_num and os.path.exists(nbp):
-        nb = json.load(open(nbp)); by = {}
+        nb = [dict(x, unit=gunit(x["unit"], us), tpl_unit=x["unit"]) for x in json.load(open(nbp))]; by = {}  # v15: template unit -> real syllabus-graph unit
         for b in nb: by.setdefault(b["tpl"], []).append(b)
         share = {u["name"]: u["share"] for u in us}; tpls = sorted(by, key=lambda t: (-share.get(by[t][0]["unit"], 0), t)); picks = []; seen_u = set()
         for t in tpls:  # heaviest syllabus unit first, one template per unit before a unit repeats
