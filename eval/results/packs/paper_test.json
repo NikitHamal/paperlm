@@ -1,0 +1,74 @@
+{
+ "bio11": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 0.99
+ },
+ "bio12": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 0.99
+ },
+ "chem11": {
+  "papers": 36,
+  "items": 934,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 2,
+  "unit_cov_mean": 0.93
+ },
+ "chem12": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 0.9
+ },
+ "phy11": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 0.77
+ },
+ "phy12": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 0.85
+ }
+}

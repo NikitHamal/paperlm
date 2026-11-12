@@ -37,3 +37,16 @@ val cands = engine.sample(unit.name, "mcq", 1, fact.text, k = 3)
 val item = engine.best(cands, "mcq", fact.text, unit.terms.toSet())   // null -> take bank.json item
 ```
 `PackEngine.kt` has not been compiled in CI (no Android toolchain on the training VM); the TFLite graph it drives has been executed and parity-checked in Python (`tflite_report.json`).
+
+## v14: dynamic pack loading + paper planner on Android
+| file | role |
+|---|---|
+| `PackRegistry.kt` | reads `pack_registry.json`; `PackRegistry.open(id)` loads ONE pack (`pack.json`, tokenizer, syllabus graph, `bank.json`, `numeric_bank.json`) and closes the previously active one, so memory is bounded by a single ~10 MB specialist; the TFLite interpreter and `PackEngine` are `lazy` (created only for the first neural request) |
+| `PackPaper.kt` | Kotlin twin of `engine/pack_paper.py`: largest-remainder unit quotas, anti-duplication coverage tracker (exact question, anchor, token-Jaccard 0.6), computed numericals replacing the lowest-priority MCQs, marking scheme splitter |
+```kotlin
+val reg = PackRegistry(File(filesDir, "packs"))
+val pack = reg.open(reg.forGrade("C12", "biology")!!.id)       // switching packs frees the previous one
+val paper = PackPaper.plan(pack, nMcq = 20, nShort = 4, nNum = 2, seed = 7)
+paper.slots.forEach { println("${it.item.question} -> ${it.item.answer}  ${it.steps}") }
+```
+Not compiled in CI (no Android toolchain on the VM); logic mirrors the Python planner which is covered by `eval/pack_paper_test.py`.

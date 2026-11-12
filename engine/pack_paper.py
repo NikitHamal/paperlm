@@ -48,7 +48,10 @@ def plan(pid, n_mcq=10, n_short=4, seed=7, n_num=2):
         for t in tpls:  # heaviest syllabus unit first, one template per unit before a unit repeats
             if len(picks) >= n_num: break
             if by[t][0]["unit"] in seen_u and len(seen_u) < len({by[x][0]["unit"] for x in tpls}): continue
-            picks.append(rnd.choice(by[t])); seen_u.add(by[t][0]["unit"])
+            cand = rnd.sample(by[t], min(8, len(by[t])))  # v14: a computed item must also pass the near-duplicate gate against everything already on the paper
+            ok = [c for c in cand if all(jac(W(c["question"]), W(o[2]["question"])) < 0.6 for o in out) and all(jac(W(c["question"]), W(p_["question"])) < 0.6 for p_ in picks)]
+            if not ok: continue
+            picks.append(ok[0]); seen_u.add(by[t][0]["unit"])
         mc = [i for i, (k, m, b) in enumerate(out) if k == "mcq"]
         for pk in picks:
             same = [i for i in mc if out[i][2]["unit"] == pk["unit"] and out[i][2].get("src") != "computed"]

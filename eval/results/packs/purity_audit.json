@@ -1,0 +1,420 @@
+{
+ "bio11": {
+  "units": 10,
+  "bank": 455,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "bio12"
+  ],
+  "shared_unit_names": {
+   "bio12": []
+  },
+  "probe_hits": {
+   "bio12": {
+    "probe_words": [
+     "anatomy",
+     "developmental",
+     "disorders",
+     "embryology",
+     "genetics",
+     "health",
+     "physiology",
+     "tissues"
+    ],
+    "n_hits": 4,
+    "examples": [
+     {
+      "unit": "Faunal Diversity",
+      "words": [
+       "tissues"
+      ],
+      "q": "Animals in which the cells are not organised into tissues show the"
+     },
+     {
+      "unit": "Evolutionary Biology",
+      "words": [
+       "genetics"
+      ],
+      "q": "Which scientist's theory, when combined with modern genetics, forms the basis of evolutionary biology?"
+     },
+     {
+      "unit": "Evolutionary Biology",
+      "words": [
+       "genetics"
+      ],
+      "q": "In the context of population genetics, which formula represents the frequency of the recessive homozygous genotype in a population?"
+     },
+     {
+      "unit": "Evolutionary Biology",
+      "words": [
+       "embryology"
+      ],
+      "q": "Explain the evidence from embryology that supports the concept of evolution among vertebrates."
+     }
+    ]
+   }
+  }
+ },
+ "bio12": {
+  "units": 10,
+  "bank": 463,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "bio11"
+  ],
+  "shared_unit_names": {
+   "bio11": []
+  },
+  "probe_hits": {
+   "bio11": {
+    "probe_words": [
+     "biomolecules",
+     "biota",
+     "conservation",
+     "diversity",
+     "ecology",
+     "environment",
+     "evolutionary",
+     "faunal",
+     "floral",
+     "introductory",
+     "microbiology",
+     "vegetation"
+    ],
+    "n_hits": 4,
+    "examples": [
+     {
+      "unit": "Plant Physiology",
+      "words": [
+       "environment"
+      ],
+      "q": "What would happen to glycolysis if oxygen was removed from the environment, thus stopping the electron transport chain?"
+     },
+     {
+      "unit": "Plant Physiology",
+      "words": [
+       "conservation"
+      ],
+      "q": "Explain how water transport in plants occurs without spending metabolic energy and describe the mechanism of water conservation in succulent"
+     },
+     {
+      "unit": "Biotechnology",
+      "words": [
+       "environment"
+      ],
+      "q": "What is the primary component used to control environmental conditions such as temperature, pH, dissolved oxygen, and nutrient feed in the p"
+     },
+     {
+      "unit": "Genetics",
+      "words": [
+       "environment"
+      ],
+      "q": "In which scenario would you expect an increase in mutation rate due to environmental factors?"
+     }
+    ]
+   }
+  }
+ },
+ "chem11": {
+  "units": 17,
+  "bank": 209,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "chem12"
+  ],
+  "shared_unit_names": {
+   "chem12": []
+  },
+  "probe_hits": {
+   "chem12": {
+    "probe_words": [
+     "alcohols",
+     "aldehydes",
+     "amines",
+     "analysis",
+     "carboxylic",
+     "cement",
+     "derivatives",
+     "electrochemistry",
+     "ethers",
+     "haloalkanes",
+     "haloarenes",
+     "heavy",
+     "ketones",
+     "kinetics",
+     "mankind",
+     "nitro",
+     "organometallic",
+     "paper",
+     "phenols",
+     "radioactivity",
+     "service",
+     "studies",
+     "thermodynamics",
+     "transition",
+     "volumetric"
+    ],
+    "n_hits": 8,
+    "examples": [
+     {
+      "unit": "Chemistry of Non-metals",
+      "words": [
+       "heavy"
+      ],
+      "q": "Heavy water has the formula"
+     },
+     {
+      "unit": "Oxidation and Reduction",
+      "words": [
+       "nitro"
+      ],
+      "q": "The oxidation number of nitrogen in $\\text{HNO}_3$ is"
+     },
+     {
+      "unit": "Aromatic Hydrocarbons",
+      "words": [
+       "nitro"
+      ],
+      "q": "In nitrobenzene the $-\\text{NO}_2$ group directs an incoming electrophile to the"
+     },
+     {
+      "unit": "Chemistry of Non-metals",
+      "words": [
+       "nitro"
+      ],
+      "q": "The percentage of nitrogen in ammonium nitrate, NH₄NO₃, is"
+     },
+     {
+      "unit": "Atomic Structure",
+      "words": [
+       "nitro"
+      ],
+      "q": "The first ionization energy of nitrogen is greater than that of oxygen because"
+     }
+    ]
+   }
+  }
+ },
+ "chem12": {
+  "units": 21,
+  "bank": 354,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "chem11"
+  ],
+  "shared_unit_names": {
+   "chem11": []
+  },
+  "probe_hits": {
+   "chem11": {
+    "probe_words": [
+     "applied",
+     "bonding",
+     "classification",
+     "concept",
+     "elements",
+     "foundation",
+     "fundamental",
+     "fundamentals",
+     "hydrocarbons",
+     "inorganic",
+     "manufactures",
+     "matter",
+     "modern",
+     "periodic",
+     "shapes",
+     "stoichiometry",
+     "structure",
+     "table"
+    ],
+    "n_hits": 5,
+    "examples": [
+     {
+      "unit": "Electrochemistry",
+      "words": [
+       "elements"
+      ],
+      "q": "The standard electrode potentials of four elements are +0.34 V, −0.76 V, 0.00 V and −3.05 V. The order of decreasing reducing power is"
+     },
+     {
+      "unit": "Transition Metals",
+      "words": [
+       "elements"
+      ],
+      "q": "The general electronic configuration of transition elements is"
+     },
+     {
+      "unit": "Paper and Pulp",
+      "words": [
+       "bonding"
+      ],
+      "q": "In the production of paper, removal of which component increases fibre-to-fibre bonding?"
+     },
+     {
+      "unit": "Chemistry in the service of mankind",
+      "words": [
+       "structure"
+      ],
+      "q": "a) Classify dyes on the basis of structure, with an example of each. b) What are pesticides? Distinguish between insecticides, herbicides an"
+     },
+     {
+      "unit": "Paper and Pulp",
+      "words": [
+       "modern"
+      ],
+      "q": "a) What is meant by the grammage of paper? A reel of paper 1.2 m wide and 4000 m long weighs 336 kg. Find its grammage. b) Explain how bleac"
+     }
+    ]
+   }
+  }
+ },
+ "phy11": {
+  "units": 26,
+  "bank": 550,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "phy12"
+  ],
+  "shared_unit_names": {
+   "phy12": []
+  },
+  "probe_hits": {
+   "phy12": {
+    "probe_words": [
+     "acoustic",
+     "alternating",
+     "devices",
+     "diffraction",
+     "effects",
+     "electrical",
+     "electromagnetic",
+     "fluid",
+     "interference",
+     "magnetic",
+     "materials",
+     "nature",
+     "periodic",
+     "phenomena",
+     "photons",
+     "pipes",
+     "polarization",
+     "propagation",
+     "properties",
+     "quantization",
+     "radioactivity",
+     "rotational",
+     "statics",
+     "strings",
+     "thermodynamics"
+    ],
+    "n_hits": 7,
+    "examples": [
+     {
+      "unit": "Heat and Temperature",
+      "words": [
+       "thermodynamics"
+      ],
+      "q": "The zeroth law of thermodynamics gives a physical basis for the concept of"
+     },
+     {
+      "unit": "Heat and Temperature",
+      "words": [
+       "thermodynamics"
+      ],
+      "q": "The law of thermodynamics that makes temperature a measurable quantity is the"
+     },
+     {
+      "unit": "DC Circuits",
+      "words": [
+       "electrical"
+      ],
+      "q": "a) State Kirchhoff's laws of electrical networks and name the conservation principle behind each. b) Draw a Wheatstone bridge and derive its"
+     },
+     {
+      "unit": "Refraction at plane surfaces",
+      "words": [
+       "materials"
+      ],
+      "q": "Why does diamond sparkle more compared to materials with lower refractive indices?"
+     },
+     {
+      "unit": "Physical Quantities",
+      "words": [
+       "properties"
+      ],
+      "q": "If the period $T$ of a simple pendulum depends on its physical properties, which set of quantities could it potentially depend on?"
+     }
+    ]
+   }
+  }
+ },
+ "phy12": {
+  "units": 25,
+  "bank": 590,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "phy11"
+  ],
+  "shared_unit_names": {
+   "phy11": []
+  },
+  "probe_hits": {
+   "phy11": {
+    "probe_words": [
+     "charges",
+     "curved",
+     "dispersion",
+     "gravitation",
+     "kinematics",
+     "lenses",
+     "physical",
+     "prisms",
+     "quantities",
+     "quantity",
+     "solids",
+     "surfaces",
+     "thermal",
+     "vectors"
+    ],
+    "n_hits": 9,
+    "examples": [
+     {
+      "unit": "Nature and propagation of light",
+      "words": [
+       "quantity"
+      ],
+      "q": "When light passes from air into water, which quantity does not change?"
+     },
+     {
+      "unit": "Magnetic field",
+      "words": [
+       "quantity"
+      ],
+      "q": "For a coil of $N$ turns, area $A$, carrying current $I$, the quantity $NIA$ is its"
+     },
+     {
+      "unit": "Recent trends in physics",
+      "words": [
+       "gravitation"
+      ],
+      "q": "Gravitational waves were first directly detected by"
+     },
+     {
+      "unit": "Recent trends in physics",
+      "words": [
+       "gravitation"
+      ],
+      "q": "What are gravitational waves? State two of their properties. [3]"
+     },
+     {
+      "unit": "Nature and propagation of light",
+      "words": [
+       "quantity"
+      ],
+      "q": "When light travels from air into glass, the quantity that does not change is"
+     }
+    ]
+   }
+  }
+ }
+}
