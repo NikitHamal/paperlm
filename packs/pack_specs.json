@@ -13,7 +13,16 @@
    "bio_cardiac_out",
    "bio_water_pot",
    "bio_glycolysis_atp",
-   "bio_birth_rate"
+   "bio_birth_rate",
+   "bio_dna_len",
+   "bio_codon_aa",
+   "bio_f2_dom",
+   "bio_transform_eff",
+   "bio_rq",
+   "bio_cleavage",
+   "bio_map_pressure",
+   "bio_bmi",
+   "bio_doubling"
   ],
   "numeric_pin": [
    "bio_chargaff_g",
@@ -89,7 +98,12 @@
    "bio_pop_size",
    "bio_pop_density",
    "bio_birth_rate",
-   "bio_bact_growth"
+   "bio_bact_growth",
+   "bio_ten_pct",
+   "bio_npp",
+   "bio_lincoln",
+   "bio_peptide",
+   "bio_mitosis_cells"
   ],
   "numeric_pin": [
    "bio_magnif",
