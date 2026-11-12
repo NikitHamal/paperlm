@@ -37,6 +37,10 @@ PH = re.compile(r"\b(?:according to|as stated in|as per|as mentioned in|based on
 def clean_why(w):
     w = PH.sub("", (w or "").strip()); return w[:1].upper() + w[1:]
 BAD = re.compile(r"(all of the above|none of the|both [a-d]\b|\bpassage\b|\btext\b states|according to the)", re.I)
+HARD = re.compile(r"(all of the above|none of the|both [a-d]\b)", re.I)   # v16: only option-set cheats are fatal; passage-leak wording is sanitised away
+def san(s):
+    s = PH.sub("", (s or "").strip()); s = re.sub(r"\b(?:in|from) the (?:given )?(?:passage|text)\b,?\s*", "", s, flags=re.I)
+    return s[:1].upper() + s[1:] if s else s
 def okt(s, lo=2, hi=420): return isinstance(s, str) and lo <= len(s.strip()) <= hi and V.check_text(s.strip()) is None
 def mcq_prompt(a, title, style):
     return chat(f"Subject: {title}. Unit: {a['unit']}.\nTextbook passage:\n\"{a['anchor']}\"\n\nWrite ONE NEB-standard multiple-choice question ({style}) whose correct answer is stated in the passage. "
@@ -93,10 +97,11 @@ for pid in sys.argv[1:]:
             elif not okt(j.get("answer"), 1, 160): why_rej = "a_text"
             elif not isinstance(j.get("distractors"), list) or len(j["distractors"]) != 3: why_rej = "n_dist"
             if why_rej: REJ[why_rej] = REJ.get(why_rej, 0) + 1; continue
+            j["question"] = san(j["question"]); j["answer"] = san(j["answer"]); j["distractors"] = [san(d) if isinstance(d, str) else d for d in j["distractors"]]
             ds = [d.strip() for d in j["distractors"] if okt(d, 1, 160)]; why = clean_why(j.get("explanation", ""))
             if len(ds) != 3: why_rej = "d_text"
             elif not okt(why, 15, 300): why_rej = "why_text"
-            elif BAD.search(j["question"] + j["answer"] + " ".join(ds) + why): why_rej = "bad_phrase"
+            elif BAD.search(j["question"] + j["answer"] + " ".join(ds) + why) and (HARD.search(j["question"] + j["answer"] + " ".join(ds)) or re.search(r"\bpassage\b", j["question"] + j["answer"] + " ".join(ds), re.I)): why_rej = "bad_phrase"
             else:
                 allo = [x.strip().lower() for x in ds + [j["answer"]]]
                 if len(set(allo)) != 4: why_rej = "dup_opts"
@@ -119,7 +124,8 @@ for pid in sys.argv[1:]:
         part = jobs[c:c + 256]; raw = gen([short_prompt(f, S["title"], u, m) for u, m, f in part], max_new=330); items = []
         for (u, m, fs), r in zip(part, raw):
             j = pj(r)
-            if j and okt(j.get("question"), 15, 300) and okt(j.get("answer"), 20, 650) and not BAD.search(j["question"]): items.append(dict(type="short", marks=m, unit=u, facts=fs, anchor=" ".join(fs), question=j["question"].strip(), answer=j["answer"].strip()))
+            if j and isinstance(j.get("question"), str) and isinstance(j.get("answer"), str): j["question"] = san(j["question"]); j["answer"] = san(j["answer"])
+            if j and okt(j.get("question"), 15, 300) and okt(j.get("answer"), 20, 650) and not HARD.search(j["question"]): items.append(dict(type="short", marks=m, unit=u, facts=fs, anchor=" ".join(fs), question=j["question"].strip(), answer=j["answer"].strip()))
         for it in verify_short(items, amap): fo.write(json.dumps(it, ensure_ascii=False) + "\n"); nkeep += 1
         fo.flush(); status(pid, stage="short", done=c + len(part), total=len(jobs), kept=nkeep)
     status(pid, stage="done", kept=nkeep, raw=nraw, minutes=round((time.time() - t0) / 60, 1)); print(pid, "kept", nkeep, "raw", nraw, flush=True)
