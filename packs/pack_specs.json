@@ -121,21 +121,104 @@
  "math11": {
   "level": "C11",
   "subject": "mathematics",
-  "title": "Mathematics - Class 11 (NEB)"
+  "title": "Mathematics - Class 11 (NEB)",
+  "numeric": [
+   "quad_root",
+   "disc",
+   "ap_n",
+   "ap_sum",
+   "gp_n",
+   "gp_inf",
+   "deriv_pt",
+   "integral",
+   "dist",
+   "slope",
+   "tri_area",
+   "comb",
+   "prob2",
+   "det2",
+   "sine_rule",
+   "dot",
+   "limit",
+   "sum_sq",
+   "pythag",
+   "mean5",
+   "roots_sum",
+   "roots_prod",
+   "section_x",
+   "perm_npr",
+   "tan_height",
+   "avg_speed",
+   "trap_area",
+   "pct_change"
+  ]
  },
  "math12": {
   "level": "C12",
   "subject": "mathematics",
-  "title": "Mathematics - Class 12 (NEB)"
+  "title": "Mathematics - Class 12 (NEB)",
+  "numeric": [
+   "quad_root",
+   "disc",
+   "ap_n",
+   "ap_sum",
+   "gp_n",
+   "gp_inf",
+   "deriv_pt",
+   "integral",
+   "dist",
+   "slope",
+   "tri_area",
+   "comb",
+   "prob2",
+   "det2",
+   "comp_int",
+   "sine_rule",
+   "dot",
+   "limit",
+   "arc",
+   "sum_sq",
+   "circle_area",
+   "sphere_vol",
+   "pythag",
+   "mean5",
+   "roots_sum",
+   "roots_prod",
+   "section_x",
+   "perm_npr",
+   "tan_height",
+   "avg_speed",
+   "trap_area",
+   "pct_change"
+  ]
  },
  "cs11": {
   "level": "C11",
   "subject": "computer-science",
-  "title": "Computer Science - Class 11 (NEB)"
+  "title": "Computer Science - Class 11 (NEB)",
+  "numeric": [
+   "bin2dec",
+   "dl_time",
+   "subnet",
+   "image_kb",
+   "bits_needed",
+   "mem_kb",
+   "cpu_time",
+   "hex2dec"
+  ]
  },
  "cs12": {
   "level": "C12",
   "subject": "computer-science",
-  "title": "Computer Science - Class 12 (NEB)"
+  "title": "Computer Science - Class 12 (NEB)",
+  "numeric": [
+   "bin2dec",
+   "dl_time",
+   "subnet",
+   "bits_needed",
+   "mem_kb",
+   "cpu_time",
+   "hex2dec"
+  ]
  }
 }
