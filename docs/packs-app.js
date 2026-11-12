@@ -36,6 +36,8 @@ async function one(slot, rand, st) {
   if (slot.kind === "num") return numeric(slot.unit, rand);
   const src = $("src").value, bk = () => { const b = pack.bankItem(slot.unit, slot.kind, slot.marks, rand); if (b) st.bank++; return b; };
   if (src === "bank") return bk();
+  // circuit breaker: if the first 6 neural attempts of this run were all rejected by the strict gate, stop spending CPU on the neural tier (hybrid only); the verified bank serves the rest
+  if (src === "hybrid" && st.attempts >= 6 && st.ok === 0) { st.breaker = true; return bk(); }
   for (let tries = 0; tries < (src === "hybrid" ? 3 : 5); tries++) {
     const pool = slot.unit.facts, fact = tries === 0 && slot.fact ? slot.fact : pool[Math.floor(rand() * pool.length)]; st.attempts++;
     const it = await pack.makeItem(slot.unit, slot.kind, slot.marks, fact, { K: 3, rand }); if (it && !it.rejected) { st.ok++; st.score += it.score; return it; } st.rej++;
@@ -54,7 +56,7 @@ async function run() {
     if (it) { html += card(it, n); cov.add(it.unit); } else html += `<div class="q"><h3>Q${n}</h3><p class="muted">No item passed the grounding gate for this slot (never shown unverified).</p></div>`;
     $("out").innerHTML = html; }
   setStatus("Done in " + ((performance.now() - t0) / 1000).toFixed(1) + " s"); $("stats").hidden = false;
-  $("statsbody").innerHTML = `Neural attempts ${st.attempts}: accepted ${st.ok}, rejected ${st.rej}; verified-bank items ${st.bank}. Mean grounding of accepted ${(st.score / Math.max(1, st.ok)).toFixed(2)}. Units covered ${cov.size} of ${pack.graph.units.length}. Pack ${pack.meta.pack_id} stayed fully on-device.`;
+  $("statsbody").innerHTML = `${st.breaker ? "Neural tier paused after 6 gate rejections (verified bank used for the remaining slots). " : ""}Neural attempts ${st.attempts}: accepted ${st.ok}, rejected ${st.rej}; verified-bank items ${st.bank}. Mean grounding of accepted ${(st.score / Math.max(1, st.ok)).toFixed(2)}. Units covered ${cov.size} of ${pack.graph.units.length}. Pack ${pack.meta.pack_id} stayed fully on-device.`;
   busy = false; $("go").disabled = false;
 }
 document.querySelectorAll(".tabs button").forEach((b) => (b.onclick = () => { mode = b.dataset.mode; document.querySelectorAll(".tabs button").forEach((x) => x.setAttribute("aria-selected", x === b)); $("one").hidden = mode !== "one"; $("paper").hidden = mode !== "paper"; }));

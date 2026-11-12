@@ -1,106 +1,252 @@
 {
+ "bio12": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 3.816,
+  "slots": 6,
+  "neural_accepted": 0,
+  "bank_fallback": 6,
+  "attempts": 12,
+  "units_hit": 5,
+  "bank_items": 482,
+  "seconds": 3.5,
+  "samples": [
+   {
+    "unit": "Developmental Biology",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "Amphimixis occurs when the male pronucleus ($n = 13$) fuses with the female pronucleus ($n = 13$), forming a diploid zygote ($2n = 26$).",
+     "Explain the process of amphimixis during fertilization, including the chromosome numbers involved."
+    ]
+   },
+   {
+    "unit": "Biotechnology",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "practice testing and distributed practice",
+     "Which pair of study techniques did Dunlosky et al. (2013) rate as high utility?",
+     "highlighting and summarising",
+     "re-reading and imagery",
+     "keyword mnemonics and rereading",
+     "the only two of the ten reviewed techniques rated high utility."
+    ]
+   },
+   {
+    "unit": "Human Biology",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "QRS",
+     "In an electrocardiogram (ECG), which deflection represents the ventricular depolarization phase?",
+     "P",
+     "T",
+     "U",
+     "The QRS complex corresponds to ventricular depolarisation as per the standard ECG interpretation."
+    ]
+   },
+   {
+    "unit": "Biotechnology",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "In PCR, DNA copies double each cycle, resulting in $2^{n}$ copies after n cycles. In gel electrophoresis, negatively charged DNA moves to the anode; smaller fragments travel further. Linear DNA with n cuts yields n+1 fragments, while circular DNA yields n fragments.",
+     "Explain the principles of DNA replication in PCR and DNA separation in gel electrophoresis, including the number of fragments produced by linear and circular DNA with n cut sites."
+    ]
+   },
+   {
+    "unit": "Plant Anatomy",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "stomata",
+     "Which structure of a plant is primarily responsible for regulating transpiration?",
+     "xylem",
+     "root hairs",
+     "phloem",
+     "guard cells change the pore size. Xylem and phloem only conduct."
+    ]
+   },
+   {
+    "unit": "Applied Biology",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "unfertilised eggs",
+     "In a honeybee colony, drones develop from",
+     "fertilised eggs",
+     "larvae fed royal jelly",
+     "workers' eggs",
+     "drones are haploid, from unfertilised eggs (parthenogenesis); queen and workers are diploid."
+    ]
+   }
+  ]
+ },
+ "phy11": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 2.6584,
+  "slots": 6,
+  "neural_accepted": 1,
+  "bank_fallback": 5,
+  "attempts": 12,
+  "units_hit": 5,
+  "bank_items": 581,
+  "seconds": 4.4,
+  "samples": [
+   {
+    "unit": "Circular Motion",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "A leaning cyclist obeys the same relation, $\\tan\\theta = v^{2}/rg = 100/(20 \\times 10) = 0.50$, so $\\theta = 26.6^{\\circ}$ from the vertical.",
+     "A cyclist rides round a circular track of radius $20\\ \\text{m}$ at $10\\ \\text{m s}^{-1}$. Find the angle through which he must lean from the vertical. Take $g = 10\\ \\text{m s}^{-2}$."
+    ]
+   },
+   {
+    "unit": "Physical Quantities",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$[M^{-1}L^{3}T^{-2}]$",
+     "The dimensional formula of the universal gravitational constant is",
+     "$[ML^{3}T^{-2}]$",
+     "$[M^{-1}L^{2}T^{-2}]$",
+     "$[ML^{2}T^{-1}]$",
+     "$G = Fr^{2}/m_1m_2 = [MLT^{-2}][L^{2}]/[M^{2}]$."
+    ]
+   },
+   {
+    "unit": "Dynamics",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$\\dfrac1v + \\dfrac1u = \\dfrac1f$",
+     "The mirror formula is",
+     "$\\dfrac1v - \\dfrac1u = \\dfrac1f$",
+     "$\\dfrac1u - \\dfrac1v = \\dfrac1f$",
+     "$\\dfrac1v + \\dfrac1u = \\dfrac2f$",
+     "the plus sign is the mirror formula, the minus sign belongs to the lens formula. Option (a) is the single most costly mix-up in the whole optics section."
+    ]
+   },
+   {
+    "unit": "Heat and Temperature",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "The relationship is given by: $\\frac{C}{100} = \\frac{F-32}{180} = \\frac{K-273.15}{100}$. This shows how each scale's fraction represents the same temperature point.",
+     "Write the relationship between Celsius (C), Fahrenheit (F), and Kelvin (K) scales using a single formula."
+    ]
+   },
+   {
+    "unit": "Capacitor",
+    "kind": "mcq",
+    "source": "neural",
+    "segs": [
+     "$V = \\frac{1}{2}C_0$",
+     "What is the equivalent capacitance of a parallel-plate capacitor?",
+     "$\\varepsilon_0$",
+     "$\\varepsilon_0 A/d$",
+     "$C_0/C_0$",
+     "The formula for the capacitor gives $C_0$, and $C_0$ as $C_0$."
+    ]
+   },
+   {
+    "unit": "Dynamics",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "kinetic energy",
+     "In a perfectly inelastic collision, the quantity that is not conserved is",
+     "linear momentum",
+     "total energy",
+     "mass",
+     "momentum and total energy are conserved; kinetic energy is lost to heat and deformation."
+    ]
+   }
+  ]
+ },
  "bio11": {
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 4.1341,
-  "slots": 8,
+  "slots": 6,
   "neural_accepted": 0,
-  "bank_fallback": 8,
-  "attempts": 32,
+  "bank_fallback": 6,
+  "attempts": 12,
   "units_hit": 6,
-  "bank_items": 499,
-  "seconds": 17.2,
+  "bank_items": 496,
+  "seconds": 4.1,
   "samples": [
    {
-    "unit": "Evolutionary Biology",
+    "unit": "Biota and Environment",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "1. Hardy–Weinberg equilibrium assumes no mutation, migration, selection, and random mating in a large population. 2. Deviations from genotype frequencies $p^2$, $2pq$, $q^2$ suggest these conditions are not met. 3. Such deviations signify the population is evolving.",
-     "Explain how deviations from the Hardy–Weinberg equilibrium equation ($p^2 + 2pq + q^2 = 1$) indicate evolutionary changes in a population."
+     "Carrying capacity ($K$) is the maximum population size an environment can sustain indefinitely. Species interactions are categorized: + indicates benefit, - indicates harm, and 0 signifies no measurable effect.",
+     "Define carrying capacity ($K$) and describe how species interactions can be categorized using a table of signs (+, -, 0)."
     ]
    },
    {
-    "unit": "Biomolecules and Cell Biology",
+    "unit": "Introductory Microbiology",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "phospholipid",
-     "The lipid that forms the bilayer of a biological membrane is",
-     "triglyceride",
-     "wax",
-     "carotenoid",
-     "the phosphate head is hydrophilic and the two fatty-acid tails hydrophobic, so it forms a bilayer in water."
+     "capsid",
+     "The protein coat of a virus is called the",
+     "capsomere",
+     "capsule",
+     "envelope",
+     "the capsid is built of repeating protein subunits called capsomeres."
     ]
    },
    {
-    "unit": "Introduction to Biology",
+    "unit": "Vegetation",
     "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "altitude and the rainfall that goes with it",
+     "The vegetation of Nepal is chiefly determined by",
+     "longitude",
+     "soil colour",
+     "political boundaries",
+     "Nepal rises from about 60 m to 8848 m in under 200 km, so altitude compresses all the vegetation belts of Asia into one country."
+    ]
+   },
+   {
+    "unit": "Ecology",
+    "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "$M=M_{\\text{objective}}\\times M_{\\text{eyepiece}}$",
-     "What formula represents the magnification of a compound microscope?",
-     "$M=M_{\\text{objective}}+M_{\\text{eyepiece}}$",
-     "$M=\\frac{M_{\\text{objective}}}{M_{\\text{eyepiece}}}$",
-     "$M=M_{\\text{objective}}-M_{\\text{eyepiece}}$",
-     "The magnification of a compound microscope is calculated by multiplying the magnifications of the objective and eyepiece lenses."
-    ]
-   },
-   {
-    "unit": "Introduction to Biology",
-    "kind": "short",
-    "source": "bank:gold",
-    "segs": [
-     "(a) $M = 15 \\times 40 = 600\\times$.(b) Real length $= 24\\ \\text{mm} / 600 = 0.04\\ \\text{mm} = 40\\ \\mu\\text{m}$.(c) A light microscope cannot resolve detail finer than about 0.2 μm because of the wavelength of light, and a virus is only about 0.1 μm across — so it lies below the resolution limit, no matter how much the image is magnified.",
-     "a) Find the total magnification. b) A structure appears 24 mm long in the field of view at this magnification; find its real length in micrometres. c) State one reason why this microscope cannot show a virus."
-    ]
-   },
-   {
-    "unit": "Faunal Diversity",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "gills",
-     "The tadpole of a frog respires by",
-     "lungs",
-     "skin only",
-     "tracheae",
-     "external then internal gills; the switch to lungs is part of metamorphosis."
+     "Net primary production = $12{,}000\\ \\text{kJ m}^{-2} - 7500\\ \\text{kJ m}^{-2} = 4500\\ \\text{kJ m}^{-2}$. Food webs stabilize ecosystems by linking multiple food chains. Plants capture only about 1% of solar energy, initiating the food web.",
+     "Calculate the net primary production per hectare of sal forest in one year and explain the importance of a food web in an ecosystem."
     ]
    },
    {
     "unit": "Floral Diversity",
     "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "written in italics",
-     "According to the rules of nomenclature, a printed scientific name must be",
-     "underlined",
-     "written in capitals",
-     "written in brackets",
-     "italics in print, underlined separately when handwritten. In an exam, underline both words with two separate lines."
-    ]
-   },
-   {
-    "unit": "Evolutionary Biology",
-    "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The population, not the individual, evolves through changes in allele frequencies. With $p = 0.99$ and $q = 0.01$, the frequency of heterozygous carriers ($2pq$) is $2 \\times 0.99 \\times 0.01 = 0.0198$ or 1.98%. This means 1.98% of the population carries one allele for albinism. The ratio $\\frac{2pq}{q^2}$ equals 198, indicating 198 carriers per albino individual. Thus, evolutionary changes manifest as shifts in these frequencies across generations, affecting population genetics.",
-     "Given the provided genetic frequencies ($p = 0.99$, $q = 0.01$) for a trait like albinism, calculate the expected percentage of heterozygous carriers in the population and explain how this relates to the evolutionary concept that populations, rather than individuals, evolve."
+     "The position of the mother axis",
+     "In floral diversity diagrams, what does the dot at the top represent?",
+     "The number of petals",
+     "The height of the flower",
+     "The base of the stem",
+     "The dot at the top of each diagram represents the position of the mother axis as stated in the provided information."
     ]
    },
    {
-    "unit": "Conservation Biology",
+    "unit": "Introduction to Biology",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "Chitwan National Park, 1973",
-     "Which of the following is the first national park of Nepal?",
-     "Sagarmatha National Park, 1976",
-     "Bardiya National Park, 1988",
-     "Langtang National Park, 1976",
-     "Chitwan, gazetted in 1973, also Nepal's first World Heritage natural site."
+     "locomotion from place to place",
+     "Which of the following is not a characteristic of all living things?",
+     "metabolism",
+     "growth and reproduction",
+     "response to stimuli",
+     "plants are living but do not move from place to place; all living things show the other three."
     ]
    }
   ]
@@ -109,91 +255,56 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.6774,
-  "slots": 8,
+  "slots": 6,
   "neural_accepted": 0,
-  "bank_fallback": 8,
-  "attempts": 32,
-  "units_hit": 7,
-  "bank_items": 639,
-  "seconds": 18.8,
+  "bank_fallback": 6,
+  "attempts": 12,
+  "units_hit": 5,
+  "bank_items": 625,
+  "seconds": 5.9,
   "samples": [
    {
-    "unit": "Semiconductor devices",
+    "unit": "Quantization of energy",
     "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "The levels are drawn as horizontal lines at $E_n = -13.6/n^{2}\\ \\text{eV}$: $-13.6$ for $n=1$, $-3.40$ for $n=2$, $-1.51$ for $n=3$, $-0.85$ for $n=4$, $-0.54$ for $n=5$, and $0$ for $n = \\infty$. The lines crowd together as $n$ increases (Figure 20).",
+     "Draw the energy-level diagram of hydrogen and mark the Lyman, Balmer and Paschen series. [3]"
+    ]
+   },
+   {
+    "unit": "Thermoelectric effects",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "they lie at opposite ends of the thermoelectric series",
+     "Antimony and bismuth are chosen for a thermopile because",
+     "they are cheap",
+     "they melt at a high temperature",
+     "they are black",
+     "the widest separation in the series gives the largest thermo-e.m.f."
+    ]
+   },
+   {
+    "unit": "Alternating Currents",
+    "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Under forward bias, a p-n junction diode allows current when the applied voltage exceeds the knee voltage ($0.7\\ \\text{V}$ for Si, $0.3\\ \\text{V}$ for Ge), beyond which the current increases sharply. In reverse bias, a small reverse saturation current of a few microamps exists, due to thermally generated minority carriers. This current nearly doubles for each $10\\ ^\\circ\\text{C}$ increase in temperature but remains relatively stable with voltage. The knee voltage marks the threshold for significant forward current flow, while the reverse saturation current indicates leakage even when the diode blocks the main current.",
-     "Explain the behavior of a p-n junction diode under forward and reverse bias conditions, including the significance of the knee voltage and reverse saturation current, and how these parameters change with temperature."
+     "$x = \\frac{A}{\\sqrt{2}}$",
+     "At what displacement $x$ does the kinetic energy $K$ equal the potential energy $U$ for a system where $K = \\tfrac12m\\omega^{2}(A^{2} - x^{2})$ and $U = \\tfrac12m\\omega^{2}x^{2}$?",
+     "$x = A$",
+     "$x = \\frac{A}{2}$",
+     "$x = 0$",
+     "The equation provided directly states that $K = U$ when $x = \\frac{A}{\\sqrt{2}}$."
     ]
    },
    {
-    "unit": "Wave motion",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "$\\pi/2$",
-     "Two points in a progressive wave are $\\lambda/4$ apart. Their phase difference is",
-     "$\\pi/4$",
-     "$\\pi$",
-     "$2\\pi$",
-     "$\\Delta\\phi = (2\\pi/\\lambda)(\\lambda/4) = \\pi/2$."
-    ]
-   },
-   {
-    "unit": "Periodic motion",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "the mass of the bob",
-     "The period of a simple pendulum does not depend on",
-     "its length",
-     "the acceleration due to gravity",
-     "any of these",
-     "mass cancels between the restoring force and the inertia."
-    ]
-   },
-   {
-    "unit": "Polarization",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "The polarizing angle $\\theta_p = \\tan^{-1}(1.5) \\approx 56.31^\\circ$. The corresponding angle of refraction $r$ is found using Snell's law: $1.5 \\sin(r) = \\sin(56.31^\\circ)$, giving $r \\approx 33.69^\\circ$.",
-     "Calculate the polarizing angle for a glass with a refractive index of $1.5$ and determine the corresponding angle of refraction."
-    ]
-   },
-   {
-    "unit": "Electromagnetic Induction",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "energy",
-     "Lenz's law is a consequence of the conservation of",
-     "charge",
-     "momentum",
-     "mass",
-     "if the induced current aided the change, energy would be created from nothing. Charge conservation (a) belongs to Kirchhoff's junction rule."
-    ]
-   },
-   {
-    "unit": "Photons",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "$620\\ \\text{nm}$",
-     "A metal of work function $2.0\\ \\text{eV}$ has a threshold wavelength of",
-     "$310\\ \\text{nm}$",
-     "$1240\\ \\text{nm}$",
-     "$2480\\ \\text{nm}$",
-     "$\\lambda_0 = 1240/2.0 = 620\\ \\text{nm}$."
-    ]
-   },
-   {
-    "unit": "Polarization",
+    "unit": "Thermoelectric effects",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "(a) Polarization is the restriction of the vibrations of the electric vector of a transverse wave to a single plane (plane of vibration), perpendicular to the direction of travel.",
-     "a) What is polarization of light? [1] b) How can you tell a polaroid sunglass from an ordinary tinted one? [1] c) What does polarization prove about the nature of light? [1] d) Name two uses of polaroids. [2] (NEB 2079 model, part)"
+     "Total e.m.f. $E = NS\\,\\Delta\\theta = 50 \\times 100 \\times 0.40 = 2000\\ \\mu\\text{V} = 2.0\\times10^{-3}\\ \\text{V}$. Hence",
+     "Describe the construction and working of a thermopile and give two of its uses. A thermopile of $50$ antimony–bismuth couples, each of thermoelectric power $100\\ \\mu\\text{V}\\,^{\\circ}\\text{C}^{-1}$, is connected to a galvanometer of total circuit resistance $25\\ \\Omega$. Find the current when the junctions differ by $0.40\\,^{\\circ}$C."
     ]
    },
    {
@@ -201,12 +312,193 @@
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "5",
-     "The maximum coefficient of performance of a refrigerator working between $250\\ \\text{K}$ and $300\\ \\text{K}$ is",
-     "6",
-     "0.2",
-     "1.2",
-     "$\\beta_{\\max} = T_2/(T_1-T_2) = 250/50 = 5$."
+     "$600\\ \\text{K}$",
+     "A Carnot engine has a sink at $300\\ \\text{K}$ and an efficiency of $50\\%$. The source temperature is",
+     "$450\\ \\text{K}$",
+     "$900\\ \\text{K}$",
+     "$150\\ \\text{K}$",
+     "$0.5 = 1 - 300/T_1$ gives $T_1 = 600\\ \\text{K}$."
+    ]
+   },
+   {
+    "unit": "Electrical circuits",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$3.48\\ \\text{A}$",
+     "An 800 W toaster is connected to a 230 V electrical supply. What is the current drawn by the toaster?",
+     "$8.70\\ \\text{A}$",
+     "$66.1\\ \\text{A}$",
+     "$2.52\\ \\text{A}$",
+     "The current drawn by an 800 W toaster from a 230 V supply is calculated as $I = \\frac{P}{V} = 3.48\\ \\text{A}$."
+    ]
+   }
+  ]
+ },
+ "chem11": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 2.941,
+  "slots": 6,
+  "neural_accepted": 0,
+  "bank_fallback": 6,
+  "attempts": 12,
+  "units_hit": 6,
+  "bank_items": 219,
+  "seconds": 7.0,
+  "samples": [
+   {
+    "unit": "Chemistry of Non-metals",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "(a) Dilute: $3\\text{Cu} + 8\\text{HNO}_3 \\to 3\\text{Cu(NO}_3)_2 + 2\\text{NO}\\uparrow + 4\\text{H}_2\\text{O}$.(b) Concentrated: $\\text{Cu} + 4\\text{HNO}_3 \\to \\text{Cu(NO}_3)_2 + 2\\text{NO}_2\\uparrow + 2\\text{H}_2\\text{O}$ (brown fumes). Nitric acid acts as an oxidizing agent: the nitrogen is reduced from $+5$ to $+2$ (dilute) or $+4$ (concentrated), while copper is oxidized from $0$ to $+2$.",
+     "a) dilute and b) concentrated nitric acid, and state the role of the acid."
+    ]
+   },
+   {
+    "unit": "States of Matter",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "a straight line through the origin",
+     "At constant temperature, the graph of pressure against $1/V$ for a fixed mass of gas is",
+     "a hyperbola",
+     "a parabola",
+     "a horizontal line",
+     "Boyle's law gives $P = k(1/V)$, of the form $y = mx$."
+    ]
+   },
+   {
+    "unit": "Fundamentals of Applied Chemistry",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "the reactor is charged, the reaction is completed, and the product is removed",
+     "A batch process is one in which",
+     "feed enters and product leaves continuously",
+     "only gases react",
+     "no catalyst is used",
+     "(a) describes a continuous process."
+    ]
+   },
+   {
+    "unit": "Hydrocarbons",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "The balanced equation is 2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O. Moles of ethyne = 5.6 / 22.4 = 0.25 mol. From the equation, 2 mol of C₂H₂ gives 4 mol of CO₂, i.e. 1 mol gives 2 mol, so moles of CO₂ = 2 × 0.25 = 0.50 mol. Mass of CO₂ = 0.50 × 44 = 22 g.",
+     "5.6 dm³ of ethyne at STP is burnt completely. Calculate the mass of carbon dioxide formed."
+    ]
+   },
+   {
+    "unit": "Fundamental Principles of Organic Chemistry",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "–C(CH₃)₃",
+     "Which of the following shows the +I effect?",
+     "–NO₂",
+     "–CN",
+     "–COOH",
+     "alkyl groups release electrons; –NO₂, –CN and –COOH are all –I."
+    ]
+   },
+   {
+    "unit": "Foundation and Fundamentals",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "HO",
+     "The empirical formula of hydrogen peroxide (H₂O₂) is",
+     "H₂O₂",
+     "H₂O",
+     "HO₂",
+     "divide both subscripts by the HCF 2."
+    ]
+   }
+  ]
+ },
+ "chem12": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 3.4853,
+  "slots": 6,
+  "neural_accepted": 0,
+  "bank_fallback": 6,
+  "attempts": 12,
+  "units_hit": 5,
+  "bank_items": 372,
+  "seconds": 7.0,
+  "samples": [
+   {
+    "unit": "Ethers",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "(a) Ether forms peroxides by auto-oxidation in air; iron wire reduces the peroxides as they form. Ethanol dissolves in water because it forms hydrogen bonds with water through its –OH group.(b) Cold HI: C₂H₅OC₂H₅ + HI → C₂H₅OH + C₂H₅I. Conc. H₂SO₄ (cold): ether dissolves as an oxonium salt, [(C₂H₅)₂OH]⁺HSO₄⁻, because the oxygen lone pair can accept a proton. Cl₂ in sunlight: substitution at the carbon next to oxygen, C₂H₅OC₂H₅ + 10Cl₂ → C₂Cl₅OC₂Cl₅ + 10HCl (perchloroethoxyethane with excess chlorine).",
+     "a) Give reasons: ether is stored in a bottle containing iron wire; ethanol, though organic, is soluble in water. [2] b) Write the action of ethoxyethane with cold HI, conc. H₂SO₄ and chlorine in sunlight. [3] (NEB 2081 for (a))"
+    ]
+   },
+   {
+    "unit": "Studies of Heavy Metals",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "copper pyrite",
+     "The chief ore of copper is",
+     "cuprite",
+     "malachite",
+     "azurite",
+     "CuFeS₂ supplies most of the world's copper; the others are minor ores."
+    ]
+   },
+   {
+    "unit": "Cement",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "C₃S",
+     "Which Bogue compound is mainly responsible for early strength?",
+     "C₂S",
+     "C₃A",
+     "C₄AF",
+     "C₃S hydrates in hours to days."
+    ]
+   },
+   {
+    "unit": "Chemical Kinetics",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "For A → products, let the initial concentration be a and let x have reacted in time t. The rate is proportional to the concentration left:",
+     "Derive the integrated equation for a first-order reaction, k = (2.303/t) log[a/(a − x)], and show that t½ is independent of the initial concentration. [3]"
+    ]
+   },
+   {
+    "unit": "Ethers",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "(CH₃)₃CONa + CH₃I",
+     "The best pair of reagents for preparing 2-methoxy-2-methylpropane is",
+     "CH₃ONa + (CH₃)₃CBr",
+     "CH₃OH + (CH₃)₃COH",
+     "CH₃Br + (CH₃)₃CBr",
+     "the bulky group must be the alkoxide; (a) would give 2-methylpropene by elimination."
+    ]
+   },
+   {
+    "unit": "Amines",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "an azo dye",
+     "Benzenediazonium chloride coupled with phenol in alkaline medium gives",
+     "chlorobenzene",
+     "benzene",
+     "nitrobenzene",
+     "electrophilic attack by the diazonium ion at the para position of phenol gives p-hydroxyazobenzene, an orange dye."
     ]
    }
   ]
