@@ -15,7 +15,7 @@ SYS = "You are a senior Nepal NEB board examiner who writes precise, factually e
 YES, NO = tk.encode("Yes")[0], tk.encode("No")[0]; LET = [tk.encode(x)[0] for x in "ABCD"]
 def chat(u): return tk.apply_chat_template([{"role": "system", "content": SYS}, {"role": "user", "content": u}], tokenize=False, add_generation_prompt=True)
 @torch.no_grad()
-def gen(prompts, max_new=230, bs=256, temp=0.7):
+def gen(prompts, max_new=230, bs=128, temp=0.7):
     out = []
     for i in range(0, len(prompts), bs):
         b = tk(prompts[i:i + bs], return_tensors="pt", padding=True).to("cuda")
