@@ -37,3 +37,19 @@ def samples():
             g = x["segs"]; txt = (f"Q: {g[1]}\n  key: {g[0]}\n  distractors: {' | '.join(g[2:5])}\n  why: {g[5]}" if x["type"] == "mcq" and len(g) >= 6 else f"Q: {g[1] if len(g)>1 else ''}\n  A: {g[0] if g else ''}")
             out += f"<div style='font-size:12px;margin:6px 0;white-space:pre-wrap;font-family:ui-monospace,monospace;background:#f1f1e8;border-radius:10px;padding:8px'>[{pid}] {H.escape(x['unit'])} (score {x['score']}, gate {x['gate']})\n{H.escape(txt)}</div>"
     return _card("Real generated questions (verbatim, by the specialist 10M models)", out or "none yet")
+def chain():
+    """wave7 pipeline card: verified teacher items per pack, stage flags, and the live bank-QA reports of the shipped packs."""
+    ids = "bio12 phy11 bio11 phy12 chem11 chem12 math11 math12 cs11 cs12".split(); rows = ""
+    for p in ids:
+        n = 0
+        for f in glob.glob(f"/tmp/packs/{p}/verified*.jsonl"):
+            try: n += sum(1 for _ in open(f))
+            except Exception: pass
+        done = os.path.exists(f"/tmp/paperlm/TRAINED_{p}")
+        rows += f"<div style='font-size:12px;margin:3px 0'><b>{p}</b> verified teacher items {n} {_bar(min(1, n/300))} {'trained + exported' if done else ''}</div>"
+    fl = [("TEACHER7_DONE", "teacher rounds"), ("WAVE7_DONE", "train + export + publish + push")]
+    st = " - ".join(f"{t}: {'done' if os.path.exists('/tmp/paperlm/'+f) else 'pending'}" for f, t in fl)
+    qa = ""
+    for p in sorted(glob.glob("/work/paperlm/packs/*/bank_qa_report.json")):
+        r = _j(p); qa += f"<div style='font-size:12px'>{r.get('pack')}: bank {r.get('bank_in')} -> {r.get('bank_kept')} ({r.get('mcq')} MCQ, {r.get('written')} written) drops {H.escape(json.dumps(r.get('reasons')))}</div>"
+    return _card("wave7 chain (teacher -> train -> TFLite -> publish -> push) and bank QA", f"<div style='font-size:13px;margin-bottom:6px'>{st}</div>{rows}<div style='margin-top:8px;font-weight:600;font-size:12px'>Bank QA gate</div>{qa}")

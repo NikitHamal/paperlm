@@ -8,8 +8,8 @@
   "bank_fallback": 6,
   "attempts": 12,
   "units_hit": 5,
-  "bank_items": 482,
-  "seconds": 3.5,
+  "bank_items": 481,
+  "seconds": 3.6,
   "samples": [
    {
     "unit": "Developmental Biology",
@@ -92,8 +92,8 @@
   "bank_fallback": 5,
   "attempts": 12,
   "units_hit": 5,
-  "bank_items": 581,
-  "seconds": 4.4,
+  "bank_items": 571,
+  "seconds": 4.5,
   "samples": [
    {
     "unit": "Circular Motion",
@@ -122,12 +122,12 @@
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "$\\dfrac1v + \\dfrac1u = \\dfrac1f$",
-     "The mirror formula is",
-     "$\\dfrac1v - \\dfrac1u = \\dfrac1f$",
-     "$\\dfrac1u - \\dfrac1v = \\dfrac1f$",
-     "$\\dfrac1v + \\dfrac1u = \\dfrac2f$",
-     "the plus sign is the mirror formula, the minus sign belongs to the lens formula. Option (a) is the single most costly mix-up in the whole optics section."
+     "both $\\sum F = 0$ and $\\sum \\tau = 0$",
+     "A rigid body is in complete equilibrium when",
+     "$\\sum F = 0$ only",
+     "$\\sum \\tau = 0$ only",
+     "its velocity is zero",
+     "translational and rotational equilibrium are both needed."
     ]
    },
    {
@@ -155,14 +155,14 @@
    {
     "unit": "Dynamics",
     "kind": "mcq",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "kinetic energy",
-     "In a perfectly inelastic collision, the quantity that is not conserved is",
-     "linear momentum",
-     "total energy",
-     "mass",
-     "momentum and total energy are conserved; kinetic energy is lost to heat and deformation."
+     "The friction force adjusts to balance the applied force, up to its maximum limit.",
+     "Why does a block at rest feel 5 N of friction when pushed with a 5 N force, even though the maximum static friction $\\mu N = 20\\ \\text{N}$?",
+     "The block's weight increases the normal force, reducing the required friction.",
+     "Static friction always equals the applied force regardless of the block's motion.",
+     "The coefficient of friction decreases as the applied force increases.",
+     "The friction force only needs to match the applied force to keep the block at rest, not reach its maximum limit."
     ]
    }
   ]
@@ -176,8 +176,8 @@
   "bank_fallback": 6,
   "attempts": 12,
   "units_hit": 6,
-  "bank_items": 496,
-  "seconds": 4.1,
+  "bank_items": 494,
+  "seconds": 4.3,
   "samples": [
    {
     "unit": "Biota and Environment",
@@ -206,12 +206,12 @@
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "altitude and the rainfall that goes with it",
-     "The vegetation of Nepal is chiefly determined by",
-     "longitude",
-     "soil colour",
-     "political boundaries",
-     "Nepal rises from about 60 m to 8848 m in under 200 km, so altitude compresses all the vegetation belts of Asia into one country."
+     "the Terai and Bhabar up to about 1000 m",
+     "Sal (Shorea robusta) forest is the characteristic vegetation of",
+     "the alpine zone",
+     "the trans-Himalayan zone",
+     "above 3000 m",
+     "sal is the dominant hardwood of the Terai, Bhabar and lower Siwalik."
     ]
    },
    {
@@ -260,16 +260,16 @@
   "bank_fallback": 6,
   "attempts": 12,
   "units_hit": 5,
-  "bank_items": 625,
-  "seconds": 5.9,
+  "bank_items": 614,
+  "seconds": 6.1,
   "samples": [
    {
     "unit": "Quantization of energy",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "The levels are drawn as horizontal lines at $E_n = -13.6/n^{2}\\ \\text{eV}$: $-13.6$ for $n=1$, $-3.40$ for $n=2$, $-1.51$ for $n=3$, $-0.85$ for $n=4$, $-0.54$ for $n=5$, and $0$ for $n = \\infty$. The lines crowd together as $n$ increases (Figure 20).",
-     "Draw the energy-level diagram of hydrogen and mark the Lyman, Balmer and Paschen series. [3]"
+     "Excitation energy is the energy that must be supplied to lift an electron from the ground state to a higher (excited) level; the first excitation energy of hydrogen is $E_2-E_1$.",
+     "Define excitation energy, excitation potential, ionisation energy and ionisation potential. [3]"
     ]
    },
    {
@@ -301,10 +301,10 @@
    {
     "unit": "Thermoelectric effects",
     "kind": "short",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "Total e.m.f. $E = NS\\,\\Delta\\theta = 50 \\times 100 \\times 0.40 = 2000\\ \\mu\\text{V} = 2.0\\times10^{-3}\\ \\text{V}$. Hence",
-     "Describe the construction and working of a thermopile and give two of its uses. A thermopile of $50$ antimony–bismuth couples, each of thermoelectric power $100\\ \\mu\\text{V}\\,^{\\circ}\\text{C}^{-1}$, is connected to a galvanometer of total circuit resistance $25\\ \\Omega$. Find the current when the junctions differ by $0.40\\,^{\\circ}$C."
+     "At neutral temperature, $E = 0$. Thus, $0 = \\alpha\\theta_n + \\frac{1}{2}\\beta\\theta_n^{2}$. Solving gives $\\theta_n = -\\frac{2\\alpha}{\\beta}$.",
+     "Derive the expression for the neutral temperature in a copper-iron thermocouple using $E = \\alpha\\theta + \\frac{1}{2}\\beta\\theta^{2}$."
     ]
    },
    {
@@ -345,7 +345,7 @@
   "attempts": 12,
   "units_hit": 6,
   "bank_items": 219,
-  "seconds": 7.0,
+  "seconds": 7.1,
   "samples": [
    {
     "unit": "Chemistry of Non-metals",
@@ -428,8 +428,8 @@
   "bank_fallback": 6,
   "attempts": 12,
   "units_hit": 5,
-  "bank_items": 372,
-  "seconds": 7.0,
+  "bank_items": 368,
+  "seconds": 7.1,
   "samples": [
    {
     "unit": "Ethers",
