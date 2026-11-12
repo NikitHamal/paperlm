@@ -1,12 +1,12 @@
 {
  "pack": "phy11",
- "bank_in": 1033,
- "bank_kept": 968,
- "dropped": 65,
+ "bank_in": 1510,
+ "bank_kept": 1400,
+ "dropped": 110,
  "reasons": {
-  "leaked_context": 27,
-  "answer_giveaway": 16,
-  "needs_figure": 10,
+  "leaked_context": 55,
+  "needs_figure": 23,
+  "answer_giveaway": 21,
   "stem_fragment": 5,
   "empty_or_tiny_stem": 3,
   "orphan_stem": 3,
@@ -14,7 +14,7 @@
   "answer_misses_part": 1,
   "dup_option": 1
  },
- "mcq": 743,
- "written": 225,
+ "mcq": 1093,
+ "written": 307,
  "units": 26
 }

@@ -1,196 +1,196 @@
 [
  {
+  "unit": "Permutation and Combination",
+  "type": "mcq",
+  "anchor": "The $r^{\\text{th}}$ box is the $r^{\\text{th}}$ in the list $n, n-1, n-2, \\ldots$, so it can be filled in $n-(r-1) = n-r+1$ ways.",
+  "segs": [
+   "$n-1$",
+   "What is the number of ways $n$ objects in the $n$ distinct objects?",
+   "$n!$",
+   "$n^{n}$",
+   "$n!/n$",
+   "The passage explicitly states that $(n-1)!$ unique circular permutations in $n$ distinct arrangements."
+  ],
+  "score": 0.55,
+  "gate": false
+ },
+ {
   "unit": "Complex Numbers",
   "type": "mcq",
-  "anchor": "Answer: $1+\\omega=-\\omega^{2}$, so $1+\\omega-\\omega^{2}=-2\\omega^{2}$; $(-2\\omega^{2})^{3}=-8\\omega^{6}=-8$.",
+  "anchor": "The number $i$ with $i^{2}=-1$ was introduced to solve it, and numbers of the form $z=x+iy$ ($x,y$ real) are called complex numbers.",
   "segs": [
-   "$-2$",
-   "The sum of the vectors $\\omega$ is $1+\\omega$ and $\\omega$?",
-   "$\\omega^{3}$",
-   "$1$",
-   "$16$",
-   "$\\omega^{5}=16$, so $\\omega^{30}=\\omega^{360}$."
+   "$i$",
+   "What is the complex number in the complex number $z^{2}=r^{2}$?",
+   "$i$",
+   "$-i$",
+   "$i^{2}-i$",
+   "The equation $i^{2i}+i\\sin\\theta=-1$ is $i^{3}=-1$ and $z^{3} = r^{2}+i$."
   ],
-  "score": 0.57,
+  "score": 0.35,
   "gate": false
  },
  {
-  "unit": "Derivatives",
+  "unit": "Anti-derivatives",
   "type": "mcq",
-  "anchor": "Moving from $x$ to $x + \\\\Delta x$, the curve rises by $\\\\Delta y$ but the tangent rises by only $dy = f'(x)\\\\,dx$.",
+  "anchor": "Sketch the curves, roughly but with the intersections and axis crossings in the right places. Find the limits by solving the two equations simultaneously, or by setting $y=0$ if one boundary is the axis.",
   "segs": [
-   "$f(x) = f(x)$",
-   "For the curve $y = x^2 - g(x) = x^2$ on $x$, which is the same derivative test?",
-   "$\\frac{1}{2}$",
-   "$\\frac{dy}{dx} = f(x^2 - f(x) + f(x) = 0$",
-   "$\\frac1x - f(x +) = f(y)$",
-   "both lines of $x$-axis, so the curve is increasing at $x = 0$, and decreasing."
+   "It indicates the curves $y=0$, $x=0$, and $y=0,0$",
+   "What is the equations of a circle with maximum value $x=0,dy$ and $y=x+B$?",
+   "It simplifies the integral with the $x=0.5$.",
+   "It is the area of the curves with the $y=0.0$.",
+   "It simplifies the area using the curve $y=0 \\quad \\text{ or } x=0$.",
+   "The equation $x=0\\cdot1$ is calculated as the area under the curve $y = x^2 + y^2$."
   ],
-  "score": 0.467,
+  "score": 0.575,
   "gate": false
  },
  {
-  "unit": "Sequence and Series",
+  "unit": "Complex Numbers",
   "type": "short",
-  "anchor": "Putting $x = -1$ in the exponential series gives $e^{-1} = 1 - 1 + \\frac{1}{2!} - \\frac{1}{3!} + \\cdots$, which is how the \"alternating factorial\" series are recognised.",
+  "anchor": "Find the five fifth roots of $32$ and show that their sum is zero. If $\\omega$ is a complex cube root of unity, find the value of $\\omega^{100} + \\omega^{200} + \\omega^{300}$. Write $H=\\frac{u^{2}\\sin^{2}\\theta}{2g}$ out fully before substituting.",
   "segs": [
-   "The exponential series $\\frac{1}{2!} + \\frac{1}{3!} + \\frac13^{3} + \\cdots$, which simplifies to $x^{3} - \\cdots + \\cdots$, and each series is $x^{4} - \\frac{1}4\\left(1-\\frac{1}2\\right)^{1/3}$, $x^{5}$, $-2^{5} = 1$:",
-   "Calculate the series $\\frac{dy}{dx} = 1 + \\frac{1/x^{5-1}}{5} + \\frac{x^{50}}{5^{5}} + \\cdots$ in the series $x^{1/2} + \\frac{2^{3}}{3} + \\frac{3^{5}(1-0)^{5}\\cdots}{0}$."
+   "$1 + \\omega + \\omega^{3} = 0$, $\\omega^{3}=0$, $\\omega=\\omega^{300}=0$.",
+   "a) Show that $\\omega^{2}=0$ and $\\omega^{100}=1$. Show that the cube roots are the cube root of unity, show that $\\omega^2 = \\omega^2 + \\omega^3 + \\omega^2 = -\\omega^3$. Show that $\\omega$ is the cube root of the cube root of $\\omega^{-10}$. b) Show that $1^{3}+\\omega^{32}=0.01$. [2] b) Show that the"
   ],
-  "score": 0.789,
+  "score": 1.0,
+  "gate": true
+ },
+ {
+  "unit": "Retained Examinable Topics",
+  "type": "mcq",
+  "anchor": "$$T = \\frac{1}{2}\\left[1.142857 + 2(1.450000)\\right] = \\frac{1}{2}(4.042857) = 2.021429$$ (b) Odd-numbered ordinates: $0.500000 + 0.250000 + 0.166667 = 0.916667$.",
+  "segs": [
+   "$0.8257$",
+   "Using the true value of $n$, what is the value of $1.625667$?",
+   "$0.0035$",
+   "$1.614$",
+   "$0.1526$",
+   "The sum of the first $n$-1 as $1.6021$ is explicitly stated as $0.90025$."
+  ],
+  "score": 0.45,
   "gate": false
  },
  {
-  "unit": "Conic Sections",
+  "unit": "Differential Equations",
   "type": "mcq",
-  "anchor": "(Unit 8, parabola) Find the equation of the parabola with vertex at the origin, axis along the $y$-axis, passing through $(4,-2)$.",
+  "anchor": "Divide by $x$ to reach standard form: $$\\frac{dy}{dx} + \\frac{2}{x}y = x^{2}, \\qquad\\text{so } P = \\frac2x, \\; Q = x^{2}$$ Step 2.",
   "segs": [
-   "$(2,-2)$",
-   "What is the equation of the parabola with the origin with $x = 8$?",
-   "$x = 1$",
-   "$x = 0$",
-   "$x$",
-   "The correct equation $x^2 = 8x$ is derived from the locus with the line above the parabola."
+   "$x = \\frac{2}{x}$",
+   "What is the integrating factor of $\\frac{dy}{dx} + \\frac{dy}{dy} = x^{2}$?",
+   "$\\frac{dy}2x^{2}+y^{2} = x^2 + 2xy$",
+   "$x^2 + y^2 = x^2$",
+   "$x = x + x + x$",
+   "The equation $\\frac{dy^2 x}{2x} + \\frac{2y}{dx} = x^3$ correctly represents the equation $\\frac{dx}{x^2} + x\\frac{dy}\\right|$."
   ],
-  "score": 0.579,
+  "score": 0.944,
+  "gate": true
+ },
+ {
+  "unit": "Matrix Based System of Linear Equations",
+  "type": "mcq",
+  "anchor": "it states $0 = 5$, an impossibility, so the system is inconsistent.",
+  "segs": [
+   "$0 = -5$",
+   "If the system $AX = B$ with $B$ with $A$, $B$ with a unique solution if $0 = 5$, what is the system of equations?",
+   "$0 = 20$",
+   "$0 = 30$",
+   "$10 = -5 \\notin \\mathbb{Z}$",
+   "The system has a unique solution when the system is inconsistent and has no solution."
+  ],
+  "score": 0.6,
   "gate": false
  },
  {
   "unit": "Differential Equations",
   "type": "short",
-  "anchor": "Proportional change gives $\\frac{dy}{dt} = ky$ and $y = y_{0}e^{kt}$: growth for $k>0$, decay for $k<0$, with half-life $T = \\frac{\\ln 2}{\\lambda}$.",
+  "anchor": "Divide by $x$ to reach standard form: $$\\frac{dy}{dx} + \\frac{2}{x}y = x^{2}, \\qquad\\text{so } P = \\frac2x, \\; Q = x^{2}$$ Step 2.",
   "segs": [
-   "The growth for $\\frac{2}{\\lambda} = \\frac{\\ln 2}{10}$, and $\\frac{2.2}{100} = \\frac{-2.32}{2} \\approx 0.0326$.",
-   "Calculate the population present for a population of a differential equation."
+   "$\\frac{dy}{dx} + \\frac{y}{dx} = x^{2}$, $\\frac{dy}2x^{2}+2x+2y = x$:",
+   "a) Find the integrating factor of $\\frac{dy\\left(x^{2x}{2y^{2}}\\right)} + \\frac{dy}{dy} = x^2 + x^{2x^{3}}$. [2] b) Express $y^{2x+2}$. [3] b) Find the general solution of the differential equation $\\frac{dy^{2}y^{2 } x^{2xy} + \\frac{2x}y} + \\frac{x^{22}{2x} + \\frac{dx}{x^{3/2} = x^3$. [2+2] (NEB 2080 Q22c; NEB 2082 Q22c, 2082, 2081 Q222c. The general solution is $\\frac{dy + y^"
   ],
-  "score": 0.781,
+  "score": 0.872,
+  "gate": true
+ },
+ {
+  "unit": "Correlation and Regression",
+  "type": "mcq",
+  "anchor": "$$r_s=1-\\frac{6\\sum d^{2}}{n(n^{2}-1)}$$ where $d$ is the difference between the two ranks of each item.",
+  "segs": [
+   "$\\frac{6\\sum d^{2}}{n(n^{2}-1)}$",
+   "Given two ranks $n$ and $d$, $r$ are the sum of the ranks, the sum of the first $n$, $n$, and $n$. If $r$ is the sum of the squares of the first $r$ is $n$ objects, $r$ is an anticlockwiseed",
+   "$\\frac{n(n-1)(n-2)}{6}$",
+   "$r=\\frac{n(1)(n+1)}{2}$",
+   "$\\frac{6n(n-2r)}{6n(r-r)}$",
+   "The correct formula $r^{2}$ correctly calculates the sum of the sum of the arithmetic mean of the ranks in the first $r(n-1,r)$."
+  ],
+  "score": 0.821,
   "gate": false
  },
  {
-  "unit": "Retained Examinable Topics",
+  "unit": "Differential Equations",
   "type": "mcq",
-  "anchor": "Simpson's $\\tfrac13$ rule ($n$ even): $\\dfrac h3\\big[f_0+4(f_1+f_3+\\cdots)+2(f_2+f_4+\\cdots)+f_n\\big]$.",
+  "anchor": "Divide by $x$ to reach standard form: $$\\frac{dy}{dx} + \\frac{2}{x}y = x^{2}, \\qquad\\text{so } P = \\frac2x, \\; Q = x^{2}$$ Step 2.",
   "segs": [
-   "$n$ even",
-   "For the expression for $n$ strips of strips, the strips is",
-   "$n(n,2)$",
-   "$n$",
-   "$n(2n-1)$",
-   "L's rule with $n=2$: $n=4$, so $n=3$."
+   "$\\frac{dy}{dx} = \\frac{1}{x^{2}+y^{2}}$",
+   "What is the integrating factor of $\\frac{dy}5y^{2x}$?",
+   "$\\frac{dy^{2}y}{x^2} = \\frac{2x}{2}$",
+   "$\\frac{1}{2} = x\\frac{1} + x^{2}$, $\\frac{dy^2}{x^3} = x^2$",
+   "$\\frac x^2 = 2x^2 + 2xy$, $\\frac12$",
+   "The correct form includes all the derivative of the first equation."
   ],
-  "score": 0.8,
-  "gate": false
+  "score": 0.914,
+  "gate": true
  },
  {
-  "unit": "Complex Numbers",
+  "unit": "Anti-derivatives",
   "type": "mcq",
-  "anchor": "Example: $1+i=\\sqrt2\\,(\\cos45^{\\circ}+i\\sin45^{\\circ})$.",
+  "anchor": "Sketch the curves, roughly but with the intersections and axis crossings in the right places. Find the limits by solving the two equations simultaneously, or by setting $y=0$ if one boundary is the axis.",
   "segs": [
-   "$120^{\\circ}$",
-   "For $i$, $i$, and $i$ are unit vectors, is",
-   "$12$",
-   "$-1$",
-   "$-2$",
-   "$i$ satisfies $i^{2}=-1$; the angle $1$ and $1$, i.e. $i^{-1}$."
+   "The curves $y=0$, $x=0$, and $y=0,0$",
+   "What is the relationship between the curves $y=vx$ and $y=vx=0$?",
+   "The curves $y = x$, $dv=0$, the $y=0.5$",
+   "The area is the curves $y = y=0$ degrees.",
+   "The curves $x=0,y=0$ and $y = x^2$ have the curve.",
+   "The curves $y^2 = y^2$ and $dx=0$ approaches the area between the curves $x=1$ and $y^2=0$."
   ],
-  "score": 0.8,
-  "gate": false
+  "score": 0.873,
+  "gate": true
  },
  {
   "unit": "Binomial Theorem",
   "type": "short",
   "anchor": "Middle term of $\\left(x+\\dfrac1x\\right)^{10}$: it is $T_6={}^{10}C_5\\,x^{5}\\left(\\dfrac1x\\right)^{5}=252$.",
   "segs": [
-   "(a) $T_6={}^{10}C_5\\left(1-\\dfrac1x\\right)^{5}$, so $T_6 = \\dfrac{2}{5}\\dfrac{16}{2}\\right)^{100}$. The term is $T_6$. The term gives $T_6(1+x)^{1/2}$, $T_6\\left(1+\\dfrac1n\\right)^{n}$, and it is $\\dfrac{n}{2}+1\\right)^{2}$.",
-   "a) Find the term of $x^{2}+\\dfrac{2x}{2}$ and find the sum of the $x$. [2] b) Prove that $\\left(1+x^{20}\\right)^2$ is less an alternate. [2] (NEB 2080, part b)"
+   "(a) Foci: $T_5=1020$. The term of $T_5$ is $T_5(5+1)^5=25$. Here $T_5\\geq\\dfrac{16}{2}$, $T_4$ is even, so it is measured as $T_4(T_4-\\dfrac{2}{2})^5=10$.",
+   "a) What is the term of the middle term of $T$? [1] b) Find the middle term of the middle, explain how is the term of $Trapezoidal$? [2] b)"
   ],
-  "score": 0.652,
-  "gate": false
- },
- {
-  "unit": "Computational Methods",
-  "type": "short",
-  "anchor": "Add slack variables $s_1,s_2\\geq0$ to convert the inequalities to equations: $x+y+s_1=4$, $x+3y+s_2=6$, and write $Z-3x-2y=0$.",
-  "segs": [
-   "The Cayley table is $x+y+s_2=2$, $x+y=1$, $x,y\\geq0$.",
-   "Calculate the equations of the feasible region of the $x$-axis, explain how to verify your to find the maximum value of $y$. b) Show the $Z=6x+6y$ subject to $x+y\\leq1$, $2x+y\\leq2$. [3] b) Solve $x+y-z=1$, so $x+y\\geq0$, $2y=12$, $3x+y\\leq6$. [2]"
-  ],
-  "score": 0.356,
+  "score": 0.395,
   "gate": false
  },
  {
   "unit": "Matrix Based System of Linear Equations",
-  "type": "mcq",
-  "anchor": "If $\\text{rank}\\,A<\\text{rank}\\,[A|B]$: inconsistent, no solution.",
+  "type": "short",
+  "anchor": "Only two independent equations remain: Put $z = t$ (any real number). For a two-variable system, Cramer's rule is three determinants and one division.",
   "segs": [
-   "consistent, no solution",
-   "What does it imply if the rank of matrix $A$ equals the rank of the augmented matrix $A$ and another, what does the system of equations be determined by the rank of the system of equations?",
-   "rank deficient, cannot determine",
-   "consistent, infinitely many solutions",
-   "rank deficihitiating matching the system.",
-   "The system has the equations using the matrix $[A\\,|\\,A|$, what it indicates that the system has no solution."
+   "The system is a two-variable system and three determinants are dependent.",
+   "When solving a system of linear equations and only one of a system ($z = 1$) and $z = 1$, what can be concluded about the third variable?"
   ],
-  "score": 0.664,
+  "score": 0.74,
   "gate": false
  },
  {
-  "unit": "Differential Equations",
+  "unit": "Mechanics",
   "type": "mcq",
-  "anchor": "Across 2079–2082 the reliable slots have been a derivative (often an inverse hyperbolic or inverse trigonometric one), a standard integral of the $\\frac{1}{a}\\tan^{-1}\\frac{x}{a}$ family, and one or two differential-equation items on order/degree, homogeneity or the integrating factor.",
+  "anchor": "A force $F$ at angle $\\theta$ to the $x$-axis has components $F\\cos\\theta$ and $F\\sin\\theta$.",
   "segs": [
-   "$\\frac{1}{a}$",
-   "Which one of the following is the differential equation $\\frac{1}3\\sqrt{1-x^{2}}$?",
-   "$\\frac{1-x}{1-x-a}$",
-   "$\\frac{x}{a}+\\frac{1} yx$",
-   "$\\frac12\\tan^{-1}\\frac{x}x$",
-   "Le equal the family of circles."
+   "$x$ is multiplied by $F\\sin\\theta$, and the line is $F\\sin\\theta = g'$.",
+   "In the context of force $F$ acts on an angle $\\theta$, which of the following correctly describes the force force $F$?",
+   "$x = 0$ to $x = 0$.",
+   "$x = \\cos\\theta$",
+   "$x = 1$",
+   "The equation $F\\sin\\theta - \\sin\\theta$ represents the axis of a force at an angle $\\theta = 0$."
   ],
-  "score": 0.853,
-  "gate": true
- },
- {
-  "unit": "Permutation and Combination",
-  "type": "mcq",
-  "anchor": "Each box has one fewer choice than the box before it, and the product of the four counts is $^{n}P_{4}$.",
-  "segs": [
-   "$^{n}P_{r} = n(n-1)\\cdots(n-r-1)$",
-   "Which of the following represents the number of ways to fill each position $n$ distinct objects to be used in terms of the number of ways?",
-   "$^nP_n$",
-   "$^n$",
-   "$n!$",
-   "The formula $^nP_r$ is derived from the multiplication principle as stated in the provided mathematical expression."
-  ],
-  "score": 0.35,
-  "gate": false
- },
- {
-  "unit": "Differential Equations",
-  "type": "mcq",
-  "anchor": "The general solution of an $n$-th order equation contains $n$ arbitrary constants.",
-  "segs": [
-   "$n$",
-   "The sum of the constant $P$ on a constant function of $n$ arbitrary constants?",
-   "$n\\pi$",
-   "$n$",
-   "$n\\pi+1$",
-   "that column has exactly the result of the first-n$ arbitrary constants. The same function must be reduced to $n$. Then $n=1$. It is defined as $n$ odd. The first $n$ odd, so the integral must be $n$. This is the 2082 Group B item 17cut of the statement. This is the exact value of $n$ exact differential equation? This was to the exact value of the statement. What does the polar form"
-  ],
-  "score": 0.226,
-  "gate": false
- },
- {
-  "unit": "Correlation and Regression",
-  "type": "mcq",
-  "anchor": "For the line of $y$ on $x$ we take the errors vertically: for each point the error is $e_i = y_i - (a + bx_i)$, and we choose $a$ and $b$ to make $\\sum e_i^{2}$ as small as possible.",
-  "segs": [
-   "It simplifies the condition for any point $(x_i - b_i - (a_i - b - b_i)^{2}$",
-   "Why does the equation $a_i - a_i = e_i - b\\sum a_i$ where the equation is $a_i + b_i - a + b_i$?",
-   "It determines the line of each row and the y through the specified point on the x and y, making $a_i$.",
-   "It simplifies calculations by the line of intersection.",
-   "It determines all in the problem",
-   "The given statement directly states that the equation $a^{2} = b^{2} + a^{2}, which is the correct method. This is the eliminationd into $x$ on $y$, $x$, $b$. This determines the line for the line, which directly corresponds to the provided of $x$ and $y$. Mense the line to $x$ on the line to $y$ on $"
-  ],
-  "score": 0.511,
+  "score": 0.663,
   "gate": false
  }
 ]

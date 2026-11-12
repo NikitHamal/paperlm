@@ -1,20 +1,21 @@
 {
  "pack": "chem12",
- "bank_in": 620,
- "bank_kept": 580,
- "dropped": 40,
+ "bank_in": 1178,
+ "bank_kept": 1106,
+ "dropped": 72,
  "reasons": {
-  "answer_giveaway": 9,
+  "leaked_context": 28,
+  "answer_giveaway": 18,
   "truncated_answer": 9,
   "orphan_stem": 8,
   "no_answer": 7,
-  "leaked_context": 6,
+  "needs_figure": 4,
   "stem_fragment": 4,
-  "needs_figure": 3,
+  "dangling_pronoun_option": 3,
   "empty_or_tiny_stem": 2,
-  "dangling_pronoun_option": 1
+  "arithmetic_error": 1
  },
- "mcq": 442,
- "written": 138,
+ "mcq": 879,
+ "written": 227,
  "units": 21
 }

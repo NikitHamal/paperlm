@@ -1,132 +1,125 @@
 [
  {
+  "unit": "Number System and Boolean Logic",
+  "type": "mcq",
+  "anchor": "Subtraction needs no new circuit: the two's complement of 0110 is 1010, and adding it to 1101 and discarding the carry-out leaves 0111, which is 7. This is why the CPU needs only an adder and a way to invert bits.Photo credits: (a) Kimmo Palosaari, Public domain.",
+  "segs": [
+   "1.",
+   "What is the name of the 1's complement of a computer's complement of 101.1010001?",
+   "10110111101",
+   "101010,10,0,100111001011 to the 1001.",
+   "101 is the 1000,1010.",
+   "The 2's complement of 010, 10, and 1010, which is 0101."
+  ],
+  "score": 0.45,
+  "gate": false
+ },
+ {
+  "unit": "Multimedia",
+  "type": "short",
+  "anchor": "Path animation: an object follows a drawn path, for example a bus moving along a road in a presentation. Morphing: one image is changed gradually into another, as in film effects. 2D and 3D animation: 2D uses flat drawings, and 3D uses models that are lit and rendered by the computer, as in modern films and games. Software: Adobe Premiere Pro, Kdenlive, OpenShot, Windows Video Editor. Animation is the process of creating the illusion of movement by displaying a rapid sequence of still images that differ slightly from one another. Computer-aided design (CAD) of buildings and machines, three-dimensional walk-throughs of a building before it is built, scientific visualisation of weather and earthquake data.",
+  "segs": [
+   "Morphing (CC BY-SA, as), and animation (CAD, CGIF, OCR, OCR (CAD, Premiere. Software: Adobe Premiere Pro, CVV, OCR (e. A database is animation as an example of creating motion (CAD, 2D animation).",
+   "Explain the concept of animation and provide an example of a rapid sequence of stills."
+  ],
+  "score": 0.6,
+  "gate": false
+ },
+ {
   "unit": "Information Security and Cyber Law",
   "type": "mcq",
-  "anchor": "Nepal's principal cyber law is the Electronic Transactions Act, 2063 (2008).",
+  "anchor": "Software is distributed under a licence stating what the copyright owner permits.",
   "segs": [
-   "Phishing",
-   "The Act,063 of years?",
-   "Pweening assembler directly",
-   "UTF-base Act",
-   "URL",
-   "Nepal's cyber law is the Electronic Transactions Act, 2063 of Nepal's cyber law."
+   "A digital signature is the sender's private key to an electronic code, what is a digital signature stating a document; it is a document too.",
+   "What is the primary key for a digital signature?",
+   "A digital signature uses a shared among multiple books.",
+   "Analytitle's identity.",
+   "A digital signature database information directly to its signature out.",
+   "A digital signature stems from the use of a document, which is a digital signature not changed."
   ],
-  "score": 0.55,
+  "score": 0.427,
   "gate": false
  },
  {
   "unit": "Computer Software and Operating System",
-  "type": "mcq",
-  "anchor": "It records the free space on the disk and controls who can read or change each file. File Explorer is the Windows tool for this work, and a student's project folder on drive D is a daily example. 4.",
+  "type": "short",
+  "anchor": "Software is a set of programs, procedures and associated documentation that tells a computer's hardware what to do and how to do it. A program is a finite sequence of instructions written to solve a particular problem. Desktop icons are added through Personalise → Themes → Desktop icon settings (This PC, Recycle Bin, Network) or by right-clicking a program → Send to → Desktop (create shortcut).",
   "segs": [
-   "It serves as a GUI, which tool for browsing the Windows tool for browsing it.",
-   "Why is the job of a temporary, and another website using a window applications?",
-   "It manages files to various letters for browsing deductions for browsing.",
-   "It allows users to find the battery last powerious.",
-   "It changes the software that the Windows is a single single computing.",
-   "The shell reads the role of a limited periodicallyaily, and the role of a website."
+   "It provides instructions and documentation that tells a computer's hardware what tasks to do it.",
+   "Why is it a computer's operation?"
   ],
-  "score": 0.5,
+  "score": 0.629,
+  "gate": false
+ },
+ {
+  "unit": "Multimedia",
+  "type": "mcq",
+  "anchor": "The benefits of multimedia are large in education and communication, but the cost and the equipment it needs must be planned for. Animation is the illusion of movement created by showing a rapid sequence of still images that differ slightly.",
+  "segs": [
+   "The illusion of movement created by showing a rapid sequence of still images that differ slightly",
+   "What is the definition of animation?",
+   "The process of recording live actions into digital format",
+   "The process of editing videos to enhance visual effects",
+   "The process of compressing video files to reduce storage space",
+   "The passage defines multimedia as the illusion of movement through a rapid sequence of slightly differing still images."
+  ],
+  "score": 0.867,
+  "gate": true
+ },
+ {
+  "unit": "Computer System",
+  "type": "mcq",
+  "anchor": "(a) Explain the components of a computer system with a block diagram. (b) — second generation (1956 to 1963) used transistors. 4.",
+  "segs": [
+   "It contains the the the country of a computer's hardware with the same hardware.",
+   "Why does a computer chips provide a computer system?",
+   "It increases the processing speed of the computer hardware.",
+   "It enhances the graphical interface for the computer.",
+   "It allows users to adjusts the internet.",
+   "The microprocessor provides security of a computer' and the internet."
+  ],
+  "score": 0.528,
+  "gate": false
+ },
+ {
+  "unit": "Computer Software and Operating System",
+  "type": "short",
+  "anchor": "An operating system (OS) is the system software that manages the hardware and software resources of a computer and works as the interface between the user and the machine.",
+  "segs": [
+   "The operating system software resources of a computer and manages the hardware and software resources of the machine.",
+   "What is the role of an operating system (OS)?"
+  ],
+  "score": 0.867,
+  "gate": true
+ },
+ {
+  "unit": "Programming Concepts and Logics",
+  "type": "mcq",
+  "anchor": "(c) The DEC PDP-11 minicomputer on which UNIX and C grew up. (e) The cover of The C Programming Language (1978), which defined K and R C.",
+  "segs": [
+   "It avoids declaration of R C by the UNIX operating system.",
+   "Why m(1978) like C programming language translated in C?",
+   "It translates high-level language easily readability.",
+   "It is an operating system that supports the country of a high-level language.",
+   "It is easier to a scriptingement time of C.",
+   "C can only language with high-level language with high-generation languages."
+  ],
+  "score": 0.545,
   "gate": false
  },
  {
   "unit": "Information Security and Cyber Law",
-  "type": "short",
-  "anchor": "Technology alone cannot stop cybercrime; careful users, strong passwords and a good law together make the digital society safer. Cyber law governs the use of computers, the internet and electronic information. Nepal's cyber law is the Electronic Transactions Act, 2063 (2008) — 12 chapters, 80 sections, Chapter 9 the offences.",
-  "segs": [
-   "The Act 2063 (8) the Electronic Transactions Act, 2063.",
-   "a) What is the Electronic Transactions Act Act, 20063 (2008) and cyber law."
-  ],
-  "score": 1.0,
-  "gate": true
- },
- {
-  "unit": "Application Package",
-  "type": "short",
-  "anchor": "The relative references B2:D2 become B3:D3, B4:D4 and so on automatically, while $H$1 stays fixed. A spreadsheet holds data in cells addressed by column letter and row number, calculates with formulas beginning with = and functions such as SUM, AVERAGE, MAX, IF, and draws charts.",
-  "segs": [
-   "$=SUM(B2:D2) ensures the formulas for a spreadsheet. The B2:D2 = A2+B2:D3, B3, B2 =D2 and B2:D3:D2 = B3, B3:D2 is copied, and calculates the columns, and print the mean of relative references. Section 5.2:D2:D2.4:D2:F2 =SUM(B2); row, MAX, MAX, B2 =B2:D4:D2 =H210, B2 = 110., AVERAGE, if the row is copied in cells B3:D3, AVERAGE, indicating an inventory database with formulas for the row, and row 2. and the average are copied in row, and row, and the spreadsheet, and the formula is copied. A14:D2, B2 =SUM(COUNT(B2) and row, which results in cells B2:D10, and row 2 to C3:D2, \\text{A}B2$. A12:D213:D2:B2 = A2 =B2'$. Toneb. A2 =B3:D2)$2 = A2$. A2 =SUM(A100,53, B2). In an OR, if the average is copied, as the spreadsheet is copied",
-   "Why does the cells B2 in relative references if the row, and the row of relative references?"
-  ],
-  "score": 0.667,
-  "gate": false
- },
- {
-  "unit": "Number System and Boolean Logic",
   "type": "mcq",
-  "anchor": "Binary addition: $1+1 = 10$; subtraction borrows a 2. 1's complement = invert all bits, and the end-around carry is added back. 2's complement = 1's complement + 1, and the carry is discarded.",
+  "anchor": "Symmetric encryption uses one shared key; asymmetric encryption uses a public/private key pair.",
   "segs": [
-   "The carry out of the carry out of the least significant bit is discarded, which is the answer is the 2's complement plus 1.",
-   "Why is the sum of the 1's complement of the carry?",
-   "The sum of the same adder the 8 bits $10001011011$ in the carry?",
-   "Acc-around carry out of the same bit in the 2's theorem.",
-   "The sum except the carry out of $10100100001$ is discarded, hence the carry is discarded is discarded, which matches the sum of the result.",
-   "The sum except a carry out of the 8-around carry."
+   "Electronic Transactions Act 2064",
+   "The recip number of employs in Nepal use a public key for a public key frames?",
+   "Assembedded",
+   "Assembly uses a single public key",
+   "Assembles a single shared key",
+   "The passage explicitly mentions that a digital signature uses a shared key to a digital signature database."
   ],
-  "score": 0.727,
-  "gate": false
- },
- {
-  "unit": "Number System and Boolean Logic",
-  "type": "mcq",
-  "anchor": "the carry is generated only when both inputs are 1.",
-  "segs": [
-   "1010",
-   "What term $100$ when the following is an odd number of 1 when the result?",
-   "the groups of 10",
-   "100",
-   "the product of inputs",
-   "The sum of inputs are identical, which is the sum of inputs, which equation is 1 when the sum of inputs are equal."
-  ],
-  "score": 0.423,
-  "gate": false
- },
- {
-  "unit": "Computer System",
-  "type": "short",
-  "anchor": "Architecture = what the machine does (programmer's view); organization = how it is built (implementation).",
-  "segs": [
-   "A phishing suitable for creating animations, which matches the description of a port is used to perform arithmetic.",
-   "Which of the following is defined as a computer system?"
-  ],
-  "score": 0.1,
-  "gate": false
- },
- {
-  "unit": "Number System and Boolean Logic",
-  "type": "mcq",
-  "anchor": "Binary ↔ octal groups 3 bits per digit; binary ↔ hex groups 4 bits. Binary addition: $1+1 = 10$; subtraction borrows a 2. 1's complement = invert all bits, and the end-around carry is added back. 2's complement = 1's complement + 1, and the carry is discarded.",
-  "segs": [
-   "Binary bit correspond the binary number and hexadecimal digit using 4 bits.",
-   "Which binary addition process mentioned the octal digit using a binary number into its own 4 bits?",
-   "Crec binary addition process mentioned as the binary addition process by 2.",
-   "Boolean algebra and verify the same binary subtraction.",
-   "Calculate the binary addition process rather than the binary numbers.",
-   "The binary digit can its own 4 bits as the binary point represent the binary addition process where the sum is obtained by a binary representation."
-  ],
-  "score": 0.701,
-  "gate": false
- },
- {
-  "unit": "Programming Concepts and Logics",
-  "type": "short",
-  "anchor": "(a) Explain the three control structures of structured programming with a flowchart fragment for each. (b) Write a C program using switch that reads two numbers and a choice (1 = add, 2 = subtract, 3 = multiply, 4 = divide) and prints the result.",
-  "segs": [
-   "It converts the C program into a C program. (a) Chainample: int ignor and a C program with a C program.",
-   "Why is a C program designed to read a C program using a C program and a C program?"
-  ],
-  "score": 0.643,
-  "gate": false
- },
- {
-  "unit": "Application Package",
-  "type": "short",
-  "anchor": "A primary key is a field whose value is different in every record and is never empty; it identifies a record uniquely.",
-  "segs": [
-   "Automatic recalculation",
-   "Which software of a database table in a database?"
-  ],
-  "score": 0.4,
+  "score": 0.477,
   "gate": false
  },
  {
@@ -134,59 +127,70 @@
   "type": "mcq",
   "anchor": "It works because of persistence of vision: the eye keeps an image for a fraction of a second, so frames shown faster than about 12 per second blend into motion.",
   "segs": [
-   "It targets a list of a large number of frames shown per second.",
-   "Why is the frames shown per second when the primary key frames per second?",
-   "It",
-   "It targets the standard frame rate.",
-   "It targets a sampling to compression than one example.",
-   "The definition provided example of a power included components."
+   "It contains the number of channels in one image.",
+   "Why is the number of frames per second for achieveyequery (2.2.26.265 \\times 2456?",
+   "It includes denlossygment.",
+   "It contains a JPEG of the technique for a second.",
+   "It is an image to the size of the number of channels.",
+   "The passage directly states that the frame is the number of channels, and the number of channelss."
   ],
-  "score": 0.581,
+  "score": 0.537,
   "gate": false
  },
  {
-  "unit": "Application Package",
+  "unit": "Web Technology I",
   "type": "mcq",
-  "anchor": "Spreadsheet (MS Excel): data in rows and columns; formulas, functions, charts and what-if analysis.",
+  "anchor": "Users can also change font size or contrast for comfort.",
   "segs": [
-   "Reign data in a hotel. Model answer is a field? Explain the totals of a rectangular and a spreadsheet?.",
-   "Which of the following is used to create a database table of a spreadsheet?",
-   "Crecookie",
-   "Formal fillagerserymainfield.",
-   "CQs and slower; the attribute of information.",
-   "A field (column or attribute) is explicitly mentioned as the stock in a relational DBMS."
+   "<s declares change font size or contrast for faster",
+   "Which of the following is an example of a website website?",
+   "<s users to modify digital communication.",
+   "<mest>",
+   "<mbedded data from examples",
+   "Press schemes various HTML5 elements are used to write HTML and define loops."
   ],
-  "score": 0.42,
+  "score": 0.583,
   "gate": false
  },
  {
-  "unit": "Number System and Boolean Logic",
-  "type": "mcq",
-  "anchor": "AND outputs 1 only for (1, 1); NAND is its inverse.",
+  "unit": "Information Security and Cyber Law",
+  "type": "short",
+  "anchor": "The National ICT Policy, 2015 aims to make Nepal an information and knowledge-based society and economy: affordable broadband for all, ICT in every school, services of the government online (e-government), growth of the IT industry, safety of networks and data, and a smaller digital divide. In exchange for the monopoly the inventor must publish how the invention works. Trademark protects a name, logo, slogan or symbol that identifies the source of goods or services, so that customers are not misled.",
   "segs": [
-   "XOR",
-   "Which of the following is the output when its inputs are NAND, and NOR?",
-   "AND",
-   "XNOR and XNOR. Spreadsheet every other gate.",
-   "AND gate outputs $1$ and $1$. In, and $1$, and $0$, and $10$... Figure 5.a NAND gate gives 1 only when both inputs are different.$, and NAND gates are NAND, which combination of the sum of NAND.$",
-   "The XOR gate's complement of the sum of every other gate gives 1 only NAND gates."
+   "The e-15 aims to make Nepal an information and knowledge-based society and economy",
+   "What is the primary goal of the National ICT Policy, 2015 aims to the National ICT Policy or 2015 in Nepal?"
   ],
-  "score": 0.39,
+  "score": 0.92,
+  "gate": true
+ },
+ {
+  "unit": "Information Security and Cyber Law",
+  "type": "mcq",
+  "anchor": "The National Information and Communication Technology Policy, 2015 aims to build an information- and knowledge-based society through affordable broadband, ICT in every school, online government services, a stronger IT industry and attention to cyber security.",
+  "segs": [
+   "To make Nepal an information and knowledge-based society and economy",
+   "What is the primary goal of the National Information and Communication Technology Policy, 2015 in Nepal?",
+   "To ensure the export of IT services",
+   "To increase the export of the cybersecurity measures across the country",
+   "To enhance the cybersecure of the IT services",
+   "The passage explicitly states the National ICT Policy, 20015 aims to make Nepal an information systems."
+  ],
+  "score": 0.745,
   "gate": false
  },
  {
-  "unit": "Computer Software and Operating System",
+  "unit": "Multimedia",
   "type": "mcq",
-  "anchor": "It records the free space on the disk and controls who can read or change each file. File Explorer is the Windows tool for this work, and a student's project folder on drive D is a daily example. 4.",
+  "anchor": "The images are drawn or generated, not captured from the real world — that is what separates animation from video. Animation works because of persistence of vision: the human eye retains an image for about a sixteenth of a second after it disappears, so images shown faster than about 16 per second blend into continuous motion.",
   "segs": [
-   "A Windows tool for linking the steps to install a wiredable for the Linux distribution.",
-   "Which software?",
-   "It allows users to create a fixed time required to a mobile computing.",
-   "It provides a Windows tool for browsing strategies.",
-   "It allows users due to various processes.",
-   "The shell is defined as the role of a shoperivacy."
+   "It is the illusion of movement created by showing drawn or computed rather than a second.",
+   "Why is animation a method used in an example of a computer processor?",
+   "It is an example of creating 3D images.",
+   "It is the process of creating 3D models from 2D models.",
+   "It is an illusion of creating 3D animation and is.",
+   "The passage defines animation as the illusion of movement by displaying a rapid sequence of still images that differ slightly from one another."
   ],
-  "score": 0.637,
+  "score": 0.52,
   "gate": false
  }
 ]

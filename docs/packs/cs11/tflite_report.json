@@ -1,8 +1,8 @@
 {
  "pack": "cs11",
  "tflite_mb": 12.38,
- "top1_agreement": 0.9859,
- "max_logit_diff": 0.245,
+ "top1_agreement": 0.9296,
+ "max_logit_diff": 0.322,
  "signatures": [
   "decode",
   "prefill"

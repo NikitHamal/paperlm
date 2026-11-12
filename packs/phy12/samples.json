@@ -4,14 +4,29 @@
   "type": "mcq",
   "anchor": "Diesel cycle: heat added isobarically, allowing a much larger $r$.",
   "segs": [
-   "compressions a cycle",
-   "In a Carnot engine the Carnot cycle, the heat absorbed at constant $T_1$ and $T_1 > 1/T_1$. The Carnot cycle is the room of heat $Q_1$, which of the following equations correctly describes the Carnot cycle?",
-   "Kep heat rejected",
-   "Third law of Thermodynamics",
-   "Clausius statement",
-   "The Carnot cycle involves no engine is defined as the spontaneous heat rejected."
+   "convert heat capacity",
+   "Which law is used to heat engine involves heat enters a system to a sink at a sink at a cold body without heat exchange between a cold space and absorbs heat $Q$?",
+   "Photon conver heat engine",
+   "Isochoric heating",
+   "Isochoric",
+   "The passage explicitly states that the heat absorbed heat $Q$ is defined as the conversion of heat."
   ],
-  "score": 0.668,
+  "score": 0.61,
+  "gate": false
+ },
+ {
+  "unit": "Alternating Currents",
+  "type": "mcq",
+  "anchor": "An alternating current reverses direction periodically. The commonest form is sinusoidal: $$i = I_0\\sin\\omega t, \\qquad v = V_0\\sin\\omega t$$ where $I_0$ and $V_0$ are the peak (maximum or amplitude) values, $\\omega = 2\\pi f$ is the angular frequency and $f = 1/T$.",
+  "segs": [
+   "$\\omega_0 = \\frac{\\omega_0}{\\omega C}$",
+   "In an alternating current circuit where $i = I_0$ and the peak current $i$ is the peak current and the peak current is the peak current",
+   "$i = I_{rms}$",
+   "$\\omega_0$",
+   "$\\omega = \\frac{\\omega}{2}I_0$",
+   "$i = 2\\pi/\\omega_0$ is $\\omega_0 = 2\\pi/\\pi$, $\\omega_0/\\omega_0 = \\omega_0$."
+  ],
+  "score": 0.912,
   "gate": false
  },
  {
@@ -19,25 +34,25 @@
   "type": "mcq",
   "anchor": "Draw its energy-flow diagram, derive $\\eta = 1 - Q_2/Q_1$, and explain why $\\eta$ can never be 100 %.",
   "segs": [
-   "increasing the coefficient of performance ($Q_1$), $\\eta = 1 - T_2/Q_1$.",
-   "What is the term $Q_1/Q_2$ of a Carnot engine?",
-   "first law of Thermodynamics",
-   "K_1$2 only when $\\eta$ is the maximum coefficient of performance (maximum), $\\eta$, $Q_1$, $Q$ and $Q_1 = 1 - T$. The Carnot engine is the maximum coefficient-\\eta f_1/Qf$",
-   "fall $Q_2$",
-   "The term $\\eta$ directly states the equation $Q_1 > T_2$ for a reversible refrigerator as stated in the Carnot cycle."
+   "$\\eta = 1 - \\frac{Q_2}{Q_1}$",
+   "In an equation representing the efficiency $\\eta$-\\eta = 1 - 1 - \\frac{T_2}{T_1}$, what is the efficiency $\\eta = 1 - T_2/T_1$ used to calculate the efficiency $\\eta_1$?$",
+   "$\\eta = 1 + \\frac{T_1 - 1}{T_2 - 1}$",
+   "$\\eta r_1 = \\frac{T_3}{T_4}$",
+   "$Q_1 = \\frac1 - \\frac{T}{T_3 - T_1}$",
+   "The formula $\\eta = 1 + 0.093$ correctly represents the efficiency of a heat engine as given by the formula provided."
   ],
-  "score": 0.481,
+  "score": 0.652,
   "gate": false
  },
  {
-  "unit": "Alternating Currents",
+  "unit": "Fluid statics",
   "type": "short",
-  "anchor": "Sinusoids of the same frequency then add like vectors — by the parallelogram or triangle rule.",
+  "anchor": "(a) Derive the expression for the rise of a liquid in a capillary tube. [4](b) Give two applications of capillarity. [2](c) Eight drops of water, each of radius $1.0\\ \\text{mm}$, combine into a single drop. (b) A tank on the ground holds water to a depth of $3\\ \\text{m}$.",
   "segs": [
-   "The supply voltage $V_S$ is the supply voltage across the inductor $V_S = V_S$ and $V_S/V = V_S/R$. The voltage drop across the inductor is defined as the hypotenuse: $V_S + V_S$ for a resistor, which is the phasors of the applied voltage.",
-   "Explain the relationship between the voltage ($V_S$) and the voltage ($I_S$) in an AC circuit."
+   "The rise of water for water in a capillary tube is derived as $2\\ \\text{mm}$. For water, $2\\ \\text inside the capillary tube. The rise of water is $3.0\\ \\text{mm s}^{-1}$. This radius causes a height of rise to the water. This water rises to $3.0\\times10^{-3}\\ \\text{Pa}$, given the radius of the tube. This shows a capillary rise of water in a tube. This shows the rise of water in the tube. Surface tension is $0.072\\ \\text{N m}^{-3 s}$. This is the rise of water by a tube of internal radius $0.0\\ \\text..",
+   "a) Bernoulli's equation $1\\ \\text{mmly, calculate the rise of water for a tube of radius $0.1\\ \\text{m}$. Use the specified conditions for the rise of water, given $0.02\\ \\text{m s}^{{-1}\\ \\text{kg m}^{2}$. Use $T = 0.072 \\times 10^{5}\\ \\text{N s}^{\\circ}$. Calculate the radius of the capillary tube. Also, derive the radius of the rise of water under a capillary tube. ($2.0\\ \\text"
   ],
-  "score": 0.2,
+  "score": 0.711,
   "gate": false
  },
  {
@@ -45,29 +60,44 @@
   "type": "mcq",
   "anchor": "The work done in expanding from $V_{1}$ to $V_{2}$ is $$W = \\int_{V_{1}}^{V_{2}} P\\,dV = nRT\\int_{V_{1}}^{V_{2}}\\frac{dV}{V} = nRT\\ln\\frac{V_{2}}{V_{1}}$$ Adiabatic process.",
   "segs": [
-   "$W = \\frac{V_{1}}{V_2}$ represents the heat rejected to the gas during the process.",
-   "When an ideal gas is involving the work done during the gas?",
-   "$W = nRT_{V_{V_1}^2$$c for work during the isothermal process. What is the expression for the work in the gas during the gas. Which expression for the work done during this process. the process. Use the work done during an isothermal process",
-   "$W = \\frac1V_2^2{V_1^2}$",
-   "$W = P_1\\ln\\,dV$",
-   "The work done during the isothermal process directly matches the expression provided."
+   "$W = nRT\\ln\\!\\left(\\frac{V_2}{V_1}\\right)$",
+   "In an isothermal process where $W = nRT\\ln(V_{V_1 - V_1}\\right]_{V_2^2}\\right)$, where $W = P_1V_1V_2$ represents the work done during an isothermal process, which of the following expressions?",
+   "$W = nRT!\\left(\\frac1V_2V_1^2 - P_2V_2^{\\gamma-1}\\right)^2$",
+   "$W = \\frac{1}{2}nC_v(V_1V - V_1)$",
+   "$W_1V_3 = nRT\\ln\\,(V_2^3 - V_1^2)$",
+   "The work done during an adiabatic process directly matches the formula provided in the process as derived from the first law of thermodynamics."
   ],
-  "score": 0.526,
+  "score": 0.668,
   "gate": false
+ },
+ {
+  "unit": "Alternating Currents",
+  "type": "mcq",
+  "anchor": "The commonest form is sinusoidal: $$i = I_0\\sin\\omega t, \\qquad v = V_0\\sin\\omega t$$ where $I_0$ and $V_0$ are the peak (maximum or amplitude) values, $\\omega = 2\\pi f$ is the angular frequency and $f = 1/T$.",
+  "segs": [
+   "$\\omega = \\omega_0\\sin\\omega t$",
+   "What is the equation representing the maximum value of an alternating current $I_0$ in an alternating current $i$ with the peak value of an alternating voltage?",
+   "$\\omega = I_0$",
+   "$i = I_0/\\omega$",
+   "$i t = I_0\\sin\\omega$",
+   "The amplitude of a sinusoidal current directly represents the root mean of the peak value $\\omega$ as $\\omega = \\sqrt{2I_0}$."
+  ],
+  "score": 0.908,
+  "gate": true
  },
  {
   "unit": "Magnetic field",
   "type": "mcq",
   "anchor": "$B = \\mu_0NI/2a$; the $2\\pi$ form belongs to a straight wire.",
   "segs": [
-   "$B = \\mu_0 I/2\\pi d$",
-   "In a long straight wire of length $l$ carrying a current $I$ carrying a current at the centre of a wire ending at the center of the wire. If the magnetic field $B$ is the wire is the magnetic field at the centre of the wire?",
-   "$B = \\frac{\\mu_0 I}{2\\pi a}$",
-   "$B = \\mu/B$",
-   "$B/B = \\frac{B}{B}$",
-   "The formula $B = \\mu_{enc}$ directly corresponds to the magnetic field due to the magnetic field as stated."
+   "$B = \\mu_0NI/2\\pi a$",
+   "The magnetic field $B$ at the centre of a circular coil of radius $r$ is the straight wire in a straight wire. The magnetic field at the center of the coil is",
+   "$B = \\mu/\\mu_0I$",
+   "$B = \\frac{\\mu_0 I}{2a}$",
+   "$B/\\mu_0$",
+   "$B = \\mu\\sin\\theta/2\\pi a/r$."
   ],
-  "score": 0.53,
+  "score": 0.536,
   "gate": false
  },
  {
@@ -75,10 +105,21 @@
   "type": "short",
   "anchor": "(a) State the Peltier effect and explain, with a diagram, how it differs from Joule heating. (b) Describe the construction and working of a thermopile and give two of its uses.",
   "segs": [
-   "(a) A thermopile of a thermopile of infinite resistance $R$ is connected to a thermopile, the e.m.f. of a thermopile of two metals. (b) A thermopile of two junctions of Peltier heat of two cells, a thermopile uses the one junction of two metals.",
-   "a) Describe the Seebeck effect and derive the Seebeck effect. [3] b) Write the Peltier effect from a thermopile. [1] b) In such a Seebeck, and derive the expression used to two junctions when a thermopile. [3] (NEB 2081)"
+   "(a) The Seebeck effect: the Peltier effect and a current flows through a junction of two junctions.b) A thermopile is a thermopile of two junctions of two metals of two junctions of a thermopile. (b) State the Peltier effect and working of a thermopile.(b) A thermopile of $0.50\\ \\text{mV}$ of Joule heating, a thermopile of Peltier and a thermopile of thermo-e.m.f. of a thermopile of two corpules. A thermopile is a Seebeck effect. The Peltier effect of thermo-e and the current flows through a thermopile of a thermopile of a thermocouple. The Peltier effect is the Peltier effect: the Peltier heat flows from a thermopile and a thermopile of two e",
+   "a) State the Peltier and working of a copper connectation. b) A thermopile is used to measure a thermopile of thermocouples of a thermopile. b) A copper copper copper connecting the junctions of two junctions are blackened and the heat; a thermopile is a thermopile and its cold junction."
   ],
-  "score": 0.541,
+  "score": 0.678,
+  "gate": false
+ },
+ {
+  "unit": "Rotational dynamics",
+  "type": "short",
+  "anchor": "Convert first: $1\\ \\text{rev} = 2\\pi\\ \\text{rad}$, and $N$ rev min⁻¹ means $\\omega = 2\\pi N/60$ rad s⁻¹. The torque is $\\tau = I\\alpha$ (the rotational form of $F = ma$), the kinetic energy of rotation is $\\tfrac{1}{2}I\\omega^{2}$, and the angular momentum is $L = I\\omega$.",
+  "segs": [
+   "1. 2 s. Water angular velocity $\\omega = 2\\pi N/\\omega$. 2. Angular momentum $L = 2\\pi N$ rad s. For uniform disc of moment of inertia $2I$, $2I\\omega$, $\\tau = 2\\pi N\\cos(2\\pi x/2)$. For a rigid body, $\\tau = I\\alpha$, $\\tau$ rev min, $\\omega = 2I\\omega$, and $\\tau = 2, $\\omega = 3I\\omega$. The angular velocity $\\omega$ is 2\\pi N/ angular momentum $L = \\frac{\\tau}{2\\pi}$. For a wheel of moment of inertia, $I\\omega$ is $I\\omega = 2\\pi$, $\\tau\\omega = 2\\pi r\\omega$, $\\omega = I\\omega$, and angular velocity $\\omega^2$. $\\omega = 2\\omega$. 2: $\\tau = I\\omega$. Using $\\tau = IZ$, $\\tau \\propto 2\\pi$, angular momentum $I$, $I = 2\\pi N\\omega$, $I\\omega",
+   "A skater pulls a constant torque of $\\tau$ rotates about a constant torque $\\tau$ rev ms $\\tau = I \\omega$. What is the angular velocity of rotation?"
+  ],
+  "score": 0.777,
   "gate": false
  },
  {
@@ -86,107 +127,74 @@
   "type": "mcq",
   "anchor": "Averaging over half a cycle gives a useful number: $$I_{av} = \\frac{2I_0}{\\pi} = 0.637\\,I_0$$",
   "segs": [
-   "$I_0 = \\frac{I_0}{\\pi}$",
-   "What is the equation $I_0 = I_0\\sin(\\omega t)$ representing a capacitor angular frequency $\\omega$?",
+   "$I_0 = \\frac{I_0}{2}$",
+   "What is the formula representing a = \\frac{I0.m}{\\pi}$ in an alternating current a cycle with a cycle?$",
    "$I_0$",
-   "$I_{av} = \\frac{2I_0}$",
-   "$I = \\frac{\\pi}{\\sqrt{\\pi}}$",
-   "The formula $Z = \\frac{1}{\\sqrt{I_0I_0}\\cos\\phi$ directly provides the capacitive reactance..70$. Use the equation $I = \\frac{10}{\\sqrt{LC}}$. The power factor of a sinusoidal current directly provided. for calculating the frequency of the described purely power. In a sinusoidal alternating current, what is the correct relationship to the square of the over a cycle? C. For a sinusoidal"
+   "$I = \\frac{2I_0}2$",
+   "$I$",
+   "The formula for the cycle is defined as $I_0$ in an AC circuit."
   ],
-  "score": 0.837,
+  "score": 0.768,
   "gate": false
  },
  {
-  "unit": "Mechanical waves",
-  "type": "short",
-  "anchor": "A very common slip is to write \"Laplace's correction is $v=\\sqrt{\\gamma P/\\rho}$ because sound is a longitudinal wave\". Four things, over and over: the general formula $v=\\sqrt{E/\\rho}$ applied to a named medium; the derivation of Newton's formula; Laplace's correction and why it was needed; and a numerical using $v_t = v_0\\sqrt{T/273}$.",
+  "unit": "Rotational dynamics",
+  "type": "mcq",
+  "anchor": "(a) Show that the kinetic energy of a rigid body rotating about a fixed axis is $\\frac{1}{2}I\\omega^{2}$.",
   "segs": [
-   "Us correction, $v=\\sqrt{E/\\rho}$, $v=\\rho/E$ and $v=\\sqrt\\sqrt{E/E}$. $v=\\sqrt P=\\sqrt{\\rho/\\rho}$ is derived from the general formula $v=\\sqrtic\\gamma P/\\rho$ is the speed of sound.",
-   "How is the formula $v=E=\\sqrt{\\rho}=\\sqrt{\\gamma P/\\rho}$ and calculate the speed of sound in a gas using the speed of sound as the speed of sound and density of the medium?"
+   "$I = \\frac{1}{2}MR^{2}$",
+   "What is the formula representing the kinetic energy of a rigid body rotating about a fixed axis?",
+   "$I = \\frac12I\\omega^2$",
+   "$I = I + \\omega$",
+   "$I\\omega$",
+   "The formula $I = I^{2} + Md^{2} = \\frac{1 + \\frac{1}1}{2I}$."
   ],
-  "score": 0.876,
+  "score": 0.927,
   "gate": true
  },
  {
-  "unit": "Interference",
+  "unit": "First Law of Thermodynamics",
   "type": "mcq",
-  "anchor": "What would the fringe width become if, in air, $D$ were doubled and $d$ halved?",
+  "anchor": "A free expansion is the expansion of a gas into a vacuum inside an insulated vessel: no heat enters ($Q=0$) and there is nothing to push against ($W=0$), so $\\Delta U = 0$ and the temperature of an ideal gas is unchanged.",
   "segs": [
-   "$D$\\beta$\\lambda$",
-   "What happens to the fringe width of the central maximum when the fringe width of two if the fringe width $\\beta$ is the central fringe?",
-   "$D$",
-   "$\\beta$",
-   "$\\beta/\\beta$",
-   "The fringe is the average intensity in the central maximum when $\\beta$ is $\\beta$, $\\beta$, and $\\beta$."
+   "Because $W = 0$",
+   "Why does the temperature of an ideal gas decrease in temperature of an ideal system?",
+   "Because the temperature of the gas becomes zero",
+   "Because $Q$ remains constant",
+   "Because $\\Delta U = 0$",
+   "The temperature remains constant during an ideal gas to $\\Delta U = W$, the gas expands isothermally to $\\Delta U$."
   ],
-  "score": 0.494,
+  "score": 0.555,
   "gate": false
  },
  {
-  "unit": "Quantization of energy",
+  "unit": "Rotational dynamics",
   "type": "mcq",
-  "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
+  "anchor": "Pulling the masses in reduces $I$, so $\\omega$ rises to keep $L=I\\omega$ fixed.",
   "segs": [
-   "$1.69\\ \\text{eV}$",
-   "In Bragg's electron transitions between the target and excited by $1.56\\ \\text{eV_\\beta$ and $1.29\\ \\text{nm}$ is about about $1.66\\ \\text{nm/m}$, what is the minimum wavelength of the X-rays? ($n = 1.61$) of the $n$th wavelength $4.48\\ \\text{nm of the Balmer series of hydrogen is $1.49$, what is it used to measure the photon speed of the electron in the Balmer series? ($1.76$) of the Balmer series ($0.56\\,n_{\\min}$) of hydrogen? ($1/n =",
-   "$0.81$",
-   "$6.89\\ \\text{m}$",
-   "$3.14\\ \\text{eV/m}$",
-   "The ionization potential of the hydrogen is calculated using the formula $1.27\\ \\text{eVV}$, as $1.61\\ \\text{eV K}$."
+   "$L$",
+   "A body reduces to $I$ and moment of inertia reduces to a change in $L$ to",
+   "$I$",
+   "$L$",
+   "$I$",
+   "$L$ appears $L$, so $I$ must be $I$."
   ],
-  "score": 0.875,
-  "gate": true
- },
- {
-  "unit": "Second Law of Thermodynamics",
-  "type": "short",
-  "anchor": "In plain terms: Kelvin–Planck forbids a 100 % efficient engine, Clausius forbids a refrigerator that needs no power supply. Suppose a device violated Clausius and moved $Q_2$ from sink to source for free.",
-  "segs": [
-   "(a) Ro heat engine: $Q_2$ from a sink at $Q_2 = T_2$ to $Q_1$.",
-   "a) Define the engine and working of a refrigerator. [1] b) Which relation to a Carnot engine and derive the Clausius statement. [3] b) A Carnot engine using a sink at $275$. [3]"
-  ],
-  "score": 0.657,
+  "score": 0.317,
   "gate": false
  },
  {
-  "unit": "Magnetic properties of materials",
+  "unit": "Photons",
   "type": "mcq",
-  "anchor": "$\\Phi = BA\\cos0^{\\circ} = 10^{3}\\times10^{-2} = 10\\ \\text{Wb}$.",
+  "anchor": "a photon below the work function cannot free an electron, and extra intensity does not add photon energy: one photon frees at most one electron.",
   "segs": [
-   "$2.0\\ \\text{A m}^{-1}$",
-   "A material with $1000\\ \\text{T}$, $100\\ \\text B salt and $100$ is the flux density inside a specimen of $100\\times10^{-6}\\ \\text{T m}^{2}$, what is the relative permeability of the flux density-carrying solenoid? Which of the magnetising field strength $2.0\\times10$ is the magnetising field at $100^{-5}\\ \\text{m}^{3}$ at $2000\\ \\Omega$. What is the flux density produced by the flux density as the flux density inside the iron rod? Explain",
-   "$10.0\\ \\text B$",
-   "$100.5\\ \\text{T s}^{-3}$",
-   "$1.2\\times10^3\\times10^2\\times100^3$",
-   "The flux is calculated as $10^{\\circ}$ is explicitly stated as $1.0\\ \\text \\text{A m A}^{-2}$."
+   "ionizes the electron from the surface of a photon",
+   "When an electron transitions from the electron from the work function $\\phi$ has which of the following?",
+   "ionizate energy",
+   "ionization potential",
+   "ionization scale",
+   "The work function $\\phi_0$ of the electron."
   ],
-  "score": 0.886,
-  "gate": true
- },
- {
-  "unit": "Acoustic phenomena",
-  "type": "mcq",
-  "anchor": "$f' = 400\\times(340+34)/340 = 440\\ \\text{Hz}$. Note that source motion and observer motion give different formulas, even for equal speeds.",
-  "segs": [
-   "$400\\ \\text{m s}^{-1}$",
-   "A source of $340\\ \\text{Hz}$ passes a source and a observer observer. The observer is about",
-   "$250\\ \\text{nm}$",
-   "$160\\ \\text{s}$",
-   "$350\\ \\text v A$",
-   "$f' = 300\\times50 = 400\\ \\text 2Hz$."
-  ],
-  "score": 0.9,
-  "gate": true
- },
- {
-  "unit": "Radioactivity and nuclear reaction",
-  "type": "short",
-  "anchor": "A particle entering the mica window ionizes the argon; the freed electrons are accelerated to the thin central anode, where they trigger an avalanche that produces a pulse across $R$. Take the nucleus to be fixed, since it is about $1836$ times heavier.",
-  "segs": [
-   "The es a radioactive sample decreases from $10^{15}$ to $1.2$ nuclei of a radioactive nucleus per second. The decay constant $A$ is defined as the probability of decay of one nucleus, $1.09$ decreases in a radioactive substance.",
-   "Describe the $\\lambda$ of a radioactive nuclide and the activity $A$ of a radioactive sample."
-  ],
-  "score": 0.413,
+  "score": 0.743,
   "gate": false
  }
 ]

@@ -1,147 +1,174 @@
 [
  {
+  "unit": "Quadratic Equation",
+  "type": "mcq",
+  "anchor": "If $\\alpha$, $\\beta$ are the roots of $x^{2}+px+q = 0$, form the equation whose roots are $\\dfrac{\\alpha}{\\beta}$ and $\\dfrac{\\beta}{\\alpha}$.",
+  "segs": [
+   "$-\\dfrac{\\alpha}{\\beta}$",
+   "If $\\alpha,\\beta$ are the roots of $\\alpha$ and $\\alpha$ are the roots. If the roots of $x^{2}+bx+c = 0$, what is the equation $x^{3}+x+\\beta = 0$?",
+   "$x^{21}-x+\\beta = 1$",
+   "$x^2+5x+2 = 0$",
+   "$x+\\beta = -b$",
+   "The transformation of the roots directly results in the equation $x+\\alpha+\\beta = 0 \\;x^{2+\\alpha\\beta$ in the form $x^{1}+bx+a = 0$. This equation can be written as a common root of the roots... This is the correct form of the quadratic equation, which confirms that its sum and product $x^{5}+2x+3 = 0$. Also.izes the roots $\\alpha+\\beta = 25$ and $\\alpha\\beta = -\\frac{b}{a}$."
+  ],
+  "score": 0.955,
+  "gate": true
+ },
+ {
+  "unit": "Computational Methods",
+  "type": "short",
+  "anchor": "Error $|x_n - \\alpha|$ against iteration number for $x^3-x-1=0$ on a logarithmic scale. Therefore $$S = \\frac{0.25}{3}\\left[1.500000 + 4(1.371429) + 2(0.666667)\\right]$$ $$= 0.083333 \\times \\left[1.500000 + 5.485714 + 1.333333\\right]$$ $$= 0.083333 \\times 8.319048 = 0.693254$$ Error estimate.",
+  "segs": [
+   "For $|x-3| = \\frac{0.0000}{0.2} = 0.000650$, $0.2213332455$.",
+   "Find the approximation of $= 0.300000$ correct to five decimal places. Use the error $0.0033000 + 2(0.25018) + 0(0.31368)\\right]$."
+  ],
+  "score": 0.956,
+  "gate": true
+ },
+ {
+  "unit": "Mechanics",
+  "type": "mcq",
+  "anchor": "Along the plane the only force is $mg\\sin\\theta$, so by Newton's second law $ma = mg\\sin\\theta$, and the mass cancels.",
+  "segs": [
+   "Because $m = mg\\sin\\theta$, the amplitude $\\theta$ is $mg\\sin\\theta$.",
+   "Why does the acceleration $mg$ of an object sliding down a smooth plane have the value $mg\\sin\\theta = mg\\cos\\theta$?",
+   "Because the gravitational force $mg$ is the constant.",
+   "Because the gravitational acceleration is the value of the function.",
+   "Because the acceleration is defined as the sum of the first and mass.",
+   "The mass $m$ is defined as the mass."
+  ],
+  "score": 0.8,
+  "gate": false
+ },
+ {
+  "unit": "Mechanics",
+  "type": "short",
+  "anchor": "Find the magnitude of the resultant and the angle it makes with the 12 N force. Here $P = 12$, $Q = 5$, $\\theta = 90^\\circ$, so $\\cos\\theta = 0$.",
+  "segs": [
+   "The angle of $\\theta = 100^\\circ$ with the $\\theta = 120^\\circ$, making $\\cos 90^\\circ = 0$, making $\\theta = 0^\\circ$ with $\\theta = 90^\\circ$.",
+   "Find the magnitude of the resultant of two forces and direction of $\\cos 90$ and $20^\\circ = 90$."
+  ],
+  "score": 0.908,
+  "gate": true
+ },
+ {
+  "unit": "Mechanics",
+  "type": "mcq",
+  "anchor": "Find the magnitude of the resultant and the angle it makes with the 12 N force. Here $P = 12$, $Q = 5$, $\\theta = 90^\\circ$, so $\\cos\\theta = 0$.",
+  "segs": [
+   "$10$ N",
+   "If the resultant of two forces $P$ and $Q$ act at a point with $P$, what is the magnitude of the resultant force $P$?",
+   "$0$ N",
+   "$0$",
+   "$10$",
+   "The angle of $\\theta = 1$ N and the resultant force is $P$."
+  ],
+  "score": 0.65,
+  "gate": false
+ },
+ {
+  "unit": "Inverse Circular Functions",
+  "type": "mcq",
+  "anchor": "Inverse circular functions exist only after the domain is restricted to a one-to-one principal branch; the graph of the inverse is the reflection of that branch in $y=x$.",
+  "segs": [
+   "The graph of $\\sin$ is one-to-one.",
+   "What describes the domain of the inverse circular function $y=x$ that repeats its principal branch?",
+   "The graph of $y=x+y$ is one-one.",
+   "The graph of an inverse circular functions.",
+   "The graph rotates in the domain to each branch.",
+   "An inverse circular function $\\sin$ interchanges the roles of input and output, ensuring it is one-totices."
+  ],
+  "score": 0.695,
+  "gate": false
+ },
+ {
+  "unit": "Computational Methods",
+  "type": "mcq",
+  "anchor": "A common exam instruction is simply \"take $x_{0}$ = 1.5\"; use what you are given.",
+  "segs": [
+   "second",
+   "In solving $x_{0} = x_{0}$ with $x_{10} = 1.5$, what is the value of $x_{5}$?",
+   "ran 9.5555",
+   "nisection's method",
+   "odd.",
+   "The conversion factor $x_{n}$ is used as the use of the initial value in the logarithmic scale."
+  ],
+  "score": 0.463,
+  "gate": false
+ },
+ {
+  "unit": "Curve Sketching",
+  "type": "mcq",
+  "anchor": "(b) Sketch $y = \\dfrac{1}{2x-6}$, showing the asymptotes, the intercept and the monotonic intervals.",
+  "segs": [
+   "$x = -1$",
+   "What is the domain of the function $y = \\dfrac{1}{x-3}$?",
+   "$x = 1$",
+   "$x = \\dfrac{12}{x-2}$",
+   "$x-2$",
+   "The passage explicitly states that $y = \\dfrac12x-4$ is $x = -1/x$ as $x = 0$."
+  ],
+  "score": 0.55,
+  "gate": false
+ },
+ {
+  "unit": "Mechanics",
+  "type": "mcq",
+  "anchor": "Uniform acceleration only: $v = u+at$, $s = ut+\\tfrac12 at^2$, $v^2 = u^2+2as$, $s = \\tfrac12(u+v)t$, and $s_n = u + \\tfrac{a(2n-1)}{2}$.",
+  "segs": [
+   "$s = u + at$",
+   "What formula represents the displacement $s$ of an object moving with constant acceleration $a$, and time $t$?",
+   "$s = u^2 + at$",
+   "$t = u + a$",
+   "$s = \\frac{1}{2}at^2$",
+   "The formula $s = u + a + at$ is defined as the constant acceleration."
+  ],
+  "score": 0.475,
+  "gate": false
+ },
+ {
+  "unit": "Logic and Set",
+  "type": "mcq",
+  "anchor": "The given statement is $p \\rightarrow q$, which is true (all three sides equal implies at least two equal).",
+  "segs": [
+   "$p \\rightarrow q$",
+   "The statement $p \\rightarrow q$ is false only if",
+   "$p$ is F, $q$ is false, $q$ true",
+   "$p \\rightarrow q \\Rightarrow q$",
+   "$p \\rightarrow p$",
+   "a statement $p \\rightarrow p$ is false only when both $p \\rightarrow q \\rightarrow q$."
+  ],
+  "score": 0.957,
+  "gate": true
+ },
+ {
+  "unit": "Mechanics",
+  "type": "mcq",
+  "anchor": "A ball is thrown vertically upwards with velocity $24.5\\ \\text{m/s}$.",
+  "segs": [
+   "$4.9\\ \\text{m/s}$",
+   "The acceleration of a body falls from rest is",
+   "$4.9$ m",
+   "$18.8$ m",
+   "$2.9\\ \\texts/s$ m/s$ m.8 m s.9.9 m s is $9.8$ m.8$ m/s.8$ m s, calculates the velocity to m s.8 m/s. The distance of mass.8 m s is $3.8\\ \\text{m s}^{-2}$.9 m s.8 s ($",
+   "$s = \\frac{1}{2}at^2 = 2.5$ m."
+  ],
+  "score": 0.75,
+  "gate": false
+ },
+ {
   "unit": "Curve Sketching",
   "type": "mcq",
   "anchor": "Period $= \\dfrac{2\\pi}{|b|}$; the graph completes $|b|$ full waves in the interval of length $2\\pi$.",
   "segs": [
-   "$2$",
-   "The solution of $y=\\cos x$ has period of $2\\pi$, where $2\\pi$ and $2\\pi$. What is the range of $y=2\\cos 3x$?",
-   "$0$",
-   "$2\\pi$",
-   "$22\\pi$",
-   "The solution of $|x|\\le 2$ is the interval $3\\pi$, thus within the interval $2\\pi$ marks."
+   "Period",
+   "What term describes the period of the function $y=2\\sin 2x$. What is the period of the graph of $y=2\\cos 2x$?",
+   "Range",
+   "Amplitude",
+   "Amplitude",
+   "The period of $y=\\sin 2x$ is defined as $2\\pi$."
   ],
-  "score": 0.343,
-  "gate": false
- },
- {
-  "unit": "Measures of Dispersion",
-  "type": "short",
-  "anchor": "Frequency data: $\\bar{x} = \\dfrac{\\sum fx}{N}$ and $\\sigma = \\sqrt{\\dfrac{\\sum fx^{2}}{N} - \\bar{x}^{2}}$ with $N = \\sum f$. The mean is not a round number here, so use the $\\sum x^{2}$ form.",
-  "segs": [
-   "$\\bar{x} = \\dfrac{\\sum fx^{2}}{N} - \\bar{x}^{2}$",
-   "Why does the mean $\\bar{x}^2$ equals $\\bar{x-\\bar{x}}$, $\\bar{xx} = \\dfrac12(\\bar{x})^{2} + 2\\bar{x} + 2\\bar x + 2\\bar{2}$. Find the mean, and standard deviation of frequency distribution."
-  ],
-  "score": 0.933,
-  "gate": true
- },
- {
-  "unit": "Complex Numbers",
-  "type": "mcq",
-  "anchor": "$\\bar{z} = a-ib$; $z\\bar{z} = |z|^{2}$, $z+\\bar{z} = 2\\,\\mathrm{Re}(z)$, $z-\\bar{z} = 2i\\,\\mathrm{Im}(z)$, $\\dfrac{1}{z} = \\dfrac{\\bar{z}}{|z|^{2}}$.",
-  "segs": [
-   "$\\dfrac{1}{\\bar{z}} = \\dfrac{1}{z} = \\dfrac{\\bar{zz}{|z|^{2}}} = \\dfrac1z^{2} = \\dfrac{2}{2}$",
-   "What formula represents the argument of the complex numbers $z$ of unity, $z$-axis.",
-   "$2-1$",
-   "$2-3i$",
-   "$2+3i$",
-   "The conjugate of $i$ and $i$ is $i$, $i^{-1}$ at $2$, $i$, and $1$."
-  ],
-  "score": 0.664,
-  "gate": false
- },
- {
-  "unit": "Quadratic Equation",
-  "type": "short",
-  "anchor": "Then $$\\alpha^{2}+b\\alpha+c = 0 \\qquad \\text{and} \\qquad \\alpha^{2}+c\\alpha+b = 0$$ Subtracting the second from the first removes $\\alpha^{2}$: Since $b \\ne c$ we may divide by $b-c$, giving $\\alpha = 1$. $$\\text{Product: } \\alpha(2\\alpha) = 2\\alpha^{2} = q$$ Reverse the relation.",
-  "segs": [
-   "$b = 2$, $b = 2$. $\\alpha^{2} = 36$, $b-c = 3$, $b \\ne c$.",
-   "a) $b = c$, $b^{2}+c\\alpha+b = 0$, and the sum $b$ are not a common root, and derive the general value of $b$. b) If $\\alpha$, $b$, $b+c = c$, explain why the condition must be rejected by multiplying the roots of $b$ and $c$."
-  ],
-  "score": 0.771,
-  "gate": false
- },
- {
-  "unit": "Pair of Straight Lines",
-  "type": "mcq",
-  "anchor": "This quadratic in $m$ has two roots $m_1,m_2$, so the equation represents the lines $y=m_1x$ and $y=m_2x$, both through the origin.",
-  "segs": [
-   "$x^{2}-y^{2}=0$",
-   "Which of the following statements correctly describes the equation $m_1m_2=0$ and $m_1=0$, which of the following statements is true?",
-   "$x=0$",
-   "$x=2$",
-   "$y=0$",
-   "The equation $x=0$ is represented as $x^{25}$ as $x=0,y$."
-  ],
-  "score": 0.425,
-  "gate": false
- },
- {
-  "unit": "Coordinates in Space",
-  "type": "short",
-  "anchor": "$l = \\cos 60^{\\circ} = \\frac12$ and $m = \\cos 45^{\\circ} = \\frac{1}{\\sqrt{2}}$.",
-  "segs": [
-   "$2^{2} = 10\\sqrt{2}$",
-   "a) $x = 40^{\\circ}$ and $y = \\frac{1}{2}$. b) $$l^{2}-2^{2+25^{2}} = \\frac{90^{2}+2^{25}}{4} = \\frac{20}{5}$. bue: $100^{\\circ/20^{\\circ5} = 10$. Find the angle between them. b) $A = 40^\\circ$ and $B = \\frac{110}{4}$. Find the value of $A$ and $B$. Find the length of $A$ with the $C$ and $$AB = \\frac{(100)^{2} + 2(10)^{\\circ} = 120^{250^{\\circ6}$$ $$R^{2}\\left(1-\\frac{1}{3}\\right"
-  ],
-  "score": 0.861,
-  "gate": true
- },
- {
-  "unit": "Trigonometric Equations and General Values",
-  "type": "short",
-  "anchor": "(a) Show that $a\\cos\\theta+b\\sin\\theta$ can be written as $r\\cos(\\theta-\\alpha)$ and state the condition for $a\\cos\\theta+b\\sin\\theta = c$ to be solvable.",
-  "segs": [
-   "(a) $\\cos\\theta = a\\cos\\theta$, $\\cos\\theta = r\\sin\\alpha$, and $\\cos\\theta = m\\cos\\theta$.",
-   "a) $\\theta = r\\cos\\theta$, and $\\theta = c$. b) $\\cos\\theta-\\sin\\theta = 0$, and $\\sin\\theta = 1$. b)(a) $\\theta-\\alpha = m/4$. b) The general solution is $\\cos\\theta = 0$."
-  ],
-  "score": 1.0,
-  "gate": true
- },
- {
-  "unit": "Pair of Straight Lines",
-  "type": "mcq",
-  "anchor": "This quadratic in $m$ has two roots $m_1,m_2$, so the equation represents the lines $y=m_1x$ and $y=m_2x$, both through the origin.",
-  "segs": [
-   "$x=0$",
-   "What is the equation $x^{2}+y^{2}=0$ in the equation $x=0$?",
-   "$x=0,y=0$",
-   "$x=1$",
-   "$x^{2x-4y-1=0$ at $x=0.\\text{product}$ at $x^{3}-x-6=0$. slope $x=0,x$ with $x=0 \\Rightarrow x$. Theorem 2.\\overline{x^{25}$. triangles formed by $x=1$ and $y=2$. coincident.s the lines $x=0+y=0$ and $x=0=0$. Which of the following lines are",
-   "The lines $x=1, y$ with $x$ and $y$-axis."
-  ],
-  "score": 0.5,
-  "gate": false
- },
- {
-  "unit": "Anti-derivatives",
-  "type": "mcq",
-  "anchor": "Show that $\\int_{0}^{\\pi/2}\\frac{\\sin x}{\\sin x + \\cos x}\\,dx = \\frac{\\pi}{4}$.",
-  "segs": [
-   "$\\cos x$",
-   "Which of the following statements correctly represents the relationship between the function $\\sin x$ and $\\sin x$?",
-   "$\\sin x$",
-   "$\\sin x\\,dx$",
-   "$\\sin^{2}(\\sin x)$",
-   "The derivative of the sine function can be calculated using the cosine function over its derivative."
-  ],
-  "score": 0.789,
-  "gate": false
- },
- {
-  "unit": "Derivatives",
-  "type": "short",
-  "anchor": "Differentiate three times, using the product rule each time.",
-  "segs": [
-   "$y = \\tan^{-1}x$, $y = \\tan^3\\sin^{-1/2}x$, the chain rule gives $y = \\tan x$, and $y = \\tan y$.",
-   "a) (i) Using the product rule, $y = \\sin^{2}x$ (slope $y = \\cos x$), the tangent of $y$, $y$-axis."
-  ],
-  "score": 0.375,
-  "gate": false
- },
- {
-  "unit": "Probability",
-  "type": "mcq",
-  "anchor": "For $n$ independent events, $P(\\text{at least one occurs}) = 1 - P(\\text{none occurs})$.",
-  "segs": [
-   "$P(\\text{none occurs}) = P(\\text{I})$",
-   "In a coins to ensure the probability of independent of choosing Bag I, what is the probability of getting Bag I?",
-   "$P(\\text(\\text{I of probability})$",
-   "$P(B)$",
-   "$n(\\text{Ium of $P(\\text{no head})$ slope of $P(A\\cap B)$ with $P(\\text(W) = P(A)$. Theorem 1. magnitudes of $P(B) = P(B)$. Learn to P(A) at least one head to P(A\\cap B\\cap A')$. Theorem 2. $P(A) = P(P(A)$ to $P(B\\cap B)$, $P(A \\triangle B)",
-   "The intersection of $P(W')$ is defined as stated in the overlap."
-  ],
-  "score": 0.667,
+  "score": 0.683,
   "gate": false
  },
  {
@@ -149,44 +176,25 @@
   "type": "mcq",
   "anchor": "If $\\vec a$ and $\\vec b$ are non-collinear, then $\\vec c$ is coplanar with them if and only if $\\vec c=l\\vec a+m\\vec b$ for unique scalars $l,m$.",
   "segs": [
-   "$m=\\vec b$",
-   "If $m=0$ are perpendicular if which of the vectors $\\vec a=m$, $\\vec b$, which of the following statements is true?",
-   "$m=n\\vec a+n=2$",
-   "$m=3$",
-   "$m\\neq0$",
-   "The scalar product $m=2$ is represented by $m=5$."
+   "$m=m+n$",
+   "If $\\vec a=\\vec b$, and $\\vec b$ are coplanar, which condition indicates that they are vectors $\\vec a$ and $\\vec b=m\\vec b$ are non-collinear?",
+   "$l=m+n=0$",
+   "$m=m-m$, $m=m'-m=0$",
+   "If $\\vec a = m\\vec b$, $\\vec b=c$",
+   "The condition $m=m=(m-m)\\vec a$, $m'=m'\\vec b$ is defined as $m=0$."
   ],
-  "score": 0.786,
+  "score": 0.469,
   "gate": false
  },
  {
-  "unit": "Quadratic Equation",
-  "type": "mcq",
-  "anchor": "$\\alpha+\\beta = -b/a$ and $\\alpha\\beta = c/a$; and $(\\alpha-\\beta)^{2} = D/a^{2}$.",
+  "unit": "Complex Numbers",
+  "type": "short",
+  "anchor": "Equating real and imaginary parts, or using the formula in terms of $|z|$, gives the two square roots, and complex roots of real quadratics always occur as conjugate pairs.",
   "segs": [
-   "$b^{2}-4ac = c$",
-   "If $\\alpha^{2}+\\beta$ are",
-   "$b^{3}-2(-3)(-3) = -3/2$",
-   "$b = c$",
-   "$b^2 = c/2$",
-   "$a = b/b = b/2$ and $b = c/b = c/2 = c$."
+   "For a complex pair of complex roots, $z = a-ib$, we have $|z| = a + ib$, the modulus $|z|$ is the square root of a complex pair.",
+   "Explain why the quadratic formula $z = a + bi$ is a complex number and its conjugate pairs."
   ],
-  "score": 0.55,
-  "gate": false
- },
- {
-  "unit": "Computational Methods",
-  "type": "mcq",
-  "anchor": "subtract the ratio; (a) has the wrong sign and (c) inverts the ratio.",
-  "segs": [
-   "$f(x_{n})=x^{n}$",
-   "The trapezoidal rule is proportional to determine the midpoint in the bisection method. The root of $f(x_n)=x^2-x_2-x_0=0$ is",
-   "$h=-1$",
-   "$h=1$",
-   "$x_2=1$",
-   "$h^2=5$ gives $n=2$, so the error below $h=2$."
-  ],
-  "score": 0.475,
+  "score": 0.676,
   "gate": false
  }
 ]

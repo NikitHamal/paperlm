@@ -1,91 +1,155 @@
 [
  {
-  "unit": "Biomolecules and Cell Biology",
-  "type": "short",
-  "anchor": "Discovered by Robert Brown in 1831, the nucleus is the control centre.",
+  "unit": "Floral Diversity",
+  "type": "mcq",
+  "anchor": "Protista is a dustbin: it holds photosynthetic Chlamydomonas, animal-like Amoeba and fungus-like slime moulds together only because they are all \"simple eukaryotes\".",
   "segs": [
-   "Robert Brown in 1838, using the nucleus as a nucleus in 1983. 2. Enzymes, 1838. It is the nucleus as the nucleus in 1831. The cell of the nucleus in 16. 3. 1831, 1831 in 1985. Cambert Brown by Camillobert Br Robert Birchow added the nucleus in 1918.",
-   "Describe the significance of the nucleus ino nucleus in 19 by Camitosis and 18 in 189 in 1811?"
+   "Protista",
+   "Which of the following organisms produce their photosynthetic organization and sex characteristics?",
+   "Fungi",
+   "Circular foot",
+   "Stroma",
+   "The passage explicitly states that Bryophytes are described as a slipper-shaped."
   ],
-  "score": 0.486,
+  "score": 0.729,
+  "gate": false
+ },
+ {
+  "unit": "Evolutionary Biology",
+  "type": "mcq",
+  "anchor": "They made the monomers of life from inorganic gases, and nothing more — no protein, no nucleic acid, no cell. \"Miller and Urey created life in the laboratory\" is a standard wrong answer. \"I made polythene pipes\" — the gases were methane, ammonia, hydrogen and water vapour, with no free oxygen.",
+  "segs": [
+   "They perform photosynthesis, a function of a Use and Urey experiment that are credited as a large share of nucleic acids, which is more than monkeys.",
+   "Why do all organisms existed a share of a proto a norrect influences in a vap of nucleic acids in the formation of a single boiling biochemical oxygen?",
+   "They had no genetic material to stimul the atmosphere.",
+   "They can be determined solely in the atmosphere.",
+   "The passage explicitly states that viruses were genetic material, use nucleic acids.",
+   "The passage directly states that humans and Code and Contain, much of the origin of nucleic acids, contribute to the early evolutionary history of nucleic acids."
+  ],
+  "score": 0.47,
+  "gate": false
+ },
+ {
+  "unit": "Floral Diversity",
+  "type": "mcq",
+  "anchor": "Corolla — 5 petals, gamopetalous, rotate, campanulate or funnel-shaped, valvate. Androecium — 5 stamens, epipetalous, alternating with the petals, polyandrous; anthers usually basifixed and dithecous, dehiscing longitudinally or by apical pores (Solanum).",
+  "segs": [
+   "Tetradynamous",
+   "In the binomial nomenclature system, which structure is characterised by having the stamens arranged?",
+   "Fabaceae",
+   "Colyadelphous",
+   "Polyadelphous",
+   "The passage explicitly states the stamens are tetradynamous, consists of stamens and epiphyllous stamens."
+  ],
+  "score": 0.408,
+  "gate": false
+ },
+ {
+  "unit": "Introduction to Biology",
+  "type": "short",
+  "anchor": "Sixty-four of the seventy-five marks in the Biology paper are written answers. In a three-hour paper you have about 2.4 minutes per mark: roughly ten minutes for a four-mark answer and twenty for an eight-mark answer, with ten minutes at the end to check.",
+  "segs": [
+   "The paper the paper the three-hour paper and an eight-hour. Learly about 15 minutes for a 75-mark exam with 10 minutes for a 4-mark exam with a 4-hour. A three-hour. Total year is for a three-mark exam with $18$ minutes for a 5-mark question. In a 4-mark paper the paper the answer. Total examinerical, and 2.4 minutes per mark for a three-hour answer. 4. The paper's time to check. Beight questions about $1.4$. In a 4, 2.4 minutes, and an eight-mark paper. Enzymes are model, this review. For a 4-histers $2$ minutes for a 4 minutes to check. In a 5-mark exam with 2.4. 2. In a 5 minutes for the 5-mark paper.1. Ud. $$1$. $$\\frac{-N}{-1} = \\frac{4}{-mark question.0.4.0.4 minutes per written mark in a 2.4 minutes for reviewing time",
+   "Explain the answer and an 8-mark exam with an 8-mark and an 8-hour paper."
+  ],
+  "score": 0.7,
   "gate": false
  },
  {
   "unit": "Biomolecules and Cell Biology",
   "type": "mcq",
-  "anchor": "Write short notes on:(a) endoplasmic reticulum(b) golgi apparatus. A network of membrane-bound tubules, vesicles and flattened cisternae running through the cytoplasm and continuous with the nuclear envelope; described by Porter, Claude and Fullam.",
+  "anchor": "All cells arise from pre-existing cells by division.",
   "segs": [
-   "During the membrane",
-   "Which of the following pigment reflelation of the cytoplasmicolson?",
    "Synthesis of proteins",
-   "Produces",
-   "Ro Golgi apparatus",
-   "The nucleolus is cut off by a membrane, which is the site of the cytoplasmic."
+   "What structure in animal cells have the cell that certain cells have the cell?",
+   "Mitochondria",
+   "Mitochondria",
+   "Lysosomes",
+   "The passage explicitly states that the cell divides by a single membrane with pores that the cell membrane with the cytoplasm."
   ],
-  "score": 0.542,
+  "score": 0.264,
+  "gate": false
+ },
+ {
+  "unit": "Floral Diversity",
+  "type": "short",
+  "anchor": "Corolla — 5 petals, gamopetalous, rotate, campanulate or funnel-shaped, valvate. Androecium — 5 stamens, epipetalous, alternating with the petals, polyandrous; anthers usually basifixed and dithecous, dehiscing longitudinally or by apical pores (Solanum).",
+  "segs": [
+   "In Allium, with podosa, and the stamens are tetradynamous, with two short and four long stamens. 5 stamens are tetradvate. 5 stamens are alternate. Inflorescence is enclosed by fused sepals or 5 stamens, with a cross walls; anthers are tetradynamynamous, with alternate.",
+   "Describe the stamens in a stamens and explain the stamens and four long stamens and four long petals in a cross walls."
+  ],
+  "score": 0.379,
+  "gate": false
+ },
+ {
+  "unit": "Biomolecules and Cell Biology",
+  "type": "mcq",
+  "anchor": "For this reason lysosomes are called the suicide bags of the cell.",
+  "segs": [
+   "They are called 'suicide bags' because they are surrounded dictyosomes.",
+   "Why do chloroplasts considered the function of lysosomes?Form the function of lysosomes are surrounded dic acid synthesizing proteins.",
+   "They are used exclusively found in animal cells.",
+   "They both produce mitochondria.ome assembly forming a single membrane.",
+   "They all proteins exclusively through binary fission like cell.",
+   "The passage explicitly states that the Golgi apparatus is function of the Golgi apparatus."
+  ],
+  "score": 0.531,
+  "gate": false
+ },
+ {
+  "unit": "Introduction to Biology",
+  "type": "mcq",
+  "anchor": "A compound microscope has an objective lens and an eyepiece lens, and its magnification is $M=M_{\\text{objective}}\\times M_{\\text{eyepiece}}$.",
+  "segs": [
+   "The total magnification of a compound microscope",
+   "What is the formula used to calculate the total magnification of a magnification of a compound eyepiece and an objective lens with a magnification of the eyepiece and an objective.",
+   "The sum of the magnifications of the magnifications.",
+   "The sum feature of the magnifications provided by the eyepiece.",
+   "Only the magnifications provided as the objective lens.",
+   "The total magnification is the product of the two magnifications."
+  ],
+  "score": 0.776,
+  "gate": false
+ },
+ {
+  "unit": "Ecology",
+  "type": "short",
+  "anchor": "Melting glaciers: the Himalayan glaciers, including those of Khumbu, are retreating quickly, and glacial lakes such as Imja and Tsho Rolpa are at risk of outburst floods (GLOF). Carbon: burning of fossil fuel and deforestation raise CO₂ and cause global warming. Human activity is upsetting them, so sustainable farming, tree planting and a lower use of fossil fuels are important.",
+  "segs": [
+   "To reduce CO_2O, C$, N_2O, and H_2. Rainable global warming caused by human activities like rural landscapes, causing global warming. Khewa, the Himalayan glacts of fossil fuels such as burning fossil fuels and deforestation. 5. Imjor conse actions, tree plantes, and fossil fuels raise COMR. 3. Define biology and fossil fuels are threatening fossil fuels such as CO_2O_2O, making them effectively. 4. Ins, prefer global warming, and fossil fuels are crucial for the burning of fossil fuels raises CO_2. Daxy protection, causing fossil fuels and global warming. 2. Enforms, reducing COM_2 and fossil fuels raises heat in fossil fuels. Insims, causing fossil fuel and deforestation, reducing CO_2. 3. M_2 ($",
+   "Explain the effect of fossil fuels contribute to global warming and cause global warming."
+  ],
+  "score": 0.596,
   "gate": false
  },
  {
   "unit": "Ecology",
   "type": "mcq",
-  "anchor": "Nitrification: Nitrosomonas converts NH₄⁺ to NO₂⁻, then Nitrobacter converts NO₂⁻ to NO₃⁻, which plants absorb. Assimilation: plants make amino acids and proteins, and animals get nitrogen by eating plants.",
+  "anchor": "Legal and institutional measures — the Environment Protection Act, the Forest Act, compulsory Environmental Impact Assessment for large projects, and the national protected-area network described in Unit 5.",
   "segs": [
-   "Nitrobacter converts nitrite",
-   "Nitrite to nitrite, Nitrobacter converts NH_2OO_2^- by nitrite, Nitrosomonas converts NHOONO_2^HOO_NO_3NONO_NNO_2NO_2 = plants.",
-   "Nitrosomonas converts NO_NONNO_3^-$, which plants and $NO_2 + nitrogen to the soil.",
-   "Nitrobacter converts $NO_NO + Nitrobacter converts NO_2^ to nitrite, leading to nitrite. coli converts nitrite, Nitro converts NH_NNO +bacter converts NH = N_2^-$",
-   "NONitrobacter converts N_NNO converts NOOO_2 to nitrite and howNO_2 to $NO_3$, $NO_9$, which plants absorb. Both steps makes nitrite, indicating NONO_0^-$, so Nitrobacter converts $",
-   "NNO_Nitrobacter converts converts N_2^ to $NNO_H_NO_2 converts N_NO_N_2^-NNO_0/NNH_NO + I and $NO + 2NNNO_bacter converts $NNNNO/NO_Nitrite. SeNitrosomonas converts $NO + C_NO_0 to nitrite and unar to nitrite and assitrification.NNONNitrosomonas converts it to nitrite, nitrogen to nitrite, so to nitr"
+   "It makes the amount of hydroserequare to the environment for the next.",
+   "Why does the ecological banned plants impact assessment compulsory for the year due to the environment for a fresh fish-eating grassland of the next-area regulations in Nepal?",
+   "It increases the amount of the amount of hydrophytes high-area systems.",
+   "It increases the biodiversity through use of the environment for the environment for.",
+   "It increases two specific habitat to the surface area for the environment.",
+   "The passage explicitly states that the site less suitable for the environment for the impact of the Chure hills of the next, leading to the next."
   ],
-  "score": 0.599,
-  "gate": false
- },
- {
-  "unit": "Introductory Microbiology",
-  "type": "short",
-  "anchor": "If $N_0$ cells grow for time $t$ with a generation time $g$, the number of generations is $n = t/g$ and $$N = N_0 \\times 2^{n}, \\qquad n = \\frac{\\log N - \\log N_0}{\\log 2}$$ Problem. Time per mark is $2.4$ minutes in every paper; plan about $5$ minutes to read and $15$ to check.",
-  "segs": [
-   "$n = \\frac{120}{20} = 2 \\times 2^{n}$ cells. Note is 20 minutes, $13$, $2 \\times 2^{0}$ cells.",
-   "Given a generation time $n = 20$ minutes, $t$ cells with a generation time $2 \\times 20^{5}$ cells, a generation time of $n = \\frac{\\ \\text{n}{n = \\frac{0}{3} = \\frac{0.500}{3.25 \\times 20^2$ minutes, $n = 2.2$ minutes, how many generations will multiple with a generation time. What is the number of generations, $n = \\frac^{n} = \\frac{15}{5} = \\frac{3.455}{3.0} = 2.4$ minutes, $"
-  ],
-  "score": 0.848,
+  "score": 0.513,
   "gate": false
  },
  {
   "unit": "Evolutionary Biology",
-  "type": "short",
-  "anchor": "Isolation is any mechanism that prevents interbreeding. The Himalaya is a working example: the range rose through the Miocene and Pliocene, cutting one fauna into northern and southern halves and stacking habitats from Terai to alpine desert within 150 km. Modern humans originated in Africa and migrated to the rest of the world about 70,000 years ago. Genetic studies of mitochondrial DNA support this.",
-  "segs": [
-   "Africa of mitochondrial DNA in Africa and Pliocene isolated northern and state the Miocene, where isolation is not explain how fauna into northern and leave Africa.",
-   "Describe the concept of isolation and explain the origin of modern Homo sapiens."
-  ],
-  "score": 0.69,
-  "gate": false
- },
- {
-  "unit": "Introductory Microbiology",
-  "type": "short",
-  "anchor": "Calculate the number of colony-forming units (CFU) per millilitre of the original milk. Each colony arose from one cell, so $$\\text{CFU mL}^{-1} = \\frac{\\text{colonies}}{\\text{volume plated} \\times \\text{dilution}} = \\frac{148}{0.1 \\times 10^{-5}}$$ Source: Rohitjahnavi / Wikimedia Commons (CC BY-SA 4.0) Figure 15. Source: Salil Kumar Mukherjee / Wikimedia Commons (CC BY-SA 4.0) The primary (definitive) host is the one in which the parasite reproduces sexually. Total $8 + 54 + 35 = 97$ minutes, leaving 11 minutes spare for the longest program or flowchart. 1.2 What the examiner rewards in a 5-mark and an 8-mark answer.",
-  "segs": [
-   "The milk is $1 \\times 10^{5}$ minutes. The limit for a closed of $1 \\times 110^{8}$ long, $2 \\times 10^2 \\times 100^{3}$, $10 \\times 10^7 \\times 10^i ($\\frac{25}{3} = \\frac{0.0 \\times 100 \\times 10 = 10 \\times 10 \\times 18^{3} = 10 \\times 2^{7}$. This is a single-positive bacteria with a typical community forest. The presence of a typical community behaves like a single-posing approximate 100 \\times 30^{55}$. The milk is heavily contaminated as a sample in Pasteurization. This calculation is strongly ten per mark. The acceptable limit of $10^{50}$, $2 \\times 2^{8} = \\frac{1.1 \\times 100 = 20 \\times 10.0 \\times 40^{5 \\times 10^^{5}} \\times 10^,}$. The frog is heavily contamination and the milk is the milk is calculated. The",
-   "Calculate the approximate number of $10 \\times 2^2 \\times 13^{4}$ and a population in the 200 minutes, $1000 \\times 1.1 \\times 1150^{3 \\times 10^-1}$."
-  ],
-  "score": 0.61,
-  "gate": false
- },
- {
-  "unit": "Faunal Diversity",
   "type": "mcq",
-  "anchor": "Behind the pharynx a short oesophagus leads to the stomach, a wide muscular bag with cardiac and pyloric regions that begins protein digestion. The small intestine follows: the short duodenum beside the stomach, then the long coiled ileum, lined with villi, where digestion is completed and absorption occurs.",
+  "anchor": "Increase in cranial capacity: 400 → 450 → 700 → 950 → 1450 cm³. Shortening of the jaws and face, prognathous → orthognathous, canines reduced, a chin appears, brow ridges lost, forehead vertical.",
   "segs": [
-   "a sorus",
-   "A clusually trunicellular with a spinucleiological with a human body, a muscular foot, a long antene, a long coiled tubular?",
-   "cylases the body",
-   "a large vacuole",
-   "a thick and the body",
-   "The heart lined with a long wide, a long faily and a long fibrous, a coiled tubule."
+   "Cro-14 dating",
+   "What term correctly describes the ideanic period of anatomically modern Homo sapiens considered the cranial capacity of modern humans?",
+   "Specially in Africa",
+   "Modern humans",
+   "Promousesing",
+   "The passage explicitly states that Miocene the evolutionary line is characterized by the evolutionary idea of audd tert regions of the Himalayas of the evolutionary biology."
   ],
-  "score": 0.493,
+  "score": 0.436,
   "gate": false
  },
  {
@@ -93,92 +157,40 @@
   "type": "mcq",
   "anchor": "Nitrogen is needed for every protein and nucleic acid, yet the huge atmospheric supply is inert.",
   "segs": [
-   "nitrogen fixation",
-   "The scientific name of the nitrogen and the nitrogen in the nitrogen into",
-   "Natural",
-   "Nitrosomonas",
-   "Natural selection",
-   "Natural sources Centreducing, which is the nitrogen in number of air, soundance is why it is specifically a small circles."
+   "phosphorus, striped response of a CFCs.",
+   "The atmosphere of a fish concentration of a fish-eating is",
+   "DDT in the atmosphere",
+   "NHardy-1.",
+   "CHigh haemoglobin",
+   "Nitrogen is the disturbed nitrogen of much of atmospheric supply is why the atmosphere is available."
   ],
-  "score": 0.655,
+  "score": 0.38,
   "gate": false
  },
  {
-  "unit": "Floral Diversity",
-  "type": "mcq",
-  "anchor": "the female gametophyte tissue forms before fertilisation, so it is haploid; there is no double fertilisation.",
-  "segs": [
-   "haploid",
-   "In which the endosperm of a gymnosperm is the haploid",
-   "diploid",
-   "diploid, formed before fertilisation",
-   "absent",
-   "the gymnosperm endosperm is the haploid female gametophyte, formed before fertilisation."
-  ],
-  "score": 0.729,
-  "gate": false
- },
- {
-  "unit": "Biomolecules and Cell Biology",
-  "type": "mcq",
-  "anchor": "It is therefore the \"export house\" or traffic police of the cell. Monosaccharides — the simplest sugars, which cannot be hydrolysed further; sweet, soluble and reducing.",
-  "segs": [
-   "It synthesize the cell wall",
-   "Why do not ammonia considered to cell wall?",
-   "It serve significant maintainedes solely excliminuclear envelope is essential for evolution.",
-   "It synthesizes the cell wall.",
-   "It serve for cell wall polysaccharides for cell division.",
-   "The cell wall is mentioned as the cell wall, ribosomes, and diseased on the middle lotenoids."
-  ],
-  "score": 0.539,
-  "gate": false
- },
- {
-  "unit": "Vegetation",
+  "unit": "Faunal Diversity",
   "type": "short",
-  "anchor": "Temperature falls about $6^\\circ$C per 1000 m of climb, and the plant cover changes with it. In-situ conservation is the stronger method, because it saves not one species but the whole community it belongs to, and the species keeps evolving in the conditions it is adapted to.",
+  "anchor": "Body segmented and divided into head, thorax and abdomen (or cephalothorax and abdomen); segmentation is heteronomous, different segments doing different jobs. Animals share collagen and cell junctions binding the cells; a diploid adult developed from a zygote through blastula and gastrula stages; glycogen as the store; movement at some stage; and nervous and muscular tissue, which no other kingdom has. The visceral mass is covered by the mantle, a fleshy fold that secretes the calcareous shell and encloses the mantle cavity holding the gills. Most have a rasping radula armed with rows of chitinous teeth; it is absent in the filter-feeding bivalves.",
   "segs": [
-   "Camera Define the largest population, requir geographical location, and species name names. Anatomy Philies about $6$, $6$ for every $20$, and $20$ species, so $2n_i$ is the largest population in Nepal.",
-   "Explain the concept of species in the given temperature of the species is the largest population?"
+   "In the pharynx, the septa, and the muscular system of hyphae have no mouth at the coelom and no sperm. The gut is a fleshy fold into the worm is holding the coelom and the corteinoden, which are used for filter feeding, supporting the pharynx in the pharynx. The Americ segmentation is blastigger-like cephalisation in the gut.",
+   "Describe the reproductive system of the worm that control is a calcareous shells and explain the function of the pharynx in certain organisms into the digestive system of a calcareous cuticle."
   ],
-  "score": 0.25,
+  "score": 0.281,
   "gate": false
  },
  {
-  "unit": "Biomolecules and Cell Biology",
-  "type": "short",
-  "anchor": "(\"S\" is the Svedberg unit of sedimentation rate, which is why 60 + 40 does not give 100.) Ribosomes occur free in the cytoplasm or attached to the rough ER; several translating the same mRNA form a chain called a polysome. Chromatin condenses into visible chromosomes, each already made of two sister chromatids joined at the centromere. In animals the two pairs of centrioles move to opposite poles and a spindle of microtubules begins to form between them; plants form the spindle without centrioles. Lipids release about 39 kJ per gram on oxidation, against about 17 kJ per gram for carbohydrate or protein — more than twice as much, because lipid carbon is far less oxidised to begin with.",
-  "segs": [
-   "Several ribosomes translating the cytoplasm combine to the cytoplasm combine mRNA form a polysome, and a polysome assembly in the cytoplasm. In animals, the cytoplasm combine triplasmata, and lacks the nuclear envelope and the smooth endoplasmic reticulum for counting and ribosome assembly in two sister chromatids, and why the cytoplasm combine remains are called sorthern fly in the same mRNA form the cytoplasm.",
-   "Describe the significance of Chromosomes in the cytoplasmic face of the cytoplasm and give a polysome assembbased on the sedimentation."
-  ],
-  "score": 0.516,
-  "gate": false
- },
- {
-  "unit": "Floral Diversity",
-  "type": "short",
-  "anchor": "Brassicaceae — four petals in a cross, six stamens 4 long + 2 short (tetradynamous), fruit a siliqua. Fabaceae — butterfly corolla, stamens (9) + 1 (diadelphous), one carpel, fruit a pod, root nodules. Gymnosperms are seed plants in which the ovule sits naked on the surface of an open megasporophyll, with no ovary wall around it — Greek gymnos, naked, sperma, seed.",
-  "segs": [
-   "Gymnosperms are the fruit in a fruit.",
-   "Describe the fruit of a fruit origin of one ovary wall in a fruit."
-  ],
-  "score": 0.886,
-  "gate": true
- },
- {
-  "unit": "Floral Diversity",
+  "unit": "Introductory Microbiology",
   "type": "mcq",
-  "anchor": "The female gametophyte forms endosperm before fertilisation, and it is therefore haploid (n) — the single most examined difference from angiosperms, where a triploid endosperm forms only after double fertilisation.",
+  "anchor": "Compare it with the eukaryotic cell of Unit 1: there is no nuclear envelope and no membrane-bound organelle of any kind.",
   "segs": [
-   "haploid",
-   "In which the endosperm is the haploid haploid female gametophyte of the endosperm?",
-   "diploid",
-   "diploid.",
-   "diploid",
-   "The endosperm of a fern is the haploid female gametophyte, formed before fertilisation."
+   "Prokaryotic cells lack a nuclear envelope and membrane-bound organelles.",
+   "What distinguishes prokaryotic cells from eukaryotic cells from eukaryotic cells based on its membrane-bound organelles, including within eukaryotic cells?",
+   "Prokaryotic cells are larger in size compared to eukaryotic cells.",
+   "Prokaryotic cells contain mitochondria and chloroplasts.",
+   "Prokaryotic cell walls are larger in size due to eukaryotic cells.",
+   "Prokaryotic cells do not have a nuclear envelope or any membrane-bound organelles with eukaryotic cells."
   ],
-  "score": 0.775,
+  "score": 0.705,
   "gate": false
  }
 ]

@@ -2,83 +2,158 @@
  {
   "unit": "Recent Trends in Technology",
   "type": "mcq",
-  "anchor": "Actuators (electric motors, hydraulic or pneumatic cylinders) produce the movement. The end effector (gripper, welding torch, spray gun, tool) is the part that touches and works on the object.",
+  "anchor": "Milestones since: Deep Blue beat the world chess champion Kasparov (1997), AlphaGo beat the Go champion Lee Sedol (2016), the transformer architecture was published (2017), and ChatGPT put generative AI into ordinary hands (November 2022).",
   "segs": [
-   "It makes the InternetOIN is used through the browser processing",
-   "Why is best describes the object-oriented language is called",
-   "It operates within an unstructure the context of software used.",
-   "It is agreater for the hash of the movement.",
-   "It indicates the internet connectivity for an or more bugment.",
-   "Theududise from differentiate between $= \\dfrac{24 \\times 2007{,} == 3.76.len = 7.3 Pointers is the same value of the context of the given 5 is the context of software the type of the number of the number of natural an owner. This is the context of the context of software and the context of the number of biggest member function.len is the context of biggest member, which is the"
+   "The term 'artmouth conference of artificial intelligence into ordinary Lee Sedol.",
+   "Why did the history of artificial intelligence in the Dartmouthn McCarthy?",
+   "The term was coined at the Garry KaspaGo champion Lee Sed by the Go champion Kasparov in the Garry Tribhn Mcol.",
+   "The term was launched by Blue deep Blue defeated Go champv in the Darthy.",
+   "Actors was coined at Darthy.",
+   "The term was cocels was coined at all items of artificial intelligence, which transformer architecture was coined at chess."
   ],
-  "score": 0.383,
+  "score": 0.509,
+  "gate": false
+ },
+ {
+  "unit": "Object-Oriented Programming",
+  "type": "mcq",
+  "anchor": "These features together make programs secure, reusable and easy to extend, which is why large software in banks and mobile apps is written in an object-oriented way.",
+  "segs": [
+   "Inheritance",
+   "Which feature of the following is an object-oriented programming, enabling object-oriented programming primarily execute at compile-time?",
+   "Polymorphism",
+   "Encapsulation",
+   "Abstraction",
+   "The passage explicitly states that the essential features, reusability, and security features, and easy to features, and features, and security, and security, reusability, and easy to simulate inheritance, and hierarchicalable, and deployment."
+  ],
+  "score": 0.489,
+  "gate": false
+ },
+ {
+  "unit": "Object-Oriented Programming",
+  "type": "mcq",
+  "anchor": "A loop that calls area() for every shape works for all the shapes, even those added later. Objects communicate by sending messages, that is, by calling member functions.",
+  "segs": [
+   "They send messages, overriding virtual functions and parameters.",
+   "Why does the creation of a method without needing to communicate by calling member functions?",
+   "They sending the compiler.",
+   "They operate at the same speed.",
+   "They operate independently the base class with specific types.",
+   "A function plus a derived class to acquire the base class from the derived functionality."
+  ],
+  "score": 0.539,
+  "gate": false
+ },
+ {
+  "unit": "Programming in C",
+  "type": "short",
+  "anchor": "The first \"w\" block only creates the test file so that the program can be run; in the answer you may assume emp.txt exists and start at fopen(\"emp.txt\", \"a\"). 6. Reusability — write once, call as many times as needed. Modularity — a large problem is broken into small, independent tasks.",
+  "segs": [
+   "In C, a program that write a program that exists of the program execution. It divides the work into small, making it briefly. Modularity allow direct manipulation to be seen in one value.",
+   "Explain the advantages of using call by value in a C program in C?"
+  ],
+  "score": 0.514,
   "gate": false
  },
  {
   "unit": "Recent Trends in Technology",
   "type": "mcq",
-  "anchor": "Rate $= 2.2394 \\times 10^{8} \\times 90 = 2.0155 \\times 10^{10}$ bit s⁻¹ $\\approx 20.2\\ \\text{Gbit s}^{-1}$.",
+  "anchor": "Its models are named by who is at each end: Figure 7. The four main e-commerce models, named by the type of seller and buyer, with a Nepali example of each.",
   "segs": [
-   "$1\\ \\text{Rs } 28{,}08{,}580$.",
-   "What is the total number of readings will it is $10^{9}$ megabits?",
-   "$10^{80}$",
-   "$3.5{,}$",
-   "$2.5 \\times 10$",
-   "The calculation calculation calculation provided is defined as $10 \\times 10 \\times 10^{94 \\times 10$.7{,}500$.. Also, which equals the ratio of the calculated.0^{248}$ per day $10 \\times 8 bits.5 \\times 14 \\times 10^8 \\times 10^ \\times 1010^{1}$.510}$ megabits.0^{5}$ bytes.5 \\times 1.010018 \\times 1"
+   "Bigue",
+   "Which of the following is responsible for agriculture, seller, and seller prolongpite speeds?",
+   "Cloud computing",
+   "Quant-commerce",
+   "Cloud storage capacity",
+   "The passage explicitly mentions eye strain as the branch of computer science that types of ICT to perform tasks."
   ],
-  "score": 0.743,
-  "gate": false
- },
- {
-  "unit": "Data Communication and Networking",
-  "type": "short",
-  "anchor": "You drag routers, switches, PCs and cables onto a canvas, configure them, and watch animated packets travel hop by hop. It lets a student build and debug a whole network without owning any hardware, so it is the standard lab tool for this course. (c) Set the host octet to all 1s (255): broadcast address = 192.168.10.255.",
-  "segs": [
-   "102 is the network without changing existing IP address of a computer to a network without needing physical. It can be easily to achieve cables and debug a network without configure them in a network without conflient.",
-   "Explain the network without hardware and a network without configbing a network without a network without confirm the network without hardware."
-  ],
-  "score": 0.691,
-  "gate": false
- },
- {
-  "unit": "Database Management System",
-  "type": "short",
-  "anchor": "WHERE filters rows before grouping, HAVING filters groups after; an inner join drops unmatched rows, a LEFT JOIN keeps them. Models: hierarchical = tree, one parent per child; network = graph, many parents; relational = tables linked by matching key values (Codd, 1970). Each fact is stored once instead of in many separate files, so storage is saved and the copies cannot disagree. Rules such as primary keys, data types and constraints keep the data correct and accurate.",
-  "segs": [
-   "A LEFT JOIN only one parent as a graph, which model, and relational database models. This saves storage is stored in a hierarchical, network and relational database management. Ser key in a tree and relational database.",
-   "Explain the network model (Codd, 19), and the network model (1), 1970), the relational database models, and relational database rather than in a database management systems."
-  ],
-  "score": 0.675,
+  "score": 0.407,
   "gate": false
  },
  {
   "unit": "Software Process Model",
   "type": "mcq",
-  "anchor": "It is exploded into a level-1 DFD, which shows the main processes (numbered 1.0, 2.0, …) and the data stores between them. The rule that catches errors is balancing: the flows crossing the boundary of the level-1 diagram must be exactly the flows on the context diagram.",
+  "anchor": "Validation — check that it does what the customer wanted. Evolution (maintenance) — change it as needs change.",
   "segs": [
-   "To decide what processes the flows crossing the level-1 diagram diagram must be exactly the flows crossing the context diagram must be exactly.",
-   "Why is balancing in the context diagram match the context diagram of software process, and the context diagram?",
-   "To increase the context diagram match on the context diagram.",
-   "To increase the flows crossing the flows crossing the boundary of the context diagram..",
-   "To choose the context diagram must hold the context diagram of the flows crossing the diagram must be exactly that the flows on the flows crossing the rule that",
-   "The rule that catches errors by ensuring the context diagram is balancing."
+   "Validation",
+   "Which phase in the software process model involves ensuring that the customer's needs of the product?",
+   "Design and feasibility",
+   "Testing",
+   "Development",
+   "The passage explicitly states that development team Suit needs the customer's spiral model."
   ],
-  "score": 0.942,
+  "score": 0.876,
   "gate": true
+ },
+ {
+  "unit": "Object-Oriented Programming",
+  "type": "mcq",
+  "anchor": "A structured program is divided into independent modules that communicate through parameters and return values instead of global variables. C is the classic structured language, and everything you did in Unit 4 was structured programming.",
+  "segs": [
+   "Encapsulation C++, half a program is defined as a program that changes a program execution.",
+   "What is a program that allows a program to be accessed?",
+   "Polymorphism?",
+   "Polymorphism",
+   "Abstraction",
+   "A method enables a derived class and destroyed with the base class and destroyed as stated."
+  ],
+  "score": 0.481,
+  "gate": false
+ },
+ {
+  "unit": "Web Technology II",
+  "type": "mcq",
+  "anchor": "Without them JavaScript would evaluate the + left to right on strings and print 7 x 1 = 71 — the classic mistake. 3.6 Object-based programming with JavaScript and event handling.",
+  "segs": [
+   "To execute specific types of form validation in the user's form submission to improve the user's document.",
+   "Why does JavaScript enable web technology?",
+   "To increase the number of web pages.",
+   "To increase the server-side script.",
+   "To increase a security of the server-side validation.",
+   "The passage explicitly states that PHP function helps to execute specific operating system against specified as shown."
+  ],
+  "score": 0.43,
+  "gate": false
+ },
+ {
+  "unit": "Software Process Model",
+  "type": "short",
+  "anchor": "The flows crossing the edge of the diagram are the same four flows as on the context diagram — the diagram is balanced. Never draw an arrow from a data store straight to another data store, or from an external entity straight to a data store — data must pass through a process.",
+  "segs": [
+   "The diagram is balanced of the diagram is balanced features that flows crossing the diagram and cannot move directly from a data flows from a data flows to the context diagram.",
+   "Explain the relationship between the diagram and context diagram to the diagram and the diagram of the context diagram for data flows in a context diagram."
+  ],
+  "score": 0.773,
+  "gate": false
  },
  {
   "unit": "Recent Trends in Technology",
   "type": "mcq",
-  "anchor": "Actuators (electric motors, hydraulic or pneumatic cylinders) produce the movement. The end effector (gripper, welding torch, spray gun, tool) is the part that touches and works on the object.",
+  "anchor": "Wearable bands measure the pulse and oxygen level and send an alert to a doctor if a reading is dangerous. Sensors count cars, adjust traffic signals and show free parking spaces.",
   "segs": [
-   "The length can enter and the track them directly.",
-   "Which cloud computing involves using cloud computing services to have. If",
-   "Apublic cloud is an detect of the internet",
-   "R anchruper",
-   "Rsensors (NEB 2080)",
-   "The main small Nepaliaticatic recognition."
+   "Wireless developing a doctor in a doctor if readings",
+   "What feature of agriculture, irrigation allows utilize sensor readings to save electricity meter installation?",
+   "Sends health alarms",
+   "Laserce a phone Kutions",
+   "Manks",
+   "A doctor learns a phone irrigation irrigation technology in the reading automatically without needing to visitors."
   ],
-  "score": 0.393,
+  "score": 0.426,
+  "gate": false
+ },
+ {
+  "unit": "Programming in C",
+  "type": "mcq",
+  "anchor": "Reusability — write once, call as many times as needed. Modularity — a large problem is broken into small, independent tasks.",
+  "segs": [
+   "In Circle, a large problem, a large problem",
+   "What is the primary benefit of using call by a large problem into a large problem?",
+   "Regetw",
+   "Creating the programming",
+   "Crecasts",
+   "The passage explicitly mentions that the prototype and the call."
+  ],
+  "score": 0.7,
   "gate": false
  },
  {
@@ -86,111 +161,40 @@
   "type": "mcq",
   "anchor": "WHERE FirstName='%a%' uses = instead of LIKE, so % is not a wildcard at all — it looks for the literal string %a%.",
   "segs": [
-   "It is declared the inputs that the URL",
-   "Why does the wildcardwser a round trip.",
-   "It uses the server for server for server?",
-   "It increases the fire protection of the server-side validation.",
-   "It increases the server-side processing to match all the database.",
-   "The web server check ensures the server room, makingBMSr."
+   "WHERE FirstName='%a'%a'",
+   "What p a wildcard defined for writing a string containing at a%a%a' refer to a wildc%'?",
+   "WHERE FirstName='",
+   "WHERE FirstName=a'",
+   "WHERE FirstName LIKE '%a'",
+   "% is the wildcard, so the wildc, then a string % imp."
   ],
-  "score": 0.35,
-  "gate": false
- },
- {
-  "unit": "Software Process Model",
-  "type": "short",
-  "anchor": "(MCQ on the four V's, 2080 supplementary) [5] Why: the four V's came as an MCQ in the 2080 supplementary. Big data means data sets so large, fast-growing and varied that ordinary database tools cannot store and process them.",
-  "segs": [
-   "The requirement analysis phase is in an external entities without rewriting the customer's district is called the overall cost of the latest version of the system and data.",
-   "Explain the concept of the design of the context diagram of software development and the context of software project is defined by the context of software and processed."
-  ],
-  "score": 0.209,
-  "gate": false
- },
- {
-  "unit": "Object-Oriented Programming",
-  "type": "short",
-  "anchor": "A structured program is divided into independent modules that communicate through parameters and return values instead of global variables. C is the classic structured language, and everything you did in Unit 4 was structured programming. Show the payslip for Hari Bahadur, whose basic salary is Rs 35,000. Checking the arithmetic by hand: allowance $= 0.20 \\times 35000 = 7000$, gross $= 35000 + 7000 = 42000$, tax $= 0.01 \\times 42000 = 420$, net $= 42000 - 420 = 41580$. A destructor (~ClassName()) is called automatically when the object is destroyed.",
-  "segs": [
-   "The net salary of the gross salary of a C programming in Rs 35. A C+4000 is 200000, tax $= 420000$.",
-   "Explain the net salary of the tax of Rs 350000 and tax deducteducteductes inside the tax of the gross salary."
-  ],
-  "score": 0.88,
-  "gate": true
- },
- {
-  "unit": "Software Process Model",
-  "type": "mcq",
-  "anchor": "Suitable for short, well-understood projects whose requirements cannot change — payroll rewrites, government systems defined by a fixed law, projects with a legal or tender-based specification.",
-  "segs": [
-   "To ensure the user is customer requirements for a stable, well-understood requirements.",
-   "Why is suitable for a inner loop of software development process of software development?",
-   "To increase the speed of the software development",
-   "To reduce the security of software development",
-   "To comply with stable scope, design.",
-   "The Waterfall model is suitable for projects with stable, well-m progreed."
-  ],
-  "score": 0.718,
-  "gate": false
- },
- {
-  "unit": "Data Communication and Networking",
-  "type": "mcq",
-  "anchor": "Two subtractions to remember: the host part of all 0s is the network address and all 1s is the broadcast address, so a network with $n$ host bits has $2^{n}-2$ usable hosts. 127.0.0.0/8 is reserved for loopback (127.0.0.1 is always \"this computer\"), which is why class A stops at 126.",
-  "segs": [
-   "10, how many usable host bits required for calculator.",
-   "What is the network address used for a network and broadcast address in a network and broadcast range?",
-   "1648 cables for the network and the network without confliability.",
-   "12.0.0/6.0.0.",
-   "125.0.0), which is the minimum number of host bits with $2^{2}-2$.",
-   "The broadcast address is $2^{5}$, which is the number of host bits is 25."
-  ],
-  "score": 0.683,
+  "score": 0.607,
   "gate": false
  },
  {
   "unit": "Database Management System",
-  "type": "mcq",
-  "anchor": "WHERE marks >= 40 is legal, WHERE AVG(marks) >= 60 is not — that must be HAVING AVG(marks) >= 60. 1.4.6 The DBMS enforces your constraints.",
+  "type": "short",
+  "anchor": "Model answer D2: three-level architecture and data independence (10 marks). The ANSI/SPARC architecture separates a database into three levels of abstraction so that users see only what they need and the storage can change without rewriting programs.",
   "segs": [
-   "DROP",
-   "Which SQL keyword removes rows from a DBMS?",
-   "Hierarchical",
-   "IIIITotal marks",
-   "G",
-   "The correct syntax for an > tag is note that is the table."
+   "Separates a database into three levels of abstraction. Its database schemombines the database into three levels. Rules such as database tools cannot altering the database. The three levels of abstraction ensures database growth and programs.",
+   "Explain the difference between database management system and programs using more storage with the programs that depend on disk without rewriting the programs using it."
   ],
-  "score": 0.47,
+  "score": 0.617,
   "gate": false
  },
  {
-  "unit": "Object-Oriented Programming",
+  "unit": "Web Technology II",
   "type": "mcq",
-  "anchor": "A structured program is divided into independent modules that communicate through parameters and return values instead of global variables. C is the classic structured language, and everything you did in Unit 4 was structured programming.",
+  "anchor": "The server runs the PHP and sends only the resulting HTML to the browser, so the source is never exposed. The PHP interpreter sits inside the web server and is the only part that talks to the database.",
   "segs": [
-   "functionsend function that runs automatically when a C programming languages that communicate with the program.",
-   "What is the following best described as stated in a single unit demonstrate the context of C programming language?",
-   "loops through the program size of the program",
-   "loop length is modified in the object-oriented programming.",
-   "Abstraction is runtime",
-   "The length ensures that defines the program to find variables of different behaviors based on the program execution."
+   "The PHP interpreter",
+   "What action should the web server accessible through web server and the web server?",
+   "Sends the database",
+   "CSS engine",
+   "JavaScript runtime",
+   "The passage explicitly states that communicates with the web server."
   ],
-  "score": 0.469,
-  "gate": false
- },
- {
-  "unit": "Programming in C",
-  "type": "mcq",
-  "anchor": "break leaves the loop, continue only ends the current pass.",
-  "segs": [
-   "<script hangs a function",
-   "What is defined as a function do not a function?",
-   "<uls a function",
-   "</script>",
-   "<uls the original.js>",
-   "The function is defined as a MySQL database to the purpose of a prime."
-  ],
-  "score": 0.55,
-  "gate": false
+  "score": 0.853,
+  "gate": true
  }
 ]

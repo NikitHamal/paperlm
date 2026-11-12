@@ -1,88 +1,32 @@
 [
  {
-  "unit": "Biotechnology",
-  "type": "mcq",
-  "anchor": "A thermal cycler then repeats three temperature steps: Each cycle doubles the number of target molecules, so after $n$ cycles one molecule becomes $2^n$ copies.",
-  "segs": [
-   "$2^n$",
-   "In a PCR, how many copies of DNA are produced after $2^n$ cycles of PCR?",
-   "$n$",
-   "$2n$",
-   "$n+1$",
-   "Each cycle doubles the number of copies, so $n$ cycles, $n$ cycles the number of copies."
-  ],
-  "score": 0.6,
-  "gate": false
- },
- {
-  "unit": "Human Biology",
-  "type": "mcq",
-  "anchor": "The acrosome releases hyaluronidase and other enzymes that digest a path through the corona radiata and zona pellucida; the moment one sperm fuses with the oocyte membrane, the cortical reaction hardens the zona and blocks all other sperms (preventing polyspermy).",
-  "segs": [
-   "The zona radiata and other sperm fuses with the egg",
-   "What is the primary function of the oocyte in and fertilisation?",
-   "The zona radiophase",
-   "The zona pellucida",
-   "The egg releases enzymes that destroys the zona pellae.",
-   "The zona radicle is responsible for the vitelline membrane to form the vitelline membrane that only one sperm fuses with the sperm entry."
-  ],
-  "score": 0.726,
-  "gate": false
- },
- {
-  "unit": "Embryology",
-  "type": "short",
-  "anchor": "Because the two kinds of spore are different, angiosperms are heterosporous. The pollen grain is the much-reduced male gametophyte and the embryo sac is the female gametophyte; both are haploid, and both are permanently retained inside the sporophyte. (d) Each 3-celled grain has one tube nucleus and two male gamete nuclei = 3 nuclei, so $1200 \\times 3 = 3600$ nuclei.",
-  "segs": [
-   "Pollen sac is the total number of male gametes. The 3-celled pollen grain has 3 nuclei, 800000, $1200 \\times 3 = 200$ male gametes.",
-   "Explain the number of male gametes and male gametes and 3 nuclei, resulting in the embryo sac."
-  ],
-  "score": 0.695,
-  "gate": false
- },
- {
-  "unit": "Embryology",
-  "type": "mcq",
-  "anchor": "That is a surplus of 8 male gametes for every egg, a plant's insurance against pollen that never reaches a stigma.Photo credits: (a) Dartmouth Electron Microscope Facility, Da, Public domain.",
-  "segs": [
-   "C male gametes",
-   "Which of the following methods are pollen from the egg's egg dorous capsule?",
-   "Syngamy",
-   "Enosperm formation",
-   "Microspored",
-   "The pollen grain's own stigma is explicitly described as it allows pollen to developing male gametes within the stigma."
-  ],
-  "score": 0.832,
-  "gate": false
- },
- {
-  "unit": "Plant Physiology",
-  "type": "mcq",
-  "anchor": "ABA is the stress hormone, the general growth inhibitor and the antagonist of gibberellin.",
-  "segs": [
-   "gibberellin",
-   "The hormone that is the sequential of",
-   "gibberellin",
-   "zeroxide and acromegibberellauxin only",
-   "gibberellin",
-   "Igibberellin; the infected rice grows tall and acromegibberellin."
-  ],
-  "score": 0.6,
-  "gate": false
- },
- {
   "unit": "Developmental Biology",
   "type": "mcq",
-  "anchor": "Finally the male pronucleus ($n = 13$) fuses with the female pronucleus ($n = 13$) to make a diploid zygote ($2n = 26$) — amphimixis.",
+  "anchor": "Add the germ-layer derivative table and you have covered almost every question set on this unit in the last ten years. Gametogenesis is the process by which diploid primordial germ cells in the gonad are converted into haploid gametes.",
   "segs": [
-   "$3$",
-   "What is the number of blastomeres after fertilisation?",
-   "$2n$",
-   "$2n = 2$",
-   "$2$",
-   "The number of blastombination is the number of DNA, so $n$ cycles."
+   "The process by which diploid germ cells into haploid gametes into three germ cells.",
+   "Describe the process of gametogenesis in which stage stage of the haploid sperm cells in the process of zygote?",
+   "Spermatozoa are located on the formation of the haploid sperm entry.",
+   "Spermatogenesis initiates the formation of meiosis I.",
+   "Spermiogenesis is primordial germ cells.",
+   "The passage explicitly states that the formation of the archenteron replaces the gonium during gastrulation."
   ],
-  "score": 0.45,
+  "score": 0.841,
+  "gate": false
+ },
+ {
+  "unit": "Genetics",
+  "type": "mcq",
+  "anchor": "This was proved by Meselson and Stahl (1958), who grew E. coli for many generations in medium containing heavy ¹⁵N, then transferred it to ordinary ¹⁴N.",
+  "segs": [
+   "920-94 plants",
+   "What term describes the four species of colon and transferred to describe the medium mentioned?",
+   "202",
+   "820",
+   "120",
+   "Alterbinserted by the GMendel's experiment with it is derived from autosine in 1957."
+  ],
+  "score": 0.417,
   "gate": false
  },
  {
@@ -90,32 +34,126 @@
   "type": "short",
   "anchor": "The real danger is the impurities in technical-grade carbide, which release phosphine and arsine. Part of the proton gradient is also spent on moving pyruvate and phosphate. One glucose gives 30–32 ATP, about one-third of the 2870 kJ released by its complete oxidation being trapped; the rest escapes as heat, which keeps the body warm. Osmosis is a special case of diffusion, not a separate process. In a plant cell the plasma membrane and the tonoplast are the selectively permeable membranes; the cell wall is freely permeable and plays no part in selection.",
   "segs": [
-   "In the rest is ide, the with $-0.2$ MPa is the cell wall: light reaction in the cell's transformation phosphor a solution of $-0.430.0. In 2.70, a 20 kJ is fixed in a proton gradient, the cell becomes turgid. In the cell, the cell has no wall, a cell wall, the cell is a cell, in a cell, a cell. Each cell becomes phosphor, the cell is released as a cell becomes turgid cell, a cell, cell becomes turgid as water, which is why water can convert the cell's selective reabsorption. 3. This process is the role of a cell in the cell and a cell, the cell becomes coolate-rich and explaining the cell. 3.00 cell becomes acetyl-3-rich cell, a cell can cross the cell, a cell body and a cell, a nucleus and a cell, create a cell. In the cell",
-   "Explain the process of cell and explain the process of cell in plant cell and describe the cell body."
+   "The respiratory membrane and the tonoplast are selectively permeable membranes, impurate about 20 m/30 kJ in a growing barrients. These pathways zeroplast as a selectively permeable membrane, thus proving the selectively permeable membrane and plays the selectively permeable membrane. 5. This process is selectively permeable membranes in a selectively permeable membrane. Oxygen is selectively permeable, a selectively permeable membrane and true. This process is a cellulose-like permeable membrane, enablingvers the selectively permeable membrane, enormous and plasmolysis released. This process is the selectively permeable membrane permeable membrane",
+   "Describe the process of plasmolysis and in plant cells of the membrane and the selectively permeable membrane is selectively permeable membr membranes, for the selectively permeable membrane in plant cells."
   ],
-  "score": 0.624,
+  "score": 0.773,
   "gate": false
  },
  {
-  "unit": "Human Population and Health Disorders",
+  "unit": "Plant Physiology",
   "type": "short",
-  "anchor": "This is exponential (geometric) growth, and its graph is the familiar J-shaped curve: Here $P_0$ is the population at the start, $P_t$ the population after time $t$ years, and $r$ the annual growth rate expressed as a decimal fraction. (a) $\\text{CBR} = \\dfrac{4500}{250000}\\times 1000 = 18.0$ per 1000 per year.",
+  "anchor": "Some are growth movements; some are reversible turgor (variation) movements and involve no growth at all. In shade at 100 units the net uptake is 3.5, and in full sun at 2000 it is 15.9. Past a certain light level the dark reactions, the enzymes and carbon dioxide supply become the limit, so extra light adds almost nothing.Photo credits: (a) Kelvinsong, CC0.",
   "segs": [
-   "$\\text{t} = \\frac{\\text{CBR} = \\frac{43}{4}{480}{R} = \\frac{P_0}{P_05} = \\frac{50}{0000}\\times 1000 = 10$. $\\text{rt} = \\fract}{P_{P}}$.",
-   "In a population growth rate, $r = \\frac{R}{P_d} = \\frac{R0}{P}$, calculate the formula for the population growth rate $\\text{DPD} = \\frac{(\\text{births})}{R}{D}$ and $T_d = \\frac{RN}{P_t}$."
+   "Past a certain light level, enzymes and carbon dioxide supply become the limiting factors. 2. Glycolysis occurs when light adds almost nothing. 3. Byond energy, the enzymes and carbon dioxide to enzymes, enzymes, and carbon dioxide supply.",
+   "Explain the limit, in light levels, and carbon dioxide become the limit, and carbon dioxide consequate the limit, enzymes and carbon supply become the limits."
   ],
-  "score": 0.525,
+  "score": 0.773,
+  "gate": false
+ },
+ {
+  "unit": "Biotechnology",
+  "type": "mcq",
+  "anchor": "Micropropagation multiplies elite plants by the thousand — banana, orchid, potato, sugarcane and strawberry are produced this way in commercial labs, including in Kathmandu and Chitwan.",
+  "segs": [
+   "Chloroplasts are produced",
+   "What term describes the process of sources in Nepal, orchid, and kindness of banana, orchid orchids, and supply pollen?",
+   "Leaves",
+   "Gelato",
+   "Hydropagation",
+   "The passage explicitly states that theogamy specifically mentioned as the statement."
+  ],
+  "score": 0.592,
+  "gate": false
+ },
+ {
+  "unit": "Human Biology",
+  "type": "mcq",
+  "anchor": "Taking drugs for a non-medical purpose causes addiction. In your view, what motivates youngsters to take drugs and how can this be prevented?",
+  "segs": [
+   "Two chron",
+   "Which of the following is not a genetically modified crop used to produce drugs and can be prevented to ensure human beings and can be used to ensure?",
+   "Practor",
+   "Ponservis",
+   "Tobaccoma",
+   "Tobaccuss can bees for programme."
+  ],
+  "score": 0.396,
+  "gate": false
+ },
+ {
+  "unit": "Human Biology",
+  "type": "mcq",
+  "anchor": "(i) Plasma is the non-cell fraction, so plasma = (100 - 45) % = 55 % of blood.",
+  "segs": [
+   "0.25 %",
+   "In the Mult of blood is about",
+   "0.0 %",
+   "1.5 %",
+   "0.5 %",
+   "0.5 % of the lowest distribution of the cardiac cycle is 80 %, so the actual multiplication is reabsorbed."
+  ],
+  "score": 0.483,
   "gate": false
  },
  {
   "unit": "Genetics",
-  "type": "short",
-  "anchor": "With four bases there are $4^{3} = 64$ codons — 61 sense codons that specify amino acids and 3 stop (nonsense) codons, UAA, UAG and UGA.",
+  "type": "mcq",
+  "anchor": "The message is read in non-overlapping groups of three bases called codons. With four bases there are $4^{3} = 64$ codons — 61 sense codons that specify amino acids and 3 stop (nonsense) codons, UAA, UAG and UGA.",
   "segs": [
-   "1.4 codons are UGA (479). This is the start codon and UAA, UAA, UGA (4 codons).",
-   "Describe the number of codons, UAG, UAG."
+   "$\\cGG and UAA, UAG, UAG and UAAGG is anticodon of 64 codons. The code consists of 64 codons and 64 codons are UAG and 12 codons. The code is $34$, and the start codon carry are UAAG and UGA stop. UAUG is $",
+   "Which of the following represents the genetic code of 64 codons in the genetic code. What is the genetic code of the genetic code?",
+   "A pair appear in the started sequence that codes for amino acids",
+   "AGG",
+   "AUG",
+   "AUGA is described as one-overlapping, comma-overlapping and nearly universal code of 64 nm."
   ],
-  "score": 0.69,
+  "score": 0.533,
+  "gate": false
+ },
+ {
+  "unit": "Plant Anatomy",
+  "type": "mcq",
+  "anchor": "Anatomy is what you see when you cut a plant open. A stem looks like a green rod from outside; under a microscope it turns out to be a precisely arranged community of cells, some alive and thin-walled, some dead and reinforced, some hollowed out into pipes.",
+  "segs": [
+   "Asimary growth",
+   "What term describes a young dicot stem of a dicot stem that is observed in a dicot plant?",
+   "Dicots",
+   "Phloem",
+   "Dicots lack a cuticle",
+   "The passage explicitly mentions a cuticle as a cuticle or stomata in leaf, which allows it to grow in girth to a transverse section."
+  ],
+  "score": 0.47,
+  "gate": false
+ },
+ {
+  "unit": "Applied Biology",
+  "type": "mcq",
+  "anchor": "Resistance appears when they are misused, so one must finish the course, and not buy medicines without a prescription. 3. Sewage is wastewater with organic matter and germs.",
+  "segs": [
+   "Resplore are harvested about 17,000 m.",
+   "In a vermicomposting, if a course of waste per heavy is produced by microbial or a day-free water level. This process is directly used to prevent the critical products of organic waste. What is vermicomposting primarily used for sustainable farming?",
+   "Photosynthesis ceather in dry matter",
+   "The yield performing high utilization impite fish cubicines.",
+   "Aerobic digestion testing high utilized with reduced quality levels.",
+   "Aerobic fermenting solves two species with different feeding the yield per hectare rises sharply."
+  ],
+  "score": 0.392,
+  "gate": false
+ },
+ {
+  "unit": "Plant Anatomy",
+  "type": "mcq",
+  "anchor": "It is found wherever finished, non-stretching strength is needed — including the hypodermis of a young monocot stem and the bundle caps of a young dicot stem.",
+  "segs": [
+   "Hypodermis of a young dicot stem",
+   "In dicot stem, what feature of dicot roots allows for a young dicot root to bearing of a young monocot stem?",
+   "Xylem of a dicot stem",
+   "Phloem of a dicot stem and a dicot stem",
+   "Xylem of a young monocot stems",
+   "The endodermis is called pith as it because it is called pith."
+  ],
+  "score": 0.838,
   "gate": false
  },
  {
@@ -123,66 +161,40 @@
   "type": "short",
   "anchor": "The roof of the archenteron rolls off as a solid rod, the notochord. It induces the ectoderm directly above it to thicken into a neural plate.",
   "segs": [
-   "The blastocoel as a primary follicle. The dorsal lip of the blastopore becomes the dorsal lip of the neural tube.",
-   "Explain the role of the blastopore and the dorsal lip of it a dorsal lip of the dorsal lip of a neural tube."
+   "1. Students into the archenteron, the neural tube, and the neural tube then in the neural tube.",
+   "Describe the development of gastrulation in the frog development of the frog, and its function of the developmental."
   ],
-  "score": 0.345,
-  "gate": false
- },
- {
-  "unit": "Biotechnology",
-  "type": "short",
-  "anchor": "Micropropagation multiplies elite plants by the thousand — banana, orchid, potato, sugarcane and strawberry are produced this way in commercial labs, including in Kathmandu and Chitwan.",
-  "segs": [
-   "Goldenicines in plants are produced by the laboratory, creating bite growth. 2. Co culture is the yield of theing of additional sperm can beings, and the starcane and the station of organic waste.",
-   "Explain the concept of any specific to convert resistance in plants, including the production of resistance of limits in plants, and biof life, and improvement."
-  ],
-  "score": 0.204,
+  "score": 0.45,
   "gate": false
  },
  {
   "unit": "Applied Biology",
   "type": "mcq",
-  "anchor": "Drone — male, develops from an unfertilised egg and is therefore haploid (this is arrhenotokous parthenogenesis); its only function is mating. Worker — a sterile female; in sequence over her life she cleans cells, nurses larvae, builds comb, guards the entrance and finally forages.",
+  "anchor": "Spectrum — broad-spectrum (tetracycline, chloramphenicol, ampicillin) act on both Gram-positive and Gram-negative bacteria; narrow-spectrum (penicillin G, vancomycin, isoniazid) act on a limited range.",
   "segs": [
-   "Tendero-feight tims and tank the same sequence of sperms.",
-   "Why does the primary function of the quality in the life cycle?",
-   "Meristem culture undergoesophanogrammemeasyly.",
-   "The life cycle repeats about 600 mis",
-   "The life cycle of about 60 hours.00 % causes 100% of these are haploid.",
-   "The luteal phase is a mating from outside in the text."
+   "Salmonella typhoid",
+   "Which of the following is an example of auxins a mantleosa peptidia (Arestrin) disease?",
+   "Saccus",
+   "Coccus",
+   "Saccopicillaromyces",
+   "Penicillium candidi, Red by an antibiotic-positive bacteria."
   ],
-  "score": 0.487,
+  "score": 0.412,
   "gate": false
  },
  {
-  "unit": "Human Biology",
+  "unit": "Embryology",
   "type": "mcq",
-  "anchor": "Fick's law says diffusion rate ∝ (surface area × pressure difference) ÷ thickness.",
+  "anchor": "Stage 1: microsporogenesis (formation of microspores). Each cell of the sporogenous tissue becomes a microspore mother cell (pollen mother cell, 2n).",
   "segs": [
-   "Loop of blood pressure difference potential $1.9$ MPa",
-   "If the rate of the rate of air into the rate of $1.70$ beats per cent's $\\ \\text{L}$ is reabsorbed?",
-   "$700\\%$",
-   "$70$",
-   "$1\\%$",
-   "The calculation $(1\\%) describes the's egg's law of blood supply. Option ($1\\%) states that the heart rate is reabsorbed."
+   "To produce a microspore mother cell (2n).",
+   "Why do some plants, like maize and wheat, have a maize grain, critical structure?",
+   "To produce a high-celled pollen grains.",
+   "To produce high temperatures on the plant's.",
+   "To increase the rate of microspores from the laboratory cell.",
+   "The pollen tube enters a single cell, pear-like microgametogenesis, the unequal mitotically and a vegetative cell, which develop into a more abundant food."
   ],
-  "score": 0.474,
-  "gate": false
- },
- {
-  "unit": "Developmental Biology",
-  "type": "mcq",
-  "anchor": "Add the germ-layer derivative table and you have covered almost every question set on this unit in the last ten years. Gametogenesis is the process by which diploid primordial germ cells in the gonad are converted into haploid gametes.",
-  "segs": [
-   "To initiates and the fusion of the egg",
-   "Why does the diploid germ cells in the cell body?",
-   "To create the formation of cell division",
-   "To increase the size of the cell",
-   "To decreases the formation of cells",
-   "Oogenesis is crucial for the formation of haploid spermatocytes in the formation of cell by meiosis in the formation of meiosis."
-  ],
-  "score": 0.46,
+  "score": 0.655,
   "gate": false
  }
 ]

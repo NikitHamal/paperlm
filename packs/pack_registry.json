@@ -8,7 +8,7 @@
    "subject": "biology",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.5528,
+   "val_loss": 3.6097,
    "numeric": 10
   },
   {
@@ -18,7 +18,7 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.4801,
+   "val_loss": 2.2312,
    "numeric": 36
   },
   {
@@ -38,7 +38,7 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.6191,
+   "val_loss": 2.4074,
    "numeric": 24
   },
   {
@@ -48,7 +48,7 @@
    "subject": "chemistry",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.8785,
+   "val_loss": 2.748,
    "numeric": 12
   },
   {
@@ -58,7 +58,7 @@
    "subject": "chemistry",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.3057,
+   "val_loss": 3.131,
    "numeric": 9
   },
   {
@@ -68,7 +68,7 @@
    "subject": "mathematics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 1.9558,
+   "val_loss": 1.9179,
    "numeric": 28
   },
   {
@@ -78,7 +78,7 @@
    "subject": "mathematics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.1646,
+   "val_loss": 2.0647,
    "numeric": 32
   },
   {
@@ -88,7 +88,7 @@
    "subject": "computer-science",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.9843,
+   "val_loss": 3.5845,
    "numeric": 8
   },
   {
@@ -98,7 +98,7 @@
    "subject": "computer-science",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 4.4192,
+   "val_loss": 4.1563,
    "numeric": 7
   }
  ]
