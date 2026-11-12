@@ -65,4 +65,16 @@ async function run() {
 }
 document.querySelectorAll(".tabs button").forEach((b) => (b.onclick = () => { mode = b.dataset.mode; document.querySelectorAll(".tabs button").forEach((x) => x.setAttribute("aria-selected", x === b)); $("one").hidden = mode !== "one"; $("paper").hidden = mode !== "paper"; }));
 $("go").onclick = run; $("reveal").onclick = () => $("out").classList.toggle("show");
+// export: plain text (question paper, then answer key) and print stylesheet; the DOM text already holds the rendered items
+function paperText() {
+  const withAns = $("out").classList.contains("show"), lines = [];
+  document.querySelectorAll("#out .q, #out .sec").forEach((el) => {
+    if (el.classList.contains("sec")) { lines.push("", el.textContent.toUpperCase()); return; }
+    lines.push("", el.querySelector("h3").textContent, el.querySelector("p").textContent);
+    el.querySelectorAll(".opt").forEach((o) => lines.push("  " + o.querySelector("b").textContent + " " + o.querySelector("span").textContent));
+    if (withAns) { const a = el.querySelector(".ans"); if (a) lines.push("  " + a.textContent); }
+  }); return lines.join("\n").trim();
+}
+$("copy").onclick = async () => { const t = paperText(); if (!t) return setStatus("Nothing to copy yet"); try { await navigator.clipboard.writeText(t); setStatus("Copied " + t.split("\n").length + " lines" + ($("out").classList.contains("show") ? " with answers" : " (answers hidden)")); } catch { setStatus("Clipboard blocked by the browser"); } };
+$("print").onclick = () => { if (!$("out").children.length) return setStatus("Generate a paper first"); window.print(); };
 loadRegistry().then((r) => { reg = r; renderChips(); const q = new URLSearchParams(location.search).get("pack"); if (q) selectPack(q); }).catch((e) => ($("packinfo").textContent = "No pack registry yet: " + e.message));
