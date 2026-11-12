@@ -53,12 +53,24 @@ const OPEN = /^(what|which|why|how|when|where|who|name|define|state|explain|desc
 const rep3 = (t) => { const w = t.toLowerCase().split(/\s+/); const seen = new Set(); for (let i = 0; i + 2 < w.length; i++) { const g = w.slice(i, i + 3).join(" "); if (seen.has(g)) return true; seen.add(g); } return false; };
 const distinct = (t) => { const w = t.toLowerCase().split(/\s+/).filter(Boolean); return w.length ? new Set(w).size / w.length : 0; };
 /** Strict gate v3 (on top of the lexical grounding gate): well-formed question, no repetition, no answer leak, no clause fragments, fluent under the model itself. */
-export function strictOK(kind, segs, anchor, lp, lpMin = -1.6) {
+const NUMS = (t) => t.match(/\d+(?:\.\d+)?/g) || [], PLAIN = (t) => t.replace(/\$[^$]*\$/g, " ").replace(/\\[A-Za-z]+/g, " ");
+const stem = (w) => w.replace(/(ing|ed|es|s|ly)$/, "");
+/** v4 lexicon + numeric-provenance gate: every number must occur in the anchor (single digits allowed outside the answer), every word of 4+ letters must be a word the pack has seen
+ *  in its own syllabus/bank (or a stem of one), and no digit run like "00000". Kills fluent-looking hallucinations such as "observed00000 ... 900/1". */
+export function lexOK(segs, anchor, lex) {
+  const an = new Set(NUMS(anchor));
+  for (let k = 0; k < segs.length; k++) { const t = segs[k]; if (/(\d)\1{3,}/.test(t)) return false;
+    for (const n of NUMS(t)) if (!an.has(n) && (k === 0 || n.length > 1)) return false;
+    if (lex) for (const w of PLAIN(t).toLowerCase().match(/[a-z]{4,}/g) || []) if (!lex.has(w) && !lex.has(stem(w)) && !lex.has(w + "e")) return false; }
+  return true;
+}
+export function strictOK(kind, segs, anchor, lp, lpMin = -1.6, lex = null) {
   const [ans, q] = segs, A = new Set(cw(anchor)), qc = cw(q);
   if (!OPEN.test(q.trim()) || qc.length < 3 || qc.filter((w) => A.has(w)).length < 2) return false;
   if (kind === "mcq") { if (q.length < 20 || q.toLowerCase().includes(ans.toLowerCase()) && ans.length > 3) return false; }
   for (const t of segs) { if (rep3(t) || distinct(t) < 0.55 || /(\$\s*\$)|\s{2,}|([a-z])\2{3,}/.test(t)) return false; if (t.length > 25 && !/[a-z]{3}/i.test(t)) return false; }
   if (kind === "short" && !/[.)$]\s*$|\w$/.test(ans)) return false;
+  if (!lexOK(segs, anchor, lex)) return false;
   return lp >= lpMin;
 }
 function pickBank(bank, unit, kind, marks, rand, used) {
@@ -102,11 +114,13 @@ export class Pack {
     return out;
   }
   /** answer-first generation + FSM + best-of-K entailment (grounding) rerank + deterministic key placement -> item or null */
+  lexicon() { if (this._lex && this._lexN === this.bank.length) return this._lex; const L = new Set(), add = (t) => (PLAIN(t || "").toLowerCase().match(/[a-z]{4,}/g) || []).forEach((w) => { L.add(w); L.add(stem(w)); });
+    for (const u of this.graph.units) { add(u.name); (u.terms || []).forEach(add); for (const f of u.facts) add(f.text); } for (const b of this.bank) { add(b.question); add(b.answer); add(b.why); (b.distractors || []).forEach(add); add(b.anchor); } this._lex = L; this._lexN = this.bank.length; return L; }
   bankItem(unit, kind, marks, rand = Math.random) { return pickBank(this.bank, unit, kind, marks, rand, this.used); }
   async makeItem(unit, kind, marks, fact, opt = {}) {
     const ut = unit.terms || [], outs = await this.sample(unit, kind, marks, fact.text, opt), rand = opt.rand || Math.random;
     const scored = outs.filter((o) => o.done).map((o) => { const [sc, f] = grounding(o.segs, kind, fact.text, ut); return { o, sc, f, rank: sc + 0.02 * o.lp }; }).sort((a, b) => b.rank - a.rank); if (!scored.length) return null;
-    const { o, sc, f } = scored[0], pass = gatePass(sc, f, kind); if (!pass || (opt.strict !== false && !strictOK(kind, o.segs, fact.text, o.lp, opt.lpMin))) return { rejected: true, score: sc, flags: f, segs: o.segs };
+    const { o, sc, f } = scored[0], pass = gatePass(sc, f, kind); if (!pass || (opt.strict !== false && !strictOK(kind, o.segs, fact.text, o.lp, opt.lpMin, this.lexicon()))) return { rejected: true, score: sc, flags: f, segs: o.segs };
     if (kind === "mcq") { const [ans, q, d1, d2, d3, why] = o.segs, opts = [ans, d1, d2, d3].map((t, i) => ({ t, ok: i === 0 })); for (let i = 3; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
       return { kind, marks: 1, unit: unit.name, question: q, options: opts.map((x) => x.t), key: "abcd"[opts.findIndex((x) => x.ok)], why, anchor: fact.text, score: sc, flags: f, fid: fact.id }; }
     return { kind, marks, unit: unit.name, question: o.segs[1], answer: o.segs[0], anchor: fact.text, score: sc, flags: f, fid: fact.id };

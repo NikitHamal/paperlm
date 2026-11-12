@@ -80,12 +80,25 @@ object PackGate {
     }
     fun pass(g: DoubleArray, kind: String) = g[0] >= 0.85 && (kind == "short" || (g[2] > 0 && g[3] > 0 && g[1] >= 0.8))
 
+    private val NUM = Regex("\\d+(?:\\.\\d+)?")
+    private fun stem(w: String) = w.replace(Regex("(ing|ed|es|s|ly)$"), "")
+    /** lexicon + numeric-provenance gate (twin of lexOK in packlm.js): numbers must occur in the anchor, 4+ letter words must be in the pack lexicon, no digit runs */
+    fun lexOk(segs: List<String>, anchor: String, lex: Set<String>): Boolean {
+        val an = NUM.findAll(anchor).map { it.value }.toSet()
+        segs.forEachIndexed { k, t ->
+            if (Regex("(\\d)\\1{3,}").containsMatchIn(t) || NUM.findAll(t).any { it.value !in an && (k == 0 || it.value.length > 1) }) return false
+            val plain = t.replace(Regex("\\$[^$]*\\$"), " ").replace(Regex("\\\\[A-Za-z]+"), " ").lowercase()
+            if (Regex("[a-z]{4,}").findAll(plain).any { it.value !in lex && stem(it.value) !in lex && it.value + "e" !in lex }) return false
+        }
+        return true
+    }
     /** strict gate v3 (same rules as strictOK in packlm.js) */
-    fun strictOk(kind: String, segs: List<String>, anchor: String, lp: Double, lpMin: Double = -1.6): Boolean {
+    fun strictOk(kind: String, segs: List<String>, anchor: String, lp: Double, lpMin: Double = -1.6, lex: Set<String>? = null): Boolean {
         val ans = segs[0]; val q = segs[1]; val a = cw(anchor).toSet(); val qc = cw(q)
         if (!OPEN.containsMatchIn(q.trim()) || qc.size < 3 || qc.count { it in a } < 2) return false
         if (kind == "mcq" && (q.length < 20 || (q.lowercase().contains(ans.lowercase()) && ans.length > 3))) return false
         for (t in segs) { if (rep3(t) || distinct(t) < 0.55 || Regex("(\\$\\s*\\$)|\\s{2,}|([a-z])\\2{3,}").containsMatchIn(t)) return false; if (t.length > 25 && !Regex("[a-z]{3}", RegexOption.IGNORE_CASE).containsMatchIn(t)) return false }
+        if (lex != null && !lexOk(segs, anchor, lex)) return false
         return lp >= lpMin
     }
 }
@@ -113,8 +126,8 @@ class PackEngine(val meta: PackMeta, val tok: PaperTokenizer, val table: TokTabl
         return out
     }
     /** rerank candidates by grounding + 0.02*avg logprob; returns the winner only if both gates pass (else null -> caller falls back to bank.json) */
-    fun best(cands: List<Candidate>, kind: String, anchor: String, unitTerms: Set<String>): Candidate? {
+    fun best(cands: List<Candidate>, kind: String, anchor: String, unitTerms: Set<String>, lex: Set<String>? = null): Candidate? {
         val s = cands.filter { it.done }.map { it to PackGate.grounding(it.segs, kind, anchor, unitTerms) }.maxByOrNull { it.second[0] + 0.02 * it.first.lp } ?: return null
-        return if (PackGate.pass(s.second, kind) && PackGate.strictOk(kind, s.first.segs, anchor, s.first.lp)) s.first else null
+        return if (PackGate.pass(s.second, kind) && PackGate.strictOk(kind, s.first.segs, anchor, s.first.lp, -1.6, lex)) s.first else null
     }
 }

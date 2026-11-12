@@ -1,0 +1,275 @@
+===== bio12  (10.20M params, 10.73 MB INT8 ONNX, held-out val loss 3.816) neural accepted 1/8 slots, bank fallback 7
+[1] (bank:teacher) unit: Developmental Biology
+  Q: Describe the chromosome number in the gametes and zygote of a frog and explain the process of gastrulation.
+  Model answer: In frogs, $2n = 26$, each gamete has $n = 13$, and the zygote restores to $2n = 26$. Gastrulation transforms a single-layered blastula into a three-layered gastrula with an archenteron, forming the primitive gut, opening to the exterior via the blastopore.
+[2] (bank:teacher) unit: Biotechnology
+  Q: In a PCR reaction, which enzyme is known to withstand high temperatures such as $95\,^\circ C$, thus facilitating the DNA replication process?
+  a) Taq polymerase (KEY)
+  b) DNA ligase
+  c) Helicase
+  d) RNA polymerase
+  why: Taq polymerase is described as a heat-stable enzyme from the bacterium Thermus aquaticus that survives $95\,^\circ C$.
+[3] (bank:gold) unit: Embryology
+  Q: The number of cells and nuclei in a mature Polygonum-type embryo sac are
+  a) 7 cells, 8 nuclei (KEY)
+  b) 8 cells, 7 nuclei
+  c) 8 cells, 8 nuclei
+  d) 7 cells, 7 nuclei
+  why: seven cells but eight nuclei because the central cell carries two polar nuclei.
+[4] (bank:teacher) unit: Developmental Biology
+  Q: Given that each secondary spermatocyte in a frog contains 13 chromosomes, each consisting of two chromatids, calculate the total number of chromatids present. Additionally, describe the shape and size of a frog's egg.
+  Model answer: Each secondary spermatocyte has 13 chromosomes, each with 2 chromatids, thus totaling $13 \times 2 = 26$ chromatids. A frog's egg is spherical with a diameter of 1.8 mm.
+[5] (bank:gold) unit: Applied Biology
+  Q: Which pair of diseases is spread through contaminated food and water?
+  a) typhoid and cholera (KEY)
+  b) tuberculosis and typhoid
+  c) cholera and candidiasis
+  d) typhoid and influenza
+  why: typhoid and cholera spread by the faeco-oral route. Tuberculosis and influenza are airborne; candidiasis is fungal.
+[6] (neural) unit: Genetics
+  Q: If the number of tall to observed00000 F$\frac{3}{3}\times 1000 = 90$, calculate the number of MMCs are heterozygous, $\text{heterozygous} = \frac{900}{1}$?
+  a) $\frac{3}{4}$ (KEY)
+  b) $\frac{3}{3}\times 1000$
+  c) $000$
+  d) $\frac{1}{3}$
+  why: The calculation $\text{tall} = \frac{1}{3}$.
+[7] (bank:gold) unit: Human Biology
+  Q: a) Label A, B, C and D. b) Write one function of each labelled part. (NEB 2079)
+  Model answer: The printed diagram marks four parts of the eye; the four that are asked most often are below (match the letters to the arrows in your paper). $\dfrac{a}{b}$
+[8] (bank:teacher) unit: Plant Physiology
+  Q: Why does the conversion of pyruvate to acetyl-CoA result in a total of 2 NADH?
+  a) Each pyruvate molecule loses CO_2 and generates 1 NADH, thus 2 pyruvates yield 2 NADH. (KEY)
+  b) Pyruvate directly converts into NADH without any intermediate steps.
+  c) Acetyl-CoA splits into two NADH molecules during its formation.
+  d) The conversion process requires 2 NADH for each pyruvate to proceed.
+  why: Each pyruvate loses CO₂ and becomes acetyl-CoA, giving 1 NADH each (2 NADH in all).
+
+===== phy11  (10.20M params, 10.73 MB INT8 ONNX, held-out val loss 2.6584) neural accepted 1/8 slots, bank fallback 7
+[1] (bank:teacher) unit: Work, energy and power
+  Q: Calculate the power required by the pump to raise 600 kg of water per minute through a height of 20 m.
+  Model answer: Mass (m) = 600 kg, Height (h) = 20 m, Time (t) = 60 s. Work done (W) = mgh = 600 * 9.8 * 20 = 117600 J. Power (P) = W/t = 117600/60 = 1960 W.
+[2] (bank:teacher) unit: Rate of heat flow
+  Q: What is the formula used to measure the thermal conductivity $k$ using Searle's method?
+  a) $k = \frac{mc_w(\theta_4-\theta_3)x}{A(\theta_1-\theta_2)t}$ (KEY)
+  b) $k = \frac{mc_w(\theta_1-\theta_2)x}{A(\theta_4-\theta_3)t}$
+  c) $k = \frac{mc_w(\theta_1+\theta_2)x}{A(\theta_4-\theta_3)t}$
+  d) $k = \frac{mc_w(\theta_4-\theta_3)t}{A(\theta_1-\theta_2)x}$
+  why: The formula for measuring thermal conductivity $k$ using Searle's method as provided is $k = \frac{mc_w(\theta_4-\theta_3)x}{A(\theta_1-\theta_2)t}$.
+[3] (bank:teacher) unit: Kinematics
+  Q: What is the formula for the area of a trapezium?
+  a) $\frac{1}{2}\times$(sum of the two parallel sides)$\times$(distance between them) (KEY)
+  b) $\frac{1}{2}\times$(product of the two parallel sides)$\times$(distance between them)
+  c) $\frac{1}{2}\times$(sum of all sides)$\times$(height)
+  d) $(sum of the two parallel sides)\times$(distance between them)
+  why: The given formula correctly represents the area of a trapezium as stated in the physics textbook.
+[4] (bank:teacher) unit: Kinematics
+  Q: Given a triangle with base $t$ and height $(v - u)$, calculate its area. Also, define the relative velocity of object A with respect to object B using vector notation.
+  Model answer: The area of the triangle is $\frac{1}{2}\,t\,(v - u)$. The relative velocity of object A with respect to object B is given by the vector $\vec{v}_A + (-\vec{v}_B)$. This represents the velocity of A minus the velocity of B.
+[5] (bank:gold) unit: Vectors
+  Q: The magnitude of $\hat{i}\times\hat{j}$ is
+  a) 1 (KEY)
+  b) 0
+  c) $\sqrt{2}$
+  d) 2
+  why: $\sin 90^{\circ} = 1$ and both are unit vectors.
+[6] (bank:teacher) unit: Solids
+  Q: What is the approximate number of silicon atoms contributing as carriers per cubic meter in a typical semiconductor material?
+  a) $5\times10^{16}$ (KEY)
+  b) $5\times10^{28}$
+  c) $5\times10^{12}$
+  d) $1\times10^{28}$
+  why: Only about one in $10^{12}$ of the $5\times10^{28}$ silicon atoms per cubic meter contributes as a carrier.
+[7] (bank:gold) unit: Work, energy and power
+  Q: a) State the principle of conservation of energy. b) Show that for a body falling freely from a height $H$ the sum of its kinetic and potential energies is the same at every point of the fall. c) A stone of mass $0.5\ \text{kg}$ is dropped from $45\ \text{m}$. Find its kinetic energy and its speed when it is $20\ \text{m}$ above the ground ($g = 10\ \text{m s}^{-2}$).
+  Model answer: (b) See §5.4: at height $h$, $v^{2} = 2g(H-h)$ so $K = mg(H-h)$ while $U = mgh$, giving $K+U = mgH$ everywhere. (c) The stone has fallen $45 - 20 = 25\ \text{m}$, so $K = mg(H-h) = 0.5 \times 10 \times 25 = 125\ \text{J}$ and $v = \sqrt{2K/m} = \sqrt{500} = 22.4\ \text{m s}^{-1}$.
+[8] (neural) unit: DC Circuits
+  Q: In a $4\ \Omega$ and $12\ \text{V}$ and $6\ \Omega$ is
+  a) $4\ \Omega$ (KEY)
+  b) $12\ \text{V}$
+  c) $1\ \Omega$
+  d) $6\ \Omega$
+  why: $3\ \Omega$ in parallel, the current $4\ \Omega$ is $12\ \Omega$.
+
+===== bio11  (10.20M params, 10.73 MB INT8 ONNX, held-out val loss 4.1341) neural accepted 2/8 slots, bank fallback 6
+[1] (neural) unit: Biomolecules and Cell Biology
+  Q: Explain the division of genetic constitution in two daughter cells in two daughter cells. Each daughter cells with the same chromosome number and genetic constitution as the same genetic constitution as the parent cell? Explain the same genetic constitution as the parent cell.
+  Model answer: Mitosis is the same chromosome number and genetic constitution as the parent cell, a somatic cell.
+[2] (bank:gold) unit: Floral Diversity
+  Q: The first vascular plants (with xylem and phloem) among the groups below are the
+  a) pteridophytes (KEY)
+  b) algae
+  c) bryophytes
+  d) gymnosperms
+  why: pteridophytes are the first true vascular plants (tracheophytes).
+[3] (bank:gold) unit: Ecology
+  Q: The ten per cent law of energy transfer was given by
+  a) Lindeman (KEY)
+  b) Tansley
+  c) Odum
+  d) Elton
+  why: Lindeman, 1942.
+[4] (neural) unit: Biomolecules and Cell Biology
+  Q: Calculate the chromosome number of the chromosome number of the chromosome number of the chromosome number of chromosome number in the chromosome number of mitosis.
+  Model answer: A single envelopeitial DNA amount doubles but the chromosome number of the chromosome number of DNA amount doubles but the chromosome number doubles but the chromosome number remains unchanged.
+[5] (bank:teacher) unit: Faunal Diversity
+  Q: Given that the number of setigerous segments in Pheretima is calculated as $120 - 1 - 3 - 1 = 115$, which of the following best approximates the total number of setae?
+  a) $1.15 \times 10^{4}$ (KEY)
+  b) $9.2 \times 10^{3}$
+  c) $1.38 \times 10^{4}$
+  d) $1.25 \times 10^{4}$
+  why: The calculation directly leads to $1.15 \times 10^{4}$ as the total number of setae.
+[6] (bank:gold) unit: Faunal Diversity
+  Q: The pyramid that is always upright is the pyramid of
+  a) energy (KEY)
+  b) number
+  c) biomass
+  d) standing crop
+  why: energy is a rate and is always lost upward, so it cannot invert.
+[7] (bank:teacher) unit: Ecology
+  Q: Differentiate between gaseous and sedimentary cycles in ecology based on their reservoirs. Explain why it's crucial not to mix them up in ecological studies.
+  Model answer: Gaseous cycles (carbon, nitrogen, oxygen) have atmospheric reservoirs, while sedimentary cycles (phosphorus, sulfur, calcium) have rock-based reservoirs. Mixing them up leads to incorrect understanding of nutrient flow. Each cycle involves distinct gases and layers, impacting ecosystems uniquely. Confusion may result in flawed environmental assessments and management strategies. Always convert temperatures to Kelvin ($T$ in K) in relevant ecological calculations for accuracy.
+[8] (bank:gold) unit: Evolutionary Biology
+  Q: Lamarck's theory was disproved by the experiment of
+  a) Weismann, who cut off the tails of mice for twenty generations (KEY)
+  b) Mendel, with pea plants
+  c) Miller, with a spark chamber
+  d) Pasteur, with a swan-necked flask
+  why: Weismann's mice were still born with tails after 22 generations, because the germ plasm was never altered.
+
+===== phy12  (10.20M params, 10.73 MB INT8 ONNX, held-out val loss 2.6774) neural accepted 1/8 slots, bank fallback 7
+[1] (bank:gold) unit: Interference
+  Q: a) What happens to the fringe width if the whole double-slit apparatus is immersed in water of refractive index $1.33$? [2] b) Describe the pattern when white light is used. [3] (NEB 2080, part)
+  Model answer: (a) In a medium of refractive index $\mu$ the wavelength becomes $\lambda' = \lambda/\mu$, so
+[2] (bank:gold) unit: Rotational dynamics
+  Q: The radius of gyration of a body of mass $M$ and moment of inertia $I$ is
+  a) $\sqrt{I/M}$ (KEY)
+  b) $\sqrt{MI}$
+  c) $I/M$
+  d) $\sqrt{M/I}$
+  why: $I = Mk^{2}$.
+[3] (neural) unit: Radioactivity and nuclear reaction
+  Q: What is the number of nuclei in a radioactive decay constant ($N_0$) and $N_0$ of a radioactive substance?
+  a) $N = N_0e^{-\lambda t}$ (KEY)
+  b) $N_0 = \lambda N_0/N_{1/2}$
+  c) $t = N_0e^{-\lambda t}$
+  d) $\frac{dN}{N} = N_0^{N}$
+  why: The formula $N_{0} = -\lambda t$ directly given $N = N_0e^{N_0}$.
+[4] (bank:gold) unit: Second Law of Thermodynamics
+  Q: a) Describe the four steps of the Carnot cycle. [3] b) Write the efficiency and state why no engine can exceed it. [2]
+  Model answer: (a) Working substance: an ideal gas in a cylinder, between a source at $T_1$ and a sink at $T_2$. (i) Isothermal expansion at $T_1$: heat $Q_1$ absorbed from the source, work done by the gas.
+[5] (bank:gold) unit: First Law of Thermodynamics
+  Q: In an adiabatic process
+  a) no heat enters or leaves the system (KEY)
+  b) temperature stays constant
+  c) pressure stays constant
+  d) volume stays constant
+  why: $Q = 0$. Temperature changes in an adiabatic process (it is the isothermal one that holds $T$ constant).
+[6] (bank:gold) unit: Alternating Currents
+  Q: The r.m.s. value of the current $i = I_0\sin\omega t$ is
+  a) $I_0/\sqrt{2}$ (KEY)
+  b) $I_0$
+  c) $I_0/2$
+  d) $2I_0/\pi$
+  why: the mean of $\sin^2\omega t$ over a cycle is $\frac12$.
+[7] (bank:gold) unit: Radioactivity and nuclear reaction
+  Q: a) Derive the law of radioactive decay $N = N_0e^{-\lambda t}$. [4] b) Define the decay constant from your result. [1] (NEB 2081)
+  Model answer: (a) See the derivation box below. In outline: the third law of disintegration gives $-dN/dt = \lambda N$; separating the variables gives $dN/N = -\lambda\,dt$; integrating from $N_0$ at $t = 0$ to $N$ at time $t$ gives $\ln(N/N_0) = -\lambda t$; and taking exponentials,
+[8] (bank:gold) unit: First Law of Thermodynamics
+  Q: A system absorbs $500\ \text{J}$ of heat and does $200\ \text{J}$ of work. Its internal energy
+  a) rises by $300\ \text{J}$ (KEY)
+  b) rises by $700\ \text{J}$
+  c) falls by $300\ \text{J}$
+  d) is unchanged
+  why: $\Delta U = Q - W = 500 - 200 = +300\ \text{J}$. Option (a) adds instead of subtracting.
+
+===== chem11  (10.20M params, 10.73 MB INT8 ONNX, held-out val loss 2.941) neural accepted 1/8 slots, bank fallback 7
+[1] (neural) unit: Chemistry of Metals
+  Q: a) What is the mass of iron in the furnace, and the HC is the mass of iron. (a) What is the mass of iron in the mass of the mass of copper, and its empirical formula. (b) What is the mass of iron in a cell, and the blast furnace, and the the mass of the anode and the two, the reducing agent in the cathode
+  Model answer: (b) the mass of iron in the mass of 1 : 2.2.4 L of iron in a per hour. (b) (Na = 23, O = 23, O = 12) + 14 = 1000 C mol.
+[2] (bank:gold) unit: Chemistry of Non-metals
+  Q: Depletion of the ozone layer is mainly caused by
+  a) chlorofluorocarbons (KEY)
+  b) $\text{CO}_2$
+  c) $\text{CH}_4$
+  d) $\text{N}_2$
+  why: chlorine radicals from CFCs catalyse $\text{O}_3 \to \text{O}_2$.
+[3] (bank:gold) unit: Stoichiometry
+  Q: Which law is explained by the existence of CO and CO₂?
+  a) multiple proportions (KEY)
+  b) conservation of mass
+  c) definite proportions
+  d) reciprocal proportions
+  why: for a fixed 12 g of carbon, the oxygen masses are 16 g and 32 g, a ratio of 1 : 2.
+[4] (bank:gold) unit: Foundation and Fundamentals
+  Q: a) Define ionization energy, electron affinity and electronegativity, and state how each varies across a period and down a group, with the reason. b) An element X has atomic number 26. Write its ground-state electronic configuration and deduce its period, group and block.
+  Model answer: (b) X is iron: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s². The outermost shell is $n = 4$, so the period is 4.
+[5] (bank:gold) unit: Bio-inorganic Chemistry
+  Q: Which enzyme requires Zn²⁺ at its active site?
+  a) carbonic anhydrase (KEY)
+  b) urease
+  c) catalase
+  d) cytochrome c oxidase
+  why: Zn²⁺ is the Lewis acid that activates water in carbonic anhydrase.
+[6] (bank:gold) unit: Aromatic Hydrocarbons
+  Q: Which does not decolourise bromine water?
+  a) ethane (KEY)
+  b) ethene
+  c) ethyne
+  d) propene
+  why: ethane is saturated.
+[7] (bank:gold) unit: Hydrocarbons
+  Q: a) How is ethyne prepared from calcium carbide and from 1,2-dibromoethane? Give equations. b) Explain, with equations, the acidic nature of ethyne and the two precipitation tests based on it. c) 5.6 dm³ of ethyne at STP is burnt completely. Calculate the mass of carbon dioxide formed.
+  Model answer: (c) The balanced equation is 2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O. Moles of ethyne = 5.6 / 22.4 = 0.25 mol. From the equation, 2 mol of C₂H₂ gives 4 mol of CO₂, i.e. 1 mol gives 2 mol, so moles of CO₂ = 2 × 0.25 = 0.50 mol. Mass of CO₂ = 0.50 × 44 = 22 g.
+[8] (bank:gold) unit: Hydrocarbons
+  Q: Hydration of propyne with HgSO₄/H₂SO₄ gives
+  a) propanone (KEY)
+  b) propanal
+  c) propan-1-ol
+  d) propanoic acid
+  why: Markovnikov addition puts the OH on C2, and the enol tautomerises to the ketone.
+
+===== chem12  (10.20M params, 10.73 MB INT8 ONNX, held-out val loss 3.4853) neural accepted 0/8 slots, bank fallback 8
+[1] (bank:gold) unit: Ethers
+  Q: a) cold HI, b) hot excess HI, c) cold conc. H₂SO₄, d) chlorine in the dark, e) air over a long period? Give equations.
+  Model answer: (a) C₂H₅OC₂H₅ + HI → C₂H₅OH + C₂H₅I.(b) C₂H₅OC₂H₅ + 2HI → 2C₂H₅I + H₂O.(c) It dissolves, forming the oxonium salt [(C₂H₅)₂OH]⁺HSO₄⁻ — the ether is acting as a Lewis base.(d) C₂H₅OC₂H₅ + 2Cl₂ → CH₃CHCl–O–CHClCH₃ + 2HCl (the two α-hydrogens are replaced).(e) Slow autoxidation: C₂H₅OC₂H₅ + O₂ → CH₃CH(OOH)OC₂H₅, an explosive peroxide.
+[2] (bank:gold) unit: Studies of Heavy Metals
+  Q: A compound C₃H₄O₄ on heating gives Y and CO₂; Y with P₂O₅ gives X. X is
+  a) ethanoic anhydride (KEY)
+  b) ethanoic acid
+  c) ethanoyl chloride
+  d) ethanamide
+  why: C₃H₄O₄ is propanedioic (malonic) acid; heating it loses CO₂ to give ethanoic acid (Y), and P₂O₅ dehydrates two molecules of that to ethanoic anhydride.
+[3] (bank:gold) unit: Phenols
+  Q: Ethanol and phenol can be distinguished using
+  a) neutral FeCl₃ solution (KEY)
+  b) sodium metal
+  c) litmus paper
+  d) warm water
+  why: phenol gives a violet colour with neutral ferric chloride and ethanol gives none. Sodium reacts with both, so (a) cannot distinguish them.
+[4] (bank:gold) unit: Thermodynamics
+  Q: a) State the second law of thermodynamics in two different ways and define entropy. Explain, using $\Delta S_{total}$, how water can freeze spontaneously in winter although freezing decreases the entropy of the water. b) The enthalpy of vaporisation of water at 373 K is 40.7 kJ mol⁻¹. Calculate $\Delta S_{vap}$, and hence $\Delta G$ for the vaporisation at 373 K and at 383 K. Interpret both answers.
+  Model answer: (b) Vaporisation at the normal boiling point is a reversible change, so
+[5] (bank:gold) unit: Carboxylic Acid and its Derivatives
+  Q: The conjugate base of HSO₄⁻ is
+  a) SO₄²⁻ (KEY)
+  b) H₂SO₄
+  c) H₂O
+  d) OH⁻
+  why: removing one proton from HSO₄⁻ leaves SO₄²⁻.
+[6] (bank:gold) unit: Organometallic Compounds
+  Q: Ethylmagnesium bromide treated with water gives
+  a) ethane (KEY)
+  b) ethanol
+  c) ethene
+  d) ethanoic acid
+  why: water is an acid towards the carbanion-like carbon, which is protonated to the alkane. This is why the ether and the apparatus must be perfectly dry.
+[7] (bank:gold) unit: Studies of Heavy Metals
+  Q: a) Identify A, B and C with the reactions. [3] b) Write the electronic configuration of A. [1] c) Name a method for the purification of A. [1] (NEB 2079 model, model set B)
+  Model answer: (a) A = copper (Cu), in the sulphate CuSO₄. With a little NH₄OH a blue precipitate B = Cu(OH)₂ forms; excess ammonia dissolves it to the deep blue C = tetraamminecopper(II) sulphate, [Cu(NH₃)₄]SO₄. CuSO₄ + 2NH₄OH → Cu(OH)₂↓ + (NH₄)₂SO₄ Cu(OH)₂ + (NH₄)₂SO₄ + 2NH₄OH → [Cu(NH₃)₄]SO₄ + 4H₂O(b) Cu: [Ar] 3d¹⁰4s¹.(c) Electrolytic refining (after poling): impure copper is the anode, pure copper the cathode, and acidified CuSO₄ is the electrolyte; 99.95 % pure copper deposits.
+[8] (bank:gold) unit: Phenols
+  Q: Trichloromethane treated with concentrated nitric acid gives
+  a) chloropicrin (KEY)
+  b) phosgene
+  c) chloretone
+  d) sodium formate
+  why: CHCl₃ + HNO₃ → CCl₃NO₂ + H₂O; chloropicrin is a tear gas.

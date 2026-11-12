@@ -7,6 +7,13 @@ import numpy as np, onnxruntime as ort
 from tokenizers import Tokenizer
 R = os.path.abspath(os.path.join(os.path.dirname(__file__), "..")); sys.path.insert(0, f"{R}/packs/tools"); import fsm
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 6; K = int(sys.argv[2]) if len(sys.argv) > 2 else 3
+NUMS = lambda t: re.findall(r"\d+(?:\.\d+)?", t); PLAIN = lambda t: re.sub(r"\\[A-Za-z]+", " ", re.sub(r"\$[^$]*\$", " ", t)); stem = lambda w: re.sub(r"(ing|ed|es|s|ly)$", "", w)
+def lex_ok(segs, anchor, lex):  # twin of lexOK() in docs/packlm.js: numeric provenance + pack-seen vocabulary + no digit runs
+    an = set(NUMS(anchor))
+    for k, t in enumerate(segs):
+        if re.search(r"(\d)\1{3,}", t) or any(n not in an and (k == 0 or len(n) > 1) for n in NUMS(t)): return False
+        if any(w not in lex and stem(w) not in lex and w + "e" not in lex for w in re.findall(r"[a-z]{4,}", PLAIN(t).lower())): return False
+    return True
 reg = json.load(open(f"{R}/docs/packs/pack_registry.json"))["packs"]; ids = sys.argv[3:] or [p["pack_id"] for p in reg]; report = {}; rng = random.Random(5)
 for pid in ids:
     d = f"{R}/docs/packs/{pid}"; M = json.load(open(f"{d}/pack.json")); G = json.load(open(f"{d}/syllabus_graph.json")); tok = Tokenizer.from_file(f"{d}/tokenizer.json")
@@ -14,6 +21,9 @@ for pid in ids:
     def run(ids_, past):
         pk, pv = past if past else (np.zeros((L, 1, H, 0, Dh), np.float32),) * 2
         lg, k, v = sess.run(None, {"ids": np.array([ids_], np.int64), "past_k": pk, "past_v": pv}); return lg[0, -1], (k, v)
+    lex = set()
+    for t_ in [x for u in G["units"] for x in [u["name"], *u.get("terms", []), *[f_["text"] for f_ in u["facts"]]]] + [y or "" for b in bank for y in [b["question"], b["answer"], b.get("why"), b.get("anchor"), *b.get("distractors", [])]]:
+        for w in re.findall(r"[a-z]{4,}", PLAIN(t_).lower()): lex.add(w); lex.add(stem(w))
     UT = {u["id"]: set(u["terms"]) for u in G["units"]}; t0 = time.time(); acc = fb = 0; samples = []; units = set(); tries = 0
     for s in range(N):
         u = rng.choices(G["units"], weights=[x["share"] for x in G["units"]])[0]; f = rng.choice(u["facts"]); kind = "mcq" if s % 3 else "short"; marks = 1 if kind == "mcq" else 3
@@ -28,7 +38,7 @@ for pid in ids:
             if not st.done: continue
             segs = st.segs(); sc, ff = fsm.grounding(segs, kind, f["text"], UT.get(u["id"], ())) if "id" in G["units"][0] else (0, {})
             if best is None or sc > best[0]: best = (sc, ff, segs)
-        ok = best and best[0] >= 0.85 and (kind == "short" or best[1].get("distinct") and best[1].get("homog") and best[1].get("ans_ground", 0) >= 0.8)
+        ok = best and lex_ok(best[2], f["text"], lex) and best[0] >= 0.85 and (kind == "short" or best[1].get("distinct") and best[1].get("homog") and best[1].get("ans_ground", 0) >= 0.8)
         if ok: acc += 1; src = "neural"; segs = best[2]
         else:
             pool = [b for b in bank if b["unit"] == u["name"] and b["type"] == kind] or [b for b in bank if b["type"] == kind]; b = rng.choice(pool); fb += 1; src = "bank:" + b["src"]
