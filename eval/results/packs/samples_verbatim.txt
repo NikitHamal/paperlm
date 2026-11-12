@@ -1,660 +1,222 @@
 
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":15,"neural_accepted":0,"neural_attempts":15,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"10/10","duplicates":0,"bank_size":481,"bank_mcq":402,"bank_short":79,"seconds":21.1}
-
-[Animal Tissues] MCQ <gold>
-Q. During contraction of a sarcomere, the band whose length does not change is the
-  a) I band
-  b) Z line
-  c) A band
-  d) H zone
-Key: c  Why: the A band equals the length of the myosin filament, which does not shorten.
-
-[Biotechnology] MCQ <gold>
-Q. The enzyme that cuts DNA at specific base sequences is
-  a) helicase
-  b) ligase
-  c) restriction endonuclease
-  d) DNA polymerase
-Key: c  Why: restriction endonuclease; ligase joins, it does not cut.
-
-[Plant Physiology] MCQ <gold>
-Q. Removal of the shoot tip makes the lateral buds sprout because the source of the inhibitor is removed. The inhibiting hormone is
-  a) cytokinin
-  b) ethylene
-  c) gibberellin
-  d) auxin
-Key: d  Why: auxin from the apical bud suppresses lateral buds (apical dominance); cytokinin does the opposite.
-
-[Genetics] MCQ <gold>
-Q. A man of blood group AB marries a woman of group O. Which group can never appear among their children?
-  a) AB
-  b) A and B both
-  c) A
-  d) B
-Key: a  Why: the parents can only give $I^{A}$ or $I^{B}$ with i, so the children are A ($I^{A}$ i) or B ($I^{B}$ i).
-
-[Human Biology] MCQ <gold>
-Q. About 70 % of the carbon dioxide is carried in the blood as
-  a) dissolved CO₂
-  b) carbonic acid in plasma
-  c) carbaminohaemoglobin
-  d) bicarbonate ions
-Key: d  Why: as HCO₃⁻, formed by carbonic anhydrase in the RBC. About 20–25 % is carbamino-haemoglobin.
-
-[Plant Physiology] MCQ <teacher>
-Q. Which theory suggests that water movement in plants is facilitated by the sequential action of xylem parenchyma and medullary ray cells?
-  a) Cohesion-tension theory
-  b) Vital force theory
-  c) Godlewski's relay-pump theory
-  d) Root pressure hypothesis
-Key: c  Why: Godlewski's relay-pump theory proposed that xylem parenchyma and medullary ray cells pump in relay to facilitate water movement.
-
-[Human Biology] MCQ <gold>
-Q. If the stroke volume is 80 ml and the heart rate is 75 beats per minute, the cardiac output is
-  a) 7.5 L min⁻¹
-  b) 6 L min⁻¹
-  c) 5 L min⁻¹
-  d) 4 L min⁻¹
-Key: b  Why: $80 \times 75 = 6000$ ml min⁻¹ = 6 L min⁻¹.
-
-[Genetics] MCQ <gold>
-Q. The IOE entrance examination carries full marks of
-  a) 120
-  b) 200
-  c) 140
-  d) 100
-Key: c  Why: 100 questions, 140 marks, 2 hours.
-
-[Plant Anatomy] MCQ <gold>
-Q. The only living component of xylem is
-  a) xylem fibre
-  b) xylem parenchyma
-  c) tracheid
-  d) vessel
-Key: b  Why: xylem parenchyma stores food and is alive; tracheids, vessels and fibres are dead at maturity.
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":10,"neural_accepted":0,"neural_attempts":20,"neural_gate_rate":0,"bank_fallback":10,"empty":0,"units_covered":"10/10","duplicates":0,"bank_size":477,"bank_mcq":402,"bank_short":75,"seconds":31.9}
 
 [Embryology] MCQ <gold>
-Q. The layer of the anther wall that nourishes the developing microspores is the
-  a) tapetum
-  b) endothecium
-  c) middle layer
-  d) epidermis
-Key: a  Why: the tapetum supplies food and sporopollenin; the endothecium only helps in dehiscence.
+Q. The hard outer layer of the pollen grain, resistant to acid, alkali and heat, is made of
+  a) callose
+  b) cellulose
+  c) sporopollenin
+  d) pectin
+Key: c  Why: sporopollenin, one of the most resistant organic materials. Callose is found around microspore mother cells and in pollen tubes.
 
 [Developmental Biology] MCQ <gold>
-Q. Immediately after fertilisation, a frog zygote undergoes
-  a) neurulation
-  b) cleavage
-  c) metamorphosis
-  d) gastrulation
-Key: b  Why: cleavage is the first series of mitoses, without growth. Gastrulation comes several stages later.
+Q. The cavity of the blastula is called
+  a) coelom
+  b) gastrocoel
+  c) archenteron
+  d) blastocoel
+Key: d  Why: blastocoel is the cavity of the blastula; archenteron belongs to the gastrula.
+
+[Plant Physiology] MCQ <gold>
+Q. Cyclic photophosphorylation produces
+  a) O₂ and NADPH
+  b) NADPH only
+  c) ATP, NADPH and O₂
+  d) ATP only
+Key: d  Why: electrons return to PS I, so there is no NADPH and, with no photolysis, no O₂.
+
+[Plant Anatomy] MCQ <gold>
+Q. The extra thickening of collenchyma is deposited mainly at the corners of the cell and consists of
+  a) suberin
+  b) cutin
+  c) cellulose and pectin
+  d) lignin
+Key: c  Why: cellulose with pectin, not lignin; lignin belongs to sclerenchyma and xylem.
+
+[Genetics] MCQ <gold>
+Q. Which of these is a stop codon?
+  a) UGG
+  b) UUU
+  c) UGA
+  d) AUG
+Key: c  Why: the stop codons are UAA, UAG, UGA. AUG is the start codon and also codes Met; UGG is Trp.
+
+[Applied Biology] MCQ <gold>
+Q. Which enzyme is needed for the digestion of milk protein in human beings?
+  a) lactase
+  b) pepsin
+  c) sucrase
+  d) rennin
+Key: d  Why: rennin curdles casein in infants; lactase(b) digests the milk sugar, which is the trap. Pepsin also acts on protein but the classic milk-protein answer is rennin.
+
+[Human Biology] MCQ <gold>
+Q. Excess growth hormone in childhood causes
+  a) acromegaly
+  b) cretinism
+  c) dwarfism
+  d) gigantism
+Key: d  Why: excess GH in childhood gives gigantism; in an adult it gives acromegaly (a). Dwarfism is deficiency.
 
 [Human Population and Health Disorders] MCQ <gold>
-Q. The definitive host of the malarial parasite is
-  a) man
-  b) female Anopheles
-  c) Culex
-  d) male Anopheles
-Key: b  Why: fertilisation and sporogony occur in the female Anopheles.
+Q. The annual population growth rate reported by Nepal's 2021 census was
+  a) 2.62 %
+  b) 1.35 %
+  c) 2.25 %
+  d) 0.92 %
+Key: d  Why: 0.92 %, the lowest positive rate since censuses began in 1911.
 
-[Applied Biology] 3-mark <teacher>
-Q. Describe the historical development of silk farming in Nepal and identify the current national hub for sericulture.
-Model answer: Silk farming began in Nepal in 1911 under PM Chandra Shamsher. A state Silk Farming Centre was established in 1975. Today, the Sericulture Development Centre at Khopasi, Kavrepalanchok serves as the national hub, overseeing nine government farms.
-
-[Applied Biology] 4-mark <gold>
-Q. a) cholera and b) dengue.
-Model answer: (a) Cholera — Vibrio cholerae serogroup O1 or O139; faecal–oral through contaminated water; painless rice-water stools and rapid dehydration with cramps; prevented by chlorinated safe water (and treated with ORS).(b) Dengue — dengue virus, serotypes 1–4; bite of the day-biting Aedes aegypti or Ae. albopictus; high fever with retro-orbital pain, severe body and joint ache, rash and low platelet count; prevented by destroying clean-water breeding sites around the house.
+[Biotechnology] 3-mark <teacher>
+Q. Explain the principles of DNA replication in PCR and DNA separation in gel electrophoresis, including the number of fragments produced by linear and circular DNA with n cut sites.
+Model answer: In PCR, DNA copies double each cycle, resulting in $2^{n}$ copies after n cycles. In gel electrophoresis, negatively charged DNA moves to the anode; smaller fragments travel further. Linear DNA with n cuts yields n+1 fragments, while circular DNA yields n fragments.
 
 [Animal Tissues] 3-mark <teacher>
 Q. Given an image magnification of 1000x, calculate the actual size in micrometers (μm) if the image size is 40 mm. Also, convert 2.4 cm into micrometers.
 Model answer: Actual size: $\frac{40\ \text{mm}}{1000} = 0.040\ \text{mm} = 40\ \mu\text{m}$. Conversion: $2.4\ \text{cm} = 24\ \text{mm} = 24\,000\ \mu\text{m}$.
 
-##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6584,"slots":15,"neural_accepted":0,"neural_attempts":15,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"15/26","duplicates":0,"bank_size":571,"bank_mcq":474,"bank_short":97,"seconds":36.8}
-
-[Reflection at curved mirror] MCQ <gold>
-Q. Which of the following is dimensionless?
-  a) stress
-  b) surface tension
-  c) force constant
-  d) strain
-Key: d  Why: strain is a ratio of two lengths.
-
-[Rate of heat flow] MCQ <gold>
-Q. A body radiates most when it is
-  a) white and smooth
-  b) dull and black
-  c) transparent
-  d) polished and silvery
-Key: b  Why: a dull black surface has $e$ close to $1$; a polished surface reflects and barely emits.
-
-[Vectors] MCQ <teacher>
-Q. Given two vectors $\vec{A}$ and $\vec{B}$, what does their dot product represent?
-  a) A scalar quantity equal to $AB\cos\theta = A_xB_x + A_yB_y + A_zB_z$
-  b) A vector sum of $\vec{A}$ and $\vec{B}$
-  c) A vector quantity equal to $AB\sin\theta$
-  d) The cross product of $\vec{A}$ and $\vec{B}$
-Key: a  Why: The dot product of two vectors results in a scalar quantity as defined by the formula $\vec{A}\cdot\vec{B}=AB\cos\theta=A_xB_x+A_yB_y+A_zB_z$.
-
-[Circular Motion] MCQ <gold>
-Q. The period of a conical pendulum of vertical depth $h$ is
-  a) $2\pi\sqrt{h/g}$
-  b) $2\pi\sqrt{L\cos\theta/h}$
-  c) $2\pi\sqrt{L/g}$
-  d) $2\pi\sqrt{g/h}$
-Key: a  Why: $T_p = 2\pi\sqrt{L\cos\theta/g}$, and $L\cos\theta$ is exactly the depth $h$ below the support.
-
-[Dispersion] MCQ <gold>
-Q. Dispersive power has the unit
-  a) no unit
-  b) radian
-  c) metre
-  d) dioptre
-Key: a  Why: it is a ratio of two angles (or of two refractive-index differences).
-
-[Dynamics] MCQ <gold>
-Q. Newton's second law of motion in its most general form is
-  a) $F = mg$
-  b) $F = mv$
-  c) $F = ma$ only
-  d) $F = dp/dt$
-Key: d  Why: $F = ma$ follows from $F = dp/dt$ only when the mass is constant, which fails for a rocket.
-
-[Electric field] MCQ <teacher>
-Q. What expression correctly represents the electric field $E$ at a distance $r$ from an infinitely long straight wire carrying a linear charge density $\lambda$?
-  a) $E = \frac{\lambda}{4\pi\varepsilon_0 r^2}$
-  b) $E = \frac{\lambda}{\pi\varepsilon_0 r}$
-  c) $E = \frac{k\lambda}{r^2}$
-  d) $E = \frac{\lambda}{2\pi\varepsilon_0 r}$
-Key: d  Why: The correct formula for the electric field due to an infinitely long straight wire is directly provided as $E = \frac{\lambda}{2\pi\varepsilon_0 r}$.
-
-[Elasticity] MCQ <gold>
-Q. The dimensions of the Young modulus are
-  a) $[MLT^{-2}]$
-  b) $[ML^{-2}T^{-2}]$
-  c) $[ML^{2}T^{-2}]$
-  d) $[ML^{-1}T^{-2}]$
-Key: d  Why: stress has the dimensions of pressure.
-
-[Physical Quantities] MCQ <teacher>
-Q. What term describes how closely repeated measurements agree with each other, which is limited by the least count?
-  a) consistency
-  b) accuracy
-  c) reliability
-  d) precision
-Key: d  Why: Precision is defined as the closeness of repeated readings, limited by the least count.
+##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6584,"slots":10,"neural_accepted":0,"neural_attempts":20,"neural_gate_rate":0,"bank_fallback":10,"empty":0,"units_covered":"10/26","duplicates":0,"bank_size":564,"bank_mcq":474,"bank_short":90,"seconds":45.2}
 
 [Quantity of Heat] MCQ <gold>
 Q. The SI unit of specific heat capacity is
   a) $\text{J}$
-  b) $\text{J K}^{-1}$
-  c) $\text{J kg}^{-1}\text{K}^{-1}$
-  d) $\text{J kg}^{-1}$
-Key: c  Why: energy per kilogram per kelvin. Option (a) is the unit of specific latent heat; the two are swapped constantly.
+  b) $\text{J kg}^{-1}$
+  c) $\text{J K}^{-1}$
+  d) $\text{J kg}^{-1}\text{K}^{-1}$
+Key: d  Why: energy per kilogram per kelvin. Option (a) is the unit of specific latent heat; the two are swapped constantly.
 
 [Refraction at plane surfaces] MCQ <gold>
-Q. A ray entering an optically denser medium bends
-  a) not at all
-  b) towards the normal
-  c) away from the normal
-  d) along the normal
-Key: b  Why: into the slower medium, the wavefront turns towards the normal.
+Q. In a prism, the sum of the two angles of refraction $r_1 + r_2$ is equal to
+  a) the angle of incidence
+  b) $90^{\circ}$
+  c) the angle of the prism
+  d) the angle of deviation
+Key: c  Why: $A = r_1 + r_2$.
 
-[Capacitor] MCQ <teacher>
-Q. Given a capacitor with capacitance $C$ charged to a voltage $V$, which formula correctly represents the energy $U$ stored in the capacitor?
-  a) $\frac{1}{2}CV$
-  b) $CV$
-  c) $CV^{2}$
-  d) $\frac{1}{2}CV^{2}$
-Key: d  Why: The energy stored in a capacitor is derived as $\frac{1}{2}CV^{2}$.
+[Dynamics] MCQ <gold>
+Q. In an extrinsic semiconductor at equilibrium
+  a) $n_e = n_h$
+  b) $n_en_h = n_i^{2}$
+  c) $n_e + n_h = n_i$
+  d) $n_e = n_i^{2}$
+Key: b  Why: the mass-action law holds for both types; option (a) is true only for an intrinsic sample.
 
-[DC Circuits] 2-mark <teacher>
-Q. How can a graph of $V$ against $I$ be used to determine the electromotive force ($E$) and internal resistance ($r$) of a cell?
-Model answer: The intercept of the graph on the V-axis represents $E$. The slope of the line equals $-r$, indicating the internal resistance.
+[Physical Quantities] MCQ <teacher>
+Q. Why does the measurement obtained using the vernier caliper described result in $13.4 \text{ mm}$?
+  a) The vernier scale has a least count of $0.2 \text{ mm}$, and the 7th division coincides with the main scale.
+  b) The main scale reading alone shows exactly $13.4 \text{ mm}$.
+  c) The vernier scale reading is $13.4 \text{ mm}$ directly without any calculation needed.
+  d) The vernier zero lies past $13 \text{ mm}$ and its 4th division coincides with a main scale division, contributing an additional $4 \times 0.1 \text{ mm}$.
+Key: d  Why: The vernier zero lies past 13 mm and its 4th division coincides, giving 13 + 4(0.1) = 13.4 mm.
 
-[Nuclear physics] 3-mark <teacher>
-Q. In an experiment involving alpha-particles in an evacuated chamber, what is the total mass before the reaction, and why was the chamber evacuated? Use the masses provided: $2.014102\ \text{u}$ and $3.016049\ \text{u}$.
-Model answer: The total mass before the reaction is $5.030151\ \text{u}$. The chamber was evacuated to prevent air from stopping the $\alpha$-particles, ensuring they could travel freely without interference.
+[Circular Motion] MCQ <gold>
+Q. The difference between the tensions at the lowest and the highest point of a vertical circle is
+  a) $5mg$
+  b) $3mg$
+  c) $2mg$
+  d) $6mg$
+Key: d  Why: subtracting the two force equations and using $v_2^2 = v_1^2 + 4gr$ gives $6mg$, independent of the speed.
 
-[Ideal gas] 3-mark <teacher>
-Q. Explain the relationship between molar heat capacities $C_v$ and $C_p$ considering the work done by an ideal gas at constant pressure and constant volume.
-Model answer: At const. pressure, extra heat does work against surroundings. For a small temp. rise dT, heat supplied equals work plus internal energy change. At const. volume, no work is done, so heat equals internal energy change, defining $C_v$. Thus, $C_p = C_v + R$.
+[Nuclear physics] MCQ <gold>
+Q. The radius of a nucleus of mass number $A$ is proportional to
+  a) $A^{2/3}$
+  b) $A^{1/3}$
+  c) $A$
+  d) $A^{2}$
+Key: b  Why: volume is proportional to $A$, so radius goes as the cube root.
 
-##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.1341,"slots":15,"neural_accepted":0,"neural_attempts":15,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"10/10","duplicates":0,"bank_size":494,"bank_mcq":412,"bank_short":82,"seconds":16.8}
+[Electric field] MCQ <gold>
+Q. The SI unit of electric field intensity is
+  a) N C
+  b) N C⁻¹
+  c) C N⁻¹
+  d) N m² C⁻¹
+Key: b  Why: $E = F/q$, so newton per coulomb.
 
-[Introduction to Biology] MCQ <teacher>
-Q. What determines the total magnification of a specimen under a compound microscope?
-  a) Only the magnification provided by the objective.
-  b) The sum of the magnifications provided by the objective and the eyepiece.
-  c) The product of the magnifications provided by the objective and the eyepiece.
-  d) Only the magnification provided by the eyepiece.
-Key: c  Why: The total magnification is the product of the two individual magnifications from the objective and the eyepiece as stated.
+[DC Circuits] MCQ <gold>
+Q. Kirchhoff's junction law is a statement of the conservation of
+  a) energy
+  b) momentum
+  c) mass
+  d) charge
+Key: d  Why: charge cannot accumulate at a junction.
 
-[Ecology] MCQ <gold>
-Q. Green plants of an ecosystem are called
-  a) transducers
-  b) decomposers
-  c) producers
-  d) primary consumers
-Key: c  Why: producers, also called transducers of solar energy, but the standard CDC term is producers.
+[Rate of heat flow] 4-mark <gold>
+Q. a) Draw the energy distribution curves of black-body radiation for three temperatures and state the conclusions drawn from them. b) A star radiates most strongly at 350 nm and has a radius of $7.0\times10^{8}$ m. Find its surface temperature and its total power output, treating it as a black body.
+Model answer: (a) Curves as in Figure 4, with the four conclusions of §12.4.(b) $T = b/\lambda_m = 2.898\times10^{-3}/(350\times10^{-9}) = 8280$ K. Surface area $A = 4\pi R^2 = 4\pi(7.0\times10^{8})^2 = 6.16\times10^{18}\ \text{m}^2$. With $T^4 = (8280)^4 = 4.70\times10^{15}$, $P = \sigma AT^4 = 5.67\times10^{-8}\times6.16\times10^{18}\times4.70\times10^{15} = 1.6\times10^{27}\ \text{W}$.
 
-[Biomolecules and Cell Biology] MCQ <gold>
-Q. A peptide bond is formed between
-  a) a carboxyl group and an amino group
-  b) two carboxyl groups
-  c) two amino groups
-  d) an amino group and a hydroxyl group
-Key: a  Why: the –COOH of one residue condenses with the –NH₂ of the next, releasing one water molecule.
+[Reflection at curved mirror] 5-mark <teacher>
+Q. Explain how the position of an object relative to the focal point ($F$) and center of curvature ($C$) affects the type of image formed by a concave mirror, considering both real and virtual images. Use the mirror formula to support your explanation.
+Model answer: The position of an object relative to $F$ and $C$ on a concave mirror determines the image type. When the object is beyond $C$, a real, inverted, and diminished image forms between $F$ and $C$. Between $C$ and $F$, the image is real, inverted, and magnified. At $F$, no image is formed as rays are parallel. Between $F$ and the pole, a virtual, upright, and magnified image is formed. The mirror formula $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$ applies universally, where $v$ is negative for real images and positive for virtual ones.
 
-[Floral Diversity] MCQ <gold>
-Q. A papilionaceous corolla with one standard, two wings and two keel petals belongs to
-  a) Solanaceae
-  b) Liliaceae
-  c) Brassicaceae
-  d) Fabaceae
-Key: d  Why: the papilionaceous corolla of the pea sub-family; vexillary (descending imbricate) aestivation.
-
-[Evolutionary Biology] MCQ <teacher>
-Q. In a population of 2000 individuals, if the frequency of allele $M$ is $0.7$ and the frequency of allele $N$ is $0.3$, which of the following represents the expected number of heterozygous individuals ($MN$) according to Hardy-Weinberg equilibrium?
-  a) $p^2N = 490$
-  b) $p^2N + q^2N = 580$
-  c) $2pqN = 420$
-  d) $q^2N = 90$
-Key: c  Why: The formula $2pqN$ correctly calculates the expected number of heterozygous individuals based on the given allele frequencies and population size.
-
-[Floral Diversity] MCQ <gold>
-Q. Marginal placentation in a monocarpellary superior ovary is found in
-  a) Solanaceae
-  b) Brassicaceae
-  c) Fabaceae
-  d) Liliaceae
-Key: c  Why: one carpel, ovules along the fused margin, giving a legume (pod) that splits along two sutures.
-
-[Faunal Diversity] MCQ <gold>
-Q. The excretory organs of the earthworm are
-  a) Malpighian tubules
-  b) nephridia
-  c) green glands
-  d) flame cells
-Key: b  Why: nephridia of three kinds: septal, pharyngeal and integumentary.
-
-[Floral Diversity] MCQ <gold>
-Q. In Pinus, the needle-like leaves are borne on a
-  a) dwarf shoot or spur
-  b) long shoot
-  c) rhizome
-  d) scale leaf
-Key: a  Why: the dwarf shoot or spur, which carries the needles in a bundle of 2, 3 or 5.
-
-[Biomolecules and Cell Biology] MCQ <gold>
-Q. The chemical substance of a bacterial cell wall is
-  a) cellulose
-  b) peptidoglycan
-  c) pectin
-  d) chitin
-Key: b  Why: peptidoglycan (murein); chitin is fungal, cellulose plant, pectin the middle lamella.
+##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.1341,"slots":10,"neural_accepted":0,"neural_attempts":20,"neural_gate_rate":0,"bank_fallback":10,"empty":0,"units_covered":"9/10","duplicates":0,"bank_size":489,"bank_mcq":412,"bank_short":77,"seconds":21.8}
 
 [Introductory Microbiology] MCQ <gold>
-Q. Viruses are regarded as being on the borderline of living and non-living because they
-  a) can be crystallised yet multiply inside a host cell
-  b) have no DNA
-  c) are very small
-  d) cause disease
-Key: a  Why: outside a host a virus is an inert chemical that can be crystallised; inside one it replicates and mutates.
+Q. The study of the form and external structure of organisms is
+  a) ecology
+  b) morphology
+  c) cytology
+  d) physiology
+Key: b  Why: morphology; if you cut it open to see inside, it becomes anatomy.
 
-[Evolutionary Biology] MCQ <gold>
-Q. De Vries worked on the plant
-  a) Antirrhinum
-  b) Oenothera lamarckiana
-  c) Pisum sativum
-  d) Drosophila
-Key: b  Why: the evening primrose Oenothera lamarckiana.
+[Evolutionary Biology] MCQ <teacher>
+Q. In the context of evolutionary biology, if $p$ and $q$ represent the frequencies of two alleles in a population, which equation correctly represents the expected genotype frequencies under Hardy-Weinberg equilibrium?
+  a) $(p + q)^{3} = p^{3} + 3pq + q^{3} = 1$
+  b) $(p + q)^{2} = p^{2} + pq + q^{2} = 1$
+  c) $(p - q)^{2} = p^{2} - 2pq + q^{2} = 1$
+  d) $(p + q)^{2} = p^{2} + 2pq + q^{2} = 1$
+Key: d  Why: The equation $(p + q)^{2} = p^{2} + 2pq + q^{2} = 1$ accurately reflects the Hardy-Weinberg principle for genotype frequencies.
+
+[Floral Diversity] MCQ <gold>
+Q. Which one of the following is not a criterion of Whittaker's five-kingdom classification?
+  a) chromosome number
+  b) body organisation
+  c) mode of nutrition
+  d) cell structure
+Key: a  Why: Whittaker used cell structure, body organisation, mode of nutrition, reproduction and phylogeny, not chromosome number.
+
+[Biomolecules and Cell Biology] MCQ <gold>
+Q. The longest phase of the cell cycle is
+  a) metaphase
+  b) prophase
+  c) interphase
+  d) telophase
+Key: c  Why: interphase is about 90–95 % of the cycle; it is growth, not rest.
+
+[Floral Diversity] MCQ <gold>
+Q. The zone above the tree line, dominated by low shrubs, herbs and cushion plants, is the
+  a) alpine zone
+  b) sub-tropical zone
+  c) temperate zone
+  d) sub-alpine zone
+Key: a  Why: the alpine zone lies above the tree line, roughly above 4100 m.
+
+[Conservation Biology] MCQ <teacher>
+Q. What is the value of Simpson's index of diversity for the given calculation where $D = 0.293$?
+  a) 0.407
+  b) 0.293
+  c) 1.293
+  d) 0.707
+Key: d  Why: The calculation provided directly shows that the Simpson's index of diversity equals $1 - 0.293 = 0.707$.
 
 [Faunal Diversity] MCQ <gold>
-Q. The scientific name of the Indian bullfrog studied in the CDC course is
-  a) Bufo melanostictus
-  b) Rana tigrina
-  c) Xenopus laevis
-  d) Hyla arborea
-Key: b  Why: Rana tigrina (now often Hoplobatrachus tigerinus), the Indian bullfrog.
+Q. The earthworm is hermaphrodite but cross-fertilising because
+  a) fertilisation is external only
+  b) the sperms mature before the ova, so self-fertilisation is prevented
+  c) it has no sperm
+  d) the ova are sterile
+Key: b  Why: protandry: the male organs mature first, so two worms must exchange sperm.
 
-[Biota and Environment] 2-mark <teacher>
-Q. Describe the classification of species interactions using signs and provide an example for each type.
-Model answer: Species interactions are classified as: mutualism $(+,+)$, e.g., bees and flowers; commensalism $(+,0)$, e.g., birds nesting on cacti; predation/parasitism $(+,-)$, e.g., lion eating deer; competition $(-,-)$, e.g., two species competing for food; amensalism $(0,-)$, e.g., walnut trees releasing chemicals harmful to other plants; neutralism $(0,0)$, no effect on each other.
+[Biota and Environment] MCQ <gold>
+Q. The change in an organism that fits it better to its surroundings is
+  a) migration
+  b) mutation
+  c) acclimatisation
+  d) adaptation
+Key: d  Why: adaptation is heritable and evolutionary; acclimatisation is a reversible adjustment within one lifetime.
 
-[Conservation Biology] 3-mark <teacher>
-Q. Describe the taxonomic hierarchy using a suitable example.
-Model answer: Taxonomic hierarchy arranges categories from broad to specific: Kingdom, Phylum, Class, Order, Family, Genus, Species. Example: Humans are classified as Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Primates, Family Hominidae, Genus Homo, Species H. sapiens.
+[Ecology] 3-mark <teacher>
+Q. Calculate the net primary production per hectare of sal forest in one year and explain the importance of a food web in an ecosystem.
+Model answer: Net primary production = $12{,}000\ \text{kJ m}^{-2} - 7500\ \text{kJ m}^{-2} = 4500\ \text{kJ m}^{-2}$. Food webs stabilize ecosystems by linking multiple food chains. Plants capture only about 1% of solar energy, initiating the food web.
 
-[Vegetation] 3-mark <teacher>
-Q. Describe how the altitude affects the vegetation zones in Nepal.
-Model answer: Nepal's altitude ranges from $60\ \text{m}$ in the Terai to $8{,}849\ \text{m}$ at Sagarmatha within $200\ \text{km}$. This rapid change in elevation causes a shift from tropical forests in lower regions to ice-bound rocks at higher elevations. Consequently, Nepal exhibits diverse vegetation zones over a short horizontal distance.
-
-##### phy12 (Physics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6774,"slots":15,"neural_accepted":1,"neural_attempts":15,"neural_gate_rate":0.067,"bank_fallback":14,"empty":0,"units_covered":"15/25","duplicates":0,"bank_size":614,"bank_mcq":450,"bank_short":164,"seconds":40.4}
-
-[Diffraction] MCQ <gold>
-Q. A grating of $5000$ lines per cm gives a second-order maximum at $30^{\circ}$. The wavelength is
-  a) $500\ \text{nm}$
-  b) $5000\ \text{nm}$
-  c) $250\ \text{nm}$
-  d) $1000\ \text{nm}$
-Key: a  Why: $d = 2\times10^{-6}\ \text{m}$, $\lambda = d\sin\theta/n = 2\times10^{-6}\times0.5/2 = 5\times10^{-7}\ \text{m}$. Forgetting to divide by $n$ gives $1000\ \text{nm}$.
-
-[Nature and propagation of light] MCQ <gold>
-Q. The wavefront from a point source in an isotropic medium is
-  a) spherical
-  b) plane
-  c) cylindrical
-  d) parabolic
-Key: a  Why: a point source radiates equally in all directions; plane wavefronts are the limit at very large distance.
-
-[Fluid statics] MCQ <teacher>
-Q. A container filled with water has a depth of $h$. If the density of water is $\rho$ and acceleration due to gravity is $g$, what is the absolute pressure at the bottom of the container if the atmospheric pressure at the surface is $P_0$?
-  a) $P = P_0 - h\rho g$
-  b) $P = \frac{P_0}{h\rho g}$
-  c) $P = h\rho g$
-  d) $P = P_0 + h\rho g$
-Key: d  Why: The absolute pressure at a depth in a fluid is given by the sum of the atmospheric pressure and the gauge pressure.
-
-[Second Law of Thermodynamics] MCQ <gold>
-Q. The maximum coefficient of performance of a refrigerator working between $250\ \text{K}$ and $300\ \text{K}$ is
-  a) 1.2
-  b) 0.2
-  c) 6
-  d) 5
-Key: d  Why: $\beta_{\max} = T_2/(T_1-T_2) = 250/50 = 5$.
-
-[Electrical circuits] MCQ <gold>
-Q. The wire of a potentiometer is made of manganin or constantan because these alloys have
-  a) magnetic properties
-  b) low resistivity and a high temperature coefficient
-  c) high melting point only
-  d) high resistivity and a very small temperature coefficient
-Key: d  Why: high resistivity allows a long wire in a small space, and a tiny temperature coefficient keeps the potential gradient steady as the wire warms.
-
-[First Law of Thermodynamics] MCQ <teacher>
-Q. Why does the work done by a gas during a quasi-static process equal the area under the $P$-$V$ curve?
-  a) As the gas expands or contracts, the work done is solely dependent on the change in volume, represented by the area under the curve.
-  b) Because $W = \int P\,dV$ represents the work done, which geometrically corresponds to the area under the pressure-volume graph.
-  c) Because the temperature remains constant throughout the process, making the work equivalent to the area under the curve.
-  d) Due to the direct proportionality between pressure and volume, the area under the curve directly gives the work done.
-Key: b  Why: The integral $W = \int P\,dV$ calculates the work done by a gas during a quasi-static process, which is geometrically represented as the area under the $P$-$V$ curve.
-
-[Thermoelectric effects] MCQ <gold>
-Q. In a thermopile the thermocouples are joined
-  a) in series
-  b) back to back
-  c) in parallel
-  d) in a bridge
-Key: a  Why: in series so that the small e.m.f.s add.
-
-[Mechanical waves] MCQ <neural>
-Q. Which correction explains the speed of sound in air changes from a gas, what the pressure, what is the absolute pressure?
-  a) $v=\sqrt{V/\rho}$
-  b) $P$
-  c) $v=\gamma P$
-  d) constant
-Key: d  Why: The modulus changes from the same pressure and volume, $P$, so $P$ and $P$.
-
-[Rotational dynamics] MCQ <teacher>
-Q. What term describes the mass of a small element $dm$ in terms of linear mass density $\lambda$ and infinitesimal length $dx$?
-  a) $dm = M\,dx$
-  b) $dm = L\,dx$
-  c) $dm = \lambda\,dx$
-  d) $dm = \lambda/x\,dx$
-Key: c  Why: The correct expression for the mass of a small element is given by the product of linear mass density and the length element.
-
-[Acoustic phenomena] MCQ <gold>
-Q. Doubling the intensity of a sound raises its level by about
-  a) $6\ \text{dB}$
-  b) $3\ \text{dB}$
-  c) $1\ \text{dB}$
-  d) $10\ \text{dB}$
-Key: b  Why: $10\log_{10}2 = 3.01\ \text{dB}$.
-
-[Polarization] MCQ <gold>
-Q. Polarization of light establishes that light waves are
-  a) longitudinal
-  b) stationary
-  c) mechanical
-  d) transverse
-Key: d  Why: only a transverse wave has a vibration direction across the ray that can be selected.
-
-[Magnetic field] MCQ <gold>
-Q. Two long parallel wires carry currents in the same direction. They
-  a) rotate about each other
-  b) attract each other
-  c) exert no force
-  d) repel each other
-Key: b  Why: like currents attract.
-
-[Electromagnetic Induction] 3-mark <gold>
-Q. Derive the energy stored in an inductor. [3]
-Model answer: See the derivation box below. Summary: while the current is being built up from $0$ to $I$, the source must work against the back e.m.f. $L\,dI/dt$; the total work is
-
-[Radioactivity and nuclear reaction] 3-mark <teacher>
-Q. State the law of radioactive decay and derive the relationship between the half-life ($t_{1/2}$) and the decay constant ($\lambda$).
-Model answer: The law states decay rate is proportional to the number of nuclei. Relation: $t_{1/2} = \frac{\ln(2)}{\lambda}$. Derivation uses $N(t) = N_0e^{-\lambda t}$, setting $N(t_{1/2}) = \frac{N_0}{2}$. Solving gives $t_{1/2} = \frac{\ln(2)}{\lambda}$.
-
-[Interference] 2-mark <gold>
-Q. What happens to the fringe width if the whole double-slit apparatus is immersed in water of refractive index $1.33$? [2]
-Model answer: In a medium of refractive index $\mu$ the wavelength becomes $\lambda' = \lambda/\mu$, so
-
-##### chem11 (Chemistry - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.941,"slots":15,"neural_accepted":0,"neural_attempts":15,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"15/17","duplicates":0,"bank_size":219,"bank_mcq":197,"bank_short":22,"seconds":28.7}
-
-[Chemistry of Metals] MCQ <gold>
-Q. The correct order of thermal stability of the carbonates is
-  a) all decompose at the same temperature
-  b) BeCO₃ > MgCO₃ > CaCO₃ > BaCO₃
-  c) BaCO₃ > CaCO₃ > MgCO₃ > BeCO₃
-  d) CaCO₃ > BaCO₃ > MgCO₃ > BeCO₃
-Key: c  Why: polarising power of M²⁺ decreases down the group, so stability increases.
-
-[States of Matter] MCQ <gold>
-Q. The ratio of the rates of diffusion of $\text{H}_2$ and $\text{O}_2$ under the same conditions is
-  a) $16:1$
-  b) $1:16$
-  c) $4:1$
-  d) $1:4$
-Key: c  Why: $\sqrt{32/2} = 4$; the lighter gas diffuses faster.
-
-[Stoichiometry] MCQ <gold>
-Q. Which postulate of Dalton's atomic theory is no longer accepted?
-  a) compounds form by combination of atoms
-  b) atoms are indivisible
-  c) atoms combine in simple whole-number ratios
-  d) atoms of different elements differ in mass
-Key: b  Why: atoms are divisible into electrons, protons and neutrons.
-
-[Classification of elements and Periodic Table] MCQ <gold>
-Q. The most electronegative element is
-  a) oxygen
-  b) nitrogen
-  c) fluorine
-  d) chlorine
-Key: c  Why: F has the highest Pauling value, 4.0.
-
-[Fundamental Principles of Organic Chemistry] MCQ <gold>
-Q. The IUPAC name of (CH₃)₂CHCH₂CH₂OH is
-  a) 3-methylbutan-1-ol
-  b) pentan-1-ol
-  c) 2-methylbutan-4-ol
-  d) 2-methylbutan-1-ol
-Key: a  Why: the longest chain is four carbons with OH on C1 and a methyl on C3.
-
-[Atomic Structure] MCQ <gold>
-Q. Electrons occupy degenerate orbitals singly before pairing, according to
-  a) Hund's rule
-  b) Aufbau principle
-  c) Heisenberg's principle
-  d) Pauli's exclusion principle
-Key: a  Why: Hund's rule of maximum multiplicity.
-
-[Hydrocarbons] MCQ <gold>
-Q. Heating ethanol with conc. $\text{H}_2\text{SO}_4$ at $170^{\circ}\text{C}$ gives
-  a) ethene
-  b) diethyl ether
-  c) ethane
-  d) ethyne
-Key: a  Why: dehydration at $170^{\circ}\text{C}$; at $140^{\circ}\text{C}$ the product is the ether.
-
-[Chemical Bonding and Shapes of Molecules] MCQ <gold>
-Q. The shape of the PH₃ molecule is
-  a) trigonal pyramidal
-  b) bent
-  c) tetrahedral
-  d) trigonal planar
-Key: a  Why: $X = \frac{1}{2}(5+3) = 4$: three bond pairs and one lone pair.
-
-[Foundation and Fundamentals] MCQ <gold>
-Q. Which of the following is a radical?
-  a) $\text{H}_2\text{O}$
-  b) $\text{CO}_2$
-  c) $\text{NH}_4^{+}$
-  d) $\text{NaCl}$
-Key: c  Why: $\text{NH}_4^{+}$ is a charged group that moves as a unit.
-
-[Oxidation and Reduction] MCQ <gold>
-Q. One faraday of electricity is equal to
-  a) 1 C
-  b) 96500 C
-  c) 965 C
-  d) 9650 C
-Key: b  Why: 96500 C, the charge carried by one mole of electrons.
-
-[Bio-inorganic Chemistry] MCQ <gold>
-Q. The metal at the centre of chlorophyll is
-  a) zinc
-  b) magnesium
-  c) iron
-  d) calcium
-Key: b  Why: $\text{Mg}^{2+}$ sits in the porphyrin ring (iron is in haem).
-
-[Aromatic Hydrocarbons] MCQ <gold>
-Q. Acid rain is mainly caused by
-  a) $\text{SO}_2$ and $\text{NO}_x$
-  b) $\text{O}_3$
-  c) $\text{CO}_2$
-  d) $\text{N}_2$
-Key: a  Why: $\text{SO}_2$ and $\text{NO}_x$ form sulphuric and nitric acids in the air.
-
-[Fundamentals of Applied Chemistry] 5-mark <gold>
-Q. a) the break-even output in tonnes and b) the profit at an output of 8,000 tonnes per year.
-Model answer: Contribution $= 40 - 28 =$ Rs 12 per kg.(a) $n_{\text{BE}} = 60\times10^{6}/12 = 5.0\times10^{6}$ kg $= 5000$ tonnes per year.(b) $P = 8.0\times10^{6}(12) - 60\times10^{6} = 96\times10^{6} - 60\times10^{6} =$ Rs 36 million per year.
-
-[Modern Chemical Manufactures] 5-mark <gold>
-Q. a) HCl, b) excess $\text{Cl}_2$, c) $\text{CuSO}_4$ solution.
-Model answer: (a) $\text{NH}_3 + \text{HCl} \to \text{NH}_4\text{Cl}$ (white fumes).(b) $\text{NH}_3 + 3\text{Cl}_2 \to \text{NCl}_3 + 3\text{HCl}$ (excess chlorine); with excess ammonia, $8\text{NH}_3 + 3\text{Cl}_2 \to \text{N}_2 + 6\text{NH}_4\text{Cl}$.(c) $\text{CuSO}_4 + 4\text{NH}_3 \to [\text{Cu(NH}_3)_4]\text{SO}_4$ (deep blue; a pale blue precipitate of $\text{Cu(OH)}_2$ first).
-
-[Chemistry of Non-metals] 5-mark <gold>
-Q. a) dilute and b) concentrated nitric acid, and state the role of the acid.
-Model answer: (a) Dilute: $3\text{Cu} + 8\text{HNO}_3 \to 3\text{Cu(NO}_3)_2 + 2\text{NO}\uparrow + 4\text{H}_2\text{O}$.(b) Concentrated: $\text{Cu} + 4\text{HNO}_3 \to \text{Cu(NO}_3)_2 + 2\text{NO}_2\uparrow + 2\text{H}_2\text{O}$ (brown fumes). Nitric acid acts as an oxidizing agent: the nitrogen is reduced from $+5$ to $+2$ (dilute) or $+4$ (concentrated), while copper is oxidized from $0$ to $+2$.
-
-##### chem12 (Chemistry - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.4853,"slots":15,"neural_accepted":0,"neural_attempts":15,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"15/21","duplicates":0,"bank_size":368,"bank_mcq":300,"bank_short":68,"seconds":47.4}
-
-[Alcohols] MCQ <gold>
-Q. A secondary amine treated with nitrous acid gives
-  a) a diazonium salt
-  b) an alcohol
-  c) a yellow oily nitrosoamine
-  d) nitrogen gas
-Key: c  Why: the N–H of a secondary amine is nitrosated; there is no hydrogen left for the further steps that release nitrogen.
-
-[Haloalkanes] MCQ <gold>
-Q. Which haloalkane undergoes an SN1 reaction most readily?
-  a) (CH₃)₃CCl
-  b) CH₃Cl
-  c) (CH₃)₂CHCl
-  d) CH₃CH₂Cl
-Key: a  Why: SN1 goes through a carbocation, and the tertiary cation is the most stable, so the rate order follows carbocation stability.
-
-[Ionic Equilibrium] MCQ <gold>
-Q. A solution of KOH has pH 8. It is diluted 1000 times. The pH of the diluted solution is
-  a) just above 7
-  b) 11
-  c) 5
-  d) 8
-Key: a  Why: 10⁻⁶ M OH⁻ becomes 10⁻⁹ M, which is far below the 10⁻⁷ M that water itself supplies, so the solution is essentially neutral: [OH⁻] = 1.005 × 10⁻⁷, pH = 7.002. A base can never be diluted into an acid (option a).
-
-[Electrochemistry] MCQ <gold>
-Q. Four metals P, Q, R and S have standard electrode potentials −0.76 V, +0.34 V, −2.71 V and +0.80 V respectively. The correct order of decreasing reactivity is
-  a) S > Q > P > R
-  b) Q > S > R > P
-  c) P > R > Q > S
-  d) R > P > Q > S
-Key: d  Why: the more negative the reduction potential, the more readily the metal is oxidised, so reactivity falls as E° rises: R (−2.71) > P (−0.76) > Q (+0.34) > S (+0.80). Option (a) is the same list read the wrong way round, which is the usual slip.
-
-[Aldehydes and Ketones] MCQ <gold>
-Q. A compound gives an orange-red precipitate with 2,4-DNP but no silver mirror with Tollens' reagent. It is
-  a) an alcohol
-  b) a ketone
-  c) a carboxylic acid
-  d) an aldehyde
-Key: b  Why: 2,4-DNP detects the carbonyl group in both aldehydes and ketones, so it cannot distinguish them; only Tollens' can.
-
-[Chemical Kinetics] MCQ <gold>
-Q. If trebling the concentration of the single reactant makes the rate nine times larger, the order of the reaction is
-  a) 1/2
-  b) 3
-  c) 2
-  d) 1
-Key: c  Why: $3^{x} = 9$ gives $x = 2$.
-
-[Carboxylic Acid and its Derivatives] MCQ <gold>
-Q. The strongest acid among the following is
-  a) CH₃COOH
-  b) CHCl₂COOH
-  c) CH₂ClCOOH
-  d) CCl₃COOH
-Key: d  Why: three chlorines pull the most electron density away from the carboxylate, stabilising the anion best.
-
-[Transition Metals] MCQ <gold>
-Q. The highest oxidation state shown by manganese is
-  a) +7
-  b) +4
-  c) +6
-  d) +2
-Key: a  Why: all five 3d and both 4s electrons are used, as in MnO₄⁻.
-
-[Volumetric Analysis] MCQ <gold>
-Q. In the titration of oxalic acid against KMnO₄ in acidic medium the indicator is
-  a) methyl orange
-  b) phenolphthalein
-  c) starch
-  d) KMnO₄ itself
-Key: d  Why: one drop of excess MnO₄⁻ makes the solution permanently pink, so KMnO₄ is a self-indicator. The solution is warmed to about 60–70 °C because the first reaction is slow at room temperature, and dilute H₂SO₄ supplies the H⁺ the half-reaction needs.
-
-[Studies of Heavy Metals] MCQ <gold>
-Q. Zinc dissolves in hot concentrated NaOH giving
-  a) no reaction
-  b) sodium zincate and H₂
-  c) ZnCl₂ and H₂
-  d) ZnO and H₂O
-Key: b  Why: Zn + 2NaOH → Na₂ZnO₂ + H₂↑; zinc reacts with both acids and alkalis because it is amphoteric.
-
-[Phenols] MCQ <gold>
-Q. Which one gives a violet colour with neutral ferric chloride?
-  a) phenol
-  b) chlorobenzene
-  c) ethanol
-  d) benzyl alcohol
-Key: a  Why: only a phenolic –OH forms the violet iron(III) complex.
-
-[Amines] MCQ <gold>
-Q. Aniline shaken with bromine water gives
-  a) o-bromoaniline
-  b) 2,4,6-tribromoaniline
-  c) bromobenzene
-  d) p-bromoaniline
-Key: b  Why: the strongly activating –NH₂ group substitutes all three available ortho and para positions without any catalyst.
-
-[Cement] 4-mark <gold>
-Q. a) What are the setting and hardening reactions of cement? Write the equations for C₃S and C₂S. b) A cement contains 45 % C₃S, 30 % C₂S, 12 % C₃A and 8 % C₄AF. Taking heats of hydration of 500, 260, 865 and 420 J g⁻¹, calculate the heat evolved per kilogram, and say whether this cement is suitable for a thick dam wall.
-Model answer: (a) Setting and hardening are hydration reactions producing tobermorite (calcium silicate hydrate) gel and calcium hydroxide: 2Ca₃SiO₅ + 6H₂O → Ca₃Si₂O₇·3H₂O + 3Ca(OH)₂ (fast, early strength) and 2Ca₂SiO₄ + 4H₂O → Ca₃Si₂O₇·3H₂O + Ca(OH)₂ (slow, later strength). The interlocking gel needles bind the aggregate, so the concrete must be kept wet while curing.(b) q = 0.45(500) + 0.30(260) + 0.12(865) + 0.08(420) = 225 + 78 + 103.8 + 33.6 = 440.4 J g⁻¹, so 440 kJ per kg. This is higher than an ordinary cement (≈435 kJ kg⁻¹) because of its large C₃A content, so it is not suitable for a thick dam wall; a low-heat PPC should be used instead.
-
-[Paper and Pulp] 4-mark <gold>
-Q. a) What are the raw materials for the production of paper? [2] b) Differentiate between the fibrous and non-fibrous raw materials. [2]
-Model answer: (a) Raw materials are (i) fibrous: wood (spruce, pine), bamboo, straw, bagasse, cotton rags and waste paper, which supply cellulose fibres; and (ii) non-fibrous additives: fillers (china clay, talc, CaCO₃, TiO₂), sizing agents (rosin with alum, starch), dyes and water. (b)
-
-[Haloarenes] 5-mark <gold>
-Q. a) Give the chemical reaction for the preparation of phenol from chlorobenzene. [2] b) Why is phenol nitrated more easily than benzene? [2] c) How is phenol converted into phenolphthalein? [1] (NEB model set A)
-Model answer: (a) Dow's process: C₆H₅Cl + 2NaOH → (623 K, 300 atm) C₆H₅ONa + NaCl + H₂O; C₆H₅ONa + HCl → C₆H₅OH + NaCl.(b) The –OH group is a strong activating group: its lone pair is delocalised into the ring (+M effect), raising the electron density at the ortho and para positions. The ring therefore attacks the NO₂⁺ electrophile more readily, and phenol is nitrated by dilute HNO₃ at room temperature, whereas benzene needs a conc. HNO₃–H₂SO₄ mixture.(c) Two molecules of phenol condense with phthalic anhydride in conc. H₂SO₄: 2C₆H₅OH + C₆H₄(CO)₂O → (conc. H₂SO₄) phenolphthalein + H₂O.
+[Introduction to Biology] 3-mark <teacher>
+Q. Describe the formula for calculating the magnification of a compound microscope and identify the two lenses involved.
+Model answer: A compound microscope involves an objective lens and an eyepiece lens. The magnification formula is $M=M_{\text{objective}}\times M_{\text{eyepiece}}$. This calculation multiplies the magnification power of both lenses to determine the total magnification.

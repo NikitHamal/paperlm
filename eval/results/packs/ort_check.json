@@ -8,8 +8,8 @@
   "bank_fallback": 6,
   "attempts": 12,
   "units_hit": 5,
-  "bank_items": 481,
-  "seconds": 3.6,
+  "bank_items": 477,
+  "seconds": 2.9,
   "samples": [
    {
     "unit": "Developmental Biology",
@@ -88,12 +88,12 @@
   "onnx_mb": 10.73,
   "val_loss": 2.6584,
   "slots": 6,
-  "neural_accepted": 1,
-  "bank_fallback": 5,
+  "neural_accepted": 0,
+  "bank_fallback": 6,
   "attempts": 12,
-  "units_hit": 5,
-  "bank_items": 571,
-  "seconds": 4.5,
+  "units_hit": 6,
+  "bank_items": 564,
+  "seconds": 3.5,
   "samples": [
    {
     "unit": "Circular Motion",
@@ -135,34 +135,34 @@
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The relationship is given by: $\\frac{C}{100} = \\frac{F-32}{180} = \\frac{K-273.15}{100}$. This shows how each scale's fraction represents the same temperature point.",
-     "Write the relationship between Celsius (C), Fahrenheit (F), and Kelvin (K) scales using a single formula."
+     "Temperature measures the avg. molecular kinetic energy, $\\bar{E}_{k} = \\frac{3}{2}k_{B}T$, where $k_{B} = 1.38\\times10^{-23}\\ \\text{J K}^{-1}$. The Kelvin scale, an SI base unit, uses the triple point of water at $273.16\\ \\text{K}$ as its reference point.",
+     "Explain how temperature relates to molecular kinetic energy and describe the Kelvin scale's definition using the triple point of water."
     ]
    },
    {
-    "unit": "Capacitor",
+    "unit": "Refraction through prisms",
     "kind": "mcq",
-    "source": "neural",
+    "source": "bank:gold",
     "segs": [
-     "$V = \\frac{1}{2}C_0$",
-     "What is the equivalent capacitance of a parallel-plate capacitor?",
-     "$\\varepsilon_0$",
-     "$\\varepsilon_0 A/d$",
-     "$C_0/C_0$",
-     "The formula for the capacitor gives $C_0$, and $C_0$ as $C_0$."
+     "greater than $2C$",
+     "A ray cannot emerge from the second face of a prism if the refracting angle $A$ is",
+     "less than $C$",
+     "equal to $C$",
+     "less than $2C$",
+     "then $r_2 = A - r_1 > C$ for every $r_1$, so the ray is totally internally reflected."
     ]
    },
    {
-    "unit": "Dynamics",
+    "unit": "Nuclear physics",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "The friction force adjusts to balance the applied force, up to its maximum limit.",
-     "Why does a block at rest feel 5 N of friction when pushed with a 5 N force, even though the maximum static friction $\\mu N = 20\\ \\text{N}$?",
-     "The block's weight increases the normal force, reducing the required friction.",
-     "Static friction always equals the applied force regardless of the block's motion.",
-     "The coefficient of friction decreases as the applied force increases.",
-     "The friction force only needs to match the applied force to keep the block at rest, not reach its maximum limit."
+     "is independent of $A$",
+     "The density of a nucleus",
+     "increases with $A$",
+     "decreases with $A$",
+     "is equal to that of water",
+     "mass $\\propto A$ and volume $\\propto A$, so $A$ cancels."
     ]
    }
   ]
@@ -175,65 +175,30 @@
   "neural_accepted": 0,
   "bank_fallback": 6,
   "attempts": 12,
-  "units_hit": 6,
-  "bank_items": 494,
-  "seconds": 4.3,
+  "units_hit": 5,
+  "bank_items": 489,
+  "seconds": 3.1,
   "samples": [
    {
-    "unit": "Biota and Environment",
+    "unit": "Conservation Biology",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Carrying capacity ($K$) is the maximum population size an environment can sustain indefinitely. Species interactions are categorized: + indicates benefit, - indicates harm, and 0 signifies no measurable effect.",
-     "Define carrying capacity ($K$) and describe how species interactions can be categorized using a table of signs (+, -, 0)."
+     "Green represents national parks, red indicates wildlife reserves, gold signifies hunting reserves, and blue denotes conservation areas.",
+     "Identify and describe the colors used to represent different types of protected areas in Nepal's schematic map."
     ]
    },
    {
-    "unit": "Introductory Microbiology",
+    "unit": "Biomolecules and Cell Biology",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "capsid",
-     "The protein coat of a virus is called the",
-     "capsomere",
-     "capsule",
-     "envelope",
-     "the capsid is built of repeating protein subunits called capsomeres."
-    ]
-   },
-   {
-    "unit": "Vegetation",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "the Terai and Bhabar up to about 1000 m",
-     "Sal (Shorea robusta) forest is the characteristic vegetation of",
-     "the alpine zone",
-     "the trans-Himalayan zone",
-     "above 3000 m",
-     "sal is the dominant hardwood of the Terai, Bhabar and lower Siwalik."
-    ]
-   },
-   {
-    "unit": "Ecology",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "Net primary production = $12{,}000\\ \\text{kJ m}^{-2} - 7500\\ \\text{kJ m}^{-2} = 4500\\ \\text{kJ m}^{-2}$. Food webs stabilize ecosystems by linking multiple food chains. Plants capture only about 1% of solar energy, initiating the food web.",
-     "Calculate the net primary production per hectare of sal forest in one year and explain the importance of a food web in an ecosystem."
-    ]
-   },
-   {
-    "unit": "Floral Diversity",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "The position of the mother axis",
-     "In floral diversity diagrams, what does the dot at the top represent?",
-     "The number of petals",
-     "The height of the flower",
-     "The base of the stem",
-     "The dot at the top of each diagram represents the position of the mother axis as stated in the provided information."
+     "hydrogen bonds",
+     "The secondary structure of a protein is held together mainly by",
+     "peptide bonds",
+     "disulphide bonds",
+     "ionic bonds",
+     "hydrogen bonds between C=O and N–H hold the α-helix and β-pleated sheet; peptide bonds give the primary structure."
     ]
    },
    {
@@ -241,12 +206,47 @@
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "locomotion from place to place",
-     "Which of the following is not a characteristic of all living things?",
-     "metabolism",
-     "growth and reproduction",
-     "response to stimuli",
-     "plants are living but do not move from place to place; all living things show the other three."
+     "biochemistry",
+     "Biology is related to chemistry most directly through the branch",
+     "biophysics",
+     "biogeography",
+     "bioinformatics",
+     "biochemistry studies the molecules and reactions of life."
+    ]
+   },
+   {
+    "unit": "Biomolecules and Cell Biology",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "Mitosis is an equational division of a somatic cell where one parent cell divides into two daughter cells, each having the same chromosome number and genetic constitution as the parent ($2n$). In contrast, meiosis is a reductional division resulting in four daughter cells, each with half the chromosome number of the parent cell ($n$). Mitosis maintains the chromosome number in somatic cells, whereas meiosis halves it for gametes. Both processes involve DNA replication, but only mitosis results in genetically identical cells.",
+     "Explain the process of mitosis and describe how it differs from meiosis in terms of chromosome number in the daughter cells."
+    ]
+   },
+   {
+    "unit": "Ecology",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "20",
+     "The number of amino acids that commonly occur in natural proteins is",
+     "4",
+     "64",
+     "120",
+     "20 standard amino acids; 64 is the number of codons, a classic swap."
+    ]
+   },
+   {
+    "unit": "Floral Diversity",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "Fabaceae",
+     "Root nodules containing nitrogen-fixing Rhizobium are characteristic of",
+     "Brassicaceae",
+     "Solanaceae",
+     "Liliaceae",
+     "Rhizobium in the root nodules of legumes is why pulses enrich the soil."
     ]
    }
   ]
@@ -260,29 +260,64 @@
   "bank_fallback": 6,
   "attempts": 12,
   "units_hit": 5,
-  "bank_items": 614,
-  "seconds": 6.1,
+  "bank_items": 612,
+  "seconds": 5.3,
   "samples": [
    {
-    "unit": "Quantization of energy",
+    "unit": "Nature and propagation of light",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "Excitation energy is the energy that must be supplied to lift an electron from the ground state to a higher (excited) level; the first excitation energy of hydrogen is $E_2-E_1$.",
-     "Define excitation energy, excitation potential, ionisation energy and ionisation potential. [3]"
+     "A plane wavefront $AB$ is incident on the boundary between medium 1 (speed $v_1$) and medium 2 ($v_2$), at angle of incidence $i$.",
+     "Prove Snell's law using Huygens' construction. [3]"
     ]
    },
    {
-    "unit": "Thermoelectric effects",
+    "unit": "Mechanical waves",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "they lie at opposite ends of the thermoelectric series",
-     "Antimony and bismuth are chosen for a thermopile because",
-     "they are cheap",
-     "they melt at a high temperature",
-     "they are black",
-     "the widest separation in the series gives the largest thermo-e.m.f."
+     "not at all",
+     "A change in atmospheric pressure, at constant temperature, affects the velocity of sound in air",
+     "by doubling it",
+     "in proportion to $\\sqrt{P}$",
+     "in proportion to $P$",
+     "$v = \\sqrt{\\gamma P/\\rho}$ and $P/\\rho$ is constant for a gas at fixed temperature, so a pressure change cancels out. Option (c) is the trap: $P$ and $\\rho$ rise together."
+    ]
+   },
+   {
+    "unit": "Electromagnetic Induction",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$e = -\\frac{d\\Phi}{dt}$",
+     "According to Faraday's law, what expression represents the induced emf ($e$) in a circuit due to the rate of change of magnetic flux ($\\Phi$) through the circuit?",
+     "$e = \\frac{d\\Phi}{dt}$",
+     "$e = -\\Phi t$",
+     "$e = \\Phi + dt$",
+     "Faraday's law directly provides the relationship between induced emf and the rate of change of magnetic flux as $e = -\\frac{d\\Phi}{dt}$."
+    ]
+   },
+   {
+    "unit": "Electromagnetic Induction",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "$N_s = N_p(E_s/E_p) = 1200\\times(12/240) = 60$ turns.",
+     "A transformer steps $240\\ \\text{V}$ down to $12\\ \\text{V}$. The primary has $1200$ turns, and the secondary delivers $5.0\\ \\text{A}$ to a lamp. Assuming the transformer is 90% efficient, find the number of secondary turns, the output power and the primary current."
+    ]
+   },
+   {
+    "unit": "Wave in pipes and strings",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$990\\ \\text{Hz}$",
+     "A closed organ pipe has a fundamental frequency of $330\\ \\text{Hz}$. The frequency of its next higher mode is",
+     "$660\\ \\text{Hz}$",
+     "$1320\\ \\text{Hz}$",
+     "$495\\ \\text{Hz}$",
+     "a closed pipe's next mode is the third harmonic, $3\\times330 = 990\\ \\text{Hz}$; option (a) wrongly supposes a second harmonic exists."
     ]
    },
    {
@@ -290,47 +325,12 @@
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$x = \\frac{A}{\\sqrt{2}}$",
-     "At what displacement $x$ does the kinetic energy $K$ equal the potential energy $U$ for a system where $K = \\tfrac12m\\omega^{2}(A^{2} - x^{2})$ and $U = \\tfrac12m\\omega^{2}x^{2}$?",
-     "$x = A$",
-     "$x = \\frac{A}{2}$",
-     "$x = 0$",
-     "The equation provided directly states that $K = U$ when $x = \\frac{A}{\\sqrt{2}}$."
-    ]
-   },
-   {
-    "unit": "Thermoelectric effects",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "At neutral temperature, $E = 0$. Thus, $0 = \\alpha\\theta_n + \\frac{1}{2}\\beta\\theta_n^{2}$. Solving gives $\\theta_n = -\\frac{2\\alpha}{\\beta}$.",
-     "Derive the expression for the neutral temperature in a copper-iron thermocouple using $E = \\alpha\\theta + \\frac{1}{2}\\beta\\theta^{2}$."
-    ]
-   },
-   {
-    "unit": "Second Law of Thermodynamics",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "$600\\ \\text{K}$",
-     "A Carnot engine has a sink at $300\\ \\text{K}$ and an efficiency of $50\\%$. The source temperature is",
-     "$450\\ \\text{K}$",
-     "$900\\ \\text{K}$",
-     "$150\\ \\text{K}$",
-     "$0.5 = 1 - 300/T_1$ gives $T_1 = 600\\ \\text{K}$."
-    ]
-   },
-   {
-    "unit": "Electrical circuits",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "$3.48\\ \\text{A}$",
-     "An 800 W toaster is connected to a 230 V electrical supply. What is the current drawn by the toaster?",
-     "$8.70\\ \\text{A}$",
-     "$66.1\\ \\text{A}$",
-     "$2.52\\ \\text{A}$",
-     "The current drawn by an 800 W toaster from a 230 V supply is calculated as $I = \\frac{P}{V} = 3.48\\ \\text{A}$."
+     "Q",
+     "What term describes the factor by which the voltage across $L$ (or $C$) at resonance exceeds the supply voltage?",
+     "V",
+     "L",
+     "C",
+     "The term $Q$ is defined as the ratio of the voltage across $L$ (or $C$) at resonance to the supply voltage."
     ]
    }
   ]
@@ -340,33 +340,20 @@
   "onnx_mb": 10.73,
   "val_loss": 2.941,
   "slots": 6,
-  "neural_accepted": 0,
-  "bank_fallback": 6,
+  "neural_accepted": 1,
+  "bank_fallback": 5,
   "attempts": 12,
-  "units_hit": 6,
-  "bank_items": 219,
-  "seconds": 7.1,
+  "units_hit": 5,
+  "bank_items": 216,
+  "seconds": 7.6,
   "samples": [
    {
-    "unit": "Chemistry of Non-metals",
+    "unit": "Chemistry of Metals",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "(a) Dilute: $3\\text{Cu} + 8\\text{HNO}_3 \\to 3\\text{Cu(NO}_3)_2 + 2\\text{NO}\\uparrow + 4\\text{H}_2\\text{O}$.(b) Concentrated: $\\text{Cu} + 4\\text{HNO}_3 \\to \\text{Cu(NO}_3)_2 + 2\\text{NO}_2\\uparrow + 2\\text{H}_2\\text{O}$ (brown fumes). Nitric acid acts as an oxidizing agent: the nitrogen is reduced from $+5$ to $+2$ (dilute) or $+4$ (concentrated), while copper is oxidized from $0$ to $+2$.",
-     "a) dilute and b) concentrated nitric acid, and state the role of the acid."
-    ]
-   },
-   {
-    "unit": "States of Matter",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "a straight line through the origin",
-     "At constant temperature, the graph of pressure against $1/V$ for a fixed mass of gas is",
-     "a hyperbola",
-     "a parabola",
-     "a horizontal line",
-     "Boyle's law gives $P = k(1/V)$, of the form $y = mx$."
+     "$n(\\text{Cl}_2) = 1120/22.4 = 50.0\\ \\text{mol}$. Each mole of Cl₂ needs 2 mol of electrons, so $n(e^-) = 100\\ \\text{mol}$ and $Q = 100 \\times 96500 = 9.65\\times10^{6}\\ \\text{C}$.",
+     "A Down's cell produces chlorine at the rate of 1.12 m³ per hour measured at STP. Calculate the current flowing and the mass of sodium produced per hour. (F = 96500 C mol⁻¹, Na = 23, molar volume at STP = 22.4 L mol⁻¹)"
     ]
    },
    {
@@ -374,47 +361,60 @@
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "the reactor is charged, the reaction is completed, and the product is removed",
-     "A batch process is one in which",
-     "feed enters and product leaves continuously",
-     "only gases react",
-     "no catalyst is used",
-     "(a) describes a continuous process."
+     "manufacture of a tablet coating",
+     "Which process would normally be operated batchwise?",
+     "manufacture of sulphuric acid",
+     "manufacture of ammonia",
+     "manufacture of cement",
+     "small tonnage, many different specifications, batch traceability needed."
     ]
    },
    {
-    "unit": "Hydrocarbons",
+    "unit": "States of Matter",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "the forward rate equals the reverse rate",
+     "At chemical equilibrium",
+     "the reaction stops",
+     "concentrations of reactants and products are equal",
+     "the forward rate is zero",
+     "equilibrium is dynamic; (c) confuses equal rates with equal concentrations."
+    ]
+   },
+   {
+    "unit": "States of Matter",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "The balanced equation is 2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O. Moles of ethyne = 5.6 / 22.4 = 0.25 mol. From the equation, 2 mol of C₂H₂ gives 4 mol of CO₂, i.e. 1 mol gives 2 mol, so moles of CO₂ = 2 × 0.25 = 0.50 mol. Mass of CO₂ = 0.50 × 44 = 22 g.",
-     "5.6 dm³ of ethyne at STP is burnt completely. Calculate the mass of carbon dioxide formed."
+     "(a) Two postulates fail: real molecules attract one another and have a finite volume. $Z = PV/nRT$; $Z = 1$ for an ideal gas. CO₂ dips well below 1 at moderate pressure (strong attractions) and rises above 1 at high pressure; H₂ stays above 1 throughout at room temperature. See Figure 4.(b) $\\left(P + an^{2}/V^{2}\\right)(V - nb) = nRT$; $a$ measures intermolecular attraction (atm L² mol⁻²) and $b$ the excluded volume, about four times the true molecular volume of one mole (L mol⁻¹).",
+     "a) Why do real gases deviate from ideal behaviour? Define the compressibility factor and sketch how it varies with pressure for H₂ and CO₂. b) Write the van der Waals equation for $n$ moles and explain the physical meaning and units of the constants $a$ and $b$."
     ]
    },
    {
-    "unit": "Fundamental Principles of Organic Chemistry",
+    "unit": "Atomic Structure",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "–C(CH₃)₃",
-     "Which of the following shows the +I effect?",
-     "–NO₂",
-     "–CN",
-     "–COOH",
-     "alkyl groups release electrons; –NO₂, –CN and –COOH are all –I."
+     "Hund's rule",
+     "Electrons occupy degenerate orbitals singly before pairing, according to",
+     "Pauli's exclusion principle",
+     "Aufbau principle",
+     "Heisenberg's principle",
+     "Hund's rule of maximum multiplicity."
     ]
    },
    {
-    "unit": "Foundation and Fundamentals",
+    "unit": "Modern Chemical Manufactures",
     "kind": "mcq",
-    "source": "bank:gold",
+    "source": "neural",
     "segs": [
-     "HO",
-     "The empirical formula of hydrogen peroxide (H₂O₂) is",
-     "H₂O₂",
-     "H₂O",
-     "HO₂",
-     "divide both subscripts by the HCF 2."
+     "$\\text{NH}_4\\text{O}$",
+     "The gas liberated at the Solvay process is",
+     "$\\text{H}_2\\text{O}_2$",
+     "$\\text{NH}_3\\text{O}$",
+     "$\\text{NH}_4\\text{Cl}$",
+     "$\\text{NH}_4\\text{Cl}_2$ lowers the Solvay process."
     ]
    }
   ]
@@ -427,78 +427,78 @@
   "neural_accepted": 0,
   "bank_fallback": 6,
   "attempts": 12,
-  "units_hit": 5,
-  "bank_items": 368,
-  "seconds": 7.1,
+  "units_hit": 6,
+  "bank_items": 360,
+  "seconds": 8.1,
   "samples": [
    {
-    "unit": "Ethers",
+    "unit": "Carboxylic Acid and its Derivatives",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "(a) Ether forms peroxides by auto-oxidation in air; iron wire reduces the peroxides as they form. Ethanol dissolves in water because it forms hydrogen bonds with water through its –OH group.(b) Cold HI: C₂H₅OC₂H₅ + HI → C₂H₅OH + C₂H₅I. Conc. H₂SO₄ (cold): ether dissolves as an oxonium salt, [(C₂H₅)₂OH]⁺HSO₄⁻, because the oxygen lone pair can accept a proton. Cl₂ in sunlight: substitution at the carbon next to oxygen, C₂H₅OC₂H₅ + 10Cl₂ → C₂Cl₅OC₂Cl₅ + 10HCl (perchloroethoxyethane with excess chlorine).",
-     "a) Give reasons: ether is stored in a bottle containing iron wire; ethanol, though organic, is soluble in water. [2] b) Write the action of ethoxyethane with cold HI, conc. H₂SO₄ and chlorine in sunlight. [3] (NEB 2081 for (a))"
+     "The carbon of the benzene ring is sp² hybridised and therefore more electronegative than the sp³ carbon of a methyl group.",
+     "Why is benzoic acid a stronger acid than ethanoic acid?"
     ]
    },
    {
-    "unit": "Studies of Heavy Metals",
+    "unit": "Alcohols",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "copper pyrite",
-     "The chief ore of copper is",
-     "cuprite",
-     "malachite",
-     "azurite",
-     "CuFeS₂ supplies most of the world's copper; the others are minor ores."
+     "blue colour",
+     "In the nitrous acid test a secondary nitroalkane gives a",
+     "red colour",
+     "yellow colour",
+     "no colour",
+     "the pseudonitrole gives a blue colour; the primary compound gives the red nitrolic acid salt and the tertiary compound, having no α-hydrogen, gives nothing."
+    ]
+   },
+   {
+    "unit": "Nitro Compounds",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "CH₂Cl₂",
+     "Trichloromethane reduced in a neutral medium gives",
+     "CH₄",
+     "CCl₄",
+     "COCl₂",
+     "reduction removes one chlorine: CHCl₃ + 2[H] → CH₂Cl₂ + HCl. Option (d) is the oxidation product formed in air."
     ]
    },
    {
     "unit": "Cement",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "C₃S",
-     "Which Bogue compound is mainly responsible for early strength?",
-     "C₂S",
-     "C₃A",
-     "C₄AF",
-     "C₃S hydrates in hours to days."
-    ]
-   },
-   {
-    "unit": "Chemical Kinetics",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "For A → products, let the initial concentration be a and let x have reacted in time t. The rate is proportional to the concentration left:",
-     "Derive the integrated equation for a first-order reaction, k = (2.303/t) log[a/(a − x)], and show that t½ is independent of the initial concentration. [3]"
+     "(a) Setting and hardening are hydration reactions producing tobermorite (calcium silicate hydrate) gel and calcium hydroxide: 2Ca₃SiO₅ + 6H₂O → Ca₃Si₂O₇·3H₂O + 3Ca(OH)₂ (fast, early strength) and 2Ca₂SiO₄ + 4H₂O → Ca₃Si₂O₇·3H₂O + Ca(OH)₂ (slow, later strength). The interlocking gel needles bind the aggregate, so the concrete must be kept wet while curing.(b) q = 0.45(500) + 0.30(260) + 0.12(865) + 0.08(420) = 225 + 78 + 103.8 + 33.6 = 440.4 J g⁻¹, so 440 kJ per kg. This is higher than an ordinary cement (≈435 kJ kg⁻¹) because of its large C₃A content, so it is not suitable for a thick dam wall; a low-heat PPC should be used instead.",
+     "a) What are the setting and hardening reactions of cement? Write the equations for C₃S and C₂S. b) A cement contains 45 % C₃S, 30 % C₂S, 12 % C₃A and 8 % C₄AF. Taking heats of hydration of 500, 260, 865 and 420 J g⁻¹, calculate the heat evolved per kilogram, and say whether this cement is suitable for a thick dam wall."
     ]
    },
    {
-    "unit": "Ethers",
+    "unit": "Organometallic Compounds",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "(CH₃)₃CONa + CH₃I",
-     "The best pair of reagents for preparing 2-methoxy-2-methylpropane is",
-     "CH₃ONa + (CH₃)₃CBr",
-     "CH₃OH + (CH₃)₃COH",
-     "CH₃Br + (CH₃)₃CBr",
-     "the bulky group must be the alkoxide; (a) would give 2-methylpropene by elimination."
+     "its oxygen lone pairs coordinate to magnesium",
+     "Dry ether is used in preparing a Grignard reagent because",
+     "it is cheap",
+     "it reacts with the halide",
+     "it oxidises magnesium",
+     "coordination stabilises the magnesium and keeps RMgX in solution."
     ]
    },
    {
-    "unit": "Amines",
+    "unit": "Phenols",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "an azo dye",
-     "Benzenediazonium chloride coupled with phenol in alkaline medium gives",
-     "chlorobenzene",
-     "benzene",
-     "nitrobenzene",
-     "electrophilic attack by the diazonium ion at the para position of phenol gives p-hydroxyazobenzene, an orange dye."
+     "it is a weaker acid than carbonic acid",
+     "Phenol dissolves in aqueous NaOH but not in aqueous NaHCO₃ because",
+     "it is a stronger acid than carbonic acid",
+     "it is not acidic at all",
+     "it is insoluble in water",
+     "with $\\mathrm{p}K_a$ 10.0 against 6.35, phenol cannot displace CO₂ from a bicarbonate."
     ]
    }
   ]
