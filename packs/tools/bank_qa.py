@@ -41,16 +41,22 @@ def repair(it):
     return out
 
 
+FIG = re.compile(r"\b(figure|fig\.|diagram|shown (?:below|above|here)|as shown|graph (?:given|shown)|adjacent|the (?:table|data) (?:given|below|above))\b", re.I)
+DANGLE = re.compile(r"\b(than|to|as|with|of) (?:it|them|this|that)\.?$", re.I)
+
+
 def qa(it):
     r = []
     q, a = it.get("question", "").strip(), it.get("answer", "").strip()
     if len(q) < 12: r.append("empty_or_tiny_stem")
     if not a: r.append("no_answer")
+    if FIG.search(q) or (re.search(r"\bpoints? [A-Z]\b", q) and not re.search(r"\bpoints? [A-Z]\b", it.get("anchor", ""))): r.append("needs_figure")  # the pack has no figures: a stem that points at one cannot be answered
     if not _tex_ok(q + " " + a + " " + it.get("why", "")): r.append("latex")
     if it["type"] == "mcq":
         d = it.get("distractors", [])
         opts = [a] + d
         if len(d) != 3: r.append("n_options")
+        if any(DANGLE.search(o.strip()) for o in opts): r.append("dangling_pronoun_option")  # e.g. "equal to it" with no antecedent in the stem
         if len({_norm(o) for o in opts}) != len(opts): r.append("dup_option")
         if q.endswith("?") is False and "___" not in q and len(q) < 20: r.append("stem_fragment")
         if any(len(o.strip()) == 0 for o in opts): r.append("blank_option")

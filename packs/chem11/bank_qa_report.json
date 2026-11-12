@@ -1,12 +1,9 @@
 {
  "pack": "chem11",
- "bank_in": 222,
+ "bank_in": 219,
  "bank_kept": 219,
- "dropped": 3,
- "reasons": {
-  "stem_fragment": 2,
-  "empty_or_tiny_stem": 1
- },
+ "dropped": 0,
+ "reasons": {},
  "mcq": 197,
  "written": 22,
  "units": 17

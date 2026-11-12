@@ -1,14 +1,10 @@
 {
  "pack": "bio11",
- "bank_in": 499,
- "bank_kept": 496,
- "dropped": 3,
- "reasons": {
-  "stem_fragment": 1,
-  "option_length_skew": 1,
-  "empty_or_tiny_stem": 1
- },
- "mcq": 414,
+ "bank_in": 494,
+ "bank_kept": 494,
+ "dropped": 0,
+ "reasons": {},
+ "mcq": 412,
  "written": 82,
  "units": 10
 }
