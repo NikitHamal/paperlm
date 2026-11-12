@@ -1,5 +1,9 @@
 # PAPERLM_STATUS.md - PaperLM build log (single source of truth, resume from here)
 
+## v18 session (newest; read first) - fresh token attached to the SAME VM, wave8r in teacher stage, wave9 chained
+- **VM**: `https://sb-84ba1da1dc9d55f9.sb.molab.run/` (session `sess-g2qsrh05rtxjbmb0`) re-attached with the new token (`~/.molab_token`, mode 600, never committed). `scripts/molab_*.sh` already point at this URL. Keep-alive heartbeat (60 s, count 334 at attach) and the 3 s Marimo cards are alive; GPU 99 % / 92 GB busy with `wave8r` (teacher on bio12 phy11 bio11 phy12 at attach, then chem11/chem12 re-run, then train all 10 packs, publish with regression guard, push from the VM). `chain9` then runs `wave9.sh`. **Do not start another GPU job until `/tmp/paperlm/WAVE9_DONE`.**
+- Not re-hydrated: the VM disk still holds `/tmp/paperlm`, `/work/paperlm`, Qwen2.5-32B in `/dev/shm`, so no corpus rebuild was needed.
+
 ## v17 session (newest; read first) - re-attached, wave8r still running, wave9 chained
 - **VM**: same `https://sb-84ba1da1dc9d55f9.sb.molab.run/`, new token saved to `~/.molab_token` (never committed). Keep-alive daemon alive (heartbeat every 60 s), GPU 99 % (wave8r teacher, math12 stage at attach time).
 - **Chained**: `chain9` (detached, `/tmp/paperlm/logs/chain9.sh`) waits for `/tmp/paperlm/WAVE8_DONE` then runs `packs/tools/wave9.sh` by itself (sanitising teacher on fresh anchors, retrain 10 packs, publish with regression guard, commit + push from the VM). Nothing to launch by hand: next session run `scripts/harvest.sh`, look for `WAVE9_DONE`, then `eval/validate_all.sh` (needs `pip install tokenizers numpy onnxruntime`).
