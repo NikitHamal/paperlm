@@ -26,7 +26,7 @@ tok = Tokenizer(models.BPE(unk_token=None)); tok.normalizer = normalizers.NFC()
 tok.pre_tokenizer = pre_tokenizers.Sequence([pre_tokenizers.Split(Regex(PAT), behavior="isolated", invert=False), pre_tokenizers.ByteLevel(add_prefix_space=False, use_regex=False)]); tok.decoder = decoders.ByteLevel()
 tok.train([f"{D}/tok_corpus.txt"], trainers.BpeTrainer(vocab_size=4096, special_tokens=specials, initial_alphabet=pre_tokenizers.ByteLevel.alphabet(), min_frequency=2, show_progress=False))
 tok.save(f"{O}/tokenizer.json"); T = fsm.tok_tables(tok); SP = T["special"]; enc = lambda s: tok.encode(s).ids
-cfg = PaperLMConfig(vocab_size=4096, d_model=320, n_layers=7, n_heads=5, ffn_hidden=896, max_seq=768, dropout=0.1); model = PaperLM(cfg).to(dev); NP = model.n_params(); print(pid, "params", NP, flush=True)
+cfg = PaperLMConfig(vocab_size=4096, d_model=320, n_layers=7, n_heads=5, ffn_hidden=896, max_seq=768, dropout=float(os.environ.get('DROPOUT', 0.15))); model = PaperLM(cfg).to(dev); NP = model.n_params(); print(pid, "params", NP, flush=True)
 def mk(it, ds=None): p, c = enc(prompt(it)), enc(comp(it, ds)); return p, c
 def mcq_variants(it):
     vs = [None]
@@ -54,16 +54,19 @@ def vloss(m):
 def st(**kw):
     try: json.dump(dict(pack=pid, t=time.time(), params=NP, **kw), open(f"/tmp/paperlm/status_train_{pid}.json", "w"))
     except Exception: pass
-curve = []
+curve = []; BEST = [1e9, None]
 def train(steps, pool, lr, tag, bs=48):
     opt = torch.optim.AdamW(model.parameters(), lr=lr, betas=(0.9, 0.95), weight_decay=0.1); model.train(); model.return_cache = False; t0 = time.time()
     for s in range(steps):
         cur = lr * min(1, (s + 1) / 100) * (0.05 + 0.95 * 0.5 * (1 + math.cos(math.pi * s / steps)))
         for g in opt.param_groups: g["lr"] = cur
         X, W = collate(random.sample(pool, bs)); loss = nll(model, X, W); opt.zero_grad(); loss.backward(); torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0); opt.step()
-        if s % 250 == 0 or s == steps - 1:
+        if s % 100 == 0 or s == steps - 1:
             v = vloss(model); curve.append(dict(stage=tag, step=s, train=round(loss.item(), 4), val=round(v, 4))); print(tag, s, round(loss.item(), 3), "val", round(v, 3), flush=True); st(stage=tag, step=s, steps=steps, curve=curve, elapsed=round(time.time() - t0))
-train(SA, TR + [(r if False else r) for r in BK] * 1, 2e-3, "A-lm+items"); train(SB, TR, 8e-4, "B-items")
+            if v < BEST[0]: BEST[0] = v; BEST[1] = copy.deepcopy(model.state_dict())   # val-best checkpoint (val = UNSEEN anchors)
+            elif s > steps * 0.3 and v > BEST[0] + 0.35: break                          # early stop on generalisation collapse
+    model.load_state_dict(BEST[1]); print(tag, "restored best val", round(BEST[0], 4), flush=True)
+train(SA, TR + [(r if False else r) for r in BK] * 1, 2e-3, "A-lm+items"); BEST[0] = 1e9; train(SB, TR, 3e-4, "B-items")
 # ---------------- contrastive rejection tuning (DPO with RPO NLL anchor); negatives = ungrounded / mismatched / duplicated
 def corrupt(it):
     o = random.choice([x for x in tr_items if x["type"] == it["type"] and x["unit"] != it["unit"]] or tr_items); r = dict(it); k = random.random()
