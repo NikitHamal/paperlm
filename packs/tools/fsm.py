@@ -38,8 +38,11 @@ class State:
             if T["isp"][i]: out.append(cur.strip()); cur = ""
             else: cur += T["strs"][i]
         return out
-import torch
-@torch.no_grad()
+try:
+    import torch; _ng = torch.no_grad()
+except ImportError:  # CPU-only harness checks (eval/ort_pack_check.py) only need State / tok_tables
+    torch = None; _ng = lambda f: f
+@_ng
 def sample(model, T, prompt_ids, kind, K=6, temp=0.75, top_p=0.92, anchor_ids=(), beta=1.0, dev="cuda", maxlen=420):
     model.eval(); model.return_cache = True; sts = [State(T, kind) for _ in range(K)]
     x = torch.tensor([prompt_ids] * K, device=dev); lg, pk, pv = model(x); lg = lg[:, -1].float(); lp = [0.0] * K

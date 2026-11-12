@@ -1,0 +1,51 @@
+{
+ "phy11": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 2.6584,
+  "slots": 3,
+  "neural_accepted": 0,
+  "bank_fallback": 3,
+  "attempts": 6,
+  "units_hit": 3,
+  "bank_items": 588,
+  "seconds": 2.9,
+  "samples": [
+   {
+    "unit": "Lenses",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "For $f = 50\\ \\text{cm} = 0.5\\ \\text{m}$, $P = \\frac{1}{0.5} = +2\\ \\text{D}$. For $f = -25\\ \\text{cm} = -0.25\\ \\text{m}$, $P = \\frac{1}{-0.25} = -4\\ \\text{D}$.",
+     "Calculate the power of a lens with a focal length of $f = 50\\ \\text{cm}$ and another with $f = -25\\ \\text{cm}$. Use the formula $P = \\frac{1}{f(m)}$."
+    ]
+   },
+   {
+    "unit": "Nuclear physics",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "It represents the product of the number of nucleons and the binding energy per nucleon.",
+     "Why is the total binding energy before the split calculated as $B_{\\text{before}} = 236 \\times 7.6$?",
+     "It calculates the kinetic energy released during the split.",
+     "It indicates the energy required to split the nucleus into individual nucleons.",
+     "It measures the difference in mass between the initial nucleus and its decay products.",
+     "The total binding energy is defined as the product of the binding energy per nucleon and the number of nucleons."
+    ]
+   },
+   {
+    "unit": "Work, energy and power",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "zero",
+     "A coolie carries a load horizontally along a level platform. The work done by him on the load is",
+     "$mgh$",
+     "negative",
+     "$mgs$",
+     "the supporting force is vertical, the displacement horizontal, so $\\theta = 90^{\\circ}$."
+    ]
+   }
+  ]
+ }
+}
