@@ -51,13 +51,16 @@ export async function loadRegistry(base = "packs/") { return (await fetch(base +
 export class Pack {
   static async load(ort, id, base = "packs/", onProgress = () => {}) {
     const dir = `${base}${id}/`, meta = await (await fetch(dir + "pack.json")).json(); onProgress(0.05, "tokenizer");
-    const tokJ = await (await fetch(dir + "tokenizer.json")).json(), graph = await (await fetch(dir + "syllabus_graph.json")).json(); const p = new Pack(); p.meta = meta; p.graph = graph; p.ort = ort; p.tok = new Tok(tokJ);
-    const T = p.tok; T.ok = new Uint8Array(T.V); T.op = new Int32Array(T.V); T.cl = new Int32Array(T.V); T.dl = new Int32Array(T.V); T.special = T.special;
-    T.strs.forEach((s, i) => { if (s !== null) { T.ok[i] = 1; for (const ch of s) { if (ch === "{") T.op[i]++; else if (ch === "}") T.cl[i]++; else if (ch === "$") T.dl[i]++; } } });
+    const tokJ = await (await fetch(dir + "tokenizer.json")).json(), graph = await (await fetch(dir + "syllabus_graph.json")).json(); const p = Pack.fromParts(ort, meta, tokJ, graph);
     let buf; const cache = "caches" in self ? await caches.open("paperlm-packs-v2") : null, url = dir + "model.onnx", hit = cache && await cache.match(url);
     if (hit) buf = await hit.arrayBuffer(); else { const r = await fetch(url), tot = +r.headers.get("content-length") || meta.onnx_mb * 1e6, rd = r.body.getReader(), parts = []; let got = 0;
       for (;;) { const { done, value } = await rd.read(); if (done) break; parts.push(value); got += value.length; onProgress(0.1 + 0.8 * got / tot, "model"); } buf = await new Blob(parts).arrayBuffer(); if (cache) await cache.put(url, new Response(buf.slice(0))); }
-    onProgress(0.92, "session"); p.session = await ort.InferenceSession.create(new Uint8Array(buf), { executionProviders: ["wasm"] }); p.units = Object.fromEntries(graph.units.map((u) => [u.id, u])); onProgress(1, "ready"); return p;
+    onProgress(0.92, "session"); p.session = await ort.InferenceSession.create(new Uint8Array(buf), { executionProviders: ["wasm"] }); onProgress(1, "ready"); return p;
+  }
+  static fromParts(ort, meta, tokJ, graph) {
+    const p = new Pack(); p.meta = meta; p.graph = graph; p.ort = ort; p.tok = new Tok(tokJ); p.units = Object.fromEntries(graph.units.map((u) => [u.id, u]));
+    const T = p.tok; T.ok = new Uint8Array(T.V); T.op = new Int32Array(T.V); T.cl = new Int32Array(T.V); T.dl = new Int32Array(T.V);
+    T.strs.forEach((s, i) => { if (s !== null) { T.ok[i] = 1; for (const ch of s) { if (ch === "{") T.op[i]++; else if (ch === "}") T.cl[i]++; else if (ch === "$") T.dl[i]++; } } }); return p;
   }
   async run(ids, st) { const o = this.ort, M = this.meta, P = st ? st.P : 0, z = new Float32Array(0);
     const r = await this.session.run({ ids: new o.Tensor("int64", BigInt64Array.from(ids.map(BigInt)), [1, ids.length]), past_k: new o.Tensor("float32", st ? st.k : z, [M.layers, 1, M.heads, P, M.head_dim]), past_v: new o.Tensor("float32", st ? st.v : z, [M.layers, 1, M.heads, P, M.head_dim]) });

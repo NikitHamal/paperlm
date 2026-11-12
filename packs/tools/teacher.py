@@ -79,8 +79,8 @@ for pid in sys.argv[1:]:
     pri = {"law": 0, "formula": 0, "def": 1, "fact": 2}; A = sorted(A, key=lambda a: pri[a["kind"]] + rng.random() * 1.2)[:MAXA]; amap = {a["aid"]: a["anchor"] for a in A}
     todo = [(a, STYLES[i % 5]) for i, a in enumerate(A)] + [(a, STYLES[(i + 2) % 5]) for i, a in enumerate(A) if a["kind"] != "fact" and i % 2 == 0]
     fo = open(f"{D}/verified.jsonl", "w"); nraw = nkeep = 0; t0 = time.time(); seen = set()
-    for c in range(0, len(todo), 512):
-        part = todo[c:c + 512]; raw = gen([mcq_prompt(a, S["title"], st) for a, st in part]); items = []
+    for c in range(0, len(todo), 256):
+        part = todo[c:c + 256]; raw = gen([mcq_prompt(a, S["title"], st) for a, st in part]); items = []
         for (a, st), r in zip(part, raw):
             j = pj(r); nraw += 1
             if not j or not okt(j.get("question"), 15, 360) or not okt(j.get("answer"), 1, 160) or not isinstance(j.get("distractors"), list) or len(j["distractors"]) != 3: continue
@@ -96,8 +96,8 @@ for pid in sys.argv[1:]:
     jobs = []
     for i in range(NSHORT):
         u = rng.choice(list(byu)); m = rng.choice([2, 3, 3, 5]); fs = rng.sample(byu[u], min(len(byu[u]), 1 if m == 2 else 2 if m == 3 else 3)); jobs.append((u, m, fs))
-    for c in range(0, len(jobs), 512):
-        part = jobs[c:c + 512]; raw = gen([short_prompt(f, S["title"], u, m) for u, m, f in part], max_new=330); items = []
+    for c in range(0, len(jobs), 256):
+        part = jobs[c:c + 256]; raw = gen([short_prompt(f, S["title"], u, m) for u, m, f in part], max_new=330); items = []
         for (u, m, fs), r in zip(part, raw):
             j = pj(r)
             if j and okt(j.get("question"), 15, 300) and okt(j.get("answer"), 20, 650) and not BAD.search(j["question"]): items.append(dict(type="short", marks=m, unit=u, facts=fs, anchor=" ".join(fs), question=j["question"].strip(), answer=j["answer"].strip()))

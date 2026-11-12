@@ -74,7 +74,7 @@ def corrupt(it):
 def lps(m, X, W):
     with torch.autocast("cuda", dtype=torch.bfloat16): lg = m(X[:, :-1])
     lp = torch.log_softmax(lg.float(), -1).gather(-1, X[:, 1:, None])[..., 0]; return (lp * (W[:, 1:] > 0.5)).sum(1)
-def bench(m, n=90, K=4, tag=""):
+def bench(m, n=48, K=4, tag=""):
     m.eval(); rows = []; r = random.Random(11); S_ = r.sample(va_items, min(n, len(va_items))); ok = strict = 0; sc_all = []; samples = []
     for it in S_:
         a = it["anchor"]; kind = it["type"]; out = fsm.sample(m, T, enc(prompt(it)), kind, K=K, anchor_ids=enc(a), beta=1.0)
