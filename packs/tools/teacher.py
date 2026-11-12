@@ -8,14 +8,14 @@ import validator as V
 from transformers import AutoTokenizer, AutoModelForCausalLM
 M = "/dev/shm/qwen32b"; tk = AutoTokenizer.from_pretrained(M); tk.padding_side = "left"
 model = AutoModelForCausalLM.from_pretrained(M, torch_dtype=torch.bfloat16, device_map="cuda").eval()
-SPECS = json.load(open(os.path.join(HERE, "..", "pack_specs.json"))); MAXA = int(os.environ.get("MAXA", 2800)); NSHORT = int(os.environ.get("NSHORT", 800))
+SPECS = json.load(open(os.path.join(HERE, "..", "pack_specs.json"))); MAXA = int(os.environ.get("MAXA", 2800)); NSHORT = int(os.environ.get("NSHORT", 800)); OFF = int(os.environ.get("OFF", 0)); SUF = os.environ.get("SUF", "")
 STYLES = ["a definition or recall question", "a concept-application question (a short scenario or reason)", "a 'why/how' reasoning question",
           "a question that distinguishes between two related ideas", "an identification question (name the term, law, organ, unit or process)"]
 SYS = "You are a senior Nepal NEB board examiner who writes precise, factually exact exam questions strictly from the given textbook passage."
 YES, NO = tk.encode("Yes")[0], tk.encode("No")[0]; LET = [tk.encode(x)[0] for x in "ABCD"]
 def chat(u): return tk.apply_chat_template([{"role": "system", "content": SYS}, {"role": "user", "content": u}], tokenize=False, add_generation_prompt=True)
 @torch.no_grad()
-def gen(prompts, max_new=230, bs=128, temp=0.7):
+def gen(prompts, max_new=230, bs=256, temp=0.7):
     out = []
     for i in range(0, len(prompts), bs):
         b = tk(prompts[i:i + bs], return_tensors="pt", padding=True).to("cuda")
@@ -76,11 +76,11 @@ def status(pid, **kw):
     except Exception: pass
 for pid in sys.argv[1:]:
     S = SPECS[pid]; D = f"/tmp/packs/{pid}"; A = [json.loads(l) for l in open(f"{D}/anchors.jsonl")]; rng = random.Random(7); rng.shuffle(A)
-    pri = {"law": 0, "formula": 0, "def": 1, "fact": 2}; A = sorted(A, key=lambda a: pri[a["kind"]] + rng.random() * 1.2)[:MAXA]; amap = {a["aid"]: a["anchor"] for a in A}
+    pri = {"law": 0, "formula": 0, "def": 1, "fact": 2}; A = sorted(A, key=lambda a: pri[a["kind"]] + rng.random() * 1.2)[OFF:OFF + MAXA]; amap = {a["aid"]: a["anchor"] for a in A}
     todo = [(a, STYLES[i % 5]) for i, a in enumerate(A)] + [(a, STYLES[(i + 2) % 5]) for i, a in enumerate(A) if a["kind"] != "fact" and i % 2 == 0]
-    fo = open(f"{D}/verified.jsonl", "w"); nraw = nkeep = 0; t0 = time.time(); seen = set()
-    for c in range(0, len(todo), 256):
-        part = todo[c:c + 256]; raw = gen([mcq_prompt(a, S["title"], st) for a, st in part]); items = []
+    fo = open(f"{D}/verified{SUF}.jsonl", "w"); nraw = nkeep = 0; t0 = time.time(); seen = set()
+    for c in range(0, len(todo), 384):
+        part = todo[c:c + 384]; raw = gen([mcq_prompt(a, S["title"], st) for a, st in part]); items = []
         for (a, st), r in zip(part, raw):
             j = pj(r); nraw += 1
             if not j or not okt(j.get("question"), 15, 360) or not okt(j.get("answer"), 1, 160) or not isinstance(j.get("distractors"), list) or len(j["distractors"]) != 3: continue

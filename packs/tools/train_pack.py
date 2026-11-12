@@ -11,7 +11,7 @@ pid = sys.argv[1]; SA, SB, SD = [int(x) for x in (sys.argv[2:5] + ["2500", "3500
 SPECS = json.load(open(os.path.join(HERE, "..", "pack_specs.json"))); S = SPECS[pid]; D = f"/tmp/packs/{pid}"; O = f"{D}/out"; os.makedirs(O, exist_ok=True)
 random.seed(3); torch.manual_seed(3); dev = "cuda"; PAT = r" ?\\[A-Za-z]+| ?[A-Za-z\u0900-\u097F]+| ?[0-9]| ?[^\sA-Za-z0-9\u0900-\u097F]|\s+"
 rd = lambda p: [json.loads(l) for l in open(p)] if os.path.exists(p) else []
-items = rd(f"{D}/gold_items.jsonl") + rd(f"{D}/verified.jsonl"); graph = json.load(open(f"{D}/syllabus_graph.json")); UT = {u["name"]: set(u["terms"]) for u in graph["units"]}
+items = rd(f"{D}/gold_items.jsonl") + sum([rd(f) for f in sorted(__import__("glob").glob(f"{D}/verified*.jsonl"))], []); graph = json.load(open(f"{D}/syllabus_graph.json")); UT = {u["name"]: set(u["terms"]) for u in graph["units"]}
 isval = lambda it: int(hashlib.md5(it["anchor"].encode()).hexdigest(), 16) % 100 < 6
 tr_items, va_items = [i for i in items if not isval(i)], [i for i in items if isval(i)]
 prompt = lambda it: f"<|bos|><|pack={pid}|><|type={it['type']}|><|marks={it['marks']}|><|unit|>{it['unit']}<|book|>{it['anchor']}<|ans|>"
