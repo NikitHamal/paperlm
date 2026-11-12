@@ -1,200 +1,660 @@
 
-##### chem11 (Chemistry - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.941,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/17","duplicates":0,"bank_size":222,"bank_mcq":199,"bank_short":23,"seconds":58.6}
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":15,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"10/10","duplicates":0,"bank_size":482,"bank_mcq":402,"bank_short":80,"seconds":41.3}
 
-[Foundation and Fundamentals] MCQ <gold>
-Q. In the reaction CaCO₃(s) ⇌ CaO(s) + CO₂(g), the equilibrium constant $K_c$ is
-  a) [CaO][CO₂]/[CaCO₃]
-  b) 1/[CO₂]
-  c) [CaO][CO₂]
-  d) [CO₂]
-Key: d  Why: pure solids have constant active mass and are omitted.
+[Animal Tissues] MCQ <gold>
+Q. The epithelium that can stretch when the urinary bladder is filled is
+  a) transitional
+  b) simple cuboidal
+  c) ciliated columnar
+  d) simple squamous
+Key: a  Why: transitional epithelium lets the cells slide over one another.
 
-[Chemical Bonding and Shapes of Molecules] MCQ <gold>
-Q. The shape of the methane molecule is
-  a) pyramidal
-  b) tetrahedral
-  c) planar
-  d) linear
-Key: b  Why: four bond pairs, $109.5^{\circ}$.
+[Biotechnology] MCQ <teacher>
+Q. In a PCR reaction, if you perform $n$ cycles, how many copies of the target DNA are produced?
+  a) $2^n$
+  b) $2n$
+  c) $n^2$
+  d) $n$
+Key: a  Why: Each cycle doubles the target, so after $n$ cycles, the number of copies is $2^n$.
 
-[Hydrocarbons] MCQ <gold>
-Q. The Wurtz reaction of $\text{CH}_3\text{Cl}$ with sodium gives
-  a) propane
-  b) ethane
-  c) ethene
-  d) methane
-Key: b  Why: $2\text{CH}_3\text{Cl} + 2\text{Na} \to \text{C}_2\text{H}_6$; the product has twice the carbons.
+[Plant Physiology] MCQ <gold>
+Q. The enzyme that works best at pH 1.5–2.0 is
+  a) trypsin
+  b) salivary amylase
+  c) pepsin
+  d) intestinal lipase
+Key: c  Why: pepsin is the only enzyme of the strongly acidic gastric juice.
 
-[Chemistry of Non-metals] MCQ <gold>
-Q. The bond dissociation enthalpy of F₂ is less than that of Cl₂ because
-  a) fluorine has a higher electron affinity
-  b) F₂ is a gas
-  c) fluorine is more electronegative
-  d) lone-pair repulsion is large in the small F₂ molecule
-Key: d  Why: the F atom is very small, so the three lone pairs on each atom repel across the short bond and weaken it.
+[Genetics] MCQ <gold>
+Q. Two pea plants with red flowers, genotypes unknown, are crossed and give red and white flowers in the ratio 3 : 1. What are the genotypes of the parents?
+  a) both hemizygous
+  b) both heterozygous
+  c) both homozygous
+  d) one homozygous, one heterozygous
+Key: b  Why: Rr × Rr gives 3 red : 1 white. Two homozygotes(a) or one of each(b) would give no white offspring at all.
 
-[Aromatic Hydrocarbons] MCQ <gold>
-Q. The number of isomers of dichlorobenzene, C₆H₄Cl₂, is
-  a) 3
-  b) 6
-  c) 4
+[Human Biology] MCQ <gold>
+Q. Which lung volume cannot be measured with a spirometer?
+  a) inspiratory reserve volume
+  b) vital capacity
+  c) residual volume
+  d) tidal volume
+Key: c  Why: residual volume never leaves the lungs, so no spirometer can collect it.
+
+[Plant Physiology] MCQ <gold>
+Q. The net gain of ATP from glycolysis per molecule of glucose is:
+  a) 8
+  b) 4
+  c) 38
   d) 2
-Key: a  Why: ortho, meta and para only.
+Key: d  Why: gross 4, investment 2, net 2.
 
-[Modern Chemical Manufactures] 5-mark <gold>
-Q. a) HCl, b) excess $\text{Cl}_2$, c) $\text{CuSO}_4$ solution.
-Model answer: (a) $\text{NH}_3 + \text{HCl} \to \text{NH}_4\text{Cl}$ (white fumes).(b) $\text{NH}_3 + 3\text{Cl}_2 \to \text{NCl}_3 + 3\text{HCl}$ (excess chlorine); with excess ammonia, $8\text{NH}_3 + 3\text{Cl}_2 \to \text{N}_2 + 6\text{NH}_4\text{Cl}$.(c) $\text{CuSO}_4 + 4\text{NH}_3 \to [\text{Cu(NH}_3)_4]\text{SO}_4$ (deep blue; a pale blue precipitate of $\text{Cu(OH)}_2$ first).
+[Human Biology] MCQ <gold>
+Q. Nissl granules are absent from the
+  a) cyton
+  b) axon
+  c) nucleus
+  d) dendrite
+Key: b  Why: the axon has no Nissl granules; this distinguishes it from a dendrite.
 
-[Fundamental Principles of Organic Chemistry] 4-mark <gold>
-Q. a) Define the inductive effect and the resonance effect and give three points of difference between them. b) Using these effects, explain: (i) the order HCOOH > CH₃COOH > CH₃CH₂COOH in acid strength; (ii) why phenol is more acidic than ethanol; (iii) why aniline is a weaker base than ammonia.
-Model answer: (b) (i) The methyl group in CH₃COOH is +I and pushes electron density onto the carboxylate, destabilising the anion; the ethyl group in CH₃CH₂COOH is a still stronger +I group.
+[Genetics] MCQ <gold>
+Q. The enzyme that synthesises mRNA from a DNA template is
+  a) RNA polymerase
+  b) reverse transcriptase
+  c) DNA polymerase
+  d) ligase
+Key: a  Why: transcription uses RNA polymerase; reverse transcriptase makes DNA from RNA.
 
-##### chem12 (Chemistry - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.4853,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/21","duplicates":0,"bank_size":386,"bank_mcq":308,"bank_short":78,"seconds":52.7}
+[Plant Anatomy] MCQ <gold>
+Q. In a transverse section of a root the pith is large and there are eight xylem bundles. The root belongs to
+  a) a gymnosperm
+  b) a dicot
+  c) a secondary-thickened dicot
+  d) a monocot
+Key: d  Why: more than six xylem bundles (polyarch) and a large pith are monocot-root features. A dicot root has two to six arms and little or no pith.
 
-[Volumetric Analysis] MCQ <gold>
-Q. The equivalent weight of KMnO₄ in acidic medium is
-  a) 52.67
-  b) 79
-  c) 158
-  d) 31.6
-Key: d  Why: MnO₄⁻ gains 5 electrons, so $E = 158/5 = 31.6$.
+[Embryology] MCQ <gold>
+Q. Triple fusion in an angiosperm forms
+  a) the suspensor
+  b) a 3n primary endosperm nucleus
+  c) the zygote
+  d) the embryo
+Key: b  Why: one sperm nucleus + two polar nuclei = 3n. The zygote (a) comes from syngamy.
 
-[Chemical Kinetics] MCQ <gold>
-Q. The unit of the rate constant of a second-order reaction is
-  a) s⁻¹
-  b) L mol⁻¹ s⁻¹
-  c) mol L⁻¹ s⁻¹
-  d) L² mol⁻² s⁻¹
-Key: b  Why: the general unit is mol^(1−n) $L^{n-1}$ s⁻¹; putting n = 2 gives L mol⁻¹ s⁻¹.
+[Developmental Biology] MCQ <gold>
+Q. The cleavage of a frog egg is holoblastic and unequal because
+  a) the egg is microlecithal
+  b) the yolk is concentrated in the vegetal half and slows division there
+  c) the egg has no yolk
+  d) the egg is centrolecithal
+Key: b  Why: yolk slows the cleavage furrows, so vegetal cells are larger. Microlecithal (c) means little yolk.
 
-[Haloalkanes] MCQ <gold>
-Q. Which haloalkane is most reactive towards nucleophilic substitution?
-  a) CH₃CH₂I
-  b) CH₃CH₂Cl
-  c) CH₃CH₂Br
-  d) CH₃CH₂F
-Key: a  Why: the C–I bond is the weakest (234 kJ mol⁻¹), so iodide is the best leaving group.
+[Human Population and Health Disorders] MCQ <gold>
+Q. The malaria parasite Plasmodium is a
+  a) virus
+  b) fungus
+  c) protozoan
+  d) bacterium
+Key: c  Why: Plasmodium is a sporozoan protozoan.
 
-[Electrochemistry] MCQ <gold>
-Q. If $\Delta G^{\circ} = 0$ for a reaction at temperature $T$, then $K$ equals
-  a) $e$
-  b) infinity
-  c) 1
-  d) 0
-Key: c  Why: $\Delta G^{\circ} = -RT\ln K$, so $\ln K = 0$ and $K = 1$.
+[Applied Biology] 2-mark <teacher>
+Q. Calculate the number of saris produced from 30,000 caterpillars if 5000 caterpillars produce 6.0 kg of raw silk and each sari requires 0.5 kg of silk.
+Model answer: From 30,000 caterpillars, $\text{raw silk} = \frac{30\,000}{5000} = 6.0\ \text{kg}$. With each sari needing 0.5 kg, $\text{saris} = \frac{6.0}{0.5} = 12$. Thus, 12 saris are produced.
 
-[Alcohols] MCQ <gold>
-Q. In the nitrous acid test a secondary nitroalkane gives a
-  a) red colour
-  b) yellow colour
-  c) no colour
-  d) blue colour
-Key: d  Why: the pseudonitrole gives a blue colour; the primary compound gives the red nitrolic acid salt and the tertiary compound, having no α-hydrogen, gives nothing.
+[Applied Biology] 4-mark <gold>
+Q. a) cholera and b) dengue.
+Model answer: (a) Cholera — Vibrio cholerae serogroup O1 or O139; faecal–oral through contaminated water; painless rice-water stools and rapid dehydration with cramps; prevented by chlorinated safe water (and treated with ORS).(b) Dengue — dengue virus, serotypes 1–4; bite of the day-biting Aedes aegypti or Ae. albopictus; high fever with retro-orbital pain, severe body and joint ache, rash and low platelet count; prevented by destroying clean-water breeding sites around the house.
 
-[Aldehydes and Ketones] 4-mark <gold>
-Q. a) Explain the structure and polar nature of the carbonyl group and give the general mechanism of nucleophilic addition. b) Arrange HCHO, CH₃CHO, CH₃COCH₃ and C₆H₅CHO in order of decreasing reactivity towards nucleophilic addition and justify the order.
-Model answer: (b) HCHO > CH₃CHO > CH₃COCH₃ > C₆H₅CHO. HCHO has no electron-releasing alkyl group, so its carbonyl carbon carries the largest δ+ and is the least hindered.
+[Animal Tissues] 3-mark <teacher>
+Q. Calculate the number of sarcomeres in a muscle fiber that is 24,000 μm long if each sarcomere is 2.4 μm. Then determine the new length if each sarcomere extends to 1.8 μm.
+Model answer: Using $n = \frac{24\,000\ \mu\text{m}}{2.4\ \mu\text{m}} = 10\,000\ \text{sarcomeres}$, the initial count is 10,000. The new length is $10\,000 \times 1.8\ \mu\text{m} = 18\,000\ \mu\text{m} = 1.8\ \text{cm}$.
 
-[Studies of Heavy Metals] 5-mark <gold>
-Q. a) Describe the manufacture of steel by the Basic Oxygen Process, with the equations for the removal of carbon, silicon and phosphorus, and state the function of the lime. b) Compare the Basic Oxygen Process with the Open Hearth Process under three headings.
-Model answer: (b) Oxidant: pure O₂ blown in, versus haematite added to the charge. Time: 20–40 minutes, versus 8–10 hours. Control: limited, versus excellent — the open hearth can be sampled and corrected, so it is preferred for alloy and tool steels.
+##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6584,"slots":15,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"15/26","duplicates":0,"bank_size":581,"bank_mcq":482,"bank_short":99,"seconds":77.3}
 
-##### phy12 (Physics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6774,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/25","duplicates":0,"bank_size":639,"bank_mcq":456,"bank_short":183,"seconds":48.7}
+[Reflection at curved mirror] MCQ <gold>
+Q. An object is placed $15\ \text{cm}$ from a concave mirror of focal length $10\ \text{cm}$. The image distance is
+  a) $6\ \text{cm}$ behind
+  b) $30\ \text{cm}$ in front
+  c) $6\ \text{cm}$ in front
+  d) $30\ \text{cm}$ behind
+Key: b  Why: with $u = -15\ \text{cm}$, $f = -10\ \text{cm}$: $1/v = 1/f - 1/u = -1/10 + 1/15 = -1/30$, so $v = -30\ \text{cm}$, i.e. $30\ \text{cm}$ in front of the mirror and real.
 
-[Rotational dynamics] MCQ <teacher>
-Q. A uniform rod of length $L$ and mass $M$ is pivoted at its center. What is the moment of inertia of the rod about this pivot?
-  a) $\frac{ML^2}{6}$
-  b) $\frac{ML^2}{3}$
-  c) $ML^2$
-  d) $\frac{ML^2}{12}$
-Key: d  Why: The moment of inertia of a uniform rod about its center is given by $\frac{ML^2}{12}$.
+[Rate of heat flow] MCQ <gold>
+Q. The wavelength of maximum emission from a black body at 2000 K is about 1450 nm. At 4000 K it will be about
+  a) 1450 nm
+  b) 725 nm
+  c) 5800 nm
+  d) 2900 nm
+Key: b  Why: $\lambda_m \propto 1/T$, so doubling $T$ halves $\lambda_m$.
 
-[Fluid statics] MCQ <teacher>
-Q. What is the formula representing surface tension $T$?
-  a) $T = Fl$
-  b) $T = \frac{F}{l}$
-  c) $T = F + l$
-  d) $T = F - l$
-Key: b  Why: The formula for surface tension is given as the force per unit length on an imaginary line drawn on the surface of a liquid.
+[Vectors] MCQ <gold>
+Q. Forces of $3\ \text{N}$ and $4\ \text{N}$ act at right angles. The resultant is
+  a) $12\ \text{N}$
+  b) $1\ \text{N}$
+  c) $7\ \text{N}$
+  d) $5\ \text{N}$
+Key: d  Why: $\sqrt{3^2+4^2}=5$. Option (c) adds the magnitudes, the commonest vector error of all.
 
-[Electrical circuits] MCQ <gold>
-Q. Below its critical temperature a superconductor
-  a) expels magnetic flux from its interior
-  b) becomes an insulator
-  c) traps all the flux inside it
-  d) has infinite resistance
-Key: a  Why: the Meissner effect; that, plus $\rho = 0$, defines superconductivity.
+[Circular Motion] MCQ <gold>
+Q. The period of a conical pendulum of vertical depth $h$ is
+  a) $2\pi\sqrt{L\cos\theta/h}$
+  b) $2\pi\sqrt{g/h}$
+  c) $2\pi\sqrt{h/g}$
+  d) $2\pi\sqrt{L/g}$
+Key: c  Why: $T_p = 2\pi\sqrt{L\cos\theta/g}$, and $L\cos\theta$ is exactly the depth $h$ below the support.
 
-[Mechanical waves] MCQ <gold>
-Q. The speed of sound in water of bulk modulus $2.1\times10^{9}\ \text{Pa}$ and density $1000\ \text{kg m}^{-3}$ is about
-  a) $4600\ \text{m s}^{-1}$
-  b) $45800\ \text{m s}^{-1}$
-  c) $1450\ \text{m s}^{-1}$
-  d) $340\ \text{m s}^{-1}$
-Key: c  Why: $\sqrt{2.1\times10^{9}/1000} = \sqrt{2.1\times10^{6}} = 1449\ \text{m s}^{-1}$.
+[Dispersion] MCQ <gold>
+Q. Spherical aberration of a lens can be reduced by
+  a) increasing the aperture
+  b) cementing a flint lens to it
+  c) using monochromatic light
+  d) placing a stop to cut off marginal rays
+Key: d  Why: a stop blocks the marginal rays that focus too near the lens. (Option (d) cures chromatic, not spherical, aberration.)
 
-[Thermoelectric effects] MCQ <teacher>
-Q. For a thermocouple with its cold junction at $0\,^{\circ}\text{C}$, which formula represents the thermo-e.m.f. $E$ in microvolts as a function of temperature $\theta$?
-  a) $E = 50\theta - 0.01\theta^{2}$
-  b) $E = 10\theta + 0.1\theta^{2}$
-  c) $E = 25\theta - 0.05\theta^{2}$
-  d) $E = 25 + 0.05\theta$
-Key: c  Why: The formula $E = 25\theta - 0.05\theta^{2}$ is explicitly stated for the thermo-e.m.f. as a function of temperature in the given context.
+[Dynamics] MCQ <teacher>
+Q. Two masses, $6\ \text{kg}$ and $4\ \text{kg}$, are hanging from the ends of a light string that passes over a smooth pulley. What can be said about the tension in the string?
+  a) The tension varies along the length of the string.
+  b) The tension is higher on the side with the $6\ \text{kg}$ mass.
+  c) The tension is higher on the side with the $4\ \text{kg}$ mass.
+  d) The tension in the string is the same on both sides.
+Key: d  Why: In an ideal scenario with a smooth pulley and a light string, the tension is uniform throughout the string.
 
-[Magnetic field] 3-mark <teacher>
-Q. Explain the formula for torque on a coil in a magnetic field and define the ampere based on the elementary charge.
-Model answer: The torque $\tau = NBIA\sin\theta = NBIA\cos\alpha$ acts on a coil with $N$ turns, current $I$, area $A$, and angle $\theta$. The ampere is defined by fixing $e = 1.602176634\times10^{-19}\ \text{C}$, where $1\ \text{A}$ corresponds to $1/e$ elementary charges per second.
+[Electric field] MCQ <gold>
+Q. The SI unit of electric field intensity is
+  a) C N⁻¹
+  b) N C
+  c) N m² C⁻¹
+  d) N C⁻¹
+Key: d  Why: $E = F/q$, so newton per coulomb.
 
-[Polarization] 3-mark <teacher>
-Q. Explain the relationship between the polarizing angle ($\theta_p$) and the refractive index (n) when light travels from a rarer to a denser medium, and state which beam becomes polarized.
-Model answer: The polarizing angle $\theta_p$ is related to the refractive index n by $\theta_p = \tan^{-1}n$. This relationship holds when light moves from a rarer to a denser medium. The reflected beam becomes completely polarized at this angle, known as the Brewster angle.
+[Elasticity] MCQ <gold>
+Q. Breaking stress of a wire depends on
+  a) both its length and its area
+  b) its area of cross-section only
+  c) its length only
+  d) the material only
+Key: d  Why: breaking stress is a material property; breaking force is what depends on the area.
 
-##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.1341,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/10","duplicates":0,"bank_size":499,"bank_mcq":416,"bank_short":83,"seconds":22.6}
+[Physical Quantities] MCQ <gold>
+Q. A vernier callipers has 10 vernier divisions matching 9 main-scale divisions of 1 mm each. Its least count is
+  a) 0.5 mm
+  b) 0.1 mm
+  c) 1 mm
+  d) 0.01 mm
+Key: b  Why: L.C. $= 1 - 0.9 = 0.1$ mm, i.e. 1 mm ÷ 10.
 
-[Biomolecules and Cell Biology] MCQ <gold>
-Q. The most abundant organic compound found in nature is
-  a) chitin
-  b) protein
-  c) cellulose
-  d) starch
-Key: c  Why: cellulose is the wall material of every plant cell on Earth; starch is only a store.
+[Quantity of Heat] MCQ <gold>
+Q. The triple point of water occurs at
+  a) 373.15 K and 1 atm
+  b) 273.16 K and 1 atm
+  c) 273.15 K and 1 atm
+  d) 273.16 K and 611 Pa
+Key: d  Why: 0.01 °C and 611.66 Pa.
 
-[Floral Diversity] MCQ <gold>
-Q. The pigment that gives brown algae their colour is
-  a) phycoerythrin
-  b) phycocyanin
-  c) fucoxanthin
-  d) chlorophyll b
-Key: c  Why: fucoxanthin, a xanthophyll; phycoerythrin is the red-algal pigment.
+[Refraction at plane surfaces] MCQ <gold>
+Q. When a ray of light passes from glass into air it
+  a) is always totally reflected
+  b) is not deviated
+  c) bends towards the normal
+  d) bends away from the normal
+Key: d  Why: denser to rarer, so $r > i$.
 
-[Faunal Diversity] MCQ <teacher>
-Q. Why is the definitive host significant in the life cycle of parasites like mosquitoes?
-  a) It is where the feeding process is completed.
-  b) It is where the asexual reproduction takes place.
-  c) It is where the sexual cycle occurs.
-  d) It is where the larval stage develops.
-Key: c  Why: The definitive host is defined as the location where the sexual cycle of parasites such as mosquitoes occurs.
+[Capacitor] MCQ <gold>
+Q. The capacitance of a parallel-plate capacitor is
+  a) $A/\varepsilon_0 d$
+  b) $\varepsilon_0 d/A$
+  c) $\varepsilon_0 A/d$
+  d) $\varepsilon_0 A d$
+Key: c  Why: bigger plates and a smaller gap both raise $C$.
+
+[DC Circuits] 3-mark <teacher>
+Q. Describe the behavior of free electrons in a conductor without a battery and calculate the maximum current in a circuit with zero resistance, using the given values.
+Model answer: Free electrons move randomly at $10^5\ \text{m s}^{-1}$, colliding with ions every $\tau \approx 10^{-14}\ \text{s}$. In a short circuit ($R=0$), the current is $I_{max} = \frac{E}{r}$, where $E$ is the electromotive force and $r$ is the internal resistance.
+
+[Nuclear physics] 3-mark <teacher>
+Q. In an experiment involving alpha-particles in an evacuated chamber, what is the total mass before the reaction, and why was the chamber evacuated? Use the masses provided: $2.014102\ \text{u}$ and $3.016049\ \text{u}$.
+Model answer: The total mass before the reaction is $5.030151\ \text{u}$. The chamber was evacuated to prevent air from stopping the $\alpha$-particles, ensuring they could travel freely without interference.
+
+[Ideal gas] 3-mark <teacher>
+Q. Derive the formula for the momentum change per impact when a molecule of mass m rebounds elastically from one face of a cubic container of side l, using Newton's third law.
+Model answer: 1. The initial momentum towards the wall is mu. 2. After rebounding, the molecule moves away with momentum -mu. 3. Thus, momentum change per impact = final momentum - initial momentum = -mu - mu = $2mu$, as per Newton's third law.
+
+##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.1341,"slots":15,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"10/10","duplicates":0,"bank_size":496,"bank_mcq":414,"bank_short":82,"seconds":46.4}
+
+[Introduction to Biology] MCQ <gold>
+Q. The cell theory was proposed by
+  a) Rudolf Virchow
+  b) Robert Hooke
+  c) Schleiden and Schwann
+  d) Leeuwenhoek
+Key: c  Why: 1838–39; Hooke only saw and named cells, Virchow added the third postulate.
 
 [Ecology] MCQ <gold>
-Q. Which nitrogen base is present in RNA but not in DNA?
-  a) thymine
-  b) adenine
-  c) uracil
-  d) guanine
-Key: c  Why: uracil replaces thymine in RNA; the two differ only by a methyl group.
+Q. Gross primary productivity minus respiration of the producers equals
+  a) net primary productivity
+  b) biomass
+  c) secondary productivity
+  d) standing crop
+Key: a  Why: NPP = GPP − R; only NPP is available to the next level.
 
-[Biota and Environment] MCQ <teacher>
-Q. According to Allen's rule, what adaptation do animals typically exhibit in colder regions?
-  a) Thinner fur
-  b) Shorter extremities
-  c) Longer tails
-  d) Larger ears
-Key: b  Why: Allen's rule states that extremities tend to be shorter in colder regions to reduce surface area for heat loss.
+[Biomolecules and Cell Biology] MCQ <gold>
+Q. The cell wall of a typical fungus is made of
+  a) peptidoglycan
+  b) chitin
+  c) cellulose
+  d) pectin
+Key: b  Why: chitin, a nitrogen-containing polysaccharide, again shared with animals (insect cuticle).
+
+[Floral Diversity] MCQ <gold>
+Q. Air pollution caused by sulphur dioxide and nitrogen oxides leads chiefly to
+  a) eutrophication
+  b) soil salinity
+  c) acid rain
+  d) ozone formation at the poles
+Key: c  Why: SO₂ and NOₓ dissolve to give sulphuric and nitric acid, taking the rain below pH 5.6.
+
+[Evolutionary Biology] MCQ <gold>
+Q. The nictitating membrane of the frog serves to
+  a) balance
+  b) hear under water
+  c) taste
+  d) keep the eye moist and protect it under water while allowing sight
+Key: d  Why: a transparent fold that draws over the cornea under water; in humans it survives only as the vestigial plica semilunaris.
+
+[Floral Diversity] MCQ <teacher>
+Q. Which of the following terms refers to the evolutionary step towards the seed as seen in plants like Selaginella, Marsilea, and Salvinia?
+  a) Heterospory
+  b) Sporangia
+  c) Homospory
+  d) Gametophyte
+Key: a  Why: Heterospory is explicitly mentioned as the evolutionary step towards the seed in certain plants.
+
+[Faunal Diversity] MCQ <gold>
+Q. Jointed appendages and a chitinous exoskeleton belong to
+  a) Nematoda
+  b) Echinodermata
+  c) Arthropoda
+  d) Annelida
+Key: c  Why: jointed appendages (arthros = joint, podos = foot) and moulting of the chitinous cuticle.
+
+[Floral Diversity] MCQ <gold>
+Q. The male sex organ of a bryophyte is the
+  a) anther
+  b) antheridium
+  c) oogonium
+  d) archegonium
+Key: b  Why: antheridium produces antherozoids; archegonium is female. An anther belongs to a flowering plant.
+
+[Biomolecules and Cell Biology] MCQ <teacher>
+Q. In which cellular structure would you expect to observe significant activity related to rRNA synthesis and ribosome assembly in a cell that produces high levels of protein?
+  a) nucleolus
+  b) mitochondria
+  c) nucleus
+  d) endoplasmic reticulum
+Key: a  Why: The nucleolus is the site of rRNA synthesis and ribosome assembly, especially in cells that produce a lot of protein.
+
+[Introductory Microbiology] MCQ <gold>
+Q. The protein coat of a virus is called the
+  a) capsomere
+  b) capsid
+  c) capsule
+  d) envelope
+Key: b  Why: the capsid is built of repeating protein subunits called capsomeres.
+
+[Evolutionary Biology] MCQ <teacher>
+Q. Who proposed the concept of natural selection as a foundation of evolutionary biology?
+  a) Darwin
+  b) Watson
+  c) Mendel
+  d) Lamarck
+Key: a  Why: Darwin's natural selection, combined with modern genetics, is the foundation of evolutionary biology.
+
+[Faunal Diversity] MCQ <gold>
+Q. Paramecium is unusual among protozoans in having
+  a) two kinds of nuclei, a macronucleus and a micronucleus
+  b) chloroplasts
+  c) a cell wall
+  d) no nucleus
+Key: a  Why: nuclear dimorphism: a large kidney-shaped macronucleus and one or more micronuclei.
+
+[Biota and Environment] 2-mark <teacher>
+Q. State Bergmann's rule and provide a Himalayan example to illustrate it.
+Model answer: Bergmann's rule states that within a species, individuals from colder climates tend to be larger than those from warmer climates to minimize heat loss. A Himalayan example is the larger body size of the Tibetan Mastiff compared to other dog breeds.
 
 [Conservation Biology] 3-mark <teacher>
 Q. Describe the taxonomic hierarchy using a suitable example.
 Model answer: Taxonomic hierarchy arranges categories from broad to specific: Kingdom, Phylum, Class, Order, Family, Genus, Species. Example: Humans are classified as Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Primates, Family Hominidae, Genus Homo, Species H. sapiens.
 
-[Evolutionary Biology] 3-mark <teacher>
-Q. Given the allele frequencies of $p(M) = 0.7$ and $q(N) = 0.3$ in a population, calculate the expected genotype frequencies using Hardy-Weinberg equilibrium and verify if the population is in equilibrium.
-Model answer: Expected frequencies: $MM = p^2N = 0.49 \times 2000 = 490$, $MN = 2pqN = 2 \times 0.7 \times 0.3 \times 2000 = 420$, $NN = q^2N = 0.09 \times 2000 = 90$. Observed matches expected, confirming equilibrium.
+[Vegetation] 3-mark <teacher>
+Q. Explain why in-situ conservation is considered a stronger method compared to other methods.
+Model answer: 1. In-situ conservation preserves entire communities, not just individual species. 2. Species continue to evolve under natural conditions they are adapted to. 3. This method maintains ecological interactions and genetic diversity.
+
+##### phy12 (Physics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6774,"slots":15,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"15/25","duplicates":0,"bank_size":625,"bank_mcq":452,"bank_short":173,"seconds":71.5}
+
+[Diffraction] MCQ <gold>
+Q. Secondary wavelets in Huygens' construction travel with
+  a) infinite speed
+  b) the speed of light in that medium
+  c) the speed of the source
+  d) half the wave speed
+Key: b  Why: each wavelet expands at the wave speed $v = c/n$ of that medium.
+
+[Nature and propagation of light] MCQ <gold>
+Q. The optical path of a ray covering $4\ \text{cm}$ in a medium of index $1.5$ is
+  a) 4 cm
+  b) 6 cm
+  c) 9 cm
+  d) 2.67 cm
+Key: b  Why: optical path $= nx = 1.5\times4 = 6\ \text{cm}$.
+
+[Fluid statics] MCQ <gold>
+Q. Water flows at $2\ \text{m s}^{-1}$ through a pipe of cross-section $200\ \text{cm}^{2}$ into a section of $50\ \text{cm}^{2}$. The speed in the narrow section is
+  a) $0.5\ \text{m s}^{-1}$
+  b) $4\ \text{m s}^{-1}$
+  c) $2\ \text{m s}^{-1}$
+  d) $8\ \text{m s}^{-1}$
+Key: d  Why: $A_1v_1 = A_2v_2$ gives $v_2 = 200\times2/50 = 8\ \text{m s}^{-1}$. Option (a) divides the wrong way.
+
+[Second Law of Thermodynamics] MCQ <gold>
+Q. A heat engine takes $500\ \text{J}$ from the source and rejects $400\ \text{J}$ to the sink. Its efficiency is
+  a) $20\%$
+  b) $10\%$
+  c) $25\%$
+  d) $80\%$
+Key: a  Why: $\eta = 1 - 400/500 = 20\%$; option (a) is $Q_2/Q_1$.
+
+[Electrical circuits] MCQ <gold>
+Q. A potentiometer is called a voltmeter of infinite resistance because
+  a) it reads the terminal voltage of the driver
+  b) its wire has infinite resistance
+  c) it has a high-resistance galvanometer
+  d) at balance it draws no current from the cell being measured
+Key: d  Why: at the null point no current flows through the cell under test, so its terminal p.d. equals its e.m.f.
+
+[First Law of Thermodynamics] MCQ <gold>
+Q. A gas expands from the same initial state through the same volume change by four different processes. The work done by the gas is greatest in the
+  a) isothermal process
+  b) isochoric process
+  c) isobaric process
+  d) adiabatic process
+Key: c  Why: between the same two volumes the isobaric path lies highest on the $p$–$V$ diagram, the isochoric path has zero area. (The item is about expansion from the same state; with different end-points the ranking can change.)
+
+[Thermoelectric effects] MCQ <teacher>
+Q. For a thermocouple with its cold junction at $0\,^{\circ}\text{C}$, which equation correctly represents the thermo-e.m.f. $E$ in microvolts as a function of temperature $\theta$?
+  a) $E = 25\theta + 0.05\theta^{2}$
+  b) $E = 50\theta - 0.1\theta^{2}$
+  c) $E = 25\theta - 0.05\theta^{2}$
+  d) $E = 10\theta - 0.05\theta^{2}$
+Key: c  Why: The given equation directly matches the expression provided for the thermo-e.m.f. in the context of the thermocouple's cold junction at $0\,^{\circ}\text{C}$.
+
+[Mechanical waves] MCQ <gold>
+Q. The speed of a longitudinal wave in steel ($Y = 2\times10^{11}\ \text{N m}^{-2}$, $\rho = 8000\ \text{kg m}^{-3}$) is
+  a) $1580\ \text{m s}^{-1}$
+  b) $25000\ \text{m s}^{-1}$
+  c) $500\ \text{m s}^{-1}$
+  d) $5000\ \text{m s}^{-1}$
+Key: d  Why: $\sqrt{2\times10^{11}/8000} = \sqrt{2.5\times10^{7}} = 5000$.
+
+[Rotational dynamics] MCQ <gold>
+Q. A skater spinning with arms outstretched pulls her arms in. Her angular velocity increases because
+  a) her angular momentum increases
+  b) a torque acts on her
+  c) her moment of inertia decreases while angular momentum is conserved
+  d) her kinetic energy is conserved
+Key: c  Why: no external torque, so $L = I\omega$ is fixed; smaller $I$ forces larger $\omega$. Kinetic energy is not conserved (option c): she does work pulling her arms in, so $K$ rises.
+
+[Acoustic phenomena] MCQ <gold>
+Q. A sound has an intensity of $10^{-6}\ \text{W m}^{-2}$. Its intensity level is
+  a) $120\ \text{dB}$
+  b) $6\ \text{dB}$
+  c) $600\ \text{dB}$
+  d) $60\ \text{dB}$
+Key: d  Why: $10\log_{10}(10^{-6}/10^{-12}) = 10\times6 = 60\ \text{dB}$. Option (a) forgets the factor of $10$ in the decibel definition.
+
+[Polarization] MCQ <gold>
+Q. Brewster's law is stated as
+  a) $n = \sin\theta_p$
+  b) $n = \tan\theta_p$
+  c) $n = \cos\theta_p$
+  d) $n = \cot\theta_p$
+Key: b  Why: $n = \tan\theta_p$.
+
+[Magnetic field] MCQ <teacher>
+Q. In the context of magnetic fields, what shape is chosen with radius $r$ centered on the wire in the plane perpendicular to it?
+  a) triangle
+  b) ellipse
+  c) circle
+  d) square
+Key: c  Why: A circle is explicitly mentioned as the shape chosen around the wire.
+
+[Electromagnetic Induction] 4-mark <gold>
+Q. a) State Lenz's law and describe an experiment to verify it. Show that it follows from the principle of conservation of energy. b) Describe the construction of an a.c. generator and derive an expression for the instantaneous e.m.f. it produces.
+Model answer: Outline.(a) State the law; use the magnet-and-coil experiment of §18.2 — pushing the N-pole in makes the near face a north pole (repulsion), withdrawing it makes that face a south pole (attraction). Energy argument: an aiding current would accelerate the magnet and heat the coil, creating energy from nothing.(b) Armature, field magnet, slip rings, brushes; $\Phi = BA\cos\omega t$ gives $e = NBA\omega\sin\omega t$, peak $e_0 = NBA\omega$.
+
+[Radioactivity and nuclear reaction] 3-mark <gold>
+Q. A radioactive sample falls to $1/16$ of its initial activity in $80$ minutes. Find the half-life and the decay constant. [3]
+Model answer: Activity is proportional to $N$, so the sample falls to $1/16$ of its number.
+
+[Interference] 3-mark <gold>
+Q. Two waves of equal intensity $I$ superpose; find the resultant intensity for constructive and destructive interference. [3]
+Model answer: Two waves of amplitude $a$ superpose with phase difference $\phi$: the resultant amplitude is $R = 2a\cos(\phi/2)$, so $I\propto R^{2} = 4a^{2}\cos^{2}(\phi/2)$, i.e. $I_R = 4I\cos^{2}(\phi/2)$.
+
+##### chem11 (Chemistry - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.941,"slots":15,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"15/17","duplicates":0,"bank_size":219,"bank_mcq":197,"bank_short":22,"seconds":68.2}
+
+[Chemistry of Metals] MCQ <gold>
+Q. The formula of plaster of Paris is
+  a) $\text{CaCO}_3$
+  b) $\text{CaSO}_4\cdot2\text{H}_2\text{O}$
+  c) $\text{CaSO}_4\cdot\tfrac{1}{2}\text{H}_2\text{O}$
+  d) $\text{CaSO}_4$
+Key: c  Why: gypsum (a) loses three-quarters of its water on heating to $120^{\circ}\text{C}$.
+
+[States of Matter] MCQ <gold>
+Q. A gas occupies $2\ \text{L}$ at $1\ \text{atm}$. At constant temperature and $4\ \text{atm}$ it occupies
+  a) $8\ \text{L}$
+  b) $1\ \text{L}$
+  c) $0.25\ \text{L}$
+  d) $0.5\ \text{L}$
+Key: d  Why: $P_1V_1 = P_2V_2$ gives $V_2 = 2\times1/4 = 0.5\ \text{L}$.
+
+[Stoichiometry] MCQ <gold>
+Q. The charge needed to deposit one mole of copper from $\text{Cu}^{2+}$ is
+  a) $193\,000\ \text{C}$
+  b) $144\,750\ \text{C}$
+  c) $96\,500\ \text{C}$
+  d) $289\,500\ \text{C}$
+Key: a  Why: $\text{Cu}^{2+} + 2e^{-} \to \text{Cu}$ needs $2\times96\,500$.
+
+[Classification of elements and Periodic Table] MCQ <gold>
+Q. An element of atomic number 17 belongs to
+  a) $p$-block, group 7
+  b) $s$-block, group 1
+  c) $d$-block, group 7
+  d) $p$-block, group 17
+Key: d  Why: Cl, $[\text{Ne}]3s^{2}3p^{5}$, is group 17 of the $p$-block (IUPAC numbering); (d) uses the old numbering.
+
+[Fundamental Principles of Organic Chemistry] MCQ <gold>
+Q. Which of the following is an electrophile?
+  a) $\text{NH}_3$
+  b) $\text{BF}_3$
+  c) $\text{OH}^{-}$
+  d) $\text{H}_2\text{O}$
+Key: b  Why: $\text{BF}_3$ is electron-deficient; the others have lone pairs.
+
+[Atomic Structure] MCQ <gold>
+Q. The electronic configuration of Cr ($Z = 24$) is
+  a) [Ar]3d⁶
+  b) [Ar]3d³4s²
+  c) [Ar]3d⁴4s²
+  d) [Ar]3d⁵4s¹
+Key: d  Why: a half-filled 3d⁵ with 4s¹ is more stable than 3d⁴4s².
+
+[Hydrocarbons] MCQ <gold>
+Q. Ethyne gives with ammoniacal $\text{AgNO}_3$
+  a) a white precipitate
+  b) no reaction
+  c) a red precipitate
+  d) a yellow precipitate
+Key: a  Why: silver acetylide, white.
+
+[Chemical Bonding and Shapes of Molecules] MCQ <gold>
+Q. Ethanol and dimethyl ether are
+  a) metamers
+  b) functional isomers
+  c) position isomers
+  d) chain isomers
+Key: b  Why: $\text{C}_2\text{H}_6\text{O}$ with $-\text{OH}$ against $-\text{O}-$.
+
+[Foundation and Fundamentals] MCQ <gold>
+Q. The number of atoms in $0.1$ mol of $\text{CH}_4$ is
+  a) $6.0\times10^{22}$
+  b) $6.0\times10^{23}$
+  c) $3.0\times10^{23}$
+  d) $3.0\times10^{22}$
+Key: c  Why: each $\text{CH}_4$ has 5 atoms: $0.1\times5\times6.022\times10^{23} = 3.0\times10^{23}$.
+
+[Oxidation and Reduction] MCQ <gold>
+Q. The average oxidation number of sulphur in $\text{Na}_2\text{S}_2\text{O}_3$ is
+  a) $+2$
+  b) 0
+  c) $+4$
+  d) $+6$
+Key: a  Why: $2(+1) + 2x + 3(-2) = 0$ gives $x = +2$ on average.
+
+[Bio-inorganic Chemistry] MCQ <gold>
+Q. If $Q > K_c$ for a reacting mixture, the reaction will
+  a) go forward
+  b) go backward
+  c) stop completely
+  d) already be at equilibrium
+Key: b  Why: there is too much product, so the reverse reaction dominates until $Q$ falls to $K_c$.
+
+[Aromatic Hydrocarbons] MCQ <gold>
+Q. Hückel's rule for aromaticity is
+  a) $2n$ $\pi$ electrons
+  b) $n^{2}$ $\pi$ electrons
+  c) $4n$ $\pi$ electrons
+  d) $(4n+2)$ $\pi$ electrons
+Key: d  Why: benzene has $n = 1$.
+
+[Fundamentals of Applied Chemistry] 5-mark <gold>
+Q. a) the break-even output in tonnes and b) the profit at an output of 8,000 tonnes per year.
+Model answer: Contribution $= 40 - 28 =$ Rs 12 per kg.(a) $n_{\text{BE}} = 60\times10^{6}/12 = 5.0\times10^{6}$ kg $= 5000$ tonnes per year.(b) $P = 8.0\times10^{6}(12) - 60\times10^{6} = 96\times10^{6} - 60\times10^{6} =$ Rs 36 million per year.
+
+[Modern Chemical Manufactures] 5-mark <gold>
+Q. a) HCl, b) excess $\text{Cl}_2$, c) $\text{CuSO}_4$ solution.
+Model answer: (a) $\text{NH}_3 + \text{HCl} \to \text{NH}_4\text{Cl}$ (white fumes).(b) $\text{NH}_3 + 3\text{Cl}_2 \to \text{NCl}_3 + 3\text{HCl}$ (excess chlorine); with excess ammonia, $8\text{NH}_3 + 3\text{Cl}_2 \to \text{N}_2 + 6\text{NH}_4\text{Cl}$.(c) $\text{CuSO}_4 + 4\text{NH}_3 \to [\text{Cu(NH}_3)_4]\text{SO}_4$ (deep blue; a pale blue precipitate of $\text{Cu(OH)}_2$ first).
+
+[Chemistry of Non-metals] 5-mark <gold>
+Q. a) dilute and b) concentrated nitric acid, and state the role of the acid.
+Model answer: (a) Dilute: $3\text{Cu} + 8\text{HNO}_3 \to 3\text{Cu(NO}_3)_2 + 2\text{NO}\uparrow + 4\text{H}_2\text{O}$.(b) Concentrated: $\text{Cu} + 4\text{HNO}_3 \to \text{Cu(NO}_3)_2 + 2\text{NO}_2\uparrow + 2\text{H}_2\text{O}$ (brown fumes). Nitric acid acts as an oxidizing agent: the nitrogen is reduced from $+5$ to $+2$ (dilute) or $+4$ (concentrated), while copper is oxidized from $0$ to $+2$.
+
+##### chem12 (Chemistry - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.4853,"slots":15,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":15,"empty":0,"units_covered":"15/21","duplicates":0,"bank_size":372,"bank_mcq":304,"bank_short":68,"seconds":85.5}
+
+[Alcohols] MCQ <gold>
+Q. Which alcohol gives a blue colour in Victor Meyer's test?
+  a) ethanol
+  b) 2-methylpropan-2-ol
+  c) methanol
+  d) propan-2-ol
+Key: d  Why: propan-2-ol is 2°; its nitroalkane has one α-H and gives the blue pseudonitrole.
+
+[Haloalkanes] MCQ <gold>
+Q. Which haloalkane is most reactive towards nucleophilic substitution?
+  a) CH₃CH₂F
+  b) CH₃CH₂Br
+  c) CH₃CH₂Cl
+  d) CH₃CH₂I
+Key: d  Why: the C–I bond is the weakest (234 kJ mol⁻¹), so iodide is the best leaving group.
+
+[Ionic Equilibrium] MCQ <gold>
+Q. The aqueous solution of sodium ethanoate is
+  a) acidic
+  b) neutral
+  c) alkaline
+  d) amphoteric
+Key: c  Why: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻; the salt of a weak acid and a strong base hydrolyses to an alkaline solution.
+
+[Electrochemistry] MCQ <gold>
+Q. Ethanenitrile on complete hydrolysis gives
+  a) ethanamide only
+  b) ethanol
+  c) ethanoic acid
+  d) ethylamine
+Key: c  Why: the nitrile passes through the amide and then the acid, with ammonia released.
+
+[Aldehydes and Ketones] MCQ <gold>
+Q. Which compound does not reduce Fehling's solution?
+  a) propanal
+  b) methanal
+  c) ethanal
+  d) benzaldehyde
+Key: d  Why: aromatic aldehydes do not reduce Fehling's solution, although they do give a silver mirror with Tollens'. This exception is examined almost every year.
+
+[Chemical Kinetics] MCQ <gold>
+Q. The action of sucrase on sucrose is an example of
+  a) homogeneous catalysis
+  b) autocatalysis
+  c) heterogeneous catalysis
+  d) enzyme catalysis
+Key: d  Why: sucrase is an enzyme, a biological catalyst; the substrate must fit its active site.
+
+[Carboxylic Acid and its Derivatives] MCQ <gold>
+Q. Referring to the figure above, which pair gives a yellow precipitate with I₂ and NaOH?
+  a) all four
+  b) propanal and propan-1-ol
+  c) propanone and propan-2-ol
+  d) propanal and propan-2-ol
+Key: c  Why: the test needs CH₃CO– or CH₃CH(OH)–; propanal (CH₃CH₂CHO) and propan-1-ol have the methyl one carbon too far from the functional group.
+
+[Transition Metals] MCQ <gold>
+Q. Zinc is not regarded as a transition element because
+  a) it is not a metal
+  b) it is soft
+  c) it forms no compounds
+  d) it has a completely filled d subshell in the atom and in Zn²⁺
+Key: d  Why: a transition element must have an incompletely filled d subshell in the atom or in a stable ion; zinc has neither.
+
+[Volumetric Analysis] MCQ <gold>
+Q. Which of the following is a primary standard substance?
+  a) HCl
+  b) KMnO₄
+  c) NaOH
+  d) oxalic acid crystals
+Key: d  Why: oxalic acid crystals are pure, stable and of exactly known formula. NaOH absorbs CO₂ and water, HCl is volatile, and KMnO₄ is reduced by traces of organic matter, so all three are secondary standards.
+
+[Studies of Heavy Metals] MCQ <gold>
+Q. In the bessemerisation of copper matte, copper is finally obtained by
+  a) auto-reduction
+  b) electrolysis
+  c) reduction with carbon monoxide
+  d) reduction with coke
+Key: a  Why: 2Cu₂O + Cu₂S → 6Cu + SO₂; the ore reduces itself.
+
+[Phenols] MCQ <gold>
+Q. Sodium phenoxide heated with CO₂ at 125 °C and 4–7 atm gives, after acidification,
+  a) benzoic acid
+  b) salicylic acid
+  c) salicylaldehyde
+  d) picric acid
+Key: b  Why: Kolbe–Schmitt reaction; CO₂ attacks the ortho position.
+
+[Amines] MCQ <gold>
+Q. Aniline is a weaker base than ammonia because
+  a) nitrogen is sp³ hybridised
+  b) it is aromatic
+  c) its lone pair is delocalised into the ring
+  d) it is a liquid
+Key: c  Why: delocalisation removes the lone pair from service, and the anilinium ion loses that resonance energy.
+
+[Cement] 4-mark <gold>
+Q. a) What are the setting and hardening reactions of cement? Write the equations for C₃S and C₂S. b) A cement contains 45 % C₃S, 30 % C₂S, 12 % C₃A and 8 % C₄AF. Taking heats of hydration of 500, 260, 865 and 420 J g⁻¹, calculate the heat evolved per kilogram, and say whether this cement is suitable for a thick dam wall.
+Model answer: (a) Setting and hardening are hydration reactions producing tobermorite (calcium silicate hydrate) gel and calcium hydroxide: 2Ca₃SiO₅ + 6H₂O → Ca₃Si₂O₇·3H₂O + 3Ca(OH)₂ (fast, early strength) and 2Ca₂SiO₄ + 4H₂O → Ca₃Si₂O₇·3H₂O + Ca(OH)₂ (slow, later strength). The interlocking gel needles bind the aggregate, so the concrete must be kept wet while curing.(b) q = 0.45(500) + 0.30(260) + 0.12(865) + 0.08(420) = 225 + 78 + 103.8 + 33.6 = 440.4 J g⁻¹, so 440 kJ per kg. This is higher than an ordinary cement (≈435 kJ kg⁻¹) because of its large C₃A content, so it is not suitable for a thick dam wall; a low-heat PPC should be used instead.
+
+[Paper and Pulp] 4-mark <gold>
+Q. a) What is meant by the grammage of paper? A reel of paper 1.2 m wide and 4000 m long weighs 336 kg. Find its grammage. b) Explain how bleaching is carried out in a modern mill and why elemental chlorine has been abandoned.
+Model answer: (a) Grammage is the mass of one square metre of the paper, in g m⁻². Area = 1.2 × 4000 = 4800 m²; mass = 336 kg = 336 000 g. Grammage = 336 000 / 4800 = 70 g m⁻².(b) Bleaching is done in stages: an oxygen stage removes about half the residual lignin cheaply, then chlorine dioxide (made on site by 2NaClO₃ + 4HCl → 2ClO₂↑ + Cl₂↑ + 2NaCl + 2H₂O) oxidises the rest, with alkaline extraction and hydrogen peroxide stages between. Elemental chlorine was abandoned because it chlorinates lignin to dioxins and other toxic, persistent organochlorines that pass into the river; ECF and TCF sequences avoid them.
+
+[Haloarenes] 5-mark <gold>
+Q. a) Give the chemical reaction for the preparation of phenol from chlorobenzene. [2] b) Why is phenol nitrated more easily than benzene? [2] c) How is phenol converted into phenolphthalein? [1] (NEB model set A)
+Model answer: (a) Dow's process: C₆H₅Cl + 2NaOH → (623 K, 300 atm) C₆H₅ONa + NaCl + H₂O; C₆H₅ONa + HCl → C₆H₅OH + NaCl.(b) The –OH group is a strong activating group: its lone pair is delocalised into the ring (+M effect), raising the electron density at the ortho and para positions. The ring therefore attacks the NO₂⁺ electrophile more readily, and phenol is nitrated by dilute HNO₃ at room temperature, whereas benzene needs a conc. HNO₃–H₂SO₄ mixture.(c) Two molecules of phenol condense with phthalic anhydride in conc. H₂SO₄: 2C₆H₅OH + C₆H₄(CO)₂O → (conc. H₂SO₄) phenolphthalein + H₂O.
