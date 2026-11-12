@@ -5,16 +5,16 @@
   "val_loss": 3.816,
   "slots": 15,
   "neural_accepted": 0,
-  "neural_attempts": 30,
+  "neural_attempts": 15,
   "neural_gate_rate": 0,
   "bank_fallback": 15,
   "empty": 0,
   "units_covered": "10/10",
   "duplicates": 0,
-  "bank_size": 482,
+  "bank_size": 481,
   "bank_mcq": 402,
-  "bank_short": 80,
-  "seconds": 41.3
+  "bank_short": 79,
+  "seconds": 21.1
  },
  "phy11": {
   "params": 10203840,
@@ -22,16 +22,16 @@
   "val_loss": 2.6584,
   "slots": 15,
   "neural_accepted": 0,
-  "neural_attempts": 30,
+  "neural_attempts": 15,
   "neural_gate_rate": 0,
   "bank_fallback": 15,
   "empty": 0,
   "units_covered": "15/26",
   "duplicates": 0,
-  "bank_size": 581,
-  "bank_mcq": 482,
-  "bank_short": 99,
-  "seconds": 77.3
+  "bank_size": 571,
+  "bank_mcq": 474,
+  "bank_short": 97,
+  "seconds": 36.8
  },
  "bio11": {
   "params": 10203840,
@@ -39,33 +39,33 @@
   "val_loss": 4.1341,
   "slots": 15,
   "neural_accepted": 0,
-  "neural_attempts": 30,
+  "neural_attempts": 15,
   "neural_gate_rate": 0,
   "bank_fallback": 15,
   "empty": 0,
   "units_covered": "10/10",
   "duplicates": 0,
-  "bank_size": 496,
-  "bank_mcq": 414,
+  "bank_size": 494,
+  "bank_mcq": 412,
   "bank_short": 82,
-  "seconds": 46.4
+  "seconds": 16.8
  },
  "phy12": {
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.6774,
   "slots": 15,
-  "neural_accepted": 0,
-  "neural_attempts": 30,
-  "neural_gate_rate": 0,
-  "bank_fallback": 15,
+  "neural_accepted": 1,
+  "neural_attempts": 15,
+  "neural_gate_rate": 0.067,
+  "bank_fallback": 14,
   "empty": 0,
   "units_covered": "15/25",
   "duplicates": 0,
-  "bank_size": 625,
-  "bank_mcq": 452,
-  "bank_short": 173,
-  "seconds": 71.5
+  "bank_size": 614,
+  "bank_mcq": 450,
+  "bank_short": 164,
+  "seconds": 40.4
  },
  "chem11": {
   "params": 10203840,
@@ -73,7 +73,7 @@
   "val_loss": 2.941,
   "slots": 15,
   "neural_accepted": 0,
-  "neural_attempts": 30,
+  "neural_attempts": 15,
   "neural_gate_rate": 0,
   "bank_fallback": 15,
   "empty": 0,
@@ -82,7 +82,7 @@
   "bank_size": 219,
   "bank_mcq": 197,
   "bank_short": 22,
-  "seconds": 68.2
+  "seconds": 28.7
  },
  "chem12": {
   "params": 10203840,
@@ -90,15 +90,15 @@
   "val_loss": 3.4853,
   "slots": 15,
   "neural_accepted": 0,
-  "neural_attempts": 30,
+  "neural_attempts": 15,
   "neural_gate_rate": 0,
   "bank_fallback": 15,
   "empty": 0,
   "units_covered": "15/21",
   "duplicates": 0,
-  "bank_size": 372,
-  "bank_mcq": 304,
+  "bank_size": 368,
+  "bank_mcq": 300,
   "bank_short": 68,
-  "seconds": 85.5
+  "seconds": 47.4
  }
 }
