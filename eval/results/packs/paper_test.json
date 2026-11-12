@@ -21,19 +21,19 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.99
+  "unit_cov_mean": 1.0
  },
  "chem11": {
   "papers": 36,
-  "items": 934,
+  "items": 936,
   "dup_q": 0,
   "dup_anchor": 0,
   "near_dup": 0,
   "key_missing": 0,
   "scheme_bad": 0,
   "computed": 108,
-  "miss": 2,
-  "unit_cov_mean": 0.93
+  "miss": 0,
+  "unit_cov_mean": 0.95
  },
  "chem12": {
   "papers": 36,
@@ -45,7 +45,55 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.9
+  "unit_cov_mean": 0.92
+ },
+ "cs11": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 1.22
+ },
+ "cs12": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 1.41
+ },
+ "math11": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 0.84
+ },
+ "math12": {
+  "papers": 36,
+  "items": 936,
+  "dup_q": 0,
+  "dup_anchor": 0,
+  "near_dup": 0,
+  "key_missing": 0,
+  "scheme_bad": 0,
+  "computed": 108,
+  "miss": 0,
+  "unit_cov_mean": 0.96
  },
  "phy11": {
   "papers": 36,
@@ -57,7 +105,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.77
+  "unit_cov_mean": 0.78
  },
  "phy12": {
   "papers": 36,
@@ -69,6 +117,6 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.85
+  "unit_cov_mean": 0.88
  }
 }

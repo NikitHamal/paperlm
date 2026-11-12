@@ -1,7 +1,7 @@
 {
  "bio11": {
   "units": 10,
-  "bank": 455,
+  "bank": 749,
   "items_with_foreign_unit": 0,
   "siblings": [
    "bio12"
@@ -21,7 +21,7 @@
      "physiology",
      "tissues"
     ],
-    "n_hits": 4,
+    "n_hits": 8,
     "examples": [
      {
       "unit": "Faunal Diversity",
@@ -40,16 +40,23 @@
      {
       "unit": "Evolutionary Biology",
       "words": [
-       "genetics"
-      ],
-      "q": "In the context of population genetics, which formula represents the frequency of the recessive homozygous genotype in a population?"
-     },
-     {
-      "unit": "Evolutionary Biology",
-      "words": [
        "embryology"
       ],
       "q": "Explain the evidence from embryology that supports the concept of evolution among vertebrates."
+     },
+     {
+      "unit": "Introduction to Biology",
+      "words": [
+       "health"
+      ],
+      "q": "In a health camp in Chitwan, 18 out of 250 schoolchildren were found to be anaemic. (a) Calculate the percentage prevalence of anaemia among"
+     },
+     {
+      "unit": "Conservation Biology",
+      "words": [
+       "health"
+      ],
+      "q": "How do wild relatives of crops and medicinal plants contribute to human health and agriculture?"
      }
     ]
    }
@@ -57,7 +64,7 @@
  },
  "bio12": {
   "units": 10,
-  "bank": 463,
+  "bank": 803,
   "items_with_foreign_unit": 0,
   "siblings": [
    "bio11"
@@ -81,7 +88,7 @@
      "microbiology",
      "vegetation"
     ],
-    "n_hits": 4,
+    "n_hits": 7,
     "examples": [
      {
       "unit": "Plant Physiology",
@@ -110,6 +117,13 @@
        "environment"
       ],
       "q": "In which scenario would you expect an increase in mutation rate due to environmental factors?"
+     },
+     {
+      "unit": "Biotechnology",
+      "words": [
+       "conservation"
+      ],
+      "q": "Explain how anther culture contributes to plant breeding and conservation."
      }
     ]
    }
@@ -117,7 +131,7 @@
  },
  "chem11": {
   "units": 17,
-  "bank": 209,
+  "bank": 416,
   "items_with_foreign_unit": 0,
   "siblings": [
    "chem12"
@@ -154,7 +168,7 @@
      "transition",
      "volumetric"
     ],
-    "n_hits": 8,
+    "n_hits": 10,
     "examples": [
      {
       "unit": "Chemistry of Non-metals",
@@ -197,7 +211,7 @@
  },
  "chem12": {
   "units": 21,
-  "bank": 354,
+  "bank": 580,
   "items_with_foreign_unit": 0,
   "siblings": [
    "chem11"
@@ -227,7 +241,7 @@
      "structure",
      "table"
     ],
-    "n_hits": 5,
+    "n_hits": 7,
     "examples": [
      {
       "unit": "Electrochemistry",
@@ -268,9 +282,287 @@
    }
   }
  },
+ "cs11": {
+  "units": 8,
+  "bank": 387,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "cs12"
+  ],
+  "shared_unit_names": {
+   "cs12": []
+  },
+  "probe_hits": {
+   "cs12": {
+    "probe_words": [
+     "communication",
+     "model",
+     "networking",
+     "object",
+     "oriented",
+     "process",
+     "recent",
+     "trends"
+    ],
+    "n_hits": 16,
+    "examples": [
+     {
+      "unit": "Multimedia",
+      "words": [
+       "object"
+      ],
+      "q": "Which device reads the pencil-filled bubbles on an objective answer sheet?"
+     },
+     {
+      "unit": "Computer System",
+      "words": [
+       "process"
+      ],
+      "q": "The number of bits a CPU can process at one time is called its"
+     },
+     {
+      "unit": "Computer System",
+      "words": [
+       "process"
+      ],
+      "q": "A processor has a clock speed of 3.2 GHz, a 16-bit data bus and a 28-bit address bus. Calculate the clock period, the memory it can address "
+     },
+     {
+      "unit": "Application Package",
+      "words": [
+       "object"
+      ],
+      "q": "Explain the four objects of MS Access and state the purpose of each."
+     },
+     {
+      "unit": "Programming Concepts and Logics",
+      "words": [
+       "process"
+      ],
+      "q": "Which of the following correctly describes the output when the integer 121 is processed by the C program described?"
+     }
+    ]
+   }
+  }
+ },
+ "cs12": {
+  "units": 7,
+  "bank": 361,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "cs11"
+  ],
+  "shared_unit_names": {
+   "cs11": []
+  },
+  "probe_hits": {
+   "cs11": {
+    "probe_words": [
+     "application",
+     "boolean",
+     "cyber",
+     "information",
+     "logic",
+     "logics",
+     "multimedia",
+     "operating",
+     "package",
+     "security"
+    ],
+    "n_hits": 8,
+    "examples": [
+     {
+      "unit": "Data Communication and Networking",
+      "words": [
+       "application"
+      ],
+      "q": "The ability to change the internal storage structure without changing the application programs is called"
+     },
+     {
+      "unit": "Recent Trends in Technology",
+      "words": [
+       "operating"
+      ],
+      "q": "Renting a virtual machine on which you install your own operating system is which cloud service model?"
+     },
+     {
+      "unit": "Object-Oriented Programming",
+      "words": [
+       "application"
+      ],
+      "q": "A program that answers customer questions in natural language is an application of"
+     },
+     {
+      "unit": "Data Communication and Networking",
+      "words": [
+       "information"
+      ],
+      "q": "Overlaying digital information on a view of the real world is"
+     },
+     {
+      "unit": "Database Management System",
+      "words": [
+       "security"
+      ],
+      "q": "Why does inputting ' OR '1'='1' in a search field potentially compromise database security?"
+     }
+    ]
+   }
+  }
+ },
+ "math11": {
+  "units": 21,
+  "bank": 544,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "math12"
+  ],
+  "shared_unit_names": {
+   "math12": [
+    "Anti-derivatives",
+    "Complex Numbers",
+    "Computational Methods",
+    "Derivatives",
+    "Mechanics",
+    "Probability",
+    "Sequence and Series"
+   ]
+  },
+  "probe_hits": {
+   "math12": {
+    "probe_words": [
+     "based",
+     "binomial",
+     "conic",
+     "correlation",
+     "differential",
+     "examinable",
+     "permutation",
+     "regression",
+     "retained",
+     "sections",
+     "theorem",
+     "topics",
+     "triangles"
+    ],
+    "n_hits": 9,
+    "examples": [
+     {
+      "unit": "Computational Methods",
+      "words": [
+       "theorem"
+      ],
+      "q": "a) State the location theorem and use it to show that $\\cos x = x$ has a root between $0$ and $1$ radian. b) Find that root correct to two d"
+     },
+     {
+      "unit": "Mechanics",
+      "words": [
+       "theorem"
+      ],
+      "q": "In Lami's theorem each force is divided by the sine of the angle"
+     },
+     {
+      "unit": "Mechanics",
+      "words": [
+       "theorem"
+      ],
+      "q": "According to Lami's theorem for three concurrent forces, which statement correctly describes the relationship between the forces and the ang"
+     },
+     {
+      "unit": "Straight Line",
+      "words": [
+       "based"
+      ],
+      "q": "Given two lines with slopes $\\frac{11}{3}$ and $-\\frac{3}{11}$, what is the nature of their relationship based on their slopes?"
+     },
+     {
+      "unit": "Mechanics",
+      "words": [
+       "based"
+      ],
+      "q": "In a mechanics problem involving forces $T_1$, $T_2$, and a known force of $20\\ \\text{N}$ at right angles to the others, if the angles betwe"
+     }
+    ]
+   }
+  }
+ },
+ "math12": {
+  "units": 17,
+  "bank": 605,
+  "items_with_foreign_unit": 0,
+  "siblings": [
+   "math11"
+  ],
+  "shared_unit_names": {
+   "math11": [
+    "Anti-derivatives",
+    "Complex Numbers",
+    "Computational Methods",
+    "Derivatives",
+    "Mechanics",
+    "Probability",
+    "Sequence and Series"
+   ]
+  },
+  "probe_hits": {
+   "math11": {
+    "probe_words": [
+     "continuity",
+     "coordinates",
+     "dispersion",
+     "functions",
+     "limits",
+     "logic",
+     "matrices",
+     "sketching",
+     "straight",
+     "trigonometric",
+     "values"
+    ],
+    "n_hits": 22,
+    "examples": [
+     {
+      "unit": "Conic Sections",
+      "words": [
+       "coordinates"
+      ],
+      "q": "Find the coordinates of the foci and the length of the latus rectum of the conic $\\dfrac{x^{2}}{25}+\\dfrac{y^{2}}{100}=1$. [3]"
+     },
+     {
+      "unit": "Retained Examinable Topics",
+      "words": [
+       "continuity"
+      ],
+      "q": "Rolle's theorem requires, in addition to continuity and differentiability,"
+     },
+     {
+      "unit": "Anti-derivatives",
+      "words": [
+       "functions"
+      ],
+      "q": "If two functions $F(x)$ and $G(x)$ have the same derivative $f(x)$, which statement correctly describes their difference?"
+     },
+     {
+      "unit": "Anti-derivatives",
+      "words": [
+       "values"
+      ],
+      "q": "Consider the equation $\\frac{x^4}{16} = 4x$. After simplifying and solving for $x$, which of the following sets correctly lists all possible"
+     },
+     {
+      "unit": "Anti-derivatives",
+      "words": [
+       "trigonometric"
+      ],
+      "q": "What happens when integrating a single logarithmic or inverse trigonometric function?"
+     }
+    ]
+   }
+  }
+ },
  "phy11": {
   "units": 26,
-  "bank": 550,
+  "bank": 968,
   "items_with_foreign_unit": 0,
   "siblings": [
    "phy12"
@@ -307,7 +599,7 @@
      "strings",
      "thermodynamics"
     ],
-    "n_hits": 7,
+    "n_hits": 23,
     "examples": [
      {
       "unit": "Heat and Temperature",
@@ -350,7 +642,7 @@
  },
  "phy12": {
   "units": 25,
-  "bank": 590,
+  "bank": 1006,
   "items_with_foreign_unit": 0,
   "siblings": [
    "phy11"
@@ -376,7 +668,7 @@
      "thermal",
      "vectors"
     ],
-    "n_hits": 9,
+    "n_hits": 18,
     "examples": [
      {
       "unit": "Nature and propagation of light",

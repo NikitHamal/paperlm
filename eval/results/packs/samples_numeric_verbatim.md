@@ -429,3 +429,311 @@
 - Calculate the number of moles in $50\ \text{g}$ of a substance whose molar mass is $58\ \text{g mol}^{-1}$.
   (a) $0.862\ \text{mol}$  (b) $0.431\ \text{mol}$  (c) $1.72\ \text{mol}$  (d) $1.16\ \text{mol}$
   Key: (a). The amount of substance is $n = \dfrac{\text{mass}}{\text{molar mass}}$. $n = \dfrac{m}{M} = \dfrac{50}{58}$ $n = 0.862\ \text{mol}$
+
+## math11: 28 numeric templates
+
+- Find the larger root of the equation $x^{2} - 11x + 30 = 0$.
+  (a) $11$  (b) $5$  (c) $6$  (d) $30$
+  Key: (c). A quadratic $x^{2} - (\alpha+\beta)x + \alpha\beta = 0$ has roots $\alpha$ and $\beta$. The equation factorises as $(x-5)(x-6) = 0$. The larger root is $x = 6$.
+
+- Find the discriminant of the equation $3x^{2} + 8x + 6 = 0$.
+  (a) $-8$  (b) $-16$  (c) $-4$  (d) $-64$
+  Key: (a). The discriminant of $ax^{2}+bx+c=0$ is $D = b^{2} - 4ac$. $D = b^{2}-4ac = 8^{2} - 4\times3\times6$ $D = -8$
+
+- Find the $24$th term of the arithmetic progression with first term $5$ and common difference $5$.
+  (a) $575$  (b) $125$  (c) $120$  (d) $130$
+  Key: (c). The $n$th term of an arithmetic progression is $a_n = a + (n-1)d$. $a_n = a + (n-1)d = 5 + (24-1)\times5$ $a_{24} = 120$
+
+- Find the sum of the first $20$ terms of the arithmetic progression with first term $5$ and common difference $4$.
+  (a) $810$  (b) $1720$  (c) $860$  (d) $900$
+  Key: (c). The sum of the first $n$ terms of an arithmetic progression is $S_n = \dfrac{n}{2}\left[2a + (n-1)d\right]$. $S_n = \dfrac{n}{2}[2a+(n-1)d] = \dfrac{20}{2}[2\times5+(20-1)\times4]$ $S_{20} = 860$
+
+- Find the $8$th term of the geometric progression with first term $3$ and common ratio $3$.
+  (a) $13120$  (b) $6561$  (c) $2187$  (d) $19680$
+  Key: (b). The $n$th term of a geometric progression is $a_n = ar^{n-1}$. $a_n = ar^{n-1} = 3\times3^{8-1}$ $a_{8} = 6561$
+
+- Find the sum to infinity of the geometric series with first term $5$ and common ratio $\dfrac{1}{4}$.
+  (a) $3.75$  (b) $6.67$  (c) $20$  (d) $4$
+  Key: (b). The sum to infinity of a geometric series with $|r|<1$ is $S_\infty = \dfrac{a}{1-r}$. $S_\infty = \dfrac{a}{1-r} = \dfrac{5}{1-\frac{1}{4}}$ $S_\infty = 6.67$
+
+- If $f(x) = 3x^{3} + 4x^{2}$, find $f'(4)$.
+  (a) $152$  (b) $160$  (c) $256$  (d) $176$
+  Key: (d). By the power rule $\dfrac{d}{dx}x^{n} = nx^{n-1}$. $f'(x) = 3\times3x^{2} + 2\times4x$ $f'(4) = 176$
+
+- Evaluate $\displaystyle\int_{0}^{4}\left(6x^{2} + 6x\right)dx$.
+  (a) $80$  (b) $224$  (c) $480$  (d) $176$
+  Key: (d). By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{4}(6x^{2}+6x)dx = \left[\dfrac{6x^{3}}{3} + \dfrac{6x^{2}}{2}\right]_0^{4}$ $= 176$
+
+- Find the distance between the points $(2, 2)$ and $(9, 7)$.
+  (a) $8.6$  (b) $74$  (c) $4.9$  (d) $12$
+  Key: (a). The distance between $(x_1,y_1)$ and $(x_2,y_2)$ is $d = \sqrt{(x_2-x_1)^{2} + (y_2-y_1)^{2}}$. $d = \sqrt{(9-2)^{2} + (7-2)^{2}}$ $d = 8.6$
+
+- Find the slope of the line joining the points $(2, 3)$ and $(9, 11)$.
+  (a) $1.27$  (b) $56$  (c) $0.875$  (d) $1.14$
+  Key: (d). The slope of the line through $(x_1,y_1)$ and $(x_2,y_2)$ is $m = \dfrac{y_2-y_1}{x_2-x_1}$. $m = \dfrac{y_2-y_1}{x_2-x_1} = \dfrac{11-3}{9-2}$ $m = 1.14$
+
+- Find the area of the triangle with vertices $(2, 3)$, $(9, 2)$ and $(5, 7)$.
+  (a) $11.5\ \text{sq. units}$  (b) $15.5\ \text{sq. units}$  (c) $31\ \text{sq. units}$  (d) $16.5\ \text{sq. units}$
+  Key: (b). The area of a triangle with vertices $(x_1,y_1),(x_2,y_2),(x_3,y_3)$ is $\tfrac{1}{2}\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\right|$. $A = \tfrac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$ $A = 15.5\ \text{sq. units}$
+
+- In how many ways can $3$ students be selected from a group of $9$ students?
+  (a) $729$  (b) $504$  (c) $84$  (d) $120$
+  Key: (c). The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \dfrac{n!}{r!(n-r)!}$. $^{9}C_{3} = \dfrac{9!}{3!\,(9-3)!}$ $= 84$
+
+- A bag contains $5$ red and $5$ blue balls. Two balls are drawn at random without replacement. Find the probability that both are red.
+  (a) $0.5$  (b) $0.25$  (c) $0.222$  (d) $0.1$
+  Key: (c). Probability $= \dfrac{\text{favourable outcomes}}{\text{total outcomes}}$. $P = \dfrac{^{5}C_2}{^{10}C_2}$ where $n = 5+5$ $P = 0.222$
+
+- Find the value of the determinant $\begin{vmatrix} 5 & 6 \\ 9 & 5 \end{vmatrix}$.
+  (a) $-14.5$  (b) $-29$  (c) $-15$  (d) $-58$
+  Key: (b). For a $2\times2$ matrix, $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$. $\Delta = ad - bc = 5\times5 - 6\times9$ $\Delta = -29$
+
+- In a triangle $ABC$, $a = 10\ \text{cm}$, $A = 60^{\circ}$ and $B = 90^{\circ}$. Find the side $b$.
+  (a) $15\ \text{cm}$  (b) $8.66\ \text{cm}$  (c) $11.5\ \text{cm}$  (d) $5.77\ \text{cm}$
+  Key: (c). By the sine rule $\dfrac{a}{\sin A} = \dfrac{b}{\sin B}$. $b = \dfrac{a\sin B}{\sin A} = \dfrac{10\sin 90^{\circ}}{\sin 60^{\circ}}$ $b = 11.5\ \text{cm}$
+
+- Find the scalar product of $\vec{a} = 3\hat{i} + 4\hat{j} + 6\hat{k}$ and $\vec{b} = 3\hat{i} + 4\hat{j} + 4\hat{k}$.
+  (a) $1$  (b) $3460$  (c) $49$  (d) $24$
+  Key: (c). The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 3\times3+4\times4+6\times4$ $\vec{a}\cdot\vec{b} = 49$
+
+- Evaluate $\displaystyle\lim_{x\to 5}\dfrac{x^{2}-25}{x-5}$.
+  (a) $6$  (b) $10$  (c) $25$  (d) $5$
+  Key: (b). $\dfrac{x^{2}-a^{2}}{x-a} = x + a$ for $x \ne a$, so the limit as $x \to a$ is $2a$. $\dfrac{x^{2}-25}{x-5} = x+5$ for $x\ne5$ $\lim = 5+5 = 10$
+
+- Find the value of $1^{2} + 2^{2} + 3^{2} + \cdots + 12^{2}$.
+  (a) $598$  (b) $650$  (c) $6080$  (d) $78$
+  Key: (b). The sum of the first $n$ squares is $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6}$. $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6} = \dfrac{12\times(12+1)\times(2\times12+1)}{6}$ $= 650$
+
+- The two perpendicular sides of a right-angled triangle are $18\ \text{cm}$ and $24\ \text{cm}$. Find the length of the hypotenuse.
+  (a) $216\ \text{cm}$  (b) $30\ \text{cm}$  (c) $15.9\ \text{cm}$  (d) $42\ \text{cm}$
+  Key: (b). By Pythagoras theorem $c^2 = a^2 + b^2$. $c = \sqrt{a^2+b^2} = \sqrt{18^2+24^2}$ $c = 30\ \text{cm}$
+
+- Find the arithmetic mean of $10, 12, 20, 15$ and $18$.
+  (a) $20$  (b) $15$  (c) $12.5$  (d) $14.3$
+  Key: (b). The arithmetic mean is $\bar{x} = \dfrac{\sum x}{n}$. $\bar{x} = \dfrac{10+12+20+15+18}{5}$ $\bar{x} = 15$
+
+- Find the sum of the roots of $3x^2 + 7x + 6 = 0$.
+  (a) $-1.75$  (b) $-4.67$  (c) $-2$  (d) $-2.33$
+  Key: (d). For $ax^2+bx+c=0$ the sum of the roots is $\alpha+\beta = -\dfrac{b}{a}$. $\alpha+\beta = -\dfrac{b}{a} = -\dfrac{7}{3}$ $\alpha+\beta = -2.33$
+
+- Find the product of the roots of $3x^2 + 7x + 6 = 0$.
+  (a) $0.857$  (b) $2.33$  (c) $2$  (d) $0.5$
+  Key: (c). For $ax^2+bx+c=0$ the product of the roots is $\alpha\beta = \dfrac{c}{a}$. $\alpha\beta = \dfrac{c}{a} = \dfrac{6}{3}$ $\alpha\beta = 2$
+
+- Find the $x$-coordinate of the point that divides the line joining points with $x$-coordinates $2$ and $12$ internally in the ratio $3:2$.
+  (a) $8$  (b) $7$  (c) $6.4$  (d) $6$
+  Key: (a). By the section formula $x = \dfrac{mx_2+nx_1}{m+n}$. $x = \dfrac{mx_2+nx_1}{m+n} = \dfrac{3\times 12+2\times 2}{3+2}$ $x = 8$
+
+- In how many ways can $3$ different objects be arranged from $7$ different objects?
+  (a) $343$  (b) $35$  (c) $210$  (d) $5040$
+  Key: (c). The number of permutations is ${}^nP_r = \dfrac{n!}{(n-r)!}$. ${}^{7}P_{3} = \dfrac{7!}{(7-3)!}$ ${}^{7}P_{3} = 210$
+
+- The angle of elevation of the top of a tower from a point $20\ \text{m}$ from its foot is $45^{\circ}$. Find the height of the tower.
+  (a) $20\ \text{m}$  (b) $10\ \text{m}$  (c) $40\ \text{m}$  (d) $14.1\ \text{m}$
+  Key: (a). In the right triangle $\tan\theta = \dfrac{\text{height}}{\text{distance}}$. $h = d\tan\theta = 20\tan 45^{\circ}$ $h = 20\ \text{m}$
+
+- A vehicle covers a distance at $30\ \text{km h}^{-1}$ and returns the same distance at $80\ \text{km h}^{-1}$. Find the average speed for the whole journey.
+  (a) $21.8\ \text{km h}^{-1}$  (b) $55\ \text{km h}^{-1}$  (c) $43.6\ \text{km h}^{-1}$  (d) $49\ \text{km h}^{-1}$
+  Key: (c). For equal distances the average speed is $\dfrac{2v_1v_2}{v_1+v_2}$ (total distance over total time). $v_{av} = \dfrac{2v_1v_2}{v_1+v_2} = \dfrac{2\times 30\times 80}{30+80}$ $v_{av} = 43.6\ \text{km h}^{-1}$
+
+- Find the area of a trapezium whose parallel sides are $12\ \text{m}$ and $25\ \text{m}$ and whose height is $8\ \text{m}$.
+  (a) $18.5\ \text{m}^2$  (b) $74\ \text{m}^2$  (c) $296\ \text{m}^2$  (d) $148\ \text{m}^2$
+  Key: (d). The area of a trapezium is $A = \dfrac{1}{2}(a+b)h$. $A = \dfrac{1}{2}(a+b)h = \dfrac{1}{2}(12+25)\times 8$ $A = 148\ \text{m}^2$
+
+- A quantity increases from $80$ to $150$. Find the percentage increase.
+  (a) $70\ \%$  (b) $46.7\ \%$  (c) $87.5\ \%$  (d) $188\ \%$
+  Key: (c). Percentage increase $= \dfrac{\text{new}-\text{old}}{\text{old}}\times100$. $\dfrac{150-80}{80}\times100$ $87.5\%$
+
+## math12: 32 numeric templates
+
+- Find the larger root of the equation $x^{2} - 11x + 30 = 0$.
+  (a) $11$  (b) $5$  (c) $6$  (d) $30$
+  Key: (c). A quadratic $x^{2} - (\alpha+\beta)x + \alpha\beta = 0$ has roots $\alpha$ and $\beta$. The equation factorises as $(x-5)(x-6) = 0$. The larger root is $x = 6$.
+
+- Find the discriminant of the equation $3x^{2} + 8x + 6 = 0$.
+  (a) $-8$  (b) $-16$  (c) $-4$  (d) $-64$
+  Key: (a). The discriminant of $ax^{2}+bx+c=0$ is $D = b^{2} - 4ac$. $D = b^{2}-4ac = 8^{2} - 4\times3\times6$ $D = -8$
+
+- Find the $24$th term of the arithmetic progression with first term $5$ and common difference $5$.
+  (a) $575$  (b) $125$  (c) $120$  (d) $130$
+  Key: (c). The $n$th term of an arithmetic progression is $a_n = a + (n-1)d$. $a_n = a + (n-1)d = 5 + (24-1)\times5$ $a_{24} = 120$
+
+- Find the sum of the first $20$ terms of the arithmetic progression with first term $5$ and common difference $4$.
+  (a) $810$  (b) $1720$  (c) $860$  (d) $900$
+  Key: (c). The sum of the first $n$ terms of an arithmetic progression is $S_n = \dfrac{n}{2}\left[2a + (n-1)d\right]$. $S_n = \dfrac{n}{2}[2a+(n-1)d] = \dfrac{20}{2}[2\times5+(20-1)\times4]$ $S_{20} = 860$
+
+- Find the $8$th term of the geometric progression with first term $3$ and common ratio $3$.
+  (a) $13120$  (b) $6561$  (c) $2187$  (d) $19680$
+  Key: (b). The $n$th term of a geometric progression is $a_n = ar^{n-1}$. $a_n = ar^{n-1} = 3\times3^{8-1}$ $a_{8} = 6561$
+
+- Find the sum to infinity of the geometric series with first term $5$ and common ratio $\dfrac{1}{4}$.
+  (a) $3.75$  (b) $6.67$  (c) $20$  (d) $4$
+  Key: (b). The sum to infinity of a geometric series with $|r|<1$ is $S_\infty = \dfrac{a}{1-r}$. $S_\infty = \dfrac{a}{1-r} = \dfrac{5}{1-\frac{1}{4}}$ $S_\infty = 6.67$
+
+- If $f(x) = 3x^{3} + 4x^{2}$, find $f'(4)$.
+  (a) $152$  (b) $160$  (c) $256$  (d) $176$
+  Key: (d). By the power rule $\dfrac{d}{dx}x^{n} = nx^{n-1}$. $f'(x) = 3\times3x^{2} + 2\times4x$ $f'(4) = 176$
+
+- Evaluate $\displaystyle\int_{0}^{4}\left(6x^{2} + 6x\right)dx$.
+  (a) $80$  (b) $224$  (c) $480$  (d) $176$
+  Key: (d). By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{4}(6x^{2}+6x)dx = \left[\dfrac{6x^{3}}{3} + \dfrac{6x^{2}}{2}\right]_0^{4}$ $= 176$
+
+- Find the distance between the points $(2, 2)$ and $(9, 7)$.
+  (a) $8.6$  (b) $74$  (c) $4.9$  (d) $12$
+  Key: (a). The distance between $(x_1,y_1)$ and $(x_2,y_2)$ is $d = \sqrt{(x_2-x_1)^{2} + (y_2-y_1)^{2}}$. $d = \sqrt{(9-2)^{2} + (7-2)^{2}}$ $d = 8.6$
+
+- Find the slope of the line joining the points $(2, 3)$ and $(9, 11)$.
+  (a) $1.27$  (b) $56$  (c) $0.875$  (d) $1.14$
+  Key: (d). The slope of the line through $(x_1,y_1)$ and $(x_2,y_2)$ is $m = \dfrac{y_2-y_1}{x_2-x_1}$. $m = \dfrac{y_2-y_1}{x_2-x_1} = \dfrac{11-3}{9-2}$ $m = 1.14$
+
+- Find the area of the triangle with vertices $(2, 3)$, $(9, 2)$ and $(5, 7)$.
+  (a) $11.5\ \text{sq. units}$  (b) $15.5\ \text{sq. units}$  (c) $31\ \text{sq. units}$  (d) $16.5\ \text{sq. units}$
+  Key: (b). The area of a triangle with vertices $(x_1,y_1),(x_2,y_2),(x_3,y_3)$ is $\tfrac{1}{2}\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\right|$. $A = \tfrac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|$ $A = 15.5\ \text{sq. units}$
+
+- In how many ways can $3$ students be selected from a group of $9$ students?
+  (a) $729$  (b) $504$  (c) $84$  (d) $120$
+  Key: (c). The number of ways of choosing $r$ objects from $n$ is $^{n}C_r = \dfrac{n!}{r!(n-r)!}$. $^{9}C_{3} = \dfrac{9!}{3!\,(9-3)!}$ $= 84$
+
+- A bag contains $5$ red and $5$ blue balls. Two balls are drawn at random without replacement. Find the probability that both are red.
+  (a) $0.5$  (b) $0.25$  (c) $0.222$  (d) $0.1$
+  Key: (c). Probability $= \dfrac{\text{favourable outcomes}}{\text{total outcomes}}$. $P = \dfrac{^{5}C_2}{^{10}C_2}$ where $n = 5+5$ $P = 0.222$
+
+- Find the value of the determinant $\begin{vmatrix} 5 & 6 \\ 9 & 5 \end{vmatrix}$.
+  (a) $-14.5$  (b) $-29$  (c) $-15$  (d) $-58$
+  Key: (b). For a $2\times2$ matrix, $\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$. $\Delta = ad - bc = 5\times5 - 6\times9$ $\Delta = -29$
+
+- Find the amount when Rs. $5000$ is invested for $4$ years at $9\%$ compound interest per annum.
+  (a) $1800\ \text{ rupees}$  (b) $6800\ \text{ rupees}$  (c) $7060\ \text{ rupees}$  (d) $6480\ \text{ rupees}$
+  Key: (c). The amount under compound interest is $A = P\left(1+\dfrac{r}{100}\right)^{n}$. $A = P\left(1+\dfrac{r}{100}\right)^{n} = 5000\left(1+\dfrac{9}{100}\right)^{4}$ $A = \text{Rs. }7060$
+
+- In a triangle $ABC$, $a = 10\ \text{cm}$, $A = 60^{\circ}$ and $B = 90^{\circ}$. Find the side $b$.
+  (a) $15\ \text{cm}$  (b) $8.66\ \text{cm}$  (c) $11.5\ \text{cm}$  (d) $5.77\ \text{cm}$
+  Key: (c). By the sine rule $\dfrac{a}{\sin A} = \dfrac{b}{\sin B}$. $b = \dfrac{a\sin B}{\sin A} = \dfrac{10\sin 90^{\circ}}{\sin 60^{\circ}}$ $b = 11.5\ \text{cm}$
+
+- Find the scalar product of $\vec{a} = 3\hat{i} + 4\hat{j} + 6\hat{k}$ and $\vec{b} = 3\hat{i} + 4\hat{j} + 4\hat{k}$.
+  (a) $1$  (b) $3460$  (c) $49$  (d) $24$
+  Key: (c). The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 3\times3+4\times4+6\times4$ $\vec{a}\cdot\vec{b} = 49$
+
+- Evaluate $\displaystyle\lim_{x\to 5}\dfrac{x^{2}-25}{x-5}$.
+  (a) $6$  (b) $10$  (c) $25$  (d) $5$
+  Key: (b). $\dfrac{x^{2}-a^{2}}{x-a} = x + a$ for $x \ne a$, so the limit as $x \to a$ is $2a$. $\dfrac{x^{2}-25}{x-5} = x+5$ for $x\ne5$ $\lim = 5+5 = 10$
+
+- Find the length of an arc of a circle of radius $6\ \text{cm}$ that subtends an angle of $90^{\circ}$ at the centre.
+  (a) $18.8\ \text{cm}$  (b) $540\ \text{cm}$  (c) $9.42\ \text{cm}$  (d) $4.71\ \text{cm}$
+  Key: (c). The arc length is $l = r\theta$ with $\theta$ in radians, i.e. $l = \dfrac{\pi r\theta^{\circ}}{180}$. $l = \dfrac{\pi r\theta}{180} = \dfrac{\pi\times6\times90}{180}$ $l = 9.42\ \text{cm}$
+
+- Find the value of $1^{2} + 2^{2} + 3^{2} + \cdots + 12^{2}$.
+  (a) $598$  (b) $650$  (c) $6080$  (d) $78$
+  Key: (b). The sum of the first $n$ squares is $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6}$. $\sum k^{2} = \dfrac{n(n+1)(2n+1)}{6} = \dfrac{12\times(12+1)\times(2\times12+1)}{6}$ $= 650$
+
+- Find the area of a circle of radius $7\ \text{cm}$.
+  (a) $49\ \text{cm}^2$  (b) $154\ \text{cm}^2$  (c) $22\ \text{cm}^2$  (d) $44\ \text{cm}^2$
+  Key: (b). The area of a circle is $A = \pi r^2$. $A = \pi r^2 = \pi\times 7^2$ $A = 154\ \text{cm}^2$
+
+- Find the volume of a sphere of radius $6\ \text{cm}$.
+  (a) $905\ \text{cm}^3$  (b) $151\ \text{cm}^3$  (c) $679\ \text{cm}^3$  (d) $452\ \text{cm}^3$
+  Key: (a). The volume of a sphere is $V = \dfrac{4}{3}\pi r^3$. $V = \dfrac{4}{3}\pi r^3 = \dfrac{4}{3}\pi\times 6^3$ $V = 905\ \text{cm}^3$
+
+- The two perpendicular sides of a right-angled triangle are $18\ \text{cm}$ and $24\ \text{cm}$. Find the length of the hypotenuse.
+  (a) $216\ \text{cm}$  (b) $30\ \text{cm}$  (c) $15.9\ \text{cm}$  (d) $42\ \text{cm}$
+  Key: (b). By Pythagoras theorem $c^2 = a^2 + b^2$. $c = \sqrt{a^2+b^2} = \sqrt{18^2+24^2}$ $c = 30\ \text{cm}$
+
+- Find the arithmetic mean of $10, 12, 20, 15$ and $18$.
+  (a) $20$  (b) $15$  (c) $12.5$  (d) $14.3$
+  Key: (b). The arithmetic mean is $\bar{x} = \dfrac{\sum x}{n}$. $\bar{x} = \dfrac{10+12+20+15+18}{5}$ $\bar{x} = 15$
+
+- Find the sum of the roots of $3x^2 + 7x + 6 = 0$.
+  (a) $-1.75$  (b) $-4.67$  (c) $-2$  (d) $-2.33$
+  Key: (d). For $ax^2+bx+c=0$ the sum of the roots is $\alpha+\beta = -\dfrac{b}{a}$. $\alpha+\beta = -\dfrac{b}{a} = -\dfrac{7}{3}$ $\alpha+\beta = -2.33$
+
+- Find the product of the roots of $3x^2 + 7x + 6 = 0$.
+  (a) $0.857$  (b) $2.33$  (c) $2$  (d) $0.5$
+  Key: (c). For $ax^2+bx+c=0$ the product of the roots is $\alpha\beta = \dfrac{c}{a}$. $\alpha\beta = \dfrac{c}{a} = \dfrac{6}{3}$ $\alpha\beta = 2$
+
+- Find the $x$-coordinate of the point that divides the line joining points with $x$-coordinates $2$ and $12$ internally in the ratio $3:2$.
+  (a) $8$  (b) $7$  (c) $6.4$  (d) $6$
+  Key: (a). By the section formula $x = \dfrac{mx_2+nx_1}{m+n}$. $x = \dfrac{mx_2+nx_1}{m+n} = \dfrac{3\times 12+2\times 2}{3+2}$ $x = 8$
+
+- In how many ways can $3$ different objects be arranged from $7$ different objects?
+  (a) $343$  (b) $35$  (c) $210$  (d) $5040$
+  Key: (c). The number of permutations is ${}^nP_r = \dfrac{n!}{(n-r)!}$. ${}^{7}P_{3} = \dfrac{7!}{(7-3)!}$ ${}^{7}P_{3} = 210$
+
+- The angle of elevation of the top of a tower from a point $20\ \text{m}$ from its foot is $45^{\circ}$. Find the height of the tower.
+  (a) $20\ \text{m}$  (b) $10\ \text{m}$  (c) $40\ \text{m}$  (d) $14.1\ \text{m}$
+  Key: (a). In the right triangle $\tan\theta = \dfrac{\text{height}}{\text{distance}}$. $h = d\tan\theta = 20\tan 45^{\circ}$ $h = 20\ \text{m}$
+
+- A vehicle covers a distance at $30\ \text{km h}^{-1}$ and returns the same distance at $80\ \text{km h}^{-1}$. Find the average speed for the whole journey.
+  (a) $21.8\ \text{km h}^{-1}$  (b) $55\ \text{km h}^{-1}$  (c) $43.6\ \text{km h}^{-1}$  (d) $49\ \text{km h}^{-1}$
+  Key: (c). For equal distances the average speed is $\dfrac{2v_1v_2}{v_1+v_2}$ (total distance over total time). $v_{av} = \dfrac{2v_1v_2}{v_1+v_2} = \dfrac{2\times 30\times 80}{30+80}$ $v_{av} = 43.6\ \text{km h}^{-1}$
+
+- Find the area of a trapezium whose parallel sides are $12\ \text{m}$ and $25\ \text{m}$ and whose height is $8\ \text{m}$.
+  (a) $18.5\ \text{m}^2$  (b) $74\ \text{m}^2$  (c) $296\ \text{m}^2$  (d) $148\ \text{m}^2$
+  Key: (d). The area of a trapezium is $A = \dfrac{1}{2}(a+b)h$. $A = \dfrac{1}{2}(a+b)h = \dfrac{1}{2}(12+25)\times 8$ $A = 148\ \text{m}^2$
+
+- A quantity increases from $80$ to $150$. Find the percentage increase.
+  (a) $70\ \%$  (b) $46.7\ \%$  (c) $87.5\ \%$  (d) $188\ \%$
+  Key: (c). Percentage increase $= \dfrac{\text{new}-\text{old}}{\text{old}}\times100$. $\dfrac{150-80}{80}\times100$ $87.5\%$
+
+## cs11: 8 numeric templates
+
+- Convert the binary number $01101_{2}$ to decimal.
+  (a) $26$  (b) $13$  (c) $22$  (d) $14$
+  Key: (b). A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $0\times16+1\times8+1\times4+0\times2+1\times1$ $= 13$
+
+- How many seconds does it take to download a $100\ \text{MB}$ file over a connection of $12\ \text{Mbps}$? (1 byte $= 8$ bits.)
+  (a) $1.04\ \text{s}$  (b) $66.7\ \text{s}$  (c) $1200\ \text{s}$  (d) $8.33\ \text{s}$
+  Key: (b). Transfer time is $\dfrac{\text{file size in bits}}{\text{bandwidth in bits per second}}$ and 1 byte $= 8$ bits. $t = \dfrac{100\times8\ \text{Mb}}{12\ \text{Mbps}}$ $t = 66.7\ \text{s}$
+
+- How many usable host addresses are available in an IPv4 subnet with prefix length $/27$?
+  (a) $30$  (b) $28$  (c) $31$  (d) $32$
+  Key: (a). An IPv4 subnet with prefix length $/p$ has $2^{32-p}-2$ usable hosts (network and broadcast addresses excluded). $2^{32-27} - 2 = 2^{5} - 2$ Usable hosts $= 30$
+
+- Find the uncompressed size, in KB, of a $400\times400$ pixel image with a colour depth of $24$ bits per pixel. (1 KB $= 1024$ bytes.)
+  (a) $58.6\ \text{KB}$  (b) $3750\ \text{KB}$  (c) $469\ \text{KB}$  (d) $19.5\ \text{KB}$
+  Key: (c). Image size in bytes is $\dfrac{\text{width}\times\text{height}\times\text{bits per pixel}}{8}$ and 1 KB $= 1024$ bytes. $\text{bits} = 400\times400\times24$ $\text{KB} = \dfrac{\text{bits}}{8\times1024} = 469\ \text{KB}$
+
+- What is the minimum number of bits needed to represent $100$ different values?
+  (a) $100\ \text{bits}$  (b) $7\ \text{bits}$  (c) $13\ \text{bits}$  (d) $6\ \text{bits}$
+  Key: (b). $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 100\rceil$ $k = 7\ \text{bits}$
+
+- A memory has $2^{12}$ locations and each location stores $16$ bits. Find its capacity in kilobytes (1 KB = 1024 bytes).
+  (a) $8.19\ \text{KB}$  (b) $8\ \text{KB}$  (c) $4\ \text{KB}$  (d) $64\ \text{KB}$
+  Key: (b). Capacity $= \text{locations}\times\text{word size}$; bits $\div 8$ gives bytes and bytes $\div 1024$ gives KB. $\text{bits} = 2^{12}\times 16$ $\text{KB} = \dfrac{2^{12}\times 16}{8\times1024} = 8\ \text{KB}$
+
+- A program has $200$ million instructions with an average $\text{CPI}$ of $2$ on a processor of clock rate $1000\ \text{MHz}$. Find the CPU time.
+  (a) $0.8\ \text{s}$  (b) $0.4\ \text{s}$  (c) $10\ \text{s}$  (d) $0.1\ \text{s}$
+  Key: (b). CPU time $= \dfrac{\text{instruction count}\times\text{CPI}}{\text{clock rate}}$. $T = \dfrac{IC\times CPI}{f} = \dfrac{200\times10^{6}\times 2}{1000\times10^{6}}$ $T = 0.4\ \text{s}$
+
+- Convert the hexadecimal number $(56)_{16}$ to decimal.
+  (a) $46$  (b) $56$  (c) $86$  (d) $101$
+  Key: (c). A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$. $(56)_{16} = 5\times16^{1}+6\times16^{0}$ $= 86$
+
+## cs12: 7 numeric templates
+
+- Convert the binary number $01101_{2}$ to decimal.
+  (a) $26$  (b) $13$  (c) $22$  (d) $14$
+  Key: (b). A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $0\times16+1\times8+1\times4+0\times2+1\times1$ $= 13$
+
+- How many seconds does it take to download a $100\ \text{MB}$ file over a connection of $12\ \text{Mbps}$? (1 byte $= 8$ bits.)
+  (a) $1.04\ \text{s}$  (b) $66.7\ \text{s}$  (c) $1200\ \text{s}$  (d) $8.33\ \text{s}$
+  Key: (b). Transfer time is $\dfrac{\text{file size in bits}}{\text{bandwidth in bits per second}}$ and 1 byte $= 8$ bits. $t = \dfrac{100\times8\ \text{Mb}}{12\ \text{Mbps}}$ $t = 66.7\ \text{s}$
+
+- How many usable host addresses are available in an IPv4 subnet with prefix length $/27$?
+  (a) $30$  (b) $28$  (c) $31$  (d) $32$
+  Key: (a). An IPv4 subnet with prefix length $/p$ has $2^{32-p}-2$ usable hosts (network and broadcast addresses excluded). $2^{32-27} - 2 = 2^{5} - 2$ Usable hosts $= 30$
+
+- What is the minimum number of bits needed to represent $100$ different values?
+  (a) $100\ \text{bits}$  (b) $7\ \text{bits}$  (c) $13\ \text{bits}$  (d) $6\ \text{bits}$
+  Key: (b). $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 100\rceil$ $k = 7\ \text{bits}$
+
+- A memory has $2^{12}$ locations and each location stores $16$ bits. Find its capacity in kilobytes (1 KB = 1024 bytes).
+  (a) $8.19\ \text{KB}$  (b) $8\ \text{KB}$  (c) $4\ \text{KB}$  (d) $64\ \text{KB}$
+  Key: (b). Capacity $= \text{locations}\times\text{word size}$; bits $\div 8$ gives bytes and bytes $\div 1024$ gives KB. $\text{bits} = 2^{12}\times 16$ $\text{KB} = \dfrac{2^{12}\times 16}{8\times1024} = 8\ \text{KB}$
+
+- A program has $200$ million instructions with an average $\text{CPI}$ of $2$ on a processor of clock rate $1000\ \text{MHz}$. Find the CPU time.
+  (a) $0.8\ \text{s}$  (b) $0.4\ \text{s}$  (c) $10\ \text{s}$  (d) $0.1\ \text{s}$
+  Key: (b). CPU time $= \dfrac{\text{instruction count}\times\text{CPI}}{\text{clock rate}}$. $T = \dfrac{IC\times CPI}{f} = \dfrac{200\times10^{6}\times 2}{1000\times10^{6}}$ $T = 0.4\ \text{s}$
+
+- Convert the hexadecimal number $(56)_{16}$ to decimal.
+  (a) $46$  (b) $56$  (c) $86$  (d) $101$
+  Key: (c). A two-digit hexadecimal number $(d_1d_0)_{16}$ equals $16d_1 + d_0$. $(56)_{16} = 5\times16^{1}+6\times16^{0}$ $= 86$

@@ -1,84 +1,174 @@
 
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":6,"neural_accepted":0,"neural_attempts":6,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/10","duplicates":0,"bank_size":463,"bank_mcq":388,"bank_short":75,"seconds":6.8}
+##### math11 (Mathematics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":1.9558,"slots":8,"neural_accepted":2,"neural_attempts":15,"neural_gate_rate":0.133,"bank_fallback":6,"empty":0,"units_covered":"8/21","duplicates":0,"bank_size":544,"bank_mcq":440,"bank_short":104,"seconds":25.2}
 
-[Plant Physiology] MCQ <gold>
-Q. The water potential of pure water at standard temperature and atmospheric pressure is:
-  a) equal to its osmotic pressure
-  b) $+1$ MPa
-  c) zero
-  d) $-1$ MPa
-Key: c  Why: pure free water is the reference state, defined as zero.
+[Computational Methods] MCQ <gold>
+Q. The Newton–Raphson iteration formula is
+  a) $x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$
+  b) $x_{n+1}=x_n+\frac{f(x_n)}{f'(x_n)}$
+  c) $x_{n+1}=\frac{f(x_n)}{f'(x_n)}$
+  d) $x_{n+1}=x_n-\frac{f'(x_n)}{f(x_n)}$
+Key: a  Why: subtract the ratio; (a) has the wrong sign and (c) inverts the ratio.
 
-[Applied Biology] MCQ <gold>
-Q. The silkworm Bombyx mori is fed on the leaves of
-  a) oak
-  b) peepal
-  c) mulberry
-  d) castor
-Key: c  Why: mulberry (Morus). Castor feeds the eri silkworm.
+[Curve Sketching] MCQ <neural>
+Q. The period of $y = \frac{1}{\cos bx}$, which of the following statements correctly describes the x-axis?
+  a) $x = \frac{1-x^{2}}{2}$
+  b) $y = \frac{x}{2} - x$
+  c) $\cos bx$
+  d) $y=\sin bx$
+Key: c  Why: The angle $y = -\frac{1}{2}\sin bx$ is $x$ of symmetry.
 
-[Genetics] MCQ <gold>
-Q. A person has a puffy appearance, a moon face, low body temperature and intolerance to cold. What is he suffering from?
-  a) myxoedema
-  b) Conn's disease
-  c) Hashimoto's disease
-  d) Grave's disease
-Key: a  Why: myxoedema is adult hypothyroidism: puffy face, cold intolerance, low metabolic rate. Graves' is hyperthyroidism. Hashimoto's is an autoimmune cause of hypothyroidism, but the puffy-face description is the textbook picture of myxoedema.
+[Inverse Circular Functions] MCQ <gold>
+Q. The number of solutions of $\sin x=\frac12$ in $[0,2\pi]$ is
+  a) 1
+  b) 3
+  c) 2
+  d) 4
+Key: c  Why: $x=\frac{\pi}{6}$ and $x=\frac{5\pi}{6}$.
+
+[Derivatives] MCQ <teacher>
+Q. Given $y = \sin^{-1}(\sin2\theta)$ and $-\frac{\pi}{2} < 2\theta < \frac{\pi}{2}$, which of the following represents $y$ in terms of $\theta$?
+  a) $y = \cos(2\theta)$
+  b) $y = \frac{\theta}{2}$
+  c) $y = 2\theta$
+  d) $y = \sin(2\theta)$
+Key: c  Why: Because within the given range, the arcsine function directly returns the angle, hence $y = 2\theta$.
+
+[Trigonometric Equations and General Values] MCQ <neural>
+Q. The general solution of $\theta = \dfrac{1}{\cos\theta}$ is
+  a) $\theta = \dfrac{2}{1-r}$
+  b) $\theta = 1$
+  c) $\theta = \dfrac12$
+  d) $\theta < 1$
+Key: c  Why: $H = 1$ and $\theta = 1$.
+
+[Anti-derivatives] MCQ <gold>
+Q. $\frac{d}{dx}(e^{2x})$ equals
+  a) $2e^{x}$
+  b) $e^{2x}$
+  c) $2e^{2x}$
+  d) $2xe^{2x}$
+Key: c  Why: the chain rule brings down the inner derivative 2.
+
+[Pair of Straight Lines] 2-mark <gold>
+Q. Derive the formula $\tan\theta = \dfrac{2\sqrt{h^{2}-ab}}{a+b}$ for the angle between the lines $ax^{2}+2hxy+by^{2} = 0$.
+Model answer: Writing each line as $y = mx$ and substituting gives $bm^{2}+2hm+a = 0$, so $m_1+m_2 = -\frac{2h}{b}$ and $m_1m_2 = \frac{a}{b}$. Then
+
+[Vectors] 2-mark <gold>
+Q. State and prove the section formula for the internal division of a line segment in the ratio $m:n$, and deduce the midpoint formula.
+Model answer: See the derivation in §14.1: from $AP:PB = m:n$ we get $n\,\vec{AP} = m\,\vec{PB}$, i.e. $n(\vec{r}-\vec{a}) = m(\vec{b}-\vec{r})$, which rearranges to $\vec{r} = \dfrac{m\vec{b}+n\vec{a}}{m+n}$. Putting $m = n = 1$ gives the midpoint $\dfrac{\vec{a}+\vec{b}}{2}$.
+
+##### cs12 (Computer Science - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.4192,"slots":8,"neural_accepted":0,"neural_attempts":16,"neural_gate_rate":0,"bank_fallback":8,"empty":0,"units_covered":"7/7","duplicates":0,"bank_size":361,"bank_mcq":293,"bank_short":68,"seconds":18.2}
+
+[Recent Trends in Technology] MCQ <gold>
+Q. Computing that lets a user access data and services while moving is
+  a) grid computing
+  b) parallel computing
+  c) batch processing
+  d) mobile computing
+Key: d  Why: mobile computing is computing without a fixed physical link.
+
+[Database Management System] MCQ <gold>
+Q. In relational terminology, a row of a table is called a
+  a) degree
+  b) attribute
+  c) domain
+  d) tuple
+Key: d  Why: row = tuple = record; column = attribute = field.
+
+[Data Communication and Networking] MCQ <gold>
+Q. Which is not one of the five elements of data communication?
+  a) bandwidth
+  b) protocol
+  c) message
+  d) transmission medium
+Key: a  Why: bandwidth is a property of the channel, not one of the five elements.
+
+[Object-Oriented Programming] MCQ <gold>
+Q. Function overloading is an example of
+  a) inheritance
+  b) run-time polymorphism
+  c) compile-time polymorphism
+  d) encapsulation
+Key: c  Why: the compiler picks the version from the signature.
+
+[Data Communication and Networking] MCQ <teacher>
+Q. What device's address is referred to as the gateway in a network?
+  a) modem
+  b) switch
+  c) router
+  d) hub
+Key: c  Why: Subnet mask splits network from host; the gateway is the router's address.
+
+[Software Process Model] MCQ <gold>
+Q. A feasibility study that asks whether the staff will accept and use the system is
+  a) technical
+  b) operational
+  c) economic
+  d) legal
+Key: b  Why: operational feasibility concerns people and working practice.
+
+[Web Technology II] 2-mark <teacher>
+Q. Explain the role of client-side and server-side validation in web technology using JavaScript.
+Model answer: Client-side validation in JavaScript provides instant feedback to users, enhancing convenience. Server-side validation protects the database by ensuring data integrity before processing.
+
+[Programming in C] 2-mark <teacher>
+Q. What determines the size of a union in C programming and what can be said about its members' values?
+Model answer: The size of a union in C is determined by its largest member. At any moment, only one member holds a valid value.
+
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5528,"slots":8,"neural_accepted":0,"neural_attempts":16,"neural_gate_rate":0,"bank_fallback":8,"empty":0,"units_covered":"8/10","duplicates":0,"bank_size":803,"bank_mcq":572,"bank_short":231,"seconds":19.4}
+
+[Applied Biology] MCQ <teacher>
+Q. In a fish pond, if the total capacity for fish is $3000$, and the distribution ratio for surface feeders (silver carp and catla), column feeders (rohu), and bottom feeders (mrigal and common carp) is $0.30$, $0.30$, and $0.40$ respectively, how many rohu can the pond sustain?
+  a) $600$
+  b) $900$
+  c) $1200$
+  d) $1500$
+Key: b  Why: The calculation shows that the number of rohu, which are column feeders, is $0.30\times 3000 = 900$.
+
+[Plant Anatomy] MCQ <teacher>
+Q. Why does bark include secondary phloem and periderm?
+  a) Because it facilitates the transport of water and minerals.
+  b) Because it provides structural support to the plant stem.
+  c) Because bark consists of all tissues lying outside the vascular cambium.
+  d) Because it is involved in the synthesis of chlorophyll.
+Key: c  Why: The definition of bark includes all tissues lying outside the vascular cambium, which inherently includes secondary phloem and periderm.
+
+[Plant Physiology] MCQ <teacher>
+Q. Which enzyme is responsible for pumping carbon into the bundle sheath?
+  a) PEP carboxylase
+  b) ATP synthase
+  c) RuBisCO
+  d) Rubisco activase
+Key: a  Why: PEP carboxylase is explicitly mentioned as the enzyme that pumps carbon into the bundle sheath.
+
+[Developmental Biology] MCQ <teacher>
+Q. During fertilization, what mechanism ensures that only one sperm cell successfully fuses with the egg?
+  a) Sperm cells are repelled by the negative charge of the egg's membrane after fusion.
+  b) The egg releases enzymes that destroy approaching sperm cells.
+  c) Cortical granules burst and the vitelline membrane lifts away to form the fertilization membrane, preventing additional sperm from penetrating.
+  d) The egg's membrane hardens immediately after the first sperm enters.
+Key: c  Why: The bursting of cortical granules and lifting of the vitelline membrane to form the fertilization membrane prevents additional sperm from penetrating, ensuring monospermic fertilization.
+
+[Genetics] MCQ <teacher>
+Q. What is the term for a compound consisting of a nitrogenous base and a pentose sugar?
+  a) nucleoside
+  b) deoxyribose
+  c) phosphate
+  d) nucleotide
+Key: a  Why: A base joined to a sugar alone is defined as a nucleoside.
 
 [Human Biology] MCQ <teacher>
-Q. During childbirth, which hormone initiates a cycle of uterine contractions through positive feedback by contracting the uterus and further stretching the cervix?
-  a) Estrogen
-  b) Progesterone
-  c) Prolactin
-  d) Oxytocin
-Key: d  Why: Oxytocin is responsible for contracting the uterus and causing positive feedback during labor as mentioned.
+Q. How is blood pressure typically represented?
+  a) systolic over diastolic
+  b) pulse pressure
+  c) diastolic over systolic
+  d) mean arterial pressure
+Key: a  Why: Blood pressure is written as systolic over diastolic.
+
+[Embryology] 3-mark <teacher>
+Q. Describe the formation of megaspores and the resulting cells and nuclei in the embryo sac.
+Model answer: From 8 meioses, $8 \times 4 = 32$ megaspores form, with $8 \times 3 = 24$ degenerating. The embryo sac contains 7 cells: 3 egg apparatus, 3 antipodals, and 1 central cell. In terms of nuclei, there are 8: 3 from the egg apparatus, 3 from the antipodals, and 2 from the central cell.
 
 [Animal Tissues] 3-mark <teacher>
-Q. Given an image magnification of 1000x, calculate the actual size in micrometers (μm) if the image size is 40 mm. Also, convert 2.4 cm into micrometers.
-Model answer: Actual size: $\frac{40\ \text{mm}}{1000} = 0.040\ \text{mm} = 40\ \mu\text{m}$. Conversion: $2.4\ \text{cm} = 24\ \text{mm} = 24\,000\ \mu\text{m}$.
-
-[Developmental Biology] 3-mark <teacher>
-Q. Given that each secondary spermatocyte contains 26 chromatids and after n cleavages there are $2^{n}$ cells, calculate the number of cells formed after 7 cleavages and state the volume ratio of each blastomere to the original cell.
-Model answer: After 7 cleavages, the number of cells is $2^7 = 128$. Each blastomere has $\frac{1}{128}$ of the original cell's volume.
-
-##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6584,"slots":6,"neural_accepted":0,"neural_attempts":6,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/26","duplicates":0,"bank_size":550,"bank_mcq":460,"bank_short":90,"seconds":17}
-
-[Physical Quantities] MCQ <gold>
-Q. A vernier callipers has 10 vernier divisions matching 9 main-scale divisions of 1 mm each. Its least count is
-  a) 0.1 mm
-  b) 0.01 mm
-  c) 0.5 mm
-  d) 1 mm
-Key: a  Why: L.C. $= 1 - 0.9 = 0.1$ mm, i.e. 1 mm ÷ 10.
-
-[Nuclear physics] MCQ <teacher>
-Q. What formula represents the distance of closest approach ($r_0$) for a head-on $\alpha$-particle of energy $K$ interacting with a nucleus of charge $Ze$?
-  a) $r_0=\dfrac{1}{4\pi\varepsilon_0}\dfrac{2Ze^{2}}{K}$
-  b) $r_0=\dfrac{1}{4\pi\varepsilon_0}\dfrac{Ze^{2}}{K}$
-  c) $r_0=\dfrac{1}{4\pi\varepsilon_0}\dfrac{Ze^{2}}{2K}$
-  d) $r_0=\dfrac{1}{8\pi\varepsilon_0}\dfrac{2Ze^{2}}{K}$
-Key: a  Why: The formula directly matches the expression given for the distance of closest approach.
-
-[Dynamics] MCQ <teacher>
-Q. Why does a block at rest feel 5 N of friction when pushed with a 5 N force, even though the maximum static friction $\mu N = 20\ \text{N}$?
-  a) Static friction always equals the applied force regardless of the block's motion.
-  b) The coefficient of friction decreases as the applied force increases.
-  c) The block's weight increases the normal force, reducing the required friction.
-  d) The friction force adjusts to balance the applied force, up to its maximum limit.
-Key: d  Why: The friction force only needs to match the applied force to keep the block at rest, not reach its maximum limit.
-
-[DC Circuits] MCQ <teacher>
-Q. A battery with an emf of $12\ \text{V}$ and internal resistance of $1\ \Omega$ is connected to a circuit containing a $3\ \Omega$ resistor in series with a parallel combination of $6\ \Omega$ and $12\ \Omega$. What is the internal resistance of the battery?
-  a) $1\ \Omega$
-  b) $6\ \Omega$
-  c) $12\ \Omega$
-  d) $3\ \Omega$
-Key: a  Why: The internal resistance of the battery is explicitly stated as $1\ \Omega$.
-
-[Reflection at curved mirror] 5-mark <teacher>
-Q. Explain how the position of an object relative to the focal point ($F$) and center of curvature ($C$) affects the type of image formed by a concave mirror, considering both real and virtual images. Use the mirror formula to support your explanation.
-Model answer: The position of an object relative to $F$ and $C$ on a concave mirror determines the image type. When the object is beyond $C$, a real, inverted, and diminished image forms between $F$ and $C$. Between $C$ and $F$, the image is real, inverted, and magnified. At $F$, no image is formed as rays are parallel. Between $F$ and the pole, a virtual, upright, and magnified image is formed. The mirror formula $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$ applies universally, where $v$ is negative for real images and positive for virtual ones.
-
-[Electric field] 2-mark <gold>
-Q. Two large parallel metal plates carry surface charge densities $+3.54\times10^{-6}\ \text{C m}^{-2}$ and $-3.54\times10^{-6}\ \text{C m}^{-2}$. Find the field between the plates and the force on an electron placed there.
-Model answer: Between the plates, $E = \sigma/\varepsilon_0 = 3.54\times10^{-6}/8.85\times10^{-12} = 4.0\times10^{5}\ \text{V m}^{-1}$, directed from the positive to the negative plate.
+Q. Describe the characteristics of the epithelial tissue in terms of its location, vascular properties, and regenerative capacity.
+Model answer: Epithelial tissue covers body surfaces and lines cavities, ducts, and organs above a basement membrane. It lacks blood vessels (avascular) and relies on diffusion from underlying connective tissue for nourishment. This tissue exhibits high regenerative capacity due to constant wear and tear.

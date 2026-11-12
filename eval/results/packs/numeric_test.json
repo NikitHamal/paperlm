@@ -34,5 +34,29 @@
   "instances": 2700,
   "failures": 0,
   "exact_integer_rounded_to_sigfigs": 0
+ },
+ "math11": {
+  "templates": 28,
+  "instances": 8400,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "math12": {
+  "templates": 32,
+  "instances": 9600,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "cs11": {
+  "templates": 8,
+  "instances": 2400,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
+ },
+ "cs12": {
+  "templates": 7,
+  "instances": 2100,
+  "failures": 0,
+  "exact_integer_rounded_to_sigfigs": 0
  }
 }

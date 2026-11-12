@@ -2,22 +2,105 @@
  "bio12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.816,
-  "slots": 1,
-  "neural_accepted": 0,
-  "bank_fallback": 1,
-  "attempts": 1,
-  "units_hit": 1,
-  "bank_items": 463,
-  "seconds": 0.3,
+  "val_loss": 3.5528,
+  "slots": 8,
+  "neural_accepted": 1,
+  "bank_fallback": 7,
+  "attempts": 16,
+  "units_hit": 6,
+  "bank_items": 803,
+  "seconds": 5.5,
   "samples": [
    {
     "unit": "Developmental Biology",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Amphimixis occurs when the male pronucleus ($n = 13$) fuses with the female pronucleus ($n = 13$), forming a diploid zygote ($2n = 26$).",
-     "Explain the process of amphimixis during fertilization, including the chromosome numbers involved."
+     "After 5 cleavages, the embryo will have $2^{5} = 32$ blastomeres. This indicates that the embryo's size has not increased despite the cleavages.",
+     "If an embryo undergoes 5 cleavages, how many blastomeres will it have, and what does this indicate about its size?"
+    ]
+   },
+   {
+    "unit": "Plant Physiology",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "pepsin",
+     "The enzyme that works best at pH 1.5–2.0 is",
+     "salivary amylase",
+     "trypsin",
+     "intestinal lipase",
+     "pepsin is the only enzyme of the strongly acidic gastric juice."
+    ]
+   },
+   {
+    "unit": "Genetics",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Exposure to very high temperatures",
+     "In which scenario would you expect an increase in mutation rate due to environmental factors?",
+     "Presence of sex in male Drosophila",
+     "Presence of sex in female Bombyx mori",
+     "Moderate temperature conditions",
+     "Temperature — very high and very low temperatures increase mutation rate."
+    ]
+   },
+   {
+    "unit": "Embryology",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "Double fertilization involves two fusions. One male gamete fuses with the egg to form a diploid zygote ($2n$). The other male gamete fuses with the two polar nuclei in the central cell, forming a triploid primary endosperm nucleus ($3n$). The embryo sac, part of the female gametophyte, houses these processes.",
+     "Explain the process of double fertilization in plants, including the types of nuclei involved and their outcomes."
+    ]
+   },
+   {
+    "unit": "Human Biology",
+    "kind": "mcq",
+    "source": "neural",
+    "segs": [
+     "Milk teeth have premolars.",
+     "Why is the milk teeth have a premolars. What is the milk teeth have an extra molars?",
+     "The formula formula is 0 2 1 2(2 1 2 2)?",
+     "The formula is the correct formula does not includes to 2 2.",
+     "The formula canine teeth have an extra molar.",
+     "The formula does not includes a teeth have premolars."
+    ]
+   },
+   {
+    "unit": "Plant Physiology",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Imbibition",
+     "Which process describes the swelling of a hydrophilic colloid due to the adsorption of water?",
+     "Osmosis",
+     "Transpiration",
+     "Photosynthesis",
+     "Imbibition is defined as the adsorption of water by a hydrophilic colloid, which swells as a result."
+    ]
+   },
+   {
+    "unit": "Biotechnology",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "A hybrid results from sexual crossing within or between closely related species. A transgenic plant has a lab-inserted gene, often from an unrelated kingdom.",
+     "Differentiate between a hybrid and a transgenic plant based on their origins and genetic composition."
+    ]
+   },
+   {
+    "unit": "Developmental Biology",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Cleavage",
+     "What process involves rapid mitotic divisions immediately following fertilization to form a blastula?",
+     "Fertilization",
+     "Gastrulation",
+     "Organogenesis",
+     "Cleavage is defined as the rapid series of mitotic divisions that converts the zygote into a many-celled blastula."
     ]
    }
   ]
@@ -25,22 +108,105 @@
  "phy11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.6584,
-  "slots": 1,
+  "val_loss": 2.4801,
+  "slots": 8,
   "neural_accepted": 0,
-  "bank_fallback": 1,
-  "attempts": 1,
-  "units_hit": 1,
-  "bank_items": 550,
-  "seconds": 0.7,
+  "bank_fallback": 8,
+  "attempts": 16,
+  "units_hit": 8,
+  "bank_items": 968,
+  "seconds": 7.5,
   "samples": [
    {
-    "unit": "Rate of heat flow",
+    "unit": "DC Circuits",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The formula $H = \\frac{kA(\\theta_1 - \\theta_2)}{L}$ shows heat flow $H$ is directly proportional to the temperature difference $(\\theta_1 - \\theta_2)$ and inversely proportional to thickness $L$. Doubling the temperature difference doubles the heat flow. The negative gradient indicates heat flows from hotter to cooler regions.",
-     "Explain the relationship between the rate of heat flow $H$, temperature gradient, and thickness $L$ as described by the formula $H = \\frac{kA(\\theta_1 - \\theta_2)}{L}$. How does doubling the temperature difference affect the heat flow?"
+     "For balance in a Wheatstone bridge, $P/Q = R/S$. In a metre bridge, if $l$ is the length of the wire on one side of the null point, then $X = Rl/(100-l)$. The balance condition ensures no current flows through the galvanometer.",
+     "Explain how to calculate the unknown resistance X using a metre bridge and state the condition for balance in a Wheatstone bridge."
+    ]
+   },
+   {
+    "unit": "Ideal gas",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$c_{rms} = \\sqrt{\\frac{3RT}{M}}$",
+     "What is the formula for calculating the root mean square speed ($c_{rms}$) of gas molecules when the temperature ($T$) and molar mass ($M$) are known?",
+     "$c_{rms} = \\sqrt{\\frac{3p}{\\rho}}$",
+     "$c_{rms} = \\sqrt{\\frac{kT}{m}}$",
+     "$c_{rms} = \\sqrt{\\frac{RT}{M}}$",
+     "The formula $c_{rms} = \\sqrt{\\frac{3RT}{M}}$ is used when the temperature and molar mass are known."
+    ]
+   },
+   {
+    "unit": "Circular Motion",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$10\\pi\\ \\text{rad s}^{-1}$",
+     "The angular velocity of a body making $300$ revolutions per minute is",
+     "$5\\ \\text{rad s}^{-1}$",
+     "$300\\ \\text{rad s}^{-1}$",
+     "$60\\pi\\ \\text{rad s}^{-1}$",
+     "$\\omega = 2\\pi N/60 = 2\\pi(300)/60 = 10\\pi\\ \\text{rad s}^{-1}$."
+    ]
+   },
+   {
+    "unit": "Gravitation",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "$v_e = \\sqrt{2g_mR_m} = \\sqrt{2\\times1.62\\times1.74\\times10^{6}} = \\sqrt{5.64\\times10^{6}} = 2.37\\times10^{3}\\ \\text{m s}^{-1} = 2.37\\ \\text{km s}^{-1}$.",
+     "Calculate the escape velocity from the Moon, for which $g_m = 1.62\\ \\text{m s}^{-2}$ and $R_m = 1.74\\times10^{6}\\ \\text{m}$, and use your answer to explain why the Moon has no atmosphere."
+    ]
+   },
+   {
+    "unit": "Elasticity",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "pressure",
+     "The SI unit of Young modulus is the same as that of",
+     "force",
+     "strain",
+     "energy",
+     "$Y$ is a stress divided by a dimensionless strain, so it carries the unit of stress, the pascal."
+    ]
+   },
+   {
+    "unit": "Rate of heat flow",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$600$ K",
+     "If an object at temperature $T = 327^\\circ C$ is converted to Kelvin, what is its temperature in Kelvin?",
+     "$327$ K",
+     "$500$ K",
+     "$300$ K",
+     "The conversion from Celsius to Kelvin adds $273$ to the Celsius temperature."
+    ]
+   },
+   {
+    "unit": "Recent Trends in physics",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "Starting with $\\frac{GM(r)m}{r^{2}} = \\frac{mv^{2}}{r}$, cancel $m$ to get $\\frac{GM(r)}{r^{2}} = \\frac{v^{2}}{r}$. This equation applies outside the bright disc.",
+     "Given $M(r)$ as the total mass inside radius $r$, derive the formula relating gravitational force to the velocity of an orbiting object outside the bright disc."
+    ]
+   },
+   {
+    "unit": "Dynamics",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "they act on different bodies and never cancel",
+     "Which statement about action and reaction is correct?",
+     "they act on the same body and cancel",
+     "the action is always larger",
+     "they act at different instants",
+     "they are equal and opposite but act on different bodies, so they can never be added together to cancel."
     ]
    }
   ]
@@ -48,22 +214,105 @@
  "bio11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 4.1341,
-  "slots": 1,
+  "val_loss": 3.5011,
+  "slots": 8,
   "neural_accepted": 0,
-  "bank_fallback": 1,
-  "attempts": 1,
-  "units_hit": 1,
-  "bank_items": 455,
-  "seconds": 0.3,
+  "bank_fallback": 8,
+  "attempts": 16,
+  "units_hit": 5,
+  "bank_items": 749,
+  "seconds": 4.7,
   "samples": [
+   {
+    "unit": "Biomolecules and Cell Biology",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "1. The Golgi body forms lysosomes and secretes polysaccharides for the cell wall. 2. It supplies vesicles that fuse to form the cell plate during plant cytokinesis. 3. During fertilization, the antheridium bursts in water releasing antherozoids. 4. Antherozoids swim towards the archegonium guided by chemicals like sucrose and organic acids. 5. These chemicals are released by the disintegrating neck canal cells, attracting the antherozoids to complete fertilization.",
+     "Describe the functions of the Golgi body in plant cells during cytokinesis and explain the process of fertilization involving antherozoids in plants."
+    ]
+   },
+   {
+    "unit": "Floral Diversity",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Fabaceae",
+     "A botanist is identifying a plant in the field and notes that it has pinnately compound leaves, a pulvinus at the leaf base, and root nodules. Which family does this plant most likely belong to?",
+     "Ranunculaceae",
+     "Lamiaceae",
+     "Poaceae",
+     "The presence of pinnately compound leaves, a pulvinus at the leaf base, and root nodules are characteristic features of plants in the Fabaceae family."
+    ]
+   },
+   {
+    "unit": "Biomolecules and Cell Biology",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "It converts the chemical energy of food into ATP, the cell's usable energy currency.",
+     "Why is the mitochondrion referred to as the powerhouse of the cell?",
+     "It stores genetic information necessary for cellular functions.",
+     "It synthesizes proteins using ribosomes attached to its membrane.",
+     "It regulates the cell cycle and division processes.",
+     "The mitochondrion is called the powerhouse because it converts food's chemical energy into ATP, the usable energy form for cells."
+    ]
+   },
    {
     "unit": "Floral Diversity",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Nepal's altitudinal range creates diverse climates, akin to traveling 1,000 km towards the pole for every 1,000 m climbed, stacking multiple ecosystems. Fungi's absorptive heterotrophy leads to hyphal structure for efficient substrate penetration, making them key decomposers and common parasites.",
-     "Explain how Nepal's altitudinal range contributes to its status as a biodiversity hotspot and describe the role of absorptive heterotrophy in fungi."
+     "Datura's fruit is a capsule. Its ovary is four-chambered due to a false septum.",
+     "Describe the fruit type of Datura and explain how its ovary is structured."
+    ]
+   },
+   {
+    "unit": "Introductory Microbiology",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "lytic",
+     "Which of the following cycles involves a bacteriophage directly leading to the destruction of the host bacterial cell?",
+     "lysogenic",
+     "binary fission",
+     "conjugation",
+     "The lytic cycle results in the destruction of the host bacterial cell by the bacteriophage."
+    ]
+   },
+   {
+    "unit": "Floral Diversity",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "sporangiospores",
+     "The asexual spores produced inside a sporangium of Mucor are",
+     "conidia",
+     "ascospores",
+     "basidiospores",
+     "sporangiospores are formed inside a sac; conidia are formed externally in chains (Penicillium)."
+    ]
+   },
+   {
+    "unit": "Faunal Diversity",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "The American cockroach has a flattened body divided into head, thorax, and abdomen, equipped with long antennae, wings, and three pairs of jointed legs. Its skin is smooth, moist, and scaleless, loosely attached. It contains numerous mucous glands and blood capillaries, serving dual functions as a respiratory organ and protective covering. This integument facilitates respiration and offers protection against physical and microbial threats.",
+     "Describe the external morphology of the American cockroach (*Periplaneta americana*) and explain the function of its skin."
+    ]
+   },
+   {
+    "unit": "Biota and Environment",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "mercury",
+     "Minamata disease was caused by pollution of water with",
+     "cadmium",
+     "lead",
+     "fluoride",
+     "methylmercury discharged into Minamata Bay, Japan, and concentrated in fish."
     ]
    }
   ]
@@ -71,22 +320,105 @@
  "phy12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.6774,
-  "slots": 1,
-  "neural_accepted": 0,
-  "bank_fallback": 1,
-  "attempts": 1,
-  "units_hit": 1,
-  "bank_items": 590,
-  "seconds": 0.5,
+  "val_loss": 2.6191,
+  "slots": 8,
+  "neural_accepted": 1,
+  "bank_fallback": 7,
+  "attempts": 16,
+  "units_hit": 6,
+  "bank_items": 1006,
+  "seconds": 9.3,
   "samples": [
    {
-    "unit": "Magnetic properties of materials",
+    "unit": "Diffraction",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "From $\\sin\\theta_1 = \\dfrac{600\\times10^{-9}}{0.20\\times10^{-3}} = 3.0\\times10^{-3}$, we get $\\theta_1 = 0.17^\\circ$. For the second order, $\\theta_2 = 36.1^\\circ$ and for the third order, $\\theta_3 = 62.1^\\circ$.",
+     "Calculate $\\theta_1$ using $\\sin\\theta_1 = \\dfrac{\\lambda}{a}$ where $\\lambda = 600\\times10^{-9}\\ m$ and $a = 0.20\\times10^{-3}\\ m$. Also, state the angles $\\theta_2$ and $\\theta_3$ corresponding to the second and third orders."
+    ]
+   },
+   {
+    "unit": "Polarization",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$90^{\\circ}$",
+     "At the polarizing angle, the angle between the reflected and the refracted rays is",
+     "$0^{\\circ}$",
+     "$45^{\\circ}$",
+     "$180^{\\circ}$",
+     "Brewster's condition $i + r = 90^{\\circ}$ makes the reflected and refracted rays perpendicular."
+    ]
+   },
+   {
+    "unit": "Diffraction",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "It increases, following the relation $2\\lambda/a$.",
+     "What happens to the angular width of the central maximum when the width of the slit $a$ decreases?",
+     "It decreases, following the relation $2\\lambda/a$.",
+     "It remains constant regardless of the change in $a$.",
+     "It increases, following the relation $a/2\\lambda$.",
+     "The angular width $2\\lambda/a$ directly shows an inverse relationship with the slit width $a$, thus it increases as $a$ decreases."
+    ]
+   },
+   {
+    "unit": "Radioactivity and nuclear reaction",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "Hysteresis is the lagging of the magnetisation (or flux density $B$) behind the magnetising field $H$ when a ferromagnetic specimen is taken through a complete cycle of magnetisation.",
-     "What is hysteresis? Draw a labelled hysteresis loop. [3]"
+     "Laws of radioactive disintegration. (i) Radioactivity is a spontaneous nuclear process, unaffected by temperature, pressure, chemical combination or any other physical condition — it is a property of the nucleus alone.",
+     "State the laws of radioactive disintegration. [2]"
+    ]
+   },
+   {
+    "unit": "Alternating Currents",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "leads the voltage by $90^{\\circ}$",
+     "In a purely capacitive a.c. circuit, the current",
+     "is in phase with the voltage",
+     "lags the voltage by $90^{\\circ}$",
+     "leads by $45^{\\circ}$",
+     "$i = \\omega CV_0\\sin(\\omega t+\\pi/2)$."
+    ]
+   },
+   {
+    "unit": "Electrical circuits",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Apply the loop law to two loops and divide.",
+     "In proving the balance condition for a Wheatstone bridge, what is the required method involving Kirchhoff's laws?",
+     "Use Ohm's law directly on all resistors.",
+     "Sum currents at each node and equate them.",
+     "Integrate the voltage across each resistor.",
+     "The correct method for proving the balance condition involves applying the loop law to two loops and dividing them as stated in the standard procedure."
+    ]
+   },
+   {
+    "unit": "Polarization",
+    "kind": "short",
+    "source": "neural",
+    "segs": [
+     "Planck's law law law law law law law law law law law law law law law law law and Malus's law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law",
+     "In law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law law"
+    ]
+   },
+   {
+    "unit": "Semiconductor devices",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$1.4\\ \\text{V}$",
+     "What is the voltage drop across two conducting diodes in series?",
+     "$0.7\\ \\text{V}$",
+     "$2.8\\ \\text{V}$",
+     "$0.35\\ \\text{V}$",
+     "Each diode drops $0.7\\ \\text{V}$, so two in series would drop $1.4\\ \\text{V}$."
     ]
    }
   ]
@@ -94,22 +426,105 @@
  "chem11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.941,
-  "slots": 1,
+  "val_loss": 2.8785,
+  "slots": 8,
   "neural_accepted": 0,
-  "bank_fallback": 1,
-  "attempts": 1,
-  "units_hit": 1,
-  "bank_items": 209,
-  "seconds": 0.2,
+  "bank_fallback": 8,
+  "attempts": 16,
+  "units_hit": 6,
+  "bank_items": 416,
+  "seconds": 9.2,
   "samples": [
    {
-    "unit": "Stoichiometry",
+    "unit": "Aromatic Hydrocarbons",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "CO₂ is linear, so its two equal C=O bond dipoles point in exactly opposite directions and cancel: $\\mu = 0$.",
-     "The dipole moment of H₂O is 1.85 D but that of CO₂ is zero, although both contain polar bonds. Explain, and calculate the resultant for water from an O–H bond moment of 1.5 D and a bond angle of 104.5°."
+     "The balanced equation is 2C₆H₆ + 15O₂ → 12CO₂ + 6H₂O. Molar mass of benzene = 78 g mol⁻¹, so moles of benzene = 7.8 / 78 = 0.10 mol.",
+     "7.8 g of benzene is completely burnt in oxygen. Calculate the volume of carbon dioxide produced at STP."
+    ]
+   },
+   {
+    "unit": "Foundation and Fundamentals",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$\\text{CH}_2\\text{O}$",
+     "The empirical formula of glucose, $\\text{C}_6\\text{H}_{12}\\text{O}_6$, is",
+     "$\\text{CH}$",
+     "$\\text{C}_2\\text{H}_4\\text{O}_2$",
+     "$\\text{C}_3\\text{H}_6\\text{O}_3$",
+     "divide the subscripts $6:12:6$ by 6."
+    ]
+   },
+   {
+    "unit": "Chemistry of Metals",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Coke",
+     "In the process of metal extraction, which compound acts as a universal reducing agent for moderately reactive metals such as zinc and iron?",
+     "Iron oxide",
+     "Carbon dioxide",
+     "Zinc oxide",
+     "Coke is the universal reducing agent for metals of moderate reactivity."
+    ]
+   },
+   {
+    "unit": "Chemistry of Non-metals",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "Nitric acid ($\\text{HNO}_3$) turns yellow due to dissolved $\\text{NO}_2$ formed by $4\\text{HNO}_3 \\rightarrow 4\\text{NO}_2 + 2\\text{H}_2\\text{O} + \\text{O}_2$ in light. Oleum is prepared by dissolving SO₃ in 98% H₂SO₄: $\\text{SO}_3 + \\text{H}_2\\text{SO}_4 \\rightarrow \\text{H}_2\\text{S}_2\\text{O}_7$.",
+     "Describe the formation of yellow color in nitric acid and the reaction involved in the preparation of oleum from SO₃ and 98% H₂SO₄."
+    ]
+   },
+   {
+    "unit": "Fundamental Principles of Organic Chemistry",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "free radicals",
+     "Homolytic fission of a covalent bond produces",
+     "cations and anions",
+     "carbanions only",
+     "carbocations only",
+     "each fragment keeps one electron."
+    ]
+   },
+   {
+    "unit": "Modern Chemical Manufactures",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$\\text{CaCl}_2$",
+     "The by-product of the Solvay process is",
+     "$\\text{NH}_3$",
+     "NaOH",
+     "$\\text{CaCO}_3$",
+     "formed when $\\text{NH}_4\\text{Cl}$ is treated with $\\text{Ca(OH)}_2$ to recover ammonia."
+    ]
+   },
+   {
+    "unit": "Aromatic Hydrocarbons",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "Cyclobutadiene is planar, cyclic and conjugated but holds 4 π electrons (4n), so it is destabilised relative to the open chain — antiaromatic. Benzene holds 6 π (4n + 2 with n = 1) in a regular planar hexagon — aromatic.",
+     "State Hückel's rule and explain, with reasons, why cyclobutadiene is antiaromatic, benzene is aromatic and cyclooctatetraene is non-aromatic."
+    ]
+   },
+   {
+    "unit": "Chemistry of Non-metals",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$0.10\\ \\mathrm{mol}$",
+     "Given the reaction $\\mathrm{Zn + H_2SO_4 \\rightarrow ZnSO_4 + H_2\\uparrow}$, if you start with 6.5 grams of zinc, how many moles of hydrogen gas will be produced?",
+     "$0.20\\ \\mathrm{mol}$",
+     "$0.05\\ \\mathrm{mol}$",
+     "$0.15\\ \\mathrm{mol}$",
+     "Starting with 6.5 grams of zinc produces 0.10 moles of hydrogen gas."
     ]
    }
   ]
@@ -117,22 +532,529 @@
  "chem12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.4853,
-  "slots": 1,
+  "val_loss": 3.3057,
+  "slots": 8,
   "neural_accepted": 0,
-  "bank_fallback": 1,
-  "attempts": 1,
-  "units_hit": 1,
-  "bank_items": 354,
-  "seconds": 0.9,
+  "bank_fallback": 8,
+  "attempts": 16,
+  "units_hit": 6,
+  "bank_items": 580,
+  "seconds": 8.8,
   "samples": [
    {
-    "unit": "Organometallic Compounds",
+    "unit": "Chemical Kinetics",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "(a) HCHO + CH₃MgI → ethanol (1°); CH₃CHO + CH₃MgI → propan-2-ol (2°); CH₃COCH₃ + CH₃MgI → 2-methylpropan-2-ol (3°). Each requires acid hydrolysis of the alkoxide intermediate R–OMgI.(b) Moles of CH₄ = 0.448 / 22.4 = 0.0200 mol. Moles of compound = 0.90 / 90 = 0.0100 mol. Ratio 2 : 1, so the molecule has 2 active hydrogen atoms — consistent with lactic acid, CH₃CH(OH)COOH (M = 90), which has one –OH and one –COOH hydrogen.",
-     "a) Show how 1°, 2° and 3° alcohols are prepared from Grignard reagents, using ethanal, methanal and propanone as the carbonyl compounds. b) 0.90 g of a compound of molar mass 90 g mol⁻¹ liberates 448 cm³ of methane at STP with excess CH₃MgI. How many active hydrogen atoms has it?"
+     "$\\log\\frac{4.0\\times10^{-3}}{2.0\\times10^{-4}} = \\log 20 = 1.3010$.",
+     "The rate constant of a reaction is $2.0\\times10^{-4}$ s⁻¹ at 500 K and $4.0\\times10^{-3}$ s⁻¹ at 600 K. Calculate the activation energy."
+    ]
+   },
+   {
+    "unit": "Alcohols",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "propan-2-ol",
+     "Which alcohol gives a yellow precipitate with I₂ and NaOH?",
+     "methanol",
+     "propan-1-ol",
+     "2-methylpropan-1-ol",
+     "the iodoform test needs a CH₃CH(OH)– group (or CH₃CO–). Methanol and propan-1-ol have neither; ethanol is the one primary alcohol that responds."
+    ]
+   },
+   {
+    "unit": "Carboxylic Acid and its Derivatives",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "α-position",
+     "The Hell–Volhard–Zelinsky reaction introduces a halogen at the",
+     "β-position",
+     "γ-position",
+     "carbonyl carbon",
+     "the enol of the acid halide is halogenated next to the carbonyl."
+    ]
+   },
+   {
+    "unit": "Haloalkanes",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "The rate law for the reaction of haloalkanes is $\\text{rate} = k[\\text{R-X}]$, indicating first-order kinetics. If the carbon attached to the halogen is chiral, nucleophilic attack can occur from both faces, leading to a racemic mixture due to racemization.",
+     "Explain the rate law for the reaction of haloalkanes and what happens if the carbon attached to the halogen is chiral."
+    ]
+   },
+   {
+    "unit": "Aldehydes and Ketones",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "NaHSO₃",
+     "The reagent used to purify an aldehyde through a crystalline addition compound is",
+     "NaOH",
+     "NH₃",
+     "HCN",
+     "the sodium bisulphite adduct crystallises out and is decomposed later with dilute acid or alkali to return the pure carbonyl compound."
+    ]
+   },
+   {
+    "unit": "Chemical Kinetics",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "in microseconds",
+     "In chemical kinetics, if every collision led to a reaction, how long would it take for gas reactions to complete?",
+     "in minutes",
+     "in hours",
+     "in days",
+     "If every collision worked, all gas reactions would be over in microseconds."
+    ]
+   },
+   {
+    "unit": "Aldehydes and Ketones",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "1. Heating $\\ce{CH3CH(OH)CH2CHO}$ causes dehydration: $\\ce{CH3CH(OH)CH2CHO ->[\\Delta] CH3CH=CHCHO + H2O}$. 2. Further reduction removes all oxygen, converting >C=O to >CH₂. 3. The final product is $\\ce{CH3CH=CHCH3}$.",
+     "Describe the complete reduction process of an aldol condensation product using the example of $\\ce{CH3CH(OH)CH2CHO}$ and state the final product formed."
+    ]
+   },
+   {
+    "unit": "Organometallic Compounds",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$\\ce{CH3CH2MgBr}$",
+     "When bromoethane ($\\ce{CH3CH2Br}$) reacts with magnesium ($\\ce{Mg}$) in dry diethyl ether, which organometallic compound is formed?",
+     "$\\ce{C6H5MgBr}$",
+     "$\\ce{CH3CH2MgCl}$",
+     "$\\ce{CH3CH2OH}$",
+     "The reaction between bromoethane and magnesium in dry diethyl ether produces ethylmagnesium bromide ($\\ce{CH3CH2MgBr}$) as shown in the chemical equation."
+    ]
+   }
+  ]
+ },
+ "math11": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 1.9558,
+  "slots": 8,
+  "neural_accepted": 0,
+  "bank_fallback": 8,
+  "attempts": 16,
+  "units_hit": 7,
+  "bank_items": 544,
+  "seconds": 7.0,
+  "samples": [
+   {
+    "unit": "Computational Methods",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "The $(i,j)$ entry of $A(\\mathrm{adj}\\,A)$ is $\\sum_k a_{ik}C_{jk}$.",
+     "Show that $A(\\mathrm{adj}\\,A) = |A|\\,I$ and deduce the formula for $A^{-1}$."
+    ]
+   },
+   {
+    "unit": "Real Numbers",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$\\sqrt{3}$",
+     "Given a right triangle with legs of lengths $\\sqrt{2}$ and $1$, what is the length of the radius $OQ$ of the circle centered at the origin that intersects the x-axis at the point representing $\\sqrt{3}$?",
+     "$\\sqrt{2}$",
+     "2",
+     "$\\sqrt{5}$",
+     "The radius $OQ$ is calculated as $\\sqrt{(\\sqrt{2})^2 + 1^2} = \\sqrt{3}$."
+    ]
+   },
+   {
+    "unit": "Limits and Continuity",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "The behavior of $f$ near $a$",
+     "What does $\\lim_{x\\to a}f(x) = L$ describe regarding the function $f$?",
+     "The value of $f(a)$",
+     "The maximum value of $f(x)$ at $x=a$",
+     "The rate of change of $f$ at $x=a$",
+     "$\\lim_{x\\to a}f(x) = L$ describes the behavior of $f$ near $a$, not the value at $a$."
+    ]
+   },
+   {
+    "unit": "Anti-derivatives",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "To find $s(t)$, integrate $v(t) = 3t^{2}-4t+2$: $$s(t) = \\int (3t^{2}-4t+2) dt = t^{3}-2t^{2}+2t + C.$$ Applying the initial condition $s(0) = 5$, we get $C = 5$. Thus, $s(t) = t^{3}-2t^{2}+2t+5$. Next, evaluate $\\int\\left(x+2+\\frac{1}{x}\\right)dx$: $$\\int\\left(x+2+\\frac{1}{x}\\right)dx = \\frac{x^{2}}{2} + 2x + \\ln|x| + C.$$",
+     "Given the velocity function $v(t) = 3t^{2}-4t+2$, find the displacement function $s(t)$ if the initial condition is $s(0) = 5$. Also, evaluate the integral $\\int\\left(x+2+\\frac{1}{x}\\right)dx$."
+    ]
+   },
+   {
+    "unit": "Straight Line",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$\\sqrt{2}$",
+     "The distance of the point $(-1,3)$ from the line $x+y=0$ is",
+     "2",
+     "$2\\sqrt{2}$",
+     "1",
+     "$\\frac{|-1+3|}{\\sqrt{2}}=\\sqrt{2}$; (a) forgets to divide by $\\sqrt{2}$."
+    ]
+   },
+   {
+    "unit": "Matrices and Determinants",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$|A|\\,I$",
+     "For a square matrix $A$, $A\\cdot\\text{adj}A$ equals",
+     "$A^2$",
+     "$I$",
+     "$O$",
+     "$A\\,\\text{adj}A=|A|I$, the identity behind the inverse formula."
+    ]
+   },
+   {
+    "unit": "Measures of Dispersion",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "1. Compute the mean $\\bar{x} = \\dfrac{\\sum fx}{N}$. 2. Calculate $\\dfrac{\\sum fx^{2}}{N}$. 3. Determine $\\sigma = \\sqrt{\\dfrac{\\sum fx^{2}}{N} - \\bar{x}^{2}}$.",
+     "Given a frequency distribution, calculate the standard deviation ($\\sigma$) using the formula $\\sigma = \\sqrt{\\dfrac{\\sum fx^{2}}{N} - \\bar{x}^{2}}$, where $\\bar{x} = \\dfrac{\\sum fx}{N}$ and $N = \\sum f$. Show your steps."
+    ]
+   },
+   {
+    "unit": "Anti-derivatives",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$9$",
+     "The area bounded by $y = x^{2}$, the $x$-axis and $x = 3$ is",
+     "$3$",
+     "$6$",
+     "$27$",
+     "$\\int_0^3 x^2dx = [x^3/3]_0^3 = 9$."
+    ]
+   }
+  ]
+ },
+ "math12": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 2.1646,
+  "slots": 8,
+  "neural_accepted": 0,
+  "bank_fallback": 8,
+  "attempts": 16,
+  "units_hit": 5,
+  "bank_items": 605,
+  "seconds": 11.8,
+  "samples": [
+   {
+    "unit": "Product of Vectors",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "\"Cosines proportional to the opposite sides\" means $\\dfrac{\\cos A}{a}=\\dfrac{\\cos B}{b}$. By the sine law $a=2R\\sin A$ and $b=2R\\sin B$, so",
+     "If the cosines of two angles of a triangle are proportional to the opposite sides, show that it is isosceles. [2]"
+    ]
+   },
+   {
+    "unit": "Product of Vectors",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$1$",
+     "If $\\hat{a}$ and $\\hat{b}$ are unit vectors inclined at $60^{\\circ}$, then $|\\hat{a}-\\hat{b}|$ is",
+     "$\\sqrt{2}$",
+     "$\\sqrt{3}$",
+     "$2$",
+     "$|\\hat{a}-\\hat{b}|^{2} = 1+1-2\\cos 60^{\\circ} = 1$."
+    ]
+   },
+   {
+    "unit": "Matrix Based System of Linear Equations",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$0\\;\\;0\\;\\mid\\;5$",
+     "A system of linear equations is inconsistent when a row of the reduced augmented matrix reads",
+     "$0\\;\\;0\\;\\mid\\;0$",
+     "$1\\;\\;0\\;\\mid\\;0$",
+     "$0\\;\\;1\\;\\mid\\;3$",
+     "that row says $0=5$, which is impossible, so no solution exists."
+    ]
+   },
+   {
+    "unit": "Anti-derivatives",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "1. If $F$ is an anti-derivative of $f$, then $\\frac{d}{dx}(F(x)) = f(x)$. 2. For any constant $C$, the derivative of $F(x) + C$ is $\\frac{d}{dx}(F(x) + C) = \\frac{d}{dx}(F(x)) + \\frac{d}{dx}(C) = f(x) + 0 = f(x)$, showing $F(x) + C$ is also an anti-derivative of $f$. 3. The presence of $+C$ indicates there are infinitely many anti-derivatives differing by a constant. 4. A vertical strip at $x$ with height $y$ and thickness $dx$ has an infinitesimal area of $y\\,dx$. 5. Integrating $y\\,dx$ from $a$ to $b$ sums all such strips to find the total area under the curve between $x=a$ and $x=b$.",
+     "Given that $F$ is an anti-derivative of $f$, explain why $F(x) + C$ is also an anti-derivative of $f$ for any constant $C$. Further, describe how a vertical strip at $x$ contributes to the calculation of the area under a curve using integration."
+    ]
+   },
+   {
+    "unit": "Solution of Triangles",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$\\sin B=\\dfrac{b\\sin A}{a}$",
+     "In the SSA case of solving triangles where sides $a$, $b$ and angle $A$ are given, what formula is used to find $\\sin B$?",
+     "$\\sin B=\\dfrac{a\\sin A}{b}$",
+     "$\\sin B=\\dfrac{a+b}{\\sin A}$",
+     "$\\sin B=\\dfrac{b-a}{\\sin A}$",
+     "The given formula correctly represents the relationship derived from the sine rule for finding $\\sin B$ in the SSA case."
+    ]
+   },
+   {
+    "unit": "Anti-derivatives",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$(F-G)' = 0$",
+     "If two functions $F(x)$ and $G(x)$ have the same derivative $f(x)$, which statement correctly describes their difference?",
+     "$(F-G)' = f(x)$",
+     "$(F-G) = f(x)$",
+     "$(F+G)' = 0$",
+     "A function with zero derivative on an interval is constant."
+    ]
+   },
+   {
+    "unit": "Correlation and Regression",
+    "kind": "short",
+    "source": "bank:gold",
+    "segs": [
+     "Let the line be $y = a + bx$. The vertical error at the $i^{\\text{th}}$ point is $y_i - a - bx_i$, so we minimise $S = \\sum(y_i - a - bx_i)^{2}$.",
+     "Using the method of least squares, derive the equation of the line of regression of $y$ on $x$ and show that it passes through $(\\bar{x}, \\bar{y})$."
+    ]
+   },
+   {
+    "unit": "Product of Vectors",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "$0$",
+     "The value of $\\hat{i}\\cdot\\hat{j} + \\hat{j}\\cdot\\hat{k} + \\hat{k}\\cdot\\hat{i}$ is",
+     "$1$",
+     "$3$",
+     "$-1$",
+     "every term is the dot product of two different base vectors, and each of those is $0$."
+    ]
+   }
+  ]
+ },
+ "cs11": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 3.9843,
+  "slots": 8,
+  "neural_accepted": 1,
+  "bank_fallback": 7,
+  "attempts": 16,
+  "units_hit": 6,
+  "bank_items": 387,
+  "seconds": 8.0,
+  "samples": [
+   {
+    "unit": "Number System and Boolean Logic",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "1. Construct columns for $A$, $B$, $A'$, $A + A'B$, and $A + B$. 2. Fill each row showing $A + A'B$ and $A + B$ have matching values. 3. Confirm identity by verifying identical column results.",
+     "Verify the Boolean algebra identity $A + A'B = A + B$ using truth tables."
+    ]
+   },
+   {
+    "unit": "Programming Concepts and Logics",
+    "kind": "mcq",
+    "source": "neural",
+    "segs": [
+     "A flowchart is the pictorial representation of an algorithm, drawn with standard symbols joined by flow lines.",
+     "What is the pictorial representation of an algorithm using standard symbols joined by flow lines. How is defined as standard symbols joined by flow lines?",
+     "A flowchart represents the pictorial representation of an algorithm using standard symbols joined by flow lines.",
+     "A chart showing the description of an algorithm using standard symbols joined by flow lines.",
+     "A flowchart represents the description of an algorithm using programming language program.",
+     "The description of an algorithm using standard symbols joined by flow lines."
+    ]
+   },
+   {
+    "unit": "Web Technology I",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "Inline rule beats the embedded rule, which beats the external rule.",
+     "In web technology, when there is a conflict among CSS rules, which of the following best describes the precedence order?",
+     "External rule has the highest precedence over all others.",
+     "Embedded rule takes precedence over inline and external rules.",
+     "All CSS rules have equal precedence, decided by their specificity.",
+     "The cascade rule specifies that inline styles have higher precedence than embedded styles, which in turn have higher precedence than external styles."
+    ]
+   },
+   {
+    "unit": "Information Security and Cyber Law",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "The Electronic Transactions Act, 2063 in Nepal consists of 12 chapters and 80 sections. It regulates the use of computers, the internet, and electronic information. Chapter 9 specifically outlines the offences under this act.",
+     "Briefly describe the key components of Nepal's Electronic Transactions Act, 2063."
+    ]
+   },
+   {
+    "unit": "Number System and Boolean Logic",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$F = \\sum m(0,1,4,5,6,7,10,12,13,14,15)$",
+     "Which of the following represents the sum of minterms for a four-variable K-map where groups of eight, four, and two are ringed?",
+     "$F = \\sum m(0,2,4,6,8,10,12,14)$",
+     "$F = \\sum m(1,3,5,7,9,11,13,15)$",
+     "$F = \\sum m(0,1,2,3,12,13,14,15)$",
+     "The given minterm expression matches the description of the groups formed in the K-map as specified."
+    ]
+   },
+   {
+    "unit": "Multimedia",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "<video>",
+     "Which HTML5 element is used to play a video file?",
+     "<movie>",
+     "<media>",
+     "<play>",
+     "HTML5 added <video> and <audio>."
+    ]
+   },
+   {
+    "unit": "Computer Software and Operating System",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "1. An OS acts as an intermediary between the user and hardware, facilitating interaction and resource management. 2. The kernel component of the OS directly communicates with the hardware. 3. The shell serves as the command interpreter between users and the kernel. 4. UAC enhances security by requesting confirmation before any program executes changes affecting the entire system. 5. The Control Panel provides a centralized configuration interface for various settings within Windows.",
+     "Explain the role of an operating system in managing user interactions with the hardware and how User Account Control (UAC) and the Control Panel fit into this process."
+    ]
+   },
+   {
+    "unit": "Computer Software and Operating System",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "multitasking",
+     "Executing several programs on a single CPU by giving each a fixed time slice is called",
+     "multiprogramming",
+     "multiprocessing",
+     "batch processing",
+     "the fixed time slice is the mark of multitasking."
+    ]
+   }
+  ]
+ },
+ "cs12": {
+  "params": 10203840,
+  "onnx_mb": 10.73,
+  "val_loss": 4.4192,
+  "slots": 8,
+  "neural_accepted": 1,
+  "bank_fallback": 7,
+  "attempts": 16,
+  "units_hit": 4,
+  "bank_items": 361,
+  "seconds": 4.0,
+  "samples": [
+   {
+    "unit": "Object-Oriented Programming",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "Polymorphism allows one name or message to have different behaviors based on context. A base pointer fails to invoke a derived function without virtual because it calls the function based on static type, not dynamic type. Virtual functions enable dynamic binding, ensuring the correct derived function is called.",
+     "Explain polymorphism and describe why a base pointer might fail to call a derived function without using virtual functions."
+    ]
+   },
+   {
+    "unit": "Database Management System",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "A LEFT JOIN keeps all rows from the left table, even if there are no matches in the right table.",
+     "Why does a LEFT JOIN keep unmatched rows from the left table when joining with another table?",
+     "A LEFT JOIN only keeps rows that have a match in both tables.",
+     "A LEFT JOIN removes all unmatched rows to ensure data consistency.",
+     "A LEFT JOIN combines rows based on hierarchical relationships.",
+     "A LEFT JOIN keeps unmatched rows from the left table, which directly supports the correct answer."
+    ]
+   },
+   {
+    "unit": "Software Process Model",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "spiral",
+     "Which model is driven by risk analysis at the start of every cycle?",
+     "waterfall",
+     "V-model",
+     "big-bang",
+     "each spiral loop is plan, risk-analyse, engineer, evaluate."
+    ]
+   },
+   {
+    "unit": "Database Management System",
+    "kind": "short",
+    "source": "bank:teacher",
+    "segs": [
+     "A DBMS is software managing shared, integrated data, involving hardware, software, data, users, and procedures. It enables defining, storing, retrieving, updating, and protecting data. In 1NF, each column must hold a single atomic value, eliminating repeating groups. This ensures every entry in a column is unique and indivisible, forming the basis for relational databases. $1NF$ requires eliminating duplicative fields and ensuring columns contain only simple values.",
+     "Explain the concept of a database management system (DBMS) and describe the first normal form (1NF) in detail."
+    ]
+   },
+   {
+    "unit": "Database Management System",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "HAVING",
+     "Which clause filters groups produced by GROUP BY?",
+     "WHERE",
+     "ORDER BY",
+     "DISTINCT",
+     "WHERE filters rows before grouping, HAVING filters groups after."
+    ]
+   },
+   {
+    "unit": "Object-Oriented Programming",
+    "kind": "mcq",
+    "source": "bank:gold",
+    "segs": [
+     "goto statement",
+     "Which of the following is not a feature of object-oriented programming?",
+     "inheritance",
+     "polymorphism",
+     "data hiding",
+     "goto is an unstructured jump and belongs to no OOP principle."
+    ]
+   },
+   {
+    "unit": "Software Process Model",
+    "kind": "short",
+    "source": "neural",
+    "segs": [
+     "The waterfall model is the oldest software process model.",
+     "In the oldest software process model."
+    ]
+   },
+   {
+    "unit": "Recent Trends in Technology",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$17{,}280$",
+     "A sensor records data every 5 seconds. How many readings does it record in one day?",
+     "$8{,}640$",
+     "$34{,}560$",
+     "$5{,}184$",
+     "The calculation $\\dfrac{24 \\times 60 \\times 60}{5}$ correctly yields the total number of readings as $17{,}280$."
     ]
    }
   ]
