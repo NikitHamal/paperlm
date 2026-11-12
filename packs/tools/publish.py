@@ -4,7 +4,12 @@ import json, os, shutil, sys
 R = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")); SP = json.load(open(f"{R}/packs/pack_specs.json"))
 for pid in sys.argv[1:]:
     o = f"/tmp/packs/{pid}/out"; d = f"{R}/docs/packs/{pid}"; r = f"{R}/packs/{pid}"; os.makedirs(d, exist_ok=True); os.makedirs(r, exist_ok=True)
-    for f in ["model.onnx", "tokenizer.json", "pack.json", "syllabus_graph.json"]: shutil.copy(f"{o}/{f}", f"{d}/{f}")
+    keep_old = False  # v15 regression guard: a retrained model replaces the shipped one only if its held-out loss is not worse by > 2 %
+    try: keep_old = json.load(open(f"{o}/pack.json"))["val_loss"] > json.load(open(f"{d}/pack.json"))["val_loss"] * 1.02
+    except Exception: pass
+    print("model", pid, "KEPT previous (regression guard)" if keep_old else "replaced")
+    for f in ["model.onnx", "tokenizer.json", "pack.json", "syllabus_graph.json"]:
+        if not (keep_old and f in ("model.onnx", "tokenizer.json", "pack.json")): shutil.copy(f"{o}/{f}", f"{d}/{f}")
     json.dump(SP[pid].get("numeric", []), open(f"{d}/numeric_templates.json", "w"))
     # verified bank: gold NEB items + teacher items that passed blind multi-order solve / entailment / per-distractor probes (all stored with provenance)
     import glob, re
@@ -20,7 +25,7 @@ for pid in sys.argv[1:]:
     json.dump(bank, open(f"{d}/bank.json", "w"), ensure_ascii=False, separators=(",", ":"))
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import bank_qa; print("bank_qa", json.dumps(bank_qa.run(pid)))  # structural QA + part-aligned repair
     for f in ["model.tflite", "tflite_report.json"]:
-        if os.path.exists(f"{o}/{f}"): shutil.copy(f"{o}/{f}", f"{d}/{f}")
+        if not keep_old and os.path.exists(f"{o}/{f}"): shutil.copy(f"{o}/{f}", f"{d}/{f}")
     for f in ["train_report.json", "samples.json"]: shutil.copy(f"{o}/{f}", f"{r}/{f}")
     shutil.copy(f"/tmp/packs/{pid}/syllabus_graph.json", f"{r}/syllabus_graph.json")
 reg = []
