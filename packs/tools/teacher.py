@@ -81,7 +81,7 @@ def status(pid, **kw):
 for pid in sys.argv[1:]:
     S = SPECS[pid]; D = f"/tmp/packs/{pid}"; A = [json.loads(l) for l in open(f"{D}/anchors.jsonl")]; rng = random.Random(7); rng.shuffle(A)
     pri = {"law": 0, "formula": 0, "def": 1, "fact": 2}; A = sorted(A, key=lambda a: pri[a["kind"]] + rng.random() * 1.2)[OFF:OFF + MAXA]; amap = {a["aid"]: a["anchor"] for a in A}
-    todo = [(a, STYLES[i % 5]) for i, a in enumerate(A)] + [(a, STYLES[(i + 2) % 5]) for i, a in enumerate(A) if a["kind"] != "fact" and i % 2 == 0]
+    SH = int(os.environ.get("SH", 0)); todo = [(a, STYLES[(i + SH) % 5]) for i, a in enumerate(A)] + [(a, STYLES[(i + 2 + SH) % 5]) for i, a in enumerate(A) if a["kind"] != "fact" and i % 2 == 0]
     fr = open(f"{D}/raw{SUF}.jsonl", "w")
     fo = open(f"{D}/verified{SUF}.jsonl", "w"); nraw = nkeep = 0; t0 = time.time(); seen = set()
     for c in range(0, len(todo), 384):
