@@ -1,0 +1,2 @@
+
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":6.5739,"slots":10,"neural_accepted":0,"neural_attempts":30,"neural_gate_rate":0,"bank_fallback":0,"empty":10,"units_covered":"0/10","duplicates":0,"bank_size":0,"bank_mcq":0,"bank_short":0,"seconds":52.8}
