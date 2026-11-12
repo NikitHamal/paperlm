@@ -1,19 +1,12 @@
 {
  "pack": "cs12",
- "bank_in": 830,
- "bank_kept": 742,
- "dropped": 88,
+ "bank_in": 740,
+ "bank_kept": 718,
+ "dropped": 22,
  "reasons": {
-  "leaked_context": 53,
-  "needs_figure": 18,
-  "answer_giveaway": 15,
-  "orphan_stem": 4,
-  "latex": 2,
-  "stem_fragment": 2,
-  "empty_or_tiny_stem": 1,
-  "dangling_pronoun_option": 1
+  "topic_mashup": 22
  },
- "mcq": 597,
- "written": 145,
+ "mcq": 595,
+ "written": 123,
  "units": 7
 }

@@ -1,20 +1,13 @@
 {
  "pack": "chem11",
- "bank_in": 1214,
- "bank_kept": 1150,
- "dropped": 64,
+ "bank_in": 1150,
+ "bank_kept": 1119,
+ "dropped": 31,
  "reasons": {
-  "leaked_context": 32,
-  "answer_giveaway": 24,
-  "orphan_stem": 3,
-  "stem_fragment": 2,
-  "empty_or_tiny_stem": 1,
-  "dup_option": 1,
-  "arithmetic_error": 1,
-  "needs_figure": 1,
-  "meta_exam_question": 1
+  "topic_mashup": 30,
+  "ungrounded_referent": 1
  },
  "mcq": 864,
- "written": 286,
+ "written": 255,
  "units": 17
 }

@@ -8,8 +8,8 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1208,
-  "seconds": 3.1,
+  "bank_items": 1157,
+  "seconds": 3.5,
   "samples": [
    {
     "unit": "Developmental Biology",
@@ -57,16 +57,16 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1397,
-  "seconds": 6.2,
+  "bank_items": 1361,
+  "seconds": 6.0,
   "samples": [
    {
     "unit": "Work, energy and power",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The acceleration $a$ can be expressed using the formula $v^2 = u^2 + 2as$. Rearranging gives $a = \\frac{v^2 - u^2}{2s}$.",
-     "A body accelerates from an initial speed $u$ to a final speed $v$ over a distance $s$. Express the acceleration $a$ of the body in terms of $u$, $v$, and $s$."
+     "Efficiency is below 100% due to energy loss as heat and sound. Output power is calculated as $P = mgh/t$. Efficiency loss occurs because not all input energy is converted into useful work.",
+     "Explain why the efficiency of a pump lifting a mass $m$ of water through a height $h$ in time $t$ is always below 100%, and write the formula for its output power."
     ]
    },
    {
@@ -106,7 +106,7 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 2,
-  "bank_items": 1149,
+  "bank_items": 1098,
   "seconds": 3.9,
   "samples": [
    {
@@ -114,8 +114,8 @@
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Chromosomes are composed of two sister chromatids joined by a centromere and appear as the shortest and thickest structures during cell division, ideal for counting and study. In animals, centrioles pair and migrate to opposite poles, initiating spindle formation through microtubule extension. Plants lack centrioles but still form spindles via microtubules emanating from polar regions. These mechanisms ensure chromosome separation during mitosis.",
-     "Describe the structure and composition of chromosomes during cell division and explain the differences in spindle formation between animal and plant cells."
+     "The mitochondrial matrix contains 70S ribosomes for protein synthesis and circular DNA for self-replication. Mitochondria divide by fission.",
+     "Describe two features of mitochondrial matrix relevant to protein synthesis and division."
     ]
    },
    {
@@ -155,8 +155,8 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1418,
-  "seconds": 4.1,
+  "bank_items": 1390,
+  "seconds": 4.8,
   "samples": [
    {
     "unit": "First Law of Thermodynamics",
@@ -204,8 +204,8 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1150,
-  "seconds": 6.0,
+  "bank_items": 1119,
+  "seconds": 6.6,
   "samples": [
    {
     "unit": "Chemistry of Metals",
@@ -253,8 +253,8 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1101,
-  "seconds": 4.9,
+  "bank_items": 1073,
+  "seconds": 4.8,
   "samples": [
    {
     "unit": "Ionic Equilibrium",
@@ -302,8 +302,8 @@
   "bank_fallback": 2,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1089,
-  "seconds": 9.3,
+  "bank_items": 1085,
+  "seconds": 9.0,
   "samples": [
    {
     "unit": "Quadratic Equation",
@@ -351,8 +351,8 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 2,
-  "bank_items": 1056,
-  "seconds": 3.4,
+  "bank_items": 1043,
+  "seconds": 3.3,
   "samples": [
    {
     "unit": "Binomial Theorem",
@@ -400,16 +400,16 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 2,
-  "bank_items": 878,
-  "seconds": 2.5,
+  "bank_items": 841,
+  "seconds": 2.4,
   "samples": [
    {
     "unit": "Multimedia",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Graphics are static images including photographs, drawings, diagrams, logos, and charts. They efficiently convey visual information, making them ideal for quickly depicting appearances.",
-     "What are graphics and how do they function in visual communication?"
+     "Frame-by-frame animation involves drawing each frame individually, providing full control but requiring significant effort. Films use 24 frames per second, whereas frame-by-frame animation may vary. The effort for frame-by-frame animation is greater due to manual creation of each frame.",
+     "Explain the concept of frame-by-frame animation and compare it with films in terms of frame rate and effort required."
     ]
    },
    {
@@ -449,7 +449,7 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 2,
-  "bank_items": 740,
+  "bank_items": 718,
   "seconds": 2.8,
   "samples": [
    {
@@ -457,21 +457,21 @@
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The waterfall model is suitable for small and short projects with stable, well-understood requirements, such as a simple billing program or a copy of an existing system. It is also applicable when projects are bound by strict documentation rules. The system analyst plays a crucial role by studying the business problem to determine the system's required functionalities. This involves detailed analysis to ensure all project requirements are clearly defined before proceeding to the next phase, ensuring a linear and sequential development process.",
-     "Describe the context in which the waterfall model is suitable and explain the role of the system analyst in this process."
+     "A good software design has high cohesion ($C_i$) where each module performs a single function, and low coupling where modules minimally depend on each other. Testing integrates modules and validates them against requirements. Deployment involves installing the system and training users.",
+     "Explain the two key properties of a good software design and briefly describe the testing and deployment phases."
     ]
    },
    {
-    "unit": "Programming in C",
+    "unit": "Recent Trends in Technology",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "It passes copies of the variables, thus any changes made inside the function do not affect the original values.",
-     "Why does call by value in C programming not allow modification of the original variable passed to a function?",
-     "It locks the original variables to prevent any modifications during the function call.",
-     "It uses pointers to directly modify the memory location of the original variables.",
-     "It only allows read operations on the original variables without any write capabilities.",
-     "Call by value passes copies and cannot change the original."
+     "By analyzing user behavior to recommend similar products, saving user time and boosting sales.",
+     "How do video and shopping websites enhance user experience and seller profitability?",
+     "By providing free shipping on all items to attract more customers.",
+     "By offering discounts on bulk purchases to increase the quantity sold.",
+     "By limiting the number of advertisements shown to improve site speed.",
+     "These sites study user activity to suggest similar items, which both saves time for users and increases sales for sellers."
     ]
    },
    {

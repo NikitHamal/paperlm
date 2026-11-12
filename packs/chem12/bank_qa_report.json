@@ -1,21 +1,13 @@
 {
  "pack": "chem12",
- "bank_in": 1178,
- "bank_kept": 1106,
- "dropped": 72,
+ "bank_in": 1101,
+ "bank_kept": 1073,
+ "dropped": 28,
  "reasons": {
-  "leaked_context": 28,
-  "answer_giveaway": 18,
-  "truncated_answer": 9,
-  "orphan_stem": 8,
-  "no_answer": 7,
-  "needs_figure": 4,
-  "stem_fragment": 4,
-  "dangling_pronoun_option": 3,
-  "empty_or_tiny_stem": 2,
-  "arithmetic_error": 1
+  "topic_mashup": 27,
+  "ungrounded_referent": 1
  },
- "mcq": 879,
- "written": 227,
+ "mcq": 873,
+ "written": 200,
  "units": 21
 }
