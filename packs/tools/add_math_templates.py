@@ -65,7 +65,7 @@ M12 = [
       r"The quantity $y$ satisfies $\dfrac{dy}{dt} = @k@y$ with $y(0) = @y0@$. Find $y(@t@)$.", "y0*exp(k*t)", ["y0*k*t", "y0*exp(k+t)", "y0+k*t", "y0*exp(k)*t"], r"Solving $\dfrac{dy}{y} = k\,dt$ gives $y = y_0e^{kt}$.", "the solution of $y' = ky$",
       [r"$y = @y0@\,e^{@k@\times@t@}$", r"$y(@t@) = @ans@$"]),
 ]
-DROP = {"math12": ["pythag", "pct_change", "circle_area", "sphere_vol", "arc"], "math11": ["pythag", "pct_change"]}
+DROP = {"math12": ["pythag", "pct_change", "circle_area", "sphere_vol", "arc", "comp_int"], "math11": ["pythag", "pct_change", "trap_area"]}  # class 9/10 topics (finance, land area)
 
 
 def apply(path):
