@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PaperLM playground - on-device board paper setter</title>
+<meta name="description" content="PaperLM-Tiny (10M parameters) runs in your browser with ONNX Runtime Web and sets NEB, SEE, BLE, IOE, CEE, BCA, BSc Nursing and BE questions, MCQs and full model papers. Every item is verified: numbers are computed by a symbolic engine, facts come from closed-world audited tables, and every MCQ distractor is provably wrong.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem("plm-theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="brand"><span class="mark" aria-hidden="true"></span><div><h1>PaperLM</h1><p>On-device board paper setter</p></div></div>
+    <div class="top-r">
+      <span class="badge" id="b-ver" title="Model iteration">v?</span>
+      <span class="badge soft" id="b-loss" title="Validation loss / perplexity">loss -</span>
+      <button class="btn text" id="theme" type="button" aria-label="Toggle light and dark theme">Theme</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card controls" aria-label="Controls">
+    <div class="seg" role="tablist" id="modes">
+      <button role="tab" data-mode="single" aria-selected="true">Question</button>
+      <button role="tab" data-mode="or" aria-selected="false">Or twin</button>
+      <button role="tab" data-mode="mcq" aria-selected="false">MCQ practice</button>
+      <button role="tab" data-mode="paper" aria-selected="false">Model paper</button>
+      <span class="seg-ind" aria-hidden="true"></span>
+    </div>
+
+    <div class="grid">
+      <label class="fld"><span>Board and level</span><select id="f-preset"></select></label>
+      <label class="fld"><span>Subject</span><select id="f-subject"></select></label>
+      <label class="fld" id="w-unit"><span>Unit</span><select id="f-unit"></select></label>
+      <label class="fld" id="w-type"><span>Question type</span><select id="f-type"></select></label>
+      <label class="fld" id="w-marks"><span>Marks</span><select id="f-marks"></select></label>
+      <label class="fld" id="w-count"><span>Questions in test</span><input id="f-count" type="number" min="1" max="200" value="10"></label>
+    </div>
+
+    <details class="adv">
+      <summary>Sampling</summary>
+      <div class="grid">
+        <label class="fld"><span>Temperature <b id="v-temp">0.75</b></span><input id="f-temp" type="range" min="0.3" max="1.1" step="0.05" value="0.75"></label>
+        <label class="fld"><span>Experimental neural drafts: attempts per item (0 = verified only) <b id="v-cand">0</b></span><input id="f-cand" type="range" min="0" max="12" step="1" value="0"></label>
+        <label class="fld"><span>Seed</span><input id="f-seed" type="number" value="7"></label>
+        <label class="fld chk"><input id="f-rubric" type="checkbox" checked><span>Marking rubric / explanation</span></label>
+      </div>
+    </details>
+
+    <div class="actions">
+      <button class="btn filled big" id="go" type="button" disabled>Generate</button>
+      <button class="btn outlined" id="stop" type="button" hidden>Stop</button>
+      <button class="btn tonal" id="print" type="button" hidden>Print or save PDF</button>
+      <button class="btn tonal" id="keytoggle" type="button" hidden>Show answers</button>
+    </div>
+    <div class="load" id="load"><div class="bar"><i id="load-bar"></i></div><p id="load-msg">Loading model</p></div>
+  </section>
+
+  <section class="card stats" aria-label="Generation statistics" aria-live="polite">
+    <div class="stat"><b id="s-ms">-</b><span>ms per token</span></div>
+    <div class="stat"><b id="s-tok">0</b><span>tokens decoded</span></div>
+    <div class="stat"><b id="s-att">0</b><span>attempts</span></div>
+    <div class="stat"><b id="s-rej">0</b><span>rejected by verifier</span></div>
+    <div class="stat"><b id="s-items">0</b><span>items accepted</span></div>
+    <div class="stat wide"><span id="s-why">Rejections will be listed here.</span></div>
+  </section>
+
+  <section class="card quality" id="quality" hidden aria-label="Model quality"></section>
+
+  <section class="out" id="out" aria-label="Generated questions"></section>
+</main>
+
+<footer class="foot"><p>PaperLM-Tiny, 9.9M parameters, INT8 ONNX, runs entirely in this browser tab. Output is machine generated: validity is enforced by constrained decoding and a verifier, factual correctness must still be reviewed by a teacher.</p>
+<p><a href="https://github.com/NikitHamal/paperlm">Source and status log</a></p></footer>
+<script type="module" src="app.js"></script>
+</body>
+</html>

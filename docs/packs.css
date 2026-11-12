@@ -1,0 +1,22 @@
+:root{--bg:#fbfbf3;--surf:#f0f1e6;--card:#ffffff;--ink:#1b1c16;--mut:#5d6055;--pri:#2f6b3a;--onpri:#fff;--sec:#d6e8d2;--ter:#ffdcc1;--ol:#c4c8bb;--err:#ba1a1a}
+@media (prefers-color-scheme:dark){:root{--bg:#12140e;--surf:#1d2018;--card:#191c14;--ink:#e3e3d8;--mut:#a9ad9f;--pri:#9bd5a0;--onpri:#06390f;--sec:#2c4630;--ter:#5b3a1d;--ol:#44483c;--err:#ffb4ab}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Poppins",system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.bar{background:var(--surf);border-bottom:1px solid var(--ol)}.bar-in{max-width:980px;margin:auto;padding:20px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+h1{margin:0;font-size:2rem;letter-spacing:-.02em}h2{margin:0 0 12px;font-size:1.05rem}.bar p{margin:2px 0 0;color:var(--mut);font-size:.9rem}
+.link{color:var(--pri);font-weight:600;text-decoration:none;border:1px solid var(--ol);border-radius:999px;padding:8px 16px}.link:hover{background:var(--sec)}
+.wrap{max-width:980px;margin:auto;padding:20px;display:grid;gap:16px}.card{background:var(--card);border:1px solid var(--ol);border-radius:28px;padding:22px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}.chip{border:1px solid var(--ol);background:transparent;color:var(--ink);border-radius:16px;padding:10px 18px;font:inherit;cursor:pointer;text-align:left;transition:background .15s,border-radius .15s}
+.chip b{display:block;font-size:1rem}.chip span{font-size:.75rem;color:var(--mut)}.chip:hover{background:var(--surf)}.chip[aria-checked=true]{background:var(--sec);border-color:var(--pri);border-radius:24px}
+.chip:focus-visible,.btn:focus-visible,select:focus-visible,input:focus-visible,.tabs button:focus-visible{outline:3px solid var(--pri);outline-offset:2px}
+.load{display:flex;align-items:center;gap:12px;margin-top:14px}.bar-track{flex:1;height:10px;background:var(--surf);border-radius:999px;overflow:hidden}#loadbar{height:100%;width:0;background:var(--pri);border-radius:999px;transition:width .2s}
+.muted{color:var(--mut);font-size:.88rem}.tabs{display:inline-flex;background:var(--surf);border-radius:999px;padding:4px;margin-bottom:14px}.tabs button{border:0;background:transparent;color:var(--ink);font:inherit;padding:8px 18px;border-radius:999px;cursor:pointer}.tabs button[aria-selected=true]{background:var(--pri);color:var(--onpri)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}label{display:grid;gap:4px;font-size:.8rem;color:var(--mut)}
+select,input{font:inherit;color:var(--ink);background:var(--surf);border:1px solid var(--ol);border-radius:14px;padding:10px 12px}
+.row{display:flex;gap:10px;align-items:center;margin-top:16px;flex-wrap:wrap}.btn{border:0;background:var(--pri);color:var(--onpri);font:inherit;font-weight:600;border-radius:999px;padding:12px 28px;cursor:pointer;transition:border-radius .15s,background .15s}
+.btn:hover{border-radius:16px}.btn:disabled{opacity:.5;cursor:wait}.btn.tonal{background:var(--sec);color:var(--ink)}
+.q{background:var(--card);border:1px solid var(--ol);border-radius:28px;padding:20px 22px;margin-bottom:14px}.q h3{margin:0 0 8px;font-size:.78rem;color:var(--mut);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.q p{margin:.2em 0 .6em;font-size:1.05rem}.opt{display:flex;gap:10px;padding:8px 14px;border-radius:14px;margin:4px 0;background:var(--surf)}.opt b{min-width:1.4em}
+.show .opt.key{background:var(--sec);outline:2px solid var(--pri)}.ans{display:none;margin-top:10px;padding:12px 14px;border-radius:16px;background:var(--ter)}.show .ans{display:block}
+.prov{margin-top:10px;font-size:.8rem;color:var(--mut);border-top:1px dashed var(--ol);padding-top:8px}.tag{display:inline-block;border:1px solid var(--ol);border-radius:999px;padding:1px 10px;margin-right:6px;font-size:.72rem;color:var(--ink)}.tag.ok{background:var(--sec)}
+.sec{margin:22px 4px 8px;font-size:.95rem;font-weight:700}.foot{max-width:980px;margin:10px auto 40px;padding:0 20px;color:var(--mut);font-size:.8rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
