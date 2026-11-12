@@ -78,6 +78,7 @@ for pid in sys.argv[1:]:
     S = SPECS[pid]; D = f"/tmp/packs/{pid}"; A = [json.loads(l) for l in open(f"{D}/anchors.jsonl")]; rng = random.Random(7); rng.shuffle(A)
     pri = {"law": 0, "formula": 0, "def": 1, "fact": 2}; A = sorted(A, key=lambda a: pri[a["kind"]] + rng.random() * 1.2)[OFF:OFF + MAXA]; amap = {a["aid"]: a["anchor"] for a in A}
     todo = [(a, STYLES[i % 5]) for i, a in enumerate(A)] + [(a, STYLES[(i + 2) % 5]) for i, a in enumerate(A) if a["kind"] != "fact" and i % 2 == 0]
+    fr = open(f"{D}/raw{SUF}.jsonl", "w")
     fo = open(f"{D}/verified{SUF}.jsonl", "w"); nraw = nkeep = 0; t0 = time.time(); seen = set()
     for c in range(0, len(todo), 384):
         part = todo[c:c + 384]; raw = gen([mcq_prompt(a, S["title"], st) for a, st in part]); items = []
@@ -89,6 +90,7 @@ for pid in sys.argv[1:]:
             allo = [x.strip().lower() for x in ds + [j["answer"]]]
             if len(set(allo)) != 4 or j["question"].strip().lower() in seen: continue
             seen.add(j["question"].strip().lower()); items.append(dict(type="mcq", marks=1, unit=a["unit"], aid=a["aid"], anchor=a["anchor"], question=j["question"].strip(), answer=j["answer"].strip(), distractors=ds, why=why.strip()))
+        fr.write("".join(json.dumps(dict(it, tier="raw"), ensure_ascii=False) + "\n" for it in items)); fr.flush()   # structurally valid, UNVERIFIED teacher drafts: stage-A pretraining only, never the bank
         for it in verify_mcq(items, amap): fo.write(json.dumps(it, ensure_ascii=False) + "\n"); nkeep += 1
         fo.flush(); status(pid, stage="mcq", done=c + len(part), total=len(todo), raw=nraw, kept=nkeep, eta_min=round((time.time() - t0) / (c + len(part)) * (len(todo) - c - len(part)) / 60, 1))
     byu = {}

@@ -14,6 +14,7 @@ rd = lambda p: [json.loads(l) for l in open(p)] if os.path.exists(p) else []
 items = rd(f"{D}/gold_items.jsonl") + sum([rd(f) for f in sorted(__import__("glob").glob(f"{D}/verified*.jsonl"))], []); graph = json.load(open(f"{D}/syllabus_graph.json")); UT = {u["name"]: set(u["terms"]) for u in graph["units"]}
 isval = lambda it: int(hashlib.md5(it["anchor"].encode()).hexdigest(), 16) % 100 < 6
 tr_items, va_items = [i for i in items if not isval(i)], [i for i in items if isval(i)]
+raw_items = [i for i in sum([rd(f) for f in sorted(__import__('glob').glob(f'{D}/raw*.jsonl'))], []) if not isval(i)]   # unverified teacher drafts (stage A only)
 prompt = lambda it: f"<|bos|><|pack={pid}|><|type={it['type']}|><|marks={it['marks']}|><|unit|>{it['unit']}<|book|>{it['anchor']}<|ans|>"
 def comp(it, ds=None):
     if it["type"] == "mcq": d = ds or it["distractors"]; return f"{it['answer']}<|q|>{it['question']}<|d|>{d[0]}<|d|>{d[1]}<|d|>{d[2]}<|why|>{it['why']}<|end|>"
@@ -21,7 +22,7 @@ def comp(it, ds=None):
 # ---------------- subject-pure tokenizer
 specials = fsm.STRUCT + [f"<|pack={pid}|>", "<|type=mcq|>", "<|type=short|>"] + [f"<|marks={m}|>" for m in range(1, 6)]
 book = [l.rstrip("\n") for l in open(f"{D}/book_lm.txt")]
-corpus = book + [prompt(i) + comp(i) for i in tr_items]; open(f"{D}/tok_corpus.txt", "w").write("\n".join(corpus))
+corpus = book + [prompt(i) + comp(i) for i in tr_items + raw_items]; open(f"{D}/tok_corpus.txt", "w").write("\n".join(corpus))
 tok = Tokenizer(models.BPE(unk_token=None)); tok.normalizer = normalizers.NFC()
 tok.pre_tokenizer = pre_tokenizers.Sequence([pre_tokenizers.Split(Regex(PAT), behavior="isolated", invert=False), pre_tokenizers.ByteLevel(add_prefix_space=False, use_regex=False)]); tok.decoder = decoders.ByteLevel()
 tok.train([f"{D}/tok_corpus.txt"], trainers.BpeTrainer(vocab_size=4096, special_tokens=specials, initial_alphabet=pre_tokenizers.ByteLevel.alphabet(), min_frequency=2, show_progress=False))
@@ -32,7 +33,7 @@ def mcq_variants(it):
     vs = [None]
     if it["type"] == "mcq": vs += [random.sample(it["distractors"], 3) for _ in range(2)]
     return [mk(it, v) for v in vs]
-TR = [v for it in tr_items for v in mcq_variants(it)]; VA = [mk(i) for i in va_items]
+TR = [v for it in tr_items for v in mcq_variants(it)]; RAWP = [mk(it) for it in raw_items]; print(pid, 'train', len(tr_items), 'raw drafts', len(raw_items), flush=True); VA = [mk(i) for i in va_items]
 BK = []
 for l in book:
     ids = enc(l); BK += [ids[i:i + 500] for i in range(0, len(ids), 450) if len(ids[i:i + 500]) > 40]
@@ -66,7 +67,7 @@ def train(steps, pool, lr, tag, bs=48):
             if v < BEST[0]: BEST[0] = v; BEST[1] = copy.deepcopy(model.state_dict())   # val-best checkpoint (val = UNSEEN anchors)
             elif s > steps * 0.3 and v > BEST[0] + 0.35: break                          # early stop on generalisation collapse
     model.load_state_dict(BEST[1]); print(tag, "restored best val", round(BEST[0], 4), flush=True)
-train(SA, TR + [(r if False else r) for r in BK] * 1, 2e-3, "A-lm+items"); BEST[0] = 1e9; train(SB, TR, 3e-4, "B-items")
+train(SA, TR + RAWP + [(r if False else r) for r in BK] * 1, 2e-3, "A-lm+items"); BEST[0] = 1e9; train(SB, TR, 3e-4, "B-items")
 # ---------------- contrastive rejection tuning (DPO with RPO NLL anchor); negatives = ungrounded / mismatched / duplicated
 def corrupt(it):
     o = random.choice([x for x in tr_items if x["type"] == it["type"] and x["unit"] != it["unit"]] or tr_items); r = dict(it); k = random.random()
