@@ -1,0 +1,196 @@
+[
+ {
+  "unit": "Complex Numbers",
+  "type": "mcq",
+  "anchor": "Answer: $1+\\omega=-\\omega^{2}$, so $1+\\omega-\\omega^{2}=-2\\omega^{2}$; $(-2\\omega^{2})^{3}=-8\\omega^{6}=-8$.",
+  "segs": [
+   "$-2$",
+   "The sum of the vectors $\\omega$ is $1+\\omega$ and $\\omega$?",
+   "$\\omega^{3}$",
+   "$1$",
+   "$16$",
+   "$\\omega^{5}=16$, so $\\omega^{30}=\\omega^{360}$."
+  ],
+  "score": 0.57,
+  "gate": false
+ },
+ {
+  "unit": "Derivatives",
+  "type": "mcq",
+  "anchor": "Moving from $x$ to $x + \\\\Delta x$, the curve rises by $\\\\Delta y$ but the tangent rises by only $dy = f'(x)\\\\,dx$.",
+  "segs": [
+   "$f(x) = f(x)$",
+   "For the curve $y = x^2 - g(x) = x^2$ on $x$, which is the same derivative test?",
+   "$\\frac{1}{2}$",
+   "$\\frac{dy}{dx} = f(x^2 - f(x) + f(x) = 0$",
+   "$\\frac1x - f(x +) = f(y)$",
+   "both lines of $x$-axis, so the curve is increasing at $x = 0$, and decreasing."
+  ],
+  "score": 0.467,
+  "gate": false
+ },
+ {
+  "unit": "Sequence and Series",
+  "type": "short",
+  "anchor": "Putting $x = -1$ in the exponential series gives $e^{-1} = 1 - 1 + \\frac{1}{2!} - \\frac{1}{3!} + \\cdots$, which is how the \"alternating factorial\" series are recognised.",
+  "segs": [
+   "The exponential series $\\frac{1}{2!} + \\frac{1}{3!} + \\frac13^{3} + \\cdots$, which simplifies to $x^{3} - \\cdots + \\cdots$, and each series is $x^{4} - \\frac{1}4\\left(1-\\frac{1}2\\right)^{1/3}$, $x^{5}$, $-2^{5} = 1$:",
+   "Calculate the series $\\frac{dy}{dx} = 1 + \\frac{1/x^{5-1}}{5} + \\frac{x^{50}}{5^{5}} + \\cdots$ in the series $x^{1/2} + \\frac{2^{3}}{3} + \\frac{3^{5}(1-0)^{5}\\cdots}{0}$."
+  ],
+  "score": 0.789,
+  "gate": false
+ },
+ {
+  "unit": "Conic Sections",
+  "type": "mcq",
+  "anchor": "(Unit 8, parabola) Find the equation of the parabola with vertex at the origin, axis along the $y$-axis, passing through $(4,-2)$.",
+  "segs": [
+   "$(2,-2)$",
+   "What is the equation of the parabola with the origin with $x = 8$?",
+   "$x = 1$",
+   "$x = 0$",
+   "$x$",
+   "The correct equation $x^2 = 8x$ is derived from the locus with the line above the parabola."
+  ],
+  "score": 0.579,
+  "gate": false
+ },
+ {
+  "unit": "Differential Equations",
+  "type": "short",
+  "anchor": "Proportional change gives $\\frac{dy}{dt} = ky$ and $y = y_{0}e^{kt}$: growth for $k>0$, decay for $k<0$, with half-life $T = \\frac{\\ln 2}{\\lambda}$.",
+  "segs": [
+   "The growth for $\\frac{2}{\\lambda} = \\frac{\\ln 2}{10}$, and $\\frac{2.2}{100} = \\frac{-2.32}{2} \\approx 0.0326$.",
+   "Calculate the population present for a population of a differential equation."
+  ],
+  "score": 0.781,
+  "gate": false
+ },
+ {
+  "unit": "Retained Examinable Topics",
+  "type": "mcq",
+  "anchor": "Simpson's $\\tfrac13$ rule ($n$ even): $\\dfrac h3\\big[f_0+4(f_1+f_3+\\cdots)+2(f_2+f_4+\\cdots)+f_n\\big]$.",
+  "segs": [
+   "$n$ even",
+   "For the expression for $n$ strips of strips, the strips is",
+   "$n(n,2)$",
+   "$n$",
+   "$n(2n-1)$",
+   "L's rule with $n=2$: $n=4$, so $n=3$."
+  ],
+  "score": 0.8,
+  "gate": false
+ },
+ {
+  "unit": "Complex Numbers",
+  "type": "mcq",
+  "anchor": "Example: $1+i=\\sqrt2\\,(\\cos45^{\\circ}+i\\sin45^{\\circ})$.",
+  "segs": [
+   "$120^{\\circ}$",
+   "For $i$, $i$, and $i$ are unit vectors, is",
+   "$12$",
+   "$-1$",
+   "$-2$",
+   "$i$ satisfies $i^{2}=-1$; the angle $1$ and $1$, i.e. $i^{-1}$."
+  ],
+  "score": 0.8,
+  "gate": false
+ },
+ {
+  "unit": "Binomial Theorem",
+  "type": "short",
+  "anchor": "Middle term of $\\left(x+\\dfrac1x\\right)^{10}$: it is $T_6={}^{10}C_5\\,x^{5}\\left(\\dfrac1x\\right)^{5}=252$.",
+  "segs": [
+   "(a) $T_6={}^{10}C_5\\left(1-\\dfrac1x\\right)^{5}$, so $T_6 = \\dfrac{2}{5}\\dfrac{16}{2}\\right)^{100}$. The term is $T_6$. The term gives $T_6(1+x)^{1/2}$, $T_6\\left(1+\\dfrac1n\\right)^{n}$, and it is $\\dfrac{n}{2}+1\\right)^{2}$.",
+   "a) Find the term of $x^{2}+\\dfrac{2x}{2}$ and find the sum of the $x$. [2] b) Prove that $\\left(1+x^{20}\\right)^2$ is less an alternate. [2] (NEB 2080, part b)"
+  ],
+  "score": 0.652,
+  "gate": false
+ },
+ {
+  "unit": "Computational Methods",
+  "type": "short",
+  "anchor": "Add slack variables $s_1,s_2\\geq0$ to convert the inequalities to equations: $x+y+s_1=4$, $x+3y+s_2=6$, and write $Z-3x-2y=0$.",
+  "segs": [
+   "The Cayley table is $x+y+s_2=2$, $x+y=1$, $x,y\\geq0$.",
+   "Calculate the equations of the feasible region of the $x$-axis, explain how to verify your to find the maximum value of $y$. b) Show the $Z=6x+6y$ subject to $x+y\\leq1$, $2x+y\\leq2$. [3] b) Solve $x+y-z=1$, so $x+y\\geq0$, $2y=12$, $3x+y\\leq6$. [2]"
+  ],
+  "score": 0.356,
+  "gate": false
+ },
+ {
+  "unit": "Matrix Based System of Linear Equations",
+  "type": "mcq",
+  "anchor": "If $\\text{rank}\\,A<\\text{rank}\\,[A|B]$: inconsistent, no solution.",
+  "segs": [
+   "consistent, no solution",
+   "What does it imply if the rank of matrix $A$ equals the rank of the augmented matrix $A$ and another, what does the system of equations be determined by the rank of the system of equations?",
+   "rank deficient, cannot determine",
+   "consistent, infinitely many solutions",
+   "rank deficihitiating matching the system.",
+   "The system has the equations using the matrix $[A\\,|\\,A|$, what it indicates that the system has no solution."
+  ],
+  "score": 0.664,
+  "gate": false
+ },
+ {
+  "unit": "Differential Equations",
+  "type": "mcq",
+  "anchor": "Across 2079–2082 the reliable slots have been a derivative (often an inverse hyperbolic or inverse trigonometric one), a standard integral of the $\\frac{1}{a}\\tan^{-1}\\frac{x}{a}$ family, and one or two differential-equation items on order/degree, homogeneity or the integrating factor.",
+  "segs": [
+   "$\\frac{1}{a}$",
+   "Which one of the following is the differential equation $\\frac{1}3\\sqrt{1-x^{2}}$?",
+   "$\\frac{1-x}{1-x-a}$",
+   "$\\frac{x}{a}+\\frac{1} yx$",
+   "$\\frac12\\tan^{-1}\\frac{x}x$",
+   "Le equal the family of circles."
+  ],
+  "score": 0.853,
+  "gate": true
+ },
+ {
+  "unit": "Permutation and Combination",
+  "type": "mcq",
+  "anchor": "Each box has one fewer choice than the box before it, and the product of the four counts is $^{n}P_{4}$.",
+  "segs": [
+   "$^{n}P_{r} = n(n-1)\\cdots(n-r-1)$",
+   "Which of the following represents the number of ways to fill each position $n$ distinct objects to be used in terms of the number of ways?",
+   "$^nP_n$",
+   "$^n$",
+   "$n!$",
+   "The formula $^nP_r$ is derived from the multiplication principle as stated in the provided mathematical expression."
+  ],
+  "score": 0.35,
+  "gate": false
+ },
+ {
+  "unit": "Differential Equations",
+  "type": "mcq",
+  "anchor": "The general solution of an $n$-th order equation contains $n$ arbitrary constants.",
+  "segs": [
+   "$n$",
+   "The sum of the constant $P$ on a constant function of $n$ arbitrary constants?",
+   "$n\\pi$",
+   "$n$",
+   "$n\\pi+1$",
+   "that column has exactly the result of the first-n$ arbitrary constants. The same function must be reduced to $n$. Then $n=1$. It is defined as $n$ odd. The first $n$ odd, so the integral must be $n$. This is the 2082 Group B item 17cut of the statement. This is the exact value of $n$ exact differential equation? This was to the exact value of the statement. What does the polar form"
+  ],
+  "score": 0.226,
+  "gate": false
+ },
+ {
+  "unit": "Correlation and Regression",
+  "type": "mcq",
+  "anchor": "For the line of $y$ on $x$ we take the errors vertically: for each point the error is $e_i = y_i - (a + bx_i)$, and we choose $a$ and $b$ to make $\\sum e_i^{2}$ as small as possible.",
+  "segs": [
+   "It simplifies the condition for any point $(x_i - b_i - (a_i - b - b_i)^{2}$",
+   "Why does the equation $a_i - a_i = e_i - b\\sum a_i$ where the equation is $a_i + b_i - a + b_i$?",
+   "It determines the line of each row and the y through the specified point on the x and y, making $a_i$.",
+   "It simplifies calculations by the line of intersection.",
+   "It determines all in the problem",
+   "The given statement directly states that the equation $a^{2} = b^{2} + a^{2}, which is the correct method. This is the eliminationd into $x$ on $y$, $x$, $b$. This determines the line for the line, which directly corresponds to the provided of $x$ and $y$. Mense the line to $x$ on the line to $y$ on $"
+  ],
+  "score": 0.511,
+  "gate": false
+ }
+]

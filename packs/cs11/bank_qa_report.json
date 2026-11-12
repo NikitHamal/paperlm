@@ -1,0 +1,20 @@
+{
+ "pack": "cs11",
+ "bank_in": 416,
+ "bank_kept": 387,
+ "dropped": 29,
+ "reasons": {
+  "leaked_context": 10,
+  "answer_giveaway": 6,
+  "no_answer": 5,
+  "truncated_answer": 5,
+  "arithmetic_error": 5,
+  "stem_fragment": 2,
+  "dup_option": 1,
+  "empty_or_tiny_stem": 1,
+  "orphan_stem": 1
+ },
+ "mcq": 306,
+ "written": 81,
+ "units": 8
+}

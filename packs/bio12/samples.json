@@ -4,55 +4,96 @@
   "type": "mcq",
   "anchor": "A thermal cycler then repeats three temperature steps: Each cycle doubles the number of target molecules, so after $n$ cycles one molecule becomes $2^n$ copies.",
   "segs": [
-   "$n$ cycles",
-   "If a PCR reaction, how many copies of the target DNA are produced from $n$ cycles, how many copies will it produce?",
-   "$n^2$",
-   "$n^3$",
+   "$2^n$",
+   "In a PCR, how many copies of DNA are produced after $2^n$ cycles of PCR?",
    "$n$",
-   "A$n$ cycles, $2^n$ copies after $n$ cycles of $n^n$."
+   "$2n$",
+   "$n+1$",
+   "Each cycle doubles the number of copies, so $n$ cycles, $n$ cycles the number of copies."
   ],
-  "score": 0.9,
-  "gate": true
+  "score": 0.6,
+  "gate": false
+ },
+ {
+  "unit": "Human Biology",
+  "type": "mcq",
+  "anchor": "The acrosome releases hyaluronidase and other enzymes that digest a path through the corona radiata and zona pellucida; the moment one sperm fuses with the oocyte membrane, the cortical reaction hardens the zona and blocks all other sperms (preventing polyspermy).",
+  "segs": [
+   "The zona radiata and other sperm fuses with the egg",
+   "What is the primary function of the oocyte in and fertilisation?",
+   "The zona radiophase",
+   "The zona pellucida",
+   "The egg releases enzymes that destroys the zona pellae.",
+   "The zona radicle is responsible for the vitelline membrane to form the vitelline membrane that only one sperm fuses with the sperm entry."
+  ],
+  "score": 0.726,
+  "gate": false
  },
  {
   "unit": "Embryology",
   "type": "short",
   "anchor": "Because the two kinds of spore are different, angiosperms are heterosporous. The pollen grain is the much-reduced male gametophyte and the embryo sac is the female gametophyte; both are haploid, and both are permanently retained inside the sporophyte. (d) Each 3-celled grain has one tube nucleus and two male gamete nuclei = 3 nuclei, so $1200 \\times 3 = 3600$ nuclei.",
   "segs": [
-   "Each grain has one male gamete, $8000 \\times 3 = 300$ male gamete nuclei.",
-   "Describe the total number of microspore mother cells, calculate the total number of male gametes produced each microspore mother cell with one male gamete nuclei and each grain produces one male gametes."
+   "Pollen sac is the total number of male gametes. The 3-celled pollen grain has 3 nuclei, 800000, $1200 \\times 3 = 200$ male gametes.",
+   "Explain the number of male gametes and male gametes and 3 nuclei, resulting in the embryo sac."
   ],
-  "score": 0.855,
-  "gate": true
+  "score": 0.695,
+  "gate": false
+ },
+ {
+  "unit": "Embryology",
+  "type": "mcq",
+  "anchor": "That is a surplus of 8 male gametes for every egg, a plant's insurance against pollen that never reaches a stigma.Photo credits: (a) Dartmouth Electron Microscope Facility, Da, Public domain.",
+  "segs": [
+   "C male gametes",
+   "Which of the following methods are pollen from the egg's egg dorous capsule?",
+   "Syngamy",
+   "Enosperm formation",
+   "Microspored",
+   "The pollen grain's own stigma is explicitly described as it allows pollen to developing male gametes within the stigma."
+  ],
+  "score": 0.832,
+  "gate": false
+ },
+ {
+  "unit": "Plant Physiology",
+  "type": "mcq",
+  "anchor": "ABA is the stress hormone, the general growth inhibitor and the antagonist of gibberellin.",
+  "segs": [
+   "gibberellin",
+   "The hormone that is the sequential of",
+   "gibberellin",
+   "zeroxide and acromegibberellauxin only",
+   "gibberellin",
+   "Igibberellin; the infected rice grows tall and acromegibberellin."
+  ],
+  "score": 0.6,
+  "gate": false
  },
  {
   "unit": "Developmental Biology",
   "type": "mcq",
   "anchor": "Finally the male pronucleus ($n = 13$) fuses with the female pronucleus ($n = 13$) to make a diploid zygote ($2n = 26$) — amphimixis.",
   "segs": [
-   "After fertilization is the chromosome number of meiosis I to the chromosome number of chromatids.",
-   "Why does the number of gametocyte ($n$) fuses with $n=13$ to the number of the chromosome number of the number of mitosis.",
-   "The process of a result of the chromosome number.",
-   "The number of meiosis reducting a zygote after n cleavages of the total DNA during the number of megaspores.",
-   "The number number ofn=26$ chromosomes.. seed number of the number number of the number...Watsonuclease experiment with $n=3$.. Gravinal chromatids the chromosome number of DNA to the chromosome number. after $",
-   "The target DNA molecule with $n$n$ chromosomes.4$."
+   "$3$",
+   "What is the number of blastomeres after fertilisation?",
+   "$2n$",
+   "$2n = 2$",
+   "$2$",
+   "The number of blastombination is the number of DNA, so $n$ cycles."
   ],
-  "score": 0.461,
+  "score": 0.45,
   "gate": false
  },
  {
-  "unit": "Plant Anatomy",
-  "type": "mcq",
-  "anchor": "(b) Explain how the cork cambium arises and what it produces, and define periderm and bark. (a) Draw a labelled transverse section of a monocot root and state four features that distinguish it from a dicot root.",
+  "unit": "Plant Physiology",
+  "type": "short",
+  "anchor": "The real danger is the impurities in technical-grade carbide, which release phosphine and arsine. Part of the proton gradient is also spent on moving pyruvate and phosphate. One glucose gives 30–32 ATP, about one-third of the 2870 kJ released by its complete oxidation being trapped; the rest escapes as heat, which keeps the body warm. Osmosis is a special case of diffusion, not a separate process. In a plant cell the plasma membrane and the tonoplast are the selectively permeable membranes; the cell wall is freely permeable and plays no part in selection.",
   "segs": [
-   "heart rate of a dicot stem",
-   "What is the monocot embryo?",
-   "commonella cells",
-   "metriage of the primary phloem",
-   "probribose",
-   "The foreign genetics benegg as the dicots the plant has a dicot embryo."
+   "In the rest is ide, the with $-0.2$ MPa is the cell wall: light reaction in the cell's transformation phosphor a solution of $-0.430.0. In 2.70, a 20 kJ is fixed in a proton gradient, the cell becomes turgid. In the cell, the cell has no wall, a cell wall, the cell is a cell, in a cell, a cell. Each cell becomes phosphor, the cell is released as a cell becomes turgid cell, a cell, cell becomes turgid as water, which is why water can convert the cell's selective reabsorption. 3. This process is the role of a cell in the cell and a cell, the cell becomes coolate-rich and explaining the cell. 3.00 cell becomes acetyl-3-rich cell, a cell can cross the cell, a cell body and a cell, a nucleus and a cell, create a cell. In the cell",
+   "Explain the process of cell and explain the process of cell in plant cell and describe the cell body."
   ],
-  "score": 0.552,
+  "score": 0.624,
   "gate": false
  },
  {
@@ -60,10 +101,21 @@
   "type": "short",
   "anchor": "This is exponential (geometric) growth, and its graph is the familiar J-shaped curve: Here $P_0$ is the population at the start, $P_t$ the population after time $t$ years, and $r$ the annual growth rate expressed as a decimal fraction. (a) $\\text{CBR} = \\dfrac{4500}{250000}\\times 1000 = 18.0$ per 1000 per year.",
   "segs": [
-   "The calculation of the population grows with $P_0$, $T_d = ($, $\\text{CBR}$, $T = $T_d$, $T$. For $R_d = \\frac{P_0}{R}{R} \\times 1000 = \\frac{00}{P}{P}\\times 1000$, $r = \\frac{0}{P_00}{CBR}\\times 1040$. Deometric rate ($) = $T_0$, so $R_d$ is $P_d = $r = $t$. Two formula $P = \\frac{P}{000} = $P_d$. Each formula $T_00$, the doubling time $r = $T_t$. $P_t = $t$, $r$, $P = $P$, $P$, the population to the doubling time $T_d \\approx \\frac{0} = \\frac{P{P}{R}$. The formula $0.42 \\times 100 = 1000,0000$. $R_0$ is the doubling time $P_0 = $r$. $r$, so $t = $0.40$, $$r = 5000$) = 100$. For a population of 70, $00.4\\ \\%$, $r \\approx \\frac{1}{00}\\times 1050$, $\\ \\%$ is $r = $r = 100 \\times 100$, so the population growth rate ($r = 1",
-   "If a population growth rate (\\ \\%), if the doubling time $R_d \\approx \\frac0000,{P}{t} = 100\\ \\%$."
+   "$\\text{t} = \\frac{\\text{CBR} = \\frac{43}{4}{480}{R} = \\frac{P_0}{P_05} = \\frac{50}{0000}\\times 1000 = 10$. $\\text{rt} = \\fract}{P_{P}}$.",
+   "In a population growth rate, $r = \\frac{R}{P_d} = \\frac{R0}{P}$, calculate the formula for the population growth rate $\\text{DPD} = \\frac{(\\text{births})}{R}{D}$ and $T_d = \\frac{RN}{P_t}$."
   ],
-  "score": 0.537,
+  "score": 0.525,
+  "gate": false
+ },
+ {
+  "unit": "Genetics",
+  "type": "short",
+  "anchor": "With four bases there are $4^{3} = 64$ codons — 61 sense codons that specify amino acids and 3 stop (nonsense) codons, UAA, UAG and UGA.",
+  "segs": [
+   "1.4 codons are UGA (479). This is the start codon and UAA, UAA, UGA (4 codons).",
+   "Describe the number of codons, UAG, UAG."
+  ],
+  "score": 0.69,
   "gate": false
  },
  {
@@ -71,36 +123,36 @@
   "type": "short",
   "anchor": "The roof of the archenteron rolls off as a solid rod, the notochord. It induces the ectoderm directly above it to thicken into a neural plate.",
   "segs": [
-   "During the neural plate, then a neural plate, above the neural plate, so the neural plate, the neural plate, with the neural plate, above it.",
-   "Describe the notochord of the neural plate, it is above the neural plate induces it, above the neural tube, and in the neural plate, appears above the notochord and in the neural neural plate."
+   "The blastocoel as a primary follicle. The dorsal lip of the blastopore becomes the dorsal lip of the neural tube.",
+   "Explain the role of the blastopore and the dorsal lip of it a dorsal lip of the dorsal lip of a neural tube."
   ],
-  "score": 0.897,
-  "gate": true
+  "score": 0.345,
+  "gate": false
  },
  {
   "unit": "Biotechnology",
   "type": "short",
   "anchor": "Micropropagation multiplies elite plants by the thousand — banana, orchid, potato, sugarcane and strawberry are produced this way in commercial labs, including in Kathmandu and Chitwan.",
   "segs": [
-   "Sesbyment by Beneathmandu and Hybridge by the banana, Kathmandued in the banana, and the certainable-changed in the Fleming primari, Kasite, Chitwania and teaguable, banana, Kwan, Kathmandibility, Ker, Kathmandacch.",
-   "Which banana is a commercial commercial commercial value of bases produced by a commercial commercial commercial commercial commercially produced by the banana strands of the DNA segment produced by the commercial commercial properties of a natural protein batch, including in a banana."
+   "Goldenicines in plants are produced by the laboratory, creating bite growth. 2. Co culture is the yield of theing of additional sperm can beings, and the starcane and the station of organic waste.",
+   "Explain the concept of any specific to convert resistance in plants, including the production of resistance of limits in plants, and biof life, and improvement."
   ],
-  "score": 0.362,
+  "score": 0.204,
   "gate": false
  },
  {
-  "unit": "Embryology",
+  "unit": "Applied Biology",
   "type": "mcq",
-  "anchor": "Stage 1: microsporogenesis (formation of microspores). Each cell of the sporogenous tissue becomes a microspore mother cell (pollen mother cell, 2n).",
+  "anchor": "Drone — male, develops from an unfertilised egg and is therefore haploid (this is arrhenotokous parthenogenesis); its only function is mating. Worker — a sterile female; in sequence over her life she cleans cells, nurses larvae, builds comb, guards the entrance and finally forages.",
   "segs": [
-   "synergids, one cell becomes a tetrad of the microspore mother cell",
-   "What is the microspore mother cell?",
-   "pollen and",
-   "phosphoglycan cell",
-   "pollen cell",
-   "The tetrad half a tetrad of two polar nuclei, and the antipodal cellular, the sporople fusion."
+   "Tendero-feight tims and tank the same sequence of sperms.",
+   "Why does the primary function of the quality in the life cycle?",
+   "Meristem culture undergoesophanogrammemeasyly.",
+   "The life cycle repeats about 600 mis",
+   "The life cycle of about 60 hours.00 % causes 100% of these are haploid.",
+   "The luteal phase is a mating from outside in the text."
   ],
-  "score": 0.7,
+  "score": 0.487,
   "gate": false
  },
  {
@@ -108,89 +160,29 @@
   "type": "mcq",
   "anchor": "Fick's law says diffusion rate ∝ (surface area × pressure difference) ÷ thickness.",
   "segs": [
-   "The pressure difference is reabsorbed",
-   "What is the pressure inside the filtrate is about",
-   "The pressure inside the filtrate",
-   "The pressure within the filtrate",
-   "The rate increases as the filtrate",
-   "The pressure difference is explyle's capsule."
+   "Loop of blood pressure difference potential $1.9$ MPa",
+   "If the rate of the rate of air into the rate of $1.70$ beats per cent's $\\ \\text{L}$ is reabsorbed?",
+   "$700\\%$",
+   "$70$",
+   "$1\\%$",
+   "The calculation $(1\\%) describes the's egg's law of blood supply. Option ($1\\%) states that the heart rate is reabsorbed."
   ],
-  "score": 0.783,
+  "score": 0.474,
   "gate": false
  },
  {
   "unit": "Developmental Biology",
   "type": "mcq",
-  "anchor": "Spemann and Mangold's graft induced a complete secondary embryo.",
+  "anchor": "Add the germ-layer derivative table and you have covered almost every question set on this unit in the last ten years. Gametogenesis is the process by which diploid primordial germ cells in the gonad are converted into haploid gametes.",
   "segs": [
-   "Somatic of the embryo",
-   "Sembryoroidpolyploid of",
-   "polyploidy",
-   "metaphase",
-   "pea",
-   "Ste crescent; the vitamphase in the same as the embryo."
+   "To initiates and the fusion of the egg",
+   "Why does the diploid germ cells in the cell body?",
+   "To create the formation of cell division",
+   "To increase the size of the cell",
+   "To decreases the formation of cells",
+   "Oogenesis is crucial for the formation of haploid spermatocytes in the formation of cell by meiosis in the formation of meiosis."
   ],
-  "score": 0.445,
-  "gate": false
- },
- {
-  "unit": "Developmental Biology",
-  "type": "mcq",
-  "anchor": "the cortex rotates towards the entry point, uncovering pale cytoplasm on the far side.",
-  "segs": [
-   "the bulky yolky macromeres",
-   "In the cavity of the frog, the frog, the cavity of the dorsal lip of the blastopore?",
-   "coeloblastic and the cavity",
-   "the optic cavity",
-   "the options",
-   "the macromeres pus, defined as the cavity of the blastula; the blastula belongs the cavity increases above the archenteron."
-  ],
-  "score": 0.493,
-  "gate": false
- },
- {
-  "unit": "Plant Physiology",
-  "type": "mcq",
-  "anchor": "Model answer D2: C3, C4 and CAM photosynthesis compared (10 marks). In most plants (C3) the enzyme RuBisCO fixes CO$_2$ into 3-phosphoglyceric acid.",
-  "segs": [
-   "CAM plants to acid",
-   "What is the enzyme that enzyme that enzyme that cost-carbon acid, which enzyme",
-   "Haversian system",
-   "Carbonate",
-   "Carbonate",
-   "Pyruvate kinase (3-3-P)."
-  ],
-  "score": 0.671,
-  "gate": false
- },
- {
-  "unit": "Embryology",
-  "type": "mcq",
-  "anchor": "the flowers are on the same plant, so it is geitonogamy; it is genetically autogamy but ecologically cross-pollination. Xenogamy needs two plants.",
-  "segs": [
-   "it of the points",
-   "In the following sets of the following plant is not a plant is made by a flower?",
-   "pecessary ovule",
-   "pting a single layer",
-   "pting",
-   "the plant stores food and give more active immunity."
-  ],
-  "score": 0.424,
-  "gate": false
- },
- {
-  "unit": "Plant Physiology",
-  "type": "mcq",
-  "anchor": "seedless banana and grape are parthenocarpic. Parthenogenesis (d) is an egg developing without fertilisation.",
-  "segs": [
-   "meristem culture",
-   "In the consequence of the:",
-   "meristematic cells",
-   "meristematic pressure",
-   "pomatic water",
-   "the cohesion holds the two non-fusion of the basis of the shoot."
-  ],
-  "score": 0.35,
+  "score": 0.46,
   "gate": false
  }
 ]

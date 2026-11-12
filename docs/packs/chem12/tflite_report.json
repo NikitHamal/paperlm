@@ -1,8 +1,8 @@
 {
  "pack": "chem12",
  "tflite_mb": 12.38,
- "top1_agreement": 0.9718,
- "max_logit_diff": 0.194,
+ "top1_agreement": 0.9437,
+ "max_logit_diff": 0.287,
  "signatures": [
   "decode",
   "prefill"

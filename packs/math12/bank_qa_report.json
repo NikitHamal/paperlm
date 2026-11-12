@@ -1,0 +1,19 @@
+{
+ "pack": "math12",
+ "bank_in": 642,
+ "bank_kept": 605,
+ "dropped": 37,
+ "reasons": {
+  "truncated_answer": 15,
+  "leaked_context": 13,
+  "no_answer": 5,
+  "needs_figure": 3,
+  "orphan_stem": 3,
+  "answer_misses_part": 2,
+  "stem_fragment": 2,
+  "empty_or_tiny_stem": 1
+ },
+ "mcq": 479,
+ "written": 126,
+ "units": 17
+}

@@ -1,0 +1,163 @@
+{
+ "pack": "math12",
+ "params": 10203840,
+ "onnx_int8_mb": 10.73,
+ "vocab": 4096,
+ "val_loss": 2.1646,
+ "ppl": 8.71,
+ "onnx_maxdiff": 9.5367431640625e-06,
+ "used_dpo": false,
+ "bench_sft": {
+  "tag": "sft",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.625526524864842,
+  "strict_gate_rate": 0.08333333333333333
+ },
+ "bench_final": {
+  "tag": "sft",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.625526524864842,
+  "strict_gate_rate": 0.08333333333333333
+ },
+ "bench_dpo": {
+  "tag": "sft+dpo",
+  "n": 24,
+  "complete": 0.9583333333333334,
+  "mean_grounding": 0.5606717860927787,
+  "strict_gate_rate": 0.041666666666666664
+ },
+ "n_train_items": 689,
+ "n_val_items": 52,
+ "n_gold": 490,
+ "n_teacher": 268,
+ "curve": [
+  {
+   "stage": "A-lm+items",
+   "step": 0,
+   "train": 8.3665,
+   "val": 8.144
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 100,
+   "train": 3.0157,
+   "val": 3.0503
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 200,
+   "train": 2.2579,
+   "val": 2.451
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 300,
+   "train": 1.6235,
+   "val": 2.2897
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 400,
+   "train": 1.5687,
+   "val": 2.1757
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 500,
+   "train": 1.2047,
+   "val": 2.1696
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 600,
+   "train": 0.9015,
+   "val": 2.1647
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 700,
+   "train": 0.7327,
+   "val": 2.2244
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 800,
+   "train": 0.6355,
+   "val": 2.2009
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 900,
+   "train": 0.5131,
+   "val": 2.3075
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 1000,
+   "train": 0.4367,
+   "val": 2.3284
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 1100,
+   "train": 0.4326,
+   "val": 2.3571
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 1200,
+   "train": 0.4099,
+   "val": 2.4146
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 1300,
+   "train": 0.3264,
+   "val": 2.422
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 1399,
+   "train": 0.2495,
+   "val": 2.4373
+  },
+  {
+   "stage": "B-items",
+   "step": 0,
+   "train": 0.4241,
+   "val": 2.1646
+  },
+  {
+   "stage": "B-items",
+   "step": 100,
+   "train": 0.2434,
+   "val": 2.2207
+  },
+  {
+   "stage": "B-items",
+   "step": 200,
+   "train": 0.172,
+   "val": 2.3437
+  },
+  {
+   "stage": "B-items",
+   "step": 300,
+   "train": 0.1448,
+   "val": 2.4563
+  },
+  {
+   "stage": "B-items",
+   "step": 400,
+   "train": 0.155,
+   "val": 2.478
+  },
+  {
+   "stage": "B-items",
+   "step": 499,
+   "train": 0.1052,
+   "val": 2.4948
+  }
+ ]
+}

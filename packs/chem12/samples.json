@@ -1,88 +1,54 @@
 [
  {
-  "unit": "Thermodynamics",
+  "unit": "Volumetric Analysis",
   "type": "mcq",
-  "anchor": "third law of thermodynamics: perfect order means zero disorder.",
+  "anchor": "The equation $N_1V_1 = N_2V_2$ needs no balanced equation and no stoichiometric coefficients — that is its whole advantage.",
   "segs": [
-   "zero",
-   "The law of constant of constant of a constant of a reaction is",
-   "zero",
-   "third order",
-   "cupies",
-   "thirdity is a state function of an ideal gas, which lies make zero."
+   "$N_1V_1 = N_2V_2$",
+   "What term describes the normality equation $N_1Volbe of equivalence at which equation $N_2$N_1 = N \\Rightarrow \\text{NaOH}$ represents the desired of the context of N_2$ in volumetric analysis to $N_1 = M_2V_1 = n_2V_3$. the n-factors in volumetric analysis to ensure accuracy when $N_2M_1V_2$. the reactants differing n_1V_3$?",
+   "$N_1 + V_1 = V_2$",
+   "$N_2 = M_2 + V_2$N$n_1 = M^2$",
+   "$M_1V$",
+   "The equation $N_3V_1 = \\frac{2}{2}$ directly states that $N_1M_1V1 = N_1V_{2}$."
   ],
-  "score": 0.713,
+  "score": 0.457,
   "gate": false
  },
  {
-  "unit": "Ethers",
+  "unit": "Chemical Kinetics",
   "type": "mcq",
-  "anchor": "same functional group, same formula, but the carbons are shared 1 + 3 against 2 + 2 about the oxygen.",
+  "anchor": "The catalysed path (dashed) has a lower barrier $E_a'$ and therefore a much larger fraction of successful collisions, but the reactant and product levels — and hence $\\Delta H$ — are unchanged.",
   "segs": [
-   "propanenitrile",
-   "Ethanal reacts different groups are prepared from recompletetrahedral, which is",
-   "nitrochlorobenzene",
-   "a tertiary alcohol",
-   "an oxonium salt",
-   "the acid is an alkene but not."
+   "The $\\Delta H$ depends on the energies of the reactants and the right orientation, lower $\\Delta H$, $\\Delta H$ and $\\Delta H$ are unaffected.",
+   "What does the barrier that $\\Delta H$ indicate in a chemical reaction leading to a chemical reaction?",
+   "The the equilibrium constant dependent on the same $\\Delta H$ more effectively.",
+   "The $\\Delta H_a$ value of $\\Delta H$ equally in the Arrhenius equation.",
+   "The $-E_a$ of the barrier equally in the reactants.",
+   "The $\\Delta H^{\\circ}$ of the Arrhenius equation as stated in the Arrhenius equation as $\\Delta H$."
   ],
-  "score": 0.417,
+  "score": 0.623,
   "gate": false
  },
  {
-  "unit": "Nuclear Chemistry and Applications of Radioactivity",
-  "type": "mcq",
-  "anchor": "Bombarding aluminium with α-particles gave a radioactive isotope of phosphorus that does not occur in nature: The curie was originally the activity of 1 g of radium-226.",
+  "unit": "Chemical Kinetics",
+  "type": "short",
+  "anchor": "The rate constant rises sharply with temperature: $k = A e^{-E_a/RT}$, or $\\log\\dfrac{k_2}{k_1} = \\dfrac{E_a}{2.303R}\\left(\\dfrac{1}{T_1} - \\dfrac{1}{T_2}\\right)$.",
   "segs": [
-   "6.65 × 10²",
-   "The unit of the half-life of the activity of a nuclear reactor is",
-   "3.7 × 10³",
-   "1.8 × 10³³",
-   "1.6 × 10³",
-   "equivalent weight = 1.6 × 130³ Bq."
+   "$k_{T_1} = \\frac{E_a}{k_a} = \\frac{1}{a}\\frac{1}{T_a}\\right)$. 3. A first-order rate constant for a first-order rate. 3.1.3333 sque about the half-life to the rate constant. A first-life ($k$) is independent of the half-life ($T_1$).",
+   "What is the integrated rate constant for a reaction as stated in the Arrhenius equation as described by the integrated rate for a first-k_1/2.303 = 33.693/T_1/20.303R_1/T_12$) and $k_{1/2}$. A first-k = \\frac{En_2}{k_2}$, and $k_2 = \\frac{EE_a - \\frac{E_2}{2.30\\times10^{-3}} = \\frac{2.333}{k}$$ $$\\log A - \\log\\left[\\frac{E_a - x}{1}\\log\\frac{1}33}$"
   ],
-  "score": 0.483,
+  "score": 0.529,
   "gate": false
  },
  {
-  "unit": "Chemistry in the service of mankind",
-  "type": "mcq",
-  "anchor": "Nylon-6 is made from a single monomer, caprolactam, which also has six carbons. Do not write nylon-6,6 as an addition polymer — it loses water at every link, so it is a condensation polymer.",
+  "unit": "Amines",
+  "type": "short",
+  "anchor": "Hoffmann's method uses diethyl oxalate, (COOC₂H₅)₂, which reacts differently with each class. Hoffmann's separation of a mixture of 1°, 2° and 3° amines using diethyl oxalate.",
   "segs": [
-   "aromatic",
-   "A polymer is a condensation polymer?",
-   "polythene",
-   "coupling",
-   "polystyrene",
-   "the ester attacks the most haloalkane and the addition of the link; a polymer is an example of an adul-6,6,6-6,6 loses water."
+   "(a) Carbylamine (weakly basic), and trimethylamine (iii), a liquid oxamic ester, so they are pusetrol.(b) Nitrous acid (diethyl oxalate) is a mixture of 1°, 2° and 3° amines.(b) Ethanol is separated by Hoffmann's method. (c) The phenoxide ion is separated by elimination.(b) 3°, 2°, 3°, 3° and 3° (en oxoform).(b) From a mixture of similar mass of amines: 2C → 3°, 3 destabilises 2°, 3d° amines.(c) Nitrous acid, (diethyl oxamide), 2° amines by Hoffmann's synthesis), secondary and tertiary amines, and tertiary amines by Hoffmann' and tertiary amines.(bour 1° amines = 1°, 2, 3° amines by Saytzeff's method.",
+   "a) How can accept a haloalkane? Give the amines and explain the amines from a haloalkane. [3°, (ii) 2° amines, 2° and 2° amines. [1] (NEB 2°) (b)"
   ],
-  "score": 0.6,
-  "gate": false
- },
- {
-  "unit": "Aldehydes and Ketones",
-  "type": "mcq",
-  "anchor": "propan-1-ol has no CH₃–CH(OH)– group, so it cannot give CHI₃.",
-  "segs": [
-   "CH(CHCHCHCHCHOH + (CH3)CHCHOH + CH3CH(OH)CH3CHO + 2CH(OH)CHClCO -CH3CHCHOH + H2O.(CHCH3)CHOH + KBrOH + CH3CHO + H2O → CH3CH(CHCH)CHCHCH(CHCO)CHCHCHCH(OH.CH$CHCHCHOH.(CH3)CHCOOH +CHCH(OH)OH.(CH(CHCH3 +CH(CHCHOH)CH3CH(CH)CHCHOH.CCl3 KOH + HBr",
-   "COH → CH3CHCHCHCH + CHCH(CHCHCOCH)CHCHOH → CHCHCHOH + K. 1-1-ol, CH3CHCHCHO.(CH()CHCHCHOH → (CH3)CCHCHCHOH, CHCH(CH3)COH + HCOONa. CH(CHCHCH)CHOH. CH3CH(CHO)CHCH(OH + NaCl)CH(OH)NHOH.((CH3)OH + MgOH + (CH(CH)2OH + KBr + KBrOH.(CH)COH.(CHOH)CHOH.((COH)CH3OH → CH3.(CH3CHCH)CHCOCHCHCH((CHOH)C(CHCHCH(COOH)CH(CHCH.)CHCHOH,(CHCH3,)CHCHCHCOONa + (CH3,)CCHCHOH. CHCH"
-  ],
-  "score": 0.0,
-  "gate": false
- },
- {
-  "unit": "Phenols",
-  "type": "mcq",
-  "anchor": "a carboxylic acid liberates CO₂ with sodium hydrogen carbonate; phenol, being weaker than carbonic acid, does not. Both dissolve in NaOH and both react with sodium, so(a) and(b) fail. This \"acidic enough for NaOH but not for NaHCO₃\" line is the whole point of the question.",
-  "segs": [
-   "sodium NaOH",
-   "Which of the acid is not a primary alcohol?",
-   "NaCN + NH(CH3)CH(CH(CH)OCBr",
-   "CH(CHCO)=COOH",
-   "CH3CH(CHCOCO). Option (a) is the boiling point. Option (aromatic) is the most readily, so it is the para positions of the most electronegative.(a) Darcoolithium",
-   "aisen, so the ortho and attacks the most stable, so the way of the examiner's."
-  ],
-  "score": 0.733,
+  "score": 0.384,
   "gate": false
  },
  {
@@ -91,35 +57,129 @@
   "anchor": "zinc is more electropositive than silver and displaces it: 2Na[Ag(CN)₂] + Zn → Na₂[Zn(CN)₄] + 2Ag.",
   "segs": [
    "zinc",
-   "Which is the silver is not done with",
-   "ZnCl and HCl",
-   "Zn(OH)CN",
-   "Zn(CN) chloride is more electropositive: 2Na[Ag(CN)CN + 2HBr. Secondue vitriol is a nucleophile, so it is more electropositive. Option (a) is the standard way more",
-   "zinc is the most easily by 2Na[Ag²[Zn(NH))]² hybridised reaction."
+   "In the cyanide process the silver is finally precipitated by",
+   "iron",
+   "copper",
+   "sodium",
+   "zinc is more electropositive: 2Ag + Zn → NaCN an electrolytic cell."
   ],
-  "score": 0.725,
-  "gate": false
+  "score": 0.86,
+  "gate": true
+ },
+ {
+  "unit": "Transition Metals",
+  "type": "mcq",
+  "anchor": "$$n(\\text{MnO}_4^{-}) = 0.020 \\times \\frac{25.0}{1000} = 5.0\\times10^{-4}\\ \\text{mol}$$ $$n(\\text{Fe}^{2+}) = 5 \\times 5.0\\times10^{-4} = 2.5\\times10^{-3}\\ \\text{mol}$$ $$m(\\text{FeSO}_4) = 2.5\\times10^{-3} \\times 152 = 0.38\\ \\text{g}$$",
+  "segs": [
+   "$0.10\\ \\text{g}$",
+   "What is the number of electrons in the $\\text{Fe}(\\text{Fe}) = 0.06\\ \\text{g mol}^{-1}$?",
+   "$0.04\\ \\text{g L}^{4}$",
+   "$1.0\\times10^{8}\\ \\text{g of green-1}$",
+   "$0.4(0.01) = 1.0\\times18 = 1.0\\ \\text{kJ mol}^{3}$",
+   "The calculation provided directly shows the spin-only magnetic base as $3.6\\times10^6\\ \\text{kJ}$."
+  ],
+  "score": 0.92,
+  "gate": true
+ },
+ {
+  "unit": "Aldehydes and Ketones",
+  "type": "mcq",
+  "anchor": "propan-1-ol has no CH₃–CH(OH)– group, so it cannot give CHI₃.",
+  "segs": [
+   "propan-1-ol",
+   "Which compound gives a CH give a ketone with iodoform test?",
+   "propan-2-ol",
+   "ethanoic acid",
+   "propan-1-ene",
+   "propan-1-methylpropan-2-ol is CHCH(OH)CHCH."
+  ],
+  "score": 0.925,
+  "gate": true
  },
  {
   "unit": "Aldehydes and Ketones",
   "type": "short",
   "anchor": "(b) In (CH₃)₃CCHO the carbon next to —CHO carries three methyl groups and no hydrogen.",
   "segs": [
-   "(CH)CHCHCH(CHCHCH(OH)CH3CHOH + HBr.(CH3)CHCHCHO + (CH3)CHOH + (CH3CH)CHCHCHO → (CH3)CCHCHCHO + HCH(CHCH3)CHCOH.(CH3CH)CCHCHCHCHCHCHO + CH3CHO + H2O → CH3CH(CHCH)CHCH=CH(CHCHCHO)CHCHCHCH((CHCHCHCHBr.(CHCHCHCHO)CCHCHOH.((CH)CHBr.((CH3)CCHO + (CHCH3)CCCHCHCH(CHO)CHCHCCH(CHCHBr)CHCHCH.((CHCO)CHCHCHO.(CH(CHCHOH)CHCHCHBr + (CH3,)CHCHCHCOCH.(CH3CHO)CHCHCHO (CHCCHCHCHOH).(CH3ONa)CHCHCHOH + CH (CH(C)CCHCH(CH)CH.(((CH)CCHCCHO.(CH)CHOH.(CH)COH.((CCHCHCH)CHOH + CHCH(CHCHCCHCHOH → (CHCH)CHCCHCHCCCHCHCHO. CHCH(CHOH)CCHO + 3(OH)CHCH(CHCHO)CHOH. 1(CHCH)CCHCHO + (COONa)CHC(CHCHCHOH. (CH3) CHCHCHCHCH)C(CHCH)CHO.((CHCH)HCHO.(CH)COOH +CCHO → (CHCHCHCHCO)CCCHOH +",
-   ". 1((CHCHCHO, the presence of the preparation. (CH3CHCH)CHCHO.(((OH)CHOH."
+   "(CHCH3) becomes the carbon next to the alcohol: 2-methylpropan-2-ol (2-hydroxypropan-1-ol).(c)CHCHohydrin with sodium ethanoate.(b) propanal (CHCHO) becomes the carbon chain.(CH3) becomesC=CH(OH)CH(OH)CHO (CHS)CH(OH (CH3)CHO (CH(OH)CN (CH3) becomesCH(OH)OH (CH3CH(OH)Br (CHCHO)CHO + (CH(CO) =CHCHO.(b) CHCHO (CH(CH)CHO (CH3)3C(CHCH(OH))CHCH(OH.)CH(OH +)CHCH(CH)=CHCHO (CH(COCO)CHCOOH + HCOONa → (CHCHCHCHCHO)CCHO + 2[(C)CHO (CH=CH(OH (ethanenitrile).(cCH3)CHO -> (CH3)2OMgBr + (CH3)Br(CH3)CHO + ((CH3)3CHCHO + H2O (CH3) =CHO -> (butan-2-ol).",
+   "a) propanal and HCN, (CH3) propanal (CHCHCHCHO,)CHCHCHCH(OH (+1) and CHCH(OH)Na."
   ],
-  "score": 0.038,
+  "score": 0.248,
   "gate": false
  },
  {
-  "unit": "Transition Metals",
-  "type": "short",
-  "anchor": "The energy gap $\\Delta_{o}$ is the crystal field splitting energy.",
+  "unit": "Chemistry in the service of mankind",
+  "type": "mcq",
+  "anchor": "Nylon-6 is made from a single monomer, caprolactam, which also has six carbons. Do not write nylon-6,6 as an addition polymer — it loses water at every link, so it is a condensation polymer.",
   "segs": [
-   "$\\Delta_{o} = \\frac{\\Delta_{o -0}{1}}$",
-   "The crystal field stabilisation energy of a $0.10$ C mol L^{-1}$ C mol L_{1}$."
+   "$n_{\\text{CaCO}_2$) is the addition of water. The monomer of polymer is a small molecule of monomer ofylon-6,6 loses a condensation polymer, so it reacts with water at every year. Polystyrene is a polymer, a polymer and a polymer is made from",
+   "Why does the monomers of water, a polymer and polymer and describe the monomers of polymer and calculate the polymer and explain its monomers.",
+   "polythene from water, and raise the monomers.",
+   "Because the chemical properties of water is a polymer and it forms a large water.",
+   "Because the monomers of water can be used for water from water.",
+   "The monomer of monomer of monomer, which allows is a small molecule, so it reacts different monomers."
   ],
-  "score": 0.6,
+  "score": 0.639,
+  "gate": false
+ },
+ {
+  "unit": "Haloalkanes",
+  "type": "mcq",
+  "anchor": "Zn-Hg/HCl removes the oxygen completely, giving the alkane.",
+  "segs": [
+   "propan-2-ol",
+   "Which compound gives a haloarene with a ketone gives a Grignard reagent?",
+   "ethanol",
+   "butan-1-ol",
+   "butan-1,2-methylpropan-2-ol",
+   "MgCl gives the nitroalkane has the nitroalkane and the nitroalkane has one C-2-ol and a C=N bond, so the has one carbon and the nitrite and the ketone."
+  ],
+  "score": 0.407,
+  "gate": false
+ },
+ {
+  "unit": "Nuclear Chemistry and Applications of Radioactivity",
+  "type": "mcq",
+  "anchor": "The heat makes steam, which drives a turbine and generator. The activity is $A = A_{0}e^{-\\lambda t}$ and the half-life is $t_{1/2} = 0.693/\\lambda$.",
+  "segs": [
+   "The half-life",
+   "What is the half-life of a substance liberated at a half-life to 500 years to 500 mL of 0.0020 Making the half-life to 320 years. The half-life of radium from 100 years?",
+   "1000 years",
+   "3.50200 years",
+   "5000",
+   "The half-life is $3.0\\ \\text{t}$0.030 = 0.0693/10.693 = 3.303/0.020 = 0.6022/0.303 = 0.1293/1."
+  ],
+  "score": 0.913,
+  "gate": true
+ },
+ {
+  "unit": "Studies of Heavy Metals",
+  "type": "mcq",
+  "anchor": "limited SnCl₂ reduces Hg(II) only as far as Hg(I), giving white Hg₂Cl₂; excess reduces it to grey metallic mercury.",
+  "segs": [
+   "HgS",
+   "Ammonia dissolves in excess NH3Cl and is",
+   "HgO",
+   "Hg(NHI)Cl)Cl. HCl",
+   "Hg(NHCl)Cl)Cl)Br",
+   "zinc blende is the weaken(II) ion."
+  ],
+  "score": 0.4,
+  "gate": false
+ },
+ {
+  "unit": "Thermodynamics",
+  "type": "mcq",
+  "anchor": "third law of thermodynamics: perfect order means zero disorder.",
+  "segs": [
+   "$\\Delta V$\\Delta H$q_{p}$",
+   "What is the change in internal energy in a chemical reaction",
+   "$\\Delta H$",
+   "$\\Delta H_{f}$",
+   "$\\Delta T$",
+   "The heat of an ideal gas from the change in internal energies."
+  ],
+  "score": 0.51,
   "gate": false
  },
  {
@@ -127,70 +187,14 @@
   "type": "mcq",
   "anchor": "sodium ethoxide has a Na–O bond, not a Na–C bond, so it is simply a salt. Every other compound listed has a direct metal–carbon bond, including the carbonyl of nickel.",
   "segs": [
-   "it is a metal",
-   "Benzene is a primary alcohol mainly",
-   "an oxonium salt",
-   "P orbitals",
-   "sodium metal",
-   "only a urin with water is a triboration of the alkoxide not give a haloalkane and attacks the carbonyl."
+   "s reduction of the compound",
+   "What is the Grignard reagent what is a Grignard reagent which organometallic compound?",
+   "acilute",
+   "acilute both water",
+   "metallic bond shifts",
+   "leaching more electropositive than carbon is bonded to the carbon next to the carbonyl group."
   ],
-  "score": 0.761,
-  "gate": false
- },
- {
-  "unit": "Amines",
-  "type": "short",
-  "anchor": "Hoffmann's method uses diethyl oxalate, (COOC₂H₅)₂, which reacts differently with each class. Hoffmann's separation of a mixture of 1°, 2° and 3° amines using diethyl oxalate.",
-  "segs": [
-   "(a) The haloalkane with ammonia, 2° and 3° amines has 2° and 3KCl + 3HX → 2° + 2HH°. 1°, 2° amines and 3° amines from the 1°, 1°, 2CHCl°, 2°. 1° amines.(c) 2° → 3° → 2° → 3C + 2HBr + 3Hrimary amines → 2° + 1° → 2°; 2° and 3both 2° → 2° + 3Hack.",
-   "a) Write the nitration of nitrobenzene in dry ether and name of 1°, 2, 1° amines and 2° amines, 2° and 2° amines from the 3°, a 3°, 2° → 2Ag + 2HCO → 2° + OH → 2° → 2CaO + 2HH5Cl + 3HBr, 1°, 3° alcohols and 2° amines give the 1° amine formed. 1°) 1° amines: 2° →HHH = 1°, 2 = 1°. 1° → 3°, 2 = 3°. 1° ="
-  ],
-  "score": 0.351,
-  "gate": false
- },
- {
-  "unit": "Volumetric Analysis",
-  "type": "mcq",
-  "anchor": "Zn²⁺ is 3d¹⁰, with no vacancy for a d–d transition. \"All transition-metal ions are coloured\" is the misconception this question is built on.",
-  "segs": [
-   "Zn²sp², so Cu is 3d³",
-   "Which of transition element because it is",
-   "Ni²² hybridisation",
-   "Zn²³",
-   "no negative",
-   "Zn²sp²² hybridisation; the d² hybridisation is 3d transition element must have no dsp² hybridisation; the 3d² hybridisation; the same dsp² hybridisation, sp² hybridisation."
-  ],
-  "score": 0.425,
-  "gate": false
- },
- {
-  "unit": "Electrochemistry",
-  "type": "mcq",
-  "anchor": "from the Nernst equation E = 1.10 − (0.0591/2) log([Zn²⁺]/[Cu²⁺]); raising the product-ion concentration lowers E.",
-  "segs": [
-   "0.44 M",
-   "The standard electrode potential of a standard electrode potential of the standard electrode potential?",
-   "−0.71 M",
-   "0.1 M",
-   "0-198 N",
-   "the negative the standard hydrogen electrode potential, so $E = 1.0/2 = 1.0\\times10^{-10} = 1.100$ C = 1.34 - 2.76 = 50.44 = 1.303 = 1.00\\ \\text{g}$ V. For the standard hydrogen electrode potentials = (1.46) = 1.4 - 0.45 M) = 1.024 = 10 - 0.02 = 0.10 V. Option (c) is the concentration of the most negative. The solubility product of the whole scale. The concentration of the expression"
-  ],
-  "score": 0.565,
-  "gate": false
- },
- {
-  "unit": "Ethers",
-  "type": "mcq",
-  "anchor": "auto-oxidation at the carbon next to oxygen gives peroxides which concentrate in the still and can detonate.",
-  "segs": [
-   "(CH3)3COH",
-   "Which of nitrobenzene gives mainly",
-   "CH=CHCH(CHCH2CHCl. Schloalkaline and methanol and methanal and the alkoxide in air. C-2-hydroxy-2-ol have given %. Propanone is a tetrahedral carbocation in ether",
-   "ethanal",
-   "propanoic acid",
-   "the ester attacks the carbon to give the addition and the carbon holds the C=O to the ether."
-  ],
-  "score": 0.342,
+  "score": 0.762,
   "gate": false
  }
 ]

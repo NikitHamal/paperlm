@@ -1,0 +1,12 @@
+{
+ "pack": "math11",
+ "tflite_mb": 12.38,
+ "top1_agreement": 0.9859,
+ "max_logit_diff": 0.238,
+ "signatures": [
+  "decode",
+  "prefill"
+ ],
+ "prefill_chunk": 64,
+ "cache_len": 768
+}

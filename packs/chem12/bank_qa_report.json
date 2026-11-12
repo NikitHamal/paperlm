@@ -1,10 +1,20 @@
 {
  "pack": "chem12",
- "bank_in": 354,
- "bank_kept": 354,
- "dropped": 0,
- "reasons": {},
- "mcq": 294,
- "written": 60,
+ "bank_in": 620,
+ "bank_kept": 580,
+ "dropped": 40,
+ "reasons": {
+  "answer_giveaway": 9,
+  "truncated_answer": 9,
+  "orphan_stem": 8,
+  "no_answer": 7,
+  "leaked_context": 6,
+  "stem_fragment": 4,
+  "needs_figure": 3,
+  "empty_or_tiny_stem": 2,
+  "dangling_pronoun_option": 1
+ },
+ "mcq": 442,
+ "written": 138,
  "units": 21
 }

@@ -1,0 +1,91 @@
+{
+ "pack": "cs11",
+ "params": 10203840,
+ "onnx_int8_mb": 10.73,
+ "vocab": 4096,
+ "val_loss": 3.9843,
+ "ppl": 53.75,
+ "onnx_maxdiff": 3.337860107421875e-06,
+ "used_dpo": true,
+ "bench_sft": {
+  "tag": "sft",
+  "n": 23,
+  "complete": 1.0,
+  "mean_grounding": 0.5414135179990854,
+  "strict_gate_rate": 0.043478260869565216
+ },
+ "bench_final": {
+  "tag": "sft+dpo",
+  "n": 23,
+  "complete": 1.0,
+  "mean_grounding": 0.5720431007812179,
+  "strict_gate_rate": 0.043478260869565216
+ },
+ "bench_dpo": {
+  "tag": "sft+dpo",
+  "n": 23,
+  "complete": 1.0,
+  "mean_grounding": 0.5720431007812179,
+  "strict_gate_rate": 0.043478260869565216
+ },
+ "n_train_items": 432,
+ "n_val_items": 23,
+ "n_gold": 254,
+ "n_teacher": 250,
+ "curve": [
+  {
+   "stage": "A-lm+items",
+   "step": 0,
+   "train": 8.3691,
+   "val": 8.2396
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 100,
+   "train": 3.5603,
+   "val": 4.4028
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 200,
+   "train": 2.3836,
+   "val": 3.8141
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 300,
+   "train": 1.786,
+   "val": 3.9852
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 400,
+   "train": 0.9104,
+   "val": 4.1777
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 500,
+   "train": 0.9,
+   "val": 4.3762
+  },
+  {
+   "stage": "B-items",
+   "step": 0,
+   "train": 1.0764,
+   "val": 3.8131
+  },
+  {
+   "stage": "B-items",
+   "step": 100,
+   "train": 0.7419,
+   "val": 3.8974
+  },
+  {
+   "stage": "B-items",
+   "step": 200,
+   "train": 0.4114,
+   "val": 4.2173
+  }
+ ]
+}

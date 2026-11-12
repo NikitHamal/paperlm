@@ -1,0 +1,18 @@
+{
+ "pack": "cs12",
+ "bank_in": 405,
+ "bank_kept": 361,
+ "dropped": 44,
+ "reasons": {
+  "leaked_context": 16,
+  "needs_figure": 13,
+  "answer_giveaway": 8,
+  "orphan_stem": 4,
+  "latex": 2,
+  "stem_fragment": 2,
+  "empty_or_tiny_stem": 1
+ },
+ "mcq": 293,
+ "written": 68,
+ "units": 7
+}

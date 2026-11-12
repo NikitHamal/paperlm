@@ -1,95 +1,144 @@
 [
  {
-  "unit": "Refraction at plane surfaces",
+  "unit": "DC Circuits",
   "type": "mcq",
-  "anchor": "$AB$ cuts both normals, and alternate angles between parallel lines are equal.",
+  "anchor": "With electric field $E$, an electron has acceleration $a=\\dfrac{eE}{m}$ and, with an average time $\\tau$ between collisions (relaxation time), $v_d=\\dfrac{eE}{m}\\,\\tau$.",
   "segs": [
-   "$AB\\cos\\theta$",
-   "The angle of incidence on a ray travels between two normal, the angle of incidence",
-   "$\\sin i/\\sin i$",
-   "$\\sin i$",
-   "infinite",
-   "$\\sin i/n$ means $i = \\sin r$."
+   "$E=\\dfrac{E}{E}$",
+   "What formula represents the drift velocity of free electrons in a conductor with time $\\tau$, where $E$ is the electric field and the electric field and an electric field $E$?",
+   "$E=\\dfrac Vd$",
+   "$E=n\\dfrac{E}v_d=\\dfrac{E\\,d}{m}$",
+   "$E\\,d=\\dfrac{n}{n}$",
+   "The formula $E=\\dfrac{e}{E}=\\dfrac{E^2}{E}\\,d$ directly defines current density of a conductor as given."
   ],
-  "score": 0.525,
+  "score": 0.856,
+  "gate": true
+ },
+ {
+  "unit": "Dynamics",
+  "type": "mcq",
+  "anchor": "The routine is always the same: isolate one body, draw its free-body diagram, choose axes along and across the motion, and write $\\sum F = ma$ for each axis.",
+  "segs": [
+   "$\\sum F = ma$",
+   "In a system where each force $F = ma$, if the acceleration due to gravity is minus the acceleration of the and ends, what is the rate of doing work?",
+   "$F = ma$",
+   "$F = mg$",
+   "$F - mu$",
+   "The total momentum is the equation $F = ma^2$ as defined as the equation $F$."
+  ],
+  "score": 0.755,
   "gate": false
  },
  {
-  "unit": "Ideal gas",
+  "unit": "Electric field",
   "type": "mcq",
-  "anchor": "Momentum change per impact $= 2mu$, justified by Newton's third law.",
+  "anchor": "Take a cylinder of radius $r$ and length $l$, with the wire along its axis.",
   "segs": [
-   "$p = \\frac{1}{2}mu^2$",
-   "What is the total momentum of an ideal gas molecules in its molecules?",
-   "$p^2$",
-   "$m^2$",
-   "infinite",
-   "The result of a gas constant is equal to kinetic energy of the absolute temperature a translational kinetic energy $2RT$ is given by the root."
+   "$r$",
+   "When a wire of length $l$ and length $l$, the cube of side length $l$ is the cube, which of the charge $q$, which of the cube following correctly represents the cube?",
+   "$kQ$",
+   "$kQ/r$",
+   "$l$",
+   "The charge $q$ is defined as the cube of side to $l$."
   ],
-  "score": 0.517,
+  "score": 0.427,
+  "gate": false
+ },
+ {
+  "unit": "Kinematics",
+  "type": "short",
+  "anchor": "The displacement is the area of the trapezium $OABC$, which is the sum of the rectangle $OADC$ (area $ut$) and the triangle $ABD$ (area $\\tfrac{1}{2}\\times t\\times(v-u)$): $$s = ut + \\tfrac{1}{2}t(v - u) = ut + \\tfrac{1}{2}t(at) = ut + \\tfrac{1}{2}at^{2}$$ 3. Outline: $T = \\dfrac{2u\\sin\\theta}{g}$, $H = \\dfrac{u^{2}\\sin^{2}\\theta}{2g}$, $R = \\dfrac{u^{2}\\sin2\\theta}{g}$; maximum range at $45^{\\circ}$; $R$ equal for $\\theta$ and $90^{\\circ} - \\theta$.",
+  "segs": [
+   "The maximum range $R = u^{2} + 2as$, where $R = u + 2\\theta$, $R = u\\sin 2\\theta$, and $R = u\\cos\\theta + 2\\theta = \\dfrac{u^2\\sin 2\\theta}{g}$. This represents the maximum range $R$ of the maximum range.",
+   "Given a projectile motion $R$, if $R = u$, and $\\theta = u^2\\sin 22\\theta + 2\\theta$. Use the formula for $R = u \\sin 2\\theta$, achieving the formula for $\\theta = u\\sin 20^{\\circ}$."
+  ],
+  "score": 0.8,
+  "gate": false
+ },
+ {
+  "unit": "Work, energy and power",
+  "type": "mcq",
+  "anchor": "$$W_{net} = \\tfrac{1}{2}mv^{2} - \\tfrac{1}{2}mu^{2} = \\Delta K$$ The net work done by all the forces acting on a body equals the change in its kinetic energy.",
+  "segs": [
+   "$W = \\tfrac{1}{2}mv^{2} - \\tfrac{1}2mu^{2}$",
+   "What is the work done by the particle in kinetic energy of a body in its kinetic energy?",
+   "$W = \\tfrac12mv^{21} - \\tfrac{2}{2}mu^{211}$",
+   "$W = mv^{2}/2m$",
+   "$W + U = \\tfrac{12}{2a}$",
+   "The formula $W = \\tfrac{2}12mv^2$ directly relates work done to the change in kinetic energy as the work done."
+  ],
+  "score": 0.948,
+  "gate": true
+ },
+ {
+  "unit": "Refraction at plane surfaces",
+  "type": "short",
+  "anchor": "(a) Show that a ray emerging from a parallel-sided glass slab is parallel to the incident ray, and derive an expression for the lateral shift. (b) A slab of glass of refractive index $1.5$ is $10\\ \\text{cm}$ thick.",
+  "segs": [
+   "(b) $n = \\dfrac{1}{v} = \\dfrac{1.5}{1.5-1.5} = 1.5$. $n = 1.5/1.5 = 1.57$, $n = 1 + 1.5$, $n_1 = 1.53$. $n_1/n_2 = 1.52$, $n > 1.3$, $n$ is the refractive index of the glass.",
+   "a) Define optical fiber and derive an expression for $n = \\dfrac1{v}{v}$ and for a parallel-sided glass slab. b) A ray of $n$ is $1.5$ and $1.5 = 4.0$. Show that $n = 1$ is $10$ and $n = 1/1.5$, the refractive index of glass is $1.0$. Find the refractive index of a glass slab. bundlen of refractive index"
+  ],
+  "score": 0.673,
   "gate": false
  },
  {
   "unit": "Rate of heat flow",
-  "type": "short",
-  "anchor": "(a) From Wien's displacement law, $$T = \\frac{b}{\\lambda_m} = \\frac{2.898\\times10^{-3}}{500\\times10^{-9}} = 5.80\\times10^{3}\\ \\text{K}$$",
+  "type": "mcq",
+  "anchor": "convection needs the material itself to move, which a solid cannot do.",
   "segs": [
-   "(a) $2.0\\times10^{-4}\\times100 = 3.0\\times1.2\\times10^4\\ \\text{K}^{-1}$, $H_{0} = 3.08\\times10^6$, $$k = 3.00\\times100^{-3}\\times1.0\\times17^{-5} = 1.2\\times1.3\\times10^2\\ \\text{K m}^{-4\\pi}$$ $T = 4200\\ \\text{K K}^{-2}$.",
-   "a) What is the rate of heat of water when $8.20\\times10 = 1.25\\times10^5\\ \\text{K kg}^{-34}$. Calculate the temperature change in $10^{5}$ of water in $2.0\\ \\text{W}$ of water. [3](T^{4}] = 5.2\\times180^{5\\times100}{5\\times1.5\\times10 = 500\\ \\text3\\times100\\ \\text15}$. $$Q = \\frac{3.8\\times100\\times1.30\\times10}{5.0} = 1.8\\times1.20\\times20^{-51} = 2.38\\times10 = 420\\ \\text{J}$"
+   "$H = kA(\\theta_1-\\theta_2)/L$",
+   "In a material to measure the a material, which formula correctly represents the heat capacity of the material?",
+   "$H = kAL(\\theta_1+\\theta_2)$",
+   "$H = A(\\theta_1 - \\theta_2)/k$",
+   "$H \\propto T$",
+   "The provided formula $H = kA(kA)/mc$ directly matches the given definition."
   ],
-  "score": 0.545,
-  "gate": false
- },
- {
-  "unit": "Dispersion",
-  "type": "short",
-  "anchor": "$$n = \\frac{\\sin\\left(\\dfrac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\dfrac{A}{2}\\right)}$$ Dispersion.",
-  "segs": [
-   "$\\omega = (n_Y-1)\\left(\\frac{n_V - 1}{n_Y}\\right)$",
-   "a) defines the lens of focal length $(n_V - n_R)$. This is the relative index of focal length in metres. What is the unit of the lens of white light are the focal length of a flint glass. c) What is the colours when the colours are multiplied by a thin lens. b) A spherical prism of focal length $0.03$"
-  ],
-  "score": 0.696,
+  "score": 0.439,
   "gate": false
  },
  {
   "unit": "DC Circuits",
-  "type": "short",
-  "anchor": "It also gives a way to measure $E$ and $r$: a graph of $V$ against $I$ is a straight line whose intercept is $E$ and whose slope is $-r$.",
+  "type": "mcq",
+  "anchor": "With electric field $E$, an electron has acceleration $a=\\dfrac{eE}{m}$ and, with an average time $\\tau$ between collisions (relaxation time), $v_d=\\dfrac{eE}{m}\\,\\tau$.",
   "segs": [
-   "Set the graph of $E$-$ graph. Writtle when $E$ is straight on a slope of $0$ graph. $E$ of $E$, $E$ is a straight line with $V$ graph $E$ against $r$ against $E$, where $E$ is the area under the $E$-Ir$ graph.",
-   "Explain the graph for a $E$-unters of a graph for a straight line, with slope of $E$."
+   "$E=\\dfrac{E}{E}$",
+   "What formula represents the electric field between the current and the electric field inside a conductor with surface charge density $\\tau$?",
+   "$E=\\dfrac Vd$",
+   "$v=\\dfrac{E^2}{m}$",
+   "$E=n\\dfrac{E}v_d)$",
+   "The formula $E=\\dfrac{m}{E}\\,d$ directly represents the electric field in a conductor as given in the context."
   ],
-  "score": 0.726,
+  "score": 0.848,
   "gate": false
  },
  {
-  "unit": "Electric Charges",
+  "unit": "DC Circuits",
   "type": "mcq",
-  "anchor": "charge is invariant; it is the mass that changes with speed.",
+  "anchor": "With electric field $E$, an electron has acceleration $a=\\dfrac{eE}{m}$ and, with an average time $\\tau$ between collisions (relaxation time), $v_d=\\dfrac{eE}{m}\\,\\tau$.",
   "segs": [
-   "an insulator",
-   "A body is always uncharged",
-   "fatter is always zero",
-   "stays the",
-   "inversely proportional to the speed",
-   "charge is a larger force, so the force is zero."
+   "$E=\\dfrac{E}{E}$",
+   "What formula represents the electric field between two parallel plates with surface charge $E$ and the electric field $E$?",
+   "$E=\\dfrac Vd$",
+   "$E=E\\dfrac{E}v\\,d$",
+   "$v=\\dfrac{e}{E}\\,d$",
+   "The formula $E=\\dfrac{I}{E}=\\dfrac{E\\,d}{E}\\dfrac{E}$ directly corresponds to the relationship provided in the electric field, and time."
   ],
-  "score": 0.37,
-  "gate": false
+  "score": 0.882,
+  "gate": true
  },
  {
-  "unit": "Lenses",
+  "unit": "Dispersion",
   "type": "mcq",
-  "anchor": "So we first need the result for refraction at one spherical surface. We start from Snell's law at one curved boundary and reach the equation that a single spherical refracting surface obeys.",
+  "anchor": "Dispersive power $\\omega = \\dfrac{n_V-n_R}{n_Y-1}$ — dimensionless, a property of the material only.",
   "segs": [
-   "The magnification of a spherical surface",
-   "When a spherical mirror is immersed in a spherical mirror.",
-   "The focal length of a spherical mirror",
-   "the reflected rays",
-   "at the pole",
-   "the axis is a spherical mirror of the object distance, and the object is totally reflected."
+   "$\\omega_1 = \\dfrac{n_2}{n_1} = 0$",
+   "What formula represents the dispersive power of a thin prism $\\omega_1$, where $\\omega_2$ is the",
+   "$\\omega_1 f_1$",
+   "$\\omega_2 = \\omega_1$",
+   "_1 + \\omega_2 = 0$ only $\\omega_1 + \\omega = \\omega_2$. Precision by the colortants of the glass material. Option (c) describes the sign of the dispersive power of the glass material at the shorter focal length. Include the given equation $",
+   "The correct formula $\\omega_1/f_2 = \\omega\\omega_2/f_1$ directly relates the two lenses in contact to the colorates the material."
   ],
-  "score": 0.676,
+  "score": 0.786,
   "gate": false
  },
  {
@@ -97,96 +146,51 @@
   "type": "mcq",
   "anchor": "At $0\\ \\text{K}$ they are insulators, but at room temperature a few electrons gain enough energy to cross the gap, leaving holes in the valence band (silicon $1.1\\ \\text{eV}$, germanium $0.67\\ \\text{eV}$).",
   "segs": [
-   "$5.1\\ \\text{eV}$",
-   "Why is the valence band, what happens to cross the conduction band. The valence band band has a forbidden gap of conduction band, what is the conduction band allows",
-   "$1.6\\ \\text{eVeV}$",
-   "$1\\ \\text{K}$",
-   "$0.1\\ \\text EeV$",
-   "The conduction band, thermal energy to join at room temperature."
+   "$0\\ \\text{eV}$",
+   "What is the energy of germanium at $0\\ \\text{K}$ as they are germanium at $0.1\\ \\text{eVz}$ in thermal energy gap at $1\\ \\text{K100\\ \\text{g}$. If the energy gap of $1\\ \\text Em}$ is at $0.0\\ \\text{mm}$, what is the energy gap at $3\\ \\text{eV m}$.",
+   "$0\\ \\textment5\\ \\text{eV mol}^{-1}$",
+   "$0.0\\ \\Omega$",
+   "$0\\ \\Omega$",
+   "The energy gap at $2\\ \\text{eV s}^{-2}$ directly$0.6\\ \\text{eVan germanium. explicitly electrons in a donor level at $0.6\\ \\Omega$. Option (c) is the gap at $30\\ \\text{V}$.) is $1\\ \\text gap at $100\\ \\Omega$.C. Stirevost atom has a $10\\ \\text{h}$ of $1\\ \\mu\\text{eV}$ $10\\ \\Omega$ silicon, which is the most pooration of $1\\ \\Omega$. Find the current and the current in the gap at"
   ],
-  "score": 0.932,
+  "score": 0.917,
   "gate": true
+ },
+ {
+  "unit": "Work, energy and power",
+  "type": "short",
+  "anchor": "Steps 1–5 assumed a constant force acting along the motion and a constant mass. The theorem itself is more general: for a varying force you replace $Fs$ by $\\int F\\,dx$ and reach the same answer. $$W_{net} = \\tfrac{1}{2}mv^{2} - \\tfrac{1}{2}mu^{2} = \\Delta K$$ The net work done by all the forces acting on a body equals the change in its kinetic energy.",
+  "segs": [
+   "The work done by the conservative force during the body, the work done by the body. The theorem itself is $W = ma$, work done $W = ma^{2}$. The theorem uses the work done by force and the work done by a body.",
+   "Explain the work-energy theorem to a varying force and describe the process of the equation."
+  ],
+  "score": 0.737,
+  "gate": false
  },
  {
   "unit": "DC Circuits",
   "type": "mcq",
-  "anchor": "number density times area times drift speed times charge per carrier.",
+  "anchor": "It also gives a way to measure $E$ and $r$: a graph of $V$ against $I$ is a straight line whose intercept is $E$ and whose slope is $-r$.",
   "segs": [
-   "$\\sigma/e$",
-   "The charge density of a plate with charge on",
-   "$\\sigma/\\varepsilon_0$",
-   "$\\sigma/A$",
-   "$\\sigma\\varepsilon_0$",
-   "no charge per metre."
+   "$E/I$",
+   "What formula represents the total resistance of a graph between $I$ and $I$?$E$I$ graph between two cell with voltage $V$ and $Ir$. What is the resistance of current per unit time $I$, and $I$ a graph between $E$ and $I=V$?$Ir$E$ graph between $Ir$ and $I-$.",
+   "$E$",
+   "$E$E$E=r$",
+   "$E\\cdot d$",
+   "The formula $Id=\\dfrac{I}{I}$ directly defines current density as the product of current density and time, and resistivity of a conductor as per unit the current per unit time."
   ],
-  "score": 0.567,
+  "score": 0.466,
   "gate": false
  },
  {
-  "unit": "Reflection at curved mirror",
+  "unit": "Refraction at plane surfaces",
   "type": "short",
-  "anchor": "A concave mirror can give a real image or a virtual image, magnified or diminished. Here $C$ is at $2f$ and $F$ is at $f$ from the pole. A real image has $v$ negative; a virtual image has $v$ positive. The position of the object relative to $F$ and $C$ decides the image formed, and the same mirror formula describes every case.",
+  "anchor": "The incident ray, the refracted ray and the normal to the surface at the point of incidence all lie in the same plane.",
   "segs": [
-   "Total image $v$ of the pole $f$, inverted and $f$. $f$, $v$ and $f$ is formed where $f$ is placed $f$.",
-   "a real object $D$ of a real object $f$, image $f$ and focal length $f$."
+   "The normal is the angle of incidence $i$, so the angle of refraction at the normal is the angle between the refracted ray and the normal. For the angle between the incident ray and the normal, the angle between the normal. For incident ray parallel to the normal. For two parallel to the refracted ray, $i$ is the angle of refraction $i$. The emergent ray is parallel to the normal, so the angle between the angle of refraction, $i$, $i$ the angle of incidence, and $i$ is parallel to the incident ray.",
+   "aiamond of light ray inside a parallel to the incident normal, and the angle of refraction ($i$) of the prism and the angle of incidence ($i$, and the angle between the two normal."
   ],
-  "score": 0.7,
-  "gate": false
- },
- {
-  "unit": "Dispersion",
-  "type": "short",
-  "anchor": "$$n = \\frac{\\sin\\left(\\dfrac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\dfrac{A}{2}\\right)}$$ Dispersion.",
-  "segs": [
-   "$\\sin\\left(\\dfrac{n_m}{n_V}\\right)\\right)$, so $n_Y = \\frac{n_r}{n_Y} = \\frac{1}{R_2}$. $\\dfrac{n_1}{n_2} + \\dfrac{\\omega_1}{f_2} = 0$. $n_1 + \\dfrac{n_2-1}{f} = \\dfrac{n_1 - 1}{f_1}$, giving $\\dfrac{n}{n_1 + n_2} = (n_2-n_1)A$.",
-   "a) What is the result of focal length in terms of the combination angle in contact and describe how image has the other defect. b) A thin prism of refractive index $n_1$, $n_2$ and $n_2 = n_2$. Find the focal length in the second."
-  ],
-  "score": 0.648,
-  "gate": false
- },
- {
-  "unit": "Gravitation",
-  "type": "mcq",
-  "anchor": "Outline: $g_h = g\\left(\\dfrac{R}{R+h}\\right)^{2}$; $g_d = g\\left(1 - \\dfrac{d}{R}\\right)$; $v_e = \\sqrt{2gR} = 11.2\\ \\text{km s}^{-1}$.",
-  "segs": [
-   "$20\\ \\text{km s}^{-1}$",
-   "A satellite orbit of mass $10\\ \\text{m}$ at a height of $2\\ \\text{km}$ is",
-   "$2\\ \\text{m s}^{2}$",
-   "$200\\ \\text{rad s}^{6}$",
-   "$10\\ \\text \\text{km s m}^{-2}$",
-   "$v_e = \\sqrt{2gR} = \\sqrt{2\\times9.6\\times10^{6}} = \\sqrt{1.6\\times1.5\\times10^2 = 1.2\\ \\text{s}$. Option (a) forgets the orbital velocity and with initial velocity. What is the escape velocity of $2.2\\ \\textv_e = 1.5\\ \\text{km m}^{22}$. Option(b) is $v_e = 2v_e = 8.82\\ \\text{rad}$. Sh) is $200\\;\\ \\text{km\\ s}^{\\text{s}$ is $1\\ \\text{km h}$. Option sold-years}) is the Earth's surface"
-  ],
-  "score": 0.931,
-  "gate": true
- },
- {
-  "unit": "Dispersion",
-  "type": "mcq",
-  "anchor": "From the lens maker's formula, $\\dfrac{1}{f} = (n-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)$.",
-  "segs": [
-   "$\\dfrac{1}{f} = (n-1)$",
-   "What is the condition for the image distance of the first lens in a lens in a lens which of focal length $f$?",
-   "$\\dfrac{1-\\dfrac{1}\\circ}$",
-   "$\\dfrac{f_1}{f_1R_1}$",
-   "$\\omega_1 = \\omega_2$",
-   "The formula $\\dfrac{1}f_2 f_1$ directly matches the image distance, and the lens in the second lens in the second."
-  ],
-  "score": 0.851,
-  "gate": true
- },
- {
-  "unit": "Ideal gas",
-  "type": "mcq",
-  "anchor": "Momentum change per impact $= 2mu$, justified by Newton's third law.",
-  "segs": [
-   "$\\tfrac12kT$",
-   "The mean translational kinetic energy of a molecule of an ideal gas at absolute temperature $\\overline{u^{2}}$ is",
-   "$\\tfrac12RT$",
-   "$\\tfrac13\\rho\\overline{c^2}$",
-   "$\\tfrac2RT$",
-   "$\\overline{E} = \\tfrac32RT$, so $\\tfrac12kT = \\tfrac3RT$, $\\overline{c^{2}$. Option (c) is $\\overline{u} = \\tfrac3\\rho\\overline{u^2}$. Why: $\\tfrac12RT = \\tfrac13\\rho\\overline A\\overline{c^3}$, $\\overline E\\overline{u^3}$ is the average translational kinetic theory. What is the rms speeds at the same temperature, which expression for the commonest confir equivalently provided in"
-  ],
-  "score": 0.53,
+  "score": 0.613,
   "gate": false
  }
 ]

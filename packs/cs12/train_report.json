@@ -1,0 +1,91 @@
+{
+ "pack": "cs12",
+ "params": 10203840,
+ "onnx_int8_mb": 10.73,
+ "vocab": 4096,
+ "val_loss": 4.4192,
+ "ppl": 83.03,
+ "onnx_maxdiff": 4.0531158447265625e-06,
+ "used_dpo": true,
+ "bench_sft": {
+  "tag": "sft",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.5707988527137423,
+  "strict_gate_rate": 0.125
+ },
+ "bench_final": {
+  "tag": "sft+dpo",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.5836411025213775,
+  "strict_gate_rate": 0.125
+ },
+ "bench_dpo": {
+  "tag": "sft+dpo",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.5836411025213775,
+  "strict_gate_rate": 0.125
+ },
+ "n_train_items": 400,
+ "n_val_items": 25,
+ "n_gold": 247,
+ "n_teacher": 228,
+ "curve": [
+  {
+   "stage": "A-lm+items",
+   "step": 0,
+   "train": 8.3355,
+   "val": 8.1988
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 100,
+   "train": 4.053,
+   "val": 4.6875
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 200,
+   "train": 2.4291,
+   "val": 4.2794
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 300,
+   "train": 0.8913,
+   "val": 4.5299
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 400,
+   "train": 0.9183,
+   "val": 4.637
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 500,
+   "train": 0.4828,
+   "val": 4.9331
+  },
+  {
+   "stage": "B-items",
+   "step": 0,
+   "train": 1.5898,
+   "val": 4.2784
+  },
+  {
+   "stage": "B-items",
+   "step": 100,
+   "train": 0.5238,
+   "val": 4.3887
+  },
+  {
+   "stage": "B-items",
+   "step": 200,
+   "train": 0.2577,
+   "val": 4.7223
+  }
+ ]
+}

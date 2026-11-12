@@ -1,0 +1,192 @@
+[
+ {
+  "unit": "Information Security and Cyber Law",
+  "type": "mcq",
+  "anchor": "Nepal's principal cyber law is the Electronic Transactions Act, 2063 (2008).",
+  "segs": [
+   "Phishing",
+   "The Act,063 of years?",
+   "Pweening assembler directly",
+   "UTF-base Act",
+   "URL",
+   "Nepal's cyber law is the Electronic Transactions Act, 2063 of Nepal's cyber law."
+  ],
+  "score": 0.55,
+  "gate": false
+ },
+ {
+  "unit": "Computer Software and Operating System",
+  "type": "mcq",
+  "anchor": "It records the free space on the disk and controls who can read or change each file. File Explorer is the Windows tool for this work, and a student's project folder on drive D is a daily example. 4.",
+  "segs": [
+   "It serves as a GUI, which tool for browsing the Windows tool for browsing it.",
+   "Why is the job of a temporary, and another website using a window applications?",
+   "It manages files to various letters for browsing deductions for browsing.",
+   "It allows users to find the battery last powerious.",
+   "It changes the software that the Windows is a single single computing.",
+   "The shell reads the role of a limited periodicallyaily, and the role of a website."
+  ],
+  "score": 0.5,
+  "gate": false
+ },
+ {
+  "unit": "Information Security and Cyber Law",
+  "type": "short",
+  "anchor": "Technology alone cannot stop cybercrime; careful users, strong passwords and a good law together make the digital society safer. Cyber law governs the use of computers, the internet and electronic information. Nepal's cyber law is the Electronic Transactions Act, 2063 (2008) — 12 chapters, 80 sections, Chapter 9 the offences.",
+  "segs": [
+   "The Act 2063 (8) the Electronic Transactions Act, 2063.",
+   "a) What is the Electronic Transactions Act Act, 20063 (2008) and cyber law."
+  ],
+  "score": 1.0,
+  "gate": true
+ },
+ {
+  "unit": "Application Package",
+  "type": "short",
+  "anchor": "The relative references B2:D2 become B3:D3, B4:D4 and so on automatically, while $H$1 stays fixed. A spreadsheet holds data in cells addressed by column letter and row number, calculates with formulas beginning with = and functions such as SUM, AVERAGE, MAX, IF, and draws charts.",
+  "segs": [
+   "$=SUM(B2:D2) ensures the formulas for a spreadsheet. The B2:D2 = A2+B2:D3, B3, B2 =D2 and B2:D3:D2 = B3, B3:D2 is copied, and calculates the columns, and print the mean of relative references. Section 5.2:D2:D2.4:D2:F2 =SUM(B2); row, MAX, MAX, B2 =B2:D4:D2 =H210, B2 = 110., AVERAGE, if the row is copied in cells B3:D3, AVERAGE, indicating an inventory database with formulas for the row, and row 2. and the average are copied in row, and row, and the spreadsheet, and the formula is copied. A14:D2, B2 =SUM(COUNT(B2) and row, which results in cells B2:D10, and row 2 to C3:D2, \\text{A}B2$. A12:D213:D2:B2 = A2 =B2'$. Toneb. A2 =B3:D2)$2 = A2$. A2 =SUM(A100,53, B2). In an OR, if the average is copied, as the spreadsheet is copied",
+   "Why does the cells B2 in relative references if the row, and the row of relative references?"
+  ],
+  "score": 0.667,
+  "gate": false
+ },
+ {
+  "unit": "Number System and Boolean Logic",
+  "type": "mcq",
+  "anchor": "Binary addition: $1+1 = 10$; subtraction borrows a 2. 1's complement = invert all bits, and the end-around carry is added back. 2's complement = 1's complement + 1, and the carry is discarded.",
+  "segs": [
+   "The carry out of the carry out of the least significant bit is discarded, which is the answer is the 2's complement plus 1.",
+   "Why is the sum of the 1's complement of the carry?",
+   "The sum of the same adder the 8 bits $10001011011$ in the carry?",
+   "Acc-around carry out of the same bit in the 2's theorem.",
+   "The sum except the carry out of $10100100001$ is discarded, hence the carry is discarded is discarded, which matches the sum of the result.",
+   "The sum except a carry out of the 8-around carry."
+  ],
+  "score": 0.727,
+  "gate": false
+ },
+ {
+  "unit": "Number System and Boolean Logic",
+  "type": "mcq",
+  "anchor": "the carry is generated only when both inputs are 1.",
+  "segs": [
+   "1010",
+   "What term $100$ when the following is an odd number of 1 when the result?",
+   "the groups of 10",
+   "100",
+   "the product of inputs",
+   "The sum of inputs are identical, which is the sum of inputs, which equation is 1 when the sum of inputs are equal."
+  ],
+  "score": 0.423,
+  "gate": false
+ },
+ {
+  "unit": "Computer System",
+  "type": "short",
+  "anchor": "Architecture = what the machine does (programmer's view); organization = how it is built (implementation).",
+  "segs": [
+   "A phishing suitable for creating animations, which matches the description of a port is used to perform arithmetic.",
+   "Which of the following is defined as a computer system?"
+  ],
+  "score": 0.1,
+  "gate": false
+ },
+ {
+  "unit": "Number System and Boolean Logic",
+  "type": "mcq",
+  "anchor": "Binary ↔ octal groups 3 bits per digit; binary ↔ hex groups 4 bits. Binary addition: $1+1 = 10$; subtraction borrows a 2. 1's complement = invert all bits, and the end-around carry is added back. 2's complement = 1's complement + 1, and the carry is discarded.",
+  "segs": [
+   "Binary bit correspond the binary number and hexadecimal digit using 4 bits.",
+   "Which binary addition process mentioned the octal digit using a binary number into its own 4 bits?",
+   "Crec binary addition process mentioned as the binary addition process by 2.",
+   "Boolean algebra and verify the same binary subtraction.",
+   "Calculate the binary addition process rather than the binary numbers.",
+   "The binary digit can its own 4 bits as the binary point represent the binary addition process where the sum is obtained by a binary representation."
+  ],
+  "score": 0.701,
+  "gate": false
+ },
+ {
+  "unit": "Programming Concepts and Logics",
+  "type": "short",
+  "anchor": "(a) Explain the three control structures of structured programming with a flowchart fragment for each. (b) Write a C program using switch that reads two numbers and a choice (1 = add, 2 = subtract, 3 = multiply, 4 = divide) and prints the result.",
+  "segs": [
+   "It converts the C program into a C program. (a) Chainample: int ignor and a C program with a C program.",
+   "Why is a C program designed to read a C program using a C program and a C program?"
+  ],
+  "score": 0.643,
+  "gate": false
+ },
+ {
+  "unit": "Application Package",
+  "type": "short",
+  "anchor": "A primary key is a field whose value is different in every record and is never empty; it identifies a record uniquely.",
+  "segs": [
+   "Automatic recalculation",
+   "Which software of a database table in a database?"
+  ],
+  "score": 0.4,
+  "gate": false
+ },
+ {
+  "unit": "Multimedia",
+  "type": "mcq",
+  "anchor": "It works because of persistence of vision: the eye keeps an image for a fraction of a second, so frames shown faster than about 12 per second blend into motion.",
+  "segs": [
+   "It targets a list of a large number of frames shown per second.",
+   "Why is the frames shown per second when the primary key frames per second?",
+   "It",
+   "It targets the standard frame rate.",
+   "It targets a sampling to compression than one example.",
+   "The definition provided example of a power included components."
+  ],
+  "score": 0.581,
+  "gate": false
+ },
+ {
+  "unit": "Application Package",
+  "type": "mcq",
+  "anchor": "Spreadsheet (MS Excel): data in rows and columns; formulas, functions, charts and what-if analysis.",
+  "segs": [
+   "Reign data in a hotel. Model answer is a field? Explain the totals of a rectangular and a spreadsheet?.",
+   "Which of the following is used to create a database table of a spreadsheet?",
+   "Crecookie",
+   "Formal fillagerserymainfield.",
+   "CQs and slower; the attribute of information.",
+   "A field (column or attribute) is explicitly mentioned as the stock in a relational DBMS."
+  ],
+  "score": 0.42,
+  "gate": false
+ },
+ {
+  "unit": "Number System and Boolean Logic",
+  "type": "mcq",
+  "anchor": "AND outputs 1 only for (1, 1); NAND is its inverse.",
+  "segs": [
+   "XOR",
+   "Which of the following is the output when its inputs are NAND, and NOR?",
+   "AND",
+   "XNOR and XNOR. Spreadsheet every other gate.",
+   "AND gate outputs $1$ and $1$. In, and $1$, and $0$, and $10$... Figure 5.a NAND gate gives 1 only when both inputs are different.$, and NAND gates are NAND, which combination of the sum of NAND.$",
+   "The XOR gate's complement of the sum of every other gate gives 1 only NAND gates."
+  ],
+  "score": 0.39,
+  "gate": false
+ },
+ {
+  "unit": "Computer Software and Operating System",
+  "type": "mcq",
+  "anchor": "It records the free space on the disk and controls who can read or change each file. File Explorer is the Windows tool for this work, and a student's project folder on drive D is a daily example. 4.",
+  "segs": [
+   "A Windows tool for linking the steps to install a wiredable for the Linux distribution.",
+   "Which software?",
+   "It allows users to create a fixed time required to a mobile computing.",
+   "It provides a Windows tool for browsing strategies.",
+   "It allows users due to various processes.",
+   "The shell is defined as the role of a shoperivacy."
+  ],
+  "score": 0.637,
+  "gate": false
+ }
+]

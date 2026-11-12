@@ -1,8 +1,8 @@
 {
  "pack": "phy12",
  "tflite_mb": 12.38,
- "top1_agreement": 0.9296,
- "max_logit_diff": 0.292,
+ "top1_agreement": 1.0,
+ "max_logit_diff": 0.314,
  "signatures": [
   "decode",
   "prefill"

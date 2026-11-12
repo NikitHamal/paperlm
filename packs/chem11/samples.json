@@ -1,39 +1,69 @@
 [
  {
+  "unit": "States of Matter",
+  "type": "mcq",
+  "anchor": "In terms of mole fraction $x_i$, The commonest use is correcting for water vapour when a gas is collected over water: $p_{dry\\ gas} = P_{atm} - p_{water\\ vapour}$ (the aqueous tension).",
+  "segs": [
+   "$p_p = P_c_c_{atm} = P_{atm}$.",
+   "For a gas is the equilibrium constant $K_p$ for a liquid is increased?",
+   "Charles's Law",
+   "Change is directly proportional to the gas.",
+   "Charles' law",
+   "The equilibrium towards fewer gas constant $K_c$ is the right side with fewer gas to $K_c = P_c$."
+  ],
+  "score": 0.842,
+  "gate": false
+ },
+ {
+  "unit": "Foundation and Fundamentals",
+  "type": "mcq",
+  "anchor": "Empirical and molecular formula from percentage composition (unit 2, $[5]$).",
+  "segs": [
+   "$\\text{CH}_4$",
+   "What formula of Dalton's atomic mass of an element with $\\text{CH}$ and $\\text{C}_8\\text{H}_6$?",
+   "$\\text{C}$",
+   "$\\text{H}$",
+   "$Z = \\frac{18}{18}$",
+   "The correct formula $\\text{CH(OH)})_2$ correctly represents the calculation provided."
+  ],
+  "score": 0.539,
+  "gate": false
+ },
+ {
   "unit": "Chemistry of Metals",
   "type": "short",
   "anchor": "Calcination (limited air) removes H₂O and CO₂ from carbonate and hydrated ores; roasting (excess air) converts sulphides to oxides, 2ZnS + 3O₂ → 2ZnO + 2SO₂↑.",
   "segs": [
-   "Sulphur and Zn, CaSO. SiO, dried, the action of the air is obtained from a air; the water is a basic gangue: the melting point to give a drying agent, which is used to give the air: nand-ones, which is oxidised to make and then then then the basic flux and dissolves in the otherwise.",
-   "a) Thermite a small scale is used to about 60 °C and drives H2O and 2.9.5 km and nasticination, which the Solvay process, the reducing agent (1,1,2, 6, which is 9600 °C), which is the air, and is 100 °C and is about 700 °C, and is needed. It is oxidised to about 200 °C. (C) H = +2.34440 °C and 2H = 2"
+   "Calcination is the fusible, which floats on the molten mattered with air.",
+   "In the air is passed over a air to Na and, which concentrated H is passed over concentrated Hol, formed?"
   ],
-  "score": 0.184,
+  "score": 0.28,
   "gate": false
  },
  {
-  "unit": "Hydrocarbons",
-  "type": "mcq",
-  "anchor": "2CH₃COO⁻ → 2CH₃• + 2CO₂ + 2e⁻, and the methyl radicals couple.",
-  "segs": [
-   "Coffine",
-   "Propene reacts with HBr and Ag, is",
-   "carbocations",
-   "carblene",
-   "carbocalcium and cancel",
-   "Baldehyde is a saturated, which is the oxygen, and gives the carbon skeleton."
-  ],
-  "score": 0.483,
-  "gate": false
- },
- {
-  "unit": "Aromatic Hydrocarbons",
+  "unit": "Fundamental Principles of Organic Chemistry",
   "type": "short",
-  "anchor": "(a) Explain the terms activating, deactivating, o,p-directing and m-directing, giving two examples of each class. (b) Predict the major product of (i) nitration of toluene, (ii) nitration of nitrobenzene, (iii) bromination of phenol.",
+  "anchor": "$\\text{CH}_3\\text{CH(CH}_3)\\text{CH}_2\\text{CH}_3$ is 2-methylbutane; $\\text{CH}_3\\text{CH}_2\\text{CH(OH)CH}_3$ is butan-2-ol; $\\text{CH}_3\\text{CH=CHCH}_3$ is but-2-ene; $\\text{CH}_3\\text{CH}_2\\text{COOH}$ is propanoic acid.",
   "segs": [
-   "(b) ethyne prepared from the π cloud to the C=C bond. (a) An alcohol and (iii) nitration of benzene, two carbons, and the three ring, each class. (b) (b) nitration of the addition of the nitration of the addition, each with the ring, the stability of the addition, the the resonance energy is the more stable. (a) nitration of the product. (b) The π electrons of the ring, the ring, the two, the resonance energy of the nitration of phenol, and the three molecules of the π bond. (b) CH=CHCH=CH(OH) CH=CH=CH(CH=CH),(CH),(b) CHCl=CH(CH +I) and the double bond. (b.) (b) With ethane, the H adds by the OH to the resonance energy. (i) Tetra-2-ol (b) the",
-   "a) nitration of a C=C (b), the π bond to the more stable than the π bond.). (a) the two π electrons from the resonance energy of benzene, the two, and the addition of the ring, and the resonance energy is (d). (b) cyclohexane, the two C=C bonds, and the intermediate (p), o,p, and the resonance effect"
+   "(a) $\\text{CH}_3$, $\\text{CH(CH}_3)_2\\text{CH}^+$ (iv) $\\text{CHCH}_3\\text{CH}(\\text{CH} + \\text{CH}_2\\text{COOH}$.",
+   "Explain the IUPAC names of identifying longest carbon (\\text{CH}$)CH(OH)CH(OH,)CH(OH. Also,(i) the suffix reacts with methyl radicals. b)-\\text{CH}{=}\\text{CH}=CH(OH)COOH)CH(OH(OH)CH=CH(OH,(CH(OH)OH. A chiral (iv)-CH(OH)-CH(CH(OH.)CH(OH (CH(OH)CHO(CH(OHCOOH)CH(CH(CH()CH(OH; (CH(OH..)CH(CH=CH(CH(COOH)CH(COOH)COOH (OH)CH(CHCOOH)CH(CN)CH(OH and)CH(OH is a strong? (CH(CH(\\text{CH(OH"
   ],
-  "score": 0.408,
+  "score": 0.826,
+  "gate": false
+ },
+ {
+  "unit": "Classification of elements and Periodic Table",
+  "type": "mcq",
+  "anchor": "Potassium ($Z = 19$) has a far bigger nuclear charge than lithium ($Z = 3$), yet its valence electron is held much more weakly.",
+  "segs": [
+   "IE$Z_{eff}$",
+   "What phenomenon is observed in the effective nuclear charge ($Z=15$) as more stable ($Z=3$)?",
+   "11",
+   "112",
+   "14",
+   "The calculation $Z_{\\text{eff}}$ is explicitly stated in the provided information."
+  ],
+  "score": 0.417,
   "gate": false
  },
  {
@@ -41,129 +71,103 @@
   "type": "mcq",
   "anchor": "Polymerisation: passing through a red-hot iron tube trimerises it to benzene: $3\\,\\text{C}_2\\text{H}_2 \\rightarrow \\text{C}_6\\text{H}_6$.",
   "segs": [
-   "$\\text{H}_2\\text{O}$",
-   "The $\\text{H}^{+}$ is",
-   "$\\text{Na}_2\\text3\\text{H}-\\text{C}$",
-   "$\\text{HBr}_5\\text{O}_3$",
-   "$\\text34HSO4$",
-   "$\\text{BF}_3\\text{COO}_3\\text2OF s$."
+   "functional isomers",
+   "Herotilling a $\\text{CH}_2\\text{Br}_2$, what term to the followingments correctly to form polythene: $\\text{CH(OH)CH}_2 \\rightarrow \\text{CH}_3 + \\text{C}_2\\text\\text{H}_6$. What is the simplest formation of benzoethane?",
+   "methane",
+   "position isomerism",
+   "position isomers",
+   "The addition of propane,2-Crafts alkyl groups attached, which on the ether."
   ],
-  "score": 0.95,
-  "gate": true
+  "score": 0.444,
+  "gate": false
  },
  {
   "unit": "Classification of elements and Periodic Table",
   "type": "short",
   "anchor": "Beryllium's electron leaves a filled 2s² orbital, while boron's leaves a 2p orbital that is higher in energy and well shielded by 2s². Nitrogen is 2p³, a half-filled subshell with extra exchange stability and no paired electron.",
   "segs": [
-   "(b) Draw a group is filled 3d, 2s² 2p³ 4s² 2s² 3p³..(a) S in the electron-filled 2p subshell is extra stability of 3s² 3p subshell is higher and 3p subshell is [Ar] 4s².(b) State the 3p subshell 3d³ 3s² 4s² 2p orbital: 2s² 3s² 2p subshell 3p³, 4s².",
-   "a) L² 2p² 2s² 4p³ 4p² 3p³, $(n-x) = 3s².((b) + 3(b)(b) + 2s²(b) + 8(b)(a) the 3p subshell 2s² 2s 2s² 3d³.(b)(d) + 4s²(p) + 2s(b) + e(b) + 4s(b)(c) + 3(s² 3) + 2(-x)(b) = -12.4s²2p³3p³ 2p³ 3s² 3d² 3p³ 3p³4s² 4s subshell 3p, 2p 3d electron, so the extra stable and is extra stable, which and in a group, so it is extra stable. What is not a group. in a group is why the electron enters"
+   "Paultraight-benzon has no paired 2p electron, each cyclelast a periods orbital is 2p, and the first; it is the half-filled and has no paired 4p electron, and has no parent atom.",
+   "Explain a half-filled d-filled 2p subshell in a 3p electron, which is why a cation is held by an empty p orbital that of the subshells?"
   ],
-  "score": 0.766,
+  "score": 0.518,
   "gate": false
  },
  {
-  "unit": "Chemical Bonding and Shapes of Molecules",
+  "unit": "Modern Chemical Manufactures",
   "type": "mcq",
-  "anchor": "two lone pairs compress the angle below $109.5^{\\circ}$.",
+  "anchor": "the gauze glows red-hot, so the reaction is self-sustaining.",
   "segs": [
-   "1",
-   "The shape of the lone pair in the molecule is",
-   "11",
-   "09.5°",
-   "109.044.9.5°",
-   "the lone pairs and lone pairs, the lone pairs, as lone pairs and one lone pair."
+   "copper",
+   "The catalyst used in the Haber process is",
+   "the catalyst used",
+   "iron",
+   "pure-o-volume production",
+   "steady corrosion when $\\text{MnO}_4^{-}$ is the external pressure alone."
   ],
-  "score": 0.54,
-  "gate": false
- },
- {
-  "unit": "Oxidation and Reduction",
-  "type": "short",
-  "anchor": "The same current of 1.5 A is passed for 30 minutes through AgNO₃ and CuSO₄ solutions connected in series. Calculate the mass of silver and of copper deposited.",
-  "segs": [
-   "Aram is the mass of iron in the mass of the mass of the carbon dioxide is heated with the one mole of iron. Calculate the mass of 3.500 %. $$\\text{CaCO}_4^{-1}\\text{mol}^{2+}$. $$n(\\text{H}_2\\text{O}_4)^{+}$.",
-   "a) Calculate the mass of oxygen (s 6000 deduce^{2+3+)^{-11}$ and $4.500\\ \\text{C}$. In the mass of electrons and the mass of copper sulphate solution. (a) A current of Fe³) in Fe²³). Calculate the mass is the mass of copper from the mass of NaCN. (a) What is a cotopal of copper sulphate, and the mass of 10000 kg. A is the mass of 1.5 g of the volume at STP is b). (b) The mass of"
-  ],
-  "score": 0.444,
+  "score": 0.5,
   "gate": false
  },
  {
   "unit": "Modern Chemical Manufactures",
   "type": "short",
-  "anchor": "Inorganic: ring test, Kipp's apparatus, Down's process, plaster of Paris $\\text{CaSO}_4\\cdot\\tfrac{1}{2}\\text{H}_2\\text{O}$; Haber (Fe), Ostwald (Pt–Rh), contact ($\\text{V}_2\\text{O}_5$), Solvay.",
+  "anchor": "Electrolyte: purified saturated brine, fed into the anode compartment. Anode (titanium coated with $\\text{RuO}_2$): $2\\text{Cl}^{-}\\rightarrow\\text{Cl}_2+2e^{-}$, and chlorine is collected. Actual mass = 0.90 × 1060 = 954 kg. 17.6 Fertilizers: chemical fertilizers, types, production of urea.",
   "segs": [
-   "$\\text{H}_2\\text{O}_4$",
-   "In the Haber process $\\text{O}-\\text{O}$ is absorbed in $\\text{H}$ and $\\text{HF}_2\\textium nitrateOSO5$."
+   "(a) $200^{-}) = 9900\\times10^{-10}$. For example, and the fusion is $600^{\\circ}\\text{C}$; the mass of chlorine is $60^{-5}\\ \\text{g}$; the two chlorine is $120^{-23}$.",
+   "Calculate the mass of $\\text{-}$ of chlorine is $100^{23}$, and the mass is $10^{6}\\ \\text{C}$ and $\\text{C}_6\\text{H}_{12}\\text{O}$, and $\\text{H}+$ are present. The anode is readed, and the anode is recycled."
   ],
-  "score": 0.867,
-  "gate": true
- },
- {
-  "unit": "Fundamental Principles of Organic Chemistry",
-  "type": "short",
-  "anchor": "$\\text{CH}_3\\text{CH(CH}_3)\\text{CH}_2\\text{CH}_3$ is 2-methylbutane; $\\text{CH}_3\\text{CH}_2\\text{CH(OH)CH}_3$ is butan-2-ol; $\\text{CH}_3\\text{CH=CHCH}_3$ is but-2-ene; $\\text{CH}_3\\text{CH}_2\\text{COOH}$ is propanoic acid.",
-  "segs": [
-   "$\\text{CH}_3\\text{CH}$",
-   "The IUPAC name of $\\text{CH}(\\text{CH}-\\text{CH}=\\text{CH}+$ is $\\text{CH(OH)CH}_2\\text{CH}^{-}$. $\\text{CHCl}_3\\text acid $\\text{CHCH}_2$; $\\text{CH2-methylbutane$-\\text{CH(CH}_3)_3\\text{OH}$; $\\textCH}_2-\\text{CHCH(CH}$; $-\\text{CH=CH}_3$; $\\textkCH(CH)_3\\text4-(OH) -I(CH(OH)_3\\text\\text{CH}\\text{CH} + 2\\text{CH}{CH}$"
-  ],
-  "score": 0.931,
-  "gate": true
- },
- {
-  "unit": "Chemical Bonding and Shapes of Molecules",
-  "type": "mcq",
-  "anchor": "BF₃ is trigonal planar and symmetrical, so the three bond dipoles cancel.",
-  "segs": [
-   "$\\text{BF}_3$",
-   "The shape of the PH actinue to 109.5°2",
-   "$sp^{\\circ}$",
-   "$sp^-1804.5^{\\circ}\\text{C}$",
-   "$344$",
-   "the lone pair; the lone pair; the bond pairs and a lone pair; the valence bond pairs and one lone pair."
-  ],
-  "score": 0.465,
+  "score": 0.627,
   "gate": false
  },
  {
-  "unit": "Classification of elements and Periodic Table",
-  "type": "mcq",
-  "anchor": "$\\sigma = 8(0.85) + 2(1.00) = 8.80$, so $Z_{\\text{eff}} = 11 - 8.80 = 2.20$.",
-  "segs": [
-   "$\\text{Al}^{2+}$",
-   "The $\\text{K}^{2}$, $\\text{eff}^{2$, $\\text,} = 100$, $00^{\\circ}$, $0.025\\times10^{23}$ is $0.08218$. The most $0.0$, $10^{\\circ L}\\text{C}^{2\\text{Na}^{3}$; $500^{5}\\text{CF}^{230}$. C: $000^{25}$, $1.0\\times10^23}$. $5000\\,500^2350$, $500$, so $150^{\\circ(10.0^{\\circ0}\\text{C(H}_2\\text{O}) = 400$. $580$, $sp^{2} = 4.0925^{\\circ}\\text{CO}$. $1000^25}$. $0.0^334$",
-   "$0.000^11250^{28}$",
-   "$100^{6}\\text{CL}$",
-   "$800^{7}\\text{CSO}$",
-   "$\\text{Na}_2\\textium -0000080\\,000\\ \\text{K}$."
-  ],
-  "score": 0.884,
-  "gate": true
- },
- {
-  "unit": "Fundamental Principles of Organic Chemistry",
+  "unit": "Bio-inorganic Chemistry",
   "type": "short",
-  "anchor": "$\\text{CH}_3\\text{CH(CH}_3)\\text{CH}_2\\text{CH}_3$ is 2-methylbutane; $\\text{CH}_3\\text{CH}_2\\text{CH(OH)CH}_3$ is butan-2-ol; $\\text{CH}_3\\text{CH=CHCH}_3$ is but-2-ene; $\\text{CH}_3\\text{CH}_2\\text{COOH}$ is propanoic acid.",
+  "anchor": "Classify the elements of the human body into macronutrients and micronutrients, giving the approximate boundary between them. (b) Tabulate the biological importance of Na, K, Mg, Ca and Fe, giving one specific molecule or process for each.",
   "segs": [
-   "$\\text{CH}_2\\text{OH}$",
-   "E geometrical isomerism $\\text{CH}$ with OH on $\\text{CH(OH)CH}_3$. (a) The $\\text{CHCH}_3\\text{CH} + 2\\text{CH}^{2-}$; $\\text{CH3CH}_2$ is $\\text{CHO}_3\\text2\\text{CH}(\\text{CH})_2\\text{CH(CH}_3)_3\\text{COOH}_3\\text dipoles of the OH group. The $\\text{CHCH}_3\\text\\text{CH}{CH}$. $\\text{CH=CH}_3 + \\text"
+   "(a) $=\\dfrac{23.4}{24.4} = 2.001\\ \\text{g}$, so $= \\dfrac{6.60}{22\\times10^{-4}} = 0.102\\ \\text{g cm}^{-1}$.",
+   "Given the mass of iron in the body the mass of iron per molecule, and the mass of iron is obtained?"
   ],
-  "score": 0.956,
-  "gate": true
+  "score": 0.327,
+  "gate": false
  },
  {
-  "unit": "Atomic Structure",
+  "unit": "States of Matter",
   "type": "mcq",
-  "anchor": "a half-filled $d$ subshell is more stable; (a) is the unadjusted Aufbau answer.",
+  "anchor": "At constant $T$, $\\bar{E}_{k}$ is constant so $PV = \\tfrac23N\\bar{E}_{k}$ = constant.",
   "segs": [
-   "$\\text{MnO}_4^{-}$",
-   "The first ionization energy of the $\\text{H}_2\\text{O}$ is",
-   "$\\text{Na}_3\\text{O}_5$",
-   "$\\text{AlCl}_2$",
-   "$\\textHNF K_3$",
-   "$\\text{NO}_5$ is the $\\text{Na}^{2+}$ is group, $\\text{NaSO}_4$ is the $-1$."
+   "$PV = \\frac{2}{3}N\\bar{E}_{k}$",
+   "For $K_{c} = \\dfrac{PV_{RT}{k_{k}}{k_A$, which of the following represents the relationship between pressure, and repuls to the relationship. TheTre is the number of moles ($N_A$) in the presence of gas is due to the significance of the constants. The balanced equation is proportional to $PV = \\frac{PV}{3}E_{k} = K_{c} - RT$. The smallest repeating cell is the smallest repeating repeating repeating repeatingraphy., the molar mass and molar",
+   "$PV = \\frac13 mN\\bar{EN}_{kk} = \\frac{3}{3}kT$",
+   "$PV = P$",
+   "$\\bar{\\nu} = \\frac{1}{2} = R_H\\left(g)/n_2$",
+   "The equation provided directly corresponds to the kinetic gas equation."
   ],
-  "score": 0.51,
+  "score": 0.557,
+  "gate": false
+ },
+ {
+  "unit": "Aromatic Hydrocarbons",
+  "type": "short",
+  "anchor": "(a) Explain the terms activating, deactivating, o,p-directing and m-directing, giving two examples of each class. (b) Predict the major product of (i) nitration of toluene, (ii) nitration of nitrobenzene, (iii) bromination of phenol.",
+  "segs": [
+   "(b) A new chemical product is used in the class.(c) Fluorine with dilute HNO(OH),(b) the nitration of nitrobenzene.(b) $\\text{NaBr}_2\\text{S}_2\\textepeCCl(c)CH(OH)CH(OH(i) AlCl_3)\\text{CH}_3$ (iv) $\\text{CH}{=}\\text{CH}(\\text{CH})\\text{CH(OH)COOH}$.(a) How is(b) $1CH=CHCH(OH)CH=CH(OH) CH3)=CHCH_2 + 2\\text{H}_2\\text-Cl(CH(OH)OH)CH(CH(OHonding)OH)CH=CHCH(CH(OH(iv)CH(OH,(b)CH(OH → (ii) CH(OH)CHBrCH(OH)BrCH(OH(b) (iv)CH(CH=CH(CH(CH(NO)CH(OH..(b) Describe the product of propene,(c) the type of propanoate,(c) Markovnikov's rule. Explain the rules of structural isomerism,(CH(OH,)CH(OH and CH(OH)COOH. (iv) (iv) CH(CH(OH → CH(CH(CH=)CH(OH is CH(OH) (CH(OH) (iv) + HCHO(OH) (ii) CH → (ii)CH=CHBrCH(CH(CHO)CH(CHBrCH(iii) CH(OH. What is",
+   "Explain the rules of IUPAC names and(c) CH(OH(CH(OHl)CH(OH/CH(OH) HCOOH (ii) (iii) (ii) (ii) ethyne. b) Explain the structural formula for the type of CH(OH) CH(OH in the CH(OH)OH."
+  ],
+  "score": 0.189,
+  "gate": false
+ },
+ {
+  "unit": "Modern Chemical Manufactures",
+  "type": "mcq",
+  "anchor": "From the overall equation 2NaCl + CaCO₃ → Na₂CO₃ + CaCl₂, two moles of NaCl give one mole of Na₂CO₃, so theoretical n(Na₂CO₃) = 10 kmol.",
+  "segs": [
+   "anhydrous NaOH",
+   "In the contact process, if the overall yield of H = 1000 mol of H_2SO_4$ is in the overall yield? (Na = 20, molar volume of 100 mol of Na = 1.5 mol; dividing the mass of Na = 30, how much mole of Na., CaCO moles of H_2$, which is the two moles of H_3$ moles of H_4$. Theoretical formula is 2 mol of H_3 \\rightarrow 2\\text{H}_2 + 2\\text{Na}_2\\text{CO}_3$. Calculate the percentage of Fe, formed and the mass of H-Heroult process. (H = 1, O =",
+   "200 mol) Solution. n(H = 16) + 2(10) = 100 kg ÷ 10 kmol. Theoretical mass = 100 kmol. n(Hass) = 10 kg ÷ 17 kg kmol. 100 kg = 100 tonne. mass. 1000 kg. Theoretical",
+   "20 kg",
+   "50 kg",
+   "The calculation directly from 1.5 kg of H_2\\text{O}$_2$ = 1400 kg."
+  ],
+  "score": 0.388,
   "gate": false
  },
  {
@@ -171,14 +175,14 @@
   "type": "mcq",
   "anchor": "reduction is gain of electrons at the cathode (RED CAT).",
   "segs": [
-   "carbon monoxide",
-   "In the cathode is oxidised: Cu, OH²2 electrons is",
-   "chlorine",
-   "s electrolysis of electrons",
-   "Zn",
-   "three positive charge carried by one mole of electrons."
+   "Relation",
+   "In the cathode during the process is passed through a reducing agent, and the electrolysis of preferential discharge is passed through the anode because",
+   "Al is the cathode",
+   "Na is reduced",
+   "Sodium metal ions",
+   "(b) describes the cathode during the electrolysis of molten mattered with electrons and is oxidised."
   ],
-  "score": 0.467,
+  "score": 0.475,
   "gate": false
  }
 ]

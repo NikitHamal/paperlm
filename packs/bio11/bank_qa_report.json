@@ -1,12 +1,21 @@
 {
  "pack": "bio11",
- "bank_in": 455,
- "bank_kept": 452,
- "dropped": 3,
+ "bank_in": 807,
+ "bank_kept": 749,
+ "dropped": 58,
  "reasons": {
-  "leaked_context": 3
+  "answer_giveaway": 37,
+  "leaked_context": 14,
+  "arithmetic_error": 3,
+  "needs_figure": 1,
+  "stem_fragment": 1,
+  "dangling_pronoun_option": 1,
+  "option_length_skew": 1,
+  "meta_exam_question": 1,
+  "empty_or_tiny_stem": 1,
+  "orphan_stem": 1
  },
- "mcq": 378,
- "written": 74,
+ "mcq": 519,
+ "written": 230,
  "units": 10
 }

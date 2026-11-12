@@ -8,7 +8,7 @@
    "subject": "biology",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.816,
+   "val_loss": 3.5528,
    "numeric": 10
   },
   {
@@ -18,7 +18,7 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.6584,
+   "val_loss": 2.4801,
    "numeric": 36
   },
   {
@@ -28,7 +28,7 @@
    "subject": "biology",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 4.1341,
+   "val_loss": 3.5011,
    "numeric": 14
   },
   {
@@ -38,7 +38,7 @@
    "subject": "physics",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.6774,
+   "val_loss": 2.6191,
    "numeric": 24
   },
   {
@@ -48,7 +48,7 @@
    "subject": "chemistry",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 2.941,
+   "val_loss": 2.8785,
    "numeric": 12
   },
   {
@@ -58,8 +58,48 @@
    "subject": "chemistry",
    "params": 10203840,
    "onnx_mb": 10.73,
-   "val_loss": 3.4853,
+   "val_loss": 3.3057,
    "numeric": 9
+  },
+  {
+   "pack_id": "math11",
+   "title": "Mathematics - Class 11 (NEB)",
+   "level": "C11",
+   "subject": "mathematics",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 1.9558,
+   "numeric": 28
+  },
+  {
+   "pack_id": "math12",
+   "title": "Mathematics - Class 12 (NEB)",
+   "level": "C12",
+   "subject": "mathematics",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 2.1646,
+   "numeric": 32
+  },
+  {
+   "pack_id": "cs11",
+   "title": "Computer Science - Class 11 (NEB)",
+   "level": "C11",
+   "subject": "computer-science",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 3.9843,
+   "numeric": 8
+  },
+  {
+   "pack_id": "cs12",
+   "title": "Computer Science - Class 12 (NEB)",
+   "level": "C12",
+   "subject": "computer-science",
+   "params": 10203840,
+   "onnx_mb": 10.73,
+   "val_loss": 4.4192,
+   "numeric": 7
   }
  ]
 }

@@ -1,162 +1,166 @@
 [
  {
-  "unit": "Quantization of energy",
+  "unit": "Second Law of Thermodynamics",
   "type": "mcq",
-  "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
+  "anchor": "Diesel cycle: heat added isobarically, allowing a much larger $r$.",
   "segs": [
-   "$1.28\\ \\text{eV}$",
-   "The wavelength of the second line of the first Balmer series, the second-slit experiment with $eV = 1.29\\ \\text{nm}$ is the second line of $n = 12$, and the first minimum is $3.56$",
-   "$1.5$",
-   "$3.1$",
-   "$100\\ \\text{nm5}^{-1}$",
-   "$\\lambda = 1.25/\\lambda = 1.13\\ \\text{eV1}$."
+   "compressions a cycle",
+   "In a Carnot engine the Carnot cycle, the heat absorbed at constant $T_1$ and $T_1 > 1/T_1$. The Carnot cycle is the room of heat $Q_1$, which of the following equations correctly describes the Carnot cycle?",
+   "Kep heat rejected",
+   "Third law of Thermodynamics",
+   "Clausius statement",
+   "The Carnot cycle involves no engine is defined as the spontaneous heat rejected."
   ],
-  "score": 0.861,
-  "gate": true
+  "score": 0.668,
+  "gate": false
  },
  {
-  "unit": "Fluid statics",
+  "unit": "Second Law of Thermodynamics",
+  "type": "mcq",
+  "anchor": "Draw its energy-flow diagram, derive $\\eta = 1 - Q_2/Q_1$, and explain why $\\eta$ can never be 100 %.",
+  "segs": [
+   "increasing the coefficient of performance ($Q_1$), $\\eta = 1 - T_2/Q_1$.",
+   "What is the term $Q_1/Q_2$ of a Carnot engine?",
+   "first law of Thermodynamics",
+   "K_1$2 only when $\\eta$ is the maximum coefficient of performance (maximum), $\\eta$, $Q_1$, $Q$ and $Q_1 = 1 - T$. The Carnot engine is the maximum coefficient-\\eta f_1/Qf$",
+   "fall $Q_2$",
+   "The term $\\eta$ directly states the equation $Q_1 > T_2$ for a reversible refrigerator as stated in the Carnot cycle."
+  ],
+  "score": 0.481,
+  "gate": false
+ },
+ {
+  "unit": "Alternating Currents",
   "type": "short",
-  "anchor": "The column standing on it has volume $Ah$, mass $\\rho Ah$ and weight $\\rho Ahg$, all carried by that area: Pressure therefore depends only on depth, density and $g$ — never on the shape of the vessel.",
+  "anchor": "Sinusoids of the same frequency then add like vectors — by the parallelogram or triangle rule.",
   "segs": [
-   "The weight $h$ is the absolute pressure of a liquid of a fluid, and the absolute pressure of the pressure $\\rho$ is the weight $h$. If $h$ of the mass of the tube.",
-   "Explain how the formula $h$ of a fluid flow in a fluid and density, the absolute pressure and the density of a fluid is $\\rho$, and the pressure of a fluid."
+   "The supply voltage $V_S$ is the supply voltage across the inductor $V_S = V_S$ and $V_S/V = V_S/R$. The voltage drop across the inductor is defined as the hypotenuse: $V_S + V_S$ for a resistor, which is the phasors of the applied voltage.",
+   "Explain the relationship between the voltage ($V_S$) and the voltage ($I_S$) in an AC circuit."
   ],
-  "score": 0.658,
+  "score": 0.2,
   "gate": false
  },
  {
-  "unit": "Magnetic properties of materials",
+  "unit": "First Law of Thermodynamics",
   "type": "mcq",
-  "anchor": "The intensity of magnetisation $M$ is the net magnetic dipole moment per unit volume of the specimen, $M = m/V$.",
+  "anchor": "The work done in expanding from $V_{1}$ to $V_{2}$ is $$W = \\int_{V_{1}}^{V_{2}} P\\,dV = nRT\\int_{V_{1}}^{V_{2}}\\frac{dV}{V} = nRT\\ln\\frac{V_{2}}{V_{1}}$$ Adiabatic process.",
   "segs": [
-   "H hysteresis, $\\oint H\\,\\mu_r$ is the magnetisation",
-   "The area of a ferromagnetic permeability $\\oint H\\ m m magnetize, its unit $H$ is the magnetising field $H$ is $\\oint H$, the susceptibility per cycle, and $H$ is proportional to $H$. If the magnetising susceptibility is $H$ is mented. mangs B per unit volume per unit volume. A magnetier is $H$, the magnetisation is $\\oint\\vec B$, the area is $H$. What does not suppium, which is the unit volume. mangs the susceptibility per unit volume per",
-   "H magneures for for permanent magnets",
-   "A manging to the magnetising properties of soft iron.",
-   "H hysteresis loop",
-   "The area $H$ isH magnetirely lost as per unit volume per cycle, which is to $H$, not coercivity."
+   "$W = \\frac{V_{1}}{V_2}$ represents the heat rejected to the gas during the process.",
+   "When an ideal gas is involving the work done during the gas?",
+   "$W = nRT_{V_{V_1}^2$$c for work during the isothermal process. What is the expression for the work in the gas during the gas. Which expression for the work done during this process. the process. Use the work done during an isothermal process",
+   "$W = \\frac1V_2^2{V_1^2}$",
+   "$W = P_1\\ln\\,dV$",
+   "The work done during the isothermal process directly matches the expression provided."
   ],
-  "score": 0.644,
+  "score": 0.526,
   "gate": false
  },
  {
-  "unit": "Fluid statics",
+  "unit": "Magnetic field",
+  "type": "mcq",
+  "anchor": "$B = \\mu_0NI/2a$; the $2\\pi$ form belongs to a straight wire.",
+  "segs": [
+   "$B = \\mu_0 I/2\\pi d$",
+   "In a long straight wire of length $l$ carrying a current $I$ carrying a current at the centre of a wire ending at the center of the wire. If the magnetic field $B$ is the wire is the magnetic field at the centre of the wire?",
+   "$B = \\frac{\\mu_0 I}{2\\pi a}$",
+   "$B = \\mu/B$",
+   "$B/B = \\frac{B}{B}$",
+   "The formula $B = \\mu_{enc}$ directly corresponds to the magnetic field due to the magnetic field as stated."
+  ],
+  "score": 0.53,
+  "gate": false
+ },
+ {
+  "unit": "Thermoelectric effects",
   "type": "short",
-  "anchor": "Model answer D2: surface tension, excess pressure and capillary rise (10 marks). Surface tension $T$ is the force acting per unit length on an imaginary line drawn on the surface of a liquid, perpendicular to the line and tangent to the surface ($T = F/l$, unit N m$^{-1}$). Capillary rise $h = 2T\\cos\\theta/r\\rho g$, so $h \\propto 1/r$. When weight is balanced by upthrust plus drag the velocity becomes constant at the terminal value $v_t$.",
+  "anchor": "(a) State the Peltier effect and explain, with a diagram, how it differs from Joule heating. (b) Describe the construction and working of a thermopile and give two of its uses.",
   "segs": [
-   "(a) Find the force constant on a fluid, the weight $h$ and $h$ is the weight of the gauge pressure, and the weight of the liquid.",
-   "a) Define Bernoulli's principle and explain why the rise of a fluid is the force per unit length. [2] b) Derive the force per unit volume and use the force per unit. [2] (NEB 2080)"
+   "(a) A thermopile of a thermopile of infinite resistance $R$ is connected to a thermopile, the e.m.f. of a thermopile of two metals. (b) A thermopile of two junctions of Peltier heat of two cells, a thermopile uses the one junction of two metals.",
+   "a) Describe the Seebeck effect and derive the Seebeck effect. [3] b) Write the Peltier effect from a thermopile. [1] b) In such a Seebeck, and derive the expression used to two junctions when a thermopile. [3] (NEB 2081)"
   ],
-  "score": 0.68,
+  "score": 0.541,
   "gate": false
  },
  {
-  "unit": "Semiconductor devices",
-  "type": "short",
-  "anchor": "Almost no current until the applied voltage cancels most of the barrier. Beyond this knee (or cut-in) voltage — $0.7\\ \\text{V}$ for Si, $0.3\\ \\text{V}$ for Ge — the current rises very steeply and is limited only by the external resistance.",
-  "segs": [
-   "D. $E_L$ and $V_m$ ($V_m$) and the barrier potential.",
-   "a) Define the barrier in a diode in a diode in the barrier potential. [2] b) A diode in a diode $V_m = \\dfrac{V_m}{V}$, $V_m<(L-0.m.s.)\\ \\text{V}$ for Ge. [2] (NEB 2079 model)"
-  ],
-  "score": 0.533,
-  "gate": false
- },
- {
-  "unit": "Photons",
+  "unit": "Alternating Currents",
   "type": "mcq",
-  "anchor": "a photon below the work function cannot free an electron, and extra intensity does not add photon energy: one photon frees at most one electron.",
+  "anchor": "Averaging over half a cycle gives a useful number: $$I_{av} = \\frac{2I_0}{\\pi} = 0.637\\,I_0$$",
   "segs": [
-   "the electron in a photon",
-   "The minimum energy of an electron is not change the metal, the work function $\\phi_0$ of the electron is bound to remove an electron. What does not change the metal?",
-   "the photon",
-   "the electron in electron is defined by the metal",
-   "the electron is defined as the minimum energy",
-   "The minimum is defined as the electron is defined as a metal."
+   "$I_0 = \\frac{I_0}{\\pi}$",
+   "What is the equation $I_0 = I_0\\sin(\\omega t)$ representing a capacitor angular frequency $\\omega$?",
+   "$I_0$",
+   "$I_{av} = \\frac{2I_0}$",
+   "$I = \\frac{\\pi}{\\sqrt{\\pi}}$",
+   "The formula $Z = \\frac{1}{\\sqrt{I_0I_0}\\cos\\phi$ directly provides the capacitive reactance..70$. Use the equation $I = \\frac{10}{\\sqrt{LC}}$. The power factor of a sinusoidal current directly provided. for calculating the frequency of the described purely power. In a sinusoidal alternating current, what is the correct relationship to the square of the over a cycle? C. For a sinusoidal"
   ],
-  "score": 0.853,
-  "gate": true
- },
- {
-  "unit": "Photons",
-  "type": "mcq",
-  "anchor": "intensity is the number of photons per second, not the energy per photon. $K_{max}$ depends only on frequency.",
-  "segs": [
-   "wavelength of the photon",
-   "The photoelectric emission of the photon in the photon is increased by",
-   "its $hc = hf - \\phi$",
-   "$1.79$",
-   "$10^{-1}$",
-   "$K_{\\max} = hf -1.59$."
-  ],
-  "score": 0.785,
+  "score": 0.837,
   "gate": false
- },
- {
-  "unit": "Quantization of energy",
-  "type": "short",
-  "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
-  "segs": [
-   "$\\lambda = hc/\\lambda = 1.096\\ \\text{nm}$",
-   "What is the Balmer and the wavelength of the second-order maximum kinetic energy $\\lambda = 1.33\\times10^{8}\\ \\text{m}$, and $\\lambda = 1000\\ \\text{nm0}$, $\\lambda = 6.69\\ \\text{nm m}^{-1}$."
-  ],
-  "score": 0.84,
-  "gate": false
- },
- {
-  "unit": "Wave in pipes and strings",
-  "type": "mcq",
-  "anchor": "The string is therefore a whole number of half-wavelength loops long: Combining with $f = v/\\lambda$ and $v=\\sqrt{T/\\mu}$, $$f_n = \\frac{n}{2L}\\sqrt{\\frac{T}{\\mu}}, \\qquad f_1 = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$$ Unlike a closed pipe, a string gives every harmonic.",
-  "segs": [
-   "$f_1 = \\frac{v}{2L}\\sqrt{\\frac{T}{\\mu}}$",
-   "What is the formula for the formula for the fundamental frequency of the n string fixed at both ends?",
-   "$f_n = \\frac{n}{L}$",
-   "$f_{n} = \\frac{v-v}{\\mu}$",
-   "$v = \\frac{v/2L}{\\mu} = \\frac{nd}{\\mu}f_n = \\dfrac{nL}{2L/2L}$.",
-   "The given formula for a string fixed at a string fixed at the frequency of a string fixed at both half-pi string fixed at both horizontal end and the nth harmonic in a string fixed at each half-pipe formula $f_n = nL\\sqrt{\\frac{v}{\\mu_0}$. $f_n$ is directly matches the speed of sound in the nth harmonic. The frequency of a string is $f_{o} = \\dfrac{v}{4L}\\sqrt{\\dfrac{T}{T}}$. $"
-  ],
-  "score": 0.889,
-  "gate": true
  },
  {
   "unit": "Mechanical waves",
-  "type": "mcq",
-  "anchor": "Young's modulus of steel is enormous compared with the moduli of fluids.",
+  "type": "short",
+  "anchor": "A very common slip is to write \"Laplace's correction is $v=\\sqrt{\\gamma P/\\rho}$ because sound is a longitudinal wave\". Four things, over and over: the general formula $v=\\sqrt{E/\\rho}$ applied to a named medium; the derivation of Newton's formula; Laplace's correction and why it was needed; and a numerical using $v_t = v_0\\sqrt{T/273}$.",
   "segs": [
-   "$P_0 = P_{o}\\Delta t$",
-   "When a longitudinal wave travels the absolute temperature of a gas with the speed of sound in steel ($Y_0$, which is the speed of sound",
-   "$\\rho = P_0\\rho g$",
-   "$v_0 = \\sqrt{Y/\\rho}$",
-   "$\\rho = \\sqrt{Y_0 - h_{o}}$",
-   "The speed in air is calculated as a depth in a fluid, so the pressure is directly provided."
+   "Us correction, $v=\\sqrt{E/\\rho}$, $v=\\rho/E$ and $v=\\sqrt\\sqrt{E/E}$. $v=\\sqrt P=\\sqrt{\\rho/\\rho}$ is derived from the general formula $v=\\sqrtic\\gamma P/\\rho$ is the speed of sound.",
+   "How is the formula $v=E=\\sqrt{\\rho}=\\sqrt{\\gamma P/\\rho}$ and calculate the speed of sound in a gas using the speed of sound as the speed of sound and density of the medium?"
   ],
-  "score": 0.532,
+  "score": 0.876,
+  "gate": true
+ },
+ {
+  "unit": "Interference",
+  "type": "mcq",
+  "anchor": "What would the fringe width become if, in air, $D$ were doubled and $d$ halved?",
+  "segs": [
+   "$D$\\beta$\\lambda$",
+   "What happens to the fringe width of the central maximum when the fringe width of two if the fringe width $\\beta$ is the central fringe?",
+   "$D$",
+   "$\\beta$",
+   "$\\beta/\\beta$",
+   "The fringe is the average intensity in the central maximum when $\\beta$ is $\\beta$, $\\beta$, and $\\beta$."
+  ],
+  "score": 0.494,
   "gate": false
+ },
+ {
+  "unit": "Quantization of energy",
+  "type": "mcq",
+  "anchor": "Using $\\lambda = hc/\\Delta E$ with $hc = 1240\\ \\text{eV nm}$, $$\\lambda = \\frac{1240}{1.89} = 656\\ \\text{nm}$$ This is the red $H_\\alpha$ line of the Balmer series. 23.3 Energy level; Emission and absorption spectra.",
+  "segs": [
+   "$1.69\\ \\text{eV}$",
+   "In Bragg's electron transitions between the target and excited by $1.56\\ \\text{eV_\\beta$ and $1.29\\ \\text{nm}$ is about about $1.66\\ \\text{nm/m}$, what is the minimum wavelength of the X-rays? ($n = 1.61$) of the $n$th wavelength $4.48\\ \\text{nm of the Balmer series of hydrogen is $1.49$, what is it used to measure the photon speed of the electron in the Balmer series? ($1.76$) of the Balmer series ($0.56\\,n_{\\min}$) of hydrogen? ($1/n =",
+   "$0.81$",
+   "$6.89\\ \\text{m}$",
+   "$3.14\\ \\text{eV/m}$",
+   "The ionization potential of the hydrogen is calculated using the formula $1.27\\ \\text{eVV}$, as $1.61\\ \\text{eV K}$."
+  ],
+  "score": 0.875,
+  "gate": true
  },
  {
   "unit": "Second Law of Thermodynamics",
   "type": "short",
   "anchor": "In plain terms: Kelvin–Planck forbids a 100 % efficient engine, Clausius forbids a refrigerator that needs no power supply. Suppose a device violated Clausius and moved $Q_2$ from sink to source for free.",
   "segs": [
-   "$Q_2$ and a sink at $T_2$ and $Q_2$. With $Q_2 < 1$, the heat rejected to $Q_2 = 0$, the work done in the sink.",
-   "a) Define Clausius statement for a reversible process. [3] b) State and state the engine and explain why the conversion of a cycle. [2] b) Define Kelvin-Planck statement for a sink at $Q_1$ and calculate the Clausius statement. [2] (NEB 2082)"
+   "(a) Ro heat engine: $Q_2$ from a sink at $Q_2 = T_2$ to $Q_1$.",
+   "a) Define the engine and working of a refrigerator. [1] b) Which relation to a Carnot engine and derive the Clausius statement. [3] b) A Carnot engine using a sink at $275$. [3]"
   ],
-  "score": 0.38,
+  "score": 0.657,
   "gate": false
  },
  {
   "unit": "Magnetic properties of materials",
   "type": "mcq",
-  "anchor": "the core is remagnetised 100 times a second, so the loop area (energy wasted) must be small.",
+  "anchor": "$\\Phi = BA\\cos0^{\\circ} = 10^{3}\\times10^{-2} = 10\\ \\text{Wb}$.",
   "segs": [
-   "energy",
-   "A core is a core of a ferromagnetic loop, the flux is",
-   "ampere's law",
-   "repotential agitation",
-   "magnetic flux",
-   "the core is not change, so no ferromagnetic core is the domains."
+   "$2.0\\ \\text{A m}^{-1}$",
+   "A material with $1000\\ \\text{T}$, $100\\ \\text B salt and $100$ is the flux density inside a specimen of $100\\times10^{-6}\\ \\text{T m}^{2}$, what is the relative permeability of the flux density-carrying solenoid? Which of the magnetising field strength $2.0\\times10$ is the magnetising field at $100^{-5}\\ \\text{m}^{3}$ at $2000\\ \\Omega$. What is the flux density produced by the flux density as the flux density inside the iron rod? Explain",
+   "$10.0\\ \\text B$",
+   "$100.5\\ \\text{T s}^{-3}$",
+   "$1.2\\times10^3\\times10^2\\times100^3$",
+   "The flux is calculated as $10^{\\circ}$ is explicitly stated as $1.0\\ \\text \\text{A m A}^{-2}$."
   ],
-  "score": 0.94,
+  "score": 0.886,
   "gate": true
  },
  {
@@ -164,29 +168,25 @@
   "type": "mcq",
   "anchor": "$f' = 400\\times(340+34)/340 = 440\\ \\text{Hz}$. Note that source motion and observer motion give different formulas, even for equal speeds.",
   "segs": [
-   "$450\\ \\text{Hz}$",
-   "A source emitting $340\\ \\text{m s}$, open observer hears a sound source and $3400\\ \\text{-3}$. The source at $20\\ \\text{s}$ is",
-   "$440\\ \\textro$",
-   "$330\\ \\text{ 4}$",
-   "$344\\ \\text{Hz mol}$",
-   "$f' = 250\\times340/(340-34) = 340\\ \\text \\text{Hz} = 3400\\ \\mu{Hz} = 500\\ \\text = 400\\ \\text?4Hz) = 3440\\ \\Omega$."
+   "$400\\ \\text{m s}^{-1}$",
+   "A source of $340\\ \\text{Hz}$ passes a source and a observer observer. The observer is about",
+   "$250\\ \\text{nm}$",
+   "$160\\ \\text{s}$",
+   "$350\\ \\text v A$",
+   "$f' = 300\\times50 = 400\\ \\text 2Hz$."
   ],
-  "score": 0.912,
+  "score": 0.9,
   "gate": true
  },
  {
-  "unit": "Mechanical waves",
-  "type": "mcq",
-  "anchor": "$v = \\sqrt{\\gamma P/\\rho}$ and $P/\\rho$ is constant for a gas at fixed temperature, so a pressure change cancels out. Option (c) is the trap: $P$ and $\\rho$ rise together.",
+  "unit": "Radioactivity and nuclear reaction",
+  "type": "short",
+  "anchor": "A particle entering the mica window ionizes the argon; the freed electrons are accelerated to the thin central anode, where they trigger an avalanche that produces a pulse across $R$. Take the nucleus to be fixed, since it is about $1836$ times heavier.",
   "segs": [
-   "$P/\\rho =$",
-   "Which formula $P$ is a gas where $P$ is the absolute pressure and pressure. What is the speed of sound pressure ($P$, which is the absolute pressure $P$, and pressure ($P = P$).) Define pressure and density. What volume change the speed of sound in a gas is four four times the speed of sound wave?",
-   "$P$",
-   "$P = P\\rho = \\sqrt{\\gamma RT/\\rho}$",
-   "$P$",
-   "The absolute pressure at constant $P$ and $P$, the speed changes from $P$ to $P$."
+   "The es a radioactive sample decreases from $10^{15}$ to $1.2$ nuclei of a radioactive nucleus per second. The decay constant $A$ is defined as the probability of decay of one nucleus, $1.09$ decreases in a radioactive substance.",
+   "Describe the $\\lambda$ of a radioactive nuclide and the activity $A$ of a radioactive sample."
   ],
-  "score": 0.692,
+  "score": 0.413,
   "gate": false
  }
 ]

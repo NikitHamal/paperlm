@@ -1,0 +1,139 @@
+{
+ "pack": "math11",
+ "params": 10203840,
+ "onnx_int8_mb": 10.73,
+ "vocab": 4096,
+ "val_loss": 1.9558,
+ "ppl": 7.07,
+ "onnx_maxdiff": 5.245208740234375e-06,
+ "used_dpo": false,
+ "bench_sft": {
+  "tag": "sft",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.6487916431394692,
+  "strict_gate_rate": 0.25
+ },
+ "bench_final": {
+  "tag": "sft",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.6487916431394692,
+  "strict_gate_rate": 0.25
+ },
+ "bench_dpo": {
+  "tag": "sft+dpo",
+  "n": 24,
+  "complete": 1.0,
+  "mean_grounding": 0.6982607385260516,
+  "strict_gate_rate": 0.20833333333333334
+ },
+ "n_train_items": 627,
+ "n_val_items": 38,
+ "n_gold": 405,
+ "n_teacher": 291,
+ "curve": [
+  {
+   "stage": "A-lm+items",
+   "step": 0,
+   "train": 8.3466,
+   "val": 8.1042
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 100,
+   "train": 3.0347,
+   "val": 2.7865
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 200,
+   "train": 2.1881,
+   "val": 2.1115
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 300,
+   "train": 1.5848,
+   "val": 1.9754
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 400,
+   "train": 1.3231,
+   "val": 1.9557
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 500,
+   "train": 1.0081,
+   "val": 1.9811
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 600,
+   "train": 0.8108,
+   "val": 2.0217
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 700,
+   "train": 0.8292,
+   "val": 2.1202
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 800,
+   "train": 0.6692,
+   "val": 2.1834
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 900,
+   "train": 0.4282,
+   "val": 2.2379
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 1000,
+   "train": 0.3516,
+   "val": 2.2896
+  },
+  {
+   "stage": "A-lm+items",
+   "step": 1100,
+   "train": 0.2381,
+   "val": 2.351
+  },
+  {
+   "stage": "B-items",
+   "step": 0,
+   "train": 0.6798,
+   "val": 1.9558
+  },
+  {
+   "stage": "B-items",
+   "step": 100,
+   "train": 0.4498,
+   "val": 1.9987
+  },
+  {
+   "stage": "B-items",
+   "step": 200,
+   "train": 0.3725,
+   "val": 2.1897
+  },
+  {
+   "stage": "B-items",
+   "step": 300,
+   "train": 0.2421,
+   "val": 2.3
+  },
+  {
+   "stage": "B-items",
+   "step": 400,
+   "train": 0.1541,
+   "val": 2.3647
+  }
+ ]
+}
