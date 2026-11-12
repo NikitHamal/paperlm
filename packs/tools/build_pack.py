@@ -21,22 +21,33 @@ for l in open(book, encoding="utf-8"):
     if f"<|level={LV}|>" in l and f"<|subj={SUBJ}|>" in l and "<|board=NEB|>" in l:
         m = re.search(r"<\|unit\|>(.*?)<\|book\|>(.*?)<\|end\|>", l, re.S)
         if m: chunks.append((clean_title(m.group(1)), m.group(2)))
+METAU = re.compile(r"question bank|model question|pattern|strategy|predicted|practice|question sets|question set|grid", re.I)
 units = collections.OrderedDict(); anchors = []; seen = set()
-for title, text in chunks:
+for title, text in sorted(chunks, key=lambda c: bool(METAU.search(c[0]))):
+    meta = bool(METAU.search(title)); title = "?" if meta else title
     u = units.setdefault(title, dict(name=title, facts=[], n_items=collections.Counter()))
     ss = [s for s in sents(text) if 50 <= len(s) <= 300 and not META.search(s) and V.check_text(s) is None]
     for i, s in enumerate(ss):
         a = s if len(s) > 150 or i + 1 >= len(ss) or len(s + ss[i + 1]) > 330 or kind(s) != "fact" else s + " " + ss[i + 1]
         h = hashlib.md5(a.lower().encode()).hexdigest()[:10]
         if h in seen or len(toks(a)) < 6: continue
-        seen.add(h); u["facts"].append(dict(id=h, text=a, kind=kind(a))); anchors.append(dict(aid=h, unit=title, anchor=a, kind=kind(a)))
+        seen.add(h); anchors.append(dict(aid=h, unit=title, anchor=a, kind=kind(a)))
+# meta chapters (question banks / model sets): re-home each fact to the real unit with the best vocabulary overlap
+real = {n: collections.Counter(w for a in anchors if a["unit"] == n for w in set(toks(a["anchor"]))) for n in units if n != "?"}
+tot_df = collections.Counter(w for c in real.values() for w in c)
+for a in anchors:
+    if a["unit"] != "?": continue
+    ws = set(toks(a["anchor"])); a["unit"] = max(real, key=lambda n: sum(real[n][w] / (1 + tot_df[w]) for w in ws) / (1 + sum(real[n].values()) ** 0.5))
+units.pop("?", None)
+for a in anchors: units[a["unit"]]["facts"].append(dict(id=a["aid"], text=a["anchor"], kind=a["kind"]))
 # ---- 2. gold items -> normalized schema, unit-mapped by term overlap
 df = collections.Counter(w for a in anchors for w in set(toks(a["anchor"])))
 N = max(1, len(anchors)); idf = lambda w: math.log(1 + N / (1 + df.get(w, 0)))
+ATS = [set(toks(a["anchor"])) for a in anchors]
 def best_fact(text):
     q = set(toks(text)); b, bs = None, 0
-    for a in anchors:
-        sc = sum(idf(w) for w in q & set(toks(a["anchor"]))) / (1 + 0.02 * len(a["anchor"]))
+    for a, ts in zip(anchors, ATS):
+        sc = sum(idf(w) for w in q & ts) / (1 + 0.02 * len(a["anchor"]))
         if sc > bs: b, bs = a, sc
     return b, bs
 gold_items = []
