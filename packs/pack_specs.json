@@ -1,8 +1,121 @@
 {
- "bio12": {"level": "C12", "subject": "biology", "title": "Biology - Class 12 (NEB)"},
- "phy11": {"level": "C11", "subject": "physics", "title": "Physics - Class 11 (NEB)"},
- "bio11": {"level": "C11", "subject": "biology", "title": "Biology - Class 11 (NEB)"},
- "phy12": {"level": "C12", "subject": "physics", "title": "Physics - Class 12 (NEB)"},
- "chem11": {"level": "C11", "subject": "chemistry", "title": "Chemistry - Class 11 (NEB)"},
- "chem12": {"level": "C12", "subject": "chemistry", "title": "Chemistry - Class 12 (NEB)"}
+ "bio12": {
+  "level": "C12",
+  "subject": "biology",
+  "title": "Biology - Class 12 (NEB)"
+ },
+ "phy11": {
+  "level": "C11",
+  "subject": "physics",
+  "title": "Physics - Class 11 (NEB)",
+  "numeric": [
+   "kin_v",
+   "kin_s",
+   "avg_speed",
+   "range",
+   "max_height",
+   "newton2",
+   "impulse",
+   "pe_mgh",
+   "ke",
+   "work_cos",
+   "power_wt",
+   "centripetal",
+   "stress",
+   "youngs_mod",
+   "heat_q",
+   "latent_q",
+   "lin_expansion",
+   "gas_p",
+   "ideal_n",
+   "boyle",
+   "charles",
+   "mirror",
+   "snell",
+   "refr_index",
+   "lens",
+   "lens_power",
+   "coulomb",
+   "cap_energy",
+   "cap_series",
+   "ohm",
+   "res_ser",
+   "res_par",
+   "power_vi",
+   "emf_internal",
+   "joule",
+   "decay_n"
+  ]
+ },
+ "bio11": {
+  "level": "C11",
+  "subject": "biology",
+  "title": "Biology - Class 11 (NEB)"
+ },
+ "phy12": {
+  "level": "C12",
+  "subject": "physics",
+  "title": "Physics - Class 12 (NEB)",
+  "numeric": [
+   "pendulum",
+   "pressure_h",
+   "wave_v",
+   "young",
+   "photo",
+   "debroglie",
+   "bohr_e",
+   "halflife",
+   "decay_n",
+   "transformer",
+   "faraday_emf",
+   "bil",
+   "lc_res",
+   "xc",
+   "xl",
+   "z_rl",
+   "rms_v",
+   "pf_power",
+   "ohm",
+   "res_ser",
+   "res_par",
+   "joule",
+   "power_vi",
+   "emf_internal"
+  ]
+ },
+ "chem11": {
+  "level": "C11",
+  "subject": "chemistry",
+  "title": "Chemistry - Class 11 (NEB)",
+  "numeric": [
+   "moles_m",
+   "avogadro",
+   "gas_stp",
+   "percent_comp",
+   "pct_yield",
+   "boyle",
+   "charles",
+   "ideal_n",
+   "gas_p",
+   "kc_equil",
+   "bohr_e",
+   "molarity"
+  ]
+ },
+ "chem12": {
+  "level": "C12",
+  "subject": "chemistry",
+  "title": "Chemistry - Class 12 (NEB)",
+  "numeric": [
+   "molarity",
+   "dilution",
+   "molality",
+   "ph_acid",
+   "ph_base",
+   "half_first",
+   "faraday",
+   "gibbs",
+   "moles_m"
+  ]
+ }
 }
