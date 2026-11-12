@@ -1,5 +1,5 @@
 #!/bin/bash
-# Re-create the PaperLM GPU workspace on a NEW MoLab sandbox. usage: MOLAB_URL=... MOLAB_SESSION=... [MOLAB_TOKEN_FILE=/tmp/molab_token] scripts/molab_bootstrap.sh
+# Re-create the PaperLM GPU workspace on a NEW MoLab sandbox. usage: MOLAB_URL=... MOLAB_SESSION=... [MOLAB_TOKEN_FILE=$HOME/.molab_token] scripts/molab_bootstrap.sh
 set -e; cd "$(dirname "$0")/.."
 R=scripts/molab_run.sh
 $R 'mkdir -p /tmp/paperlm/{logs,eval,scripts,repo/docs/model,gen_v8_2}; nvidia-smi --query-gpu=name,memory.total --format=csv'

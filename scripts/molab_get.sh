@@ -1,6 +1,6 @@
 #!/bin/bash
 # usage: molab_get.sh <remote_path> <local_path>   (binary-safe, via base64 over marimo pair)
-python3 -m marimo pair execute --url "${MOLAB_URL:-https://sb-bc79ba58e2c2c51f.sb.molab.run/}" --session "${MOLAB_SESSION:-sess-qa914tcyg7j8cndd}" --token-file "${MOLAB_TOKEN_FILE:-/tmp/molab_token}" --code-file - <<PY | python3 -c "
+python3 -m marimo pair execute --url "${MOLAB_URL:-https://sb-84ba1da1dc9d55f9.sb.molab.run/}" --session "${MOLAB_SESSION:-sess-g2qsrh05rtxjbmb0}" --token-file "${MOLAB_TOKEN_FILE:-$HOME/.molab_token}" --code-file - <<PY | python3 -c "
 import sys,json,base64
 d=json.load(sys.stdin); assert d.get('success'),d
 open('$2','wb').write(base64.b64decode(d['stdout'].strip()))

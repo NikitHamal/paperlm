@@ -1,0 +1,8 @@
+{
+ "bio12": {"level": "C12", "subject": "biology", "title": "Biology - Class 12 (NEB)"},
+ "phy11": {"level": "C11", "subject": "physics", "title": "Physics - Class 11 (NEB)"},
+ "bio11": {"level": "C11", "subject": "biology", "title": "Biology - Class 11 (NEB)"},
+ "phy12": {"level": "C12", "subject": "physics", "title": "Physics - Class 12 (NEB)"},
+ "chem11": {"level": "C11", "subject": "chemistry", "title": "Chemistry - Class 11 (NEB)"},
+ "chem12": {"level": "C12", "subject": "chemistry", "title": "Chemistry - Class 12 (NEB)"}
+}
