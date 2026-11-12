@@ -1,74 +1,200 @@
 
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":10,"neural_accepted":0,"neural_attempts":40,"neural_gate_rate":0,"bank_fallback":10,"empty":0,"units_covered":"10/10","duplicates":0,"bank_size":489,"bank_mcq":407,"bank_short":82,"seconds":68.5}
+##### chem11 (Chemistry - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.941,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/17","duplicates":0,"bank_size":222,"bank_mcq":199,"bank_short":23,"seconds":58.6}
 
-[Embryology] MCQ <gold>
-Q. Which type of artificial vegetative propagation induces roots on a branch while it is still attached to the parent plant, and suits plants with soft branches lying near the soil?
-  a) cutting
-  b) grafting
-  c) air layering
-  d) soil layering
-Key: d  Why: in simple (soil) layering the branch is bent into the soil while still attached and roots then form. Air layering works on upright branches, and grafting and cutting detach the piece at once.
+[Foundation and Fundamentals] MCQ <gold>
+Q. In the reaction CaCO₃(s) ⇌ CaO(s) + CO₂(g), the equilibrium constant $K_c$ is
+  a) [CaO][CO₂]/[CaCO₃]
+  b) 1/[CO₂]
+  c) [CaO][CO₂]
+  d) [CO₂]
+Key: d  Why: pure solids have constant active mass and are omitted.
 
-[Developmental Biology] MCQ <gold>
-Q. The cavity formed inside the embryo during gastrulation is the
-  a) pseudocoel
-  b) blastocoel
-  c) neurocoel
-  d) archenteron
-Key: d  Why: the archenteron becomes the gut. Students confuse it with the blastocoel, which it gradually replaces.
+[Chemical Bonding and Shapes of Molecules] MCQ <gold>
+Q. The shape of the methane molecule is
+  a) pyramidal
+  b) tetrahedral
+  c) planar
+  d) linear
+Key: b  Why: four bond pairs, $109.5^{\circ}$.
 
-[Plant Physiology] MCQ <gold>
-Q. Which one of the following parts is not responsible for transpiration in plants?
-  a) root
-  b) leaves
-  c) all aerial parts
-  d) stem
-Key: a  Why: transpiration is loss from aerial parts; roots absorb water. Option (d) is true of transpiration, not its opposite.
+[Hydrocarbons] MCQ <gold>
+Q. The Wurtz reaction of $\text{CH}_3\text{Cl}$ with sodium gives
+  a) propane
+  b) ethane
+  c) ethene
+  d) methane
+Key: b  Why: $2\text{CH}_3\text{Cl} + 2\text{Na} \to \text{C}_2\text{H}_6$; the product has twice the carbons.
 
-[Plant Anatomy] MCQ <teacher>
-Q. In dicot stems, which structure allows for secondary growth by dividing between xylem and phloem?
-  a) epidermis
-  b) pith
-  c) cortex
-  d) cambium
-Key: d  Why: The cambium is the strip of thin cells between xylem and phloem that enables secondary growth in dicots.
+[Chemistry of Non-metals] MCQ <gold>
+Q. The bond dissociation enthalpy of F₂ is less than that of Cl₂ because
+  a) fluorine has a higher electron affinity
+  b) F₂ is a gas
+  c) fluorine is more electronegative
+  d) lone-pair repulsion is large in the small F₂ molecule
+Key: d  Why: the F atom is very small, so the three lone pairs on each atom repel across the short bond and weaken it.
 
-[Genetics] MCQ <teacher>
-Q. How many different codons can be formed using the four nucleotide bases in mRNA?
-  a) 16
-  b) 48
-  c) 64
-  d) 256
-Key: c  Why: With four bases, the number of possible codons is calculated as $4^{3} = 64$.
+[Aromatic Hydrocarbons] MCQ <gold>
+Q. The number of isomers of dichlorobenzene, C₆H₄Cl₂, is
+  a) 3
+  b) 6
+  c) 4
+  d) 2
+Key: a  Why: ortho, meta and para only.
 
-[Applied Biology] MCQ <gold>
-Q. The earthworm commonly used for vermicomposting is
-  a) Pheretima posthuma
-  b) Hirudinaria
-  c) Eisenia fetida
-  d) Lumbricus terrestris only
-Key: c  Why: Eisenia fetida (red wiggler) is an epigeic composting worm. Pheretima is a burrower.
+[Modern Chemical Manufactures] 5-mark <gold>
+Q. a) HCl, b) excess $\text{Cl}_2$, c) $\text{CuSO}_4$ solution.
+Model answer: (a) $\text{NH}_3 + \text{HCl} \to \text{NH}_4\text{Cl}$ (white fumes).(b) $\text{NH}_3 + 3\text{Cl}_2 \to \text{NCl}_3 + 3\text{HCl}$ (excess chlorine); with excess ammonia, $8\text{NH}_3 + 3\text{Cl}_2 \to \text{N}_2 + 6\text{NH}_4\text{Cl}$.(c) $\text{CuSO}_4 + 4\text{NH}_3 \to [\text{Cu(NH}_3)_4]\text{SO}_4$ (deep blue; a pale blue precipitate of $\text{Cu(OH)}_2$ first).
 
-[Human Biology] MCQ <gold>
-Q. The hormone that maintains the endometrium during pregnancy and is secreted by the corpus luteum is
-  a) progesterone
-  b) FSH
-  c) oestrogen
-  d) testosterone
-Key: a  Why: progesterone from the corpus luteum (later the placenta). Oestrogen builds the endometrium in the first half of the cycle.
+[Fundamental Principles of Organic Chemistry] 4-mark <gold>
+Q. a) Define the inductive effect and the resonance effect and give three points of difference between them. b) Using these effects, explain: (i) the order HCOOH > CH₃COOH > CH₃CH₂COOH in acid strength; (ii) why phenol is more acidic than ethanol; (iii) why aniline is a weaker base than ammonia.
+Model answer: (b) (i) The methyl group in CH₃COOH is +I and pushes electron density onto the carboxylate, destabilising the anion; the ethyl group in CH₃CH₂COOH is a still stronger +I group.
 
-[Human Population and Health Disorders] MCQ <teacher>
-Q. Why is the crude death rate (CDR) calculated as $\dfrac{1300}{250000}\times 1000 = 5.2$ per 1000 per year?
-  a) It calculates the average age of death in a population of 250,000.
-  b) It reflects the number of deaths per 1000 individuals per year based on 1300 deaths out of a population of 250,000.
-  c) It represents the birth rate adjusted for a population of 250,000.
-  d) It indicates the population growth rate per 1000 individuals per year.
-Key: b  Why: The calculation directly shows the crude death rate per 1000 based on the given numbers of deaths and population size.
+##### chem12 (Chemistry - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.4853,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/21","duplicates":0,"bank_size":386,"bank_mcq":308,"bank_short":78,"seconds":52.7}
 
-[Biotechnology] 3-mark <teacher>
-Q. Given an initial amount of 5 target molecules, calculate the total number of copies produced after 30 cycles of PCR and state the final quantity.
-Model answer: Each cycle doubles the target molecules. After 30 cycles, $2^{30} = 10^9$ copies are made per initial molecule. Starting with 5 molecules, the total is $N = 5 \times 2^{30} = 5.37 \times 10^9$ copies.
+[Volumetric Analysis] MCQ <gold>
+Q. The equivalent weight of KMnO₄ in acidic medium is
+  a) 52.67
+  b) 79
+  c) 158
+  d) 31.6
+Key: d  Why: MnO₄⁻ gains 5 electrons, so $E = 158/5 = 31.6$.
 
-[Animal Tissues] 3-mark <teacher>
-Q. Calculate the number of sarcomeres in a muscle fiber that is 24,000 μm long if each sarcomere is 2.4 μm. Then determine the new length if each sarcomere extends to 1.8 μm.
-Model answer: Using $n = \frac{24\,000\ \mu\text{m}}{2.4\ \mu\text{m}} = 10\,000\ \text{sarcomeres}$, the initial count is 10,000. The new length is $10\,000 \times 1.8\ \mu\text{m} = 18\,000\ \mu\text{m} = 1.8\ \text{cm}$.
+[Chemical Kinetics] MCQ <gold>
+Q. The unit of the rate constant of a second-order reaction is
+  a) s⁻¹
+  b) L mol⁻¹ s⁻¹
+  c) mol L⁻¹ s⁻¹
+  d) L² mol⁻² s⁻¹
+Key: b  Why: the general unit is mol^(1−n) $L^{n-1}$ s⁻¹; putting n = 2 gives L mol⁻¹ s⁻¹.
+
+[Haloalkanes] MCQ <gold>
+Q. Which haloalkane is most reactive towards nucleophilic substitution?
+  a) CH₃CH₂I
+  b) CH₃CH₂Cl
+  c) CH₃CH₂Br
+  d) CH₃CH₂F
+Key: a  Why: the C–I bond is the weakest (234 kJ mol⁻¹), so iodide is the best leaving group.
+
+[Electrochemistry] MCQ <gold>
+Q. If $\Delta G^{\circ} = 0$ for a reaction at temperature $T$, then $K$ equals
+  a) $e$
+  b) infinity
+  c) 1
+  d) 0
+Key: c  Why: $\Delta G^{\circ} = -RT\ln K$, so $\ln K = 0$ and $K = 1$.
+
+[Alcohols] MCQ <gold>
+Q. In the nitrous acid test a secondary nitroalkane gives a
+  a) red colour
+  b) yellow colour
+  c) no colour
+  d) blue colour
+Key: d  Why: the pseudonitrole gives a blue colour; the primary compound gives the red nitrolic acid salt and the tertiary compound, having no α-hydrogen, gives nothing.
+
+[Aldehydes and Ketones] 4-mark <gold>
+Q. a) Explain the structure and polar nature of the carbonyl group and give the general mechanism of nucleophilic addition. b) Arrange HCHO, CH₃CHO, CH₃COCH₃ and C₆H₅CHO in order of decreasing reactivity towards nucleophilic addition and justify the order.
+Model answer: (b) HCHO > CH₃CHO > CH₃COCH₃ > C₆H₅CHO. HCHO has no electron-releasing alkyl group, so its carbonyl carbon carries the largest δ+ and is the least hindered.
+
+[Studies of Heavy Metals] 5-mark <gold>
+Q. a) Describe the manufacture of steel by the Basic Oxygen Process, with the equations for the removal of carbon, silicon and phosphorus, and state the function of the lime. b) Compare the Basic Oxygen Process with the Open Hearth Process under three headings.
+Model answer: (b) Oxidant: pure O₂ blown in, versus haematite added to the charge. Time: 20–40 minutes, versus 8–10 hours. Control: limited, versus excellent — the open hearth can be sampled and corrected, so it is preferred for alloy and tool steels.
+
+##### phy12 (Physics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6774,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/25","duplicates":0,"bank_size":639,"bank_mcq":456,"bank_short":183,"seconds":48.7}
+
+[Rotational dynamics] MCQ <teacher>
+Q. A uniform rod of length $L$ and mass $M$ is pivoted at its center. What is the moment of inertia of the rod about this pivot?
+  a) $\frac{ML^2}{6}$
+  b) $\frac{ML^2}{3}$
+  c) $ML^2$
+  d) $\frac{ML^2}{12}$
+Key: d  Why: The moment of inertia of a uniform rod about its center is given by $\frac{ML^2}{12}$.
+
+[Fluid statics] MCQ <teacher>
+Q. What is the formula representing surface tension $T$?
+  a) $T = Fl$
+  b) $T = \frac{F}{l}$
+  c) $T = F + l$
+  d) $T = F - l$
+Key: b  Why: The formula for surface tension is given as the force per unit length on an imaginary line drawn on the surface of a liquid.
+
+[Electrical circuits] MCQ <gold>
+Q. Below its critical temperature a superconductor
+  a) expels magnetic flux from its interior
+  b) becomes an insulator
+  c) traps all the flux inside it
+  d) has infinite resistance
+Key: a  Why: the Meissner effect; that, plus $\rho = 0$, defines superconductivity.
+
+[Mechanical waves] MCQ <gold>
+Q. The speed of sound in water of bulk modulus $2.1\times10^{9}\ \text{Pa}$ and density $1000\ \text{kg m}^{-3}$ is about
+  a) $4600\ \text{m s}^{-1}$
+  b) $45800\ \text{m s}^{-1}$
+  c) $1450\ \text{m s}^{-1}$
+  d) $340\ \text{m s}^{-1}$
+Key: c  Why: $\sqrt{2.1\times10^{9}/1000} = \sqrt{2.1\times10^{6}} = 1449\ \text{m s}^{-1}$.
+
+[Thermoelectric effects] MCQ <teacher>
+Q. For a thermocouple with its cold junction at $0\,^{\circ}\text{C}$, which formula represents the thermo-e.m.f. $E$ in microvolts as a function of temperature $\theta$?
+  a) $E = 50\theta - 0.01\theta^{2}$
+  b) $E = 10\theta + 0.1\theta^{2}$
+  c) $E = 25\theta - 0.05\theta^{2}$
+  d) $E = 25 + 0.05\theta$
+Key: c  Why: The formula $E = 25\theta - 0.05\theta^{2}$ is explicitly stated for the thermo-e.m.f. as a function of temperature in the given context.
+
+[Magnetic field] 3-mark <teacher>
+Q. Explain the formula for torque on a coil in a magnetic field and define the ampere based on the elementary charge.
+Model answer: The torque $\tau = NBIA\sin\theta = NBIA\cos\alpha$ acts on a coil with $N$ turns, current $I$, area $A$, and angle $\theta$. The ampere is defined by fixing $e = 1.602176634\times10^{-19}\ \text{C}$, where $1\ \text{A}$ corresponds to $1/e$ elementary charges per second.
+
+[Polarization] 3-mark <teacher>
+Q. Explain the relationship between the polarizing angle ($\theta_p$) and the refractive index (n) when light travels from a rarer to a denser medium, and state which beam becomes polarized.
+Model answer: The polarizing angle $\theta_p$ is related to the refractive index n by $\theta_p = \tan^{-1}n$. This relationship holds when light moves from a rarer to a denser medium. The reflected beam becomes completely polarized at this angle, known as the Brewster angle.
+
+##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.1341,"slots":7,"neural_accepted":0,"neural_attempts":14,"neural_gate_rate":0,"bank_fallback":7,"empty":0,"units_covered":"7/10","duplicates":0,"bank_size":499,"bank_mcq":416,"bank_short":83,"seconds":22.6}
+
+[Biomolecules and Cell Biology] MCQ <gold>
+Q. The most abundant organic compound found in nature is
+  a) chitin
+  b) protein
+  c) cellulose
+  d) starch
+Key: c  Why: cellulose is the wall material of every plant cell on Earth; starch is only a store.
+
+[Floral Diversity] MCQ <gold>
+Q. The pigment that gives brown algae their colour is
+  a) phycoerythrin
+  b) phycocyanin
+  c) fucoxanthin
+  d) chlorophyll b
+Key: c  Why: fucoxanthin, a xanthophyll; phycoerythrin is the red-algal pigment.
+
+[Faunal Diversity] MCQ <teacher>
+Q. Why is the definitive host significant in the life cycle of parasites like mosquitoes?
+  a) It is where the feeding process is completed.
+  b) It is where the asexual reproduction takes place.
+  c) It is where the sexual cycle occurs.
+  d) It is where the larval stage develops.
+Key: c  Why: The definitive host is defined as the location where the sexual cycle of parasites such as mosquitoes occurs.
+
+[Ecology] MCQ <gold>
+Q. Which nitrogen base is present in RNA but not in DNA?
+  a) thymine
+  b) adenine
+  c) uracil
+  d) guanine
+Key: c  Why: uracil replaces thymine in RNA; the two differ only by a methyl group.
+
+[Biota and Environment] MCQ <teacher>
+Q. According to Allen's rule, what adaptation do animals typically exhibit in colder regions?
+  a) Thinner fur
+  b) Shorter extremities
+  c) Longer tails
+  d) Larger ears
+Key: b  Why: Allen's rule states that extremities tend to be shorter in colder regions to reduce surface area for heat loss.
+
+[Conservation Biology] 3-mark <teacher>
+Q. Describe the taxonomic hierarchy using a suitable example.
+Model answer: Taxonomic hierarchy arranges categories from broad to specific: Kingdom, Phylum, Class, Order, Family, Genus, Species. Example: Humans are classified as Kingdom Animalia, Phylum Chordata, Class Mammalia, Order Primates, Family Hominidae, Genus Homo, Species H. sapiens.
+
+[Evolutionary Biology] 3-mark <teacher>
+Q. Given the allele frequencies of $p(M) = 0.7$ and $q(N) = 0.3$ in a population, calculate the expected genotype frequencies using Hardy-Weinberg equilibrium and verify if the population is in equilibrium.
+Model answer: Expected frequencies: $MM = p^2N = 0.49 \times 2000 = 490$, $MN = 2pqN = 2 \times 0.7 \times 0.3 \times 2000 = 420$, $NN = q^2N = 0.09 \times 2000 = 90$. Observed matches expected, confirming equilibrium.
