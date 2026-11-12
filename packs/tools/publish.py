@@ -6,6 +6,20 @@ for pid in sys.argv[1:]:
     o = f"/tmp/packs/{pid}/out"; d = f"{R}/docs/packs/{pid}"; r = f"{R}/packs/{pid}"; os.makedirs(d, exist_ok=True); os.makedirs(r, exist_ok=True)
     for f in ["model.onnx", "tokenizer.json", "pack.json", "syllabus_graph.json"]: shutil.copy(f"{o}/{f}", f"{d}/{f}")
     json.dump(SP[pid].get("numeric", []), open(f"{d}/numeric_templates.json", "w"))
+    # verified bank: gold NEB items + teacher items that passed blind multi-order solve / entailment / per-distractor probes (all stored with provenance)
+    import glob, re
+    bank, seen = [], set(); rd = lambda f: [json.loads(l) for l in open(f)] if os.path.exists(f) else []
+    for src, files in (("gold", [f"/tmp/packs/{pid}/gold_items.jsonl"]), ("teacher", sorted(glob.glob(f"/tmp/packs/{pid}/verified*.jsonl")))):
+        for it in sum([rd(f) for f in files], []):
+            k = re.sub(r"\W+", " ", it["question"].lower()).strip()
+            if k in seen: continue
+            seen.add(k); b = {x: it[x] for x in ("type", "marks", "unit", "question", "answer", "anchor") if x in it}; b["src"] = src
+            if it["type"] == "mcq": b["distractors"] = it["distractors"]; b["why"] = it.get("why", "")
+            if "scores" in it: b["scores"] = it["scores"]
+            bank.append(b)
+    json.dump(bank, open(f"{d}/bank.json", "w"), ensure_ascii=False, separators=(",", ":"))
+    for f in ["model.tflite", "tflite_report.json"]:
+        if os.path.exists(f"{o}/{f}"): shutil.copy(f"{o}/{f}", f"{d}/{f}")
     for f in ["train_report.json", "samples.json"]: shutil.copy(f"{o}/{f}", f"{r}/{f}")
     shutil.copy(f"/tmp/packs/{pid}/syllabus_graph.json", f"{r}/syllabus_graph.json")
 reg = []

@@ -22,6 +22,7 @@
     <div class="grid" id="one">
       <label>Unit<select id="unit"></select></label>
       <label>Type<select id="type"><option value="mcq">MCQ (1 mark)</option><option value="short2">Short answer (2 marks)</option><option value="short3">Short answer (3 marks)</option><option value="short5">Long answer (5 marks)</option><option value="num">Numerical (computed, exact)</option></select></label>
+      <label>Source<select id="src"><option value="hybrid">Neural + verifier, bank fallback</option><option value="bank">Verified bank only</option><option value="neural">Neural only (strict gate)</option></select></label>
       <label>Questions<input id="count" type="number" min="1" max="10" value="3"></label>
       <label>Seed<input id="seed" type="number" value="1"></label>
     </div>

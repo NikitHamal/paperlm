@@ -48,17 +48,38 @@ export function grounding(segs, kind, anchor, unitTerms = []) {
 export const gatePass = (sc, f, kind) => sc >= 0.85 && (kind === "short" || (f.distinct && f.homog && f.ans_ground >= 0.8));
 function rng32(a) { return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
 export async function loadRegistry(base = "packs/") { return (await fetch(base + "pack_registry.json")).json(); }
+
+const OPEN = /^(what|which|why|how|when|where|who|name|define|state|explain|describe|write|differentiate|distinguish|give|calculate|find|list|mention|compare|justify|derive|prove|identify|discuss|illustrate|draw|show|an?|the|if|in|on|at|for|from|during|define)\b/i;
+const rep3 = (t) => { const w = t.toLowerCase().split(/\s+/); const seen = new Set(); for (let i = 0; i + 2 < w.length; i++) { const g = w.slice(i, i + 3).join(" "); if (seen.has(g)) return true; seen.add(g); } return false; };
+const distinct = (t) => { const w = t.toLowerCase().split(/\s+/).filter(Boolean); return w.length ? new Set(w).size / w.length : 0; };
+/** Strict gate v3 (on top of the lexical grounding gate): well-formed question, no repetition, no answer leak, no clause fragments, fluent under the model itself. */
+export function strictOK(kind, segs, anchor, lp, lpMin = -1.6) {
+  const [ans, q] = segs, A = new Set(cw(anchor)), qc = cw(q);
+  if (!OPEN.test(q.trim()) || qc.length < 3 || qc.filter((w) => A.has(w)).length < 2) return false;
+  if (kind === "mcq") { if (q.length < 20 || q.toLowerCase().includes(ans.toLowerCase()) && ans.length > 3) return false; }
+  for (const t of segs) { if (rep3(t) || distinct(t) < 0.55 || /(\$\s*\$)|\s{2,}|([a-z])\2{3,}/.test(t)) return false; if (t.length > 25 && !/[a-z]{3}/i.test(t)) return false; }
+  if (kind === "short" && !/[.)$]\s*$|\w$/.test(ans)) return false;
+  return lp >= lpMin;
+}
+function pickBank(bank, unit, kind, marks, rand, used) {
+  const pool = bank.filter((b) => b.unit === unit.name && b.type === kind && !used.has(b.question) && (kind === "mcq" || Math.abs(b.marks - marks) <= 1));
+  const alt = pool.length ? pool : bank.filter((b) => b.unit === unit.name && b.type === kind && !used.has(b.question)); if (!alt.length) return null;
+  const b = alt[Math.floor(rand() * alt.length)]; used.add(b.question);
+  if (kind === "mcq") { const opts = [b.answer, ...b.distractors].map((t, i) => ({ t, ok: i === 0 })); for (let i = 3; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
+    return { kind, marks: 1, unit: unit.name, question: b.question, options: opts.map((x) => x.t), key: "abcd"[opts.findIndex((x) => x.ok)], why: b.why, anchor: b.anchor, score: 1, flags: { bank: 1 }, src: b.src, scores: b.scores }; }
+  return { kind, marks: b.marks, unit: unit.name, question: b.question, answer: b.answer, anchor: b.anchor, score: 1, flags: { bank: 1 }, src: b.src, scores: b.scores };
+}
 export class Pack {
   static async load(ort, id, base = "packs/", onProgress = () => {}) {
     const dir = `${base}${id}/`, meta = await (await fetch(dir + "pack.json")).json(); onProgress(0.05, "tokenizer");
-    const tokJ = await (await fetch(dir + "tokenizer.json")).json(), graph = await (await fetch(dir + "syllabus_graph.json")).json(); const p = Pack.fromParts(ort, meta, tokJ, graph);
+    const tokJ = await (await fetch(dir + "tokenizer.json")).json(), graph = await (await fetch(dir + "syllabus_graph.json")).json(); const p = Pack.fromParts(ort, meta, tokJ, graph); try { p.bank = await (await fetch(dir + "bank.json")).json(); } catch { p.bank = []; }
     let buf; const cache = "caches" in self ? await caches.open("paperlm-packs-v2") : null, url = dir + "model.onnx", hit = cache && await cache.match(url);
     if (hit) buf = await hit.arrayBuffer(); else { const r = await fetch(url), tot = +r.headers.get("content-length") || meta.onnx_mb * 1e6, rd = r.body.getReader(), parts = []; let got = 0;
       for (;;) { const { done, value } = await rd.read(); if (done) break; parts.push(value); got += value.length; onProgress(0.1 + 0.8 * got / tot, "model"); } buf = await new Blob(parts).arrayBuffer(); if (cache) await cache.put(url, new Response(buf.slice(0))); }
     onProgress(0.92, "session"); p.session = await ort.InferenceSession.create(new Uint8Array(buf), { executionProviders: ["wasm"] }); onProgress(1, "ready"); return p;
   }
   static fromParts(ort, meta, tokJ, graph) {
-    const p = new Pack(); p.meta = meta; p.graph = graph; p.ort = ort; p.tok = new Tok(tokJ); p.units = Object.fromEntries(graph.units.map((u) => [u.id, u]));
+    const p = new Pack(); p.meta = meta; p.graph = graph; p.bank = []; p.used = new Set(); p.ort = ort; p.tok = new Tok(tokJ); p.units = Object.fromEntries(graph.units.map((u) => [u.id, u]));
     const T = p.tok; T.ok = new Uint8Array(T.V); T.op = new Int32Array(T.V); T.cl = new Int32Array(T.V); T.dl = new Int32Array(T.V);
     T.strs.forEach((s, i) => { if (s !== null) { T.ok[i] = 1; for (const ch of s) { if (ch === "{") T.op[i]++; else if (ch === "}") T.cl[i]++; else if (ch === "$") T.dl[i]++; } } }); return p;
   }
@@ -81,10 +102,11 @@ export class Pack {
     return out;
   }
   /** answer-first generation + FSM + best-of-K entailment (grounding) rerank + deterministic key placement -> item or null */
+  bankItem(unit, kind, marks, rand = Math.random) { return pickBank(this.bank, unit, kind, marks, rand, this.used); }
   async makeItem(unit, kind, marks, fact, opt = {}) {
     const ut = unit.terms || [], outs = await this.sample(unit, kind, marks, fact.text, opt), rand = opt.rand || Math.random;
     const scored = outs.filter((o) => o.done).map((o) => { const [sc, f] = grounding(o.segs, kind, fact.text, ut); return { o, sc, f, rank: sc + 0.02 * o.lp }; }).sort((a, b) => b.rank - a.rank); if (!scored.length) return null;
-    const { o, sc, f } = scored[0], pass = gatePass(sc, f, kind); if (!pass) return { rejected: true, score: sc, flags: f, segs: o.segs };
+    const { o, sc, f } = scored[0], pass = gatePass(sc, f, kind); if (!pass || (opt.strict !== false && !strictOK(kind, o.segs, fact.text, o.lp, opt.lpMin))) return { rejected: true, score: sc, flags: f, segs: o.segs };
     if (kind === "mcq") { const [ans, q, d1, d2, d3, why] = o.segs, opts = [ans, d1, d2, d3].map((t, i) => ({ t, ok: i === 0 })); for (let i = 3; i > 0; i--) { const j = Math.floor(rand() * (i + 1)); [opts[i], opts[j]] = [opts[j], opts[i]]; }
       return { kind, marks: 1, unit: unit.name, question: q, options: opts.map((x) => x.t), key: "abcd"[opts.findIndex((x) => x.ok)], why, anchor: fact.text, score: sc, flags: f, fid: fact.id }; }
     return { kind, marks, unit: unit.name, question: o.segs[1], answer: o.segs[0], anchor: fact.text, score: sc, flags: f, fid: fact.id };

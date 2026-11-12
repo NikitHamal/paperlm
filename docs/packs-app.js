@@ -29,18 +29,20 @@ function numeric(unit, rand) {
 function card(it, n) {
   const ans = it.kind === "mcq" ? `<b>Answer: (${it.key}) ${math(it.options["abcd".indexOf(it.key)])}</b><br>${math(it.why)}` : `<b>Model answer</b><br>${math(it.answer)}`;
   const opts = it.kind === "mcq" ? it.options.map((o, i) => `<div class="opt${"abcd"[i] === it.key ? " key" : ""}"><b>${"abcd"[i]})</b><span>${math(o)}</span></div>`).join("") : "";
-  const prov = it.numeric ? `<span class="tag ok">computed by exact solver</span>` : `<span class="tag ok">grounding ${it.score.toFixed(2)}</span><span class="tag">answer-in-anchor ${(it.flags.ans_ground * 100) | 0}%</span><span class="tag">unit: ${esc(it.unit)}</span><br>Anchor fact: ${math(it.anchor)}`;
+  const prov = it.flags && it.flags.bank ? `<span class="tag ok">verified bank: ${it.src === "gold" ? "NEB gold item" : "teacher + blind-solve + entailment + distractor probes"}</span><span class="tag">unit: ${esc(it.unit)}</span>${it.scores ? `<span class="tag">solve ${it.scores.solve ?? "-"}</span><span class="tag">entail ${it.scores.entail ?? "-"}</span>` : ""}<br>Source fact: ${math(it.anchor.slice(0, 260))}` : it.numeric ? `<span class="tag ok">computed by exact solver</span>` : `<span class="tag ok">grounding ${it.score.toFixed(2)}</span><span class="tag">answer-in-anchor ${(it.flags.ans_ground * 100) | 0}%</span><span class="tag">unit: ${esc(it.unit)}</span><br>Anchor fact: ${math(it.anchor)}`;
   return `<div class="q"><h3>Q${n} - ${it.kind === "mcq" ? "MCQ, 1 mark" : it.marks + " marks"}</h3><p>${math(it.question)}</p>${opts}<div class="ans">${ans}</div><div class="prov">${prov}</div></div>`;
 }
 async function one(slot, rand, st) {
   if (slot.kind === "num") return numeric(slot.unit, rand);
-  for (let tries = 0; tries < 5; tries++) {
+  const src = $("src").value, bk = () => { const b = pack.bankItem(slot.unit, slot.kind, slot.marks, rand); if (b) st.bank++; return b; };
+  if (src === "bank") return bk();
+  for (let tries = 0; tries < (src === "hybrid" ? 3 : 5); tries++) {
     const pool = slot.unit.facts, fact = tries === 0 && slot.fact ? slot.fact : pool[Math.floor(rand() * pool.length)]; st.attempts++;
     const it = await pack.makeItem(slot.unit, slot.kind, slot.marks, fact, { K: 3, rand }); if (it && !it.rejected) { st.ok++; st.score += it.score; return it; } st.rej++;
-  } return null;
+  } return src === "hybrid" ? bk() : null;
 }
 async function run() {
-  if (busy || !pack) return; busy = true; $("go").disabled = true; $("out").innerHTML = ""; const t0 = performance.now(), st = { attempts: 0, ok: 0, rej: 0, score: 0 }; let slots = [];
+  if (busy || !pack) return; busy = true; $("go").disabled = true; $("out").innerHTML = ""; pack.used.clear(); const t0 = performance.now(), st = { attempts: 0, ok: 0, rej: 0, score: 0, bank: 0 }; let slots = [];
   if (mode === "one") { const n = +$("count").value, rand = rng32(+$("seed").value), t = $("type").value, uid = $("unit").value, us = pack.graph.units;
     for (let i = 0; i < n; i++) { const u = uid === "*" ? us[Math.floor(rand() * us.length)] : pack.units[uid], f = u.facts[Math.floor(rand() * u.facts.length)];
       slots.push(t === "num" ? { kind: "num", unit: u } : t === "mcq" ? { kind: "mcq", marks: 1, unit: u, fact: f } : { kind: "short", marks: +t.slice(5), unit: u, fact: f }); }
@@ -52,7 +54,7 @@ async function run() {
     if (it) { html += card(it, n); cov.add(it.unit); } else html += `<div class="q"><h3>Q${n}</h3><p class="muted">No item passed the grounding gate for this slot (never shown unverified).</p></div>`;
     $("out").innerHTML = html; }
   setStatus("Done in " + ((performance.now() - t0) / 1000).toFixed(1) + " s"); $("stats").hidden = false;
-  $("statsbody").innerHTML = `Gate attempts ${st.attempts}, accepted ${st.ok}, rejected ${st.rej}. Mean grounding of accepted ${(st.score / Math.max(1, st.ok)).toFixed(2)}. Units covered ${cov.size} of ${pack.graph.units.length}. Pack ${pack.meta.pack_id} stayed fully on-device.`;
+  $("statsbody").innerHTML = `Neural attempts ${st.attempts}: accepted ${st.ok}, rejected ${st.rej}; verified-bank items ${st.bank}. Mean grounding of accepted ${(st.score / Math.max(1, st.ok)).toFixed(2)}. Units covered ${cov.size} of ${pack.graph.units.length}. Pack ${pack.meta.pack_id} stayed fully on-device.`;
   busy = false; $("go").disabled = false;
 }
 document.querySelectorAll(".tabs button").forEach((b) => (b.onclick = () => { mode = b.dataset.mode; document.querySelectorAll(".tabs button").forEach((x) => x.setAttribute("aria-selected", x === b)); $("one").hidden = mode !== "one"; $("paper").hidden = mode !== "paper"; }));
