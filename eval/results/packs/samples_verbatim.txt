@@ -1,174 +1,136 @@
 
-##### math11 (Mathematics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":1.9558,"slots":8,"neural_accepted":2,"neural_attempts":15,"neural_gate_rate":0.133,"bank_fallback":6,"empty":0,"units_covered":"8/21","duplicates":0,"bank_size":544,"bank_mcq":440,"bank_short":104,"seconds":25.2}
-
-[Computational Methods] MCQ <gold>
-Q. The Newton–Raphson iteration formula is
-  a) $x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$
-  b) $x_{n+1}=x_n+\frac{f(x_n)}{f'(x_n)}$
-  c) $x_{n+1}=\frac{f(x_n)}{f'(x_n)}$
-  d) $x_{n+1}=x_n-\frac{f'(x_n)}{f(x_n)}$
-Key: a  Why: subtract the ratio; (a) has the wrong sign and (c) inverts the ratio.
-
-[Curve Sketching] MCQ <neural>
-Q. The period of $y = \frac{1}{\cos bx}$, which of the following statements correctly describes the x-axis?
-  a) $x = \frac{1-x^{2}}{2}$
-  b) $y = \frac{x}{2} - x$
-  c) $\cos bx$
-  d) $y=\sin bx$
-Key: c  Why: The angle $y = -\frac{1}{2}\sin bx$ is $x$ of symmetry.
-
-[Inverse Circular Functions] MCQ <gold>
-Q. The number of solutions of $\sin x=\frac12$ in $[0,2\pi]$ is
-  a) 1
-  b) 3
-  c) 2
-  d) 4
-Key: c  Why: $x=\frac{\pi}{6}$ and $x=\frac{5\pi}{6}$.
-
-[Derivatives] MCQ <teacher>
-Q. Given $y = \sin^{-1}(\sin2\theta)$ and $-\frac{\pi}{2} < 2\theta < \frac{\pi}{2}$, which of the following represents $y$ in terms of $\theta$?
-  a) $y = \cos(2\theta)$
-  b) $y = \frac{\theta}{2}$
-  c) $y = 2\theta$
-  d) $y = \sin(2\theta)$
-Key: c  Why: Because within the given range, the arcsine function directly returns the angle, hence $y = 2\theta$.
-
-[Trigonometric Equations and General Values] MCQ <neural>
-Q. The general solution of $\theta = \dfrac{1}{\cos\theta}$ is
-  a) $\theta = \dfrac{2}{1-r}$
-  b) $\theta = 1$
-  c) $\theta = \dfrac12$
-  d) $\theta < 1$
-Key: c  Why: $H = 1$ and $\theta = 1$.
-
-[Anti-derivatives] MCQ <gold>
-Q. $\frac{d}{dx}(e^{2x})$ equals
-  a) $2e^{x}$
-  b) $e^{2x}$
-  c) $2e^{2x}$
-  d) $2xe^{2x}$
-Key: c  Why: the chain rule brings down the inner derivative 2.
-
-[Pair of Straight Lines] 2-mark <gold>
-Q. Derive the formula $\tan\theta = \dfrac{2\sqrt{h^{2}-ab}}{a+b}$ for the angle between the lines $ax^{2}+2hxy+by^{2} = 0$.
-Model answer: Writing each line as $y = mx$ and substituting gives $bm^{2}+2hm+a = 0$, so $m_1+m_2 = -\frac{2h}{b}$ and $m_1m_2 = \frac{a}{b}$. Then
-
-[Vectors] 2-mark <gold>
-Q. State and prove the section formula for the internal division of a line segment in the ratio $m:n$, and deduce the midpoint formula.
-Model answer: See the derivation in §14.1: from $AP:PB = m:n$ we get $n\,\vec{AP} = m\,\vec{PB}$, i.e. $n(\vec{r}-\vec{a}) = m(\vec{b}-\vec{r})$, which rearranges to $\vec{r} = \dfrac{m\vec{b}+n\vec{a}}{m+n}$. Putting $m = n = 1$ gives the midpoint $\dfrac{\vec{a}+\vec{b}}{2}$.
-
-##### cs12 (Computer Science - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.4192,"slots":8,"neural_accepted":0,"neural_attempts":16,"neural_gate_rate":0,"bank_fallback":8,"empty":0,"units_covered":"7/7","duplicates":0,"bank_size":361,"bank_mcq":293,"bank_short":68,"seconds":18.2}
-
-[Recent Trends in Technology] MCQ <gold>
-Q. Computing that lets a user access data and services while moving is
-  a) grid computing
-  b) parallel computing
-  c) batch processing
-  d) mobile computing
-Key: d  Why: mobile computing is computing without a fixed physical link.
-
-[Database Management System] MCQ <gold>
-Q. In relational terminology, a row of a table is called a
-  a) degree
-  b) attribute
-  c) domain
-  d) tuple
-Key: d  Why: row = tuple = record; column = attribute = field.
-
-[Data Communication and Networking] MCQ <gold>
-Q. Which is not one of the five elements of data communication?
-  a) bandwidth
-  b) protocol
-  c) message
-  d) transmission medium
-Key: a  Why: bandwidth is a property of the channel, not one of the five elements.
-
-[Object-Oriented Programming] MCQ <gold>
-Q. Function overloading is an example of
-  a) inheritance
-  b) run-time polymorphism
-  c) compile-time polymorphism
-  d) encapsulation
-Key: c  Why: the compiler picks the version from the signature.
-
-[Data Communication and Networking] MCQ <teacher>
-Q. What device's address is referred to as the gateway in a network?
-  a) modem
-  b) switch
-  c) router
-  d) hub
-Key: c  Why: Subnet mask splits network from host; the gateway is the router's address.
-
-[Software Process Model] MCQ <gold>
-Q. A feasibility study that asks whether the staff will accept and use the system is
-  a) technical
-  b) operational
-  c) economic
-  d) legal
-Key: b  Why: operational feasibility concerns people and working practice.
-
-[Web Technology II] 2-mark <teacher>
-Q. Explain the role of client-side and server-side validation in web technology using JavaScript.
-Model answer: Client-side validation in JavaScript provides instant feedback to users, enhancing convenience. Server-side validation protects the database by ensuring data integrity before processing.
-
-[Programming in C] 2-mark <teacher>
-Q. What determines the size of a union in C programming and what can be said about its members' values?
-Model answer: The size of a union in C is determined by its largest member. At any moment, only one member holds a valid value.
-
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5528,"slots":8,"neural_accepted":0,"neural_attempts":16,"neural_gate_rate":0,"bank_fallback":8,"empty":0,"units_covered":"8/10","duplicates":0,"bank_size":803,"bank_mcq":572,"bank_short":231,"seconds":19.4}
-
-[Applied Biology] MCQ <teacher>
-Q. In a fish pond, if the total capacity for fish is $3000$, and the distribution ratio for surface feeders (silver carp and catla), column feeders (rohu), and bottom feeders (mrigal and common carp) is $0.30$, $0.30$, and $0.40$ respectively, how many rohu can the pond sustain?
-  a) $600$
-  b) $900$
-  c) $1200$
-  d) $1500$
-Key: b  Why: The calculation shows that the number of rohu, which are column feeders, is $0.30\times 3000 = 900$.
-
-[Plant Anatomy] MCQ <teacher>
-Q. Why does bark include secondary phloem and periderm?
-  a) Because it facilitates the transport of water and minerals.
-  b) Because it provides structural support to the plant stem.
-  c) Because bark consists of all tissues lying outside the vascular cambium.
-  d) Because it is involved in the synthesis of chlorophyll.
-Key: c  Why: The definition of bark includes all tissues lying outside the vascular cambium, which inherently includes secondary phloem and periderm.
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5528,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/10","duplicates":0,"bank_size":801,"bank_mcq":570,"bank_short":231,"seconds":17.5}
 
 [Plant Physiology] MCQ <teacher>
-Q. Which enzyme is responsible for pumping carbon into the bundle sheath?
-  a) PEP carboxylase
-  b) ATP synthase
-  c) RuBisCO
-  d) Rubisco activase
-Key: a  Why: PEP carboxylase is explicitly mentioned as the enzyme that pumps carbon into the bundle sheath.
-
-[Developmental Biology] MCQ <teacher>
-Q. During fertilization, what mechanism ensures that only one sperm cell successfully fuses with the egg?
-  a) Sperm cells are repelled by the negative charge of the egg's membrane after fusion.
-  b) The egg releases enzymes that destroy approaching sperm cells.
-  c) Cortical granules burst and the vitelline membrane lifts away to form the fertilization membrane, preventing additional sperm from penetrating.
-  d) The egg's membrane hardens immediately after the first sperm enters.
-Key: c  Why: The bursting of cortical granules and lifting of the vitelline membrane to form the fertilization membrane prevents additional sperm from penetrating, ensuring monospermic fertilization.
-
-[Genetics] MCQ <teacher>
-Q. What is the term for a compound consisting of a nitrogenous base and a pentose sugar?
-  a) nucleoside
-  b) deoxyribose
-  c) phosphate
-  d) nucleotide
-Key: a  Why: A base joined to a sugar alone is defined as a nucleoside.
+Q. According to Blackman's Law of Limiting Factors, which statement best describes the rate of a biological process?
+  a) The rate is determined by the most abundant factor.
+  b) The rate is determined by the factor that is least available.
+  c) The rate increases as all factors become more available.
+  d) The rate is unaffected by the availability of individual factors.
+Key: b  Why: Blackman's Law of Limiting Factors states that the rate of a process is limited by the factor that is in shortest supply.
 
 [Human Biology] MCQ <teacher>
-Q. How is blood pressure typically represented?
-  a) systolic over diastolic
-  b) pulse pressure
-  c) diastolic over systolic
-  d) mean arterial pressure
-Key: a  Why: Blood pressure is written as systolic over diastolic.
+Q. Which law states that the diffusion rate is proportional to the surface area and pressure difference divided by the thickness?
+  a) Boyle's law
+  b) Fick's law
+  c) Henry's law
+  d) Dalton's law
+Key: b  Why: Fick's law directly relates diffusion rate to surface area and pressure difference over thickness.
 
-[Embryology] 3-mark <teacher>
-Q. Describe the formation of megaspores and the resulting cells and nuclei in the embryo sac.
-Model answer: From 8 meioses, $8 \times 4 = 32$ megaspores form, with $8 \times 3 = 24$ degenerating. The embryo sac contains 7 cells: 3 egg apparatus, 3 antipodals, and 1 central cell. In terms of nuclei, there are 8: 3 from the egg apparatus, 3 from the antipodals, and 2 from the central cell.
+[Genetics] MCQ <gold>
+Q. Crossing over takes place during
+  a) diplotene
+  b) pachytene
+  c) leptotene
+  d) zygotene
+Key: b  Why: chiasmata form and the segments are exchanged in pachytene of prophase I.
 
-[Animal Tissues] 3-mark <teacher>
-Q. Describe the characteristics of the epithelial tissue in terms of its location, vascular properties, and regenerative capacity.
-Model answer: Epithelial tissue covers body surfaces and lines cavities, ducts, and organs above a basement membrane. It lacks blood vessels (avascular) and relies on diffusion from underlying connective tissue for nourishment. This tissue exhibits high regenerative capacity due to constant wear and tear.
+[Applied Biology] 3-mark <teacher>
+Q. Compare the recall percentages of re-readers and retrievers after five minutes and one week.
+Model answer: Five minutes later, re-readers recalled 83% vs 71% for retrievers. One week later, retrievers recalled 61% while re-readers fell to 40%.
+
+[Animal Tissues] 2-mark <teacher>
+Q. Describe two functions of animal tissues related to defense and insulation.
+Model answer: Macrophages and plasma cells defend against infections. Subcutaneous fat insulates, reducing heat loss in cold regions like Mustang.
+
+##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.4801,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/26","duplicates":0,"bank_size":965,"bank_mcq":740,"bank_short":225,"seconds":29.1}
+
+[Dynamics] MCQ <teacher>
+Q. In a system involving a light inextensible string and a frictionless, massless pulley, if the pulley were to have mass, how would it affect the acceleration $a$ of the objects attached to the string?
+  a) It would decrease the value of $a$.
+  b) It would not change the value of $a$.
+  c) It would increase the value of $a$.
+  d) It would cause $a$ to become negative.
+Key: a  Why: Part of the torque would go into spinning the pulley if it had mass, thus reducing the acceleration $a$.
+
+[DC Circuits] MCQ <teacher>
+Q. What formula represents the maximum power $P_{max}$ in terms of electromotive force $E$ and internal resistance $r$ in a circuit?
+  a) $Er^2$
+  b) $\dfrac{E^{2}}{4r}$
+  c) $\dfrac{E}{2r}$
+  d) $E^2r$
+Key: b  Why: The maximum power is $P_{max}=\dfrac{E^{2}}{4r}$ and the efficiency is then only 50%.
+
+[Reflection at curved mirror] MCQ <teacher>
+Q. Given that the image formed by a curved mirror is real and magnified three times, what is the magnification factor $m$?
+  a) $m = 1$
+  b) $m = 3$
+  c) $m = -3$
+  d) $m = -1$
+Key: c  Why: The magnification factor for a real, inverted image is negative, hence $m = -3$.
+
+[Nuclear physics] 2-mark <gold>
+Q. Each fission of ²³⁵U releases $200\ \text{MeV}$. Calculate the energy released by the complete fission of $0.50\ \text{kg}$ of ²³⁵U, and the mass that disappears in the process.
+Model answer: $N = (500/235)\times6.022\times10^{23} = 1.28\times10^{24}$ nuclei. $E = 1.28\times10^{24}\times200\times1.6\times10^{-13} = 4.1\times10^{13}\ \text{J}$.
+
+[Electric field] 3-mark <teacher>
+Q. Explain how the electric field strength is determined using electric field lines and identify if there is any point between two like charges where the resultant electric field is zero.
+Model answer: The electric field strength is determined by the density of field lines; more lines per unit area indicate a stronger field ($E$). For two like charges, the field lines between them point in the same direction, adding up and never cancelling out, hence there is no point where the resultant field is zero.
+
+##### math12 (Mathematics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.1646,"slots":5,"neural_accepted":1,"neural_attempts":9,"neural_gate_rate":0.111,"bank_fallback":4,"empty":0,"units_covered":"5/17","duplicates":0,"bank_size":585,"bank_mcq":459,"bank_short":126,"seconds":24.2}
+
+[Matrix Based System of Linear Equations] MCQ <gold>
+Q. In Cramer's rule, $x$ equals
+  a) $D\cdot D_x$
+  b) $\frac{D_y}{D}$
+  c) $\frac{D_x}{D}$
+  d) $\frac{D}{D_x}$
+Key: c  Why: numerator is the determinant with the $x$-column replaced; the denominator is always $D$.
+
+[Derivatives] MCQ <teacher>
+Q. Which of the following represents the derivative of $\sinh x$?
+  a) $\sinh x$
+  b) $\cosh x$
+  c) $-\cosh x$
+  d) $\tanh x$
+Key: b  Why: The derivative of $\sinh x$ is defined as $\cosh x$.
+
+[Conic Sections] MCQ <gold>
+Q. The eccentricity of a parabola is
+  a) $0$
+  b) $\frac{1}{2}$
+  c) $1$
+  d) greater than $1$
+Key: c  Why: a parabola is the locus with $SP=PM$ exactly, so $e=1$.
+
+[Anti-derivatives] 3-mark <teacher>
+Q. Find the equation of the tangent line to the curve $y = x^3 - 2x + 1$ at the point where $x = 1$. Then, solve the integral $\int \frac{dx}{x(x^2 + 1)}$. [3]
+Model answer: First, find $y'$: $y' = 3x^2 - 2$. At $x=1$, $y'=1$ and $y=0$. The tangent is $y=x-1$. For the integral, use partial fractions: $\int \frac{1}{x(x^2+1)}dx = \int \left(\frac{1}{x} - \frac{x}{x^2+1}\right)dx = \ln|x| - \frac{1}{2}\ln(x^2+1) + C$. [3]
+
+[Product of Vectors] 3-mark <neural>
+Q. a) Show that $\vec{a}=\vec{i}-\vec{j}+\vec{k}$ and $\vec{b}\times\vec{b}-\vec{a}+\vec{b}$. b)
+Model answer: The magnitude of $\vec b$ are $\vec b$ and $\vec b$. The area $\vec b$ is $\vec a\times\vec b$. Anti-commutative: $\vec{AB}\times\vec{AB}=\vec{a}-\vec{b}=(\vec{a}\times\vec{c})$.
+
+##### cs11 (Computer Science - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.9843,"slots":5,"neural_accepted":0,"neural_attempts":10,"neural_gate_rate":0,"bank_fallback":5,"empty":0,"units_covered":"5/8","duplicates":0,"bank_size":387,"bank_mcq":306,"bank_short":81,"seconds":17}
+
+[Computer System] MCQ <teacher>
+Q. What is the number of instructions per second for a processor with a cycle time of $2\times10^{-9}$ seconds?
+  a) $1\times10^{8}$
+  b) $1\times10^{9}$
+  c) $5\times10^{8}$
+  d) $2\times10^{9}$
+Key: c  Why: The calculation directly from the formula provided yields $5\times10^{8}$ as the number of instructions per second.
+
+[Web Technology I] MCQ <gold>
+Q. Which attribute of <a> gives the address of the target page?
+  a) href
+  b) alt
+  c) name
+  d) src
+Key: a  Why: href holds the destination; src is for images and media.
+
+[Computer Software and Operating System] MCQ <gold>
+Q. The tool used to remove temporary files and free disk space is
+  a) Task Manager
+  b) Device Manager
+  c) Disk Cleanup
+  d) Character Map
+Key: c  Why: Disk Cleanup.
+
+[Multimedia] 2-mark <teacher>
+Q. Explain the measurement unit of fonts and list five common text file formats.
+Model answer: Fonts are measured in points where 1 point equals $\frac{1}{72}$ inch. Common text file formats include .txt, .rtf, .docx, .pdf, and .html.
+
+[Programming Concepts and Logics] 2-mark <teacher>
+Q. Calculate the difference between the ASCII values of 'K' and 'V'. What is the result?
+Model answer: The ASCII value of 'K' is 75 and 'V' is 86. The difference is $75 - 86 = -11$.
