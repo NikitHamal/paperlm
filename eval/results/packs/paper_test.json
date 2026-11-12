@@ -55,7 +55,7 @@
   "near_dup": 0,
   "key_missing": 0,
   "scheme_bad": 0,
-  "computed": 96,
+  "computed": 108,
   "miss": 0,
   "unit_cov_mean": 0.99
  },
@@ -67,9 +67,9 @@
   "near_dup": 0,
   "key_missing": 0,
   "scheme_bad": 0,
-  "computed": 72,
+  "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.99
+  "unit_cov_mean": 1.0
  },
  "math11": {
   "papers": 36,
