@@ -194,7 +194,14 @@
    "c11_bohr_r",
    "c11_mole_ratio",
    "c11_dalton",
-   "c11_graham"
+   "c11_graham",
+   "c11_limiting",
+   "c11_gas_density",
+   "c11_kp_kc",
+   "c11_wavelength",
+   "c11_spec_lines",
+   "c11_shell_e",
+   "c11_mass_ca"
   ]
  },
  "chem12": {
@@ -218,7 +225,15 @@
    "c12_dg_nfe",
    "c12_remaining",
    "c12_titration",
-   "c12_eqwt"
+   "c12_eqwt",
+   "c12_k_first",
+   "c12_rate_law",
+   "c12_ksp_a2b",
+   "c12_ka_ph",
+   "c12_hess",
+   "c12_entropy_ph",
+   "c12_nernst",
+   "c12_c14_age"
   ]
  },
  "math11": {
