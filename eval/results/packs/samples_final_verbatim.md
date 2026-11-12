@@ -1,436 +1,428 @@
-# Verbatim samples from the shipped specialist packs (planner seed 16)
+# Verbatim samples from the shipped specialist packs (planner seed 18)
 
 Each paper is planned by the blueprint planner (syllabus-share quotas, anti-duplication tracker) from the pack's verified bank plus computed numericals. Source tags: gold = real NEB-style item, teacher = Qwen-32B draft that passed blind multi-order solve + entailment + distractor probes, computed = parametric solver.
 
 ## Biology - Class 12 (NEB)  (`bio12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.5528)
 
-**Q1. [Plant Physiology; 1 mark; gold]** Who proposed the concept of totipotency of plant cells?
+**Q1. [Animal Tissues; 1 mark; gold]** Which enzymes are likely to act in order on soyabean sprouts eaten by a man as they move down the alimentary canal?
 
-- (a) Haberlandt
-- (b) Steward
-- (c) Skoog
-- (d) Murashige
+- (a) trypsin, peptidases, pepsin
+- (b) peptidases, pepsin, trypsin
+- (c) pepsin, peptidases, trypsin
+- (d) pepsin, trypsin, peptidases
 
-Key: (a) Haberlandt. Why: Gottlieb Haberlandt (1902). Skoog and Miller found kinetin; Murashige and Skoog gave the medium.
+Key: (d) pepsin, trypsin, peptidases. Why: pepsin (stomach) → trypsin (duodenum) → peptidases (intestinal brush border). Reversing the stomach and the intestine gives(b) –(d).
 
-**Q2. [Applied Biology; 1 mark; gold]** The earthworm species normally used in vermicomposting is
+**Q2. [Human Biology; 1 mark; computed]** A person has a heart rate of $60\ \text{beats min}^{-1}$ and a stroke volume of $65\ \text{mL}$. What is the cardiac output in litres per minute?
 
-- (a) Lampito mauritii
-- (b) Lumbricus terrestris
-- (c) Eisenia fetida
-- (d) Pheretima posthuma
+- (a) $3.9\ \text{L min}^{-1}$
+- (b) $7.8\ \text{L min}^{-1}$
+- (c) $0.923\ \text{L min}^{-1}$
+- (d) $39\ \text{L min}^{-1}$
 
-Key: (c) Eisenia fetida. Why: Eisenia fetida is epigeic. Lumbricus terrestris is anecic and unsuitable.
+Key: (a) $3.9\ \text{L min}^{-1}$. Why: Cardiac output $=$ heart rate $\times$ stroke volume. $CO = 60\times 65\ \text{mL min}^{-1}$ $CO = 3.9\ \text{L min}^{-1}$
 
-**Q3. [Genetics; 1 mark; gold]** The promotion of flowering by a period of low temperature is called
+**Q3. [Applied Biology; 1 mark; teacher]** Which of the following statements correctly identifies the largest bee species?
 
-- (a) photoperiodism
-- (b) stratification
-- (c) scarification
-- (d) vernalisation
+- (a) Apis mellifera
+- (b) Megachile pluto
+- (c) Bombus terrestris
+- (d) Apis laboriosa
 
-Key: (d) vernalisation. Why: vernalisation; stratification and scarification are seed-dormancy treatments.
+Key: (b) Megachile pluto. Why: Megachile pluto is the largest bee species.
 
-**Q4. [Human Biology; 1 mark; computed]** A person has a heart rate of $75\ \text{beats min}^{-1}$ and a stroke volume of $70\ \text{mL}$. What is the cardiac output in litres per minute?
+**Q4. [Developmental Biology; 1 mark; teacher]** What hormone, when fed to a young tadpole, causes it to metamorphose prematurely into a small frog?
 
-- (a) $5.25\ \text{L min}^{-1}$
-- (b) $52.5\ \text{L min}^{-1}$
-- (c) $1.07\ \text{L min}^{-1}$
-- (d) $10.5\ \text{L min}^{-1}$
+- (a) testosterone
+- (b) insulin
+- (c) thyroxine
+- (d) estrogen
 
-Key: (a) $5.25\ \text{L min}^{-1}$. Why: Cardiac output $=$ heart rate $\times$ stroke volume. $CO = 75\times 70\ \text{mL min}^{-1}$ $CO = 5.25\ \text{L min}^{-1}$
+Key: (c) thyroxine. Why: Feeding thyroxine to a young tadpole results in premature transformation into a frog.
 
-**Q5. [Developmental Biology; 2 marks; teacher]** Describe the three parts of the mesoderm and their respective roles in development.
-
-Marking scheme:
-
-- The mesoderm splits into epimere (forms somites → muscles and vertebrae), mesomere (develops into kidney), and hypomere (contains coelom cavity).  **[2]**
-
-**Q6. [Animal Tissues; 5 marks; teacher]** Describe the structure of a multipolar motor neuron observed in a spinal-cord smear under ×100 magnification and explain how nerve impulses are conducted and transmitted.
+**Q5. [Plant Physiology; 2 marks; teacher]** Calculate the Respiratory Quotient (RQ) of tripalmitin ($\text{C}_{51}\text{H}_{98}\text{O}_6$) using its chemical formula and show that it is approximately 0.7.
 
 Marking scheme:
 
-- A multipolar motor neuron features a large cell body containing a prominent nucleus and numerous branching dendrites.  **[1]**
-- Nissl granules are present in the cytoplasm of the neuron's cell body.  **[1]**
-- The neuron has one axon that conducts impulses away from the cell body.  **[1]**
-- Impulse conduction is facilitated by myelin sheath interspersed with nodes of Ranvier, enabling saltatory conduction.  **[1]**
-- Transmission occurs chemically at the synapse, which allows unidirectional impulse transfer.  **[1]**
+- The balanced equation for tripalmitin respiration is $\text{C}_{51}\text{H}_{98}\text{O}_6 + 74\text{O}_2 \rightarrow 51\text{CO}_2 + 49\text{H}_2\text{O}$.  **[1]**
+- Thus, RQ = $\frac{51}{74} \approx 0.7$.  **[1]**
+
+**Q6. [Genetics; 5 marks; teacher]** Explain Mendel's law of independent assortment using a dihybrid cross (RrYy x RrYy) in pea plants. Predict the phenotypic ratio of the offspring and list all possible gametes formed by a double heterozygote RrYy.
+
+Marking scheme:
+
+- Mendel's law of independent assortment states that genes for different traits separate independently during gamete formation.  **[2]**
+- In a dihybrid cross (RrYy x RrYy), a double heterozygote RrYy forms 4 types of gametes: RY, Ry, rY, and ry in equal proportions ($2^2 = 4$).  **[2]**
+- The expected phenotypic ratio in the F2 generation is 9:3:3:1, representing 9 round yellow, 3 round green, 3 wrinkled yellow, and 1 wrinkled green peas.  **[1]**
 
 ## Physics - Class 11 (NEB)  (`phy11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.4801)
 
-**Q1. [Physical Quantities; 1 mark; gold]** The value of $1/4\pi\varepsilon_0$ in SI units is
+**Q1. [Reflection at curved mirror; 1 mark; gold]** Which of the following is dimensionless?
 
-- (a) $9\times10^{9}$
-- (b) $6.67\times10^{-11}$
-- (c) $8.85\times10^{-12}$
-- (d) $1.6\times10^{-19}$
-
-Key: (a) $9\times10^{9}$. Why: option(b) is $\varepsilon_0$ itself, which is what the $9\times10^{9}$ is built from.
-
-**Q2. [Nuclear physics; 1 mark; teacher]** In a nuclear reaction involving nucleons, what remains constant in terms of quantity?
-
-- (a) The speed of nucleons
-- (b) The energy of nucleons
-- (c) The total number of nucleons
-- (d) The mass of nucleons
-
-Key: (c) The total number of nucleons. Why: Nucleons are neither created nor destroyed, ensuring the conservation of their total number.
-
-**Q3. [Dynamics; 1 mark; gold]** The dimensional formula $[ML^{-1}T^{-2}]$ belongs to
-
-- (a) surface tension
+- (a) stress
 - (b) force constant
-- (c) linear momentum
-- (d) pressure
+- (c) surface tension
+- (d) strain
 
-Key: (d) pressure. Why: pressure is force per area. Surface tension and force constant are both $[MT^{-2}]$, momentum is $[MLT^{-1}]$.
+Key: (d) strain. Why: strain is a ratio of two lengths.
 
-**Q4. [DC Circuits; 1 mark; computed]** A cell of emf $12\ \text{V}$ and internal resistance $1\ \Omega$ is connected to an external resistance of $4\ \Omega$. Find the current in the circuit.
+**Q2. [DC Circuits; 1 mark; computed]** A cell of emf $24\ \text{V}$ and internal resistance $2\ \Omega$ is connected to an external resistance of $4\ \Omega$. Find the current in the circuit.
 
-- (a) $2.4\ \text{A}$
-- (b) $4\ \text{A}$
+- (a) $4\ \text{A}$
+- (b) $144\ \text{A}$
 - (c) $12\ \text{A}$
-- (d) $60\ \text{A}$
+- (d) $6\ \text{A}$
 
-Key: (a) $2.4\ \text{A}$. Why: For a cell with internal resistance $I = \dfrac{E}{R + r}$. $I = \dfrac{E}{R+r} = \dfrac{12}{4+1}$ $I = 2.4\ \text{A}$
+Key: (a) $4\ \text{A}$. Why: For a cell with internal resistance $I = \dfrac{E}{R + r}$. $I = \dfrac{E}{R+r} = \dfrac{24}{4+2}$ $I = 4\ \text{A}$
 
-**Q5. [Electric field; 3 marks; teacher]** Explain the significance of using a limit $q_0 \to 0$ in determining the electric field and describe the units of measurement for the electric field.
+**Q3. [Nuclear physics; 1 mark; teacher]** What is the formula for the nuclear radius $R$ as a function of the mass number $A$?
+
+- (a) $R=A^{1/2}$
+- (b) $R=R_0A^{1/3}$
+- (c) $R=R_0A^2$
+- (d) $R=R_0A$
+
+Key: (b) $R=R_0A^{1/3}$. Why: The formula $R=R_0A^{1/3}$ directly states the relationship between nuclear radius and mass number as given.
+
+**Q4. [Electric field; 1 mark; gold]** Just outside the surface of a charged conductor with surface charge density $\sigma$, the field is
+
+- (a) $\sigma\varepsilon_0$
+- (b) $\sigma/2\varepsilon_0$
+- (c) $\sigma/\varepsilon_0$
+- (d) zero
+
+Key: (c) $\sigma/\varepsilon_0$. Why: the factor of two that appears for a thin non-conducting sheet is absent here, because all the charge lies on one face and there is no field inside the metal.
+
+**Q5. [Physical Quantities; 3 marks; teacher]** Derive and check the dimensional correctness of the formula $T = 2\pi\sqrt{l/g}$ for the time period of a simple pendulum. Explain why this method cannot determine the constant $2\pi$.
 
 Marking scheme:
 
-- The limit $q_0 \to 0$ ensures the test charge does not affect the field.  **[2]**
-- Electric field units are N C⁻¹ or V m⁻¹, indicating force per unit charge or potential difference per distance.  **[1]**
+- Dimensions: $T = [T]$, $l = [L]$, $g = [L T^{-2}]$. 2.  **[1]**
+- Check: $[T] = \sqrt{[L]/[L T^{-2}]} = [T]$. 3.  **[1]**
+- Method of dimensions verifies units but not numerical constants like $2\pi$.  **[1]**
 
-**Q6. [Reflection at curved mirror; 5 marks; teacher]** A concave mirror has a focal length of $f=-20\ \text{cm}$. An object is placed at a distance of $u=-30\ \text{cm}$ from the mirror. Calculate the image distance $v$ and verify the magnification formula using the values obtained.
+**Q6. [Nuclear physics; 5 marks; teacher]** Explain the concept of pair production in nuclear physics and justify why it requires a minimum energy of $1.02\ \text{MeV}$ and must occur in the vicinity of a nucleus.
 
 Marking scheme:
 
-- Given $f=-20\ \text{cm}$ and $u=-30\ \text{cm}$, use the mirror formula: $\dfrac{1}{v}=\dfrac{1}{f}-\dfrac{1}{u}=-\dfrac{1}{20}+\dfrac{1}{30}=-\dfrac{1}{60}$, thus $v=-60\ \text{cm}$.  **[1]**
-- Verify magnification: $\dfrac{1}{f}-\dfrac{1}{v}=\dfrac{1}{u}$.  **[1]**
-- Substitute $v=-60\ \text{cm}$: $\dfrac{1}{-20}-\dfrac{1}{-60}=\dfrac{1}{-30}$.  **[1]**
-- Simplify: $-\dfrac{3}{60}+\dfrac{1}{60}=-\dfrac{2}{60}=-\dfrac{1}{30}$.  **[1]**
-- This confirms the magnification formula holds true.  **[1]**
+- Pair production involves the creation of an electron-positron pair from a photon.  **[2]**
+- It needs at least $1.02\ \text{MeV}$ because this is the total rest mass energy of both particles ($2 \times 0.511\ \text{MeV}$).  **[1]**
+- This process must happen near a nucleus due to the need to conserve both energy and momentum; the nucleus provides a rest frame to balance the momentum.  **[1]**
+- Additionally, the high electric field near a nucleus facilitates the conversion of photon energy into particle mass.  **[1]**
 
 ## Biology - Class 11 (NEB)  (`bio11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.5011)
 
-**Q1. [Biomolecules and Cell Biology; 1 mark; computed]** An organism has $2n = 24$ chromosomes in its somatic cells. How many chromosomes does each gamete contain?
+**Q1. [Ecology; 1 mark; gold]** The pyramid of numbers in a single big tree with birds and their parasites is
 
-- (a) $12$
-- (b) $48$
-- (c) $6$
-- (d) $24$
+- (a) upright
+- (b) rectangular
+- (c) inverted
+- (d) spindle-shaped
 
-Key: (a) $12$. Why: Meiosis halves the chromosome number, so a gamete is haploid ($n$). $n = \dfrac{2n}{2} = \dfrac{24}{2}$ $n = 12$
+Key: (d) spindle-shaped. Why: one tree carries many birds, and each bird carries very many parasites, so the pyramid is narrow, wide, wider still at the top.
 
-**Q2. [Biota and Environment; 1 mark; teacher]** What is the carrying capacity $K$ of a fish population in Phewa Tal?
+**Q2. [Faunal Diversity; 1 mark; gold]** The hormone controlling metamorphosis in the frog is
 
-- (a) $K = 9000$
-- (b) $K = 7500$
-- (c) $K = 8000$
-- (d) $K = 8500$
+- (a) thyroxine
+- (b) adrenaline
+- (c) auxin
+- (d) insulin
 
-Key: (c) $K = 8000$. Why: The carrying capacity $K$ of a fish population in Phewa Tal is explicitly stated as $K = 8000$.
+Key: (a) thyroxine. Why: thyroxine from the thyroid gland; a tadpole deprived of iodine never becomes a frog.
 
-**Q3. [Floral Diversity; 1 mark; gold]** The three-domain system of classification was proposed by
+**Q3. [Biota and Environment; 1 mark; teacher]** Which of the following statements accurately describes an adaptation of the Ganges river dolphin (Platanista gangetica) living in the Karnali and Koshi rivers?
 
-- (a) R. H. Whittaker
-- (b) Carolus Linnaeus
-- (c) Ernst Haeckel
-- (d) Carl Woese
+- (a) It relies on strong vision to navigate murky waters.
+- (b) It uses echolocation due to being nearly blind.
+- (c) It breathes air through specialized gills.
+- (d) It has developed large fins to aid in swimming against currents.
 
-Key: (d) Carl Woese. Why: Woese (1977, 1990), on the basis of 16S/18S rRNA sequences.
+Key: (b) It uses echolocation due to being nearly blind.. Why: The Ganges dolphin is nearly blind and uses echolocation in murky water.
 
-**Q4. [Faunal Diversity; 1 mark; gold]** The scientific name of the Indian bullfrog studied in the CDC course is
+**Q4. [Biomolecules and Cell Biology; 1 mark; computed]** An organism has $2n = 20$ chromosomes in its somatic cells. How many chromosomes does each gamete contain?
 
-- (a) Rana tigrina
-- (b) Bufo melanostictus
-- (c) Hyla arborea
-- (d) Xenopus laevis
+- (a) $20$
+- (b) $5$
+- (c) $10$
+- (d) $40$
 
-Key: (a) Rana tigrina. Why: Rana tigrina (now often Hoplobatrachus tigerinus), the Indian bullfrog.
+Key: (c) $10$. Why: Meiosis halves the chromosome number, so a gamete is haploid ($n$). $n = \dfrac{2n}{2} = \dfrac{20}{2}$ $n = 10$
 
-**Q5. [Evolutionary Biology; 3 marks; teacher]** Describe the concept of speciation using the example of the peppered moth (Biston betularia) in Manchester pre-1850.
-
-Marking scheme:
-
-- Speciation involves gradual variation accumulation over generations, forming a new species.  **[1]**
-- Pre-1850 in Manchester, the peppered moth was predominantly light-colored.  **[1]**
-- Environmental changes later favored darker variants, illustrating how species can evolve due to natural selection.  **[1]**
-
-**Q6. [Ecology; 5 marks; teacher]** Explain the role of respiration and decomposition in the carbon cycle and how global warming is related to greenhouse gases. Also, state why the pyramid of energy cannot be inverted unlike pyramids of number and biomass.
+**Q5. [Biomolecules and Cell Biology; 2 marks; teacher]** Define mitosis and state what it results in terms of chromosome number and genetic constitution in the daughter cells.
 
 Marking scheme:
 
-- Respiration in plants, animals, and microbes releases CO₂ into the atmosphere.  **[1]**
-- Decomposition breaks down dead matter, also releasing CO₂.  **[1]**
-- Greenhouse gases trap heat in the troposphere, leading to global warming.  **[1]**
-- The pyramid of energy cannot invert because energy transfer follows the second law of thermodynamics, losing energy as heat at each trophic level ($E_{n+1} = E_n \times 0.1$, where $E$ is energy at trophic levels $n$ and $n+1$).  **[1]**
-- In contrast, pyramids of number and biomass may invert due to variations in organism sizes and population densities.  **[1]**
+- Mitosis is the equational division of a somatic cell resulting in two daughter cells.  **[1]**
+- Each daughter cell has the same chromosome number and genetic constitution as the parent cell.  **[1]**
+
+**Q6. [Floral Diversity; 5 marks; teacher]** Describe the structure of fungal mycelium, its growth pattern, and explain how mycorrhizal fungi contribute to nutrient absorption in plants like pine and oak.
+
+Marking scheme:
+
+- The fungal body, except in unicellular yeasts, is a mycelium, which is a network of hyphae.  **[1]**
+- Each hypha is a tubular structure containing cytoplasm enclosed within a chitinous cell wall, extending only at its tip.  **[1]**
+- Mycorrhizal fungi form symbiotic associations with plant roots, specifically those of pine and oak trees.  **[1]**
+- These fungi significantly enhance the host plant's ability to absorb phosphates, an essential nutrient, thereby improving plant nutrition and growth.  **[1]**
+- This mutualistic relationship aids in the efficient recycling of nutrients back into the soil.  **[1]**
 
 ## Physics - Class 12 (NEB)  (`phy12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.6191)
 
-**Q1. [Rotational dynamics; 1 mark; teacher]** The formula for the moment of inertia of a body about an axis is given by $I = \sum m r^{2}$. What does this quantity measure in relation to rotational motion?
+**Q1. [Polarization; 1 mark; gold]** Light reflected from water at the polarizing angle is polarized with its electric vector
 
-- (a) Resistance to a change in rotational motion
-- (b) Speed of rotation
-- (c) Rate of rotational motion
-- (d) Torque applied to the body
+- (a) in the plane of incidence
+- (b) at random
+- (c) along the direction of travel
+- (d) perpendicular to the plane of incidence
 
-Key: (a) Resistance to a change in rotational motion. Why: The moment of inertia measures the resistance to a change in rotational motion, analogous to how mass measures resistance in linear motion.
+Key: (d) perpendicular to the plane of incidence. Why: the component in the plane of incidence is not reflected at $\theta_p$, leaving only the perpendicular one.
 
-**Q2. [Magnetic field; 1 mark; computed]** A straight wire of length $20\ \text{cm}$ carrying a current of $4\ \text{A}$ is placed perpendicular to a magnetic field of $50\ \text{mT}$. Find the force on the wire.
+**Q2. [Thermoelectric effects; 1 mark; teacher]** For a thermocouple with its cold junction at $0\,^{\circ}\text{C}$, which formula represents the thermo-e.m.f. $E$ in microvolts as a function of temperature $\theta$?
 
-- (a) $0.004\ \text{N}$
-- (b) $0.4\ \text{N}$
-- (c) $0.04\ \text{N}$
-- (d) $4\ \text{N}$
+- (a) $E = 25\theta - 0.05\theta^{2}$
+- (b) $E = 50\theta - 0.01\theta^{2}$
+- (c) $E = 10\theta + 0.1\theta^{2}$
+- (d) $E = 25 + 0.05\theta$
 
-Key: (c) $0.04\ \text{N}$. Why: The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 50\times10^{-3}\times4\times20\times10^{-2}$ $F = 0.04\ \text{N}$
+Key: (a) $E = 25\theta - 0.05\theta^{2}$. Why: For a thermocouple with its cold junction at $0\,^{\circ}\text{C}$, the thermo-e.m.f. in microvolts is $E = 25\theta - 0.05\theta^{2}$.
 
-**Q3. [Fluid statics; 1 mark; gold]** Two capillary tubes of radii $4\ \text{mm}$ and $2\ \text{mm}$ are dipped in the same liquid. The ratio of the heights of rise in them is
+**Q3. [Magnetic field; 1 mark; computed]** A straight wire of length $10\ \text{cm}$ carrying a current of $2\ \text{A}$ is placed perpendicular to a magnetic field of $40\ \text{mT}$. Find the force on the wire.
 
-- (a) $2:1$
-- (b) $1:4$
-- (c) $4:1$
-- (d) $1:2$
+- (a) $0.0008\ \text{N}$
+- (b) $0.008\ \text{N}$
+- (c) $0.08\ \text{N}$
+- (d) $0.8\ \text{N}$
 
-Key: (d) $1:2$. Why: $h\propto 1/r$, so the wider tube gives the smaller rise: $\dfrac{h_{4}}{h_{2}} = \dfrac{r_{2}}{r_{4}} = \dfrac{2}{4} = 1:2$. Option(b) inverts the ratio.
+Key: (b) $0.008\ \text{N}$. Why: The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 40\times10^{-3}\times2\times10\times10^{-2}$ $F = 0.008\ \text{N}$
 
-**Q4. [Thermoelectric effects; 1 mark; gold]** Antimony and bismuth are chosen for a thermopile because
+**Q4. [Electrical circuits; 1 mark; gold]** A potentiometer is called a voltmeter of infinite resistance because
 
-- (a) they lie at opposite ends of the thermoelectric series
-- (b) they are cheap
-- (c) they melt at a high temperature
-- (d) they are black
+- (a) it reads the terminal voltage of the driver
+- (b) its wire has infinite resistance
+- (c) at balance it draws no current from the cell being measured
+- (d) it has a high-resistance galvanometer
 
-Key: (a) they lie at opposite ends of the thermoelectric series. Why: the widest separation in the series gives the largest thermo-e.m.f.
+Key: (c) at balance it draws no current from the cell being measured. Why: at the null point no current flows through the cell under test, so its terminal p.d. equals its e.m.f.
 
-**Q5. [Electrical circuits; 2 marks; gold]** State and derive Joule's law of heating, and explain why the element of a heater glows red while its copper connecting leads stay cool.
-
-Marking scheme:
-
-- $W = qV = VIt = I^2Rt$, all of which appears as heat since the drift velocity is unchanged.  **[2]**
-
-**Q6. [Polarization; 5 marks; teacher]** Given the refractive index of glass as $1.5$, calculate the polarizing angle ($\theta_p$) and the corresponding angle of refraction. Also, explain how to determine the degree of polarization using the intensities $I_{\max}$ and $I_{\min}$.
+**Q5. [Rotational dynamics; 2 marks; teacher]** Calculate the power output of an electric motor delivering a constant torque of $25\ \text{N m}$ at $1500$ rev min⁻¹.
 
 Marking scheme:
 
-- Use the formula $\theta_p = \tan^{-1}(n)$ where $n=1.5$.  **[1]**
-- Thus, $\theta_p = \tan^{-1}(1.5) = 56.31^\circ$. 2.  **[1]**
-- The corresponding angle of refraction can be found using Snell's law, $n_1\sin(\theta_i) = n_2\sin(\theta_r)$.  **[1]**
-- For air ($n_1 = 1$) to glass ($n_2 = 1.5$), $\sin(\theta_r) = \frac{\sin(56.31^\circ)}{1.5}$.  **[1]**
-- Hence, $\theta_r = 33.69^\circ$. 3.  **[1]**
+- First, convert $1500$ rev min⁻¹ to rad s⁻¹: $1500 \times \frac{2\pi}{60} = 157.08$ rad s⁻¹.  **[1]**
+- Power $P = \tau \omega = 25 \times 157.08 = 3927$ W or $3.93$ kW.  **[1]**
+
+**Q6. [Fluid statics; 5 marks; teacher]** Calculate the work done in blowing a soap bubble of radius $3\ \text{cm}$ and determine the excess pressure inside it, given that the surface tension $T = 0.03\ \text{N m}^{-1}$. Additionally, explain how surface tension changes with temperature and the effect of detergents on it.
+
+Marking scheme:
+
+- The work done to blow a soap bubble of radius $3\ \text{cm}$ is $W = 8\pi R^2 T = 8\pi (0.03)^2 (0.03) = 2.26\times10^{-4}\ \text{J}$.  **[2]**
+- The excess pressure inside the bubble is $4T/R = 4(0.03)/(0.03) = 4\ \text{Pa}$.  **[2]**
+- Surface tension decreases with increasing temperature and is reduced by detergents.  **[1]**
 
 ## Chemistry - Class 11 (NEB)  (`chem11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.8785)
 
-**Q1. [Foundation and Fundamentals; 1 mark; computed]** How many molecules are present in $2\ \text{mol}$ of a substance? ($N_A = 6.022\times10^{23}\ \text{mol}^{-1}$)
+**Q1. [Chemistry of Non-metals; 1 mark; gold]** The percentage of nitrogen in ammonium nitrate, NH₄NO₃, is
 
-- (a) $1.204\times10^{24}\ \text{molecules}$
-- (b) $1.204\times10^{22}\ \text{molecules}$
-- (c) $2.409\times10^{24}\ \text{molecules}$
-- (d) $1.204\times10^{23}\ \text{molecules}$
+- (a) 17.5 %
+- (b) 46.7 %
+- (c) 21.2 %
+- (d) 35.0 %
 
-Key: (a) $1.204\times10^{24}\ \text{molecules}$. Why: Number of particles $N = n\times N_A$ with $N_A = 6.022\times10^{23}\ \text{mol}^{-1}$. $N = nN_A = 2\times6.022\times10^{23}$ $N = 1.204\times10^{24}$
+Key: (d) 35.0 %. Why: M = 80 and 2 N atoms give 28, so 28/80 × 100 = 35.0 %.
 
-**Q2. [Modern Chemical Manufactures; 1 mark; gold]** In the diaphragm cell the product formed at the cathode is
+**Q2. [Hydrocarbons; 1 mark; teacher]** What is the molar mass of ethene?
 
-- (a) oxygen
-- (b) sodium metal
-- (c) hydrogen
-- (d) chlorine
+- (a) $28\ \text{g}\ \text{mol}^{-1}$
+- (b) $30\ \text{g}\ \text{mol}^{-1}$
+- (c) $56\ \text{g}\ \text{mol}^{-1}$
+- (d) $26\ \text{g}\ \text{mol}^{-1}$
 
-Key: (c) hydrogen. Why: water is reduced in preference to Na⁺, so hydrogen is evolved; sodium metal needs molten NaCl.
+Key: (a) $28\ \text{g}\ \text{mol}^{-1}$. Why: The molar mass of ethene is calculated as 2(12) + 4(1) = 28 g mol⁻¹.
 
-**Q3. [Chemical Bonding and Shapes of Molecules; 1 mark; gold]** The shape of the ammonia molecule is
+**Q3. [Modern Chemical Manufactures; 1 mark; teacher]** Which chemical reaction correctly represents the process of recovering ammonia using $\text{Ca(OH)}_2$?
 
-- (a) tetrahedral
-- (b) planar
-- (c) linear
-- (d) trigonal pyramidal
+- (a) $\text{NH}_4\text{Cl} + \text{Ca(OH)}_2 \rightarrow \text{NH}_3 + \text{CaCl}_2 + \text{H}_2\text{O}$
+- (b) $2\text{NH}_4\text{Cl} + \text{Ca(OH)}_2 \rightarrow 2\text{NH}_3 + \text{CaCl}_2 + 2\text{H}_2\text{O}$
+- (c) $\text{NH}_4\text{Cl} + \text{Ca(OH)}_2 \rightarrow 2\text{NH}_3 + \text{CaCl}_2 + \text{H}_2\text{O}$
+- (d) $2\text{NH}_4\text{Cl} + \text{Ca(OH)}_2 \rightarrow 2\text{NH}_4 + \text{CaCl}_2 + 2\text{H}_2\text{O}$
 
-Key: (d) trigonal pyramidal. Why: three bond pairs and one lone pair; (a) ignores the lone pair.
+Key: (b) $2\text{NH}_4\text{Cl} + \text{Ca(OH)}_2 \rightarrow 2\text{NH}_3 + \text{CaCl}_2 + 2\text{H}_2\text{O}$. Why: The given reaction precisely matches the formula provided for the recovery of ammonia using $\text{Ca(OH)}_2$.
 
-**Q4. [Hydrocarbons; 1 mark; gold]** Which one does not undergo sulphonation with oleum?
+**Q4. [Foundation and Fundamentals; 1 mark; computed]** How many molecules are present in $0.5\ \text{mol}$ of a substance? ($N_A = 6.022\times10^{23}\ \text{mol}^{-1}$)
 
-- (a) methane
-- (b) hexane
-- (c) heptane
-- (d) 2-methylpropane
+- (a) $6.022\times10^{23}\ \text{molecules}$
+- (b) $3.011\times10^{22}\ \text{molecules}$
+- (c) $3.011\times10^{23}\ \text{molecules}$
+- (d) $3.011\times10^{21}\ \text{molecules}$
 
-Key: (a) methane. Why: the first three members, methane, ethane and propane, do not sulphonate.
+Key: (c) $3.011\times10^{23}\ \text{molecules}$. Why: Number of particles $N = n\times N_A$ with $N_A = 6.022\times10^{23}\ \text{mol}^{-1}$. $N = nN_A = 0.5\times6.022\times10^{23}$ $N = 3.011\times10^{23}$
 
-**Q5. [Fundamental Principles of Organic Chemistry; 2 marks; teacher]** Why does a C=C double bond not rotate freely? Provide the energy cost associated with breaking the π bond.
-
-Marking scheme:
-
-- The C=C double bond does not rotate freely because rotation would break the π bond.  **[1]**
-- The energy required to break this π bond is about 250 $kJ\ mol^{-1}$.  **[1]**
-
-**Q6. [Chemistry of Non-metals; 5 marks; teacher]** Given the reaction between zinc and dilute sulfuric acid, calculate the volume of hydrogen gas liberated at STP when 65 grams of zinc reacts completely. Also, write the balanced chemical equation for the preparation of ammonia using ammonium chloride and slaked lime.
+**Q5. [Foundation and Fundamentals; 3 marks; teacher]** Calculate the mass of one molecule of water and explain how industrial chemists use mole ratios in reactions. Include the formula to calculate the percentage composition of an element.
 
 Marking scheme:
 
-- The reaction between zinc and sulfuric acid is $\text{Zn} + \text{H}_2\text{SO}_4 \rightarrow \text{ZnSO}_4 + \text{H}_2$.  **[1]**
-- For 65 grams of Zn (1 mole), 1 mole of $\text{H}_2$ is produced.  **[1]**
-- At STP, 1 mole of $\text{H}_2$ occupies 22.4 L.  **[1]**
-- Thus, 22.4 L of $\text{H}_2$ is liberated.  **[1]**
-- The balanced equation for ammonia preparation is $\ce{2NH4Cl + Ca(OH)2 ->[\Delta] CaCl2 + 2NH3^ + 2H2O}$.  **[1]**
+- Mass of one water molecule: $\dfrac{18}{6.022\times10^{23}}=2.99\times10^{-23}\ \text{g}$.  **[1]**
+- Chemists use mole ratios from balanced equations to plan reaction quantities.  **[1]**
+- Formula for element's % composition: $\%\text{ of element}=\dfrac{\text{mass of the element in one mole}}{\text{molar mass}}\times100$.  **[1]**
+
+**Q6. [Chemical Bonding and Shapes of Molecules; 5 marks; teacher]** Using VSEPR theory, predict and explain the shape of $\text{H}_2\text{O}$ molecule. Account for its bond angle based on the presence of lone pairs. Include the number of lone pairs present on each atom.
+
+Marking scheme:
+
+- The $\text{H}_2\text{O}$ molecule has a bent shape due to the presence of two lone pairs on the oxygen atom.  **[2]**
+- Oxygen has six valence electrons; forming two bonds with hydrogen leaves four electrons as two lone pairs.  **[1]**
+- These lone pairs repel the bonding pairs, reducing the bond angle from ideal tetrahedral (109.5°) to approximately 104.5°.  **[1]**
+- The molecule has 2 lone pairs on the oxygen atom and no lone pairs on the hydrogen atoms.  **[1]**
 
 ## Chemistry - Class 12 (NEB)  (`chem12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.3057)
 
-**Q1. [Chemical Kinetics; 1 mark; gold]** The hydrolysis of ethyl acetate in a large excess of water is
+**Q1. [Studies of Heavy Metals; 1 mark; gold]** The formula of zinc blende is
 
-- (a) pseudo-first order
-- (b) second order
-- (c) zero order
-- (d) third order
+- (a) ZnCO₃
+- (b) ZnSO₄·7H₂O
+- (c) ZnO
+- (d) ZnS
 
-Key: (a) pseudo-first order. Why: truly bimolecular, but $[\text{H}_2\text{O}]$ is constant, so it behaves as first order.
+Key: (d) ZnS. Why: zinc blende is the sulphide; ZnCO₃ is calamine and ZnO is zincite.
 
-**Q2. [Aldehydes and Ketones; 1 mark; gold]** Bakelite is obtained from methanal and
+**Q2. [Alcohols; 1 mark; gold]** Phenol is more acidic than ethanol mainly because
 
-- (a) urea
-- (b) benzene
-- (c) phenol
-- (d) aniline
+- (a) the phenoxide ion is resonance stabilised
+- (b) it contains a benzene ring
+- (c) it has a higher molar mass
+- (d) it is a solid
 
-Key: (c) phenol. Why: phenol and methanal condense to a cross-linked, three-dimensional thermosetting network.
+Key: (a) the phenoxide ion is resonance stabilised. Why: the negative charge is delocalised over C-2, C-4 and C-6, which is impossible in an alkoxide ion.
 
-**Q3. [Electrochemistry; 1 mark; computed]** Calculate the mass of copper deposited when a current of $2\ \text{A}$ is passed through $\text{CuSO}_4$ solution for $40$ minutes. (Cu $= 63.5$, $F = 96500\ \text{C mol}^{-1}$.)
+**Q3. [Aldehydes and Ketones; 1 mark; gold]** Ethylmagnesium bromide poured on solid CO₂ and then hydrolysed gives
 
-- (a) $3.16\ \text{g}$
-- (b) $6.32\ \text{g}$
-- (c) $0.0263\ \text{g}$
-- (d) $1.58\ \text{g}$
+- (a) ethanoic acid
+- (b) propanoic acid
+- (c) propan-1-ol
+- (d) ethanol
 
-Key: (d) $1.58\ \text{g}$. Why: Faraday's first law gives $m = \dfrac{M I t}{nF}$. $m = \dfrac{MIt}{nF} = \dfrac{63.5\times2\times40\times60}{2\times96500}$ $m = 1.58\ \text{g}$
+Key: (b) propanoic acid. Why: carbonation adds one carbon to the ethyl group.
 
-**Q4. [Alcohols; 1 mark; gold]** Ethanol heated with concentrated H₂SO₄ at 140 °C gives mainly
+**Q4. [Electrochemistry; 1 mark; computed]** A cell transfers $n = 2$ moles of electrons with $E^\circ_{\text{cell}} = 0.46\ \text{V}$. Calculate $\Delta G^\circ$ in kJ ($F = 96500\ \text{C mol}^{-1}$).
 
-- (a) ethoxyethane
-- (b) ethene
-- (c) ethanal
-- (d) ethyl hydrogen sulphate
+- (a) $-178\ \text{kJ}$
+- (b) $-44.4\ \text{kJ}$
+- (c) $-88.8\ \text{kJ}$
+- (d) $-888\ \text{kJ}$
 
-Key: (a) ethoxyethane. Why: 140 °C favours intermolecular dehydration to the ether; 170 °C gives ethene.
+Key: (c) $-88.8\ \text{kJ}$. Why: $\Delta G^\circ = -nFE^\circ_{\text{cell}}$. $\Delta G^\circ = -2\times 96500\times 0.46\ \text{J}$ $\Delta G^\circ = -88.8\ \text{kJ}$
 
-**Q5. [Haloalkanes; 3 marks; teacher]** Explain the rate law for the reaction of haloalkanes and what happens if the carbon attached to the halogen is chiral.
-
-Marking scheme:
-
-- The rate law for the reaction of haloalkanes is $\text{rate} = k[\text{R-X}]$, indicating first-order kinetics.  **[2]**
-- If the carbon attached to the halogen is chiral, nucleophilic attack can occur from both faces, leading to a racemic mixture due to racemization.  **[1]**
-
-**Q6. [Studies of Heavy Metals; 5 marks; teacher]** Explain how to calculate the percentage of copper in chalcopyrite (CuFeS$_2$) and determine the copper content if the ore is 20% pure chalcopyrite.
+**Q5. [Chemical Kinetics; 2 marks; gold]** Draw the potential-energy profile for an exothermic reaction with and without a catalyst. If a catalyst lowers the activation energy from 75 kJ mol⁻¹ to 50 kJ mol⁻¹, by what factor does the rate increase at 300 K?
 
 Marking scheme:
 
-- Calculate molar mass of CuFeS$_2$: $M(CuFeS_2) = 63.5 + 56 + 2(32) = 183.5$ g/mol. 2.  **[1]**
-- Determine %Cu in CuFeS$_2$: $\%Cu = \frac{63.5}{183.5} \times 100 = 34.60\%$. 3.  **[1]**
-- Given ore purity as 20%, calculate effective copper content: $0.200 \times 34.60\% = 6.92\%$. 4.  **[1]**
-- Thus, copper constitutes 6.92% of the ore by weight. 5.  **[1]**
-- This calculation helps assess copper concentration in ores for extraction processes.  **[1]**
+- The diagram is the one in §3.9(d): the same reactant and product levels, the same $\Delta H$, but a lower peak for the catalysed path.  **[1]**
+- The rates are in the ratio of the exponential factors:  **[1]**
+
+**Q6. [Electrochemistry; 5 marks; gold]** a) Arrange the four metals and hydrogen in an activity series. [2] b) For E°(Zn²⁺/Zn) = −0.76 V and E°(Fe³⁺/Fe²⁺) = +0.77 V, write the cell notation, the cell reaction and the emf. [3] (NEB 2079 model; data re-set for (b))
+
+Marking scheme:
+
+- (a) C is displaced by none, so it is the most reactive.  **[2]**
+- D and C displace hydrogen, so both are above H.  **[1]**
+- B and A are below hydrogen (they do not displace it), and B displaces A but not the reverse.  **[1]**
+- Series in decreasing activity: C > D > H > B > A.(b) Zn is oxidised, and Fe³⁺ is reduced to Fe²⁺ at an inert platinum electrode:  **[1]**
 
 ## Mathematics - Class 11 (NEB)  (`math11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 1.9558)
 
-**Q1. [Curve Sketching; 1 mark; gold]** The period of $y = 5\cos 4x$ is
+**Q1. [Trigonometric Equations and General Values; 1 mark; gold]** If $\tan\theta = \tan\alpha$ then $\theta$ equals
 
-- (a) $\frac{\pi}{2}$
-- (b) $2\pi$
-- (c) $\frac{\pi}{4}$
-- (d) $8\pi$
+- (a) $2n\pi\pm\alpha$
+- (b) $2n\pi+\alpha$
+- (c) $n\pi+(-1)^{n}\alpha$
+- (d) $n\pi+\alpha$
 
-Key: (a) $\frac{\pi}{2}$. Why: period $= \frac{2\pi}{|b|} = \frac{2\pi}{4} = \frac{\pi}{2}$; the amplitude $5$ is irrelevant.
+Key: (d) $n\pi+\alpha$. Why: tangent has period $\pi$.
 
-**Q2. [Computational Methods; 1 mark; teacher]** Which of the following methods involves dividing an interval into $n$ sub-intervals to approximate the definite integral?
+**Q2. [Anti-derivatives; 1 mark; computed]** Evaluate $\displaystyle\int_{0}^{1}\left(6x^{2} + 4x\right)dx$.
 
-- (a) Euler's method
-- (b) bisection method
-- (c) trapezoidal rule
-- (d) Newton's method
+- (a) $4$
+- (b) $8$
+- (c) $10$
+- (d) $6$
 
-Key: (c) trapezoidal rule. Why: The trapezoidal rule is specifically derived for approximating integrals by dividing the area under the curve into trapezoids.
+Key: (a) $4$. Why: By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{1}(6x^{2}+4x)dx = \left[\dfrac{6x^{3}}{3} + \dfrac{4x^{2}}{2}\right]_0^{1}$ $= 4$
 
-**Q3. [Inverse Circular Functions; 1 mark; gold]** $\sin^{-1}\left(\frac12\right)$ is
+**Q3. [Computational Methods; 1 mark; teacher]** What is the total length obtained when the logarithmic lengths of $2.5$ and $3.2$ are placed end to end on a logarithmic scale?
 
-- (a) $\frac{\pi}{3}$
-- (b) $\frac{\pi}{4}$
-- (c) $\frac{5\pi}{6}$
-- (d) $\frac{\pi}{6}$
+- (a) 0.803
+- (b) 0.90309
+- (c) 1.003
+- (d) 0.703
 
-Key: (d) $\frac{\pi}{6}$. Why: principal value in $[-\pi/2,\pi/2]$; $5\pi/6$ also has sine $\frac12$ but is outside the range.
+Key: (b) 0.90309. Why: The sum of the logarithmic lengths $\log 2.5 = 0.398$ and $\log 3.2 = 0.505$ equals $0.90309$.
 
-**Q4. [Anti-derivatives; 1 mark; computed]** Evaluate $\displaystyle\int_{0}^{1}\left(3x^{2} + 2x\right)dx$.
+**Q4. [Vectors; 1 mark; teacher]** Why is the scalar product $\vec{a}\cdot\vec{b}$ equal to $|\vec{a}|(|\vec{b}|\cos\theta)$?
 
-- (a) $2$
-- (b) $4$
-- (c) $5$
-- (d) $3$
+- (a) It measures the perpendicular distance from $\vec{a}$ to $\vec{b}$.
+- (b) It is the sum of the magnitudes of $\vec{a}$ and $\vec{b}$.
+- (c) It represents the length of $\vec{a}$ times the length of the projection of $\vec{b}$ onto $\vec{a}$.
+- (d) It calculates the angle $\theta$ between $\vec{a}$ and $\vec{b}$ directly.
 
-Key: (a) $2$. Why: By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{1}(3x^{2}+2x)dx = \left[\dfrac{3x^{3}}{3} + \dfrac{2x^{2}}{2}\right]_0^{1}$ $= 2$
+Key: (c) It represents the length of $\vec{a}$ times the length of the projection of $\vec{b}$ onto $\vec{a}$.. Why: The scalar product formula given is derived from the projection of one vector onto another, which aligns with the provided explanation.
 
-**Q5. [Vectors; 2 marks; gold]** Prove by vector methods that the diagonals of a parallelogram bisect each other.
-
-Marking scheme:
-
-- Let $OACB$ be a parallelogram with $\vec{OA} = \vec{a}$, $\vec{OB} = \vec{b}$, so $\vec{OC} = \vec{a}+\vec{b}$.  **[1]**
-- The midpoint of the diagonal $OC$ has position vector $\dfrac{\vec{a}+\vec{b}}{2}$.  **[1]**
-
-**Q6. [Trigonometric Equations and General Values; 5 marks; teacher]** Given that $\cos\theta = -\frac{1}{\sqrt{2}}$, find the general solution for $\theta$. Use the facts that $\cos(\pi - \alpha) = -\cos(\alpha)$ and $\cos\theta=\cos\alpha \Rightarrow \theta = 2n\pi\pm\alpha$. Show your work.
+**Q5. [Curve Sketching; 2 marks; gold]** Sketch $y = \dfrac{1}{2x-6}$, showing the asymptotes, the intercept and the monotonic intervals.
 
 Marking scheme:
 
-- Given $\cos\theta = -\frac{1}{\sqrt{2}}$, identify $\alpha$ as $\frac{\pi}{4}$ since $\cos(\frac{\pi}{4}) = \frac{1}{\sqrt{2}}$.  **[1]**
-- Since cosine is negative, we consider $\pi - \frac{\pi}{4} = \frac{3\pi}{4}$.  **[1]**
-- Using $\cos\theta=\cos\alpha \Rightarrow \theta = 2n\pi\pm\alpha$, substitute $\alpha = \frac{3\pi}{4}$ to get $\theta = 2n\pi \pm \frac{3\pi}{4}$.  **[1]**
-- Thus, the general solutions are $\theta = 2n\pi + \frac{3\pi}{4}$ and $\theta = 2n\pi - \frac{3\pi}{4}$ where $n \in \mathbb{Z}$.  **[1]**
-- This covers all possible values of $\theta$ satisfying the given equation.  **[1]**
+- $y = \frac{1}{2x-6}$.  **[1]**
+- The denominator vanishes at $2x - 6 = 0$, i.e.  **[1]**
+
+**Q6. [Anti-derivatives; 5 marks; teacher]** Given the velocity function $v(t) = 3t^{2}-4t+2$, find the displacement function $s(t)$ if the initial condition is $s(0) = 5$. Also, evaluate the integral $\int\left(x+2+\frac{1}{x}\right)dx$.
+
+Marking scheme:
+
+- To find $s(t)$, integrate $v(t) = 3t^{2}-4t+2$: $$s(t) = \int (3t^{2}-4t+2) dt = t^{3}-2t^{2}+2t + C.$$ Applying the initial condition $s(0) = 5$, we get $C = 5$.  **[2]**
+- Thus, $s(t) = t^{3}-2t^{2}+2t+5$.  **[2]**
+- Next, evaluate $\int\left(x+2+\frac{1}{x}\right)dx$: $$\int\left(x+2+\frac{1}{x}\right)dx = \frac{x^{2}}{2} + 2x + \ln|x| + C.$$  **[1]**
 
 ## Mathematics - Class 12 (NEB)  (`math12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.1646)
 
-**Q1. [Complex Numbers; 1 mark; gold]** The number of distinct fifth roots of unity is
+**Q1. [Conic Sections; 1 mark; gold]** $\int\frac{dx}{x^{2}+2x+2}$ equals
 
-- (a) $5$
-- (b) $2$
-- (c) $1$
-- (d) infinitely many
+- (a) $\frac{1}{2}\tan^{-1}(x+1)+C$
+- (b) $\tan^{-1}(x+2)+C$
+- (c) $\log|x^{2}+2x+2|+C$
+- (d) $\tan^{-1}(x+1)+C$
 
-Key: (a) $5$. Why: the equation $z^{5}=1$ has exactly $5$ distinct roots.
+Key: (d) $\tan^{-1}(x+1)+C$. Why: complete the square: $\int\frac{dx}{(x+1)^{2}+1} = \tan^{-1}(x+1)$. Machine-checked.
 
-**Q2. [Anti-derivatives; 1 mark; teacher]** What happens when integrating a single logarithmic or inverse trigonometric function?
+**Q2. [Derivatives; 1 mark; teacher]** When evaluating the indeterminate form $1^{\infty}$, which method should you apply to transform it into a determinate form?
 
-- (a) It cannot be integrated directly without additional functions.
-- (b) It requires an external factor for integration.
-- (c) It is integrated against the invisible factor $1$.
-- (d) It is always integrated using substitution methods.
+- (a) Take the logarithm, $\ln y = g \ln f$, and evaluate the limit of $\ln y$.
+- (b) Apply L'Hopital's rule directly to the original form.
+- (c) Convert the expression into a polynomial and solve.
+- (d) Directly substitute the values into the function.
 
-Key: (c) It is integrated against the invisible factor $1$.. Why: A lone logarithm or inverse-trig function is integrated against the invisible factor $1$, as stated in the mathematics text.
+Key: (a) Take the logarithm, $\ln y = g \ln f$, and evaluate the limit of $\ln y$.. Why: The correct approach for transforming the indeterminate form $1^{\infty}$ into a determinate form is by taking the logarithm as described.
 
-**Q3. [Matrix Based System of Linear Equations; 1 mark; gold]** If the system of equations is $p_1x+q_1y=r_1$ and $p_2x+q_2y=r_2$, what is the value of $y$?
+**Q3. [Anti-derivatives; 1 mark; teacher]** Evaluate the definite integral $\int_{0}^{\pi}x\sin x\,dx$.
 
-- (a) $\frac{r_1q_2-r_2q_1}{p_1q_2-p_2q_1}$
-- (b) $\frac{p_1q_2-p_2q_1}{p_1r_2-p_2r_1}$
-- (c) $\frac{p_2r_1-p_1r_2}{p_1q_2-p_2q_1}$
-- (d) $\frac{p_1r_2-p_2r_1}{p_1q_2-p_2q_1}$
+- (a) $0$
+- (b) $\pi$
+- (c) $-\pi$
+- (d) $2\pi$
 
-Key: (d) $\frac{p_1r_2-p_2r_1}{p_1q_2-p_2q_1}$. Why: $y = \frac{D_y}{D}$, and $D_y$ replaces the $y$-column by the constants, giving $p_1r_2-p_2r_1$ over $p_1q_2-p_2q_1$. (The paper printed its four options as determinant ratios; they are written out here.)
+Key: (b) $\pi$. Why: The calculation follows integration by parts, leading to the result $\pi$.
 
-**Q4. [Product of Vectors; 1 mark; computed]** Find the scalar product of $\vec{a} = 5\hat{i} + 1\hat{j} + 4\hat{k}$ and $\vec{b} = 3\hat{i} + 6\hat{j} + 3\hat{k}$.
+**Q4. [Product of Vectors; 1 mark; computed]** Find the scalar product of $\vec{a} = 6\hat{i} + 5\hat{j} + 5\hat{k}$ and $\vec{b} = 2\hat{i} + 5\hat{j} + 4\hat{k}$.
 
-- (a) $33$
-- (b) $9$
-- (c) $45$
-- (d) $22$
+- (a) $60$
+- (b) $17$
+- (c) $57$
+- (d) $27$
 
-Key: (a) $33$. Why: The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 5\times3+1\times6+4\times3$ $\vec{a}\cdot\vec{b} = 33$
+Key: (c) $57$. Why: The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 6\times2+5\times5+5\times4$ $\vec{a}\cdot\vec{b} = 57$
 
-**Q5. [Product of Vectors; 3 marks; teacher]** Define the scalar product of two vectors and using vector methods, prove that $a^{2} = b^{2}+c^{2}-2bc\cos A$ for any triangle ABC.
+**Q5. [Complex Numbers; 2 marks; teacher]** Given two complex numbers $z_1=3\text{cis}\,\frac{\pi}{6}$ and $z_2=2\text{cis}\,\frac{\pi}{3}$, find the product $z_1z_2$ and express it in polar form.
 
 Marking scheme:
 
-- Scalar product: $\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta$. 2.  **[1]**
-- In $\triangle ABC$, let $\vec{BC}=\vec{a}$, $\vec{CA}=\vec{b}$, $\vec{AB}=\vec{c}$. 3.  **[1]**
-- Using vector identity: $(\vec{b}-\vec{c})^2 = \vec{b}^2 + \vec{c}^2 - 2\vec{b}\cdot\vec{c} = b^2 + c^2 - 2bc\cos A$, thus $a^2 = b^2 + c^2 - 2bc\cos A$.  **[1]**
+- Using $z_1z_2=r_1r_2\,\text{cis}(\theta_1+\theta_2)$, we get $z_1z_2=3\cdot2\,\text{cis}\left(\frac{\pi}{6}+\frac{\pi}{3}\right)=6\,\text{cis}\,\frac{\pi}{2}$.  **[2]**
 
 **Q6. [Conic Sections; 5 marks; gold]** a) Find the foci and the centre of the hyperbola $9x^{2}-16y^{2}-144=0$. [2] b) A parabolic reflector is $20$ cm in diameter and $5$ cm deep. Find the position of its focus. [3] (NEB 2080 Q21a; NEB 2081 Q4)
 
@@ -443,107 +435,108 @@ Marking scheme:
 
 ## Computer Science - Class 11 (NEB)  (`cs11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.9843)
 
-**Q1. [Computer System; 1 mark; gold]** The generation of computers that used integrated circuits is the
+**Q1. [Computer Software and Operating System; 1 mark; gold]** Which of the following is NOT a function of an operating system?
 
-- (a) third
-- (b) second
-- (c) first
-- (d) fifth
+- (a) memory management
+- (b) device management
+- (c) file management
+- (d) designing web pages
 
-Key: (a) third. Why: third generation (1964 to 1971) used integrated circuits.
+Key: (d) designing web pages. Why: designing pages is the job of application tools, not of the OS.
 
-**Q2. [Multimedia; 1 mark; gold]** In 24-bit true colour, the number of colours available is about
+**Q2. [Web Technology I; 1 mark; teacher]** What is the standard markup language used to create the structure of web pages?
 
-- (a) 4.3 billion
-- (b) 256
-- (c) 16.7 million
-- (d) 65,536
+- (a) HTML
+- (b) JavaScript
+- (c) XML
+- (d) CSS
 
-Key: (c) 16.7 million. Why: 2²⁴ ≈ 16.7 million.
+Key: (a) HTML. Why: HTML (HyperText Markup Language) is explicitly stated as the standard markup language used to create the structure of web pages.
 
-**Q3. [Number System and Boolean Logic; 1 mark; gold]** The 2's complement of $0101$ (4 bits) is
+**Q3. [Multimedia; 1 mark; teacher]** Why is the World Wide Web considered unique among hypermedia systems?
 
-- (a) 1010
-- (b) 1001
-- (c) 0110
-- (d) 1011
+- (a) It was the first hypermedia system created.
+- (b) It is the largest hypermedia system ever built.
+- (c) It operates independently of the internet.
+- (d) It can only be accessed through specific software.
 
-Key: (d) 1011. Why: 1's complement 1010, add 1 gives 1011.
+Key: (b) It is the largest hypermedia system ever built.. Why: The statement directly identifies the World Wide Web as the largest hypermedia system ever built.
 
-**Q4. [Programming Concepts and Logics; 1 mark; computed]** Convert the binary number $10111_{2}$ to decimal.
+**Q4. [Programming Concepts and Logics; 1 mark; computed]** Convert the binary number $11110_{2}$ to decimal.
 
-- (a) $23$
-- (b) $46$
-- (c) $24$
-- (d) $29$
+- (a) $31$
+- (b) $4$
+- (c) $30$
+- (d) $60$
 
-Key: (a) $23$. Why: A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $1\times16+0\times8+1\times4+1\times2+1\times1$ $= 23$
+Key: (c) $30$. Why: A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $1\times16+1\times8+1\times4+1\times2+0\times1$ $= 30$
 
-**Q5. [Programming Concepts and Logics; 2 marks; teacher]** What is the output of the factorial program for inputs 7 and 0, and why does the loop not run for input 0?
-
-Marking scheme:
-
-- For input 7, output is $7!$.  **[1]**
-- For input 0, output is $1$, as the loop runs zero times, keeping $fact=1$, matching $0!$ mathematically.  **[1]**
-
-**Q6. [Computer Software and Operating System; 5 marks; teacher]** Explain the concept of proprietary software and define the role of an operating system in managing computer operations. Additionally, describe mobile computing and provide examples of devices used in it.
+**Q5. [Computer System; 3 marks; teacher]** Explain the formula for access time in a computer system and briefly describe what computer memory does.
 
 Marking scheme:
 
-- Proprietary software, like Windows and MS Office, is closed-source and requires payment.  **[2]**
-- The OS is the system software interfacing users with hardware, being the first program loaded during startup and controlling all other programs.  **[2]**
-- Mobile computing involves using wireless-connected portable devices such as smartphones and tablets for work, communication, and accessing information on-the-go.  **[1]**
+- Access time is calculated as $Access\ time = seek\ time + rotational\ latency + transfer\ time$.  **[2]**
+- Computer memory stores data and instructions temporarily or permanently, facilitating quick access during processing.  **[1]**
+
+**Q6. [Programming Concepts and Logics; 5 marks; teacher]** Explain the difference between pre-increment (++x) and post-increment (x++) operators with an example. Also, provide the correct evaluation of the expression 2 + 3 * 4 - 6 / 2, and describe how the number 59 is represented in BCD.
+
+Marking scheme:
+
+- Pre-increment (++x) increments the value before it is used, e.g., if x=10, then y=++x sets y to 11.  **[2]**
+- Post-increment (x++) uses the current value first, then increments, e.g., if x=10, then y=x++ sets y to 10.  **[1]**
+- The expression 2 + 3 * 4 - 6 / 2 evaluates to 11, following operator precedence rules.  **[1]**
+- In BCD, 59 is represented as $0101\ 1001$, where each 4-bit segment corresponds to a decimal digit.  **[1]**
 
 ## Computer Science - Class 12 (NEB)  (`cs12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 4.4192)
 
-**Q1. [Database Management System; 1 mark; gold]** Which statement removes the whole table together with its structure?
+**Q1. [Web Technology II; 1 mark; gold]** Which function is used to connect to a MySQL database?
 
-- (a) DROP TABLE student_info;
-- (b) TRUNCATE TABLE student_info;
-- (c) DELETE FROM student_info;
-- (d) ALTER TABLE student_info;
+- (a) mysqli_open()
+- (b) $mysqli_con() (NEB 2080)
+- (c) var mysqli_query()
+- (d) mysqli_connect()
 
-Key: (a) DROP TABLE student_info;. Why: DROP destroys structure and data; DELETE/TRUNCATE keep the structure.
+Key: (d) mysqli_connect(). Why: mysqli_connect($server, $user, $pass, $db);
 
-**Q2. [Recent Trends in Technology; 1 mark; teacher]** A sensor collects data every 5 seconds. How many readings will it collect in a single day?
+**Q2. [Software Process Model; 1 mark; teacher]** Why is the SDLC represented as a cycle?
 
-- (a) 51840
-- (b) 8640
-- (c) 17280
-- (d) 34560
+- (a) Maintenance generates new requirements that initiate another cycle.
+- (b) The cycle symbolizes the constant improvement of software aesthetics.
+- (c) It represents the linear progression from development to deployment.
+- (d) Each phase is independent and does not influence the others.
 
-Key: (c) 17280. Why: The calculation $\dfrac{24 \times 60 \times 60}{5}$ correctly yields 17280 readings per day.
+Key: (a) Maintenance generates new requirements that initiate another cycle.. Why: Maintenance produces new requirements that start the next round, indicating a cyclical nature.
 
-**Q3. [Data Communication and Networking; 1 mark; computed]** What is the minimum number of bits needed to represent $200$ different values?
+**Q3. [Recent Trends in Technology; 1 mark; teacher]** A sensor records data every 5 seconds. How many readings does it record in one day?
 
-- (a) $3\ \text{bits}$
-- (b) $25\ \text{bits}$
+- (a) $8{,}640$
+- (b) $17{,}280$
+- (c) $5{,}184$
+- (d) $34{,}560$
+
+Key: (b) $17{,}280$. Why: The calculation $\dfrac{24 \times 60 \times 60}{5}$ correctly yields the total number of readings as $17{,}280$.
+
+**Q4. [Data Communication and Networking; 1 mark; computed]** What is the minimum number of bits needed to represent $100$ different values?
+
+- (a) $2\ \text{bits}$
+- (b) $13\ \text{bits}$
 - (c) $7\ \text{bits}$
-- (d) $8\ \text{bits}$
+- (d) $6\ \text{bits}$
 
-Key: (d) $8\ \text{bits}$. Why: $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 200\rceil$ $k = 8\ \text{bits}$
+Key: (c) $7\ \text{bits}$. Why: $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 100\rceil$ $k = 7\ \text{bits}$
 
-**Q4. [Software Process Model; 1 mark; teacher]** Why does the system analyst study the business problem?
-
-- (a) To decide what the system must do.
-- (b) To choose the programming language.
-- (c) To train the end-users.
-- (d) To design the user interface.
-
-Key: (a) To decide what the system must do.. Why: The analyst studies the business problem to decide what the system must do.
-
-**Q5. [Object-Oriented Programming; 3 marks; teacher]** Explain the types of inheritance and differentiate between compile-time and run-time polymorphism in OOP.
+**Q5. [Database Management System; 3 marks; teacher]** Explain how the network model differs from a hierarchical model in terms of parent-child relationships.
 
 Marking scheme:
 
-- Inheritance types include single, multilevel, multiple, hierarchical, and hybrid.  **[2]**
-- Compile-time polymorphism uses function and operator overloading, while run-time polymorphism utilizes virtual functions and overriding.  **[1]**
+- In the network model (CODASYL, 1971), a record can have multiple parents, unlike in a hierarchical model where each record has only one parent.  **[2]**
+- This makes the network model's structure a graph instead of a tree.  **[1]**
 
-**Q6. [Web Technology II; 5 marks; teacher]** Explain the function of 'onsubmit="return validateForm()"' in a web form submission process, and discuss the syntax and parameters of 'mysqli_connect()' function used for connecting to a MySQL database. Also, mention a common mistake students make while learning this topic.
+**Q6. [Data Communication and Networking; 5 marks; teacher]** Explain the addressing capability of IPv6, its approach to multicasting, and calculate the number of cables and ports required in a full mesh network with 8 nodes.
 
 Marking scheme:
 
-- The 'onsubmit="return validateForm()"' prevents form submission if the 'validateForm()' function returns false, ensuring data validation before submission.  **[2]**
-- The 'mysqli_connect()' function connects to a MySQL database using the syntax: mysqli_connect(server, username, password, database).  **[1]**
-- Parameters include 'server' (e.g., "localhost"), 'username', 'password', and an optional 'database'.  **[1]**
-- A frequent error is mixing syntax or habits between different programming languages.  **[1]**
+- IPv6 provides $3.4\times10^{38}$ addresses and utilizes multicast instead of broadcast.  **[2]**
+- In a full mesh network with 8 nodes, the number of cables needed is calculated as $\frac{n(n-1)}{2} = \frac{8\times7}{2} = 28$ cables.  **[1]**
+- Each node requires $n-1 = 7$ ports.  **[1]**
+- This setup ensures direct links between all pairs without needing NAT.  **[1]**
