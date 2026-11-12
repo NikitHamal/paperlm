@@ -104,6 +104,7 @@ def qa(it):
         if any(len(o.strip()) == 0 for o in opts): r.append("blank_option")
         lens = [len(o) for o in opts]
         if max(lens) > 6 * max(1, min(lens)) + 40: r.append("option_length_skew")
+        if len(a) > 30 and len(a) > 1.8 * max(len(x) for x in d or [""]): r.append("answer_giveaway")  # v14: key is far longer than every distractor (test-wise giveaway)
     else:
         if len(a) < 40: r.append("truncated_answer")
         parts = {m.group(1) for m in PART.finditer(" " + q)}
