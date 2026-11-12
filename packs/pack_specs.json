@@ -117,5 +117,25 @@
    "gibbs",
    "moles_m"
   ]
+ },
+ "math11": {
+  "level": "C11",
+  "subject": "mathematics",
+  "title": "Mathematics - Class 11 (NEB)"
+ },
+ "math12": {
+  "level": "C12",
+  "subject": "mathematics",
+  "title": "Mathematics - Class 12 (NEB)"
+ },
+ "cs11": {
+  "level": "C11",
+  "subject": "computer-science",
+  "title": "Computer Science - Class 11 (NEB)"
+ },
+ "cs12": {
+  "level": "C12",
+  "subject": "computer-science",
+  "title": "Computer Science - Class 12 (NEB)"
  }
 }
