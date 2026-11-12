@@ -1,4 +1,24 @@
-# PAPERLM_STATUS.md — PaperLM build log (single source of truth, resume from here)
+# PAPERLM_STATUS.md - PaperLM build log (single source of truth, resume from here)
+
+## SPECIALIST PACKS (v10, newest section; read first)
+Architecture: `packs/<id>/` (reports, syllabus graph) and `docs/packs/<id>/` (shipped bundle: `model.onnx` INT8 KV-cache, `model.tflite` INT8 with `decode`/`prefill` signatures, `tokenizer.json` subject-pure BPE-4096, `pack.json`, `syllabus_graph.json`, `bank.json` verified items, `numeric_templates.json`) + `pack_registry.json`. Pack spec `packs/pack_specs.json` (bio12 phy11 bio11 phy12 chem11 chem12). Tools: `packs/tools/{build_pack,teacher,train_pack,export_tflite,publish,wave3.sh,fsm}.py`; web `docs/packlm.js` + `docs/packs-app.js`; Node bench `eval/node_pack_bench.mjs`; table `eval/pack_summary.py`.
+
+### What this session did (MoLab GPU: RTX PRO 6000 Blackwell 96 GB, Qwen2.5-32B teacher, keep-alive daemon running, 5 live 3 s Marimo cards incl. pack training losses)
+- **Honest diagnosis of the first pack wave:** the 4 packs shipped before this session (bio12 phy11 bio11 phy12) were trained on only ~490 items and used the LAST checkpoint: train loss 0.03 but held-out (unseen-anchor) val loss 6.57 (ppl 716) for bio12; shipped samples were grammatical-looking nonsense that the lexical gate accepted. Do NOT treat them as accurate generators.
+- **Fixes shipped (code):** val-best checkpointing + early stop on generalisation collapse + dropout 0.15 + lower stage-B LR (`train_pack.py`); teacher scale-up knobs (`OFF`, `SUF`, `MAXA`; bs 128 - bs 256 OOMs a 96 GB card with Qwen-32B bf16); strict gate v3 in JS (`strictOK`: well-formed opener, no repeated trigrams, distinct-token ratio, no answer leak, anchor-grounded question, model self-likelihood floor); **verified bank tier** per pack (`bank.json` = gold NEB items + teacher items that passed blind 2-order solve, passage entailment and per-distractor wrongness probes, deduped, provenance kept) with hybrid source selector in the playground (neural+verifier -> bank fallback / bank only / neural only); every card shows its provenance. chem11/chem12 packs built (anchors 3,099 / 3,148, gold 321 / 483).
+- **TFLite for the Android app works:** `packs/tools/export_tflite.py` = pure-TF twin of PaperLM (RoPE/RMSNorm/SwiGLU, one-hot KV-cache write so it runs on every delegate), signatures `decode` (S=1) and `prefill` (S=64), INT8 dynamic-range. bio12 test export: **12.38 MB**, top-1 agreement vs fp32 PyTorch 95.8% on random-token prompts (max logit diff 0.72), run through the TFLite interpreter. Kotlin runner `engine/android/TflitePackRunner.kt` (NOT compiled yet; no Android toolchain on the VM) and `engine/android/PACKS.md`.
+- **Wave 3 (final training run of this session, auto-publishing):** `SKIPT=1 SA=900 SB=300 SD=200 packs/tools/wave3.sh` trains all 6 packs in parallel on the GPU, exports TFLite, runs `publish.py` and pushes `docs/packs/*` to origin main by itself (log `/tmp/paperlm/logs/train_<id>.log`, flag file `/tmp/paperlm/WAVE3_DONE`). My step budget ended before it finished, so **first thing next session: `git pull`, check `docs/packs/*/tflite_report.json`, `node eval/node_pack_bench.mjs 12 3`, `python3 eval/pack_summary.py`, and read each `packs/<id>/train_report.json` (val_loss).** If WAVE3_DONE is missing (VM recycled) rerun `packs/tools/wave3.sh` after `build_all.sh`.
+- Teacher yield measured: 11% of generated MCQs survive all verification (43/384 on bio12); teacher throughput ~4 min per 384 prompts. Training 6 packs in parallel: ~7 steps/s total.
+
+### Honest limits (do not over-claim)
+- A 10M LM trained on ~500-1,000 items per pack cannot be a reliable question writer; expected held-out val ppl is tens, not single digits. The accuracy guarantee in the product comes from the harness (verified bank, parametric solver, strict gate, grammar masking), not from the 10M weights. The neural tier is shown as "Neural + verifier".
+- No numbers for the retrained packs are claimed in this file until `eval/results/packs/summary.md` is generated from the real reports.
+
+### Next
+1. Harvest wave3; regenerate `eval/results/packs/{bench.json,samples_verbatim.txt,summary.md}`; 2. teacher scale-up to >=2,000 verified items/pack (`scale.sh`: sequential only, never run teacher and training together on one GPU - both OOM); 3. entailment re-ranker trained on bank-vs-corrupted pairs; 4. compile + test the Kotlin runner; 5. more packs (math11/12, cs11/12, eng).
+
+---
+(older sessions below)
 
 ## Infra (MoLab)
 - Notebook https://sb-bc79ba58e2c2c51f.sb.molab.run/ (session `sess-qa914tcyg7j8cndd`; token kept in `/tmp/molab_token`, never committed). `pip install marimo` locally, then `scripts/molab_run.sh|molab_put.sh|molab_bg.sh|molab_tail.sh`, big files: `scripts/molab_getbig.py`.
