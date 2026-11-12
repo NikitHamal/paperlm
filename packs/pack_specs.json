@@ -150,7 +150,27 @@
    "res_par",
    "joule",
    "power_vi",
-   "emf_internal"
+   "emf_internal",
+   "p12_ydse",
+   "p12_brewster",
+   "p12_capillary",
+   "p12_zlcr",
+   "p12_mutual",
+   "p12_lenergy",
+   "p12_lorentz_r",
+   "p12_binding",
+   "p12_nuc_radius",
+   "p12_photon_e",
+   "p12_beta",
+   "p12_alpha",
+   "p12_doppler",
+   "p12_closed_pipe",
+   "p12_carnot",
+   "p12_first_law",
+   "p12_rot_ke",
+   "p12_torque",
+   "p12_shm_vmax",
+   "p12_beats"
   ]
  },
  "chem11": {
