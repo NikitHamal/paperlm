@@ -15,7 +15,7 @@ SYS = "You are a senior Nepal NEB board examiner who writes precise, factually e
 YES, NO = tk.encode("Yes")[0], tk.encode("No")[0]; LET = [tk.encode(x)[0] for x in "ABCD"]
 def chat(u): return tk.apply_chat_template([{"role": "system", "content": SYS}, {"role": "user", "content": u}], tokenize=False, add_generation_prompt=True)
 @torch.no_grad()
-def gen(prompts, max_new=230, bs=128, temp=0.7):
+def gen(prompts, max_new=int(os.environ.get("MAXNEW", 300)), bs=128, temp=0.7):
     out = []
     for i in range(0, len(prompts), bs):
         b = tk(prompts[i:i + bs], return_tensors="pt", padding=True).to("cuda")
@@ -71,6 +71,7 @@ def verify_short(items, anchors):
         it["scores"] = dict(entail=round(x[0], 3))
         if x[0] >= 0.85: keep.append(it)
     return keep
+REJ = {}
 def status(pid, **kw):
     try: json.dump(dict(pack=pid, t=time.time(), **kw), open("/tmp/paperlm/status_packs.json", "w"))
     except Exception: pass
@@ -83,16 +84,29 @@ for pid in sys.argv[1:]:
     for c in range(0, len(todo), 384):
         part = todo[c:c + 384]; raw = gen([mcq_prompt(a, S["title"], st) for a, st in part]); items = []
         for (a, st), r in zip(part, raw):
-            j = pj(r); nraw += 1
-            if not j or not okt(j.get("question"), 15, 360) or not okt(j.get("answer"), 1, 160) or not isinstance(j.get("distractors"), list) or len(j["distractors"]) != 3: continue
+            j = pj(r); nraw += 1; why_rej = None
+            if not j: why_rej = "json"
+            elif not okt(j.get("question"), 15, 360): why_rej = "q_text"
+            elif not okt(j.get("answer"), 1, 160): why_rej = "a_text"
+            elif not isinstance(j.get("distractors"), list) or len(j["distractors"]) != 3: why_rej = "n_dist"
+            if why_rej: REJ[why_rej] = REJ.get(why_rej, 0) + 1; continue
             ds = [d.strip() for d in j["distractors"] if okt(d, 1, 160)]; why = j.get("explanation", "")
-            if len(ds) != 3 or not okt(why, 15, 300) or BAD.search(j["question"] + j["answer"] + " ".join(ds) + why): continue
-            allo = [x.strip().lower() for x in ds + [j["answer"]]]
-            if len(set(allo)) != 4 or j["question"].strip().lower() in seen: continue
+            if len(ds) != 3: why_rej = "d_text"
+            elif not okt(why, 15, 300): why_rej = "why_text"
+            elif BAD.search(j["question"] + j["answer"] + " ".join(ds) + why): why_rej = "bad_phrase"
+            else:
+                allo = [x.strip().lower() for x in ds + [j["answer"]]]
+                if len(set(allo)) != 4: why_rej = "dup_opts"
+                elif j["question"].strip().lower() in seen: why_rej = "dup_q"
+            if why_rej: REJ[why_rej] = REJ.get(why_rej, 0) + 1; continue
             seen.add(j["question"].strip().lower()); items.append(dict(type="mcq", marks=1, unit=a["unit"], aid=a["aid"], anchor=a["anchor"], question=j["question"].strip(), answer=j["answer"].strip(), distractors=ds, why=why.strip()))
         fr.write("".join(json.dumps(dict(it, tier="raw"), ensure_ascii=False) + "\n" for it in items)); fr.flush()   # structurally valid, UNVERIFIED teacher drafts: stage-A pretraining only, never the bank
         for it in verify_mcq(items, amap): fo.write(json.dumps(it, ensure_ascii=False) + "\n"); nkeep += 1
-        fo.flush(); status(pid, stage="mcq", done=c + len(part), total=len(todo), raw=nraw, kept=nkeep, eta_min=round((time.time() - t0) / (c + len(part)) * (len(todo) - c - len(part)) / 60, 1))
+        for it in items:
+            sc_ = it.get("scores", {})
+            for nm, bad in (("v_solve", sc_.get("solve", 1) < 0.6), ("v_entail", sc_.get("entail", 1) < 0.85), ("v_distractor", sc_.get("dist_max", 0) > 0.25)):
+                if bad: REJ[nm] = REJ.get(nm, 0) + 1
+        fo.flush(); status(pid, stage="mcq", rej=REJ, done=c + len(part), total=len(todo), raw=nraw, kept=nkeep, eta_min=round((time.time() - t0) / (c + len(part)) * (len(todo) - c - len(part)) / 60, 1))
     byu = {}
     for a in A: byu.setdefault(a["unit"], []).append(a["anchor"])
     jobs = []
