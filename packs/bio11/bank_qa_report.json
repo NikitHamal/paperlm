@@ -1,12 +1,12 @@
 {
  "pack": "bio11",
- "bank_in": 486,
- "bank_kept": 455,
- "dropped": 31,
+ "bank_in": 455,
+ "bank_kept": 452,
+ "dropped": 3,
  "reasons": {
-  "answer_giveaway": 31
+  "leaked_context": 3
  },
- "mcq": 380,
- "written": 75,
+ "mcq": 378,
+ "written": 74,
  "units": 10
 }

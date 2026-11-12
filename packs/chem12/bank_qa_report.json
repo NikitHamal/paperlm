@@ -1,11 +1,9 @@
 {
  "pack": "chem12",
- "bank_in": 360,
+ "bank_in": 354,
  "bank_kept": 354,
- "dropped": 6,
- "reasons": {
-  "answer_giveaway": 6
- },
+ "dropped": 0,
+ "reasons": {},
  "mcq": 294,
  "written": 60,
  "units": 21

@@ -1,12 +1,12 @@
 {
  "pack": "phy11",
- "bank_in": 564,
- "bank_kept": 550,
- "dropped": 14,
+ "bank_in": 550,
+ "bank_kept": 547,
+ "dropped": 3,
  "reasons": {
-  "answer_giveaway": 14
+  "leaked_context": 3
  },
- "mcq": 460,
- "written": 90,
+ "mcq": 458,
+ "written": 89,
  "units": 26
 }

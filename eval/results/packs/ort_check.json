@@ -3,13 +3,13 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 3.816,
-  "slots": 6,
+  "slots": 1,
   "neural_accepted": 0,
-  "bank_fallback": 6,
-  "attempts": 12,
-  "units_hit": 5,
-  "bank_items": 477,
-  "seconds": 2.9,
+  "bank_fallback": 1,
+  "attempts": 1,
+  "units_hit": 1,
+  "bank_items": 463,
+  "seconds": 0.3,
   "samples": [
    {
     "unit": "Developmental Biology",
@@ -19,67 +19,6 @@
      "Amphimixis occurs when the male pronucleus ($n = 13$) fuses with the female pronucleus ($n = 13$), forming a diploid zygote ($2n = 26$).",
      "Explain the process of amphimixis during fertilization, including the chromosome numbers involved."
     ]
-   },
-   {
-    "unit": "Biotechnology",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "practice testing and distributed practice",
-     "Which pair of study techniques did Dunlosky et al. (2013) rate as high utility?",
-     "highlighting and summarising",
-     "re-reading and imagery",
-     "keyword mnemonics and rereading",
-     "the only two of the ten reviewed techniques rated high utility."
-    ]
-   },
-   {
-    "unit": "Human Biology",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "QRS",
-     "In an electrocardiogram (ECG), which deflection represents the ventricular depolarization phase?",
-     "P",
-     "T",
-     "U",
-     "The QRS complex corresponds to ventricular depolarisation as per the standard ECG interpretation."
-    ]
-   },
-   {
-    "unit": "Biotechnology",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "In PCR, DNA copies double each cycle, resulting in $2^{n}$ copies after n cycles. In gel electrophoresis, negatively charged DNA moves to the anode; smaller fragments travel further. Linear DNA with n cuts yields n+1 fragments, while circular DNA yields n fragments.",
-     "Explain the principles of DNA replication in PCR and DNA separation in gel electrophoresis, including the number of fragments produced by linear and circular DNA with n cut sites."
-    ]
-   },
-   {
-    "unit": "Plant Anatomy",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "stomata",
-     "Which structure of a plant is primarily responsible for regulating transpiration?",
-     "xylem",
-     "root hairs",
-     "phloem",
-     "guard cells change the pore size. Xylem and phloem only conduct."
-    ]
-   },
-   {
-    "unit": "Applied Biology",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "unfertilised eggs",
-     "In a honeybee colony, drones develop from",
-     "fertilised eggs",
-     "larvae fed royal jelly",
-     "workers' eggs",
-     "drones are haploid, from unfertilised eggs (parthenogenesis); queen and workers are diploid."
-    ]
    }
   ]
  },
@@ -87,82 +26,21 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.6584,
-  "slots": 6,
+  "slots": 1,
   "neural_accepted": 0,
-  "bank_fallback": 6,
-  "attempts": 12,
-  "units_hit": 6,
-  "bank_items": 564,
-  "seconds": 3.5,
+  "bank_fallback": 1,
+  "attempts": 1,
+  "units_hit": 1,
+  "bank_items": 550,
+  "seconds": 0.7,
   "samples": [
    {
-    "unit": "Circular Motion",
-    "kind": "short",
-    "source": "bank:gold",
-    "segs": [
-     "A leaning cyclist obeys the same relation, $\\tan\\theta = v^{2}/rg = 100/(20 \\times 10) = 0.50$, so $\\theta = 26.6^{\\circ}$ from the vertical.",
-     "A cyclist rides round a circular track of radius $20\\ \\text{m}$ at $10\\ \\text{m s}^{-1}$. Find the angle through which he must lean from the vertical. Take $g = 10\\ \\text{m s}^{-2}$."
-    ]
-   },
-   {
-    "unit": "Physical Quantities",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "$[M^{-1}L^{3}T^{-2}]$",
-     "The dimensional formula of the universal gravitational constant is",
-     "$[ML^{3}T^{-2}]$",
-     "$[M^{-1}L^{2}T^{-2}]$",
-     "$[ML^{2}T^{-1}]$",
-     "$G = Fr^{2}/m_1m_2 = [MLT^{-2}][L^{2}]/[M^{2}]$."
-    ]
-   },
-   {
-    "unit": "Dynamics",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "both $\\sum F = 0$ and $\\sum \\tau = 0$",
-     "A rigid body is in complete equilibrium when",
-     "$\\sum F = 0$ only",
-     "$\\sum \\tau = 0$ only",
-     "its velocity is zero",
-     "translational and rotational equilibrium are both needed."
-    ]
-   },
-   {
-    "unit": "Heat and Temperature",
+    "unit": "Rate of heat flow",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Temperature measures the avg. molecular kinetic energy, $\\bar{E}_{k} = \\frac{3}{2}k_{B}T$, where $k_{B} = 1.38\\times10^{-23}\\ \\text{J K}^{-1}$. The Kelvin scale, an SI base unit, uses the triple point of water at $273.16\\ \\text{K}$ as its reference point.",
-     "Explain how temperature relates to molecular kinetic energy and describe the Kelvin scale's definition using the triple point of water."
-    ]
-   },
-   {
-    "unit": "Refraction through prisms",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "greater than $2C$",
-     "A ray cannot emerge from the second face of a prism if the refracting angle $A$ is",
-     "less than $C$",
-     "equal to $C$",
-     "less than $2C$",
-     "then $r_2 = A - r_1 > C$ for every $r_1$, so the ray is totally internally reflected."
-    ]
-   },
-   {
-    "unit": "Nuclear physics",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "is independent of $A$",
-     "The density of a nucleus",
-     "increases with $A$",
-     "decreases with $A$",
-     "is equal to that of water",
-     "mass $\\propto A$ and volume $\\propto A$, so $A$ cancels."
+     "The formula $H = \\frac{kA(\\theta_1 - \\theta_2)}{L}$ shows heat flow $H$ is directly proportional to the temperature difference $(\\theta_1 - \\theta_2)$ and inversely proportional to thickness $L$. Doubling the temperature difference doubles the heat flow. The negative gradient indicates heat flows from hotter to cooler regions.",
+     "Explain the relationship between the rate of heat flow $H$, temperature gradient, and thickness $L$ as described by the formula $H = \\frac{kA(\\theta_1 - \\theta_2)}{L}$. How does doubling the temperature difference affect the heat flow?"
     ]
    }
   ]
@@ -171,82 +49,21 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 4.1341,
-  "slots": 6,
+  "slots": 1,
   "neural_accepted": 0,
-  "bank_fallback": 6,
-  "attempts": 12,
-  "units_hit": 5,
-  "bank_items": 489,
-  "seconds": 3.1,
+  "bank_fallback": 1,
+  "attempts": 1,
+  "units_hit": 1,
+  "bank_items": 455,
+  "seconds": 0.3,
   "samples": [
    {
-    "unit": "Conservation Biology",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "Green represents national parks, red indicates wildlife reserves, gold signifies hunting reserves, and blue denotes conservation areas.",
-     "Identify and describe the colors used to represent different types of protected areas in Nepal's schematic map."
-    ]
-   },
-   {
-    "unit": "Biomolecules and Cell Biology",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "hydrogen bonds",
-     "The secondary structure of a protein is held together mainly by",
-     "peptide bonds",
-     "disulphide bonds",
-     "ionic bonds",
-     "hydrogen bonds between C=O and N–H hold the α-helix and β-pleated sheet; peptide bonds give the primary structure."
-    ]
-   },
-   {
-    "unit": "Introduction to Biology",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "biochemistry",
-     "Biology is related to chemistry most directly through the branch",
-     "biophysics",
-     "biogeography",
-     "bioinformatics",
-     "biochemistry studies the molecules and reactions of life."
-    ]
-   },
-   {
-    "unit": "Biomolecules and Cell Biology",
-    "kind": "short",
-    "source": "bank:teacher",
-    "segs": [
-     "Mitosis is an equational division of a somatic cell where one parent cell divides into two daughter cells, each having the same chromosome number and genetic constitution as the parent ($2n$). In contrast, meiosis is a reductional division resulting in four daughter cells, each with half the chromosome number of the parent cell ($n$). Mitosis maintains the chromosome number in somatic cells, whereas meiosis halves it for gametes. Both processes involve DNA replication, but only mitosis results in genetically identical cells.",
-     "Explain the process of mitosis and describe how it differs from meiosis in terms of chromosome number in the daughter cells."
-    ]
-   },
-   {
-    "unit": "Ecology",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "20",
-     "The number of amino acids that commonly occur in natural proteins is",
-     "4",
-     "64",
-     "120",
-     "20 standard amino acids; 64 is the number of codons, a classic swap."
-    ]
-   },
-   {
     "unit": "Floral Diversity",
-    "kind": "mcq",
-    "source": "bank:gold",
+    "kind": "short",
+    "source": "bank:teacher",
     "segs": [
-     "Fabaceae",
-     "Root nodules containing nitrogen-fixing Rhizobium are characteristic of",
-     "Brassicaceae",
-     "Solanaceae",
-     "Liliaceae",
-     "Rhizobium in the root nodules of legumes is why pulses enrich the soil."
+     "Nepal's altitudinal range creates diverse climates, akin to traveling 1,000 km towards the pole for every 1,000 m climbed, stacking multiple ecosystems. Fungi's absorptive heterotrophy leads to hyphal structure for efficient substrate penetration, making them key decomposers and common parasites.",
+     "Explain how Nepal's altitudinal range contributes to its status as a biodiversity hotspot and describe the role of absorptive heterotrophy in fungi."
     ]
    }
   ]
@@ -255,82 +72,21 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.6774,
-  "slots": 6,
+  "slots": 1,
   "neural_accepted": 0,
-  "bank_fallback": 6,
-  "attempts": 12,
-  "units_hit": 5,
-  "bank_items": 612,
-  "seconds": 5.3,
+  "bank_fallback": 1,
+  "attempts": 1,
+  "units_hit": 1,
+  "bank_items": 590,
+  "seconds": 0.5,
   "samples": [
    {
-    "unit": "Nature and propagation of light",
+    "unit": "Magnetic properties of materials",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "A plane wavefront $AB$ is incident on the boundary between medium 1 (speed $v_1$) and medium 2 ($v_2$), at angle of incidence $i$.",
-     "Prove Snell's law using Huygens' construction. [3]"
-    ]
-   },
-   {
-    "unit": "Mechanical waves",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "not at all",
-     "A change in atmospheric pressure, at constant temperature, affects the velocity of sound in air",
-     "by doubling it",
-     "in proportion to $\\sqrt{P}$",
-     "in proportion to $P$",
-     "$v = \\sqrt{\\gamma P/\\rho}$ and $P/\\rho$ is constant for a gas at fixed temperature, so a pressure change cancels out. Option (c) is the trap: $P$ and $\\rho$ rise together."
-    ]
-   },
-   {
-    "unit": "Electromagnetic Induction",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "$e = -\\frac{d\\Phi}{dt}$",
-     "According to Faraday's law, what expression represents the induced emf ($e$) in a circuit due to the rate of change of magnetic flux ($\\Phi$) through the circuit?",
-     "$e = \\frac{d\\Phi}{dt}$",
-     "$e = -\\Phi t$",
-     "$e = \\Phi + dt$",
-     "Faraday's law directly provides the relationship between induced emf and the rate of change of magnetic flux as $e = -\\frac{d\\Phi}{dt}$."
-    ]
-   },
-   {
-    "unit": "Electromagnetic Induction",
-    "kind": "short",
-    "source": "bank:gold",
-    "segs": [
-     "$N_s = N_p(E_s/E_p) = 1200\\times(12/240) = 60$ turns.",
-     "A transformer steps $240\\ \\text{V}$ down to $12\\ \\text{V}$. The primary has $1200$ turns, and the secondary delivers $5.0\\ \\text{A}$ to a lamp. Assuming the transformer is 90% efficient, find the number of secondary turns, the output power and the primary current."
-    ]
-   },
-   {
-    "unit": "Wave in pipes and strings",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "$990\\ \\text{Hz}$",
-     "A closed organ pipe has a fundamental frequency of $330\\ \\text{Hz}$. The frequency of its next higher mode is",
-     "$660\\ \\text{Hz}$",
-     "$1320\\ \\text{Hz}$",
-     "$495\\ \\text{Hz}$",
-     "a closed pipe's next mode is the third harmonic, $3\\times330 = 990\\ \\text{Hz}$; option (a) wrongly supposes a second harmonic exists."
-    ]
-   },
-   {
-    "unit": "Alternating Currents",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "Q",
-     "What term describes the factor by which the voltage across $L$ (or $C$) at resonance exceeds the supply voltage?",
-     "V",
-     "L",
-     "C",
-     "The term $Q$ is defined as the ratio of the voltage across $L$ (or $C$) at resonance to the supply voltage."
+     "Hysteresis is the lagging of the magnetisation (or flux density $B$) behind the magnetising field $H$ when a ferromagnetic specimen is taken through a complete cycle of magnetisation.",
+     "What is hysteresis? Draw a labelled hysteresis loop. [3]"
     ]
    }
   ]
@@ -339,82 +95,21 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 2.941,
-  "slots": 6,
-  "neural_accepted": 1,
-  "bank_fallback": 5,
-  "attempts": 12,
-  "units_hit": 5,
-  "bank_items": 216,
-  "seconds": 7.6,
+  "slots": 1,
+  "neural_accepted": 0,
+  "bank_fallback": 1,
+  "attempts": 1,
+  "units_hit": 1,
+  "bank_items": 209,
+  "seconds": 0.2,
   "samples": [
    {
-    "unit": "Chemistry of Metals",
+    "unit": "Stoichiometry",
     "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "$n(\\text{Cl}_2) = 1120/22.4 = 50.0\\ \\text{mol}$. Each mole of Cl₂ needs 2 mol of electrons, so $n(e^-) = 100\\ \\text{mol}$ and $Q = 100 \\times 96500 = 9.65\\times10^{6}\\ \\text{C}$.",
-     "A Down's cell produces chlorine at the rate of 1.12 m³ per hour measured at STP. Calculate the current flowing and the mass of sodium produced per hour. (F = 96500 C mol⁻¹, Na = 23, molar volume at STP = 22.4 L mol⁻¹)"
-    ]
-   },
-   {
-    "unit": "Fundamentals of Applied Chemistry",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "manufacture of a tablet coating",
-     "Which process would normally be operated batchwise?",
-     "manufacture of sulphuric acid",
-     "manufacture of ammonia",
-     "manufacture of cement",
-     "small tonnage, many different specifications, batch traceability needed."
-    ]
-   },
-   {
-    "unit": "States of Matter",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "the forward rate equals the reverse rate",
-     "At chemical equilibrium",
-     "the reaction stops",
-     "concentrations of reactants and products are equal",
-     "the forward rate is zero",
-     "equilibrium is dynamic; (c) confuses equal rates with equal concentrations."
-    ]
-   },
-   {
-    "unit": "States of Matter",
-    "kind": "short",
-    "source": "bank:gold",
-    "segs": [
-     "(a) Two postulates fail: real molecules attract one another and have a finite volume. $Z = PV/nRT$; $Z = 1$ for an ideal gas. CO₂ dips well below 1 at moderate pressure (strong attractions) and rises above 1 at high pressure; H₂ stays above 1 throughout at room temperature. See Figure 4.(b) $\\left(P + an^{2}/V^{2}\\right)(V - nb) = nRT$; $a$ measures intermolecular attraction (atm L² mol⁻²) and $b$ the excluded volume, about four times the true molecular volume of one mole (L mol⁻¹).",
-     "a) Why do real gases deviate from ideal behaviour? Define the compressibility factor and sketch how it varies with pressure for H₂ and CO₂. b) Write the van der Waals equation for $n$ moles and explain the physical meaning and units of the constants $a$ and $b$."
-    ]
-   },
-   {
-    "unit": "Atomic Structure",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "Hund's rule",
-     "Electrons occupy degenerate orbitals singly before pairing, according to",
-     "Pauli's exclusion principle",
-     "Aufbau principle",
-     "Heisenberg's principle",
-     "Hund's rule of maximum multiplicity."
-    ]
-   },
-   {
-    "unit": "Modern Chemical Manufactures",
-    "kind": "mcq",
-    "source": "neural",
-    "segs": [
-     "$\\text{NH}_4\\text{O}$",
-     "The gas liberated at the Solvay process is",
-     "$\\text{H}_2\\text{O}_2$",
-     "$\\text{NH}_3\\text{O}$",
-     "$\\text{NH}_4\\text{Cl}$",
-     "$\\text{NH}_4\\text{Cl}_2$ lowers the Solvay process."
+     "CO₂ is linear, so its two equal C=O bond dipoles point in exactly opposite directions and cancel: $\\mu = 0$.",
+     "The dipole moment of H₂O is 1.85 D but that of CO₂ is zero, although both contain polar bonds. Explain, and calculate the resultant for water from an O–H bond moment of 1.5 D and a bond angle of 104.5°."
     ]
    }
   ]
@@ -423,82 +118,21 @@
   "params": 10203840,
   "onnx_mb": 10.73,
   "val_loss": 3.4853,
-  "slots": 6,
+  "slots": 1,
   "neural_accepted": 0,
-  "bank_fallback": 6,
-  "attempts": 12,
-  "units_hit": 6,
-  "bank_items": 360,
-  "seconds": 8.1,
+  "bank_fallback": 1,
+  "attempts": 1,
+  "units_hit": 1,
+  "bank_items": 354,
+  "seconds": 0.9,
   "samples": [
    {
-    "unit": "Carboxylic Acid and its Derivatives",
-    "kind": "short",
-    "source": "bank:gold",
-    "segs": [
-     "The carbon of the benzene ring is sp² hybridised and therefore more electronegative than the sp³ carbon of a methyl group.",
-     "Why is benzoic acid a stronger acid than ethanoic acid?"
-    ]
-   },
-   {
-    "unit": "Alcohols",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "blue colour",
-     "In the nitrous acid test a secondary nitroalkane gives a",
-     "red colour",
-     "yellow colour",
-     "no colour",
-     "the pseudonitrole gives a blue colour; the primary compound gives the red nitrolic acid salt and the tertiary compound, having no α-hydrogen, gives nothing."
-    ]
-   },
-   {
-    "unit": "Nitro Compounds",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "CH₂Cl₂",
-     "Trichloromethane reduced in a neutral medium gives",
-     "CH₄",
-     "CCl₄",
-     "COCl₂",
-     "reduction removes one chlorine: CHCl₃ + 2[H] → CH₂Cl₂ + HCl. Option (d) is the oxidation product formed in air."
-    ]
-   },
-   {
-    "unit": "Cement",
-    "kind": "short",
-    "source": "bank:gold",
-    "segs": [
-     "(a) Setting and hardening are hydration reactions producing tobermorite (calcium silicate hydrate) gel and calcium hydroxide: 2Ca₃SiO₅ + 6H₂O → Ca₃Si₂O₇·3H₂O + 3Ca(OH)₂ (fast, early strength) and 2Ca₂SiO₄ + 4H₂O → Ca₃Si₂O₇·3H₂O + Ca(OH)₂ (slow, later strength). The interlocking gel needles bind the aggregate, so the concrete must be kept wet while curing.(b) q = 0.45(500) + 0.30(260) + 0.12(865) + 0.08(420) = 225 + 78 + 103.8 + 33.6 = 440.4 J g⁻¹, so 440 kJ per kg. This is higher than an ordinary cement (≈435 kJ kg⁻¹) because of its large C₃A content, so it is not suitable for a thick dam wall; a low-heat PPC should be used instead.",
-     "a) What are the setting and hardening reactions of cement? Write the equations for C₃S and C₂S. b) A cement contains 45 % C₃S, 30 % C₂S, 12 % C₃A and 8 % C₄AF. Taking heats of hydration of 500, 260, 865 and 420 J g⁻¹, calculate the heat evolved per kilogram, and say whether this cement is suitable for a thick dam wall."
-    ]
-   },
-   {
     "unit": "Organometallic Compounds",
-    "kind": "mcq",
+    "kind": "short",
     "source": "bank:gold",
     "segs": [
-     "its oxygen lone pairs coordinate to magnesium",
-     "Dry ether is used in preparing a Grignard reagent because",
-     "it is cheap",
-     "it reacts with the halide",
-     "it oxidises magnesium",
-     "coordination stabilises the magnesium and keeps RMgX in solution."
-    ]
-   },
-   {
-    "unit": "Phenols",
-    "kind": "mcq",
-    "source": "bank:gold",
-    "segs": [
-     "it is a weaker acid than carbonic acid",
-     "Phenol dissolves in aqueous NaOH but not in aqueous NaHCO₃ because",
-     "it is a stronger acid than carbonic acid",
-     "it is not acidic at all",
-     "it is insoluble in water",
-     "with $\\mathrm{p}K_a$ 10.0 against 6.35, phenol cannot displace CO₂ from a bicarbonate."
+     "(a) HCHO + CH₃MgI → ethanol (1°); CH₃CHO + CH₃MgI → propan-2-ol (2°); CH₃COCH₃ + CH₃MgI → 2-methylpropan-2-ol (3°). Each requires acid hydrolysis of the alkoxide intermediate R–OMgI.(b) Moles of CH₄ = 0.448 / 22.4 = 0.0200 mol. Moles of compound = 0.90 / 90 = 0.0100 mol. Ratio 2 : 1, so the molecule has 2 active hydrogen atoms — consistent with lactic acid, CH₃CH(OH)COOH (M = 90), which has one –OH and one –COOH hydrogen.",
+     "a) Show how 1°, 2° and 3° alcohols are prepared from Grignard reagents, using ethanal, methanal and propanone as the carbonyl compounds. b) 0.90 g of a compound of molar mass 90 g mol⁻¹ liberates 448 cm³ of methane at STP with excess CH₃MgI. How many active hydrogen atoms has it?"
     ]
    }
   ]

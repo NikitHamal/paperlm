@@ -1,222 +1,84 @@
 
-##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":10,"neural_accepted":0,"neural_attempts":20,"neural_gate_rate":0,"bank_fallback":10,"empty":0,"units_covered":"10/10","duplicates":0,"bank_size":477,"bank_mcq":402,"bank_short":75,"seconds":31.9}
-
-[Embryology] MCQ <gold>
-Q. The hard outer layer of the pollen grain, resistant to acid, alkali and heat, is made of
-  a) callose
-  b) cellulose
-  c) sporopollenin
-  d) pectin
-Key: c  Why: sporopollenin, one of the most resistant organic materials. Callose is found around microspore mother cells and in pollen tubes.
-
-[Developmental Biology] MCQ <gold>
-Q. The cavity of the blastula is called
-  a) coelom
-  b) gastrocoel
-  c) archenteron
-  d) blastocoel
-Key: d  Why: blastocoel is the cavity of the blastula; archenteron belongs to the gastrula.
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.816,"slots":6,"neural_accepted":0,"neural_attempts":6,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/10","duplicates":0,"bank_size":463,"bank_mcq":388,"bank_short":75,"seconds":6.8}
 
 [Plant Physiology] MCQ <gold>
-Q. Cyclic photophosphorylation produces
-  a) O₂ and NADPH
-  b) NADPH only
-  c) ATP, NADPH and O₂
-  d) ATP only
-Key: d  Why: electrons return to PS I, so there is no NADPH and, with no photolysis, no O₂.
-
-[Plant Anatomy] MCQ <gold>
-Q. The extra thickening of collenchyma is deposited mainly at the corners of the cell and consists of
-  a) suberin
-  b) cutin
-  c) cellulose and pectin
-  d) lignin
-Key: c  Why: cellulose with pectin, not lignin; lignin belongs to sclerenchyma and xylem.
-
-[Genetics] MCQ <gold>
-Q. Which of these is a stop codon?
-  a) UGG
-  b) UUU
-  c) UGA
-  d) AUG
-Key: c  Why: the stop codons are UAA, UAG, UGA. AUG is the start codon and also codes Met; UGG is Trp.
+Q. The water potential of pure water at standard temperature and atmospheric pressure is:
+  a) equal to its osmotic pressure
+  b) $+1$ MPa
+  c) zero
+  d) $-1$ MPa
+Key: c  Why: pure free water is the reference state, defined as zero.
 
 [Applied Biology] MCQ <gold>
-Q. Which enzyme is needed for the digestion of milk protein in human beings?
-  a) lactase
-  b) pepsin
-  c) sucrase
-  d) rennin
-Key: d  Why: rennin curdles casein in infants; lactase(b) digests the milk sugar, which is the trap. Pepsin also acts on protein but the classic milk-protein answer is rennin.
+Q. The silkworm Bombyx mori is fed on the leaves of
+  a) oak
+  b) peepal
+  c) mulberry
+  d) castor
+Key: c  Why: mulberry (Morus). Castor feeds the eri silkworm.
 
-[Human Biology] MCQ <gold>
-Q. Excess growth hormone in childhood causes
-  a) acromegaly
-  b) cretinism
-  c) dwarfism
-  d) gigantism
-Key: d  Why: excess GH in childhood gives gigantism; in an adult it gives acromegaly (a). Dwarfism is deficiency.
+[Genetics] MCQ <gold>
+Q. A person has a puffy appearance, a moon face, low body temperature and intolerance to cold. What is he suffering from?
+  a) myxoedema
+  b) Conn's disease
+  c) Hashimoto's disease
+  d) Grave's disease
+Key: a  Why: myxoedema is adult hypothyroidism: puffy face, cold intolerance, low metabolic rate. Graves' is hyperthyroidism. Hashimoto's is an autoimmune cause of hypothyroidism, but the puffy-face description is the textbook picture of myxoedema.
 
-[Human Population and Health Disorders] MCQ <gold>
-Q. The annual population growth rate reported by Nepal's 2021 census was
-  a) 2.62 %
-  b) 1.35 %
-  c) 2.25 %
-  d) 0.92 %
-Key: d  Why: 0.92 %, the lowest positive rate since censuses began in 1911.
-
-[Biotechnology] 3-mark <teacher>
-Q. Explain the principles of DNA replication in PCR and DNA separation in gel electrophoresis, including the number of fragments produced by linear and circular DNA with n cut sites.
-Model answer: In PCR, DNA copies double each cycle, resulting in $2^{n}$ copies after n cycles. In gel electrophoresis, negatively charged DNA moves to the anode; smaller fragments travel further. Linear DNA with n cuts yields n+1 fragments, while circular DNA yields n fragments.
+[Human Biology] MCQ <teacher>
+Q. During childbirth, which hormone initiates a cycle of uterine contractions through positive feedback by contracting the uterus and further stretching the cervix?
+  a) Estrogen
+  b) Progesterone
+  c) Prolactin
+  d) Oxytocin
+Key: d  Why: Oxytocin is responsible for contracting the uterus and causing positive feedback during labor as mentioned.
 
 [Animal Tissues] 3-mark <teacher>
 Q. Given an image magnification of 1000x, calculate the actual size in micrometers (μm) if the image size is 40 mm. Also, convert 2.4 cm into micrometers.
 Model answer: Actual size: $\frac{40\ \text{mm}}{1000} = 0.040\ \text{mm} = 40\ \mu\text{m}$. Conversion: $2.4\ \text{cm} = 24\ \text{mm} = 24\,000\ \mu\text{m}$.
 
-##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6584,"slots":10,"neural_accepted":0,"neural_attempts":20,"neural_gate_rate":0,"bank_fallback":10,"empty":0,"units_covered":"10/26","duplicates":0,"bank_size":564,"bank_mcq":474,"bank_short":90,"seconds":45.2}
+[Developmental Biology] 3-mark <teacher>
+Q. Given that each secondary spermatocyte contains 26 chromatids and after n cleavages there are $2^{n}$ cells, calculate the number of cells formed after 7 cleavages and state the volume ratio of each blastomere to the original cell.
+Model answer: After 7 cleavages, the number of cells is $2^7 = 128$. Each blastomere has $\frac{1}{128}$ of the original cell's volume.
 
-[Quantity of Heat] MCQ <gold>
-Q. The SI unit of specific heat capacity is
-  a) $\text{J}$
-  b) $\text{J kg}^{-1}$
-  c) $\text{J K}^{-1}$
-  d) $\text{J kg}^{-1}\text{K}^{-1}$
-Key: d  Why: energy per kilogram per kelvin. Option (a) is the unit of specific latent heat; the two are swapped constantly.
+##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.6584,"slots":6,"neural_accepted":0,"neural_attempts":6,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/26","duplicates":0,"bank_size":550,"bank_mcq":460,"bank_short":90,"seconds":17}
 
-[Refraction at plane surfaces] MCQ <gold>
-Q. In a prism, the sum of the two angles of refraction $r_1 + r_2$ is equal to
-  a) the angle of incidence
-  b) $90^{\circ}$
-  c) the angle of the prism
-  d) the angle of deviation
-Key: c  Why: $A = r_1 + r_2$.
+[Physical Quantities] MCQ <gold>
+Q. A vernier callipers has 10 vernier divisions matching 9 main-scale divisions of 1 mm each. Its least count is
+  a) 0.1 mm
+  b) 0.01 mm
+  c) 0.5 mm
+  d) 1 mm
+Key: a  Why: L.C. $= 1 - 0.9 = 0.1$ mm, i.e. 1 mm ÷ 10.
 
-[Dynamics] MCQ <gold>
-Q. In an extrinsic semiconductor at equilibrium
-  a) $n_e = n_h$
-  b) $n_en_h = n_i^{2}$
-  c) $n_e + n_h = n_i$
-  d) $n_e = n_i^{2}$
-Key: b  Why: the mass-action law holds for both types; option (a) is true only for an intrinsic sample.
+[Nuclear physics] MCQ <teacher>
+Q. What formula represents the distance of closest approach ($r_0$) for a head-on $\alpha$-particle of energy $K$ interacting with a nucleus of charge $Ze$?
+  a) $r_0=\dfrac{1}{4\pi\varepsilon_0}\dfrac{2Ze^{2}}{K}$
+  b) $r_0=\dfrac{1}{4\pi\varepsilon_0}\dfrac{Ze^{2}}{K}$
+  c) $r_0=\dfrac{1}{4\pi\varepsilon_0}\dfrac{Ze^{2}}{2K}$
+  d) $r_0=\dfrac{1}{8\pi\varepsilon_0}\dfrac{2Ze^{2}}{K}$
+Key: a  Why: The formula directly matches the expression given for the distance of closest approach.
 
-[Physical Quantities] MCQ <teacher>
-Q. Why does the measurement obtained using the vernier caliper described result in $13.4 \text{ mm}$?
-  a) The vernier scale has a least count of $0.2 \text{ mm}$, and the 7th division coincides with the main scale.
-  b) The main scale reading alone shows exactly $13.4 \text{ mm}$.
-  c) The vernier scale reading is $13.4 \text{ mm}$ directly without any calculation needed.
-  d) The vernier zero lies past $13 \text{ mm}$ and its 4th division coincides with a main scale division, contributing an additional $4 \times 0.1 \text{ mm}$.
-Key: d  Why: The vernier zero lies past 13 mm and its 4th division coincides, giving 13 + 4(0.1) = 13.4 mm.
+[Dynamics] MCQ <teacher>
+Q. Why does a block at rest feel 5 N of friction when pushed with a 5 N force, even though the maximum static friction $\mu N = 20\ \text{N}$?
+  a) Static friction always equals the applied force regardless of the block's motion.
+  b) The coefficient of friction decreases as the applied force increases.
+  c) The block's weight increases the normal force, reducing the required friction.
+  d) The friction force adjusts to balance the applied force, up to its maximum limit.
+Key: d  Why: The friction force only needs to match the applied force to keep the block at rest, not reach its maximum limit.
 
-[Circular Motion] MCQ <gold>
-Q. The difference between the tensions at the lowest and the highest point of a vertical circle is
-  a) $5mg$
-  b) $3mg$
-  c) $2mg$
-  d) $6mg$
-Key: d  Why: subtracting the two force equations and using $v_2^2 = v_1^2 + 4gr$ gives $6mg$, independent of the speed.
-
-[Nuclear physics] MCQ <gold>
-Q. The radius of a nucleus of mass number $A$ is proportional to
-  a) $A^{2/3}$
-  b) $A^{1/3}$
-  c) $A$
-  d) $A^{2}$
-Key: b  Why: volume is proportional to $A$, so radius goes as the cube root.
-
-[Electric field] MCQ <gold>
-Q. The SI unit of electric field intensity is
-  a) N C
-  b) N C⁻¹
-  c) C N⁻¹
-  d) N m² C⁻¹
-Key: b  Why: $E = F/q$, so newton per coulomb.
-
-[DC Circuits] MCQ <gold>
-Q. Kirchhoff's junction law is a statement of the conservation of
-  a) energy
-  b) momentum
-  c) mass
-  d) charge
-Key: d  Why: charge cannot accumulate at a junction.
-
-[Rate of heat flow] 4-mark <gold>
-Q. a) Draw the energy distribution curves of black-body radiation for three temperatures and state the conclusions drawn from them. b) A star radiates most strongly at 350 nm and has a radius of $7.0\times10^{8}$ m. Find its surface temperature and its total power output, treating it as a black body.
-Model answer: (a) Curves as in Figure 4, with the four conclusions of §12.4.(b) $T = b/\lambda_m = 2.898\times10^{-3}/(350\times10^{-9}) = 8280$ K. Surface area $A = 4\pi R^2 = 4\pi(7.0\times10^{8})^2 = 6.16\times10^{18}\ \text{m}^2$. With $T^4 = (8280)^4 = 4.70\times10^{15}$, $P = \sigma AT^4 = 5.67\times10^{-8}\times6.16\times10^{18}\times4.70\times10^{15} = 1.6\times10^{27}\ \text{W}$.
+[DC Circuits] MCQ <teacher>
+Q. A battery with an emf of $12\ \text{V}$ and internal resistance of $1\ \Omega$ is connected to a circuit containing a $3\ \Omega$ resistor in series with a parallel combination of $6\ \Omega$ and $12\ \Omega$. What is the internal resistance of the battery?
+  a) $1\ \Omega$
+  b) $6\ \Omega$
+  c) $12\ \Omega$
+  d) $3\ \Omega$
+Key: a  Why: The internal resistance of the battery is explicitly stated as $1\ \Omega$.
 
 [Reflection at curved mirror] 5-mark <teacher>
 Q. Explain how the position of an object relative to the focal point ($F$) and center of curvature ($C$) affects the type of image formed by a concave mirror, considering both real and virtual images. Use the mirror formula to support your explanation.
 Model answer: The position of an object relative to $F$ and $C$ on a concave mirror determines the image type. When the object is beyond $C$, a real, inverted, and diminished image forms between $F$ and $C$. Between $C$ and $F$, the image is real, inverted, and magnified. At $F$, no image is formed as rays are parallel. Between $F$ and the pole, a virtual, upright, and magnified image is formed. The mirror formula $\frac{1}{f} = \frac{1}{v} + \frac{1}{u}$ applies universally, where $v$ is negative for real images and positive for virtual ones.
 
-##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":4.1341,"slots":10,"neural_accepted":0,"neural_attempts":20,"neural_gate_rate":0,"bank_fallback":10,"empty":0,"units_covered":"9/10","duplicates":0,"bank_size":489,"bank_mcq":412,"bank_short":77,"seconds":21.8}
-
-[Introductory Microbiology] MCQ <gold>
-Q. The study of the form and external structure of organisms is
-  a) ecology
-  b) morphology
-  c) cytology
-  d) physiology
-Key: b  Why: morphology; if you cut it open to see inside, it becomes anatomy.
-
-[Evolutionary Biology] MCQ <teacher>
-Q. In the context of evolutionary biology, if $p$ and $q$ represent the frequencies of two alleles in a population, which equation correctly represents the expected genotype frequencies under Hardy-Weinberg equilibrium?
-  a) $(p + q)^{3} = p^{3} + 3pq + q^{3} = 1$
-  b) $(p + q)^{2} = p^{2} + pq + q^{2} = 1$
-  c) $(p - q)^{2} = p^{2} - 2pq + q^{2} = 1$
-  d) $(p + q)^{2} = p^{2} + 2pq + q^{2} = 1$
-Key: d  Why: The equation $(p + q)^{2} = p^{2} + 2pq + q^{2} = 1$ accurately reflects the Hardy-Weinberg principle for genotype frequencies.
-
-[Floral Diversity] MCQ <gold>
-Q. Which one of the following is not a criterion of Whittaker's five-kingdom classification?
-  a) chromosome number
-  b) body organisation
-  c) mode of nutrition
-  d) cell structure
-Key: a  Why: Whittaker used cell structure, body organisation, mode of nutrition, reproduction and phylogeny, not chromosome number.
-
-[Biomolecules and Cell Biology] MCQ <gold>
-Q. The longest phase of the cell cycle is
-  a) metaphase
-  b) prophase
-  c) interphase
-  d) telophase
-Key: c  Why: interphase is about 90–95 % of the cycle; it is growth, not rest.
-
-[Floral Diversity] MCQ <gold>
-Q. The zone above the tree line, dominated by low shrubs, herbs and cushion plants, is the
-  a) alpine zone
-  b) sub-tropical zone
-  c) temperate zone
-  d) sub-alpine zone
-Key: a  Why: the alpine zone lies above the tree line, roughly above 4100 m.
-
-[Conservation Biology] MCQ <teacher>
-Q. What is the value of Simpson's index of diversity for the given calculation where $D = 0.293$?
-  a) 0.407
-  b) 0.293
-  c) 1.293
-  d) 0.707
-Key: d  Why: The calculation provided directly shows that the Simpson's index of diversity equals $1 - 0.293 = 0.707$.
-
-[Faunal Diversity] MCQ <gold>
-Q. The earthworm is hermaphrodite but cross-fertilising because
-  a) fertilisation is external only
-  b) the sperms mature before the ova, so self-fertilisation is prevented
-  c) it has no sperm
-  d) the ova are sterile
-Key: b  Why: protandry: the male organs mature first, so two worms must exchange sperm.
-
-[Biota and Environment] MCQ <gold>
-Q. The change in an organism that fits it better to its surroundings is
-  a) migration
-  b) mutation
-  c) acclimatisation
-  d) adaptation
-Key: d  Why: adaptation is heritable and evolutionary; acclimatisation is a reversible adjustment within one lifetime.
-
-[Ecology] 3-mark <teacher>
-Q. Calculate the net primary production per hectare of sal forest in one year and explain the importance of a food web in an ecosystem.
-Model answer: Net primary production = $12{,}000\ \text{kJ m}^{-2} - 7500\ \text{kJ m}^{-2} = 4500\ \text{kJ m}^{-2}$. Food webs stabilize ecosystems by linking multiple food chains. Plants capture only about 1% of solar energy, initiating the food web.
-
-[Introduction to Biology] 3-mark <teacher>
-Q. Describe the formula for calculating the magnification of a compound microscope and identify the two lenses involved.
-Model answer: A compound microscope involves an objective lens and an eyepiece lens. The magnification formula is $M=M_{\text{objective}}\times M_{\text{eyepiece}}$. This calculation multiplies the magnification power of both lenses to determine the total magnification.
+[Electric field] 2-mark <gold>
+Q. Two large parallel metal plates carry surface charge densities $+3.54\times10^{-6}\ \text{C m}^{-2}$ and $-3.54\times10^{-6}\ \text{C m}^{-2}$. Find the field between the plates and the force on an electron placed there.
+Model answer: Between the plates, $E = \sigma/\varepsilon_0 = 3.54\times10^{-6}/8.85\times10^{-12} = 4.0\times10^{5}\ \text{V m}^{-1}$, directed from the positive to the negative plate.

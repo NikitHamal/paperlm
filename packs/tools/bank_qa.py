@@ -19,7 +19,17 @@ def _norm(s):
     return re.sub(r"[\s$]+|\\(?:text|mathrm|,|;|!| \\)|[{}]", "", s.lower())
 
 
+LEAKWHY = re.compile(r"\b(?:in|from|by|of|to) the (?:context|passage|provided (?:text|context|information|formula|data|calculation)|given (?:text|context|information|passage))\b|\bthe (?:context|passage) (?:states|says|gives|mentions|provides|indicates)\b|\bprovided (?:in the )?(?:context|text|passage|information)\b|\bas (?:stated|given|mentioned) in the (?:context|text|passage|provided)\b|\bthe given formula directly\b", re.I)
+
+
 def repair(it):
+    """v14: a rationale that points at the teacher's hidden context ('as stated in the provided information') is replaced by the verified anchor fact."""
+    if it.get("why") and LEAKWHY.search(it["why"]):
+        it = dict(it); it["why"] = it["anchor"] if it.get("anchor") and not LEAKWHY.search(it["anchor"]) else ""; it["repaired_why"] = 1
+    return _repair_parts(it)
+
+
+def _repair_parts(it):
     """Part-aligned repair: a written item whose model answer covers only some of the stem's parts
     (e.g. answer starts at '(b)') is trimmed so the stem asks exactly what the answer answers."""
     if it["type"] == "mcq": return it
@@ -89,6 +99,7 @@ def qa(it):
     if orphan(q): r.append("orphan_stem")  # v13: chopped multi-part stems ('a) in series and b) in parallel. Find ...') have no main clause
     if LEAK.search(q): r.append("leaked_context")  # v13: 'using the provided formula' points at teacher anchor text the student never sees
     if len(q) < 12: r.append("empty_or_tiny_stem")
+    if LEAKWHY.search(q + " " + a): r.append("leaked_context")
     if META.search(q): r.append("meta_exam_question")  # v14: questions about the exam format, not the subject
     if arith_bad(a + " " + it.get("why", "") + " " + q): r.append("arithmetic_error")  # v14: verified by evaluation
     if not a: r.append("no_answer")
