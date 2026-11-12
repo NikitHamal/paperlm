@@ -1,13 +1,12 @@
 {
  "pack": "bio12",
- "bank_in": 481,
- "bank_kept": 477,
- "dropped": 4,
+ "bank_in": 477,
+ "bank_kept": 474,
+ "dropped": 3,
  "reasons": {
-  "leaked_context": 3,
-  "orphan_stem": 1
+  "meta_exam_question": 3
  },
- "mcq": 402,
+ "mcq": 399,
  "written": 75,
  "units": 10
 }

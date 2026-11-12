@@ -56,12 +56,41 @@ def orphan(q):
     return bool(m)
 
 
+META = re.compile(r"\b(?:Grade|Class)\s*1[12]\b[^?]{0,40}\b(?:paper|exam|syllabus)\b|\b(?:carries|carry)\b[^?]{0,40}\bmarks?\b|\bshort[- ]answer question\b|\bentrance exam|\bwritten marks\b|\bpaper (?:has|contains|consists)\b|\bpast[- ]paper", re.I)
+NUM = re.compile(r"\s*(-?\d+(?:\.\d+)?)(\s*(?:\\?%|[\\^/*(]|[A-Za-z]{1,2}\\b)?)")
+OKCH = set("0123456789.+-*/() \t")
+
+
+def arith_bad(text):
+    """v14: every pure-number equation 'a \\times b + c = N' (maximal expression left of '=', no letters, balanced) is evaluated;
+    a wrong sum/product (LLM teacher slip) kills the item. Percent results and partial expressions are skipped."""
+    t = text.replace("\\times", "*").replace("\\cdot", "*").replace("\\div", "/").replace("\\left", "").replace("\\right", "").replace("\\,", "").replace("\\ ", " ").replace("\u00d7", "*").replace("\u2212", "-")
+    for m in re.finditer(r"=", t):
+        i = m.start(); j = i
+        while j > 0 and t[j - 1] in OKCH: j -= 1
+        left = t[j:i].strip()
+        if j > 0 and (t[j - 1].isalnum() or t[j - 1] in "})^_{"): continue
+        if not re.fullmatch(r"[\d(][\d.+*/() -]*", left) or not re.search(r"\d\s*[-+*/]\s*[\d(]", left) or left.count("(") != left.count(")") or len(left) > 60: continue
+        rm = re.match(r"\s*(-?\d+(?:\.\d+)?)", t[i + 1:])
+        if not rm: continue
+        tail = t[i + 1 + rm.end(): i + 10 + rm.end()].lstrip()
+        if tail and (tail[0] in "%^/(*" or tail.startswith("\\%") or re.match(r"[.]\d", tail) or re.match(r"[+-]\s*\d", tail)): continue
+        try: v = eval(left.replace("^", "**"), {"__builtins__": {}}, {})
+        except Exception: continue
+        x = float(rm.group(1))
+        if any(abs(v * k - x) <= 0.02 * max(1.0, abs(x)) or abs(v * k - x) <= 0.011 for k in (1, 1e3, 1e-3, 1e2, 1e-2, 1e6, 1e-6, 1e9, 1e-9)): continue  # unit-scaled results (J -> kJ, % ...)
+        return True
+    return False
+
+
 def qa(it):
     r = []
     q, a = it.get("question", "").strip(), it.get("answer", "").strip()
     if orphan(q): r.append("orphan_stem")  # v13: chopped multi-part stems ('a) in series and b) in parallel. Find ...') have no main clause
     if LEAK.search(q): r.append("leaked_context")  # v13: 'using the provided formula' points at teacher anchor text the student never sees
     if len(q) < 12: r.append("empty_or_tiny_stem")
+    if META.search(q): r.append("meta_exam_question")  # v14: questions about the exam format, not the subject
+    if arith_bad(a + " " + it.get("why", "") + " " + q): r.append("arithmetic_error")  # v14: verified by evaluation
     if not a: r.append("no_answer")
     if FIG.search(q) or (re.search(r"\bpoints? [A-Z]\b", q) and not re.search(r"\bpoints? [A-Z]\b", it.get("anchor", ""))): r.append("needs_figure")  # the pack has no figures: a stem that points at one cannot be answered
     if not _tex_ok(q + " " + a + " " + it.get("why", "")): r.append("latex")

@@ -1,12 +1,9 @@
 {
  "pack": "phy11",
- "bank_in": 571,
+ "bank_in": 564,
  "bank_kept": 564,
- "dropped": 7,
- "reasons": {
-  "leaked_context": 4,
-  "orphan_stem": 3
- },
+ "dropped": 0,
+ "reasons": {},
  "mcq": 474,
  "written": 90,
  "units": 26
