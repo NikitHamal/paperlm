@@ -1,536 +1,546 @@
-# Verbatim samples from the shipped specialist packs (planner seed 20)
+# Verbatim samples from the shipped specialist packs (planner seed 21)
 
 Each paper is planned by the blueprint planner (syllabus-share quotas, anti-duplication tracker) from the pack's verified bank plus computed numericals. Source tags: gold = real NEB-style item, teacher = Qwen-32B draft that passed blind multi-order solve + entailment + distractor probes, computed = parametric solver.
 
 ## Biology - Class 12 (NEB)  (`bio12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.508)
 
-**Q1. [Human Biology; 1 mark; computed]** A person has a heart rate of $80\ \text{beats min}^{-1}$ and a stroke volume of $65\ \text{mL}$. What is the cardiac output in litres per minute?
+**Q1. [Plant Physiology; 1 mark; teacher]** Why does water primarily evaporate from mesophyll cells in plants?
 
-- (a) $5.2\ \text{L min}^{-1}$
-- (b) $1.23\ \text{L min}^{-1}$
-- (c) $10.4\ \text{L min}^{-1}$
-- (d) $52\ \text{L min}^{-1}$
+- (a) As a result of high transpiration rates through the cuticle
+- (b) Due to direct sunlight exposure on the plant's surface
+- (c) From the menisci held in nanometre-scale pores in the mesophyll cell walls — pores of radius 5–10 nm
+- (d) From the large open stomatal pores on the leaf surface
 
-Key: (a) $5.2\ \text{L min}^{-1}$. Why: Cardiac output $=$ heart rate $\times$ stroke volume. $CO = 80\times 65\ \text{mL min}^{-1}$ $CO = 5.2\ \text{L min}^{-1}$
+Key: (c) From the menisci held in nanometre-scale pores in the mesophyll cell walls — pores of radius 5–10 nm. Why: Evaporation occurs from nanometre-scale pores in the mesophyll cell walls.
 
-**Q2. [Plant Physiology; 1 mark; teacher]** How much energy, in kJ, is approximately released during the complete oxidation of one glucose molecule?
+**Q2. [Applied Biology; 1 mark; teacher]** What condition must be met to confirm that an organism isolated from an experimental host is responsible for the reproduced disease?
 
-- (a) 1435
-- (b) 2870
-- (c) 30-32
-- (d) 956
+- (a) The organism must be genetically modified before re-isolation.
+- (b) The organism must cause a different disease upon re-inoculation.
+- (c) The organism must be re-isolated from the experimental host and shown to be the same.
+- (d) The organism must be identified by its color alone.
 
-Key: (b) 2870. Why: The passage directly states that the complete oxidation of one glucose molecule releases about 2870 kJ.
+Key: (c) The organism must be re-isolated from the experimental host and shown to be the same. Why: The organism must be re-isolated and confirmed to be the same to prove it reproduces the disease.
 
-**Q3. [Developmental Biology; 1 mark; teacher]** If an embryo undergoes 4 cleavages, how many blastomeres will it have?
+**Q3. [Animal Tissues; 1 mark; teacher]** In muscle tissue, what part of the sarcomere is exclusively composed of thin actin filaments?
 
-- (a) $4^2$
-- (b) $2^{4}$
-- (c) $2 + 4$
-- (d) $8$
+- (a) A band
+- (b) M line
+- (c) I band
+- (d) Z line
 
-Key: (b) $2^{4}$. Why: The number of blastomeres after n cleavages is given by $2^n$.
+Key: (c) I band. Why: The I band contains only thin actin filaments as stated in the description.
 
-**Q4. [Animal Tissues; 1 mark; gold]** Which cells of connective tissue produce histamine and heparin?
+**Q4. [Human Biology; 1 mark; computed]** A person has a heart rate of $70\ \text{beats min}^{-1}$ and a stroke volume of $60\ \text{mL}$. What is the cardiac output in litres per minute?
 
-- (a) fibroblasts
-- (b) macrophages
-- (c) mast cells
-- (d) plasma cells
+- (a) $42\ \text{L min}^{-1}$
+- (b) $1.17\ \text{L min}^{-1}$
+- (c) $4.2\ \text{L min}^{-1}$
+- (d) $8.4\ \text{L min}^{-1}$
 
-Key: (c) mast cells. Why: mast cell granules hold histamine and heparin. Plasma cells make antibodies.
+Key: (c) $4.2\ \text{L min}^{-1}$. Why: Cardiac output $=$ heart rate $\times$ stroke volume. $CO = 70\times 60\ \text{mL min}^{-1}$ $CO = 4.2\ \text{L min}^{-1}$
 
-**Q5. [Genetics; 3 marks; teacher]** Analyse the similarities and differences between DNA and RNA and evaluate their significance.
-
-Marking scheme:
-
-- Similarities: Both DNA and RNA are nucleic acids, store genetic information, and consist of nitrogenous bases, sugar, and phosphate.  **[1]**
-- Differences: DNA is double-stranded with deoxyribose sugar, while RNA is single-stranded with ribose.  **[1]**
-- Significance: Double-stranded DNA provides stability and accurate replication;  **[1]**
-
-**Q6. [Applied Biology; 5 marks; teacher]** Explain the differences between broad-spectrum and narrow-spectrum antibiotics, providing examples of each type and their respective bacterial targets.
+**Q5. [Developmental Biology; 3 marks; teacher]** Describe the process of neural tube formation and the type of cleavage in frogs.
 
 Marking scheme:
 
-- Broad-spectrum antibiotics like tetracycline, chloramphenicol, and ampicillin target both Gram-positive and Gram-negative bacteria. 2.  **[1]**
-- Narrow-spectrum antibiotics such as penicillin G, vancomycin, and isoniazid act on a limited range of bacteria. 3.  **[1]**
-- Broad-spectrum antibiotics affect a wider variety of pathogens. 4.  **[1]**
-- Narrow-spectrum antibiotics are more specific, targeting particular types of bacteria. 5.  **[1]**
-- Examples of broad-spectrum include tetracycline and ampicillin; narrow-spectrum examples are penicillin G and vancomycin.  **[1]**
+- The neural plate's edges form folds, the middle becomes a groove, and the folds fuse into a neural tube, which develops into the brain and spinal cord.  **[2]**
+- Frogs undergo holoblastic but unequal cleavage, where furrows penetrate completely but produce larger yolky vegetal cells.  **[1]**
+
+**Q6. [Genetics; 5 marks; teacher]** Explain Mendel's law of independent assortment using a dihybrid cross (RrYy x RrYy) in pea plants. Predict the phenotypic ratio of the offspring and list all possible gametes formed by a double heterozygote RrYy.
+
+Marking scheme:
+
+- Mendel's law of independent assortment states that genes for different traits separate independently during gamete formation.  **[2]**
+- In a dihybrid cross (RrYy x RrYy), a double heterozygote RrYy forms 4 types of gametes: RY, Ry, rY, and ry in equal proportions ($2^2 = 4$).  **[2]**
+- The expected phenotypic ratio in the F2 generation is 9:3:3:1, representing 9 round yellow, 3 round green, 3 wrinkled yellow, and 1 wrinkled green peas.  **[1]**
 
 ## Physics - Class 11 (NEB)  (`phy11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.0935)
 
-**Q1. [DC Circuits; 1 mark; computed]** A cell of emf $12\ \text{V}$ and internal resistance $1\ \Omega$ is connected to an external resistance of $10\ \Omega$. Find the current in the circuit.
+**Q1. [Physical Quantities; 1 mark; teacher]** How many significant figures are there in the measurement $4.700\ \text{m}$?
 
-- (a) $1.09\ \text{A}$
-- (b) $1.2\ \text{A}$
-- (c) $1.33\ \text{A}$
-- (d) $12\ \text{A}$
+- (a) 5
+- (b) 2
+- (c) 4
+- (d) 3
 
-Key: (a) $1.09\ \text{A}$. Why: For a cell with internal resistance $I = \dfrac{E}{R + r}$. $I = \dfrac{E}{R+r} = \dfrac{12}{10+1}$ $I = 1.09\ \text{A}$
+Key: (c) 4. Why: The measurement $4.700\ \text{m}$ has four significant figures as all trailing zeros after the decimal point are significant.
 
-**Q2. [Physical Quantities; 1 mark; teacher]** How many significant figures are present in the measurement $0.00602$?
+**Q2. [Nuclear physics; 1 mark; teacher]** What is the result of differentiating $m^{2}v^{2}$ using the product rule?
 
-- (a) 6
-- (b) 3
-- (c) 5
-- (d) 2
+- (a) $2m^{2}v^{2}dm$
+- (b) $2m^{2}v\,dv$
+- (c) $2mv^{2}dm + 2m^{2}v\,dv$
+- (d) $2mv^{2}dm$
 
-Key: (b) 3. Why: The significant figures in $0.00602$ are the digits 602, which amount to 3.
+Key: (c) $2mv^{2}dm + 2m^{2}v\,dv$. Why: The differentiation of $m^{2}v^{2}$ by the product rule yields $2mv^{2}dm + 2m^{2}v\,dv$.
 
-**Q3. [Electric field; 1 mark; gold]** The electric field at a point inside a charged hollow metal sphere is
+**Q3. [Reflection at curved mirror; 1 mark; teacher]** Which of the following describes the behavior of a ray parallel to the principal axis after reflection from a concave mirror?
 
-- (a) $kQ/r^{2}$
-- (b) zero
-- (c) $\sigma/\varepsilon_0$
-- (d) infinite
+- (a) It appears to originate from the focal point $F$.
+- (b) It diverges away from the principal axis.
+- (c) It passes through the focal point $F$.
+- (d) It reflects back along the same path.
 
-Key: (b) zero. Why: the Gaussian surface inside encloses no charge.
+Key: (c) It passes through the focal point $F$. Why: A ray parallel to the principal axis reflects through $F$ for a concave mirror.
 
-**Q4. [Reflection at curved mirror; 1 mark; gold]** The image formed by a convex mirror is always
+**Q4. [DC Circuits; 1 mark; computed]** A cell of emf $24\ \text{V}$ and internal resistance $2\ \Omega$ is connected to an external resistance of $10\ \Omega$. Find the current in the circuit.
 
-- (a) virtual, inverted and magnified
-- (b) real, erect and diminished
-- (c) virtual, erect and diminished
-- (d) real, inverted and magnified
+- (a) $3\ \text{A}$
+- (b) $12\ \text{A}$
+- (c) $2\ \text{A}$
+- (d) $2.4\ \text{A}$
 
-Key: (c) virtual, erect and diminished. Why: the reflected rays always diverge, so the image is caught behind the mirror; no object position changes this.
+Key: (c) $2\ \text{A}$. Why: For a cell with internal resistance $I = \dfrac{E}{R + r}$. $I = \dfrac{E}{R+r} = \dfrac{24}{10+2}$ $I = 2\ \text{A}$
 
-**Q5. [Dynamics; 2 marks; teacher]** A block slides on a surface with kinetic friction coefficient $\mu_k = 0.3$. If the normal force is $N = 100\ \text{N}$ and an external force $P = 40\ \text{N}$ acts on it, calculate the acceleration of the block.
-
-Marking scheme:
-
-- The kinetic friction force is $f_k = \mu_k N = 0.3 \times 100 = 30\ \text{N}$.  **[1]**
-- The net force is $P - f_k = 40 - 30 = 10\ \text{N}$, giving $a = 1\ \text{m s}^{-2}$.  **[1]**
-
-**Q6. [Nuclear physics; 5 marks; teacher]** Derive the equation $m^{2}c^{2} - m^{2}v^{2} = m_0^{2}c^{2}$ from the relativistic mass formula $m = m_0/\sqrt{1-v^{2}/c^{2}}$. Then, using the concept of binding energy, calculate the total energy gained if each of the 236 nucleons gains 0.9 MeV.
+**Q5. [Electric field; 2 marks; teacher]** Derive the expression for the electric field $E_s$ on the surface of a uniformly charged sphere using the surface charge density.
 
 Marking scheme:
 
-- Start with $m = m_0/\sqrt{1-v^2/c^2}$, square both sides to get $m^2(1-v^2/c^2) = m_0^2$. 2.  **[1]**
-- Multiply through by $c^2$ to eliminate fractions: $m^2c^2 - m^2v^2 = m_0^2c^2$. 3.  **[1]**
-- For the energy gain calculation, each of the 236 nucleons gains 0.9 MeV. 4.  **[1]**
-- Total energy gained is $236 \times 0.9 = 212.4$ MeV. 5.  **[1]**
-- Rounded off, the total energy gained is approximately 212 MeV.  **[1]**
+- From Step 6, $E_s = \frac{1}{4\pi\varepsilon_0}\cdot\frac{Q}{R^2}$.  **[1]**
+- Using surface charge density $\sigma = \frac{Q}{4\pi R^2}$, rewrite as $E_s = \frac{\sigma}{\varepsilon_0}$.  **[1]**
+
+**Q6. [Dynamics; 5 marks; teacher]** Describe an experiment to determine the coefficient of static friction ($\mu_s$) between a block and an inclined plane using the angle of friction. Include how to calculate $\mu_s$ using the measured height ($h$) and base ($b$) of the incline.
+
+Marking scheme:
+
+- Place a block on a hinged plane. 2.  **[1]**
+- Slowly raise one end of the plane until the block just begins to slide. 3.  **[1]**
+- Measure the vertical height ($h$) and horizontal base ($b$) of the inclined plane at this point. 4.  **[1]**
+- Calculate the angle of inclination ($\theta$) using $\tan\theta = h/b$. 5.  **[1]**
+- The coefficient of static friction ($\mu_s$) is equal to $\tan\theta$, so $\mu_s = h/b$.  **[1]**
 
 ## Biology - Class 11 (NEB)  (`bio11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.4911)
 
-**Q1. [Faunal Diversity; 1 mark; teacher]** Why do male frogs have a rough dark nuptial pad on the first digit of each forelimb?
+**Q1. [Biomolecules and Cell Biology; 1 mark; computed]** An organism has $2n = 14$ chromosomes in its somatic cells. How many chromosomes does each gamete contain?
 
-- (a) For gripping the female in amplexus
-- (b) To increase their jumping distance
-- (c) For attracting females through visual display
-- (d) To absorb water more efficiently
+- (a) $28$
+- (b) $14$
+- (c) $7$
+- (d) $3.5$
 
-Key: (a) For gripping the female in amplexus. Why: The nuptial pad is for gripping the female during amplexus.
+Key: (c) $7$. Why: Meiosis halves the chromosome number, so a gamete is haploid ($n$). $n = \dfrac{2n}{2} = \dfrac{14}{2}$ $n = 7$
 
-**Q2. [Biomolecules and Cell Biology; 1 mark; computed]** An organism has $2n = 46$ chromosomes in its somatic cells. How many chromosomes does each gamete contain?
+**Q2. [Biota and Environment; 1 mark; teacher]** Which of the following best describes the symbol used to denote the effect of interspecific interactions where one species is neither helped nor harmed?
 
-- (a) $11.5$
-- (b) $23$
-- (c) $92$
-- (d) $46$
+- (a) $+$
+- (b) $-$
+- (c) $0$
+- (d) $*$
 
-Key: (b) $23$. Why: Meiosis halves the chromosome number, so a gamete is haploid ($n$). $n = \dfrac{2n}{2} = \dfrac{46}{2}$ $n = 23$
+Key: (c) $0$. Why: The symbol $0$ denotes no effect on a species in interspecific interactions.
 
-**Q3. [Evolutionary Biology; 1 mark; teacher]** Which of the following species belongs to the orangutan branch and was found in the Nepali Siwaliks?
+**Q3. [Ecology; 1 mark; teacher]** Which international agreement aims to limit global warming to $1.5\degree C$?
 
-- (a) Australopithecus
-- (b) Ramapithecus
-- (c) Homo erectus
-- (d) Pan troglodytes
+- (a) Kyoto Protocol (1997)
+- (b) Rio Declaration (1992)
+- (c) Paris Agreement (2015)
+- (d) Montreal Protocol (1987)
 
-Key: (b) Ramapithecus. Why: The passage explicitly states that Ramapithecus of the Nepali Siwaliks belongs to the orangutan branch.
+Key: (c) Paris Agreement (2015). Why: The Paris Agreement of 2015 specifically targets limiting global warming to $1.5\degree C$.
 
-**Q4. [Ecology; 1 mark; gold]** Pneumatophores, the negatively geotropic breathing roots, are found in
+**Q4. [Faunal Diversity; 1 mark; teacher]** What term describes the mechanism by which a microorganism propels itself forward in a wide spiral pattern using coordinated movement of its cilia?
 
-- (a) parasites
-- (b) epiphytes
-- (c) mangrove plants
-- (d) desert plants
+- (a) Avoiding reaction
+- (b) Ciliary beat
+- (c) Metachronal rhythm
+- (d) Oblique stroke
 
-Key: (c) mangrove plants. Why: mangroves such as Rhizophora and Avicennia grow in waterlogged saline mud where roots cannot get oxygen.
+Key: (c) Metachronal rhythm. Why: The passage explicitly states that the metachronal rhythm drives the animal forward in a wide spiral pattern.
 
-**Q5. [Floral Diversity; 2 marks; teacher]** What classification system did Linnaeus develop, and what plant features were used in this system?
-
-Marking scheme:
-
-- Linnaeus developed the sexual system.  **[1]**
-- Plants were classified based on the number and union of stamens and carpels.  **[1]**
-
-**Q6. [Biota and Environment; 5 marks; teacher]** Describe the adaptations of organisms to their environments by providing two examples each of structural, physiological, and behavioral adaptations.
+**Q5. [Evolutionary Biology; 3 marks; teacher]** Explain how the rise of the Himalayas influenced evolutionary isolation and provide an example of this process.
 
 Marking scheme:
 
-- Structural adaptations include the snow leopard's fur for cold climates and fish fins for aquatic life.  **[2]**
-- Physiological adaptations involve concentrated urine in desert animals and high hemoglobin levels in high-altitude species.  **[1]**
-- Behavioral adaptations consist of migration in birds to avoid harsh winters, and hibernation in bears during cold seasons.  **[1]**
-- These traits enhance survival specific to their habitats.  **[1]**
+- The rise of the Himalayas during the Miocene and Pliocene isolated northern and southern faunas, preventing interbreeding.  **[1]**
+- This physical barrier led to the division of one fauna into two distinct groups.  **[1]**
+- Additionally, it created diverse habitats from Terai to alpine desert within 150 km, further promoting isolation and speciation.  **[1]**
+
+**Q6. [Floral Diversity; 5 marks; teacher]** Describe the floral characteristics of the androecium and gynoecium found in the family Brassicaceae.
+
+Marking scheme:
+
+- In the family Brassicaceae, the androecium consists of 6 stamens arranged in two whorls: an outer pair of two short stamens and an inner quartet of longer stamens, forming a tetradynamous arrangement.  **[2]**
+- The androecium is polyandrous and epipetalous.  **[1]**
+- The gynoecium is bicarpellary and syncarpous, featuring a superior ovary that initially appears unilocular but becomes bilocular due to a false septum known as the replum.  **[1]**
+- Placentation within the ovary is parietal.  **[1]**
 
 ## Physics - Class 12 (NEB)  (`phy12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.1859)
 
-**Q1. [Thermoelectric effects; 1 mark; teacher]** For a thermocouple with its cold junction at $0\,^{\circ}$C, which equation correctly represents the thermo-e.m.f. in microvolts as a function of temperature $\theta$?
+**Q1. [Rotational dynamics; 1 mark; teacher]** If a spinning body reduces its moment of inertia, what happens to its angular velocity $\omega$?
 
-- (a) $E = 16\theta - 0.02\theta^{2}$
-- (b) $E = 8\theta - 0.04\theta^{2}$
-- (c) $E = 16\theta^{2} - 0.02\theta$
-- (d) $E = 16\theta + 0.02\theta^{2}$
+- (a) It becomes zero.
+- (b) It remains constant.
+- (c) It increases.
+- (d) It decreases.
 
-Key: (a) $E = 16\theta - 0.02\theta^{2}$. Why: For a thermocouple with its cold junction at $0\,^{\circ}$C the thermo-e.m.f. in microvolts is $E = 16\theta - 0.02\theta^{2}$.
+Key: (c) It increases. Why: A reduction in moment of inertia with zero external torque results in an increase in angular velocity to conserve angular momentum $L$.
 
-**Q2. [Rotational dynamics; 1 mark; teacher]** Why is the angular velocity $\omega$ calculated as $2\pi(120)/60$ in radians per second?
+**Q2. [Magnetic field; 1 mark; computed]** A straight wire of length $20\ \text{cm}$ carrying a current of $6\ \text{A}$ is placed perpendicular to a magnetic field of $30\ \text{mT}$. Find the force on the wire.
 
-- (a) Because it determines the linear mass density of the rod.
-- (b) Because it converts the rotational speed of 120 revolutions per minute into radians per second.
-- (c) Because it represents the kinetic energy of the rotating object in joules.
-- (d) Because it calculates the moment of inertia of the object about its axis.
+- (a) $0.0036\ \text{N}$
+- (b) $0.36\ \text{N}$
+- (c) $0.036\ \text{N}$
+- (d) $0.072\ \text{N}$
 
-Key: (b) Because it converts the rotational speed of 120 revolutions per minute into radians per second. Why: With $\omega = 2\pi(120)/60 = 4\pi = 12.57\ \text{rad s}^{-1}$, $$E_k = \tfrac{1}{2}I\omega^{2} = \tfrac{1}{2}(2.5)(12.57)^{2} = 197\ \text{J}$$ Take a rod of mass $M$ and length $L$, of uniform linear mass density $\lambda = M/L$.
+Key: (c) $0.036\ \text{N}$. Why: The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 30\times10^{-3}\times6\times20\times10^{-2}$ $F = 0.036\ \text{N}$
 
-**Q3. [Electrical circuits; 1 mark; teacher]** In proving the balance condition for a Wheatstone bridge, what is the required method involving Kirchhoff's laws?
+**Q3. [Polarization; 1 mark; teacher]** Which law relates to the angle at which reflected light becomes completely plane-polarized?
 
-- (a) Use Ohm's law directly on all resistors.
-- (b) Apply the loop law to two loops and divide.
-- (c) Sum currents at each node and equate them.
-- (d) Integrate the voltage across each resistor.
+- (a) Snell's law
+- (b) Huygens's principle
+- (c) Brewster's law
+- (d) Malus's law
 
-Key: (b) Apply the loop law to two loops and divide. Why: The correct method for proving the balance condition involves applying the loop law to two loops and dividing them as stated in the standard procedure.
+Key: (c) Brewster's law. Why: Brewster's law is mentioned as one of the two formulae the NEB asks for related to polarization.
 
-**Q4. [Magnetic field; 1 mark; computed]** A straight wire of length $50\ \text{cm}$ carrying a current of $10\ \text{A}$ is placed perpendicular to a magnetic field of $60\ \text{mT}$. Find the force on the wire.
+**Q4. [Thermoelectric effects; 1 mark; teacher]** What is the term used to describe the temperature at which the thermo-electromotive force (e.m.f.) of a thermocouple peaks when the cold junction is at $0\,^\circ C$?
 
-- (a) $3\ \text{N}$
-- (b) $30\ \text{N}$
-- (c) $0.3\ \text{N}$
-- (d) $0.03\ \text{N}$
+- (a) $\theta_0$
+- (b) $\theta_i$
+- (c) $\theta_n$
+- (d) $2\theta_n$
 
-Key: (c) $0.3\ \text{N}$. Why: The force on a current-carrying conductor in a magnetic field is $F = BIL\sin\theta$. $F = BIL\sin 90^{\circ} = 60\times10^{-3}\times10\times50\times10^{-2}$ $F = 0.3\ \text{N}$
+Key: (c) $\theta_n$. Why: The passage explicitly states that the e.m.f. peaks at the neutral temperature $\theta_n$.
 
-**Q5. [Fluid statics; 3 marks; teacher]** Calculate the work done in blowing a soap bubble of radius $3\ \text{cm}$ and determine the excess pressure inside the bubble given the surface tension $T = 0.03\ \text{N m}^{-1}$. Use the formulae for work done $W = 8\pi r^2 T$ and excess pressure $\Delta P = 4T/r$.
-
-Marking scheme:
-
-- Work done: $W = 8\pi(0.03)^2(0.03) = 0.00226\ \text{J}$.  **[1]**
-- Excess pressure: $\Delta P = 4(0.03)/(0.03) = 4\ \text{Pa}$.  **[1]**
-- Bubble radius $r=3\ \text{cm}=0.03\ \text{m}$ used.  **[1]**
-
-**Q6. [Magnetic field; 5 marks; teacher]** Explain why the magnetic force does not change the speed of a charged particle moving in a magnetic field and derive the expression for the magnetic field along the axis of a solenoid with $n$ turns per unit length.
+**Q5. [Electrical circuits; 2 marks; teacher]** How do you convert electrical energy dissipated as heat into calories using the formula?
 
 Marking scheme:
 
-- The magnetic force $\vec{F}$ is always perpendicular to the velocity $\vec{v}$ of a charged particle, leading to no component of the force in the direction of motion.  **[2]**
-- Thus, the force does no work, preserving the particle's speed.  **[1]**
-- For a solenoid with $n$ turns per unit length, the magnetic field $B$ on-axis is given by $B = \tfrac{1}{2}\mu_0 n I(\sin\alpha_1 + \sin\alpha_2)$, where $I$ is the current, and $\alpha_1$ and $\alpha_2$ are the semi-angles subtended by the solenoid's ends.  **[1]**
-- This formula results from summing contributions from each turn over the solenoid's length.  **[1]**
+- To convert electrical energy $H$ into calories, use $H = \frac{I^2Rt}{J}$, where $J = 4.2\ \text{J cal}^{-1}$.  **[1]**
+- This converts joules to calories based on the mechanical equivalent of heat.  **[1]**
+
+**Q6. [Fluid statics; 5 marks; teacher]** Calculate the work done in blowing a soap bubble of radius $3\ \text{cm}$ and determine the excess pressure inside it, given that the surface tension $T = 0.03\ \text{N m}^{-1}$. Additionally, explain how surface tension changes with temperature and the effect of detergents on it.
+
+Marking scheme:
+
+- The work done to blow a soap bubble of radius $3\ \text{cm}$ is $W = 8\pi R^2 T = 8\pi (0.03)^2 (0.03) = 2.26\times10^{-4}\ \text{J}$.  **[2]**
+- The excess pressure inside the bubble is $4T/R = 4(0.03)/(0.03) = 4\ \text{Pa}$.  **[2]**
+- Surface tension decreases with increasing temperature and is reduced by detergents.  **[1]**
 
 ## Chemistry - Class 11 (NEB)  (`chem11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.748)
 
-**Q1. [Hydrocarbons; 1 mark; teacher]** In the process of ozonolysis using zinc as a reagent, what is the primary role of zinc?
+**Q1. [Foundation and Fundamentals; 1 mark; computed]** How many molecules are present in $5\ \text{mol}$ of a substance? ($N_A = 6.022\times10^{23}\ \text{mol}^{-1}$)
 
-- (a) It destroys hydrogen peroxide which could otherwise oxidize the products further.
-- (b) It acts as a catalyst to speed up the reaction between ozone and the hydrocarbon.
-- (c) It increases the stability of the five-membered ozonide.
-- (d) It forms a protective layer over the hydrocarbons.
+- (a) $3.011\times10^{22}\ \text{molecules}$
+- (b) $6.022\times10^{24}\ \text{molecules}$
+- (c) $3.011\times10^{24}\ \text{molecules}$
+- (d) $3.011\times10^{23}\ \text{molecules}$
 
-Key: (a) It destroys hydrogen peroxide which could otherwise oxidize the products further. Why: Zinc is essential because it destroys the hydrogen peroxide that would otherwise oxidize the products further.
+Key: (c) $3.011\times10^{24}\ \text{molecules}$. Why: Number of particles $N = n\times N_A$ with $N_A = 6.022\times10^{23}\ \text{mol}^{-1}$. $N = nN_A = 5\times6.022\times10^{23}$ $N = 3.011\times10^{24}$
 
-**Q2. [Foundation and Fundamentals; 1 mark; computed]** How many molecules are present in $0.25\ \text{mol}$ of a substance? ($N_A = 6.022\times10^{23}\ \text{mol}^{-1}$)
+**Q2. [Modern Chemical Manufactures; 1 mark; teacher]** Why is a long purification train necessary in the production process involving vanadium(V) oxide as a catalyst?
 
-- (a) $1.506\times10^{22}\ \text{molecules}$
-- (b) $1.506\times10^{23}\ \text{molecules}$
-- (c) $3.011\times10^{23}\ \text{molecules}$
-- (d) $1.506\times10^{21}\ \text{molecules}$
+- (a) To increase the yield of the final product.
+- (b) To convert iron pyrites into iron oxide.
+- (c) To protect the vanadium(V) oxide catalyst from dust, moisture, and arsenic.
+- (d) To enhance the reactivity of the vanadium(V) oxide catalyst.
 
-Key: (b) $1.506\times10^{23}\ \text{molecules}$. Why: Number of particles $N = n\times N_A$ with $N_A = 6.022\times10^{23}\ \text{mol}^{-1}$. $N = nN_A = 0.25\times6.022\times10^{23}$ $N = 1.506\times10^{23}$
+Key: (c) To protect the vanadium(V) oxide catalyst from dust, moisture, and arsenic. Why: The long purification train exists to protect the vanadium(V) oxide catalyst from dust, moisture, and arsenic.
 
-**Q3. [Fundamental Principles of Organic Chemistry; 1 mark; teacher]** In chromatography, what does the retention factor ($R_f$) represent?
+**Q3. [Chemistry of Non-metals; 1 mark; teacher]** Why is ammonia ($\text{NH}_3$) collected by the downward displacement of air?
 
-- (a) The total distance travelled by the solvent front on the paper.
-- (b) The ratio of the distance travelled by the substance to the distance travelled by the solvent front.
-- (c) The difference in distances travelled by the substance and the solvent front.
-- (d) The rate at which the solvent carries the substance upwards.
+- (a) It reacts with air to form nitrogen oxides.
+- (b) It is denser than air.
+- (c) It is lighter than air.
+- (d) It is highly soluble in water.
 
-Key: (b) The ratio of the distance travelled by the substance to the distance travelled by the solvent front. Why: The retention factor $R_f$ is defined as the distance travelled by the substance divided by the distance travelled by the solvent front.
+Key: (c) It is lighter than air. Why: Ammonia is collected by the downward displacement of air because it is lighter than air.
 
-**Q4. [Chemistry of Non-metals; 1 mark; gold]** Sulphur dioxide is passed over a paper moistened with acidified potassium dichromate. The paper turns
+**Q4. [Hydrocarbons; 1 mark; teacher]** Which of the following is a method to produce alkynes?
 
-- (a) pink
-- (b) black
-- (c) green
-- (d) blue
+- (a) From $\text{Zn} + \text{HCl}$
+- (b) From $\text{NaOH} + \text{CH}_3\text{COOH}$
+- (c) From $\text{CaC}_2 + \text{H}_2\text{O}$
+- (d) From $\text{H}_2\text{SO}_4 + \text{Na}_2\text{CO}_3$
 
-Key: (c) green. Why: SO₂ reduces orange Cr(VI) to green Cr(III).
+Key: (c) From $\text{CaC}_2 + \text{H}_2\text{O}$. Why: The passage explicitly states that alkynes can be produced industrially from $\text{CaC}_2 + \text{H}_2\text{O}$.
 
-**Q5. [Chemical Bonding and Shapes of Molecules; 2 marks; gold]** Both BeF₂ and H₂O are triatomic, yet BeF₂ is linear and H₂O is bent. Explain.
-
-Marking scheme:
-
-- In BeF₂, $X = \frac{1}{2}(2+2) = 2$: beryllium has two bond pairs and no lone pair, so the pairs get as far apart as possible at 180° and the molecule is linear (sp).  **[2]**
-
-**Q6. [Modern Chemical Manufactures; 5 marks; gold]** a) HCl, b) excess $\text{Cl}_2$, c) $\text{CuSO}_4$ solution.
+**Q5. [Fundamental Principles of Organic Chemistry; 3 marks; teacher]** Explain why rotation around a carbon-carbon double bond is restricted and state the approximate energy required to break this bond.
 
 Marking scheme:
 
-- (a) $\text{NH}_3 + \text{HCl} \to \text{NH}_4\text{Cl}$ (white fumes).(b) $\text{NH}_3 + 3\text{Cl}_2 \to \text{NCl}_3 + 3\text{HCl}$ (excess chlorine); with excess ammonia, $8\text{NH}_3 + 3\text{Cl}_2 \to \text{N}_2 + 6\text{NH}_4\text{Cl}$.(c) $\text{CuSO}_4 + 4\text{NH}_3 \to [\text{Cu(NH}_3)_4]\text{SO}_4$ (deep blue; a pale blue precipitate of $\text{Cu(OH)}_2$ first).  **[5]**
+- Rotation around a C=C double bond is restricted because it contains a π bond.  **[1]**
+- Breaking this π bond requires disrupting the double bond.  **[1]**
+- The energy required to break this bond is approximately 250 kJ mol⁻¹.  **[1]**
+
+**Q6. [Chemical Bonding and Shapes of Molecules; 5 marks; teacher]** Using VSEPR theory, predict and explain the shape of $\text{H}_2\text{O}$ molecule. Account for its bond angle based on the presence of lone pairs. Include the number of lone pairs present on each atom.
+
+Marking scheme:
+
+- The $\text{H}_2\text{O}$ molecule has a bent shape due to the presence of two lone pairs on the oxygen atom.  **[2]**
+- Oxygen has six valence electrons; forming two bonds with hydrogen leaves four electrons as two lone pairs.  **[1]**
+- These lone pairs repel the bonding pairs, reducing the bond angle from ideal tetrahedral (109.5°) to approximately 104.5°.  **[1]**
+- The molecule has 2 lone pairs on the oxygen atom and no lone pairs on the hydrogen atoms.  **[1]**
 
 ## Chemistry - Class 12 (NEB)  (`chem12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 2.991)
 
-**Q1. [Alcohols; 1 mark; teacher]** Which of the following molecular formulas represents an alkyl halide among the given compounds P, Q, R, S, and T?
+**Q1. [Chemical Kinetics; 1 mark; teacher]** For the reaction $A + 2B \rightarrow C$, if the initial rates at 298 K suggest that doubling the concentration of A doubles the rate while doubling the concentration of B quadruples the rate, what is the overall order of the reaction?
 
-- (a) P = C₃H₇Br
-- (b) R = CH₂O
-- (c) S = C₂H₄O
-- (d) Q = C₆H₁₄
+- (a) 4
+- (b) 1
+- (c) 3
+- (d) 2
 
-Key: (a) P = C₃H₇Br. Why: C₃H₇Br is the only formula representing an alkyl halide among the given options.
+Key: (c) 3. Why: The reaction is first order with respect to A and second order with respect to B, making the overall order 3.
 
-**Q2. [Chemical Kinetics; 1 mark; teacher]** In a chemical reaction, if the energy of colliding molecules is exactly at the threshold energy, what additional quantity is necessary to initiate the reaction?
+**Q2. [Aldehydes and Ketones; 1 mark; teacher]** What is the common name for a 37-40% (w/v) aqueous solution of methanal?
 
-- (a) potential energy
-- (b) activation energy
-- (c) reactant energy
-- (d) kinetic energy
+- (a) Paraformaldehyde
+- (b) Methanol
+- (c) Formalin
+- (d) Acetaldehyde
 
-Key: (b) activation energy. Why: The activation energy is defined as the extra energy needed beyond the threshold energy to initiate a reaction.
+Key: (c) Formalin. Why: The passage explicitly defines formalin as a 37-40% (w/v) aqueous solution of methanal.
 
-**Q3. [Haloalkanes; 1 mark; teacher]** Which alkene is formed as the major product when a halogen is removed from carbon C3 in a haloalkane, due to its higher stability?
+**Q3. [Studies of Heavy Metals; 1 mark; teacher]** In the process of iron extraction from its oxide, what is the product formed when $\text{Fe}_2\text{O}_3$ reacts with carbon monoxide?
 
-- (a) But-1-ene
-- (b) But-2-ene
-- (c) Pent-2-ene
-- (d) Prop-1-ene
+- (a) $\text{Fe}_2\text{O}_3$
+- (b) $3\text{CO}$
+- (c) $2\text{Fe}$
+- (d) $3\text{CO}_2$
 
-Key: (b) But-2-ene. Why: But-2-ene is the more stable, more substituted alkene formed as the major product.
+Key: (c) $2\text{Fe}$. Why: The reaction produces iron as indicated by the equation $\text{Fe}_2\text{O}_3 + 3\text{CO} \Rightarrow 2\text{Fe} + 3\text{CO}_2$.
 
-**Q4. [Electrochemistry; 1 mark; computed]** A cell transfers $n = 3$ moles of electrons with $E^\circ_{\text{cell}} = 0.8\ \text{V}$. Calculate $\Delta G^\circ$ in kJ ($F = 96500\ \text{C mol}^{-1}$).
+**Q4. [Electrochemistry; 1 mark; computed]** A cell transfers $n = 3$ moles of electrons with $E^\circ_{\text{cell}} = 0.46\ \text{V}$. Calculate $\Delta G^\circ$ in kJ ($F = 96500\ \text{C mol}^{-1}$).
 
-- (a) $-116\ \text{kJ}$
-- (b) $-464\ \text{kJ}$
-- (c) $-232\ \text{kJ}$
-- (d) $-77.2\ \text{kJ}$
+- (a) $-66.5\ \text{kJ}$
+- (b) $-44.4\ \text{kJ}$
+- (c) $-133\ \text{kJ}$
+- (d) $-266\ \text{kJ}$
 
-Key: (c) $-232\ \text{kJ}$. Why: $\Delta G^\circ = -nFE^\circ_{\text{cell}}$. $\Delta G^\circ = -3\times 96500\times 0.8\ \text{J}$ $\Delta G^\circ = -232\ \text{kJ}$
+Key: (c) $-133\ \text{kJ}$. Why: $\Delta G^\circ = -nFE^\circ_{\text{cell}}$. $\Delta G^\circ = -3\times 96500\times 0.46\ \text{J}$ $\Delta G^\circ = -133\ \text{kJ}$
 
-**Q5. [Electrochemistry; 3 marks; gold]** a) What is a standard electrode potential? [1] b) Construct the galvanic cell notation, showing the anode and the cathode. [2]
-
-Marking scheme:
-
-- (a) The standard electrode potential of an electrode is its potential when it is in contact with a 1 M solution of its ions at 25 °C (and 1 atm for gases), measured against the standard hydrogen electrode whose potential is taken as zero.(b) Mg has the more negative potential, so it is the stronger reducing agent: Mg is the anode (oxidation) and Zn the cathode (reduction).  **[3]**
-
-**Q6. [Aldehydes and Ketones; 5 marks; gold]** a) Zn–Hg/conc. HCl, b) NH₂NH₂ followed by KOH in glycol, c) LiAlH₄, d) PCl₅, e) NaHSO₃.
+**Q5. [Haloalkanes; 3 marks; teacher]** Compare the reaction profiles of S(N)2 and S(N)1 reactions based on the presence of transition states and intermediates.
 
 Marking scheme:
 
-- (a) Clemmensen: propane, CH₃CH₂CH₃.(b) Wolff–Kishner: propane (via the hydrazone, with loss of N₂).(c) LiAlH₄: propan-2-ol, CH₃CH(OH)CH₃.(d) PCl₅: 2,2-dichloropropane, CH₃CCl₂CH₃ + POCl₃.(e) NaHSO₃: the white crystalline bisulphite addition compound, (CH₃)₂C(OH)SO₃Na.  **[5]**
+- S(N)2 reaction has one transition state and no intermediate, indicated by a single maximum in its profile.  **[2]**
+- S(N)1 reaction has two maxima separated by a minimum, where the minimum represents the carbocation intermediate.  **[1]**
+
+**Q6. [Electrochemistry; 5 marks; teacher]** Describe the operation of a Daniell cell (Zn(s) | Zn²⁺(1 M) || Cu²⁺(1 M) | Cu(s)), including the direction of electron flow and the role of the salt bridge. (5 Marks)
+
+Marking scheme:
+
+- In a Daniell cell, Zn acts as the anode and Cu as the cathode.  **[1]**
+- At the Zn anode, Zn(s) oxidizes to Zn²⁺(aq), releasing electrons.  **[1]**
+- These electrons flow through the external circuit to the Cu cathode where Cu²⁺(aq) is reduced to Cu(s).  **[1]**
+- The overall reaction is Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).  **[1]**
+- A salt bridge maintains electrical neutrality by allowing the movement of ions between the two half-cells, thus completing the circuit.  **[1]**
 
 ## Mathematics - Class 11 (NEB)  (`math11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 1.8675)
 
-**Q1. [Anti-derivatives; 1 mark; computed]** Evaluate $\displaystyle\int_{0}^{4}\left(9x^{2} + 4x\right)dx$.
+**Q1. [Curve Sketching; 1 mark; teacher]** Why does the graph of $y = \frac{1}{ax+b}$ not have an $x$-intercept?
 
-- (a) $224$
-- (b) $160$
-- (c) $256$
-- (d) $640$
+- (a) Because the vertical asymptote shifts the graph away from the x-axis.
+- (b) Because the horizontal asymptote is at $y=0$.
+- (c) Because the equation $\frac{1}{ax+b} = 0$ has no solution.
+- (d) Because the function's domain excludes zero.
 
-Key: (a) $224$. Why: By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{4}(9x^{2}+4x)dx = \left[\dfrac{9x^{3}}{3} + \dfrac{4x^{2}}{2}\right]_0^{4}$ $= 224$
+Key: (c) Because the equation $\frac{1}{ax+b} = 0$ has no solution. Why: The equation $\frac{1}{ax+b}=0$ has no solution because no value of $x$ can make the denominator infinite or undefined.
 
-**Q2. [Curve Sketching; 1 mark; teacher]** A function $f$ is said to be periodic with period $T>0$ if which of the following conditions holds true?
+**Q2. [Computational Methods; 1 mark; teacher]** In a linear programming problem, what term describes the function $Z = ax + by$ that needs to be maximised or minimised?
 
-- (a) $f(x+T)=2f(x)$ for all $x$
-- (b) $f(x+T)=f(x)$ for all $x$
-- (c) $f(x+T)>f(x)$ for all $x$
-- (d) $f(x+T)<f(x)$ for all $x$
+- (a) Constraint function
+- (b) Non-negativity function
+- (c) Objective function
+- (d) Optimization limit
 
-Key: (b) $f(x+T)=f(x)$ for all $x$. Why: The definition of a periodic function directly states that $f(x+T)=f(x)$ for all $x$.
+Key: (c) Objective function. Why: The term 'objective function' is used to describe the function that needs to be maximized or minimized in a linear programming problem.
 
-**Q3. [Vectors; 1 mark; gold]** Three vectors are coplanar if
+**Q3. [Trigonometric Equations and General Values; 1 mark; teacher]** Which equation represents the general solution for $\theta$ when considering the symmetry around $\alpha$ in trigonometric equations?
 
-- (a) they are all unit vectors
-- (b) one of them is a linear combination of the other two
-- (c) they are mutually perpendicular
-- (d) they have equal magnitudes
+- (a) $\frac{\theta - \alpha}{2} = m\pi + \frac{\pi}{2}$
+- (b) $\theta + \alpha = m\pi$
+- (c) $\frac{\theta + \alpha}{2} = m\pi$
+- (d) $\frac{\theta + \alpha}{2} = (m+1)\pi$
 
-Key: (b) one of them is a linear combination of the other two. Why: that is the condition for coplanarity.
+Key: (c) $\frac{\theta + \alpha}{2} = m\pi$. Why: The given passage directly states the general form involving the sum of $\theta$ and $\alpha$ divided by 2 equal to $m\pi$.
 
-**Q4. [Trigonometric Equations and General Values; 1 mark; teacher]** What trigonometric identity is used to express $\cos\theta + \cos 3\theta$ as $2\cos 2\theta\cos\theta$?
+**Q4. [Anti-derivatives; 1 mark; computed]** Evaluate $\displaystyle\int_{0}^{1}\left(6x^{2} + 2x\right)dx$.
 
-- (a) Half-angle identity
-- (b) Double angle formula
-- (c) Sum-to-product identity
-- (d) Product-to-sum identity
+- (a) $4$
+- (b) $8$
+- (c) $3$
+- (d) $1$
 
-Key: (c) Sum-to-product identity. Why: The sum-to-product identity allows converting sums of cosines into products, as shown in the expression.
+Key: (c) $3$. Why: By the power rule of integration $\displaystyle\int x^{n}dx = \dfrac{x^{n+1}}{n+1}$. $\displaystyle\int_0^{1}(6x^{2}+2x)dx = \left[\dfrac{6x^{3}}{3} + \dfrac{2x^{2}}{2}\right]_0^{1}$ $= 3$
 
-**Q5. [Inverse Circular Functions; 3 marks; teacher]** Prove that $2\tan^{-1}\frac{1}{3}+\tan^{-1}\frac{1}{7}=\frac{\pi}{4}$.
-
-Marking scheme:
-
-- Let $x=\tan^{-1}\frac{1}{3}$, then $\tan x=\frac{1}{3}$.  **[1]**
-- Using double angle formula, $\tan 2x=\frac{2\tan x}{1-\tan^2 x}=\frac{2\cdot\frac{1}{3}}{1-(\frac{1}{3})^2}=\frac{3}{4}$.  **[1]**
-- Let $y=\tan^{-1}\frac{1}{7}$, so $\tan y=\frac{1}{7}$.  **[1]**
-
-**Q6. [Anti-derivatives; 5 marks; teacher]** Evaluate the integral $\int\frac{2x+1}{(x-1)(x^{2}+1)}\,dx$ using partial fractions, clearly stating the form of the decomposition and justifying it.
+**Q5. [Vectors; 3 marks; teacher]** Define coplanar vectors using the formula $\vec{c} = x\vec{a}+y\vec{b}$ and explain their relationship to spanning planes.
 
 Marking scheme:
 
-- To evaluate $\int\frac{2x+1}{(x-1)(x^{2}+1)}\,dx$, decompose into partial fractions as $\frac{A}{x-1} + \frac{Bx+C}{x^2+1}$.  **[1]**
-- This form is chosen because $(x-1)$ and $(x^2+1)$ are distinct irreducible factors of the denominator.  **[1]**
-- Multiplying both sides by $(x-1)(x^2+1)$ gives $2x+1 = A(x^2+1) + (Bx+C)(x-1)$.  **[1]**
-- Solving for coefficients $A$, $B$, and $C$ yields $A=1$, $B=-1$, and $C=2$.  **[1]**
-- Thus, the integral becomes $\int\left(\frac{1}{x-1} + \frac{-x+2}{x^2+1}\right)dx$.  **[1]**
+- Coplanar vectors satisfy $\vec{c} = x\vec{a}+y\vec{b}$, indicating $\vec{c}$ lies within the plane defined by $\vec{a}$ and $\vec{b}$.  **[2]**
+- Two non-collinear vectors span a plane, meaning any vector in this plane can be expressed as a linear combination of these two vectors.  **[1]**
+
+**Q6. [Inverse Circular Functions; 5 marks; teacher]** Explain the value of $\sin^{-1}\left(\sin\dfrac{2\pi}{3}\right)$ and discuss why the result is $\dfrac{\pi}{3}$ instead of $\dfrac{2\pi}{3}$. Also, describe how the graph of $\sin^{-1}x$ relates to the graph of $\sin x$.
+
+Marking scheme:
+
+- The value of $\sin^{-1}\left(\sin\dfrac{2\pi}{3}\right)$ equals $\dfrac{\pi}{3}$ because $\sin^{-1}x$ returns an angle in the range $[-\dfrac{\pi}{2}, \dfrac{\pi}{2}]$.  **[2]**
+- Since $\sin\dfrac{2\pi}{3}=\dfrac{\sqrt{3}}{2}$, $\sin^{-1}\dfrac{\sqrt{3}}{2}=\dfrac{\pi}{3}$ as it lies within this range.  **[2]**
+- The graph of $\sin^{-1}x$ is the reflection of the $\sin x$ graph over the line $y=x$, due to the inverse relationship where input and output values interchange roles.  **[1]**
 
 ## Mathematics - Class 12 (NEB)  (`math12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 1.9087)
 
-**Q1. [Derivatives; 1 mark; teacher]** What is the derivative of $\sinh x$?
+**Q1. [Complex Numbers; 1 mark; teacher]** What term describes the $n$ values $1, w, \ldots, w^{n-1}$ where $w = \cos\dfrac{2\pi}{n} + i\sin\dfrac{2\pi}{n}$?
 
-- (a) $\frac{d}{dx}\sinh x = \cosh x$
-- (b) $\frac{d}{dx}\sinh x = \sinh x$
-- (c) $\frac{d}{dx}\sinh x = \frac{e^x - e^{-x}}{2}$
-- (d) $\frac{d}{dx}\sinh x = -\cosh x$
+- (a) Euler's formula
+- (b) Polar coordinates
+- (c) $n^{\text{th}}$ roots of unity
+- (d) Complex conjugates
 
-Key: (a) $\frac{d}{dx}\sinh x = \cosh x$. Why: The derivative of $\sinh x$ is defined as $\cosh x$ according to the hyperbolic function derivatives.
+Key: (c) $n^{\text{th}}$ roots of unity. Why: The passage defines these specific values as the $n^{\text{th}}$ roots of unity.
 
-**Q2. [Complex Numbers; 1 mark; teacher]** A projectile is launched with an initial velocity $u$ at an angle $\theta$ to the horizontal. If the time of flight is $10$ seconds, the maximum height reached is $125$ meters, and the range is $866$ meters, what is the value of the time of flight $T$?
+**Q2. [Anti-derivatives; 1 mark; teacher]** What is the area $A$ under the curve $x = y^2$ from $y=0$ to $y=2$ when integrating with respect to $y$?
 
-- (a) $5$ s
-- (b) $10$ s
-- (c) $125$ m
-- (d) $866$ m
+- (a) $\frac{4}{3}$
+- (b) $\frac{16}{3}$
+- (c) $\frac{8}{3}$
+- (d) $\frac{2}{3}$
 
-Key: (b) $10$ s. Why: The time of flight $T$ is directly given as $10$ seconds in the problem statement.
+Key: (c) $\frac{8}{3}$. Why: The integral $\int_0^2 y^2\,dy$ evaluates to $\frac{8}{3}$.
 
-**Q3. [Product of Vectors; 1 mark; computed]** Find the scalar product of $\vec{a} = 2\hat{i} + 1\hat{j} + 6\hat{k}$ and $\vec{b} = 3\hat{i} + 1\hat{j} + 4\hat{k}$.
+**Q3. [Conic Sections; 1 mark; teacher]** A circle has the equation $x^{2}+y^{2}-8x+6y-11 = 0$. What is the center of this circle?
 
-- (a) $144$
-- (b) $31$
-- (c) $17$
-- (d) $24$
+- (a) (8,6)
+- (b) (3,-4)
+- (c) (4,-3)
+- (d) (4,3)
 
-Key: (b) $31$. Why: The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 2\times3+1\times1+6\times4$ $\vec{a}\cdot\vec{b} = 31$
+Key: (c) (4,-3). Why: The center of the circle is found by completing the square for the given equation, resulting in the center at (4,-3).
 
-**Q4. [Conic Sections; 1 mark; teacher]** What condition determines that a line touches a circle at exactly one point?
+**Q4. [Product of Vectors; 1 mark; computed]** Find the scalar product of $\vec{a} = 2\hat{i} + 4\hat{j} + 2\hat{k}$ and $\vec{b} = 4\hat{i} + 4\hat{j} + 2\hat{k}$.
 
-- (a) Circumference equals area
-- (b) Radius equals diameter
-- (c) Discriminant is zero
-- (d) Slope is undefined
+- (a) $24$
+- (b) $18$
+- (c) $28$
+- (d) $20$
 
-Key: (c) Discriminant is zero. Why: The line touches the circle when the discriminant is zero.
+Key: (c) $28$. Why: The scalar product is $\vec{a}\cdot\vec{b} = a_1b_1 + a_2b_2 + a_3b_3$. $\vec{a}\cdot\vec{b} = a_1b_1+a_2b_2+a_3b_3 = 2\times4+4\times4+2\times2$ $\vec{a}\cdot\vec{b} = 28$
 
-**Q5. [Matrix Based System of Linear Equations; 3 marks; teacher]** Solve the system of linear equations using the Gauss method: $x + 2y + z = 8$, $2x + 3y - z = 5$, $3x - y + 2z = 7$. Express the system in terms of the coefficient matrix $A$, the column of unknowns $X$, and the column of constants $B$. Provide the solution.
-
-Marking scheme:
-
-- The system is expressed as $AX = B$, where $A = \begin{pmatrix}1 & 2 & 1 \\ 2 & 3 & -1 \\ 3 & -1 & 2\end{pmatrix}$, $X = \begin{pmatrix}x \\ y \\ z\end{pmatrix}$, and $B = \begin{pmatrix}8 \\ 5 \\ 7\end{pmatrix}$.  **[2]**
-- Using the Gauss method, the solution is $x=2$, $y=1$, $z=3$.  **[1]**
-
-**Q6. [Anti-derivatives; 5 marks; gold]** a) Define a proper rational fraction with an example. [1] b) Integrate $\displaystyle\int\frac{2x^{2}+3}{x^{3}+3x^{2}+2x}\,dx$ using partial fractions. [4] (NEB 2079)
+**Q5. [Product of Vectors; 2 marks; teacher]** Given a circle with center $O$ and radius $r$, where $O$ is the origin and $\vec{OB} = \vec{r}$, if $AB$ is a diameter, prove that $\angle ACB$ is a right angle for any point $C$ on the circle.
 
 Marking scheme:
 
-- (a) A rational fraction $\dfrac{f(x)}{g(x)}$ is proper if the degree of the numerator is less than the degree of the denominator, for example $\dfrac{x+1}{x^{2}+3x+2}$.(b) The denominator factorises: $x^{3}+3x^{2}+2x=x(x+1)(x+2)$.  **[3]**
-- The fraction is proper, so  **[2]**
+- Since $AB$ is the diameter, $\angle ACB$ subtends the semicircle. 2.  **[1]**
+- By the inscribed angle theorem, any angle subtending a semicircle is a right angle, thus $\angle ACB = 90^\circ$.  **[1]**
+
+**Q6. [Conic Sections; 5 marks; gold]** a) Find the foci and the centre of the hyperbola $9x^{2}-16y^{2}-144=0$. [2] b) A parabolic reflector is $20$ cm in diameter and $5$ cm deep. Find the position of its focus. [3] (NEB 2080 Q21a; NEB 2081 Q4)
+
+Marking scheme:
+
+- (a) Divide by $144$: $\dfrac{x^{2}}{16}-\dfrac{y^{2}}{9}=1$.  **[2]**
+- So $a=4$, $b=3$, $c=\sqrt{16+9}=5$, and the centre is the origin.  **[1]**
+- Foci: $(\pm5,\,0)$.(b) Place the vertex at the origin and the axis along the $y$-axis: $x^{2}=4ay$.  **[1]**
+- The rim of the reflector is $10$ cm from the axis and $5$ cm from the vertex, so $(10,5)$ lies on the parabola:  **[1]**
 
 ## Computer Science - Class 11 (NEB)  (`cs11`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.5669)
 
-**Q1. [Web Technology I; 1 mark; teacher]** Which protocol is used by browsers to send requests to servers?
+**Q1. [Computer System; 1 mark; teacher]** How quickly can a computer system process the grading of marks for a large number of students compared to manual methods?
 
-- (a) HTTP
-- (b) SMTP
-- (c) TCP
-- (d) FTP
+- (a) In weeks
+- (b) In days
+- (c) In minutes
+- (d) In hours
 
-Key: (a) HTTP. Why: The passage explicitly mentions that the browser sends an HTTP request to the server.
+Key: (c) In minutes. Why: Computers can sort and grade marks of lakhs of students in minutes, whereas manual methods took many days.
 
-**Q2. [Computer System; 1 mark; teacher]** Which of the following is an application of computers in telemedicine as described?
+**Q2. [Multimedia; 1 mark; teacher]** Why does silence in an audio waveform appear as a thin line?
 
-- (a) Coordinating public transportation schedules
-- (b) A health worker in a remote area consulting a specialist via video call
-- (c) Managing financial transactions in rural banks
-- (d) Monitoring weather patterns using satellite data
+- (a) Because the horizontal axis represents time, and silence lasts for a short duration.
+- (b) Because silence creates a uniform noise pattern that is depicted as a thin line.
+- (c) Because the vertical axis represents the loudness of the sample, and silence has minimal loudness.
+- (d) Because the waveform compresses silent intervals into thinner lines to save space.
 
-Key: (b) A health worker in a remote area consulting a specialist via video call. Why: The passage explicitly mentions telemedicine for remote consultations with specialists over video calls.
+Key: (c) Because the vertical axis represents the loudness of the sample, and silence has minimal loudness. Why: The vertical axis is the loudness of the sample, and silence corresponds to minimal loudness, showing as a thin line.
 
-**Q3. [Programming Concepts and Logics; 1 mark; computed]** Convert the binary number $11111_{2}$ to decimal.
+**Q3. [Computer Software and Operating System; 1 mark; teacher]** Which of the following statements correctly describes the primary purpose of application software?
+
+- (a) It is a sub-class of system software.
+- (b) It runs the machine efficiently.
+- (c) It is written to solve a user's problem.
+- (d) It is what a user notices most.
+
+Key: (c) It is written to solve a user's problem. Why: Application software is written to solve a user's problem.
+
+**Q4. [Programming Concepts and Logics; 1 mark; computed]** Convert the binary number $10100_{2}$ to decimal.
 
 - (a) $5$
-- (b) $31$
-- (c) $32$
-- (d) $62$
+- (b) $40$
+- (c) $20$
+- (d) $2$
 
-Key: (b) $31$. Why: A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $1\times16+1\times8+1\times4+1\times2+1\times1$ $= 31$
+Key: (c) $20$. Why: A binary number $b_4b_3b_2b_1b_0$ has the decimal value $16b_4+8b_3+4b_2+2b_1+b_0$ (place values are powers of two). $1\times16+0\times8+1\times4+0\times2+0\times1$ $= 20$
 
-**Q4. [Computer Software and Operating System; 1 mark; gold]** Which of the following is NOT a function of an operating system?
-
-- (a) device management
-- (b) file management
-- (c) designing web pages
-- (d) memory management
-
-Key: (c) designing web pages. Why: designing pages is the job of application tools, not of the OS.
-
-**Q5. [Number System and Boolean Logic; 2 marks; teacher]** Describe the outputs of a half adder when it adds two single bits.
+**Q5. [Programming Concepts and Logics; 2 marks; teacher]** Calculate the difference between the ASCII values of 'K' and 'V'. What is the result?
 
 Marking scheme:
 
-- A half adder outputs two values: the sum, which is the XOR of the inputs ($A \oplus B$), and the carry, which is the AND of the inputs ($A \cdot B$).  **[2]**
+- The ASCII value of 'K' is 75 and 'V' is 86.  **[1]**
+- The difference is $75 - 86 = -11$.  **[1]**
 
-**Q6. [Multimedia; 5 marks; teacher]** Explain the concept of path animation and provide an example. Additionally, list any two software tools used for video editing and briefly describe the difference between 2D and 3D animation.
+**Q6. [Number System and Boolean Logic; 5 marks; teacher]** Explain how subtraction can be performed using an adder in a CPU and describe the operation of NAND and NOR gates, mentioning their universality. Include how to convert from octal to hexadecimal via binary.
 
 Marking scheme:
 
-- Path animation involves an object following a predefined path, such as a bus moving along a road in a presentation.  **[2]**
-- Video editing software includes Adobe Premiere Pro and Kdenlive.  **[2]**
-- In 2D animation, flat drawings are used to create movement, whereas 3D animation utilizes models that are rendered with lighting and depth, as seen in modern films and games.  **[1]**
+- Subtraction in a CPU uses an adder by converting the subtrahend to its two's complement.  **[1]**
+- For example, subtracting 0110 (6) from 1101 (13) involves adding the two's complement of 0110, which is 1010, to 1101, yielding 0111 (7), discarding the carry-out.  **[1]**
+- NAND performs AND then NOT, while NOR does OR followed by NOT.  **[1]**
+- Both are universal gates as they can replicate any logic function.  **[1]**
+- To convert octal to hexadecimal, first change each octal digit to a 3-bit binary form, regroup into sets of four bits, and then convert each group to its hexadecimal equivalent.  **[1]**
 
 ## Computer Science - Class 12 (NEB)  (`cs12`, 10,203,840 params, INT8 ONNX 10.73 MB, held-out loss 3.8339)
 
-**Q1. [Software Process Model; 1 mark; teacher]** What economic principle supports the use of reviews, writing a good SRS, and iterative models in software development?
+**Q1. [Database Management System; 1 mark; teacher]** Why is it important to store and transmit data as ciphertext in a database management system?
 
-- (a) The earlier a defect is found, the cheaper it is to remove.
-- (b) Iterative models reduce the need for thorough reviews.
-- (c) Defects increase the availability and efficiency of the software.
-- (d) The more defects found, the higher the cost of the project.
+- (a) To allow for easier transmission of data over long distances without loss.
+- (b) To increase the storage capacity of the database by compressing the data.
+- (c) To ensure that if data is stolen or intercepted, it remains unusable to unauthorized parties.
+- (d) To speed up the backup and recovery process by encrypting data.
 
-Key: (a) The earlier a defect is found, the cheaper it is to remove. Why: This statement directly reflects the economic argument mentioned in support of specific practices in software development.
+Key: (c) To ensure that if data is stolen or intercepted, it remains unusable to unauthorized parties. Why: Encryption ensures stolen disks or sniffed packets are useless, which aligns with the answer provided.
 
-**Q2. [Database Management System; 1 mark; teacher]** Which rule ensures that data remains correct and accurate by enforcing uniqueness?
+**Q2. [Recent Trends in Technology; 1 mark; teacher]** Which technology involves entering a computer-generated, three-dimensional environment where users can interact using a head-mounted display and sensors?
 
-- (a) Constraints
-- (b) Primary keys
-- (c) Foreign keys
-- (d) Data types
+- (a) Augmented reality
+- (b) Holography
+- (c) Virtual reality
+- (d) 3D Projection
 
-Key: (b) Primary keys. Why: Primary keys uniquely identify each record in a database table.
+Key: (c) Virtual reality. Why: The passage defines Virtual reality as a computer-generated, three-dimensional environment that the user can enter and interact with using a head-mounted display and sensors.
 
-**Q3. [Object-Oriented Programming; 1 mark; teacher]** Which type of program is best suited for a procedural approach?
+**Q3. [Web Technology II; 1 mark; teacher]** What type of programming language is used to connect to a MySQL database and retrieve records as described?
 
-- (a) A banking transaction system
-- (b) A Celsius-to-Fahrenheit converter
-- (c) A school management system
-- (d) A hospital patient record system
+- (a) Java
+- (b) JavaScript
+- (c) PHP
+- (d) Python
 
-Key: (b) A Celsius-to-Fahrenheit converter. Why: The passage explicitly states that a Celsius-to-Fahrenheit converter needs only one function and is best written procedurally.
+Key: (c) PHP. Why: The passage explicitly mentions using a PHP program to connect to the MySQL database.
 
-**Q4. [Data Communication and Networking; 1 mark; computed]** What is the minimum number of bits needed to represent $1000$ different values?
+**Q4. [Data Communication and Networking; 1 mark; computed]** What is the minimum number of bits needed to represent $500$ different values?
 
-- (a) $125\ \text{bits}$
-- (b) $1000\ \text{bits}$
-- (c) $10\ \text{bits}$
-- (d) $3\ \text{bits}$
+- (a) $8\ \text{bits}$
+- (b) $63\ \text{bits}$
+- (c) $9\ \text{bits}$
+- (d) $500\ \text{bits}$
 
-Key: (c) $10\ \text{bits}$. Why: $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 1000\rceil$ $k = 10\ \text{bits}$
+Key: (c) $9\ \text{bits}$. Why: $k$ bits can represent $2^k$ values, so $k = \lceil\log_2 n\rceil$. $k = \lceil\log_2 500\rceil$ $k = 9\ \text{bits}$
 
-**Q5. [Data Communication and Networking; 3 marks; teacher]** Explain the purpose of the OSI model and the process of data transmission through its layers.
-
-Marking scheme:
-
-- The OSI model, published by ISO in 1984, ensures interoperability between different systems by dividing network communication into seven layers.  **[2]**
-- Data travels down these layers at the sender, each layer adding a header (encapsulation), then across the medium, and up the layers at the receiver.  **[1]**
-
-**Q6. [Recent Trends in Technology; 5 marks; teacher]** Explain how virtualization enables cloud services like SaaS and provide an example of IoT application in home automation. Include benefits of this technology in your answer.
+**Q5. [Object-Oriented Programming; 3 marks; teacher]** Explain how the concepts of inheritance and polymorphism are demonstrated in the given examples from the textbook.
 
 Marking scheme:
 
-- Virtualization splits one physical server into multiple virtual machines or containers, underpinning cloud services such as SaaS where providers manage all infrastructure, allowing customers to manage only their data.  **[2]**
-- An IoT application in home automation involves connecting devices like lights, locks, fans, and cameras to a smartphone for remote control, saving electricity and enhancing security.  **[2]**
-- Benefits include efficient resource utilization, cost reduction, and improved accessibility and safety.  **[1]**
+- Inheritance: Student class inherits name and show() from Person, adding roll.  **[2]**
+- Polymorphism: Area class uses function overloading with find() for circles and rectangles based on parameter count.  **[1]**
+
+**Q6. [Data Communication and Networking; 5 marks; teacher]** Explain the concept of subnetting within a class C IP address block using a block size of 64. Additionally, define IP address, subnet mask, gateway, and MAC address.
+
+Marking scheme:
+
+- Subnetting a class C block with a size of 64 yields subnets starting at 0, 64, 128, and 192 ($4 \times 64 = 256$).  **[1]**
+- An IP address uniquely identifies devices on a network.  **[1]**
+- A subnet mask divides an IP address into network and host parts.  **[1]**
+- A gateway routes traffic between networks.  **[1]**
+- A MAC address is a unique identifier for a network interface.  **[1]**
