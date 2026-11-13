@@ -1,21 +1,10 @@
 {
  "pack": "bio12",
- "bank_in": 1731,
- "bank_kept": 1574,
- "dropped": 157,
- "reasons": {
-  "topic_mashup": 74,
-  "leaked_context": 40,
-  "answer_giveaway": 22,
-  "needs_figure": 12,
-  "meta_exam_question": 7,
-  "stem_fragment": 4,
-  "dup_option": 1,
-  "empty_or_tiny_stem": 1,
-  "answer_misses_part": 1,
-  "orphan_stem": 1
- },
- "mcq": 1214,
+ "bank_in": 1571,
+ "bank_kept": 1571,
+ "dropped": 0,
+ "reasons": {},
+ "mcq": 1211,
  "written": 360,
  "units": 10
 }

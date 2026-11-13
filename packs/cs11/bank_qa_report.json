@@ -1,25 +1,12 @@
 {
  "pack": "cs11",
- "bank_in": 1431,
- "bank_kept": 1279,
- "dropped": 152,
+ "bank_in": 1279,
+ "bank_kept": 1278,
+ "dropped": 1,
  "reasons": {
-  "leaked_context": 59,
-  "topic_mashup": 50,
-  "answer_giveaway": 26,
-  "arithmetic_error": 11,
-  "no_answer": 5,
-  "truncated_answer": 5,
-  "needs_figure": 5,
-  "stem_fragment": 2,
-  "dangling_pronoun_option": 2,
-  "dup_option": 1,
-  "empty_or_tiny_stem": 1,
-  "orphan_stem": 1,
-  "option_ref": 1,
-  "meta_exam_question": 1
+  "leaked_context": 1
  },
  "mcq": 1062,
- "written": 217,
+ "written": 216,
  "units": 8
 }

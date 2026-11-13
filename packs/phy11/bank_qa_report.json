@@ -1,23 +1,12 @@
 {
  "pack": "phy11",
- "bank_in": 2075,
- "bank_kept": 1884,
- "dropped": 191,
+ "bank_in": 1881,
+ "bank_kept": 1878,
+ "dropped": 3,
  "reasons": {
-  "leaked_context": 75,
-  "topic_mashup": 51,
-  "answer_giveaway": 27,
-  "needs_figure": 26,
-  "stem_fragment": 5,
-  "empty_or_tiny_stem": 3,
-  "orphan_stem": 3,
-  "dangling_pronoun_option": 2,
-  "dup_option": 2,
-  "ungrounded_referent": 2,
-  "answer_misses_part": 1,
-  "option_length_skew": 1
+  "leaked_context": 3
  },
- "mcq": 1539,
- "written": 345,
+ "mcq": 1535,
+ "written": 343,
  "units": 26
 }

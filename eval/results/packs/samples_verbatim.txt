@@ -1,84 +1,420 @@
 
-##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5011,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/10","duplicates":0,"bank_size":1098,"bank_mcq":822,"bank_short":276,"seconds":22.2}
+##### bio12 (Biology - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.508,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/10","duplicates":0,"bank_size":1571,"bank_mcq":1211,"bank_short":360,"seconds":12.8}
 
-[Biomolecules and Cell Biology] MCQ <gold>
-Q. Crossing over between non-sister chromatids occurs during
-  a) leptotene
-  b) diakinesis
-  c) zygotene
-  d) pachytene
-Key: d  Why: pachytene, when the bivalent has four chromatids and recombination nodules appear.
+[Plant Physiology] MCQ <gold>
+Q. The water potential of pure water at standard temperature and atmospheric pressure is:
+  a) zero
+  b) equal to its osmotic pressure
+  c) $-1$ MPa
+  d) $+1$ MPa
+Key: a  Why: pure free water is the reference state, defined as zero.
 
-[Biota and Environment] MCQ <teacher>
-Q. Which of the following best describes insight learning?
-  a) Solving a new problem by reasoning
-  b) Memorizing the solution to a problem
-  c) Imitating the actions of others
-  d) Learning through repeated mistakes
-Key: a  Why: The passage defines insight learning as solving a new problem by reasoning.
+[Applied Biology] MCQ <gold>
+Q. In the Ziehl–Neelsen stain, acid-fast bacilli appear
+  a) colourless
+  b) red on a blue ground
+  c) blue on a red ground
+  d) purple on a pink ground
+Key: b  Why: carbol fuchsin is retained through acid-alcohol; methylene blue counterstains everything else.
 
-[Floral Diversity] MCQ <teacher>
-Q. In the life cycle of plants, which process directly results in doubling the chromosome number?
-  a) Production of spores by meiosis
-  b) Fusion of gametes at fertilization
-  c) Mitosis in the gametophyte
-  d) Development of gametophyte
-Key: b  Why: The fusion of gametes at fertilization doubles the chromosome number to form the sporophyte.
+[Genetics] MCQ <gold>
+Q. Raphanobrassica is an example of
+  a) allopolyploidy
+  b) monosomy
+  c) trisomy
+  d) autopolyploidy
+Key: a  Why: it combines the sets of two species, Raphanus sativus and Brassica oleracea.
 
-[Faunal Diversity] MCQ <gold>
-Q. Stinging cells called cnidoblasts occur in
-  a) Porifera
-  b) Echinodermata
-  c) Cnidaria
-  d) Annelida
-Key: c  Why: cnidoblasts containing nematocysts, used for capture and defence; they name the phylum.
+[Human Biology] MCQ <teacher>
+Q. What process involves the movement of glucose, galactose, and amino acids into the blood capillaries against their concentration gradient?
+  a) passive transport
+  b) osmosis
+  c) active transport
+  d) facilitated diffusion
+Key: c  Why: Active transport requires energy in the form of ATP and uses a Na⁺ co-transporter to move substances against their concentration gradient.
+
+[Animal Tissues] 3-mark <teacher>
+Q. Describe the structure of bone tissue in mammals, focusing on the arrangement of osteocytes and their communication within compact bone.
+Model answer: Osteocytes in mammalian compact bone reside in lacunae, interconnected by canaliculi. These channels facilitate communication between osteocytes and provide a connection to the blood supply. The bone tissue is organized into cylindrical structures.
+
+[Developmental Biology] 3-mark <teacher>
+Q. Describe the process of gastrulation in the coeloblastula and the formation of germ layers during development.
+Model answer: Gastrulation in coeloblastula involves epiboly and emboly, transforming the blastocoel into an archenteron. The blastopore closes with a yolk plug, forming three germ layers: ectoderm, mesoderm, and endoderm. These layers develop into all body organs.
+
+##### phy11 (Physics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.0935,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/26","duplicates":0,"bank_size":1878,"bank_mcq":1535,"bank_short":343,"seconds":21.3}
+
+[Physical Quantities] MCQ <gold>
+Q. If $Z = A^{2}B^{3}/C$ and the percentage errors in $A$, $B$ and $C$ are $1\%$, $2\%$ and $3\%$, the percentage error in $Z$ is
+  a) $8\%$
+  b) $11\%$
+  c) $10\%$
+  d) $6\%$
+Key: b  Why: $2(1) + 3(2) + 1(3) = 11\%$. (c) from forgetting the $C$ term.
+
+[Nuclear physics] MCQ <gold>
+Q. The difference between the sum of the masses of the free nucleons and the mass of the nucleus is called the
+  a) atomic mass
+  b) packing fraction
+  c) binding energy
+  d) mass defect
+Key: d  Why: the binding energy is that defect multiplied by $c^{2}$
+
+[Dynamics] MCQ <teacher>
+Q. When two objects collide and separate, what is true about their interaction time and final velocities?
+  a) Their velocities become equal after touching for time $t$.
+  b) They touch for a short time $t$ and then separate with velocities $v_1$ and $v_2$.
+  c) They remain in contact indefinitely with constant velocities $v_1$ and $v_2$.
+  d) They exchange velocities instantly without any contact time.
+Key: b  Why: The passage explicitly states the objects touch for a short time and separate with distinct velocities.
+
+[DC Circuits] MCQ <teacher>
+Q. In a parallel circuit with resistors of $3\ \Omega$ and $6\ \Omega$, what is the equivalent resistance?
+  a) $18\ \Omega$
+  b) $2\ \Omega$
+  c) $9\ \Omega$
+  d) $4.5\ \Omega$
+Key: b  Why: The formula for parallel resistance correctly calculates the equivalent resistance as $2\ \Omega$.
+
+[Reflection at curved mirror] 3-mark <teacher>
+Q. Given a concave spherical mirror with $u=-30\ \text{cm}$ and $f=-20\ \text{cm}$, calculate the image distance $v$. Use the mirror formula to show your calculations.
+Model answer: Using the mirror formula $\dfrac1v=\dfrac1f-\dfrac1u$, substitute $f=-20\ \text{cm}$ and $u=-30\ \text{cm}$. This gives $\dfrac1v=-\dfrac1{20}+\dfrac1{30}=-\dfrac1{60}$. Therefore, $v=-60\ \text{cm}$. The image is formed at $-60\ \text{cm}$ from the mirror.
+
+[Electric field] 2-mark <teacher>
+Q. Describe the three-step method for calculating the electric field using Gauss's Law.
+Model answer: The method involves: (i) identifying symmetry, (ii) selecting a Gaussian surface where $E$ is constant and aligned with $d\vec{A}$, (iii) applying $EA = q_{enc}/\varepsilon_0$.
+
+##### bio11 (Biology - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.4911,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/10","duplicates":0,"bank_size":1529,"bank_mcq":1166,"bank_short":363,"seconds":11.7}
+
+[Biomolecules and Cell Biology] MCQ <teacher>
+Q. What occurs if the M (spindle) checkpoint detects an irreparable fault in chromosome attachment during cell division?
+  a) The cell is destroyed by programmed cell death (apoptosis).
+  b) Cell division continues without interruption.
+  c) The cell cycle is paused indefinitely.
+  d) The damaged chromosomes are isolated within a vesicle.
+Key: a  Why: If the damage cannot be repaired the cell is destroyed by programmed cell death (apoptosis).
+
+[Biota and Environment] MCQ <gold>
+Q. The blubber of a whale or a seal is an adaptation for
+  a) reproduction
+  b) excretion
+  c) respiration
+  d) buoyancy and heat insulation
+Key: d  Why: a thick subcutaneous fat layer that insulates in cold water and makes the animal buoyant.
+
+[Floral Diversity] MCQ <gold>
+Q. A system of classification that uses one or a few arbitrarily chosen characters is called
+  a) phylogenetic
+  b) artificial
+  c) numerical
+  d) natural
+Key: b  Why: artificial, e.g. Linnaeus' sexual system based on stamen number.
+
+[Faunal Diversity] MCQ <teacher>
+Q. Why can the frog Rana tigrina be classified as an amphibian?
+  a) It has gills for breathing underwater.
+  b) It lays eggs on land only.
+  c) It can fly short distances.
+  d) It lives both in water and on land.
+Key: d  Why: The fact that the frog Rana tigrina lives both in water and on land proves it is an amphibian.
 
 [Ecology] 3-mark <teacher>
-Q. Explain the process of nitrification and how nitrogen is assimilated by plants and animals.
-Model answer: Nitrosomonas converts $NH_4^+$ to $NO_2^-$, then Nitrobacter converts $NO_2^-$ to $NO_3^-$, absorbed by plants. Plants use $NO_3^-$ to synthesize amino acids and proteins. Animals obtain nitrogen by consuming these plant-based proteins.
+Q. Describe the process of nitrification and how nitrogen is assimilated by plants and animals.
+Model answer: Nitrosomonas converts $NH_4^+$ to $NO_2^-$, followed by Nitrobacter converting $NO_2^-$ to $NO_3^-$, which plants absorb. Plants then assimilate nitrogen to form amino acids and proteins. Animals obtain nitrogen by consuming these plants.
 
-[Evolutionary Biology] 3-mark <teacher>
-Q. Explain how deviations from the Hardy–Weinberg equilibrium equation ($p^2 + 2pq + q^2 = 1$) indicate evolutionary changes in a population.
-Model answer: 1. Hardy–Weinberg equilibrium assumes no mutation, migration, selection, and random mating in a large population. 2. Deviations from genotype frequencies $p^2$, $2pq$, $q^2$ suggest these conditions are not met. 3. Such deviations signify the population is evolving.
+[Evolutionary Biology] 2-mark <teacher>
+Q. Who documented the evolutionary lineage of horses based on a nearly continuous fossil record in North America?
+Model answer: Marsh and Osborn documented the evolutionary lineage of horses using an almost unbroken North American fossil series.
 
-##### phy12 (Physics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.4074,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/25","duplicates":0,"bank_size":1390,"bank_mcq":1053,"bank_short":337,"seconds":51.6}
+##### phy12 (Physics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.1859,"slots":6,"neural_accepted":1,"neural_attempts":12,"neural_gate_rate":0.083,"bank_fallback":5,"empty":0,"units_covered":"6/25","duplicates":0,"bank_size":1855,"bank_mcq":1446,"bank_short":409,"seconds":17.1}
 
 [Rotational dynamics] MCQ <teacher>
-Q. What formula represents the rotational kinetic energy $E_k$?
-  a) $E_k = \frac{1}{2}m\omega^{2}$
-  b) $E_k = \frac{1}{2}I\omega^{2}$
-  c) $E_k = mgh$
-  d) $E_k = I\omega$
-Key: b  Why: The passage directly states the formula for rotational kinetic energy as $E_k = \frac{1}{2}I\omega^{2}$.
+Q. What is the formula for power in rotational dynamics, analogous to $P = Fv$ in linear motion?
+  a) $P = \tau v$
+  b) $P = I\alpha$
+  c) $P = \tau\omega$
+  d) $P = F\omega$
+Key: c  Why: The formula $P = \tau\omega$ directly represents the power in rotational dynamics as stated.
 
-[Magnetic field] MCQ <teacher>
-Q. According to Fleming's left-hand rule, what happens when two wires carrying currents in the same direction are placed near each other?
-  a) There is no interaction between them.
-  b) They rotate around each other.
-  c) They attract each other.
-  d) They repel each other.
-Key: c  Why: Currents in the same direction attract, as stated in the physics principle.
+[Magnetic field] MCQ <neural>
+Q. What is the expression for the magnetic field $B$ on the solenoid with $n$ turns per unit length $n$ turns and current $I$?
+  a) $B = \tfrac{1}{2}\mu_0 n I\right)^2$
+  b) Two long solenoid
+  c) $B = \mu\sin\alpha_1 n I\left( \sin\alpha_1 + \cos\alpha_2\right]_1^2$
+  d) $B = \mu_0 n I\left(\sin\alpha_1 + \sin\alpha_2\right)$
+Key: d  Why: The magnetic field inside a solenoid is directly provided in the formula provided.
 
 [Fluid statics] MCQ <teacher>
-Q. A container filled with water has a depth of $h$. If the density of water is $\rho$ and acceleration due to gravity is $g$, what is the absolute pressure at the bottom of the container if the atmospheric pressure at the surface is $P_0$?
-  a) $P = P_0 - h\rho g$
-  b) $P = h\rho g$
-  c) $P = \frac{P_0}{h\rho g}$
-  d) $P = P_0 + h\rho g$
-Key: d  Why: The absolute pressure at a depth in a fluid is given by the sum of the atmospheric pressure and the gauge pressure.
+Q. In fluid statics, what upward force expression balances the weight $\pi r^2 h \rho g$?
+  a) $\pi r h \rho g$
+  b) $4\pi r T \sin\theta$
+  c) $\pi r^2 T \cos\theta$
+  d) $2\pi r T \cos\theta$
+Key: d  Why: Answer: the upward pull $2\pi rT\cos\theta$ balances the weight $\pi r^{2}h\rho g$.
 
-[Thermoelectric effects] MCQ <gold>
-Q. Antimony and bismuth are chosen for a thermopile because
-  a) they are black
-  b) they melt at a high temperature
-  c) they are cheap
-  d) they lie at opposite ends of the thermoelectric series
-Key: d  Why: the widest separation in the series gives the largest thermo-e.m.f.
+[Thermoelectric effects] MCQ <teacher>
+Q. A thermocouple has a Seebeck coefficient $\alpha = 25\ \mu\text{V}\,^\circ\text{C}^{-1}$ and a quadratic term $\frac{1}{2}\beta = -0.05$. What is the value of $\beta$?
+  a) $0.1\ \mu\text{V}\,^\circ\text{C}^{-2}$
+  b) $-0.1\ \mu\text{V}\,^\circ\text{C}^{-2}$
+  c) $25\ \mu\text{V}\,^\circ\text{C}^{-2}$
+  d) $-0.05\ \mu\text{V}\,^\circ\text{C}^{-2}$
+Key: b  Why: The provided values directly lead to calculating $\beta = -0.1\ \mu\text{V}\,^\circ\text{C}^{-2}$.
 
-[Polarization] 2-mark <gold>
-Q. Unpolarized light of intensity $I_0$ is passed through three Polaroids. The first and the third are crossed and the second makes an angle $\theta$ with the first. Show that the emergent intensity is $\frac{I_0}{8}\sin^{2}2\theta$, and find the value of $\theta$ for which it is maximum.
-Model answer: After the first Polaroid, $I_1 = I_0/2$. After the second, $I_2 = \frac{I_0}{2}\cos^{2}\theta$. The third is at $(90^\circ - \theta)$ to the second, so
+[Polarization] 3-mark <teacher>
+Q. Explain the relationship between the polarizing angle ($\theta_p$) and the refractive index (n) when light travels from a rarer to a denser medium, and identify which beam is polarized.
+Model answer: The polarizing angle $\theta_p$ is related to the refractive index n by $\theta_p = \tan^{-1}n$. This angle is also known as the Brewster angle. When light moves from a rarer to a denser medium, the reflected beam becomes polarized.
 
 [Electrical circuits] 3-mark <teacher>
-Q. Given the circuit segments along $ABD$ and $BCD$ with relations $I_1P = I_2R$ and $I_1Q = I_2S$, explain how knowing any three resistances allows calculation of the fourth. Additionally, define a superconductor and state the Meissner effect.
-Model answer: Knowing any three resistances in $I_1P = I_2R$ and $I_1Q = I_2S$ allows solving for the fourth using algebraic manipulation. A superconductor has zero electrical resistivity below $T_c$. The Meissner effect states $B=0$ inside a superconductor, expelling magnetic flux.
+Q. A water heater has an efficiency of 80% and a power rating of 1500 W. Calculate the time required to heat 1 kg of water from 20°C to 100°C using the heater.
+Model answer: 1. Heat energy needed: $Q = mc\Delta\theta = (1.0)(4200)(100-20) = 3.36\times10^{5}\ \text{J}$. 2. Useful power: $0.80 \times 1500 = 1200\ \text{W}$. 3. Time required: $t = \frac{Q}{P_{\text{useful}}} = \frac{3.36\times10^{5}}{1200} = 280\ \text{s} = 4\ \text{min}\ 40\ \text{s}$.
+
+##### chem11 (Chemistry - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.748,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/17","duplicates":0,"bank_size":1198,"bank_mcq":960,"bank_short":238,"seconds":17}
+
+[Foundation and Fundamentals] MCQ <teacher>
+Q. Which term describes chemistry's role due to its extensive applications in various scientific fields?
+  a) applied science
+  b) basic science
+  c) central science
+  d) fundamental science
+Key: c  Why: Chemistry is referred to as the central science because of its wide-ranging applications across different scientific disciplines.
+
+[Modern Chemical Manufactures] MCQ <teacher>
+Q. Which of the following statements correctly describes the effect of pressure on the production of ammonia and sulfur dioxide?
+  a) Ammonia production increases significantly with higher pressure due to the reduction in volume from 4 mol of gases to 2.
+  b) Ammonia production is unaffected by changes in pressure since the reaction is exothermic.
+  c) Sulfur dioxide production reaches over 97% efficiency at pressures below 2 atm, thus additional pressure has minimal impact.
+  d) Sulfur dioxide production increases significantly with higher pressure as it reduces the volume of gases involved.
+Key: a  Why: Ammonia production benefits greatly from increased pressure because of the reduction in gas volume from 4 moles to 2 moles.
+
+[Chemical Bonding and Shapes of Molecules] MCQ <teacher>
+Q. What was observed by Kössel and Lewis regarding noble gases in 1916?
+  a) Noble gases are almost completely unreactive.
+  b) Noble gases form compounds easily.
+  c) Noble gases are highly reactive.
+  d) Noble gases have incomplete valence shells.
+Key: a  Why: Kössel and Lewis noted the noble gases are almost completely unreactive.
+
+[Hydrocarbons] MCQ <teacher>
+Q. Which of the following represents the formula used to identify aromatic compounds according to Hükel's rule?
+  a) $2n+1$
+  b) $3n+2$
+  c) $4n+2$
+  d) $n+2$
+Key: c  Why: The formula $4n+2$ is used in Hükel's rule to identify aromatic compounds.
+
+[Chemistry of Non-metals] 3-mark <teacher>
+Q. Describe the conditions and catalyst used for the catalytic oxidation of SO₂ to SO₃ and state its enthalpy change. Also, provide the balanced equation for the formation of NH₃ from N₂ and H₂ along with its enthalpy change.
+Model answer: Catalytic oxidation of $2\text{SO}_2 + \text{O}_2 \rightleftharpoons 2\text{SO}_3$ uses V₂O₅ catalyst at 450°C, 1-2 atm; $\Delta H = -197\ \text{kJ}$. Formation of $\text{NH}_3$: $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$; $\Delta H = -92\ \text{kJ}$.
+
+[Fundamental Principles of Organic Chemistry] 3-mark <teacher>
+Q. Explain why rotation around a carbon-carbon double bond is restricted and state the approximate energy required to break this bond.
+Model answer: Rotation around a C=C double bond is restricted because it contains a π bond. Breaking this π bond requires disrupting the double bond. The energy required to break this bond is approximately 250 kJ mol⁻¹.
+
+##### chem12 (Chemistry - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":2.991,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/21","duplicates":0,"bank_size":1171,"bank_mcq":971,"bank_short":200,"seconds":14.6}
+
+[Chemical Kinetics] MCQ <gold>
+Q. For a certain reaction the rate is equal to the rate constant. The order of the reaction is
+  a) zero
+  b) three
+  c) one
+  d) two
+Key: a  Why: rate = k[A]⁰ = k only when the exponent is zero; the rate is then independent of concentration.
+
+[Aldehydes and Ketones] MCQ <teacher>
+Q. What is the boiling point of benzaldehyde?
+  a) $95 \degree C$
+  b) $200 \degree C$
+  c) $178 \degree C$
+  d) $120 \degree C$
+Key: c  Why: The passage explicitly states that benzaldehyde has a boiling point of $178 \degree C$.
+
+[Electrochemistry] MCQ <teacher>
+Q. Which statement best describes the relationship between $E^{\circ}$ values and the tendency of an element to lose electrons?
+  a) The lower the $E^{\circ}$ value, the higher the tendency to lose electrons.
+  b) Only elements with positive $E^{\circ}$ values can lose electrons.
+  c) The higher the $E^{\circ}$ value, the higher the tendency to lose electrons.
+  d) The $E^{\circ}$ value has no impact on the tendency to lose electrons.
+Key: a  Why: The more negative $E^{\circ}$, the greater the tendency to lose electrons.
+
+[Alcohols] MCQ <gold>
+Q. In the Lucas test, immediate turbidity at room temperature indicates
+  a) a secondary alcohol
+  b) a phenol
+  c) a tertiary alcohol
+  d) a primary alcohol
+Key: c  Why: tertiary alcohols form the most stable carbocation and react at once; primary alcohols need heating.
+
+[Studies of Heavy Metals] 3-mark <teacher>
+Q. Compare the Basic Oxygen Process and the Open Hearth Process used in steel production, highlighting their duration and control over composition.
+Model answer: The Basic Oxygen Process uses pure O₂ to burn impurities in 20 minutes without fuel. The Open Hearth Process employs haematite as an oxidant, lasts 8-10 hours, and offers superior control over steel composition.
+
+[Haloalkanes] 3-mark <teacher>
+Q. Explain why iodide is considered the best leaving group among halogens in haloalkanes and provide an example illustrating chain isomerism in monohaloalkanes.
+Model answer: Iodide is the best leaving group due to the weakest C–I bond. Despite iodine's low electronegativity, this weak bond facilitates easier departure. Example of chain isomerism: 1-bromobutane ($\text{CH}_3\text{CH}_2\text{CH}_2\text{CH}_2\text{Br}$) and 1-bromo-2-methylpropane ($(\text{CH}_3)_2\text{CH}\text{CH}(\text{Br})\text{CH}_3$) have same molecular formula but different carbon skeletons.
+
+##### math11 (Mathematics - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":1.8675,"slots":6,"neural_accepted":1,"neural_attempts":12,"neural_gate_rate":0.083,"bank_fallback":5,"empty":0,"units_covered":"6/21","duplicates":0,"bank_size":1645,"bank_mcq":1374,"bank_short":271,"seconds":24.4}
+
+[Curve Sketching] MCQ <teacher>
+Q. Which of the following statements correctly describes a curve that is symmetric about the $X$-axis?
+  a) It represents a linear function.
+  b) It is not the graph of a function unless it is a piece of the $x$-axis.
+  c) It can represent any polynomial function.
+  d) It always intersects the $Y$-axis at least once.
+Key: b  Why: A curve symmetric about the $X$-axis (other than a piece of the $x$-axis itself) is never the graph of a function, as a vertical line would meet it twice.
+
+[Computational Methods] MCQ <gold>
+Q. Simpson's one-third rule integrates exactly every polynomial of degree at most
+  a) 3
+  b) 4
+  c) 2
+  d) 1
+Key: a  Why: the cubic terms cancel in the error analysis, so Simpson's rule is exact for cubics.
+
+[Inverse Circular Functions] MCQ <teacher>
+Q. What is the principal value of $\sin^{-1}\left(-\frac{1}{2}\right)$?
+  a) $-\frac{\pi}{6}$
+  b) $-\frac{5\pi}{6}$
+  c) $\frac{5\pi}{6}$
+  d) $\frac{\pi}{6}$
+Key: a  Why: The principal value of $\sin^{-1}\left(-\frac{1}{2}\right)$ lies within the range $[-\frac{\pi}{2}, \frac{\pi}{2}]$, which is $-\frac{\pi}{6}$.
+
+[Anti-derivatives] MCQ <gold>
+Q. $\int \frac{2x}{x^{2}+5}\,dx$ equals
+  a) $2\tan^{-1}\frac{x}{5}+C$
+  b) $\ln(x^{2}+5)+C$
+  c) $\frac{1}{2}\ln(x^{2}+5)+C$
+  d) $\frac{x^{2}}{x^{2}+5}+C$
+Key: b  Why: the numerator is exactly the derivative of the denominator, so form 25 applies with no extra factor.
+
+[Trigonometric Equations and General Values] 2-mark <gold>
+Q. Prove that $2\tan^{-1}x = \sin^{-1}\dfrac{2x}{1+x^{2}}$ for $|x|\le 1$.
+Model answer: Let $\theta = \tan^{-1}x$, so $\tan\theta = x$ and $-\frac{\pi}{4}\le\theta\le\frac{\pi}{4}$ when $|x|\le 1$. Then $\sin 2\theta = \dfrac{2\tan\theta}{1+\tan^{2}\theta} = \dfrac{2x}{1+x^{2}}$.
+
+[Vectors] 3-mark <neural>
+Q. a) internally $8\mathbf{i}\cdot5\mathbf{j $2\mathbf{i} \cdot 7\mathbf{j} \cdot 2\mathbf{i}}{5}$. Find the position vector of the point $(\mathbf{i},\mathbf{j})$. b) $\mathbf{ii}+\mathbf{j} =\mathbf{b}+\mathbf{i}/2$ and $\mathbf{j}\cdot\mathbf{i} =\mathbf{j},\mathbf{i} \times\mathbf{j} +\mathbf{i} \ne
+Model answer: (i) $\mathbf{i}+2\mathbf{j}$ as $5\mathbf{i}-\mathbf{j}+5\mathbf{j}-\mathbf{i}$. $\mathbf{ih} =\mathbf{i} -\mathbf{j} -\mathbf{i} + \hat{j}$.
+
+##### math12 (Mathematics - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":1.9087,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/17","duplicates":0,"bank_size":1551,"bank_mcq":1285,"bank_short":266,"seconds":21.3}
+
+[Complex Numbers] MCQ <teacher>
+Q. Given $\omega$ is a non-real cube root of unity, which equation can be used to simplify expressions involving $\omega$ before cubing them?
+  a) $\omega^2 + \omega + 1 = 1$
+  b) $1 + \omega - \omega^{2} = 0$
+  c) $1 + \omega + \omega^{2} = 0$
+  d) $\omega^3 = 1$
+Key: c  Why: The sum of all cube roots of unity equals zero, which aids in simplifying expressions involving $\omega$.
+
+[Anti-derivatives] MCQ <teacher>
+Q. What method should be used to find the limits when one boundary is the axis?
+  a) Solving the derivative
+  b) Setting $y=0$
+  c) Using the quadratic formula
+  d) Integrating the function
+Key: b  Why: The passage explicitly states to set $y=0$ if one boundary is the axis.
+
+[Matrix Based System of Linear Equations] MCQ <teacher>
+Q. Why does the structure of the model mathematics papers follow the format $11\times1+8\times5+3\times8=75$ marks?
+  a) To ensure a variety of question types are covered.
+  b) To align with international examination standards.
+  c) To increase the difficulty level of the examination.
+  d) To match the exact grid and total marks of the real examination paper.
+Key: d  Why: The model papers are set to the exact grid of the real paper to ensure consistency in structure and marking.
+
+[Derivatives] MCQ <teacher>
+Q. When finding the maximum and minimum values of a function $f(x)$ over a closed interval $[a, b]$, which of the following steps should you perform?
+  a) Evaluate $f$ only at the endpoints $a$ and $b$.
+  b) Integrate $f(x)$ from $a$ to $b$ and check for maxima and minima.
+  c) Find the derivative of $f(x)$ and set it to zero to find critical points.
+  d) Evaluate $f$ at every stationary point in $[a, b]$ and at both endpoints, then compare the list.
+Key: d  Why: The method described evaluates the function at key points to identify maxima and minima within the interval.
+
+[Conic Sections] 3-mark <teacher>
+Q. Derive the equation of the parabola with its vertex at the origin and axis along the y-axis, given it passes through the point (4, -2).
+Model answer: The standard form is $x^2 = -4ay$. Substituting $(4, -2)$ yields $16 = 8a$, so $a = 2$. Thus, the equation is $x^2 = -8y$. Parametric equations are not applicable here; they're used for ellipses.
+
+[Product of Vectors] 3-mark <teacher>
+Q. Define the scalar product of two vectors and using vector methods, prove that $a^{2} = b^{2}+c^{2}-2bc\cos A$ for any triangle ABC.
+Model answer: 1. Scalar product: $\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta$. 2. In $\triangle ABC$, let $\vec{BC}=\vec{a}$, $\vec{CA}=\vec{b}$, $\vec{AB}=\vec{c}$. 3. Using vector identity: $(\vec{b}-\vec{c})^2 = \vec{b}^2 + \vec{c}^2 - 2\vec{b}\cdot\vec{c} = b^2 + c^2 - 2bc\cos A$, thus $a^2 = b^2 + c^2 - 2bc\cos A$.
+
+##### cs11 (Computer Science - Class 11 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.5669,"slots":6,"neural_accepted":0,"neural_attempts":12,"neural_gate_rate":0,"bank_fallback":6,"empty":0,"units_covered":"6/8","duplicates":0,"bank_size":1278,"bank_mcq":1062,"bank_short":216,"seconds":12.9}
+
+[Computer System] MCQ <teacher>
+Q. Why do supercomputers achieve high speeds?
+  a) Using a single very fast processor
+  b) Due to massive parallelism
+  c) By reducing power consumption
+  d) Through advanced cooling techniques
+Key: b  Why: A supercomputer's speed comes from massive parallelism according to the given statement.
+
+[Multimedia] MCQ <gold>
+Q. Multimedia that lets the user control what is shown next, as in an educational game, is called
+  a) printed media
+  b) analog media
+  c) linear multimedia
+  d) interactive multimedia
+Key: d  Why: interactivity separates interactive from linear multimedia.
+
+[Number System and Boolean Logic] MCQ <gold>
+Q. According to De Morgan's theorem, $\overline{A\cdot B}$ equals
+  a) $\overline{A+B}$
+  b) $A+B$
+  c) $\bar{A}+\bar{B}$
+  d) $\bar{A}\cdot\bar{B}$
+Key: c  Why: break the bar and change AND to OR.
+
+[Web Technology I] MCQ <teacher>
+Q. Which of the following statements correctly distinguishes between a browser and a search engine?
+  a) A browser and a search engine both refer to the same tool used for finding information on the internet.
+  b) A search engine is software installed on your device, while a browser is a website you access to find information.
+  c) Both the browser and the search engine are websites that can be visited directly without any software installation.
+  d) A browser is software installed on your device, whereas a search engine is a website accessed through a browser.
+Key: d  Why: The passage explicitly defines a browser as software installed on a device and a search engine as a website accessed via a browser.
+
+[Computer Software and Operating System] 3-mark <teacher>
+Q. Differentiate between multitasking and distributed operating systems.
+Model answer: Multitasking allows multiple tasks to run on a single CPU, sharing the same resources. Distributed OS manages several independent computers connected via a network, each with its own CPU and memory, working together on a single problem. Multitasking is confined to a single machine, while distributed OS spans across multiple machines.
+
+[Programming Concepts and Logics] 2-mark <teacher>
+Q. What is the role of a compiler in programming languages like C and C++?
+Model answer: A compiler in C and C++ reads the entire program, identifies all errors, and generates an executable file. This file can be run multiple times independently of the source code.
+
+##### cs12 (Computer Science - Class 12 (NEB)) {"params":10203840,"onnx_mb":10.73,"val_loss":3.8339,"slots":6,"neural_accepted":1,"neural_attempts":11,"neural_gate_rate":0.091,"bank_fallback":5,"empty":0,"units_covered":"6/7","duplicates":0,"bank_size":1121,"bank_mcq":916,"bank_short":205,"seconds":7.7}
+
+[Database Management System] MCQ <teacher>
+Q. Which of the following statements correctly reflects the criteria for selecting a primary key in a database table?
+  a) A column named ID is always selected as the primary key in any database table.
+  b) The primary key can only consist of numerical values.
+  c) Being the leftmost column or being called ID does not automatically qualify a column as a primary key.
+  d) The primary key must always be the leftmost column in a database table.
+Key: c  Why: The passage explicitly states that being the leftmost column or named ID does not qualify a column as a primary key by default.
+
+[Recent Trends in Technology] MCQ <teacher>
+Q. Which of the following is NOT a component typically required for an e-commerce system?
+  a) Shopping cart
+  b) Payment gateway
+  c) Customer feedback system
+  d) Product catalogue
+Key: c  Why: An e-commerce system requires a product catalogue, a shopping cart, a payment gateway, and a delivery chain as stated.
+
+[Data Communication and Networking] MCQ <neural>
+Q. What device is used to convert digital data into a signal for transmission over a medium?
+  a) Router
+  b) Switch
+  c) Hub
+  d) Modem
+Key: d  Why: The passage explicitly states that a modem modulates digital bits onto an analogue carrier.
+
+[Software Process Model] MCQ <teacher>
+Q. What is the minimum number of sprints required if each sprint covers 40 units and the total work is 260 units?
+  a) 6.5
+  b) 8
+  c) 7
+  d) 6
+Key: c  Why: The calculation $\dfrac{260}{40} = 6.5 \rightarrow 7$ sprints shows rounding up to the nearest whole number as partial sprints are not feasible.
+
+[Web Technology II] 2-mark <teacher>
+Q. Explain the difference between '==' and '===' operators in JavaScript using an example with data types 'number' and 'string'.
+Model answer: In JavaScript, '==' compares values only, while '===' checks both value and type. E.g., $5 == '5'$ is true but $5 === '5'$ is false.
+
+[Object-Oriented Programming] 3-mark <teacher>
+Q. Explain the concept of inheritance in object-oriented programming and list its types.
+Model answer: Inheritance allows a derived class to acquire members of a base class, promoting code reuse and 'is-a' relationships (e.g., class Teacher : public Person). Its types include single, multilevel, multiple, hierarchical, and hybrid.

@@ -2,48 +2,48 @@
  "bio12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.6097,
+  "val_loss": 3.508,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 3,
-  "bank_items": 1157,
-  "seconds": 3.5,
+  "units_hit": 2,
+  "bank_items": 1571,
+  "seconds": 2.2,
   "samples": [
    {
     "unit": "Developmental Biology",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Thyroxine, produced by the thyroid gland using iodine, drives metamorphosis. TSH from the anterior pituitary stimulates thyroxine production ($TSH \\rightarrow Thyroxine \\rightarrow Metamorphosis$).",
-     "Describe the role of thyroxine and TSH in metamorphosis."
+     "At birth, a female has ~2 million primordial follicles; by puberty, this drops to ~400,000. Each contains a diploid oocyte that initiates meiosis I, pausing at prophase I. These structures are termed primary follicles, each surrounded by follicle cells.",
+     "Describe the process of oocyte development from birth to puberty, including the number changes and initial stage of meiosis."
     ]
    },
    {
-    "unit": "Applied Biology",
+    "unit": "Genetics",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Eligibility to sit the entrance examination",
-     "What does your Grade 12 result primarily determine for the major technical entrances in Nepal?",
-     "Final ranking in the merit list",
-     "Overall score in the entrance examination",
-     "Scholarship amount for higher studies",
-     "The Grade 12 result decides only whether you may sit the entrance examination."
+     "Not every back cross involves crossing with a homozygous recessive parent.",
+     "Why is it incorrect to say that every back cross is a test cross?",
+     "A back cross always uses a homozygous recessive parent.",
+     "A test cross can use any of the parents involved in the initial cross.",
+     "Back crosses are never used to determine genotypes.",
+     "A back cross can use either parent, whereas a test cross specifically uses a homozygous recessive parent."
     ]
    },
    {
-    "unit": "Human Population and Health Disorders",
+    "unit": "Genetics",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Falling fertility and emigration",
-     "According to recent demographic changes in Nepal, what factor contributed to the slowest population growth in 110 years?",
-     "Increased rural to urban migration",
-     "Expansion of agricultural lands",
-     "Natural disasters affecting birth rates",
-     "Falling fertility plus emigration gave the slowest growth in 110 years of census-taking."
+     "It replaces a purine by a pyrimidine.",
+     "Why is the replacement of adenine (A) by thymine (T) in a DNA sequence considered a transversion?",
+     "It replaces a purine by another purine.",
+     "It replaces a pyrimidine by another pyrimidine.",
+     "It replaces a purine by a nucleotide.",
+     "The passage defines transversion as the replacement of a purine by a pyrimidine or vice versa."
     ]
    }
   ]
@@ -51,35 +51,22 @@
  "phy11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.2312,
+  "val_loss": 2.0935,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1361,
-  "seconds": 6.0,
+  "bank_items": 1878,
+  "seconds": 2.7,
   "samples": [
    {
-    "unit": "Work, energy and power",
+    "unit": "Refraction through prisms",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Efficiency is below 100% due to energy loss as heat and sound. Output power is calculated as $P = mgh/t$. Efficiency loss occurs because not all input energy is converted into useful work.",
-     "Explain why the efficiency of a pump lifting a mass $m$ of water through a height $h$ in time $t$ is always below 100%, and write the formula for its output power."
-    ]
-   },
-   {
-    "unit": "Heat and Temperature",
-    "kind": "mcq",
-    "source": "bank:teacher",
-    "segs": [
-     "$T = 273.16\\times \\frac{P}{P_{tr}}$",
-     "What is the formula used to calculate an unknown temperature $T$ based on pressure measurements?",
-     "$T = \\frac{P}{P_{tr}} + 273.16$",
-     "$T = 273.16 - P_{tr} \\times P$",
-     "$T = P_{tr} + 273.16 \\times P$",
-     "The formula $T = 273.16\\times \\frac{P}{P_{tr}}$ directly calculates the unknown temperature using pressure measurements at the triple point of water and at the unknown temperature."
+     "From Snell's law, $n=\\frac{\\sin i_1}{\\sin r_1}\\approx\\frac{i_1}{r_1}$, hence $i_1=nr_1$. In the equation $A + \\angle QNS = r_1 + r_2 + \\angle QNS$, cancelling $\\angle QNS$ from both sides leaves $A = r_1 + r_2$. This shows the turning angle inside the prism is the sum of the angles of refractions.",
+     "Given the refraction through a prism, derive the relationship between the angle of incidence ($i_1$) and the angle of refraction ($r_1$) using Snell's law, and explain the cancellation of $\\angle QNS$ in the equation $A + \\angle QNS = r_1 + r_2 + \\angle QNS$."
     ]
    },
    {
@@ -87,12 +74,25 @@
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "It represents the product of the number of nucleons and the binding energy per nucleon.",
-     "Why is the total binding energy before the split calculated as $B_{\\text{before}} = 236 \\times 7.6$?",
-     "It calculates the kinetic energy released during the split.",
-     "It indicates the energy required to split the nucleus into individual nucleons.",
-     "It measures the difference in mass between the initial nucleus and its decay products.",
-     "The total binding energy is defined as the product of the binding energy per nucleon and the number of nucleons."
+     "$B/A$",
+     "Which of the following best represents the true measure of a nucleus's stability?",
+     "$A/B$",
+     "Atomic number",
+     "Mass number",
+     "The binding energy per nucleon, represented as $B/A$, is the real measure of stability."
+    ]
+   },
+   {
+    "unit": "Elasticity",
+    "kind": "mcq",
+    "source": "bank:teacher",
+    "segs": [
+     "$u = \\frac{1}{2}\\times\\text{stress}\\times\\text{strain}$",
+     "Given a material under stress, if the strain is represented as $\\frac{e}{L}$ and the stress as $\\frac{F}{A}$, which formula correctly represents the energy per unit volume stored in the material?",
+     "$u = \\text{stress} + \\text{strain}$",
+     "$u = \\sqrt{\\text{stress} \\times \\text{strain}}$",
+     "$u = \\text{stress}^2 \\times \\text{strain}^2$",
+     "The given passage directly states the formula for energy per unit volume stored in a stressed material."
     ]
    }
   ]
@@ -100,48 +100,48 @@
  "bio11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.5011,
+  "val_loss": 3.4911,
   "slots": 3,
-  "neural_accepted": 0,
-  "bank_fallback": 3,
+  "neural_accepted": 1,
+  "bank_fallback": 2,
   "attempts": 6,
-  "units_hit": 2,
-  "bank_items": 1098,
-  "seconds": 3.9,
+  "units_hit": 3,
+  "bank_items": 1529,
+  "seconds": 1.8,
   "samples": [
    {
-    "unit": "Biomolecules and Cell Biology",
+    "unit": "Vegetation",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "The mitochondrial matrix contains 70S ribosomes for protein synthesis and circular DNA for self-replication. Mitochondria divide by fission.",
-     "Describe two features of mitochondrial matrix relevant to protein synthesis and division."
+     "Forest covers 43.4% and other wooded land 2.7%, totaling 46.1%. Land without tree cover is 53.9%. This makes Nepal second only to Bhutan in South Asia for forest coverage.",
+     "Based on the Forest Research and Training Centre (2024), what percentage of Nepal's land is covered by forest and other wooded land? How does this compare to the total land without tree cover?"
     ]
    },
    {
     "unit": "Biomolecules and Cell Biology",
     "kind": "mcq",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "rRNA",
-     "The nucleolus is the site of synthesis of",
-     "mRNA",
-     "tRNA",
-     "DNA",
-     "rRNA is transcribed and packed with protein in the nucleolus."
+     "meiosis",
+     "Which of the following processes involves two consecutive cell divisions without interphase to produce four genetically diverse haploid cells?",
+     "mitosis",
+     "binary fission",
+     "cytokinesis",
+     "Meiosis involves two consecutive cell divisions to produce four genetically diverse haploid cells."
     ]
    },
    {
-    "unit": "Floral Diversity",
+    "unit": "Introductory Microbiology",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "neural",
     "segs": [
-     "Gymnosperms",
-     "What term describes seed plants where the ovule is exposed without an ovary wall?",
-     "Angiosperms",
-     "Bryophytes",
-     "Pteridophytes",
-     "Gymnosperms are defined by having their ovules exposed on the surface without an enclosing ovary wall."
+     "It is where the sexual cycle occurs.",
+     "Why is the definitive host crucial in the life cycle of parasites?",
+     "It is where the asexual reproduction takes place.",
+     "It is the initial host that the life cycle of the parasite.",
+     "It is where the parasite is completed.",
+     "The definitive host is defined as the location where the sexual cycle of the parasite occurs."
     ]
    }
   ]
@@ -149,48 +149,48 @@
  "phy12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.4074,
+  "val_loss": 2.1859,
   "slots": 3,
-  "neural_accepted": 0,
-  "bank_fallback": 3,
+  "neural_accepted": 1,
+  "bank_fallback": 2,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1390,
-  "seconds": 4.8,
+  "bank_items": 1855,
+  "seconds": 2.3,
   "samples": [
    {
-    "unit": "First Law of Thermodynamics",
+    "unit": "Second Law of Thermodynamics",
     "kind": "short",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "The first law: the heat supplied to a system equals the increase in its internal energy plus the work done by the system: $Q = \\Delta U + W$.",
-     "State the first law of thermodynamics. [1]"
+     "Efficiency ($W/Q_1$) for engines is always below 1, whereas COP ($Q_2/W$) for refrigerators can exceed 1. Efficiency does not depend on the working substance. Efficiency approaches 1 only when $T_2 = 0\\ \\text{K}$, which is unattainable due to absolute zero's unreachability.",
+     "Compare the efficiency of an engine and the coefficient of performance (COP) of a refrigerator. Explain why the efficiency of any real engine cannot reach 1."
     ]
    },
    {
-    "unit": "Periodic motion",
+    "unit": "Nature and propagation of light",
     "kind": "mcq",
-    "source": "bank:gold",
+    "source": "neural",
     "segs": [
-     "$0.044\\ \\text{J}$",
-     "A simple pendulum bob of mass $0.40\\ \\text{kg}$ has potential energy $0.044\\ \\text{J}$ at an extreme point, taking the mean point as reference. Its kinetic energy at the mean point is",
-     "$0.022\\ \\text{J}$",
-     "$0.011\\ \\text{J}$",
-     "$0.033\\ \\text{J}$",
-     "energy is conserved at every point of the swing, so $K_{mean} = U_{extreme} = 0.044\\ \\text{J}$; the mass, time period and amplitude are red herrings."
+     "Foucault",
+     "Who confirmed the prediction $v_{\\text{water}}$ is",
+     "less in air",
+     "less than in air",
+     "equal to that in air",
+     "the wave theory needs $v_{\\text{air}} < v_{\\text{air}}$, so $v_{\\text{air}} < v_{\\text{air}}$; the prediction $v_{\\text{air}} < v_{\\text{air}}$."
     ]
    },
    {
-    "unit": "Wave motion",
+    "unit": "Electromagnetic Induction",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$y = 4\\sin(0.5\\pi x)\\cos(200\\pi t)$",
-     "What is the equation describing a stationary wave on a string?",
-     "$y = 4\\sin(0.5\\pi t)\\cos(200\\pi x)$",
-     "$y = 2\\sin(0.5\\pi x)\\cos(200\\pi t)$",
-     "$y = 4\\cos(0.5\\pi x)\\sin(200\\pi t)$",
-     "The equation $y = 4\\sin(0.5\\pi x)\\cos(200\\pi t)$ directly describes the stationary wave as provided."
+     "$5.0\\ \\text{A}$",
+     "In an electromagnetic induction setup, if the primary coil has $1200$ turns and the secondary coil supplies current to a lamp, what is the current supplied by the secondary coil?",
+     "$1200\\ \\text{A}$",
+     "$1.2\\ \\text{A}$",
+     "$0.5\\ \\text{A}$",
+     "The passage directly states that the secondary delivers $5.0\\ \\text{A}$ to a lamp."
     ]
    }
   ]
@@ -204,42 +204,42 @@
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1119,
-  "seconds": 6.6,
+  "bank_items": 1198,
+  "seconds": 1.7,
   "samples": [
    {
-    "unit": "Chemistry of Metals",
+    "unit": "Fundamentals of Applied Chemistry",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Sodium hydroxide is termed caustic soda due to its highly corrosive nature that can severely damage skin upon contact.",
-     "Why is sodium hydroxide referred to as caustic soda?"
+     "The number of batches is calculated as $7920 / 8 = 990$ batches. The formula for annual profit on $n$ kilograms is $n(S - V) - F$.",
+     "Given a batch cycle time of 8 hours and a total operational time of 7920 hours, calculate the number of batches produced in a year. Also, provide the formula for calculating annual profit with the given variables S (selling price), V (variable cost), and F (fixed costs)."
     ]
    },
    {
-    "unit": "Hydrocarbons",
+    "unit": "Foundation and Fundamentals",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "49.5 MJ",
-     "What is the heat of combustion per kilogram for butane?",
-     "50.3 MJ",
-     "55.5 MJ",
-     "45.0 MJ",
-     "The passage explicitly states that the heat of combustion per kilogram for butane is 49.5 MJ."
+     "$3.0\\times10^{23}$",
+     "The number of atoms in $0.1$ mol of $\\text{CH}_4$ is",
+     "$3.0\\times10^{22}$",
+     "$6.0\\times10^{22}$",
+     "$6.0\\times10^{23}$",
+     "each $\\text{CH}_4$ has 5 atoms: $0.1\\times5\\times6.022\\times10^{23} = 3.0\\times10^{23}$."
     ]
    },
    {
-    "unit": "Modern Chemical Manufactures",
+    "unit": "Chemical equilibrium",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Chilean saltpetre",
-     "What was the primary source of nitric acid before 1900?",
-     "Ammonium nitrate",
-     "Nitrogen gas",
-     "Atmospheric nitrogen",
-     "Before 1900, the world's nitric acid was sourced from Chilean saltpetre."
+     "The reaction goes forward.",
+     "What happens when $Q < K$ in a chemical reaction?",
+     "The reaction goes backward.",
+     "The reaction is at equilibrium.",
+     "The reaction stops.",
+     "When $Q < K$, the reaction proceeds in the forward direction to reach equilibrium."
     ]
    }
   ]
@@ -247,48 +247,48 @@
  "chem12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.131,
+  "val_loss": 2.991,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 3,
-  "bank_items": 1073,
-  "seconds": 4.8,
+  "bank_items": 1171,
+  "seconds": 2.3,
   "samples": [
    {
-    "unit": "Ionic Equilibrium",
+    "unit": "Studies of Heavy Metals",
     "kind": "short",
-    "source": "bank:gold",
+    "source": "bank:teacher",
     "segs": [
-     "In pure water $S = \\sqrt{K_{sp}} = 1.34\\times10^{-5}$ mol L⁻¹.",
-     "The solubility product of AgCl is $1.8\\times10^{-10}$. Calculate its solubility in pure water and in 0.10 M AgNO₃ solution."
+     "Copper does not react with dilute HCl or H₂SO₄ but forms deep blue $Cu(NH₃)_4^{2+}$ with aqueous ammonia.",
+     "Describe how copper reacts with dilute acids and aqueous ammonia, and name the complex formed."
     ]
    },
    {
-    "unit": "Haloarenes",
+    "unit": "Electrochemistry",
     "kind": "mcq",
     "source": "bank:gold",
     "segs": [
-     "the C–Cl bond has partial double-bond character",
-     "Chlorobenzene is less reactive than chloroethane towards nucleophiles because",
-     "it is aromatic",
-     "chlorine is more electronegative",
-     "it is insoluble in water",
-     "the lone pair on chlorine is delocalised into the ring, shortening and strengthening the C–Cl bond; the sp² carbon also holds the halogen more tightly."
+     "a secondary reference electrode",
+     "The calomel electrode is used as",
+     "a primary reference electrode",
+     "an indicator electrode",
+     "a gas electrode",
+     "it is a calibrated, easily maintained electrode whose potential (+0.242 V saturated) is known relative to SHE, which is the primary standard."
     ]
    },
    {
-    "unit": "Studies of Heavy Metals",
+    "unit": "Alcohols",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Copper",
-     "Which metal has been used in the repoussé work of the Kathmandu Valley, the gilded roofs of Pashupatinath, and the water vessels of every Newari household?",
-     "Iron",
-     "Silver",
-     "Gold",
-     "The passage explicitly mentions copper as the metal used in these applications."
+     "Raksi",
+     "What is the term for the distilled product obtained from the fermentation of millet and rice in Nepalese traditional alcoholic beverage production?",
+     "Jaand",
+     "Chhyang",
+     "Saki",
+     "The passage explicitly states that raksi is the distillate from the wash made from millet and rice."
     ]
    }
   ]
@@ -296,48 +296,48 @@
  "math11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 1.9179,
+  "val_loss": 1.8675,
   "slots": 3,
-  "neural_accepted": 1,
-  "bank_fallback": 2,
+  "neural_accepted": 0,
+  "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 3,
-  "bank_items": 1085,
-  "seconds": 9.0,
+  "units_hit": 2,
+  "bank_items": 1645,
+  "seconds": 3.7,
   "samples": [
    {
-    "unit": "Quadratic Equation",
+    "unit": "Curve Sketching",
     "kind": "short",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "1. Subtract equations: $(b-c)\\alpha = c-b$, divide by $b-c$: $\\alpha = 1$. 2. Substitute $\\alpha = 1$ into $2\\alpha^2 = q$: $2(1)^2 = q$. 3. Thus, $q = 2$.",
-     "Given $\\alpha^2 + b\\alpha + c = 0$ and $\\alpha^2 + c\\alpha + b = 0$, derive how $\\alpha = 1$ when $b \\ne c$. Further, if the product of roots is given as $\\alpha(2\\alpha) = 2\\alpha^2 = q$, find $q$ when $\\alpha = 1$."
+     "$y = \\frac{1}{2x-6}$. The denominator vanishes at $2x - 6 = 0$, i.e. $x = 3$, so:",
+     "Sketch $y = \\dfrac{1}{2x-6}$, showing the asymptotes, the intercept and the monotonic intervals."
     ]
    },
    {
-    "unit": "Coordinates in Space",
+    "unit": "Pair of Straight Lines",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "Points $A$, $B$, and $C$ are collinear.",
-     "If points $A$, $B$, and $C$ lie on the same line, which statement best describes their relationship?",
-     "Points $A$, $B$, and $C$ form a triangle.",
-     "Points $A$, $B$, and $C$ are coplanar but not necessarily collinear.",
-     "Points $A$, $B$, and $C$ are non-coplanar.",
-     "The statement that points $A$, $B$, and $C$ lie on the same line directly implies they are collinear."
+     "Pair of straight lines",
+     "What does the equation $x^{2}+4xy+3y^{2}+4x+10y+3 = 0$ represent according to the given problem?",
+     "Single parabola",
+     "Circle",
+     "Ellipse",
+     "The problem explicitly states that the given equation represents a pair of straight lines."
     ]
    },
    {
-    "unit": "Mechanics",
+    "unit": "Pair of Straight Lines",
     "kind": "mcq",
-    "source": "neural",
+    "source": "bank:teacher",
     "segs": [
-     "The parallelogram law",
-     "Which principle allows for finding the resultant of two forces acting at a point?",
-     "Newton's law",
-     "The triangle law",
-     "Pascal's law",
-     "The parallelogram law is used to find the resultant of two forces."
+     "$g=f=c=0$",
+     "What condition ensures that a homogeneous second-degree equation always represents a pair of straight lines passing through the origin?",
+     "$a=b=c=0$",
+     "$a+b+c=0$",
+     "$g+h+f=0$",
+     "The condition $g=f=c=0$ ensures that the homogeneous second-degree equation represents a pair of lines through the origin."
     ]
    }
   ]
@@ -345,48 +345,48 @@
  "math12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 2.0647,
+  "val_loss": 1.9087,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
   "units_hit": 2,
-  "bank_items": 1043,
-  "seconds": 3.3,
+  "bank_items": 1551,
+  "seconds": 1.5,
   "samples": [
    {
-    "unit": "Binomial Theorem",
+    "unit": "Permutation and Combination",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "To find the term independent of $x$, set the exponent of $x$ to zero: $18-3r=0$. Solving gives $r=6$. The term is $T_{7} = {}^{9}C_{6}(-2)^{6} = 84 \\times 64 = 5376$.",
-     "Find the term independent of $x$ in the expansion of $(x^2 - \\frac{2}{x})^9$ using the binomial theorem."
+     "The multiplication principle states that if one job can be done in $m$ ways and a second job can be done in $n$ ways after the first job is completed, then both jobs can be done in $m \\times n$ ways. For example, if the first task can be completed in 4 ways and the second task in 3 ways, applying the multiplication principle, the total number of ways to complete both tasks is $4 \\times 3 = 12$. This principle is foundational in calculating permutations and combinations, especially when tasks are independent and must be completed sequentially.",
+     "Explain the multiplication principle in permutations and provide an example using this principle to solve a problem where two separate tasks need to be completed. How many different ways can you complete both tasks if the first task can be done in 4 ways and the second task can be done in 3 ways?"
     ]
    },
    {
-    "unit": "Complex Numbers",
+    "unit": "Conic Sections",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "De Moivre's Theorem",
-     "What is the name of the theorem that states $[r(\\cos\\theta+i\\sin\\theta)]^{n}=r^{n}[\\cos n\\theta+i\\sin n\\theta]$ for any positive integer $n$?",
-     "Euler's Formula",
-     "Cauchy's Integral Theorem",
-     "Lagrange's Identity",
-     "The given formula is a direct statement of De Moivre's Theorem which applies to powers of complex numbers in polar form."
+     "$(\\pm ae,0)$",
+     "Given the equation of a hyperbola $\\dfrac{x^{2}}{a^{2}} - \\dfrac{y^{2}}{b^{2}} = 1$, where the foci lie on the $x$-axis, which of the following represents the coordinates of the foci?",
+     "$(\\pm a,0)$",
+     "$(0,\\pm b)$",
+     "$(\\pm b,0)$",
+     "The foci of the hyperbola $\\dfrac{x^{2}}{a^{2}} - \\dfrac{y^{2}}{b^{2}} = 1$ with foci on the x-axis are located at $(\\pm ae,0)$."
     ]
    },
    {
-    "unit": "Binomial Theorem",
+    "unit": "Conic Sections",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "$\\dfrac{e + e^{-1}}{2}$",
-     "What is the value of the series $\\;1 + \\dfrac{1}{2!} + \\dfrac{1}{4!} + \\dfrac{1}{6!} + \\cdots$ expressed in terms of $e$?",
-     "$\\dfrac{e - e^{-1}}{2}$",
-     "$\\dfrac{e + 1}{2}$",
-     "$\\dfrac{e^2 + 1}{2}$",
-     "The given series is the sum of even terms of the Taylor expansion of $e^x$ evaluated at $x=1$ and $x=-1$, which simplifies to $\\dfrac{e + e^{-1}}{2}$."
+     "$\\dfrac{x^{2}}{25} + \\dfrac{y^{2}}{16} = 1$",
+     "What is the equation of the ellipse given by $\\dfrac{x^{2}}{a^{2}} + \\dfrac{y^{2}}{b^{2}} = 1$ in the problem?",
+     "$\\dfrac{x^{2}}{16} + \\dfrac{y^{2}}{25} = 1$",
+     "$\\dfrac{x^{2}}{9} + \\dfrac{y^{2}}{16} = 1$",
+     "$\\dfrac{x^{2}}{25} + \\dfrac{y^{2}}{9} = 1$",
+     "The provided equation directly matches the given ellipse equation in the problem statement."
     ]
    }
   ]
@@ -394,48 +394,48 @@
  "cs11": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 3.5845,
+  "val_loss": 3.5669,
   "slots": 3,
-  "neural_accepted": 0,
-  "bank_fallback": 3,
+  "neural_accepted": 1,
+  "bank_fallback": 2,
   "attempts": 6,
-  "units_hit": 2,
-  "bank_items": 841,
-  "seconds": 2.4,
+  "units_hit": 3,
+  "bank_items": 1278,
+  "seconds": 1.2,
   "samples": [
    {
-    "unit": "Multimedia",
+    "unit": "Computer System",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "Frame-by-frame animation involves drawing each frame individually, providing full control but requiring significant effort. Films use 24 frames per second, whereas frame-by-frame animation may vary. The effort for frame-by-frame animation is greater due to manual creation of each frame.",
-     "Explain the concept of frame-by-frame animation and compare it with films in terms of frame rate and effort required."
+     "The transistor count increased by 6,956,522 times in 49 years. This growth means modern mobile phones in Kathmandu now have superior computing power compared to mainframes used for national censuses.",
+     "By what factor did the transistor count increase in 49 years, and how does this relate to the computing power of modern mobile phones compared to past mainframe computers?"
     ]
    },
    {
-    "unit": "Web Technology I",
+    "unit": "Programming Concepts and Logics",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "neural",
     "segs": [
-     "SVG",
-     "What technology allows shapes to remain sharp at any size due to their description by coordinates rather than pixels?",
-     "PNG",
-     "JPEG",
-     "CSS",
-     "SVG stays perfectly sharp at any size because it describes shapes using coordinates."
+     "The flow line returns to the factorial of the loop body.",
+     "In a loop structure, what happens immediately after the loop run for the loop body?",
+     "A clean loop independently increases the loop for the loop.",
+     "A loop independently decreases.",
+     "A nested loop automatically term describes the loop body.",
+     "The passage explicitly states the loop structure for the loop in a loop body."
     ]
    },
    {
-    "unit": "Web Technology I",
+    "unit": "Computer Software and Operating System",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "It allows users to adjust font size or contrast for better readability.",
-     "Why is clean HTML with CSS beneficial for users with visual impairments?",
-     "It enhances the color schemes automatically.",
-     "It increases the loading speed of web pages.",
-     "It provides automatic voice navigation on websites.",
-     "Users can change font size or contrast for comfort, aiding those with visual impairments."
+     "Linus Torvalds",
+     "The kernel of Linux was first written by",
+     "Bill Gates",
+     "Dennis Ritchie",
+     "Steve Jobs",
+     "Linus Torvalds began the Linux kernel in 1991."
     ]
    }
   ]
@@ -443,48 +443,48 @@
  "cs12": {
   "params": 10203840,
   "onnx_mb": 10.73,
-  "val_loss": 4.1563,
+  "val_loss": 3.8339,
   "slots": 3,
   "neural_accepted": 0,
   "bank_fallback": 3,
   "attempts": 6,
-  "units_hit": 2,
-  "bank_items": 718,
-  "seconds": 2.8,
+  "units_hit": 3,
+  "bank_items": 1121,
+  "seconds": 1.2,
   "samples": [
    {
-    "unit": "Software Process Model",
+    "unit": "Programming in C",
     "kind": "short",
     "source": "bank:teacher",
     "segs": [
-     "A good software design has high cohesion ($C_i$) where each module performs a single function, and low coupling where modules minimally depend on each other. Testing integrates modules and validates them against requirements. Deployment involves installing the system and training users.",
-     "Explain the two key properties of a good software design and briefly describe the testing and deployment phases."
+     "A storage class in C determines the memory location, default initial value, scope, and lifetime of a variable.",
+     "Explain the role of a storage class in C programming."
     ]
    },
    {
-    "unit": "Recent Trends in Technology",
+    "unit": "Object-Oriented Programming",
     "kind": "mcq",
-    "source": "bank:teacher",
+    "source": "bank:gold",
     "segs": [
-     "By analyzing user behavior to recommend similar products, saving user time and boosting sales.",
-     "How do video and shopping websites enhance user experience and seller profitability?",
-     "By providing free shipping on all items to attract more customers.",
-     "By offering discounts on bulk purchases to increase the quantity sold.",
-     "By limiting the number of advertisements shown to improve site speed.",
-     "These sites study user activity to suggest similar items, which both saves time for users and increases sales for sellers."
+     "functions",
+     "In procedural programming, a program is divided into",
+     "objects",
+     "classes",
+     "packages",
+     "procedural code is a set of functions acting on shared data."
     ]
    },
    {
-    "unit": "Software Process Model",
+    "unit": "Data Communication and Networking",
     "kind": "mcq",
     "source": "bank:teacher",
     "segs": [
-     "specification, design and implementation, validation, evolution",
-     "Which of the following represents the stages of the software development process?",
-     "coding, testing, debugging, deployment",
-     "planning, analysis, programming, maintenance",
-     "requirements, architecture, coding, review",
-     "The given sequence is explicitly defined as the stages of the software development process."
+     "demodulation",
+     "In a data communication system, what process occurs at the receiver's end to convert the received signal back into usable data?",
+     "modulation",
+     "amplification",
+     "encryption",
+     "The modem at the far end demodulates the received signal back into data."
     ]
    }
   ]

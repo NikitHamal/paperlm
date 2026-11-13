@@ -18,7 +18,7 @@ for pid, p in reg.items():
         if k == "mcq":
             o = [b["answer"]] + b["distractors"]; rnd.shuffle(o)
             L += [f"**Q{n}. [{b['unit']}; 1 mark; {b.get('src', '')}]** {b['question']}", ""] + [f"- ({'abcd'[i]}) {t}" for i, t in enumerate(o)]
-            L += ["", f"Key: ({'abcd'[o.index(b['answer'])]}) {b['answer']}. Why: {b.get('why', '')}", ""]
+            L += ["", f"Key: ({'abcd'[o.index(b['answer'])]}) {b['answer'].rstrip('. ')}. Why: {b.get('why', '')}", ""]
         else:
             L += [f"**Q{n}. [{b['unit']}; {b['marks']} marks; {b.get('src', '')}]** {b['question']}", "", "Marking scheme:", ""]
             L += [f"- {s}  **[{x}]**" for s, x in PP.scheme(b["answer"], b["marks"])] + [""]

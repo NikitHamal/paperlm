@@ -19,7 +19,7 @@ def _norm(s):
     return re.sub(r"[\s$]+|\\(?:text|mathrm|,|;|!| \\)|[{}]", "", s.lower())
 
 
-LEAKWHY = re.compile(r"\b(?:in|from|by|of|to) the (?:context|passage|provided (?:text|context|information|formula|data|calculation)|given (?:text|context|information|passage))\b|\bthe (?:context|passage) (?:states|says|gives|mentions|provides|indicates)\b|\bprovided (?:in the )?(?:context|text|passage|information)\b|\bas (?:stated|given|mentioned) in the (?:context|text|passage|provided)\b|\bthe given formula directly\b", re.I)
+LEAKWHY = re.compile(r"\b(?:in|from|by|of|to) the (?:context|passage|provided (?:text|context|information|formula|data|calculation)|given (?:text|context|information|passage))\b|\bthe (?:context|passage) (?:states|says|gives|mentions|provides|indicates)\b|\bprovided (?:in the )?(?:context|text|passage|information)\b|\bas (?:stated|given|mentioned) in the (?:context|text|passage|provided)\b|\bthe given formula directly\b|\b(?:the )?(?:calculations?|equations?|expressions?|formulas?|steps?|examples?) (?:provided|given)\b|\bas shown in the (?:calculations?|examples?|given|provided)\b|\bprovided in the (?:calculations?|equations?|question|problem)\b", re.I)
 
 
 def repair(it):

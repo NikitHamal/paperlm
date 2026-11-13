@@ -33,7 +33,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.91
+  "unit_cov_mean": 0.9
  },
  "chem12": {
   "papers": 36,
@@ -45,7 +45,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.86
+  "unit_cov_mean": 0.87
  },
  "cs11": {
   "papers": 36,
@@ -81,7 +81,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.83
+  "unit_cov_mean": 0.86
  },
  "math12": {
   "papers": 36,
@@ -93,7 +93,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.9
+  "unit_cov_mean": 0.92
  },
  "phy11": {
   "papers": 36,
@@ -105,7 +105,7 @@
   "scheme_bad": 0,
   "computed": 108,
   "miss": 0,
-  "unit_cov_mean": 0.79
+  "unit_cov_mean": 0.8
  },
  "phy12": {
   "papers": 36,
