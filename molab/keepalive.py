@@ -8,7 +8,7 @@ Launched detached (setsid/nohup) so it survives notebook cell re-runs and kernel
 """
 import glob, json, os, subprocess, threading, time, urllib.request
 
-PUBLIC_URL = os.environ.get("MOLAB_PUBLIC_URL", "https://sb-bcd34742cc2db121.sb.molab.run/")
+PUBLIC_URL = os.environ.get("MOLAB_PUBLIC_URL", "https://sb-f920ad548f3c95a5.sb.molab.run/")
 OUT = "/tmp/paperlm_live_status.json"
 PARTS = "/tmp/paperlm"
 T0 = time.time()

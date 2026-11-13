@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Chunked binary download from the MoLab VM (marimo pair stdout is capped ~1MB). usage: molab_getbig.py REMOTE LOCAL"""
 import sys, json, base64, subprocess, os
-URL=os.environ.get("MOLAB_URL","https://sb-bcd34742cc2db121.sb.molab.run/"); SESS=os.environ.get("MOLAB_SESSION","sess-g2qsrh05rtxjbmb0"); TOK=os.environ.get("MOLAB_TOKEN_FILE",os.path.expanduser("~/.molab_token"))
+URL=os.environ.get("MOLAB_URL","https://sb-f920ad548f3c95a5.sb.molab.run/"); SESS=os.environ.get("MOLAB_SESSION","sess-2jr6f0tx18s41ctv"); TOK=os.environ.get("MOLAB_TOKEN_FILE",os.path.expanduser("~/.molab_token"))
 CH=500_000
 def ex(code):
     r=subprocess.run([sys.executable,"-m","marimo","pair","execute","--url",URL,"--session",SESS,"--token-file",TOK,"--code-file","-"],input=code,capture_output=True,text=True)
